@@ -1,0 +1,37 @@
+:[f]Network layer startup at 08:27:39
+
+D:\Newmagic\FamiliarWS\Familiar.c, line 3623
+: * Performing message garbage collection
+
+
+D:\Newmagic\FamiliarWS\Familiar.c, line 3631
+: * Initializing global data
+
+
+D:\Newmagic\FamiliarWS\Familiar.c, line 3637
+: * Creating the Familiar's Critical Section
+
+
+D:\Newmagic\FamiliarWS\Familiar.c, line 3845
+: * Attaching to global program data
+
+
+D:\Newmagic\FamiliarWS\Familiar.c, line 1014
+: * Attempting to create the Familiar's Window
+
+
+D:\Newmagic\FamiliarWS\Familiar.c, line 1167
+: * chat seat array cleared
+
+
+D:\Newmagic\FamiliarWS\Familiar.c, line 3804
+: * ManaLink is shutting down.
+
+
+D:\Newmagic\FamiliarWS\Familiar.c, line 1451
+: * Setting gpd.m_bIsDPRunning to FALSE
+
+
+D:\Newmagic\FamiliarWS\FamThreads.c, line 1520
+: * Message timer thread shutting down
+

@@ -1,0 +1,26 @@
+;Venomizer
+;Blue/Green
+;Jeff Zimmerman
+;jefftheguy@aol.com
+;July 14, 1997
+;1
+;4th Edition
+;Using spells like Venom and Cockatice, along with Flying and Jump to help them block (Or go unblocked), and a Regeneration to keep 'em alive {OR} an nonflyer with Venom, Lure, and Gaseous Form or Regeneration attacking {OR} a flyer with all the stuff and Jumps for the enemies creatures so they can block and die! Topped of with some truly huge creatures and fast mana. One of my best!
+
+.87	4	Flight
+.133	4	Jump
+.40	4	Cockatrice
+.645	4	Gaseous Form
+.201	2	Regeneration
+.244	2	Thicket Basilisk
+.383	4	Venom
+.152	4	Lure
+.149	4	Llanowar Elves
+.89	2	Force of Nature
+.154	2	Mahamoti Djinn
+.17	1	Black Lotus
+.165	1	Mox Emerald
+.169	1	Mox Sapphire
+.230	1	Sol Ring
+.126	8	Island
+.91	12	Forest

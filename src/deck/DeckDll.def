@@ -1,0 +1,11 @@
+LIBRARY "DeckDll.dll" BASE=0x11000000
+
+EXPORTS
+_OpponFace @ 2
+Gold @ 3
+Scards @ 4
+DeckBuilderMain @ 5
+_PlayerFace @ 6
+DllEntryPoint @ 1
+Deckdll_initialize_for_shandalar
+deckbuilder_main

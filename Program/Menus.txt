@@ -1,0 +1,1172 @@
+@FOURTH
+3
+&Unlimited (default)
+&Revised
+&Fourth
+
+@8th Edition
+1
+8th Edition
+
+@GOLDTITLE
+1
+GOLD: %d
+
+@NEWDECK
+1
+New Deck
+
+@POWERTOUGHNESSCC
+3
+Casting Cost
+Power
+Toughness
+
+@FULLCARD
+1
+&Expand Text Box
+
+@LONGLIST
+3
+Enable Filter
+Select All
+Clear All
+
+@GROUPMOVE
+7
+Select Which Color(s) to Move
+&Black
+Bl&ue
+&Green
+&Red
+&White
+&Artifact
+
+@LOADDECKDIALOG
+2
+Load Deck
+Player deck:
+
+@EXTRACARDSDIALOG
+4
+Extra Cards
+There are too many of the following Cards in your deck.
+Remove Extra Cards
+Edit Deck
+
+@TITLEDIALOG
+9
+Deck Info
+Title
+Description
+Name
+E-Mail
+Date
+Face
+Comments
+Version
+
+@OKCANCEL
+2
+OK
+Cancel
+
+@FILTERDIALOGTITLE
+3
+Select Tournament Format / Expansions
+Select Creature Types
+Filter Dialog
+
+@NUMBERTOMOVE
+1
+How many to move?
+
+@NUMBERTOSELL
+1
+How many to sell?
+
+@DECKFACES
+55
+Witch
+Undead Knight
+Warlock
+Vampirelord
+Nether Fiend
+Necromancer
+Greater Lich
+Cleric
+Priestess
+Crusader
+Paladin
+Arch Angel
+High Priest
+Sainted One
+Seer
+Merfolk Shaman
+Conjurer
+Sea Dragon
+Shapeshifter
+Thought Invoker
+Astral Visionary
+Druid
+Elvish Magi
+Enchantress
+Forest Dragon
+Beastmaster
+Summoner
+Great Druid
+Sorceress
+Sorcerer
+Troll Shaman
+Goblin Lord
+Hydra
+War Mage
+Dragon Lord
+Tusk Guardian
+Sedge Beast
+Ape Lord
+Centaur Shaman
+Winged Stallion
+Fungus Master
+Centaur Warchief
+Mind Stealer
+Lord of Fate
+Elementalist
+Aga Galneer
+Alt-A-Kesh
+Queltosh
+Saltrem Tor
+Mandurang
+Whim
+Prismat
+Dracur
+Kiska-Ra
+Arzakon
+
+@STATSSCREEN
+17
+Card Type
+Black
+Blue
+Green
+Red
+White
+Colorless
+Total
+Mana Sources
+Creatures
+Enchantments
+Sorceries
+Instants
+Interrupts
+Land
+Non-Creature
+Artifacts
+
+@STATS
+1
+Stats (%d cards)
+
+@STATSDIALOG
+1
+Stats
+
+@DECKCLEAR_RESTORE
+2
+C&lear deck
+&Restore deck
+
+@DECKSURFACE_STANDALONE
+10
+&New deck
+&Load deck
+&Save deck
+&Consolidate duplicate cards
+C&lear deck
+S&ort deck
+M&inimize
+&Music
+Sound &Effects
+E&xit deck builder
+
+@DECKSURFACE_GAUNTLET
+9
+&New deck
+&Load deck
+&Save deck
+&Consolidate duplicate cards
+C&lear deck
+S&ort deck
+&Music
+Sound &Effects
+E&xit deck builder
+
+@DECKSURFACE_ADVENTURE
+7
+Move by color &into deck
+Move by color o&ut of deck
+&Consolidate duplicate cards
+S&ort deck
+&Music
+Sound &Effects
+&Done
+
+@DECKSURFACE_TRADE
+11
+Trade
+C&lear trade
+&Restore trade
+&New deck
+&Load deck
+&Save deck
+&Consolidate duplicate cards trade
+M&inimize
+&Music
+Sound &Effects
+E&xit deck builder
+
+@MAINMENU_STANDALONE
+9
+&New deck
+&Load deck
+&Save deck
+Show &full card text (big card)
+&Consolidate duplicate cards (deck surfaces)
+M&inimize
+&Music
+Sound &Effects
+E&xit deck builder
+
+@MAINMENU_GAUNTLET
+8
+&New deck
+&Load deck
+&Save deck
+Show &full card text (big card)
+&Consolidate duplicate cards (deck surfaces)
+&Music
+Sound &Effects
+E&xit deck builder
+
+@MAINMENU_ADVENTURE
+3
+Show &full card text (big card)
+&Consolidate duplicate cards (deck surfaces)
+&Done
+
+@EXIT
+2
+Done
+Exit
+
+@DECKINFO
+1
+Deck Info
+
+@DECKNUMBERS
+6
+Deck1
+Deck2
+Deck3
+* Deck1 *
+* Deck2 *
+* Deck3 *
+
+@SAVE
+1
+Do you wish to save %s?
+
+@SAVED
+1
+%s.dck has been saved.
+
+@DECKSAVEERROR
+1
+There was an error opening %s.dck. The deck has not been saved.
+
+@TOOFEWCARDS
+1
+Your deck must have at least 40 cards to be used in the duel.
+
+@TOOMANYCARDS
+1
+Your deck has too many cards. The duel allows 200 unique cards - 500 total. The extra cards in the deck will not be used.
+
+@NAMEYOURDECK
+1
+You must name your deck before saving.
+
+@DECKBUILDER
+1
+Deck Builder
+
+@DECKEXISTS
+1
+%s.dck already exists. Do you wish to over write?
+
+@DECKLOADERROR
+1
+%s.dck is not a valid deck file.
+
+@SELLCARD
+1
+Sell Card for %d
+
+@PRICE
+1
+GOLD: %d
+
+@FILTERS
+2
+Main menu buttons &On
+Main menu buttons O&ff
+
+@GOLD
+3
+All &multicolored cards
+Matching all &selected color buttons
+Matching &any selected color button
+
+@LAND
+3
+&Land and Mana
+Land &only
+&Mana only
+
+@ARTIFACT
+2
+All &Creatures
+All &Non-Creatures
+
+@CREATURE
+4
+&Creature
+&Token
+&Artifact Creature
+Creature type from &list...
+
+@ENCHANTMENT
+9
+Enchantments
+World
+Auras (Land)
+Auras (Creature)
+Auras (Artifact)
+Auras (Enchantment)
+Auras (Permanent)
+Auras (Player)
+Auras (Instant)
+
+@CASTCOST
+4
+&Greater than or equal to
+&Less than or equal to
+&Equal to
+&X cost
+
+@POWER
+3
+&Greater than or equal to
+&Less than or equal to
+&Equal to
+
+@TOUGHNESS
+3
+&Greater than or equal to
+&Less than or equal to
+&Equal to
+
+@ABILITY
+15
+&Native
+&Gives
+&Flying
+F&irst strike
+&Trample
+&Regeneration
+&Banding
+(&Color) Ward
+(&Land) Walk
+&Poison
+R&ampage
+R&each
+&Stoning
+&Vigilance
+&Haste
+
+@RARITY
+5
+&Common
+&Uncommon
+&Rare
+R&estricted
+&Banned / Banned as Commander
+
+@ARTIST
+1
+&List...
+
+@CREATURENAMES
+210
+Abomination
+Aladdin
+AliBaba
+Ali from Cairo
+Angel
+Ants
+Ape
+Apes
+Archaeologist
+Archer
+Artifact
+Asp
+Assassin
+Atog
+Avatar
+Avenger
+Avengers
+Badger
+Ball Lightning
+Bandits
+Banshee
+Basilisk
+Bats
+Bears
+Beasts
+Bees
+Being
+Berserker
+BirdMaiden
+Boars
+Bodyguard
+Brothers
+Bull
+Camel
+Caretaker
+Cat Warriors
+Cavalry
+Cave People
+Centaur
+Cleric
+Clone
+Cobra
+Cockatrice
+Creature
+Dandan
+Demon
+Dervish
+Devils
+Devouring Deep
+Djinn
+Doppelganger
+Dragon
+Dragonfly
+Drake
+Drill Sergent
+Druid
+Dwarves
+Eater
+Eel
+Effigy
+Efreet
+Egg
+El-hajjaj
+Elder Dragon
+Elemental
+Elephant
+Elves
+Enchant
+Enchantress
+Entity
+EvilEye
+Exorcist
+Faerie
+Faeries
+Falcon
+Fallen
+Flying Men
+Force
+Fungusaur
+Gaea's Liege
+Gargoyle
+Ghosts
+Ghoul
+Giant
+Gnomes
+Goblin
+Goblins
+Gremlins
+Guardian
+Guardians
+Gypsies
+Hag
+Hero
+Horror
+Horseman
+Hunter
+Hydra
+Imp
+Island Fish
+Jackal
+Jaguar
+Keepers
+King
+Kithkin
+Knight
+Knights
+Kobolds
+Land
+Leeches
+Legend
+Legendary
+Legionnaire
+Leper
+Leviathan
+Lions
+Lord
+LostSoul
+Lurker
+Lycanthrope
+Mammoth
+ManaBirds
+Manticore
+Master
+Medusa
+Merfolk
+Minotaur
+Miracle Worker
+Mob
+Mold Demon
+Monster
+Mummy
+Murk Dwellers
+Nameless
+Niall Silvain
+Nightmare
+Nomads
+Nymphs
+Ogre
+Old Man
+Ooze
+Orcs
+Paladin
+Pegasus
+People
+Phantasm
+Phoenix
+Pikemen
+Pixie
+Poltergeist
+Preacher
+Priest
+RagMan
+Raiders
+Rats
+Riders
+Robbers
+Roc
+Rock Sled
+Sage
+Satyr
+Scavengers
+Scorpion
+Serpent
+Shade
+Shadow
+Shark
+Ship
+Sindbad
+Singing Tree
+Sisters
+Skeletons
+Slug
+Smith
+Sorceress
+Spawn
+Specter
+Sphinx
+Spider
+Spirit
+Spuzzem
+Squire
+Stalker
+Taskmaster
+Tortoise
+Tracker
+Treefolk
+Troll
+Turtle
+Uncle Istvan
+Unicorn
+Vampire
+Veteran
+Villain
+Viper
+Vultures
+Walking Dead
+Wall
+Whippoorwill
+Will-O'-The-Wisp
+Witches
+Wizard
+Wolverines
+Wolves
+Wombat
+World
+Wraith
+Wretched
+Wurm
+Yeti
+Zombies
+
+@CREATURETYPES
+232
+
+Ally
+Angel
+Anteater
+Antelope
+Ape
+Archer
+Archon
+Artificer
+Assassin
+Assembly-Worker
+Atog
+Aurochs
+Avatar
+Badger
+Barbarian
+Basilisk
+Bat
+Bear
+Beast
+Beeble
+Berserker
+Bird
+Blinkmoth
+Boar
+Bringer
+Brushwagg
+Camarid
+Camel
+Caribou
+Carrier
+Cat
+Centaur
+Cephalid
+Chimera
+Citizen
+Cleric
+Cockatrice
+Construct
+Coward
+Crab
+Crocodile
+Cyclops
+Dauthi
+Demon
+Deserter
+Devil
+Djinn
+Dragon
+Drake
+Dreadnought
+Drone
+Druid
+Dryad
+Dwarf
+Efreet
+Elder
+Eldrazi
+Elemental
+Elephant
+Elf
+Elk
+Eye
+Faerie
+Ferret
+Fish
+Flagbearer
+Fox
+Frog
+Fungus
+Gargoyle
+Germ
+Giant
+Gnome
+Goat
+Goblin
+Golem
+Gorgon
+Graveborn
+Gremlin
+Griffin
+Hag
+Harpy
+Hellion
+Hippo
+Hippogriff
+Homarid
+Homunculus
+Horror
+Horse
+Hound
+Human
+Hydra
+Hyena
+Illusion
+Imp
+Incarnation
+Insect
+Jellyfish
+Juggernaut
+Kavu
+Kirin
+Kithkin
+Knight
+Kobold
+Kor
+Kraken
+Lammasu
+Leech
+Leviathan
+Lhurgoyf
+Licid
+Lizard
+Manticore
+Masticore
+Mercenary
+Merfolk
+Metathran
+Minion
+Minotaur
+Monger
+Mongoose
+Monk
+Moonfolk
+Mutant
+Myr
+Mystic
+Nautilus
+Nephilim
+Nightmare
+Nightstalker
+Ninja
+Noggle
+Nomad
+Octopus
+Ogre
+Ooze
+Orb
+Orc
+Orgg
+Ouphe
+Ox
+Oyster
+Pegasus
+Pentavite
+Pest
+Phelddagrif
+Phoenix
+Pincher
+Pirate
+Plant
+Praetor
+Prism
+Rabbit
+Rat
+Rebel
+Reflection
+Rhino
+Rigger
+Rogue
+Salamander
+Samurai
+Sand
+Saproling
+Satyr
+Scarecrow
+Scorpion
+Scout
+Serf
+Serpent
+Shade
+Shaman
+Shapeshifter
+Sheep
+Siren
+Skeleton
+Slith
+Sliver
+Slug
+Snake
+Soldier
+Soltari
+Spawn
+Specter
+Spellshaper
+Sphinx
+Spider
+Spike
+Spirit
+Splinter
+Sponge
+Squid
+Squirrel
+Starfish
+Surrakar
+Survivor
+Tetravite
+Thalakos
+Thopter
+Thrull
+Treefolk
+Triskelavite
+Troll
+Turtle
+Unicorn
+Vampire
+Vedalken
+Viashino
+Volver
+Wall
+Warrior
+Weird
+Werewolf
+Whale
+Wizard
+Wolf
+Wolverine
+Wombat
+Worm
+Wraith
+Wurm
+Yeti
+Zombie
+Zubera
+Advisor
+Lamia
+Nymph
+Sable
+Head
+God
+Reveler
+Naga
+
+@EXPANSIONNAMES
+149
+(B) Block
+(T1) Vintage
+(T1.M) Modern
+(T1.X) Extended
+(T2) Standard
+(HI) Highlander
+(EDH) Commander
+(HI/EDH) Legal as Commander
+Promo
+Limited Edition Alpha
+Limited Edition Beta
+Unlimited Edition
+Arabian Nights
+Antiquities
+Revised Edition
+Legends
+The Dark
+Fallen Empires
+Fourth Edition
+Ice Age
+Chronicles
+Homelands
+Alliances
+Mirage
+Visions
+Fifth Edition
+Astral
+Portal
+Weatherlight
+Tempest
+Stronghold
+Exodus
+Portal Second Age
+Urza's Saga
+Urza's Legacy
+Classic Sixth Edition
+Urza's Destiny
+Portal Three Kingdoms
+Starter 1999
+Mercadian Masques
+Battle Royale Box Set
+Nemesis
+Starter 2000
+Prophecy
+Invasion
+Beatdown Box Set
+Planeshift
+Seventh Edition
+Apocalypse
+Odyssey
+Torment
+Judgment
+Onslaught
+Legions
+Scourge
+Eighth Edition
+Mirrodin
+Darksteel
+Fifth Dawn
+Champions of Kamigawa
+Betrayers of Kamigawa
+Saviors of Kamigawa
+Ninth Edition
+Ravnica: City of Guilds
+Guildpact
+Dissension
+Coldsnap
+Time Spiral
+Planar Chaos
+Future Sight
+Tenth Edition
+Masters Edition
+Lorwyn
+Duel Decks: Elves vs. Goblins
+Morningtide
+Shadowmoor
+Eventide
+From the Vault: Dragons
+Masters Edition II
+Shards of Alara
+Duel Decks: Jace vs. Chandra
+Conflux
+Duel Decks: Divine vs. Demonic
+Alara Reborn
+Magic 2010
+From the Vault: Exiled
+Planechase
+Masters Edition III
+Zendikar
+Duel Decks: Garruk vs. Liliana
+Premium Deck Series: Slivers
+Worldwake
+Duel Decks: Phyrexia vs. the Coalition
+Rise of the Eldrazi
+Archenemy
+Magic 2011
+From the Vault: Relics
+Duel Decks: Elspeth vs. Tezzeret
+Scars of Mirrodin
+Premium Deck Series: Fire and Lightning
+Masters Edition IV
+Mirrodin Besieged
+Duel Decks: Knights vs. Dragons
+New Phyrexia
+Magic: The Gathering-Commander
+Magic 2012
+From the Vault: Legends
+Duel Decks: Ajani vs. Nicol Bolas
+Innistrad
+Premium Deck Series: Graveborn
+Dark Ascension
+Duel Decks: Venser vs. Koth
+Avacyn Restored
+Planechase 2012
+Magic 2013
+From the Vault: Realms
+Duel Decks: Izzet vs. Golgari
+Return to Ravnica
+Commander's Arsenal
+Gatecrash
+Duel Decks: Sorin vs. Tibalt
+Dragon's Maze
+Modern Masters
+Magic 2014
+From the Vault: Twenty
+Duel Decks: Heroes vs. Monsters
+Theros
+Commander 2013
+Born of the Gods
+Duel Decks: Jace vs. Vraska
+Journey into Nyx
+Modern Event Deck
+Magic: The Gathering - Conspiracy
+Vintage Masters
+Magic 2015
+From the Vault: Annihilation
+Duel Decks: Speed vs. Cunning
+Khans of Tarkir
+Commander 2014
+Fate Reforged
+Duel Decks: Elspeth vs. Kiora
+Dragons of Tarkir
+Modern Masters 2015 Edition
+Magic Origins
+From the Vault: Angels
+Duel Decks: Zendikar vs. Eldrazi
+Battle for Zendikar
+Commander 2015
+Oath of the Gatewatch
+
+@EXPANSIONCATEGORIES
+149
+None	(B) Block	Each line should start with "None", "Core", "Expert",
+None	(T1) Vintage	"Portal", "Reprint", "Casual", "Promo", "Box", or
+None	(T1.M) Modern	"Decks", optionally followed by whitespace and a
+None	(T1.X) Extended	comment.  The first 8 entries, corresponding to the
+None	(T2) Standard	game-format expansions, are ignored.  The expansion
+None	(HI) Highlander	names are unnecessary; they're only included to make
+None	(EDH) Commander	keeping track of which category is which easier.
+None	(HI/EDH) Legal as Commander
+Promo	Promo
+Core	Limited Edition Alpha
+Core	Limited Edition Beta
+Core	Unlimited Edition
+Expert	Arabian Nights
+Expert	Antiquities
+Core	Revised Edition
+Expert	Legends
+Expert	The Dark
+Expert	Fallen Empires
+Core	Fourth Edition
+Expert	Ice Age
+Reprint	Chronicles
+Expert	Homelands
+Expert	Alliances
+Expert	Mirage
+Expert	Visions
+Core	Fifth Edition
+Promo	Astral
+Portal	Portal
+Expert	Weatherlight
+Expert	Tempest
+Expert	Stronghold
+Expert	Exodus
+Portal	Portal Second Age
+Expert	Urza's Saga
+Expert	Urza's Legacy
+Core	Classic Sixth Edition
+Expert	Urza's Destiny
+Portal	Portal Three Kingdoms
+Portal	Starter 1999
+Expert	Mercadian Masques
+Box	Battle Royale Box Set
+Expert	Nemesis
+Portal	Starter 2000
+Expert	Prophecy
+Expert	Invasion
+Box	Beatdown Box Set
+Expert	Planeshift
+Core	Seventh Edition
+Expert	Apocalypse
+Expert	Odyssey
+Expert	Torment
+Expert	Judgment
+Expert	Onslaught
+Expert	Legions
+Expert	Scourge
+Core	Eighth Edition
+Expert	Mirrodin
+Expert	Darksteel
+Expert	Fifth Dawn
+Expert	Champions of Kamigawa
+Expert	Betrayers of Kamigawa
+Expert	Saviors of Kamigawa
+Core	Ninth Edition
+Expert	Ravnica: City of Guilds
+Expert	Guildpact
+Expert	Dissension
+Expert	Coldsnap
+Expert	Time Spiral
+Expert	Planar Chaos
+Expert	Future Sight
+Core	Tenth Edition
+Reprint	Masters Edition
+Expert	Lorwyn
+Decks	Duel Decks: Elves vs. Goblins
+Expert	Morningtide
+Expert	Shadowmoor
+Expert	Eventide
+Box	From the Vault: Dragons
+Reprint	Masters Edition II
+Expert	Shards of Alara
+Decks	Duel Decks: Jace vs. Chandra
+Expert	Conflux
+Decks	Duel Decks: Divine vs. Demonic
+Expert	Alara Reborn
+Core	Magic 2010
+Box	From the Vault: Exiled
+Casual	Planechase
+Reprint	Masters Edition III
+Expert	Zendikar
+Decks	Duel Decks: Garruk vs. Liliana
+Decks	Premium Deck Series: Slivers
+Expert	Worldwake
+Decks	Duel Decks: Phyrexia vs. the Coalition
+Expert	Rise of the Eldrazi
+Casual	Archenemy
+Core	Magic 2011
+Box	From the Vault: Relics
+Decks	Duel Decks: Elspeth vs. Tezzeret
+Expert	Scars of Mirrodin
+Decks	Premium Deck Series: Fire and Lightning
+Reprint	Masters Edition IV
+Expert	Mirrodin Besieged
+Decks	Duel Decks: Knights vs. Dragons
+Expert	New Phyrexia
+Casual	Magic: The Gathering-Commander
+Core	Magic 2012
+Box	From the Vault: Legends
+Decks	Duel Decks: Ajani vs. Nicol Bolas
+Expert	Innistrad
+Decks	Premium Deck Series: Graveborn
+Expert	Dark Ascension
+Decks	Duel Decks: Venser vs. Koth
+Expert	Avacyn Restored
+Casual	Planechase 2012
+Core	Magic 2013
+Box	From the Vault: Realms
+Decks	Duel Decks: Izzet vs. Golgari
+Expert	Return to Ravnica
+Casual	Commander's Arsenal
+Expert	Gatecrash
+Decks	Duel Decks: Sorin vs. Tibalt
+Expert	Dragon's Maze
+Reprint	Modern Masters
+Core	Magic 2014
+Box	From the Vault: Twenty
+Decks	Duel Decks: Heroes vs. Monsters
+Expert	Theros
+Casual	Commander 2013
+Expert	Born of the Gods
+Decks	Duel Decks: Jace vs. Vraska
+Expert	Journey into Nyx
+Decks	Modern Event Deck
+Casual	Magic: The Gathering - Conspiracy
+Reprint	Vintage Masters
+Core	Magic 2015
+Box	From the Vault: Annihilation
+Decks	Duel Decks: Speed vs. Cunning
+Expert	Khans of Tarkir
+Casual	Commander 2014
+Expert	Fate Reforged
+Decks	Duel Decks: Elspeth vs. Kiora
+Expert	Dragons of Tarkir
+Reprint	Modern Masters 2015 Edition
+Core	Magic Origins
+Box	From the Vault: Angels
+Decks	Duel Decks: Zendikar vs. Eldrazi
+Expert	Battle for Zendikar
+Casual	Commander 2015
+Expert	Oath of the Gatewatch
+
+@MULTIDECKTYPES
+6
+Unknown
+Unrestricted
+Wild
+Restricted (Type 1)
+Tournament (Type 1.5)
+Highlander
+
+@NEWEXP
+1
+Tournament Formats / Expansions

@@ -1,0 +1,25 @@
+CXX = cl #can be clang++
+LINK = link
+ASM = yasm
+CPPFLAGS = /nologo /O2 /EHa /LD /MD /I.. /I.
+AFLAGS = -a x86 -m x86 -p nasm -r nasm -f win32 -I.. -I.
+LDFLAGS = gdiplus.lib user32.lib
+COMPILE = $(CXX) $(CPPFLAGS) /c
+CPPOBJFILES := $(patsubst %.cpp,%.obj,$(wildcard src/*.cpp))
+AOBJFILES := $(patsubst %.asm,%.ao,$(wildcard src/*.asm))
+RM = del /F /Q
+
+all: manalink
+
+manalink: $(CPPOBJFILES) $(AOBJFILES)
+	$(LINK) /DLL /nologo /SAFESEH /NXCOMPAT /OUT:CardArtLib.dll $(CPPOBJFILES) $(AOBJFILES) /DEF:CardArtLib.def $(LDFLAGS)
+
+%.ao: %.asm
+	$(ASM) ss $(AFLAGS) -o $@ $<
+
+%.obj: %.cpp
+	$(COMPILE) /Fo$@ /TP $<
+
+clean:
+	$(RM) src\*.obj src\*.ao *.ao CardArtLib.dll
+

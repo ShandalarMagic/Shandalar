@@ -1,0 +1,158 @@
+;-*- conf-windows -*-
+;Overrides for Future Sight futureshifted frames.
+;See Duel.dat for documentation.
+;
+[SmallCard]
+ArtLeft = 33
+ArtTop = 85
+ArtWidth = 967
+ArtHeight = 917
+;
+TitleSourceTop = 0
+TitleSourceHeight = 50
+TitleDestHeight = 150
+FrameSourceTop = 51
+FrameSourceHeight = 226
+FrameDestTop = 150
+;
+TitleOwnedShadowColorR = -1
+TitleUnownedShadowColorR = -1
+;
+TitleOwnedOnLightColorR = 47
+TitleOwnedOnLightColorG = 47
+TitleOwnedOnLightColorB = 47
+;
+TitleUnownedOnLightColorR = 47
+TitleUnownedOnLightColorG = 47
+TitleUnownedOnLightColorB = 47
+;
+TitleOwnedOnWhiteBlackColorR = 40
+TitleOwnedOnWhiteBlackColorG = 100
+TitleOwnedOnWhiteBlackColorB = 160
+;
+TitleUnownedOnWhiteBlackColorR = 40
+TitleUnownedOnWhiteBlackColorG = 100
+TitleUnownedOnWhiteBlackColorB = 160
+;
+ExpansionLeft = 648
+ExpansionTop = 32
+ExpansionWidth = 122
+ExpansionHeight = 87
+;
+TitleLeft = 136
+TitleWidth = 624
+;
+;
+[FullCard]
+ExpandTop = 6292
+ExpandHeight = 2850
+;
+TitleLeft = 150
+TitleTop = 52
+TitleWidth = 575
+;
+CurveManaDiameter = 70
+CurveMana1X = 120
+CurveMana1Y = 186
+CurveMana2X = 86
+CurveMana2Y = 267
+CurveMana3X = 72
+CurveMana3Y = 353
+CurveMana4X = 72
+CurveMana4Y = 444
+CurveMana5X = 85
+CurveMana5Y = 538
+CurveMana6X = 138
+CurveMana6Y = 627
+;
+ArtLeft = 42
+ArtTop = 88
+ArtWidth = 734
+ArtHeight = 760
+;
+TypeLeft = 90
+TypeTop = 679
+TypeWidth = 610
+;
+RulestextLeft = 70
+RulestextTop = 760
+RulestextWidth = 655
+RulestextHeight = 310
+;
+RulesboxLeft = 45
+RulesboxTop = 755
+RulesboxWidth = 724
+RulesboxHeight = 322
+;
+PowertoughnessLeft = 611
+PowertoughnessTop = 1084
+PowertoughnessWidth = 151
+;
+ExtendedPowertoughness = 1
+;
+PowertoughnessBoxLeft = 611
+PowertoughnessBoxTop = 1074
+PowertoughnessBoxWidth = 151
+PowertoughnessBoxHeight = 98
+;
+ExpansionLeft = 693
+ExpansionTop = 698
+ExpansionWidth = 70
+ExpansionHeight = 35
+;
+TombstoneTitleOffset = 0
+TombstoneLeft = 49
+TombstoneTop = 41
+TombstoneWidth = 28
+TombstoneHeight = 42
+;
+TypeIconVisible = 1
+TypeIconSuppressedByTombstone = 1
+TypeIconLeft = 35
+TypeIconTop = 35
+TypeIconWidth = 50
+TypeIconHeight = 55
+;
+BorderColorR = 0
+BorderColorG = 0
+BorderColorB = 0
+;
+TitleShadowColorR = -1
+;
+PowertoughnessShadowColorR = -1
+;
+TypeShadowColorR = -1
+;
+TitleOnLightColorR = 47
+TitleOnLightColorG = 47
+TitleOnLightColorB = 47
+;
+TitleOnWhiteBlackColorR = 40
+TitleOnWhiteBlackColorG = 100
+TitleOnWhiteBlackColorB = 160
+;
+RulesOnDarkLandColorR = 255
+RulesOnDarkLandColorG = 255
+RulesOnDarkLandColorB = 255
+;
+RulesOnWhiteBlackLandColorR = 40
+RulesOnWhiteBlackLandColorG = 100
+RulesOnWhiteBlackLandColorB = 160
+;
+;
+[Frames]
+;Only monocolor non-artifact non-land spells and creatures, a colorless spell,
+;colorless artifacts, a blue artifact creature, and colorless and two-color
+;lands were printed.  If a futureshifted card becomes other combinations during
+;play, however, the settings here will be honored.
+;
+;
+TranslucentColorless = 0
+ColorlessAlpha = 255
+FrameBaseDir=futureshift
+;
+CardBk_Colorless=..\blank.png
+CardOv_GoldLand=CardOv_GoldLand.png
+CardOv_LandBar=CardOv_LandBar.png
+;
+Tombstone=..\classic\Tombstone.png

@@ -1,0 +1,334 @@
+ _qQuote[0] male   
+ Note: %1 is a male wizard ("black wizard", "green wizard" or "white wizard")
+       %2!d! and %3!d! are numbers
+STARTBLOCK
+I see you have not yet defeated the
+%1 in his Castle.
+He has %2!d! life in his stronghold
+and controls %3!d! mana domes.
+
+
+
+ENDBLOCK
+
+
+ _qQuote[1]   
+ Note: %s and %s are both city names
+STARTBLOCK
+In long ago ages some cities 
+began to hoard their magics.
+
+The wise men of these cities searched
+for a champion throughout the dark days.
+
+When your talent was discovered, 
+they agreed to pool their remaining 
+bits of power in an attempt to unseat 
+Arzakon and his Evil Mages.
+
+Two of these cities with which 
+you have links are
+%s and %s.
+
+
+
+ENDBLOCK
+
+
+ _qQuote[2]   
+ Note: %1 is a world magic name, %2 is a city name
+STARTBLOCK
+Your quest will be aided by 
+collecting the World Magics.
+
+A magic which may be useful to you 
+is %1.
+It may be found in the city of %2.
+
+
+
+ENDBLOCK
+
+
+ _qQuote[3]--this is a female version of _qQuote[0]
+ Note: %1 is a female wizard ("blue wizard" or "red wizard")
+       %2!d! and %3!d! are numbers
+STARTBLOCK
+I see you have not yet defeated the
+%1 in her Castle.
+She has %2!d! life in her stronghold
+and controls %3!d! mana domes.
+
+
+
+ENDBLOCK
+
+
+  _nqQuote[0]
+STARTBLOCK
+Shandalar was not always as it is today.
+In ancient times, magic was free to all.
+There was no need to hoard mana or spells.
+We basked in riches, but did not know it.
+
+
+
+In talks with the Guardian and the lords,
+I learned of other places, called "planes".
+These faraway lands are poor in mana,
+and only wizards there use magic.
+
+
+
+Strong wizards move between the planes,
+and call themselves "planeswalkers".
+They are a vicious bunch, always warring.
+To them, Shandalar is like a ripe fruit.
+
+
+
+ENDBLOCK
+
+
+  _nqQuote[1]
+STARTBLOCK
+Once, when I was younger and more powerful,
+I was an honored guest at his stronghold,
+and I sat at the Guardian's own table.
+Oh, the stories the immortal told that night!
+
+
+
+He was a boy in the time before the first war,
+when Kenan Sahrmal was Shandalar's protector.
+They never worried about planeswalkers then,
+even though the Great Barrier did not exist.
+
+
+
+The greatest wizards of his grandfather's time
+(the Guardian said) built creatures of pure mana.
+These still roamed the land in his childhood,
+and the great dragons are their descendants.
+
+
+
+ENDBLOCK
+
+
+  _nqQuote[2]
+STARTBLOCK
+The first of the great wars against Lim- Dûl
+was a nightmare for everyone in Shandalar.
+The ancient wizards claimed to actually hear
+the agony of our world's misused mana.
+
+
+
+The great dragons' grief would rend any heart,
+and the Guardian was once a man, after all.
+After the war he vowed to prevent further pain
+and the dragons stood behind him.
+
+
+
+Thus were established the five magic guilds,
+each of which polices one color of mana.
+The lord of each guild is expert with that color,
+though often weak in every other.
+
+
+
+ENDBLOCK
+
+
+  _nqQuote[3]
+STARTBLOCK
+I am far older than I seem, young mage.
+I myself saw the spirit of Lim-Dûl imprisoned.
+The artifact in which it is trapped is hidden well,
+and I would be a fool to even describe it to you.
+
+
+
+However, I can tell you one thing certain,
+that the artifact powers the Great Barrier.
+Without it, Shandalar would be open to attack,
+and to the ruthless predation of planeswalkers.
+
+
+
+This so-called Spell of Dominion
+that the guild lords seek the power to cast
+can only mean the destruction of the artifact
+and the freeing of the necromancer's spirit.
+
+
+
+ENDBLOCK
+
+
+  _nqQuote[4]
+STARTBLOCK
+It might seem obvious to one such as you,
+but I tell you now that the only wise course
+is to duel and defeat the lord of every guild,
+then banish the monster Arzakon itself.
+
+
+
+Who knows what spells the monster can cast?
+It has surely traveled widely in search of power.
+If you defeat all five of the great wizards,
+Arzakon will not hesitate to attack you.
+
+
+
+Now that the guild lords have broken their vows,
+there are no limits on how they use the mana.
+They have summoned vicious lesser wizards
+and creatures stranded here during the two wars.
+
+
+
+Those traitors to Shandalar now wander the land
+hungry for battle, magic, and treasure.
+But the guild lords have more to gain than gold.
+Some of the creatures have specific missions.
+
+
+
+When a creature attacks one of our cities,
+its goal is to siphon off all the magical energy.
+With enough of this stolen magic,
+a wizard can cast the Spell of Dominion.
+
+
+
+ENDBLOCK
+
+
+  _nqQuote[5]
+STARTBLOCK
+The most ancient magic in Shandalar
+was hidden away after the second war.
+If you would find and use these spells,
+You must search the oldest dungeons.
+
+
+
+ENDBLOCK
+
+
+  _nqQuote[6]
+STARTBLOCK
+Shandalar's dragons were never our friends,
+but neither were they malicious.
+Now, some serve the lords unwillingly.
+The others disappeared long ago.
+
+
+
+Perhaps the Guardian knows their fate.
+Regardless, they will not help you.
+There are still two you can summon,
+the Faerie and the Prismatic.
+
+
+
+Both are wild and unpredictable,
+more so than dragons from other planes.
+Still, in your present predicament
+you should value any ally.
+
+
+
+ENDBLOCK
+
+
+  _nqQuote[7]
+STARTBLOCK
+Your best chance to defeat a creature
+sent out by one of the vile guild lords
+is while it is wandering the land
+or during its attack on a city.
+
+
+
+Once a creature has established a home
+whether dungeon, castle, or mana dome,
+it has the luxury of certain advantages
+that make defeating it much more difficult.
+
+
+
+ENDBLOCK
+
+
+  _nqQuote[8]
+STARTBLOCK
+None but the guild lords has seen Arzakon,
+so nothing said of the monster can be trusted.
+It is rumored, however, that it has one fear:
+an ancient rival, the wizard Yawden.
+
+
+
+Unfortunately, it has been centuries
+since the two planeswalkers met and fought.
+Perhaps we're fortunate this rival's not here.
+It's likely he's as evil as Arzakon.
+
+
+
+ENDBLOCK
+
+
+  _nqQuote[9]
+STARTBLOCK
+The deepest dungeons are guarded well
+by powerful spells and mighty creatures.
+The ancient, hidden magics of Shandalar
+will not be taken by an unprepared novice.
+
+
+
+A wanderer who is wise and cautious
+interrogates creatures defeated in duels.
+The more details you know before entering,
+the better your chances in any dungeon.
+
+
+
+ENDBLOCK
+
+
+  _nqQuote[10]
+STARTBLOCK
+As you defeat their roaming minions,
+each guild lord is weakened, slightly.
+There is a lower limit to their power,
+but you should still not take them lightly.
+
+
+
+ENDBLOCK
+
+
+  _nqQuote[11]
+STARTBLOCK
+Mana stones are shaped from precious gems.
+In them we store Shandalar's pure mana.
+You then, in turn, can use the stones
+to power the helpful World Magics.
+
+
+
+Both stones and Magics can be hard to find,
+but if you help our cities and villages,
+the wise men there will find ways
+to return any favor you do.
+
+
+
+ENDBLOCK

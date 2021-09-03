@@ -1,0 +1,449 @@
+%ifndef FUNCTIONS_MAC
+    %define FUNCTIONS_MAC
+
+	; base (in) parameters
+	%define PlayerID			dword [ebp+0x08]
+	%define CardID				dword [ebp+0x0C]
+	%define EventCode			dword [ebp+0x10]
+	%define UserParam1			dword [ebp+0x14]
+	%define UserParam2			dword [ebp+0x18]
+	%define UserParam3			dword [ebp+0x1C]
+	%define UserParam4			dword [ebp+0x20]
+
+	; Global Pointers
+	%define AffectedPlayer		dword [0x738c84]
+	%define AffectedCard		dword [0x7a398c]
+	; Common Pointer: Power/Toughness/Static Ability/Color... based on EventCode
+	%define EventData			dword [0x6205b4]
+	; For EventBlockLegality
+	%define AttackingPlayer     dword [0x7a3498]
+	%define AttackingCard       dword [0x739198]
+	%define DefendingPlayer     AffectedPlayer
+	%define DefendingCard       AffectedCard
+	; Trigger
+	%define TriggerCard         	dword [0x739a20]
+	%define TriggerPlayer       	dword [0x62c17c]
+	%define TriggerEvent        	dword [0x7a2d78]
+	; Trigger Code
+	%define TriggerComesIntoPlay	0xdb
+
+
+	; Event Codes
+	%define EventSetPower			0x32  ; EventData = Card Power
+	%define EventSetToughness		0x33  ; EventData = Card Toughness
+	%define EventSetAttr			0x34  ; EventData = Static Ability
+	%define EventSetColor           0x36  ; EventData = Card Color
+	%define EventSetCost			0xa4  ; SetCostArray
+	%define EventBlockLegality      0x78  ; Block Legality
+	%define EventTrigger            0x7d  ; Trigger
+	%define EventResolveTrigger     0x7e  ; Triggered
+	%define EventCanActivate        0x73  ; The card in play can be activated?
+	%define EventActivated          0x6d  ; The card activated, pay costs... or cancel...
+	%define EventResolveActivation  0x72  ; Resolve activation...
+
+	; SetCost Array
+	%define SetCostColorless		byte [0x55cf18]
+
+	; Procedure/Function
+	%define LandToHackLandFunction		0x4a65a0 ; Push Land, CardID, PlayerID => eax = land affected by hack
+	%define ColorToSleightColorFunction 0x4a65d0 ; Push Color, CardID, PlayerID => eax = color affected by sleight.
+	%define CheckAurasAttachedProcedure 0x4ca500 ; Push ProtectionColor, CardID, PlayerID
+	%define LegendaryRuleProcedure 		0x403090 ; Push EventCode, CardID, PlayerID
+	%define GetCardInfoFunction         0x401a80 ; (eax:PlayerID, ecx:CardID) -> esi:CardInfo Pointer
+	%define PlayerGainLifeProcedure     0x4596b0 ; Push SourcePlayer, SourceCard, Life, Player
+	%define AddManaFunction             0x49d490 ; Push Quantity, ManaColor, PlayerID => eax = How many of that mana is on pool
+	%define LoadResourceProcedure		0x401f2c ; Push ResourceName, <zero>
+	%define DrawCardProcedure			0x433190 ; Push PlayerID
+	%define DrawCardsProcedure          0x41c190 ; Push Quantity, PlayerID
+	%define DestroyCardProcedure        0x4779f0 ; Push Action, CardID, PlayerID
+	%define OpenWindowTwoOpProcedure	0x4e7846 ; Push *ResourceName, CardID, PlayerID => eax = index selected zero based
+	%define TapCardProcedure			0x4a3170 ; Push CardID, PlayerID
+	%define DiscardCardProcedure        0x433540 ; Push <zero>, ChooseOrRandom, PlayerID
+	%define DamagePlayerProcedure       0x4a68a0 ; Push CardID, PlayerID, Ammount, TargetPlayerID
+	%define CreatureInfoFunction        0x4352d0 ; Push <-1>, InfoType, CardID, PlayerID => eax = information
+
+	; Special C
+	%define sprintf						0x4d5e94
+
+	; CreatureInfo
+	%define citPower				EventSetPower
+	%define citToughness			EventSetToughness
+	%define citAttr					EventSetAttr
+	%define citColor				EventSetColor
+
+	; Load Resource Strings
+	%define ResourceString1				0x715cac
+	%define ResourceString2				0x715dd8
+	%define ResourceString3				0x715f04
+	%define ResourceString4				0x716030
+	%define ResourceString5				0x71615c
+	%define ResourceString6				0x716288
+
+
+	; Simple Static Abilities to Chain
+	%define Vigilance					0x004C7CE0
+	%define Haste						0x0040B5A0
+	%define Fear						0x0040B540
+
+	; DestroyAction
+	%define daRegen				1
+	%define daBury				2
+	%define daSacrifice			3
+	%define daRemoveFromGame	4
+
+	; DiscardType
+	%define dtChoose			0
+	%define dtRandom			1
+
+	; CardInfo Slots
+	%define CardInfoSlot1				[esi+0x38]
+	%define CardInfoState				dword [esi+0x08]
+	%define CardInfoTargetPlayer       	dword [esi+0x74]
+	%define CardInfoTargetCard			dword [esi+0x78]
+	%define CardInfoCardColor			dword [esi+0x59]
+
+	; CardInfoState
+	%define CardInfoStateTap				0x10
+	%define CardInfoStateSummonSickness		0x20000
+
+
+	; Sleigh/Mana/Land (dword/word/byte)
+	%define Swamp			1
+	%define Island			2
+	%define Forest			3
+	%define Mountain		4
+	%define Plains			5
+
+	%define ColorlessMana	0
+	%define BlackMana		1
+	%define BlueMana		2
+	%define GreenMana		3
+	%define RedMana			4
+	%define WhiteMana		5
+	%define AnyMana         7
+
+	%define BlackColor		1
+	%define BlueColor		2
+	%define GreenColor		3
+	%define RedColor		4
+	%define WhiteColor		5
+
+	%define ExtraColorlessMana		dword [0x4ef400]
+	%define ExtraBlackMana			dword [0x4ef404]
+	%define ExtraBlueMana			dword [0x4ef408]
+	%define ExtraGreenMana			dword [0x4ef40c]
+	%define ExtraRedMana			dword [0x4ef410]
+	%define ExtraWhiteMana			dword [0x4ef414]
+
+	; Advanced Macro
+	%macro GenericShockLand 1
+		push    ebp
+		mov     ebp, esp
+		push    esi
+		push    edi
+		push    dword [ebp+0x20]
+		push    dword [ebp+0x1c]
+		push    dword [ebp+0x18]
+		push    dword [ebp+0x14]
+		push    EventCode
+		push    CardID
+		push    PlayerID
+		call	0x4e2162
+		call	%1
+		add     esp, 0x1c
+		pop     edi
+		pop     esi
+		leave
+		ret
+	%endmacro
+
+	%macro GenericSignet 2
+		push    ebp
+		mov     ebp, esp
+		push    esi
+		push    %1
+		push    %2
+		push    EventCode
+		push    CardID
+		push    PlayerID
+		call    0x1200195
+		add     esp, 0x14
+		pop     esi
+		leave
+		ret
+	%endmacro
+
+	%macro GenericRavnicaKaroo 2
+		push    ebp
+		mov     ebp, esp
+		push    esi
+		push    %1
+		push    %2
+		push    EventCode
+		push    CardID
+		push    PlayerID
+		call    0x1200462
+		call    0x120058d
+		add     esp, 0x14
+		pop     esi
+		leave
+		ret
+	%endmacro
+
+	; HaveManaOrJump Qty, ManaColor, Label
+	; For a cost of 2WW:
+	; HaveManaOrJump 4, AnyMana, CantActivate
+	; HaveManaOrJump 2, WhiteMana, CantActivate
+	%macro HaveManaOrJump 3
+		push	%1
+		push	%2
+		push	PlayerID
+		call	0x49d510
+		add		esp, 0x0c
+		test	eax, eax
+		jz		%3
+	%endmacro
+
+	; HaveManaOrJump QtyColorless, QtyBlack, QtyBlue, QtyGreen, QtyRed, QtyWhite, Label
+	; cylian sunsinger example: rwg
+	; HaveManaOrJump 0, 0, 0, 1, 1, 1, CantActivate
+	; aethersworn example: 1wb
+	; HaveManaOrJump 1, 1, 0, 0, 0, 1, CantActivate
+	%macro HaveManaOrJump 7
+		mov		byte [0x55cf10], %1
+		mov		byte [0x55cf11], %2
+		mov		byte [0x55cf12], %3
+		mov		byte [0x55cf13], %4
+		mov		byte [0x55cf14], %5
+		mov		byte [0x55cf15], %6
+		push	PlayerID
+		call	0x402be0
+		add     esp, 4
+		test    eax, eax
+		jz      %6
+	%endmacro
+
+	; PayMana Qty, ManaColor
+	; PayMana 1, RedMana
+	%macro PayMana 2
+		push	%1
+		push	%2
+		push	PlayerID
+		call	0x42de60
+		add		esp, 0x0c
+	%endmacro
+	; For a 2WW
+	; mov ExtraColorlessMana, 2
+	; PayMana 2, WhiteMana
+
+	; PayMana QtyColorless, QtyBlack, QtyBlue, QtyGreen, QtyRed, QtyWhite
+	%macro PayMana 6
+		mov		ExtraBlackMana, %2
+		mov		ExtraBlueMana, %3
+		mov		ExtraGreenMana, %4
+		mov		ExtraRedMana, %5
+		mov		ExtraWhiteMana, %6
+		PayMana	%1, ColorlessMana
+	%endmacro
+
+	%macro GenericProtectionProcedureCall 1
+		push	ebp
+		mov		ebp, esp
+		push	esi
+		push	edi
+		; chain method
+		push	%1
+		push	EventCode
+		push	CardID
+		push	PlayerID
+		call	_generic_protection_from
+		add		esp, 0x10
+		; leave
+		pop		edi
+		pop		esi
+		leave
+		ret
+	%endmacro
+
+	%macro ChainProcedureCall 2-*
+		push	ebp
+		mov		ebp, esp
+		push	esi
+		push	edi
+		; chain method
+		push	UserParam4
+		push	UserParam3
+		push	UserParam2
+		push	UserParam1
+		push	EventCode
+		push	CardID
+		push	PlayerID
+		%rep  %0
+        call    %1
+		%rotate 1
+		%endrep
+		add		esp, 0x1c
+		; leave
+		pop		edi
+		pop		esi
+		leave
+		ret
+	%endmacro
+
+	%macro LegendaryRule 0
+		push	EventCode
+		push	CardID
+		push	PlayerID
+		call	LegendaryRuleProcedure
+		add		esp, 0xc
+	%endmacro
+
+	%macro GenericHaveColorCall 1
+		push	ebp
+		mov		ebp, esp
+		push	esi
+		push	edi
+		; chain method
+		push	%1
+		push	EventCode
+		push	CardID
+		push	PlayerID
+		call	_generic_have_color
+		add		esp, 0x10
+		; leave
+		pop		edi
+		pop		esi
+		leave
+		ret
+	%endmacro
+
+	%macro GenericLifeArtifactCharmCall 1
+		push    ebp
+		mov     ebp, esp
+		push    %1
+		push    EventCode
+		push    CardID
+		push    PlayerID
+		call    _generic_life_artifact_charm
+		add     esp, 0x10
+		leave
+		ret
+	%endmacro
+
+	; SleightColorProcedure Color -> eax = Sleight Color
+	%macro SleightColorProcedure 1
+		push    %1
+		push    CardID
+		push    PlayerID
+		call    ColorToSleightColorFunction
+		add     esp, 0xc
+	%endmacro
+
+	; PlayerGainLife PlayerID, AmmountLife
+	%macro PlayerGainLife 2
+		push    CardID
+		push    PlayerID
+		push    %2
+		push    %1
+		call    PlayerGainLifeProcedure
+		add     esp, 0x10
+	%endmacro
+
+	; DrawCard PlayerID
+	%macro DrawCard 1
+		push    %1
+		call    DrawCardProcedure
+		add     esp, 4
+	%endmacro
+
+	; DrawCard PlayerID, AmmountCard
+	%macro DrawCard 2
+		push    %2
+		push    %1
+		call    DrawCardsProcedure
+		add     esp, 8
+	%endmacro
+
+	; DiscardCard PlayerID, ChooseOrRandom
+	%macro DiscardCard 2
+		push    0
+		push    %2
+		push    %1
+		call    DiscardCardProcedure
+		add     esp, 0xc
+	%endmacro
+
+	; DestroyCard PlayerID, CardID, DestroyAction
+	%macro DestroyCard 3
+		push    %3
+		push    %2
+		push    %1
+		call    DestroyCardProcedure
+		add     esp, 0xc
+	%endmacro
+
+	; OpenWindowTwoOp PlayerID, CardID, *ResourceName
+	%macro OpenWindowTwoOp 3
+		push    %3
+		push    %2
+		push    %1
+		call    OpenWindowTwoOpProcedure
+		add     esp, 0xc
+	%endmacro
+
+	; GetCardInfo PlayerID, CardID
+	%macro GetCardInfo 2
+		mov     eax, %1
+		mov     ecx, %2
+		call    GetCardInfoFunction
+	%endmacro
+
+	; TapCard PlayerID, CardID
+	%macro TapCard 2
+		push    %2
+		push    %1
+		call    TapCardProcedure
+		add     esp, 8
+	%endmacro
+
+	; LoadResource *ResourceName
+	%macro LoadResource 1
+		push    %1
+		push    0
+		call    LoadResourceProcedure
+		add     esp, 8
+	%endmacro
+
+	; DamagePlayer TargetPlayerID, Ammount
+	%macro DamagePlayer 2
+		push    CardID
+		push    PlayerID
+		push    %2
+		push    %1
+		call    DamagePlayerProcedure
+		add     esp, 0x10
+	%endmacro
+
+	; CreatureInfo PlayerID, CardID, InfoType
+	%macro CreatureInfo 3
+		push	0xff
+		push	%3
+		push	%2
+		push	%1
+		call	CreatureInfoFunction
+		add		esp, 0x10
+	%endmacro
+	; GetCardInfo PlayerID, CardID
+	; CreatureInfo CardInfoTargetPlayer, CardInfoTargetCard, citColor
+	;
+
+	; AddMana Qty, ManaColor
+	%macro AddMana 2
+		push    %1
+		push    %2
+		push    PlayerID
+		call    AddManaFunction
+		add     esp, 0x0c
+	%endmacro
+
+%endif

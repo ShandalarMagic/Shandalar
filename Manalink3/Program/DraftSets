@@ -1,0 +1,1628 @@
+;cube
+;
+;Underdogs
+;no.spam@plea.se
+;22/06/2009
+;1
+;4th Edition
+;
+
+.1375	1	Absorb
+.971	1	Abyssal Specter
+.1707	1	Academy Rector*
+.1743	1	Æther Vial
+.0	1	Air Elemental
+.1799	1	Akrasan Squire
+.1198	1	Akroma, Angel of Wrath
+.1529	1	Akroma's Memorial
+.392	1	Aladdin
+.396	1	Aladdin's Ring
+.1592	1	Algae Gharial
+.395	1	Ali from Cairo
+.1508	1	Allied Strategies
+.972	1	Ambition's Cost
+.1	1	Ancestral Recall
+.1242	1	Ancient Silverback
+.1710	1	Ancient Tomb
+.1531	1	Angel of Despair
+.953	1	Angel of Mercy
+.1849	1	Anger
+.565	1	Angus Mackenzie
+.3	1	Animate Dead
+.5	1	Ankh of Mishra
+.1671	1	Arc Lightning
+.1206	1	Arcane Sanctum
+.1842	1	Arcanis the Omnipotent
+.974	1	Archivist
+.1319	1	Armadillo Cloak
+.6	1	Armageddon
+.1416	1	Ashenmoor Gouger
+.294	1	Ashes to Ashes
+.1541	1	Assassinate
+.1365	1	Assault Zeppelid
+.868	1	Aswan Jaguar
+.976	1	Aven Fisher
+.1802	1	Aven Squire
+.1646	1	Azorius Signet
+.8	1	Bad Moon
+.9	1	Badlands
+.10	1	Balance
+.295	1	Ball Lightning
+.1830	1	Barbarian Ring
+.1773	1	Barter in Blood
+.1801	1	Battlegrace Angel
+.12	1	Bayou
+.398	1	Bazaar of Baghdad
+.14	1	Berserk
+.311	1	Biorhythm
+.15	1	Birds of Paradise
+.1441	1	Bitterblossom
+.16	1	Black Knight
+.17	1	Black Lotus
+.18	1	Black Vise
+.1725	1	Blastoderm
+.980	1	Blaze
+.1221	1	Blazing Specter
+.1337	1	Blightning
+.1298	1	Blood Knight
+.1489	1	Bloodstained Mire
+.379	1	Bogardan Hellkite
+.1713	1	Bonesplitter
+.1642	1	Boros Signet
+.1629	1	Bottle Gnomes
+.25	1	Braingeyser
+.499	1	Brainstorm
+.985	1	Bribery
+.1443	1	Broodmate Dragon
+.1329	1	Bull Cerodon
+.354	1	Buried Alive
+.1396	1	Capsize
+.1699	1	Careful Consideration
+.1735	1	Carnophage
+.1208	1	Cathodion
+.593	1	Chain Lightning
+.1253	1	Char
+.1669	1	Charging Troll
+.991	1	Chastise
+.1769	1	Child of Alara
+.1718	1	Chrome Mox
+.403	1	City of Brass
+.1546	1	Civic Wayfinder
+.1464	1	Cloudgoat Ranger
+.1956	1	Collective Restraint
+.555	1	Compulsive Research
+.999	1	Concentrate
+.1000	1	Confiscate
+.44	1	Control Magic
+.1509	1	Corrupt
+.48	1	Counterspell
+.1778	1	Courier's Capsule
+.1777	1	Covetous Dragon
+.1912	1	Crucible of Worlds
+.1504	1	Cruel Ultimatum
+.1202	1	Crumbling Necropolis
+.1931	1	Cryptic Command
+.608	1	Dakkon Blackblade
+.1275	1	Damnation
+.1007	1	Dark Banishing
+.1723	1	Dark Confidant
+.55	1	Dark Ritual
+.592	1	Darksteel Ingot*
+.1817	1	Dauthi Horror
+.1818	1	Dauthi Marauder
+.1819	1	Dauthi Mercenary
+.1820	1	Dauthi Slayer*
+.1795	1	Death Cloud
+.1515	1	Death Grasp
+.62	1	Demonic Tutor
+.1890	1	Demonic Consultation
+.1701	1	Deranged Hermit
+.409	1	Desert Twister
+.1797	1	Desolation Angel
+.1484	1	Diabolic Edict
+.1643	1	Dimir Signet
+.64	1	Disenchant
+.65	1	Disintegrate
+.1353	1	Dismiss
+.68	1	Drain Life
+.1846	1	Duress
+.75	1	Earthquake
+.348	1	Eladamri's Call
+.566	1	Electrolyze
+.1027	1	Elvish Piper
+.1780	1	Empyrial Plate
+.965	1	Ensnaring Bridge
+.1223	1	Eternal Witness
+.629	1	Eureka
+.1031	1	Evacuation
+.356	1	Exclude
+.1960	1	Exhume
+.1471	1	Explosive Vegetation
+.1538	1	Farhaven Elf
+.307	1	Farseek
+.80	1	Fastbond
+.318	1	Fellwar Stone
+.1034	1	Fertile Ground
+.1933	1	Figure of Destiny
+.1497	1	Final Judgment
+.1782	1	Fire // Ice
+.84	1	Fireball
+.1762	1	Fireblast
+.1961	1	Fires of Yavimaya
+.1417	1	Flame Javelin
+.1689	1	Flametongue Kavu
+.1488	1	Flooded Strand
+.1840	1	Forbid
+.89	1	Force of Nature
+.1717	1	Force of Will
+.90	1	Forcefield
+.1370	1	Fusion Elemental
+.1293	1	Fyndhorn Elves
+.1741	1	Gaddock Teeg
+.319	1	Gaea's Cradle
+.1244	1	Gaea's Skyfolk
+.1915	1	Genesis
+.1764	1	Gerrard's Verdict
+.1336	1	Gilded Lotus
+.1859	1	Goblin Sharpshooter
+.1518	1	Godsire
+.1288	1	Goldmeadow Harrier
+.1880	1	Grand Arbiter Augustin IV
+.103	1	Granite Gargoyle
+.1644	1	Gruul Signet
+.1751	1	Gush
+.1243	1	Harmonize
+.1996	1	Hatred
+.378	1	Hellkite Overlord*
+.1744	1	Honden of Cleansing Fire
+.1749	1	Honden of Infinite Rage
+.1747	1	Honden of Life's Web
+.1748	1	Honden of Night's Reach
+.1745	1	Honden of Seeing Winds
+.116	1	Hurricane
+.1457	1	Hymn to Tourach
+.117	1	Hypnotic Specter
+.119	1	Icy Manipulator
+.1461	1	Imperious Perfect
+.1254	1	Incinerate
+.1532	1	Indrik Stomphowler
+.1323	1	Infest
+.1520	1	Inkwell Leviathan
+.1772	1	Innocent Blood
+.1062	1	Intrepid Hero
+.1291	1	Iridescent Angel
+.1239	1	Isamaru, Hound of Konda
+.503	1	Ivory Tower
+.559	1	Izzet Signet
+.131	1	Jayemdae Tome
+.1862	1	Jenara, Asura of War
+.1603	1	Jeska, Warrior Adept
+.1545	1	Jokulhaups
+.132	1	Juggernaut
+.1203	1	Jungle Shrine
+.434	1	Juzám Djinn
+.437	1	Kird Ape
+.1935	1	Kitchen Finks
+.1721	1	Kjeldoran Outpost
+.1414	1	Knight of Meadowgrain
+.598	1	Knight of Stromgald
+.358	1	Kodama's Reach
+.594	1	Kokusho, the Evening Star
+.1512	1	Kongming, Sleeping Dragon
+.710	1	Land Tax
+.1445	1	Last Gasp
+.1514	1	Last Stand
+.1236	1	Leonin Skyhunter
+.438	1	Library of Alexandria
+.1225	1	Lightning Angel
+.145	1	Lightning Bolt
+.1328	1	Lightning Helix
+.1919	1	Living Death
+.1277	1	Longbow Archer
+.1828	1	Looter il-Kor
+.1368	1	Loxodon Hierarch
+.1781	1	Loxodon Warhammer
+.1768	1	Maelstrom Archangel
+.1882	1	Magister Sphinx
+.1283	1	Magus of the Disk
+.154	1	Mahamoti Djinn
+.894	1	Mana Crypt
+.720	1	Mana Drain
+.157	1	Mana Vault
+.1536	1	Man-o'-War
+.1691	1	Martial Coup
+.1230	1	Masticore
+.1542	1	Matca Rioters
+.377	1	Maze of Ith
+.1921	1	Meddling Mage
+.159	1	Meekstone
+.1831	1	Meloku the Clouded Mirror
+.1900	1	Memory Jar
+.1085	1	Might of Oaks
+.1089	1	Mind Sludge
+.1775	1	Mind Stone
+.162	1	Mind Twist
+.1307	1	Mire Boa
+.508	1	Mishra's Factory
+.510	1	Mishra's Workshop
+.726	1	Moat
+.1354	1	Mogg Fanatic
+.1311	1	Moroii
+.1355	1	Morphling
+.381	1	Mortify
+.457	1	Mox Diamond
+.165	1	Mox Emerald
+.166	1	Mox Jet
+.167	1	Mox Pearl
+.168	1	Mox Ruby
+.169	1	Mox Sapphire
+.1618	1	Mulldrifter
+.352	1	Mystical Tutor
+.1260	1	Nantuko Shade
+.1096	1	Naturalize
+.1705	1	Necropotence
+.1098	1	Nekrataal
+.173	1	Nevinyrral's Disk
+.1793	1	Nezumi Shortfang*
+.733	1	Nicol Bolas
+.1525	1	Night of Souls' Betrayal
+.174	1	Nightmare
+.1510	1	Night's Whisper
+.1804	1	Noble Hierarch
+.1523	1	Noble Panther
+.1739	1	Nyxathid
+.1902	1	Oath of Druids
+.1619	1	Obelisk of Alara
+.1100	1	Obliterate
+.1670	1	Ohran Viper
+.1394	1	Opportunity
+.446	1	Old Man of the Sea
+.177	1	Orcish Artillery
+.572	1	Order of Leitbur
+.574	1	Order of the Ebon Hand
+.597	1	Order of the White Shield
+.1645	1	Orzhov Signet
+.447	1	Oubliette
+.1796	1	Oversold Cemetery
+.1418	1	Oversoul of Dusk
+.968	1	Pacifism
+.1267	1	Paladin en-Vec
+.588	1	Path to Exile
+.1678	1	Pattern of Rebirth*
+.1839	1	Pernicious Deed
+.182	1	Pestilence
+.185	1	Phantom Monster
+.1110	1	Phyrexian Arena
+.1113	1	Phyrexian Plaguelord
+.1308	1	Platinum Angel
+.1117	1	Plow Under
+.1487	1	Polluted Delta
+.312	1	Ponder
+.1361	1	Prodigal Pyromancer
+.193	1	Prodigal Sorcerer
+.1675	1	Progenitus
+.1975	1	Propaganda
+.194	1	Psionic Blast
+.301	1	Putrefy
+.1992	1	Putrid Leech
+.1121	1	Pyroclasm
+.752	1	Pyrotechnics
+.1861	1	Qasali Pridemage
+.862	1	Rainbow Knights
+.1647	1	Rakdos Signet
+.1124	1	Rampant Growth
+.1681	1	Rancor
+.1843	1	Ravages of War
+.1222	1	Ravenous Baloth
+.1722	1	Reanimate
+.570	1	Recoil
+.1924	1	Recurring Nightmare
+.202	1	Regrowth
+.1455	1	Remand
+.1352	1	Repulse
+.1357	1	Rhox War Monk
+.1807	1	Rhox Charger
+.1255	1	River Boa
+.523	1	Rocket Launcher
+.361	1	Rofellos, Llanowar Emissary
+.1269	1	Rorix Bladewing
+.209	1	Royal Assassin
+.1753	1	Rumbling Slum
+.1522	1	Sabertooth Nishoba
+.1470	1	Sakura-Tribe Elder
+.1204	1	Savage Lands
+.1977	1	Saproling Burst
+.212	1	Savannah
+.213	1	Savannah Lions
+.216	1	Scrubland
+.1205	1	Seaside Citadel
+.219	1	Sedge Troll
+.1640	1	Selesnya Signet
+.220	1	Sengir Vampire
+.402	1	Sensei's Divining Top
+.455	1	Serendib Djinn
+.456	1	Serendib Efreet
+.221	1	Serra Angel
+.1364	1	Serra Sphinx
+.1144	1	Sever Soul
+.1220	1	Shadowmage Infiltrator
+.1881	1	Sharuum the Hegemon
+.224	1	Shivan Dragon
+.1147	1	Shock
+.1758	1	Show and Tell
+.362	1	Shrapnel Blast
+.1716	1	Siege-Gang Commander
+.1800	1	Sigiled Paladin
+.1238	1	Silver Knight
+.1268	1	Silvos, Rogue Elemental
+.1648	1	Simic Signet
+.1232	1	Simic Sky Swallower
+.459	1	Singing Tree
+.226	1	Sinkhole
+.1714	1	Skullclamp
+.1235	1	Skyknight Legionnaire
+.1477	1	Slith Firewalker
+.1438	1	Sliver Queen
+.230	1	Sol Ring
+.1207	1	Solemn Simulacrum
+.1622	1	Sol'kanar the Swamp King
+.1824	1	Soltari Monk
+.1825	1	Soltari Priest
+.1823	1	Soltari Trooper
+.1480	1	Spawnwrithe
+.1310	1	Spectral Lynx
+.1453	1	Spectral Procession
+.1436	1	Spell Burst
+.1299	1	Spirit of the Night
+.1925	1	Squee, Goblin Nabob
+.234	1	Steal Artifact
+.1224	1	Stoic Angel
+.1289	1	Streetbreaker Wurm
+.528	1	Strip Mine
+.1826	1	Stronghold Overseer
+.1496	1	Stupor
+.529	1	Su-Chi
+.1906	1	Sundering Titan
+.1698	1	Survival of the Fittest
+.240	1	Swords to Plowshares
+.803	1	Sylvan Library
+.241	1	Taiga
+.1673	1	Tahngarth, Talruum Hero
+.1733	1	Tarmogoyf
+.1837	1	Tattermunge Maniac*
+.1709	1	Temple of the False God
+.1513	1	Tendrils of Corruption
+.1472	1	Terminate
+.1469	1	Terramorphic Expanse
+.242	1	Terror
+.812	1	The Abyss
+.806	1	The Tabernacle at Pendrell Vale
+.441	1	Thirst for Knowledge
+.1761	1	Thoughts of Ruin
+.1945	1	Tidehollow Sculler
+.1393	1	Tidings
+.1342	1	Time Spiral
+.249	1	Time Walk
+.250	1	Timetwister
+.1351	1	Tinker
+.1482	1	Tolsimir Wolfblood
+.1857	1	Tombstalker
+.517	1	Tooth and Nail
+.1366	1	Topan Ascetic
+.1356	1	Tower Gargoyle
+.1984	1	Traumatize
+.1341	1	Treachery
+.1946	1	Treetop Village
+.1827	1	Trespasser il-Vec
+.1511	1	Tribal Flames
+.538	1	Triskelion
+.252	1	Tropical Island
+.254	1	Tundra
+.257	1	Two-Headed Giant of Foriys
+.1621	1	Uktabi Orangutan
+.258	1	Underground Sea
+.1490	1	Undermine
+.359	1	Upheaval
+.333	1	Vampiric Tutor
+.1302	1	Vindicate
+.1226	1	Visara the Dreadful
+.1543	1	Voice of All
+.1594	1	Volcanic Dragon
+.1256	1	Volcanic Geyser
+.1187	1	Volcanic Hammer
+.266	1	Volcanic Island
+.1320	1	Vulshok Sorcerer
+.1250	1	Wall of Blossoms
+.1814	1	Wall of Reverence
+.1728	1	Wasteland
+.1297	1	Watchwolf
+.1468	1	Wayfarer's Bauble
+.282	1	Wheel of Fortune
+.1437	1	Whispers of the Muse
+.283	1	White Knight
+.1326	1	Wild Nacatl
+.567	1	Wildfire
+.1949	1	Wilt-Leaf Liege*
+.1950	1	Windbrisk Heights
+.1473	1	Windswept Heath
+.287	1	Winter Orb
+.1474	1	Wooded Foothills
+.1369	1	Woolly Thoctar
+.1191	1	Wood Elves
+.290	1	Wrath of God
+.1192	1	Worship
+.1278	1	Wrecking Ball
+.1770	1	Wydwen, the Biting Gale
+.1704	1	Yawgmoth's Bargain;Fallen Empires
+;
+;Underdogs
+;no.spam@plea.se
+;09/12/2009
+;1
+;4th Edition
+;
+
+.1705	1	Combat Medic
+.1727	1	Farrelite Priest
+.1728	1	Farrel's Mantle
+.1729	1	Farrel's Zealot
+.1738	1	Hand of Justice
+.1740	1	Heroism
+.1749	1	Icatian Infantry
+.1750	1	Icatian Javelineers
+.1751	1	Icatian Lieutenant
+.1752	1	Icatian Moneychanger
+.1753	1	Icatian Phalanx
+.1754	1	Icatian Priest
+.1755	1	Icatian Scout
+.1756	1	Icatian Skirmishers
+.1447	1	Icatian Town
+.572	1	Order of Leitbur
+.1707	1	Deep Spawn
+.1991	1	High Tide
+.1743	1	Homarid
+.1744	1	Homarid Shaman
+.1745	1	Homarid Spawning Bed
+.1748	1	Homarid Warrior
+.1739	1	Merseine
+.1766	1	River Merfolk
+.1768	1	Seasinger
+.1773	1	Svyelunite Priest
+.1786	1	Tidal Flats
+.1787	1	Tidal Influence
+.1409	1	Vodalian Knights
+.1793	1	Vodalian Mage
+.1794	1	Vodalian Soldiers
+.1795	1	Vodalian War Machine
+.1698	1	Armor Thrull
+.1700	1	Basal Thrull
+.1703	1	Breeding Pit
+.1710	1	Derelor
+.1719	1	Ebon Praetor
+.1457	1	Hymn to Tourach
+.1734	1	Initiates of the Ebon Hand
+.1741	1	Mindstab Thrull
+.1758	1	Necrite
+.574	1	Order of the Ebon Hand
+.1769	1	Soul Exchange
+.1781	1	Thrull Champion
+.1782	1	Thrull Retainer
+.1784	1	Thrull Wizard
+.1790	1	Tourach's Chant
+.1791	1	Tourach's Gate
+.1702	1	Brassclaw Orcs
+.1712	1	Dwarven Armorer
+.1713	1	Dwarven Catapult
+.1716	1	Dwarven Lieutenant
+.1718	1	Dwarven Soldier
+.1732	1	Goblin Chirurgeon
+.1733	1	Goblin Flotilla
+.1720	1	Goblin Grenade
+.1735	1	Goblin Kites
+.1736	1	Goblin War Drums*
+.1737	1	Goblin Warrens
+.1760	1	Orcish Captain
+.1104	1	Orcish Spy
+.1761	1	Orcish Veteran
+.1762	1	Orgg
+.1763	1	Raiding Party*
+.1721	1	Elven Fortress
+.1723	1	Elvish Farmer
+.1725	1	Elvish Hunter
+.1726	1	Elvish Scout
+.1730	1	Feral Thallid
+.1731	1	Fungal Bloom
+.1759	1	Night Soil
+.1771	1	Spore Cloud
+.1772	1	Spore Flower
+.1774	1	Thallid
+.1775	1	Thallid Devourer
+.1776	1	Thelonite Druid
+.1777	1	Thelonite Monk
+.1778	1	Thelon's Chant
+.1779	1	Thelon's Curse
+.1780	1	Thorn Thallid
+.1697	1	Aeolipile
+.1699	1	Balm of Restoration
+.1701	1	Bottomless Vault
+.1706	1	Conch Horn
+.1708	1	Delif's Cone
+.1709	1	Delif's Cube
+.1711	1	Draconian Cylix
+.1714	1	Dwarven Hold
+.1783	1	Dwarven Ruins
+.1785	1	Ebon Stronghold
+.1722	1	Elven Lyre
+.1789	1	Havenwood Battleground
+.1742	1	Hollow Trees
+.1757	1	Icatian Store
+.1717	1	Implements of Sacrifice
+.1764	1	Rainbow Vale
+.1765	1	Ring of Renewal
+.1788	1	Ruins of Trokair
+.1767	1	Sand Silos
+.1770	1	Spirit Shield
+.1792	1	Svyelunite Temple
+.1796	1	Zelyon Sword
+;jatill cards
+;
+;Underdogs
+;no.spam@plea.se
+;19/06/2009
+;1
+;4th Edition
+;
+
+.1375	1	Absorb
+.1707	1	Academy Rector*
+.1743	1	Æther Vial
+.1799	1	Akrasan Squire
+.1592	1	Algae Gharial
+.1427	1	Allay
+.1508	1	Allied Strategies
+.1242	1	Ancient Silverback
+.1791	1	Ancient Spring
+.1710	1	Ancient Tomb
+.1803	1	Angelic Benediction
+.1849	1	Anger
+.1842	1	Arcanis the Omnipotent
+.1677	1	Arcbound Ravager
+.1676	1	Arcbound Worker
+.1416	1	Ashenmoor Gouger
+.1365	1	Assault Zeppelid
+.1802	1	Aven Squire
+.1655	1	Azorius Chancery
+.1646	1	Azorius Signet
+.1755	1	Balancing Act
+.1830	1	Barbarian Ring
+.1773	1	Barter in Blood
+.1986	1	Barren Moor
+.1801	1	Battlegrace Angel
+.369	1	Beacon of Immortality
+.1441	1	Bitterblossom
+.1725	1	Blastoderm
+.1638	1	Blood Crypt
+.1298	1	Blood Knight
+.1489	1	Bloodstained Mire
+.379	1	Bogardan Hellkite
+.1713	1	Bonesplitter
+.1381	1	Bonesplitter Sliver
+.1651	1	Boros Garrison
+.1642	1	Boros Signet
+.499	1	Brainstorm
+.1639	1	Breeding Pool
+.1766	1	Bringer of the Black Dawn
+.1765	1	Bringer of the Blue Dawn
+.1767	1	Bringer of the Green Dawn
+.1443	1	Broodmate Dragon
+.1841	1	Browbeat
+.1329	1	Bull Cerodon
+.354	1	Buried Alive
+.1886	1	Burning Wish
+.1506	1	Cabal Coffers
+.1734	1	Cabal Ritual
+.1507	1	Cadaverous Bloom
+.1312	1	Cancel
+.1699	1	Careful Consideration
+.1440	1	Careful Study
+.1855	1	Carnival of Souls
+.1735	1	Carnophage
+.1251	1	Carven Caryatid
+.1505	1	Channel the Suns
+.1253	1	Char
+.1769	1	Child of Alara
+.1686	1	Chromatic Sphere
+.1685	1	Chromatic Star
+.1718	1	Chrome Mox
+.1413	1	Cloudcrown Oak
+.1464	1	Cloudgoat Ranger
+.1994	1	Cloud of Faeries
+.1956	1	Collective Restraint
+.555	1	Compulsive Research
+.1509	1	Corrupt
+.1778	1	Courier's Capsule
+.1805	1	Court Archers
+.1777	1	Covetous Dragon
+.1724	1	Cranial Plating
+.390	1	Crop Rotation
+.1912	1	Crucible of Worlds
+.1503	1	Cruel Bargain
+.325	1	Cruel Tutor
+.1504	1	Cruel Ultimatum
+.1931	1	Cryptic Command
+.1382	1	Crystalline Sliver
+.1738	1	Cursecatcher
+.1275	1	Damnation
+.1723	1	Dark Confidant
+.1844	1	Dark Depths
+.1682	1	Darksteel Citadel
+.592	1	Darksteel Ingot*
+.1817	1	Dauthi Horror
+.1818	1	Dauthi Marauder
+.1819	1	Dauthi Mercenary
+.1820	1	Dauthi Slayer*
+.1821	1	Dauthi Warlord
+.1750	1	Daze
+.1795	1	Death Cloud
+.1515	1	Death Grasp
+.1890	1	Demonic Consultation
+.1701	1	Deranged Hermit
+.1797	1	Desolation Angel
+.1484	1	Diabolic Edict
+.1652	1	Dimir Aqueduct
+.1643	1	Dimir Signet
+.1687	1	Disciple of the Vault
+.1353	1	Dismiss
+.1752	1	Disrupt
+.1428	1	Disturbed Burial
+.1742	1	Door to Nothingness
+.1446	1	Douse in Gloom
+.1812	1	Draco
+.1449	1	Dragon Fodder
+.1854	1	Dragonstorm
+.1829	1	Drifter il-Dal
+.1846	1	Duress
+.1783	1	Dwarven Ruins
+.1794	1	Early Harvest
+.1785	1	Ebon Stronghold
+.1463	1	Eladamri, Lord of Leaves
+.348	1	Eladamri's Call
+.566	1	Electrolyze
+.1429	1	Elvish Fury
+.1892	1	Elvish Spirit Guide
+.1363	1	Elvish Visionary
+.1866	1	Empty the Warrens
+.1780	1	Empyrial Plate
+.349	1	Enlightened Tutor
+.351	1	Entomb
+.1879	1	Etherium Sculptor
+.629	1	Eureka
+.1430	1	Evincar's Justice
+.356	1	Exclude
+.1674	1	Exploration
+.1471	1	Explosive Vegetation
+.1295	1	Eye of Nowhere
+.322	1	Fabricate
+.1538	1	Farhaven Elf
+.307	1	Farseek
+.1933	1	Figure of Destiny
+.1782	1	Fire // Ice
+.1762	1	Fireblast
+.1961	1	Fires of Yavimaya
+.1417	1	Flame Javelin
+.367	1	Flame Rift
+.1850	1	Flash
+.1488	1	Flooded Strand
+.1840	1	Forbid
+.1893	1	Forbidden Orchard
+.1717	1	Force of Will
+.1987	1	Forgotten Cave
+.1395	1	Frantic Search
+.1370	1	Fusion Elemental
+.1293	1	Fyndhorn Elves
+.1741	1	Gaddock Teeg
+.1371	1	Gaea's Anthem
+.319	1	Gaea's Cradle
+.1244	1	Gaea's Skyfolk
+.1914	1	Gempalm Incinerator
+.1915	1	Genesis
+.1784	1	Geothermal Crevice
+.1764	1	Gerrard's Verdict
+.1276	1	Ghostfire
+.1856	1	Glimpse of Nature
+.610	1	Glimpse the Unthinkable
+.1720	1	Goblin Grenade
+.1763	1	Goblin Lackey
+.791	1	Goblin Lore
+.1858	1	Goblin Matron
+.1798	1	Goblin Piledriver
+.1860	1	Goblin Ringleader
+.1859	1	Goblin Sharpshooter
+.1813	1	Goblin Tutor
+.1692	1	Goblin Warchief
+.1635	1	Godless Shrine
+.1288	1	Goldmeadow Harrier
+.1466	1	Goldmeadow Stalwart
+.1650	1	Golgari Rot Farm
+.1641	1	Golgari Signet
+.1880	1	Grand Arbiter Augustin IV
+.1051	1	Graveborn Muse
+.310	1	Grim Monolith
+.327	1	Grim Tutor
+.1241	1	Groundbreaker
+.1644	1	Gruul Signet
+.1653	1	Gruul Turf
+.1806	1	Guardians of Akrasa
+.1751	1	Gush
+.1637	1	Hallowed Fountain
+.1243	1	Harmonize
+.1996	1	Hatred
+.1789	1	Havenwood Battleground
+.1693	1	Heart Sliver
+.1248	1	Heartbeat of Spring
+.1776	1	Helldozer
+.671	1	Hellfire
+.378	1	Hellkite Overlord*
+.1711	1	Helm of Awakening
+.1771	1	Hidetsugu's Second Rite
+.1991	1	High Tide
+.1748	1	Honden of Night's Reach
+.1745	1	Honden of Seeing Winds
+.1383	1	Horned Sliver
+.1457	1	Hymn to Tourach
+.328	1	Idyllic Tutor
+.331	1	Imperial Seal
+.1461	1	Imperious Perfect
+.1358	1	Indomitable Ancients
+.1502	1	Infernal Contract
+.1270	1	Inkfathom Divers
+.1772	1	Innocent Blood
+.1291	1	Iridescent Angel
+.1787	1	Irrigation Ditch
+.1239	1	Isamaru, Hound of Konda
+.1654	1	Izzet Boilerworks
+.559	1	Izzet Signet
+.1862	1	Jenara, Asura of War
+.1672	1	Jhessian Infiltrator
+.1545	1	Jokulhaups
+.1309	1	Keen Sense
+.1935	1	Kitchen Finks
+.1721	1	Kjeldoran Outpost
+.1414	1	Knight of Meadowgrain
+.598	1	Knight of Stromgald
+.358	1	Kodama's Reach
+.594	1	Kokusho, the Evening Star
+.1445	1	Last Gasp
+.1514	1	Last Stand
+.1744	1	Honden of Cleansing Fire
+.1749	1	Honden of Infinite Rage
+.1747	1	Honden of Life's Web
+.1290	1	Lava Spike
+.357	1	Lay of the Land
+.1415	1	Leaf Gilder
+.1236	1	Leonin Skyhunter
+.1967	1	Life from the Loam
+.1779	1	Lightning Greaves
+.1898	1	Lion's Eye Diamond
+.1919	1	Living Death
+.1988	1	Lonely Sandbar
+.1828	1	Looter il-Kor
+.1076	1	Lord of the Undead
+.1424	1	Lotus Petal
+.1368	1	Loxodon Hierarch
+.1781	1	Loxodon Warhammer
+.1768	1	Maelstrom Archangel
+.1882	1	Magister Sphinx
+.1731	1	Magnivore
+.1313	1	Magus of the Abyss
+.1266	1	Magus of the Arena
+.1249	1	Magus of the Bazaar
+.1282	1	Magus of the Candelabra
+.1283	1	Magus of the Disk
+.1284	1	Magus of the Library
+.1286	1	Magus of the Mirror
+.1314	1	Magus of the Moat
+.1261	1	Magus of the Moon
+.1287	1	Magus of the Tabernacle
+.720	1	Mana Drain
+.1696	1	Manamorphose
+.1691	1	Martial Coup
+.1706	1	Master of Etherium
+.1815	1	Master Transmuter
+.1921	1	Meddling Mage
+.587	1	Meditate
+.1831	1	Meloku the Clouded Mirror
+.1900	1	Memory Jar
+.1456	1	Memory Lapse
+.1970	1	Mental Note
+.602	1	Merfolk Looter
+.1384	1	Metallic Sliver
+.1378	1	Might Sliver
+.1089	1	Mind Sludge
+.1775	1	Mind Stone
+.1307	1	Mire Boa
+.1376	1	Mirri, Cat Warrior
+.1354	1	Mogg Fanatic
+.1279	1	Moonglove Extract
+.1311	1	Moroii
+.381	1	Mortify
+.457	1	Mox Diamond
+.1377	1	Muscle Sliver
+.352	1	Mystical Tutor
+.1679	1	Nantuko Husk
+.1705	1	Necropotence
+.1280	1	Nessian Courser
+.1793	1	Nezumi Shortfang*
+.733	1	Nicol Bolas
+.1510	1	Night's Whisper
+.1838	1	Nightscape Familiar
+.1683	1	Nimble Mongoose
+.1804	1	Noble Hierarch
+.1739	1	Nyxathid
+.1902	1	Oath of Druids
+.1100	1	Obliterate
+.1394	1	Opportunity
+.572	1	Order of Leitbur
+.574	1	Order of the Ebon Hand
+.597	1	Order of the White Shield
+.562	1	Orzhov Basilica
+.1645	1	Orzhov Signet
+.1631	1	Overgrown Tomb
+.1796	1	Oversold Cemetery
+.1418	1	Oversoul of Dusk
+.1851	1	Pact of Negation
+.588	1	Path to Exile
+.1678	1	Pattern of Rebirth*
+.1839	1	Pernicious Deed
+.334	1	Personal Tutor
+.1406	1	Pillage
+.1385	1	Plated Sliver
+.1308	1	Platinum Angel
+.1757	1	Plumeveil
+.1487	1	Polluted Delta
+.312	1	Ponder
+.1262	1	Porphyry Nodes
+.1760	1	Pox
+.1727	1	Price of Progress
+.1867	1	Primal Forcemage
+.1361	1	Prodigal Pyromancer
+.1675	1	Progenitus
+.1975	1	Propaganda
+.1498	1	Prosperity
+.1853	1	Protean Hulk
+.1544	1	Punish Ignorance
+.301	1	Putrefy
+.1992	1	Putrid Leech
+.1861	1	Qasali Pridemage
+.1451	1	Raise the Alarm
+.1656	1	Rakdos Carnarium
+.1647	1	Rakdos Signet
+.1681	1	Rancor
+.1941	1	Ranger of Eos
+.1843	1	Ravages of War
+.1722	1	Reanimate
+.1712	1	Reap and Sow
+.570	1	Recoil
+.1245	1	Recollect
+.1924	1	Recurring Nightmare
+.1876	1	Reflecting Pool
+.1694	1	Reflex Sliver
+.1432	1	Reiterate*
+.1863	1	Relentless Rats
+.1455	1	Remand
+.1352	1	Repulse
+.1807	1	Rhox Charger
+.1357	1	Rhox War Monk
+.1367	1	Rip-Clan Crasher
+.1730	1	Rite of Flame
+.1255	1	River Boa
+.1372	1	Rockslide Elemental
+.361	1	Rofellos, Llanowar Emissary
+.1269	1	Rorix Bladewing
+.1610	1	Rootwater Hunter
+.1788	1	Ruins of Trokair
+.1753	1	Rumbling Slum
+.1632	1	Sacred Foundry
+.1736	1	Sage's Dousing
+.1470	1	Sakura-Tribe Elder
+.1977	1	Saproling Burst
+.1836	1	Sarcomancy
+.1373	1	Scavenger Drake
+.1740	1	Scepter of Fugue
+.1460	1	Scion of Oona
+.1433	1	Searing Touch
+.1989	1	Secluded Steppe
+.1434	1	Seething Anger
+.1423	1	Seething Song
+.1649	1	Selesnya Sanctuary
+.1640	1	Selesnya Signet
+.402	1	Sensei's Divining Top
+.1364	1	Serra Sphinx
+.386	1	Shard Volley
+.1881	1	Sharuum the Hegemon
+.1435	1	Shattering Pulse
+.1758	1	Show and Tell
+.362	1	Shrapnel Blast
+.1316	1	Shrieking Grotesque
+.1716	1	Siege-Gang Commander
+.1800	1	Sigiled Paladin
+.1238	1	Silver Knight
+.1359	1	Silvergill Adept
+.1268	1	Silvos, Rogue Elemental
+.1904	1	Simian Spirit Guide
+.1657	1	Simic Growth Chamber
+.1648	1	Simic Signet
+.1232	1	Simic Sky Swallower
+.1386	1	Sinew Sliver
+.1809	1	Skirk Prospector
+.1714	1	Skullclamp
+.1235	1	Skyknight Legionnaire
+.1475	1	Slith Ascendant
+.1478	1	Slith Bloodletter
+.1477	1	Slith Firewalker
+.1476	1	Slith Predator
+.1438	1	Sliver Queen
+.1759	1	Smallpox
+.1426	1	Smash to Smithereens
+.1344	1	Snap
+.1822	1	Soltari Foot Soldier
+.1824	1	Soltari Monk
+.1825	1	Soltari Priest
+.1823	1	Soltari Trooper
+.581	1	Soul Warden
+.1480	1	Spawnwrithe
+.1263	1	Spark Elemental
+.1310	1	Spectral Lynx
+.1453	1	Spectral Procession
+.1436	1	Spell Burst
+.1737	1	Spell Snare
+.1702	1	Sphere of Resistance
+.1155	1	Spiketail Hatchling
+.1387	1	Spinneret Sliver
+.1299	1	Spirit of the Night
+.1388	1	Spitting Sliver
+.1719	1	Springleaf Drum
+.1925	1	Squee, Goblin Nabob
+.1422	1	Stalker Hag
+.1729	1	Standstill
+.1636	1	Steam Vents
+.1300	1	Steel Wall
+.1697	1	Stitch Together
+.1224	1	Stoic Angel
+.1634	1	Stomping Ground
+.1726	1	Stonybrook Banneret
+.1811	1	Stratadon
+.1289	1	Streetbreaker Wurm
+.1826	1	Stronghold Overseer
+.1786	1	Sulfur Vent
+.1852	1	Summoner's Pact
+.1906	1	Sundering Titan
+.1792	1	Svyelunite Temple
+.1698	1	Survival of the Fittest
+.341	1	Sylvan Scrying
+.342	1	Sylvan Tutor
+.1389	1	Talon Sliver
+.1733	1	Tarmogoyf
+.1837	1	Tattermunge Maniac*
+.1499	1	Temple Garden
+.1709	1	Temple of the False God
+.1848	1	Tendrils of Agony
+.1513	1	Tendrils of Corruption
+.1469	1	Terramorphic Expanse
+.1732	1	Terravore
+.372	1	Test of Endurance
+.441	1	Thirst for Knowledge
+.1703	1	Thorn of Amethyst
+.1761	1	Thoughts of Ruin
+.1945	1	Tidehollow Sculler
+.1362	1	Tidehollow Strix
+.1393	1	Tidings
+.1425	1	Time Stretch
+.1790	1	Tinder Farm
+.1351	1	Tinker
+.317	1	Tolarian Academy
+.1857	1	Tombstalker
+.517	1	Tooth and Nail
+.1366	1	Topan Ascetic
+.1754	1	Tower of Fortunes
+.1990	1	Tranquil Thicket
+.1984	1	Traumatize
+.1946	1	Treetop Village
+.1827	1	Trespasser il-Vec
+.1511	1	Tribal Flames
+.1909	1	Trinisphere*
+.1271	1	Twincast
+.1993	1	Undead Warchief
+.1490	1	Undermine
+.359	1	Upheaval
+.333	1	Vampiric Tutor
+.1390	1	Venser's Sliver
+.1256	1	Volcanic Geyser
+.1550	1	Voltaic Key
+.1320	1	Vulshok Sorcerer
+.1814	1	Wall of Reverence
+.1419	1	Wasp Lancer
+.1728	1	Wasteland
+.1391	1	Watcher Sliver
+.1297	1	Watchwolf
+.1633	1	Watery Grave
+.1808	1	Waveskimmer Aven
+.1468	1	Wayfarer's Bauble
+.1756	1	Weird Harvest
+.1684	1	Werebear
+.1437	1	Whispers of the Muse
+.567	1	Wildfire
+.1421	1	Wilt-Leaf Cavaliers
+.1949	1	Wilt-Leaf Liege*
+.1950	1	Windbrisk Heights
+.309	1	Windfall
+.1473	1	Windswept Heath
+.1392	1	Winged Sliver
+.1816	1	Wirewood Symbiote
+.1420	1	Wistful Selkie
+.1458	1	Wizened Cenn
+.1474	1	Wooded Foothills
+.1369	1	Woolly Thoctar
+.344	1	Worldly Tutor
+.1278	1	Wrecking Ball
+.1360	1	Wren's Run Vanquisher
+.1770	1	Wydwen, the Biting Gale
+.1704	1	Yawgmoth's Bargain
+.1910	1	Yawgmoth's Will*
+.1501	1	Zuran Orb
+.1294	1	Zuran Spellcaster
+
+;m11a
+;
+;User
+;User E-Mail
+;04/08/2010
+;1
+;4th Edition
+;
+
+.1975	1	Acidic Slime
+.1931	1	Act of Treason
+.1930	1	Æther Adept
+.1929	1	Air Servant
+.807	1	Ajani Goldmane
+.1959	1	Ajani's Mantra
+.1957	1	Ajani's Pridemate
+.1927	1	Alluring Siren
+.1926	1	Ancient Hellkite
+.1956	1	Angelic Arbiter
+.1973	1	Angel's Feather
+.1925	1	Arc Runner
+.1955	1	Armored Ascension
+.1924	1	Armored Cancrix
+.1990	1	Assassinate
+.1954	1	Assault Griffin
+.1923	1	Augury Owl
+.1922	1	Awakener Druid
+.1921	1	Back to Nature
+.1994	1	Baneslayer Angel
+.1920	1	Barony Vampire
+.1919	1	Berserkers of Blood Ridge
+.1918	1	Blinding Mage
+.1917	1	Blood Tithe
+.1916	1	Bloodcrazed Goblin
+.1915	1	Bloodthrone Vampire
+.1914	1	Bog Raiders
+.1913	1	Brindle Boar
+.1912	1	Brittle Effigy
+.1911	1	Call to Mind
+.1312	1	Cancel
+.1910	1	Canyon Minotaur
+.1909	1	Captivating Vampire*
+.1953	1	Celestial Purge
+.809	1	Chandra Nalaar
+.1907	1	Chandra's Spitfire
+.1906	1	Child of Night
+.1952	1	Cloud Crusader
+.1905	1	Cloud Elemental
+.1904	1	Combust*
+.1951	1	Condemn
+.1969	1	Conundrum Sphinx
+.1903	1	Crystal Ball
+.1902	1	Cudgel Troll
+.1901	1	Cultivate
+.1900	1	Cyclops Gladiator
+.1899	1	Dark Tutelage
+.1617	1	Day of Judgment
+.1898	1	Deathmark
+.1897	1	Demon of Death's Gate
+.1896	1	Destructive Force
+.1895	1	Diminish
+.1894	1	Disentomb
+.1893	1	Doom Blade
+.1967	1	Dragonskull Summit
+.1965	1	Drowned Catacomb
+.1892	1	Dryad's Favor
+.1846	1	Duress
+.1891	1	Duskdale Wurm
+.1993	1	Elite Vanguard
+.1889	1	Elixir of Immortality
+.1974	1	Elvish Archdruid
+.1888	1	Ember Hauler
+.1950	1	Excommunicate
+.1887	1	Fauna Shaman
+.1886	1	Fiery Hellhound
+.1885	1	Fire Servant
+.1883	1	Flashfreeze
+.1881	1	Fling
+.1797	1	Foresee
+.1880	1	Frost Titan*
+.1879	1	Gaea's Revenge*
+.1878	1	Gargoyle Sentinel
+.802	1	Garruk Wildspeaker
+.1877	1	Garruk's Companion
+.1876	1	Garruk's Packleader
+.1964	1	Glacial Fortress
+.1977	1	Goblin Chieftain
+.1875	1	Goblin Piker
+.1976	1	Goblin Tunneler
+.1874	1	Grave Titan
+.1882	1	Greater Basilisk
+.1873	1	Harbor Serpent
+.1988	1	Haunting Echoes
+.1872	1	Hoarding Dragon
+.1992	1	Honor of the Pure
+.1871	1	Hornet Sting
+.1870	1	Howling Banshee
+.1869	1	Hunters' Feast
+.1868	1	Ice Cage*
+.1867	1	Incite
+.1948	1	Infantry Veteran
+.1866	1	Inferno Titan 
+.1947	1	Inspired Charge
+.804	1	Jace Beleren
+.1865	1	Jace's Erasure
+.1864	1	Jace's Ingenuity
+.1862	1	Jinxed Idol
+.1946	1	Knight Exemplar
+.1861	1	Leyline of Punishment*
+.1860	1	Leyline of Sanctity*
+.1987	1	Leyline of the Void
+.1859	1	Leyline of Vitality
+.808	1	Liliana Vess
+.1858	1	Liliana's Caress
+.1857	1	Liliana's Specter
+.1856	1	Magma Phoenix
+.1855	1	Manic Vandal
+.1854	1	Maritime Guard
+.1853	1	Mass Polymorph
+.1983	1	Merfolk Sovereign
+.1852	1	Merfolk Spy
+.1945	1	Mighty Leap
+.1851	1	Mind Control
+.1850	1	Mitotic Slime
+.1849	1	Mystifying Maze
+.1848	1	Nature's Spiral
+.1845	1	Necrotic Plague
+.1844	1	Nether Horror
+.1842	1	Obstinate Baloth
+.1841	1	Overwhelming Stampede
+.1944	1	Palace Guard
+.1840	1	Phantom Beast*
+.1839	1	Phylactery Lich
+.1308	1	Platinum Angel
+.1838	1	Plummet
+.1837	1	Preordain
+.1836	1	Primal Cocoon
+.1833	1	Primeval Titan
+.1832	1	Prized Unicorn
+.1361	1	Prodigal Pyromancer
+.1831	1	Protean Hydra
+.1830	1	Pyretic Ritual
+.1829	1	Quag Sickness
+.1828	1	Reassembling Skeleton
+.1863	1	Relentless Rats
+.1827	1	Reverberate
+.1826	1	Rise from the Grave*
+.1943	1	Roc Egg
+.1961	1	Rootbound Crag
+.1825	1	Rotting Legion
+.1824	1	Runeclaw Bear
+.1823	1	Sacred Wolf*
+.1941	1	Safe Passage
+.1822	1	Scroll Thief
+.1940	1	Serra Ascendant
+.1821	1	Shiv's Embrace
+.1939	1	Siege Mastodon
+.1986	1	Sign in Blood
+.1938	1	Silence
+.1820	1	Sleep
+.1937	1	Solemn Offering
+.1819	1	Sorcerer's Strongbox
+.1936	1	Squadron Hawk
+.1818	1	Stabbing Pain
+.1817	1	Steel Overseer
+.1816	1	Stone Golem
+.1405	1	Stormfront Pegasus
+.1935	1	Sun Titan
+.1814	1	Sword of Vengeance
+.1813	1	Sylvan Ranger
+.1812	1	Temple Bell
+.1469	1	Terramorphic Expanse
+.1811	1	Thunder Strike
+.1810	1	Time Reversal
+.1934	1	Tireless Missionaries
+.1980	1	Tome Scour
+.1984	1	Traumatize
+.1933	1	Vengeful Archon
+.1809	1	Viscera Seer
+.1808	1	Volcanic Strength
+.1958	1	Voltaic Key
+.1807	1	Vulshok Berserker
+.1804	1	Warlord's Axe
+.1806	1	Wall of Frost
+.1802	1	Water Servant
+.1803	1	Whispersilk Cloak
+.1801	1	Wild Evocation
+.1968	1	Wurm's Tooth
+.1800	1	Yavimaya Wurm
+.573	1	Azure Drake
+.16	1	Black Knight
+.15	1	Birds of Paradise
+.1908	1	Chandra's Outrage
+.39	1	Clone
+.1989	1	Corrupt
+.1971	1	Dragon's Claw
+.1015	1	Demolish
+.1972	1	Demon's Horn
+.1017	1	Diabolic Tutor
+.84	1	Fireball
+.88	1	Fog
+.1949	1	Goldenglow Moth
+.1890	1	Earth Servant
+.97	1	Giant Growth
+.98	1	Giant Spider
+.101	1	Goblin Balloon Brigade
+.1979	1	Gravedigger
+.112	1	Holy Strength
+.259	1	Unholy Strength
+.132	1	Juggernaut
+.1970	1	Kraken's Eye
+.1066	1	Lava Axe
+.149	1	Llanowar Elves
+.145	1	Lightning Bolt
+.1078	1	Mana Leak
+.1087	1	Mind Rot
+.1260	1	Nantuko Shade
+.1096	1	Naturalize
+.1982	1	Negate
+.1843	1	Nightwing Shade
+.1798	1	Silvercoat Lion
+.514	1	Ornithopter
+.1121	1	Pyroclasm
+.968	1	Pacifism
+.209	1	Royal Assassin
+.1815	1	Stormtide Leviathan
+.221	1	Serra Angel
+.1156	1	Spined Wurm
+.1960	1	Sunpetal Grove
+.538	1	Triskelion
+.260	1	Unsummon
+.1991	1	Wild Griffin
+.1805	1	Wall of Vines
+.283	1	White Knight
+.1932	1	War Priest of Thune
+M11
+Zendikar
+Fallen Empires
+cube
+.;Shards Block
+;
+;Underdogs
+;no.spam@plea.se
+;06/08/2009
+;1
+;4th Edition
+;
+
+.1799	1	Akrasan Squire
+.1592	1	Algae Gharial
+.1803	1	Angelic Benediction
+.1206	1	Arcane Sanctum
+.1802	1	Aven Squire
+.1801	1	Battlegrace Angel
+.1337	1	Blightning
+.1443	1	Broodmate Dragon
+.1329	1	Bull Cerodon
+.1312	1	Cancel
+.1769	1	Child of Alara
+.1778	1	Courier's Capsule
+.1805	1	Court Archers
+.1504	1	Cruel Ultimatum
+.1202	1	Crumbling Necropolis
+.1233	1	Deft Duelist
+.1449	1	Dragon Fodder
+.1363	1	Elvish Visionary
+.1479	1	Esper Cormorants
+.1879	1	Etherium Sculptor
+.1521	1	Font of Mythos
+.1370	1	Fusion Elemental
+.1304	1	Galina's Knight
+.1518	1	Godsire
+.1806	1	Guardians of Akrasa
+.378	1	Hellkite Overlord*
+.1323	1	Infest
+.1520	1	Inkwell Leviathan
+.1862	1	Jenara, Asura of War
+.1672	1	Jhessian Infiltrator
+.1203	1	Jungle Shrine
+.1324	1	Kiss of the Amesha
+.1303	1	Llanowar Knight
+.1968	1	Lord of Extinction
+.1920	1	Lorescale Coatl
+.1768	1	Maelstrom Archangel
+.1937	1	Maelstrom Pulse
+.1882	1	Magister Sphinx
+.1691	1	Martial Coup
+.1706	1	Master of Etherium
+.1815	1	Master Transmuter
+.1542	1	Matca Rioters
+.1921	1	Meddling Mage
+.1804	1	Noble Hierarch
+.1619	1	Obelisk of Alara
+.1739	1	Nyxathid
+.588	1	Path to Exile
+.1675	1	Progenitus
+.1544	1	Punish Ignorance
+.1992	1	Putrid Leech
+.1861	1	Qasali Pridemage
+.1941	1	Ranger of Eos
+.1807	1	Rhox Charger
+.1357	1	Rhox War Monk
+.1367	1	Rip-Clan Crasher
+.1372	1	Rockslide Elemental
+.1539	1	Sanctum Gargoyle
+.1204	1	Savage Lands
+.1373	1	Scavenger Drake
+.1740	1	Scepter of Fugue
+.1205	1	Seaside Citadel
+.1881	1	Sharuum the Hegemon
+.1800	1	Sigiled Paladin
+.1224	1	Stoic Angel
+.1472	1	Terminate
+.1945	1	Tidehollow Sculler
+.1362	1	Tidehollow Strix
+.1366	1	Topan Ascetic
+.1356	1	Tower Gargoyle
+.260	1	Unsummon
+.1948	1	Volcanic Fallout
+.1814	1	Wall of Reverence
+.1808	1	Waveskimmer Aven
+.1326	1	Wild Nacatl
+.1272	1	Yavimaya Barbarian
+.1951	1	Zealous Persecution
+.1614	1	Zombie Outlander
+;zendikar
+;
+;Salbei
+;no.spam@plea.se
+;18/07/2009
+;1
+;4th Edition
+;
+
+.27	1	Conqueror's Pledge
+.78	1	Felidar Sovereign
+.120	1	Iona, Shield of Emeria
+.289	1	Luminarch Ascension
+.613	1	Sorin Markov*
+.614	1	Malakir Bloodwitch
+.617	1	Vampire Nighthawk
+.619	1	Pyromancer Ascension
+.933	1	Scute Mob
+.934	1	Terra Stomper
+.945	1	Eternity Vessel
+.981	1	Expedition Map
+.984	1	Arid Mesa
+.1013	1	World Queller
+.1041	1	Archive Trap
+.1043	1	Hedron Crab
+.1052	1	Mindbreak Trap
+.1053	1	Rite Of Replication
+.1064	1	Sphinx of Jwar Isle
+.1072	1	Sphinx of Lost Truths
+.1074	1	Summoner's Bane
+.1086	1	Bloodchief Ascension
+.1088	1	Bloodghast
+.1095	1	Disfigure
+.1103	1	Gatekeeper of Malakir
+.1111	1	Guul Draz Specter
+.1127	1	Ob Nixilis, the Fallen
+.1129	1	Vampire Hexmage
+.1132	1	Vampire Lacerator
+.1136	1	Burst Lightning
+.1159	1	Chandra Ablaze
+.1163	1	Goblin Guide
+.1171	1	Beastmaster Ascension
+.1178	1	Harrow
+.1257	1	Lotus Cobra
+.1431	1	Nissa Revane
+.1500	1	Adventuring Gear
+.1501	1	Blade of the Bloodchief
+.1502	1	Blazing Torch
+.1503	1	Explorer's Scope
+.1504	1	Spidersilk Net
+.1505	1	Trailblazer's Boots
+.1506	1	Trusty Machete
+.1507	1	Hedron Scrabbler
+.1508	1	Carnage Altar
+.1509	1	Khalni Gem
+.1510	1	Akoum Refuge
+.1511	1	Crypt of Agadeem
+.1512	1	Emeria, the Sky Ruin
+.1513	1	Graypelt Refuge
+.1514	1	Jwar Isle Refuge
+.1515	1	Kabira Crossroads
+.1516	1	Kazandu Refuge
+.1517	1	Magosi, the Waterveil
+.1518	1	Piranha Marsh
+.1519	1	Sejiri Refuge
+.1520	1	Soaring Seacliff
+.1521	1	Teetering Peaks
+.1522	1	Turntimber Grove
+.1523	1	Valakut, the Molten Pinnacle
+.1524	1	Blood Seeker
+.1525	1	Bog Tatters
+.1526	1	Crypt Ripper
+.1527	1	Giant Scorpion
+.1528	1	Guul Draz Vampire
+.1529	1	Hagra Crocodile
+.1530	1	Halo Hunter
+.1531	1	Heartstabber Mosquito
+.1532	1	Kalitas, Bloodchief of Ghet
+.1534	1	Mindless Null
+.1535	1	Surrakar Marauder
+.1537	1	AEther Figment
+.1538	1	Caller of Gales
+.1540	1	Gomazoa
+.1541	1	Kraken Hatchling
+.1542	1	Living Tsunami
+.1543	1	Lorthos, the Tidemaker
+.1544	1	Merfolk Seastalkers
+.1545	1	Merfolk Wayfinder
+.1546	1	Reckless Scholar
+.1547	1	Roil Elemental
+.1548	1	Shoal Serpent
+.1549	1	Sky Ruin Drake
+.1550	1	Tempest Owl
+.1551	1	Welkin Tern
+.1552	1	Windrider Eel
+.1553	1	Bladetusk Boar
+.1554	1	Geyser Glider
+.1555	1	Goblin Bushwhacker
+.1556	1	Goblin Ruinblaster
+.1557	1	Goblin Shortcutter
+.1558	1	Hellfire Mongrel
+.1559	1	Hellkite Charger
+.1560	1	Molten Ravager
+.1562	1	Ruinous Minotaur
+.1563	1	Shatterskull Giant
+.1564	1	Torch Slinger
+.1565	1	Baloth Woodcrasher
+.1566	1	Frontier Guide
+.1567	1	Grazing Gladehart
+.1568	1	Nissa's Chosen
+.1569	1	Mold Shambler
+.1570	1	Rampaging Baloths
+.1571	1	Oran-Rief Recluse
+.1572	1	Scythe Tiger
+.1573	1	Territorial Baloth
+.1574	1	Timbermaw Larva
+.1575	1	Turntimber Basilisk
+.1576	1	Vastwood Gorger
+.1578	1	Armament Master
+.1579	1	Caravan Hurda
+.1580	1	Cliff Threader
+.1581	1	Devout Lightcaster
+.1582	1	Emeria Angel
+.1583	1	Kor Aeronaut
+.1584	1	Kor Cartographer
+.1585	1	Kor Hookmaster
+.1586	1	Kor Outfitter
+.1587	1	Kor Sanctifiers
+.1588	1	Kor Skyfisher
+.1589	1	Noble Vestige
+.1590	1	Pillarfield Ox
+.1591	1	Shepherd of the Lost
+.1592	1	Steppe Lynx
+.1593	1	Archmage Ascension
+.1594	1	Celestial Mantle
+.1595	1	Electropotence
+.1596	1	Gigantiform
+.1597	1	Goblin War Paint
+.1598	1	Ior Ruin Expedition
+.1599	1	Journey to Nowhere
+.1600	1	Khalni Heart Expedition
+.1601	1	Mire Blight
+.1602	1	Nimbus Wings
+.1603	1	Paralyzing Grasp
+.1604	1	Predatory Urge
+.1605	1	Pyromancer Ascension
+.1606	1	Quest for Ancient Secrets
+.1607	1	Quest for the Gemblades
+.1608	1	Quest for the Gravelord
+.1609	1	Quest for the Holy Relic
+.1610	1	Savage Silhouette
+.1611	1	Soul Stair Expedition
+.1612	1	Spreading Seas
+.1613	1	Sunspring Expedition
+.1614	1	Zektar Shrine Expedition
+.1615	1	Beast Hunt
+.1616	1	Blood Tribute
+.1617	1	Day of Judgment
+.1619	1	Desecrated Earth
+.1620	1	Elemental Appeal
+.1621	1	Feast of Blood
+.1622	1	Grim Discovery
+.1623	1	Landbind Ritual
+.1624	1	Magma Rift
+.1625	1	Marsh Flats
+.1626	1	Marsh Casualties
+.1627	1	Sadistic Sacrament
+.1628	1	Spire Barrage
+.1629	1	Trapfinder's Trick
+.1630	1	Windborne Charge
+.1631	1	Arrow Volley Trap
+.1632	1	Baloth Cage Trap
+.1633	1	Bold Defense
+.1634	1	Brave the Elements
+.1635	1	Cobra Trap
+.1636	1	Hideous End
+.1637	1	Inferno Trap
+.1638	1	Into the Roil
+.1639	1	Lavaball Trap
+.1640	1	Lethargy Trap
+.1641	1	Narrow Escape
+.1642	1	Needlebite Trap
+.1643	1	Pitfall Trap
+.1644	1	Primal Bellow
+.1645	1	Punishing Fire
+.1646	1	Ravenous Trap
+.1647	1	Relic Crush
+.1648	1	Runeflare Trap
+.1649	1	Seismic Shudder
+.1650	1	Shieldmate's Blessing
+.1651	1	Slaughter Cry
+.1652	1	Spell Pierce
+.1653	1	Summoning Trap
+.1654	1	Tanglesap
+.1655	1	Trapmaker's Snare
+.1656	1	Unstable Footing
+.1657	1	Vampire's Bite
+.1658	1	Vines of Vastwood
+.1659	1	Whiplash Trap
+.1660	1	Bala Ged Thief
+.1661	1	Hagra Diabolist
+.1662	1	Highland Berserker
+.1663	1	Joraga Bard
+.1664	1	Kabira Evangel
+.1665	1	Kazandu Blademaster
+.1666	1	Kazuul Warlord
+.1667	1	Makindi Shieldmate
+.1668	1	Murasa Pyromancer
+.1669	1	Nimana Sell-Sword
+.1670	1	Ondu Cleric
+.1671	1	Oran-Rief Survivalist
+.1672	1	Sea Gate Loremaster
+.1673	1	Seascape Aerialist
+.1674	1	Stonework Puma
+.1675	1	Tajuru Archer
+.1676	1	Tuktuk Grunts
+.1677	1	Turntimber Ranger
+.1678	1	Umara Raptor
+.1679	1	Greenweaver Druid
+.1680	1	Oracle of Mul Daya
+.1681	1	Zendikar Farguide
+.1682	1	Mark of Mutiny
+.1834	1	Misty Rainforest
+.1985	1	Oran-Rief, the Vastwood
+.1981	1	Scalding Tarn
+.1959	1	Verdant Catacombs
+.1928	1	Plated Geopede
+
+

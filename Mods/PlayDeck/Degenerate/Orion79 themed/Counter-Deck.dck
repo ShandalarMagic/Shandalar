@@ -1,0 +1,27 @@
+;Counter-Deck
+;Blue 1.5
+;Mattia Loy // Orion79
+;orpheananger@hotmail.com
+;03/10/2009
+;1
+;4th Edition
+;Almost a counterspell-only deck: its only goal is to draw as much as possible and to counterspell everything played by opponent, taking advantage from counterspells with multiple effects as Absorb or Dismiss. It kills with Inkwell Leviathan, that has "shroud" and is hard to kill.
+
+.48	4	Counterspell
+.9105	4	Cryptic Command
+.2452	4	Dissipate
+.2285	4	Force of Will
+.7242	1	Honden of Seeing Winds
+.1598	1	Inkwell Leviathan
+.10780	1	Jace, the Mind Sculptor
+.720	4	Mana Drain
+.1078	4	Mana Leak
+.191	2	Power Sink
+.1131	4	Rewind
+.1176	1	Treasure Trove
+.1375	4	Absorb
+.1489	2	Undermine
+.1206	4	Arcane Sanctum
+.254	4	Tundra
+.258	4	Underground Sea
+.126	8	Island

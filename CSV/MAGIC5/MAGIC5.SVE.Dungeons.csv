@@ -1,0 +1,16 @@
+Dungeon#;Card1;Card2;Card3;CardInEffect;MapX;MapY;NearTown;Color;EnemyType;Clues;Rules;NumVisits;Unknown
+0 Castle Necris;-1 NONE;-1 NONE;-1 NONE;208 Rod of Ruin;6;19;19;0b00000001;0x81;0b00000000;0x03;-1;0xFFFFFFFF
+1 Mysthold;-1 NONE;-1 NONE;-1 NONE;935 Flood;49;59;123;0b00000010;0x81;0b00000000;0x03;-1;0xFFFFFFFF
+2 Wildwood Steading;-1 NONE;-1 NONE;-1 NONE;262 Verduran Enchantress;30;40;112;0b00000011;0x81;0b00000000;0x03;-1;0xFFFFFFFF
+3 Dragon Mount;-1 NONE;-1 NONE;-1 NONE;192 Power Surge;24;33;66;0b00000100;0x81;0b00000000;0x03;-1;0xFFFFFFFF
+4 Citadel of the Sun;-1 NONE;-1 NONE;-1 NONE;28 Castle;21;39;13;0b00000101;0x81;0b00000000;0x03;-1;0xFFFFFFFF
+5 The Paths of Chronus;807 Balance;5708 Lotus Petal;6447 Mystical Tutor;939 Marsh Viper;25;25;96;0b00000011;0x03;0b00000000;0x81;-1;0xFFFFFFFF
+6 Ruins of Su-Chan;419 Ancestral Recall;10028 Time Walk;10032 Timetwister;867 Power Struggle;18;35;104;0b00000010;0x82;0b00000000;0x01;-1;0xFFFFFFFF
+7 Mound of the Warrior Kings;5559 Library of Alexandria;6212 Mishra's Workshop;6360 Mox Jet;51 Crusade;53;56;67;0b00000101;0x82;0b00000000;0x01;-1;0xFFFFFFFF
+8 Azar's Crypt;4813 Imperial Seal;10908 Wheel of Fortune;11166 Yawgmoth's Bargain;51 Crusade;38;12;97;0b00000101;0x03;0b00000000;0x01;-1;0xFFFFFFFF
+9 Soulchant Monastery;5842 Mana Crypt;10463 Vampiric Tutor;10990 Windfall;8 Bad Moon;50;30;122;0b00000001;0x03;0b00000000;0x21;-1;0xFFFFFFFF
+10 Cave of the Ice Worm;6359 Mox Emerald;6363 Mox Ruby;9446 Strip Mine;939 Marsh Viper;24;40;107;0b00000011;0x82;0b00000000;0x01;-1;0xFFFFFFFF
+11 Dungeons of Graaz Keep;2435 Demonic Tutor;3295 Fastbond;6364 Mox Sapphire;867 Power Struggle;27;14;99;0b00000010;0x82;0b00000000;0x01;-1;0xFFFFFFFF
+12 Tower of Whim;1021 Black Lotus;6527 Necropotence;8964 Sol Ring;867 Power Struggle;26;46;28;0b00000010;0x03;0b00000000;0x11;-1;0xFFFFFFFF
+13 Arjonot's Tomb;-1 NONE;6362 Mox Pearl;10060 Tolarian Academy;178 Orcish Oriflamme;47;56;103;0b00000100;0x82;0b00000110;0x0201;0;0xFFFFFFFF
+14 Altar of the Cyclops;1657 Channel;10027 Time Vault;10039 Tinker;51 Crusade;2;24;13;0b00000101;0x03;0b00000000;0x41;-1;0xFFFFFFFF

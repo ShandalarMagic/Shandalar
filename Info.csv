@@ -1,0 +1,1252 @@
+ID,Card Name,Short Name,Card Set,Color,Type,Subtype,Group,Occuran.,Mana Costs,Pow,Tuff
+0000,Air Elemental ,Air Elemental ,Magic,Blue,Summon,Elemental,None,Rare,000023,4,4
+0001,Ancestral Recall,Ancestral Recall,Magic,Blue,Instant,na,None,Rare,000010,na,na
+0002,Animate Artifact,Animate Artifact,Magic,Blue,Enchant,Artifact,None,Uncommon,000013,na,na
+0003,Animate Dead ,Animate Dead ,Magic,Black,Enchant,Dead Creature,None,Uncommon,000101,na,na
+0004,Animate Wall,Animate Wall,Magic,White,Enchant,Wall,None,Rare,100000,na,na
+0005,Ankh of Mishra,Ankh of Mishra,Magic,Brown,Artifact,Continuous,None,Rare,000002,na,na
+0006,Armageddon,Armageddon,Magic,White,Sorcery,na,None,Rare,100003,na,na
+0007,Aspect of Wolf,Aspect of Wolf,Magic,Green,Enchant,Creature,None,Rare,010001,na,na
+0008,Bad Moon,Bad Moon,Magic ,Black,Enchant,na,None,Rare,000101,na,na
+0009,Badlands,Badlands,Magic,Grey,Land,na,None,Rare,000000,na,na
+0010,Balance,Balance,Magic,White,Sorcery,na,None,Rare,100001,na,na
+0011,Basalt Monolith,Basalt Monolith,Magic,Brown,Artifact,Mono,None,Uncommon,000003,na,na
+0012,Bayou,Bayou,Magic,Grey,Land,na,None,Rare,000000,na,na
+0013,Benalish Hero,Benalish Hero,Magic,White,Summon,Hero,None,Common,100000,1,1
+0014,Berserk,Berserk,Magic,Green,Instant,na,None,Uncommon,010000,na,na
+0015,Birds of Paradise,Birds of Paradise,Magic,Green,Summon,Mana Birds,None,Rare,010000,0,1
+0016,Black Knight,Black Knight,Magic,Black,Summon,Knight,None,Uncommon,000200,2,2
+0017,Black Lotus,Black Lotus,Magic,Brown,Artifact,Mono,None,Rare,000000,na,na
+0018,Black Vise,Black Vise,Magic,Brown,Artifact,Continuous,None,Uncommon,000001,na,na
+0019,Black Ward,Black Ward,Magic,White,Enchant,Creature,None,Uncommon,100000,na,na
+0020,Blaze of Glory,Blaze of Glory,Magic,White,Instant,na,None,Rare,100000,na,na
+0021,Blessing,Blessing,Magic,White,Enchant,Creature,None,Rare,200000,na,na
+0022,Blue Elemental Blast,Blue Element Blast,Magic,Blue,Interrupt,na,None,Common,000010,na,na
+0023,Blue Ward,Blue Ward,Magic,White,Enchant,Creature,None,Uncommon,100000,na,na
+0024,Bog Wraith,Bog Wraith,Magic,Black,Summon,Wraith,None,Uncommon,000103,3,3
+0025,Braingeyser,Braingeyser,Magic,Blue,Sorcery,na,None,Rare,00002x,na,na
+0026,Burrowing,Burrowing,Magic,Red,Enchant,Creature,None,Uncommon,001000,na,na
+0027,Camouflage,Camouflage,Magic,Green,Instant,na,None,Rare,010000,na,na
+0028,Castle,Castle,Magic,White,Enchant,na,None,Uncommon,100003,na,na
+0029,Celestial Prism,Celestial Prism,Magic,Brown,Artifact,Mono,None,Uncommon,000003,na,na
+0030,Channel,Channel,Magic,Green,Sorcery,na,None,Uncommon,020000,na,na
+0031,Chaos Orb,Chaos Orb,Magic,Brown,Artifact,Mono,None,Rare,000002,na,na
+0032,Chaoslace ,Chaoslace ,Magic,Red,Interrupt,na,None,Rare,001000,na,na
+0033,Circle of Protection Black,Black Circle,Magic,White,Enchant,na,Prevent,Common,100001,na,na
+0034,Circle of Protection Blue,Blue Circle,Magic,White,Enchant,na,Prevent,Common,100001,na,na
+0035,Circle of Protection Green,Green Circle,Magic,White,Enchant,na,Prevent,Common,100001,na,na
+0036,Circle of Protection Red,Red Circle,Magic,White,Enchant,na,Prevent,Common,100001,na,na
+0037,Circle of Protection White,White Circle,Magic,White,Enchant,na,Prevent,Common,100001,na,na
+0038,Clockwork Beast,Clockwork Beast,Magic,Brown,Artifact,Creature,None,Rare,000006,0,4
+0039,Clone,Clone,Magic,Blue,Summon ,Clone,None,Uncommon,000013,x,x
+0040,Cockatrice,Cockatrice,Magic,Green,Summon,Cockatrice,None,Rare,020003,2,4
+0041,Consecrate Land,Consecrate Land,Magic,White,Enchant,Land,None,Uncommon,100000,na,na
+0042,Conservator,Conservator,Magic,Brown,Artifact,Mono,Prevent,Uncommon,000004,na,na
+0043,Contract from Below,Contract from Below,Magic,Black,Sorcery,na,None,Rare,000100,na,na
+0044,Control Magic ,Control Magic ,Magic,Blue,Enchant,Creature,None,Uncommon,000022,na,na
+0045,Conversion,Conversion,Magic ,White ,Enchant,na,None,Uncommon,200002,na,na
+0046,Copper Tablet,Copper Tablet,Magic,Brown,Artifact,Continuous,None,Rare,000002,na,na
+0047,Copy Artifact,Copy Artifact,Magic,Blue,Enchant,na,None,Rare,000011,na,na
+0048,Counterspell,Counterspell,Magic,Blue,Interrupt,na,None,Uncommon,000020,na,na
+0049,Craw Wurm,Craw Wurm,Magic,Green,Summon,Wurm,None,Common,020004,6,4
+0050,Creature Bond,Creature Bond,Magic,Blue,Enchant,Creature,None,Common,000011,na,na
+0051,Crusade,Crusade,Magic ,White,Enchant,na,None,Rare,200000,na,na
+0052,Crystal Rod,Crystal Rod,Magic,Brown,Artifact,Poly,None,Uncommon,000001,na,na
+0053,Cursed Land,Cursed Land,Magic,Black,Enchant,Land,None,Uncommon,000202,na,na
+0054,Cyclopean Tomb,Cyclopean Tomb,Magic,Brown,Artifact,Mono,None,Rare,000004,na,na
+0055,Dark Ritual,Dark Ritual,Magic,Black,Interrupt,na,None,Common,000100,na,na
+0056,Darkpact,Darkpact,Magic,Black,Sorcery,na,None,Rare,000300,na,na
+0057,Death Ward,Death Ward,Magic,White,Instant,na,None,Common,100000,na,na
+0058,Deathgrip,Deathgrip,Magic,Black,Enchant,na,None,Uncommon,000200,na,na
+0059,Deathlace,Deathlace,Magic,Black,Interrupt,na,None,Rare,000100,na,na
+0060,Demonic Attorney,Demonic Attorney,Magic,Black,Sorcery,na,None,Rare,000201,na,na
+0061,Demonic Hordes,Demonic Hordes,Magic,Black,Summon,Demon,None,Rare,000303,5,5
+0062,Demonic Tutor,Demonic Tutor,Magic,Black,Sorcery,na,None,Uncommon,000101,na,na
+0063,Dingus Egg,Dingus Egg,Magic,Brown,Artifact,Continuous,None,Rare,000004,na,na
+0064,Disenchant,Disenchant,Magic,White,Instant,na,None,Common,100001,na,na
+0065,Disintegrate,Disintegrate,Magic,Red,Sorcery,na,None,Common,00100x,na,na
+0066,Disrupting Sceptre,Disrupting Sceptre,Magic,Brown,Artifact,Mono,None,Rare,000003,na,na
+0067,Dragon Whelp,Dragon Whelp,Magic,Red,Summon,Dragon,None,Uncommon,002002,2,3
+0068,Drain Life,Drain Life,Magic,Black,Sorcery,na,None,Common,000101,na,na
+0069,Drain Power,Drain Power,Magic,Blue,Sorcery,na,None,Rare,000020,na,na
+0070,Drudge Skeletons,Drudge Skeletons,Magic,Black,Summon,Skeletons,None,Common,000101,1,1
+0071,Dwarven Demolition Team,Dwarven Sappers,Magic,Red,Summon,Dwarves,None,Uncommon,001002,1,1
+0072,Dwarven Warriors,Dwarven Warriors,Magic,Red,Summon,Dwarves,None,Common,001002,1,1
+0073,Earth Elemental,Earth Elemental,Magic,Red,Summon,Elemental,None,Uncommon,002003,4,5
+0074,Earthbind,Earthbind,Magic,Red,Enchant,Creature,None,Common,001000,na,na
+0075,Earthquake,Earthquake,Magic,Red,Sorcery,na,None,Rare,00100x,na,na
+0076,Elvish Archers,Elvish Archers,Magic,Green,Summon,Elves,None,Rare,010001,1,1
+0077,Evil Presence,Evil Presence,Magic,Black,Enchant,Land,None,Uncommon,000100,na,na
+0078,False Orders,False Orders,Magic,Red,Instant,na,None,Common,001000,na,na
+0079,Farmstead,Farmstead,Magic,White,Enchant,Land,None,Rare,300000,na,na
+0080,Fastbond,Fastbond,Magic,Green,Enchant,na,None,Rare,010000,na,na
+0081,Fear ,Fear ,Magic,Black,Enchant,Creature,None,Common,000200,na,na
+0082,Feedback,Feedback,Magic,Blue,Enchant,Enchant,None,Uncommon,000012,na,na
+0083,Fire Elemental ,Fire Elemental ,Magic,Red,Summon,Elemental,None,Uncommon,002003,5,4
+0084,Fireball,Fireball,Magic,Red,Sorcery,na,None,Common,00100x,na,na
+0085,Firebreathing,Firebreathing,Magic,Red,Enchant,Creature,None,Common,001000,na,na
+0086,Flashfires,Flashfires,Magic,Red,Sorcery,na,None,Uncommon,001003,na,na
+0087,Flight,Flight,Magic,Blue,Enchant,Creature,None,Common,000010,na,na
+0088,Fog,Fog,Magic,Green,Instant,na,None,Common,010000,na,na
+0089,Force of Nature,Force of Nature,Magic,Green,Summon,Force,None,Rare,040002,8,8
+0090,Forcefield,Forcefield,Magic,Brown,Artifact,Poly,Prevent,Rare,000003,na,na
+0091,Forest,Forest,Magic,Grey,Land,na,None,Common,000000,na,na
+0092,Fork,Fork,Magic,Red,Interrupt,na,None,Rare,002000,na,na
+0093,Frozen Shade,Frozen Shade,Magic,Black,Summon,Shade,None,Common,000102,0,1
+0094,Fungusaur,Fungusaur,Magic,Green,Summon,Fungusaur,None,Rare,010003,2,2
+0095,Gaea's Liege,Gaea's Liege,Magic,Green,Summon,Liege,None,Rare,030003,x,x
+0096,Gauntlet of Might,Gauntlet of Might,Magic,Brown,Artifact,Continuous,None,Rare,000004,na,na
+0097,Giant Growth,Giant Growth,Magic,Green,Instant,na,None,Common,010000,na,na
+0098,Giant Spider ,Giant Spider ,Magic,Green,Summon,Spider,None,Common,010003,2,4
+0099,Glasses of Urza,Glasses of Urza,Magic,Brown,Artifact,Mono,None,Uncommon,000001,na,na
+0100,Gloom,Gloom,Magic,Black,Enchant,na,None,Rare,000102,na,na
+0101,Goblin Balloon Brigade,Goblin Balloons,Magic,Red,Summon,Goblins,None,Uncommon,001000,1,1
+0102,Goblin King,Goblin King,Magic,Red,Summon,Lord,None,Rare,002001,2,2
+0103,Granite Gargoyle,Granite Gargoyle,Magic,Red,Summon,Gargoyle,None,Rare,001002,2,2
+0104,Gray Ogre,Gray Ogre,Magic,Red,Summon,Ogre,None,Common,001002,2,2
+0105,Green Ward,Green Ward,Magic,White,Enchant,Creature,None,Uncommon,100000,na,na
+0106,Grizzly Bears,Grizzly Bears,Magic,Green,Summon,Bears,None,Common,010001,2,2
+0107,Guardian Angel,Guardian Angel,Magic,White,Instant,na,Prevent,Common,10000x,na,na
+0108,Healing Salve ,Healing Salve ,Magic,White,Instant,na,Prevent,Common,100000,na,na
+0109,Helm of Chatzuk,Helm of Chatzuk,Magic,Brown,Artifact,Mono,None,Rare,000001,na,na
+0110,Hill Giant,Hill Giant,Magic,Red,Summon,Giant,None,Common,001003,3,3
+0111,Holy Armor,Holy Armor,Magic,White,Enchant,Creature,None,Common,100000,na,na
+0112,Holy Strength,Holy Strength,Magic,White,Enchant,Creature,None,Common,100000,na,na
+0113,Howl from Beyond,Howl from Beyond,Magic,Black,Instant,na,None,Common,00010x,na,na
+0114,Howling Mine,Howling Mine,Magic,Brown,Artifact,Continuous,None,Rare,000002,na,na
+0115,Hurloon Minotaur,Hurloon Minotaur,Magic,Red,Summon,Minotaur,None,Common,002001,2,3
+0116,Hurricane,Hurricane,Magic,Green,Sorcery,na,None,Uncommon,01000x,na,na
+0117,Hypnotic Spectre,Hypnotic Spectre,Magic,Black,Summon,Spectre,None,Uncommon,000201,2,2
+0118,Ice Storm,Ice Storm,Magic,Green,Sorcery,na,None,Rare,010002,na,na
+0119,Icy Manipulator,Icy Manipulator,Magic,Brown,Artifact,Mono,None,Uncommon,000004,na,na
+0120,Illusionary Mask,Illusionary Mask,Magic,Brown,Artifact,Poly,None,Rare,000002,na,na
+0121,Instill Energy,Instill Energy,Magic,Green,Enchant,Creature,None,Uncommon,010000,na,na
+0122,Invisibility,Invisibility,Magic,Blue,Enchant,Creature,None,Common,000020,na,na
+0123,Iron Star,Iron Star,Magic,Brown,Artifact,Poly,None,Uncommon,000001,na,na
+0124,Ironclaw Orcs,Ironclaw Orcs,Magic,Red,Summon,Orcs,None,Common,001001,2,2
+0125,Ironroot Treefolk,Ironroot Treefolk,Magic,Green,Summon,Treefolk,None,Common,010004,3,5
+0126,Island,Island,Magic,Grey,Land,na,None,Common,000000,na,na
+0127,Island Sanctuary,Island Sanctuary,Magic,White,Enchant,na,None,Rare,100001,na,na
+0128,Ivory Cup,Ivory Cup,Magic,Brown,Artifact,Poly,None,Uncommon,000001,na,na
+0129,Jade Monolith,Jade Monolith,Magic,Brown,Artifact,Poly,Redirect,Rare,000004,na,na
+0130,Jade Statue,Jade Statue,Magic,Brown,Artifact,Poly,None,Uncommon,000004,na,na
+0131,Jayemdae Tome,Jayemdae Tome,Magic,Brown,Artifact,Mono,None,Rare,000004,na,na
+0132,Juggernaut,Juggernaut,Magic,Brown,Artifact,Creature,None,Uncommon,000004,5,3
+0133,Jump,Jump,Magic,Blue,Instant,na,None,Common,000010,na,na
+0134,Karma,Karma,Magic,White,Enchant,na,None,Uncommon,200002,na,na
+0135,Keldon Warlord,Keldon Warlord,Magic,Red,Summon,Lord,None,Uncommon,002002,x,x
+0136,Kormus Bell,Kormus Bell,Magic,Brown,Artifact,Continuous,None,Rare,000004,na,na
+0137,Kudzu,Kudzu,Magic,Green,Enchant,Land,None,Rare,020001,na,na
+0138,Lance ,Lance ,Magic,White,Enchant,Creature,None,Uncommon,100000,na,na
+0139,Ley Druid,Ley Druid,Magic,Green,Summon,Cleric,None,Uncommon,010002,1,1
+0140,Library of Leng,Library of Leng,Magic,Brown,Artifact,Continuous,None,Uncommon,000001,na,na
+0141,Lich,Lich,Magic,Black,Enchant,na,None,Rare,000400,na,na
+0142,Lifeforce,Lifeforce,Magic,Green,Enchant,na,None,Uncommon,020000,na,na
+0143,Lifelace,Lifelace,Magic,Green,Interrupt,na,None,Rare,010000,na,na
+0144,Lifetap,Lifetap,Magic,Blue,Enchant,na,None,Uncommon,000020,na,na
+0145,Lightning Bolt,Lightning Bolt,Magic,Red,Instant,na,None,Common,001000,na,na
+0146,Living Artifact,Living Artifact,Magic,Green,Enchant,Artifact,None,Rare,010000,na,na
+0147,Living Lands,Living Lands,Magic,Green,Enchant,na,None,Rare,010003,na,na
+0148,Living Wall,Living Wall,Magic,Brown,Artifact,Wall,None,Uncommon,000004,0,6
+0149,Llanowar Elves,Llanowar Elves,Magic,Green,Summon,Elves,None,Common,010000,1,1
+0150,Lord of Atlantis,Lord of Atlantis,Magic,Blue,Summon,Lord,None,Rare,000020,2,2
+0151,Lord of the Pit,Lord of the Pit,Magic,Black,Summon,Demon,None,Rare,000304,7,7
+0152,Lure,Lure,Magic,Green,Enchant,Creature,None,Uncommon,020001,na,na
+0153,Magical Hack,Magical Hack,Magic,Blue,Interrupt,na,None,Rare,000010,na,na
+0154,Mahamoti Djinn,Mahamoti Djinn,Magic,Blue,Summon,Djinn,None,Rare,000024,5,6
+0155,Mana Flare,Mana Flare,Magic,Red,Enchant,na,None,Rare,001002,na,na
+0156,Mana Short,Mana Short,Magic,Blue,Instant,na,None,Rare,000012,na,na
+0157,Mana Vault,Mana Vault,Magic,Brown,Artifact,Mono,None,Rare,000001,na,na
+0158,Manabarbs,Manabarbs,Magic,Red,Enchant,na,None,Rare,001003,na,na
+0159,Meekstone,Meekstone,Magic,Brown,Artifact,Continuous,None,Rare,000001,na,na
+0160,Merfolk of the Pearl Trident,Merfolk,Magic,Blue,Summon,Merfolk,None,Common,000010,1,1
+0161,Mesa Pegasus,Mesa Pegasus,Magic,White,Summon,Pegasus,None,Common,100001,1,1
+0162,Mind Twist,Mind Twist,Magic,Black,Sorcery,na,None,Rare,00010x,na,na
+0163,Mons Goblin Raiders,Goblin Raiders,Magic,Red,Summon,Goblins,None,Common,001000,1,1
+0164,Mountain,Mountain,Magic,Grey,Land,na,None,Common,000000,na,na
+0165,Mox Emerald,Mox Emerald,Magic,Brown ,Artifact,Mono,None,Rare,000000,na,na
+0166,Mox Jet,Mox Jet,Magic,Brown ,Artifact,Mono,None,Rare,000000,na,na
+0167,Mox Pearl,Mox Pearl,Magic,Brown ,Artifact,Mono,None,Rare,000000,na,na
+0168,Mox Ruby ,Mox Ruby ,Magic,Brown ,Artifact,Mono,None,Rare,000000,na,na
+0169,Mox Sapphire,Mox Sapphire,Magic,Brown ,Artifact,Mono,None,Rare,000000,na,na
+0170,Natural Selection,Natural Selection,Magic,Green,Instant,na,None,Rare,010000,na,na
+0171,Nether Shadow,Nether Shadow,Magic,Black,Summon,Shadow,None,Rare,000200,1,1
+0172,Nettling Imp,Nettling Imp,Magic,Black,Summon,Imp,None,Uncommon,000102,1,1
+0173,Nevinyrral's Disk,Nevinyrral's Disk,Magic,Brown,Artifact,Mono,None,Rare,000004,na,na
+0174,Nightmare,Nightmare,Magic,Black,Summon,Nightmare,None,Rare,000105,x,x
+0175,Northern Paladin,Northern Paladin,Magic,White,Summon,Paladin,None,Rare,200002,3,3
+0176,Obsianus Golem,Obsianus Golem,Magic,Brown,Artifact,Creature,None,Uncommon,000006,4,6
+0177,Orcish Artillery,Orcish Artillery,Magic,Red,Summon,Orcs,None,Uncommon,002001,1,3
+0178,Orcish Oriflamme,Orcish Oriflamme,Magic,Red,Enchant,na,None,Uncommon,001003,na,na
+0179,Paralyze,Paralyze,Magic,Black,Enchant,Creature,None,Common,000100,na,na
+0180,Pearled Unicorn,Pearled Unicorn,Magic,White,Summon,Unicorn,None,Common,100002,2,2
+0181,Personal Incarnation,Personal Avatar,Magic,White,Summon,Avatar,Redirect,Rare,300003,6,6
+0182,Pestilence,Pestilence,Magic,Black,Enchant,na,None,Common,000202,na,na
+0183,Phantasmal Forces,Phantasmal Forces,Magic,Blue,Summon,Phantasm,None,Uncommon,000013,4,1
+0184,Phantasmal Terrain,Phantasmal Terrain,Magic,Blue,Enchant,Land,None,Common,000020,na,na
+0185,Phantom Monster,Phantom Monster,Magic,Blue,Summon,Phantasm,None,Uncommon,000013,3,3
+0186,Pirate Ship,Pirate Ship,Magic,Blue,Summon,Ship,None,Rare,000014,4,3
+0187,Plague Rats,Plague Rats,Magic,Black,Summon,Rats,None,Common,000102,x,x
+0188,Plains,Plains,Magic,Grey,Land,na,None,Common,000000,na,na
+0189,Plateau,Plateau,Magic,Grey,Land,na,None,Rare,000000,na,na
+0190,Power Leak,Power Leak,Magic,Blue,Enchant,Enchant,None,Common,000011,na,na
+0191,Power Sink,Power Sink,Magic,Blue,Interrupt,na,None,Common,00001x,na,na
+0192,Power Surge,Power Surge,Magic,Red,Enchant,na,None,Rare,002000,na,na
+0193,Prodigal Sorcerer,Prodigal Sorcerer,Magic,Blue,Summon,Sorcerer,None,Common,000012,1,1
+0194,Psionic Blast,Psionic Blast,Magic,Blue,Instant,na,None,Uncommon,000012,na,na
+0195,Psychic Venom,Psychic Venom,Magic,Blue,Enchant,Land,None,Common,000011,na,na
+0196,Purelace,Purelace,Magic,White,Interrupt,na,None,Rare,100000,na,na
+0197,Raging River,Raging River,Magic,Red,Enchant,na,None,Rare,002000,na,na
+0198,Raise Dead,Raise Dead,Magic,Black,Sorcery,na,None,Common,000100,na,na
+0199,Red Elemental Blast ,Red Element Blast ,Magic,Red,Interrupt,na,None,Common,001000,na,na
+0200,Red Ward,Red Ward,Magic,White,Enchant,Creature,None,Uncommon,100000,na,na
+0201,Regeneration,Regeneration,Magic,Green,Enchant,Creature,None,Common,010001,na,na
+0202,Regrowth,Regrowth,Magic,Green,Sorcery,na,None,Uncommon,010001,na,na
+0203,Ressurection,Ressurection,Magic,White,Sorcery,na,None,Uncommon,200002,na,na
+0204,Reverse Damage,Reverse Damage,Magic,White,Instant,na,Prevent,Rare,200001,na,na
+0205,Righteousness,Righteousness,Magic,White,Instant,na,None,Rare,100000,na,na
+0206,Roc of Kher Ridges,Roc of Kher Ridges,Magic,Red,Summon,Roc,None,Rare,001003,3,3
+0207,Rock Hydra ,Rock Hydra ,Magic,Red,Summon,Hydra,None,Rare,00200x,0,0
+0208,Rod of Ruin,Rod of Ruin,Magic,Brown,Artifact,Mono,None,Uncommon,000004,na,na
+0209,Royal Assassin,Royal Assassin,Magic,Black,Summon,Assassin,None,Rare,000201,1,1
+0210,Sacrifice,Sacrifice,Magic,Black,Interrupt,na,None,Uncommon,000100,na,na
+0211,Samite Healer,Samite Healer,Magic,White,Summon,Cleric,Prevent,Common,100001,1,1
+0212,Savannah,Savannah,Magic,Grey,Land,na,None,Rare,000000,na,na
+0213,Savannah Lions,Savannah Lions,Magic,White,Summon,Lions,None,Rare,100000,2,1
+0214,Scathe Zombies,Scathe Zombies,Magic,Black,Summon,Zombies,None,Common,000102,2,2
+0215,Scavenging Ghoul,Scavenging Ghoul,Magic,Black,Summon,Ghoul,None,Uncommon,000103,2,2
+0216,Scrubland,Scrubland,Magic,Grey,Land,na,None,Rare,000000,na,na
+0217,Scryb Sprites,Scryb Sprites,Magic,Green,Summon ,Faeries,None,Common,010000,1,1
+0218,Sea Serpent,Sea Serpent,Magic,Blue,Summon,Serpent,None,Common,000015,5,5
+0219,Sedge Troll ,Sedge Troll ,Magic,Red,Summon,Troll,None,Rare,001002,2,2
+0220,Sengir Vampire,Sengir Vampire,Magic,Black,Summon,Vampire,None,Uncommon,000203,4,4
+0221,Serra Angel,Serra Angel,Magic,White,Summon,Angel,None,Uncommon,200003,4,4
+0222,Shanodin Dryads,Shanodin Dryads,Magic,Green,Summon,Nymphs,None,Common,010000,1,1
+0223,Shatter ,Shatter ,Magic,Red,Instant,na,None,Common,001001,na,na
+0224,Shivan Dragon,Shivan Dragon,Magic,Red,Summon,Dragon,None,Rare,002004,5,5
+0225,Simulacrum,Simulacrum,Magic,Black,Instant,na,Redirect,Uncommon,000101,na,na
+0226,Sinkhole,Sinkhole,Magic,Black,Sorcery,na,None,Common,000200,na,na
+0227,Siren's Call,Siren's Call,Magic,Blue,Instant,na,None,Rare,000010,na,na
+0228,Sleight of Mind,Sleight of Mind,Magic,Blue,Interrupt,na,None,Rare,000010,na,na
+0229,Smoke,Smoke,Magic,Red,Enchant,na,None,Rare,002000,na,na
+0230,Sol Ring,Sol Ring,Magic,Brown,Artifact,Mono,None,Uncommon,000001,na,na
+0231,Soul Net,Soul Net,Magic,Brown,Artifact,Poly,None,Uncommon,000001,na,na
+0232,Spell Blast,Spell Blast,Magic,Blue,Interrupt,na,None,Common,00001x,na,na
+0233,Stasis,Stasis,Magic,Blue,Enchant,na,None,Rare,000011,na,na
+0234,Steal Artifact,Steal Artifact,Magic,Blue,Enchant,Artifact,None,Rare,000022,na,na
+0235,Stone Giant,Stone Giant,Magic ,Red,Summon,Giant,None,Uncommon,002002,3,4
+0236,Stone Rain,Stone Rain,Magic,Red,Sorcery,na,None,Common,001002,na,na
+0237,Stream of Life ,Stream of Life ,Magic,Green,Sorcery,na,None,Common,01000x,na,na
+0238,Sunglasses of Urza,Sunglasses of Urza,Magic,Brown,Artifact,Continuous,None,Rare,000003,na,na
+0239,Swamp,Swamp,Magic,Grey,Land,na,None,Common,000000,na,na
+0240,Swords to Plowshares,Sword to Plowshare,Magic,White,Instant,na,None,Uncommon,100000,na,na
+0241,Taiga,Taiga,Magic,Grey ,Land,na,None,Rare,000000,na,na
+0242,Terror,Terror,Magic,Black,Instant,na,None,Common,000101,na,na
+0243,The Hive,The Hive,Magic,Brown,Artifact,Mono,None,Rare,000005,na,na
+0244,Thicket Basilisk,Thicket Basilisk,Magic,Green,Summon,Basilisk,None,Uncommon,020003,2,4
+0245,Thoughtlace,Thoughtlace,Magic,Blue,Interrupt,na,None,Rare,000010,na,na
+0246,Throne of Bone,Throne of Bone,Magic,Brown,Artifact,Poly,None,Uncommon,000001,na,na
+0247,Timber Wolves,Timber Wolves,Magic,Green,Summon,Wolves,None,Rare,010000,1,1
+0248,Time Vault,Time Vault,Magic,Brown,Artifact,Mono,None,Rare,000002,na,na
+0249,Time Walk,Time Walk,Magic,Blue,Sorcery,na,None,Rare,000011,na,na
+0250,Timetwister,Timetwister,Magic,Blue,Sorcery,na,None,Rare,000012,na,na
+0251,Tranquility,Tranquility,Magic,Green,Sorcery,na,None,Common,010002,na,na
+0252,Tropical Island,Tropical Island,Magic,Grey,Land,na,None,Rare,000000,na,na
+0253,Tsunami,Tsunami,Magic,Green,Sorcery,na,None,Rare,010003,na,na
+0254,Tundra,Tundra,Magic,Grey,Land,na,None,Rare,000000,na,na
+0255,Tunnel,Tunnel,Magic,Red,Instant,na,None,Uncommon,001000,na,na
+0256,Twiddle,Twiddle,Magic,Blue,Instant,na,None,Common,000010,na,na
+0257,Two Headed Giant of Foriys,Two Headed Giant,Magic,Red,Summon,Giant,None,Rare,001004,4,4
+0258,Underground Sea,Underground Sea,Magic,Grey ,Land,na,None,Rare,000000,na,na
+0259,Unholy Strength,Unholy Strength,Magic,Black,Enchant,Creature,None,Common,000100,na,na
+0260,Unsummon,Unsummon,Magic,Blue,Instant,na,None,Common,000010,na,na
+0261,Uthden Troll,Uthden Troll,Magic,Red,Summon,Troll,None,Uncommon,001002,2,2
+0262,Veduran Enchantress ,Enchantress ,Magic,Green,Summon,Enchantress,None,Rare,020001,0,2
+0263,Vesuvan Doppleganger,Doppleganger,Magic,Blue,Summon,Doppleganger,None,Rare,000023,x,x
+0264,Veteran Bodyguard,Veteran Bodyguard,Magic,White,Summon,Bodyguard,None,Rare,200003,2,5
+0265,Volcanic Eruption,Volcanic Eruption,Magic,Blue,Sorcery,na,None,Rare,00003x,na,na
+0266,Volcanic Island,Volcanic Island,Magic,Grey,Land,na,None,Rare,000000,na,na
+0267,Wall of Air,Wall of Air,Magic,Blue,Summon,Wall,None,Rare,000021,1,5
+0268,Wall of Bone,Wall of Bone,Magic,Black,Summon,Wall,None,Uncommon,000102,1,4
+0269,Wall of Brambles,Wall of Brambles,Magic,Green,Summon,Wall,None,Uncommon,010002,2,3
+0270,Wall of Fire,Wall of Fire,Magic,Red,Summon,Wall,None,Rare,002001,0,5
+0271,Wall of Ice,Wall of Ice,Magic,Green,Summon,Wall ,None,Uncommon,010002,0,7
+0272,Wall of Stone,Wall of Stone,Magic,Red,Summon,Wall,None,Uncommon,002001,0,8
+0273,Wall of Swords,Wall of Swords,Magic,White,Summon,Wall,None,Uncommon,100003,3,5
+0274,Wall of Water,Wall of Water,Magic,Blue,Summon,Wall,None,Uncommon,000021,0,5
+0275,Wall of Wood,Wall of Wood,Magic,Green,Summon,Wall,None,Common,010000,0,3
+0276,Wanderlust,Wanderlust,Magic,Green,Enchant,Creature,None,Rare,010002,na,na
+0277,War Mammoth,War Mammoth,Magic,Green,Summon,Mammoth,None,Common,010003,3,3
+0278,Warp Artifact,Warp Artifact,Magic,Black,Enchant,Artifact,None,Rare,000200,na,na
+0279,Water Elemental ,Water Elemental ,Magic,Blue,Summon,Elemental,None,Uncommon,000023,5,4
+0280,Weakness ,Weakness ,Magic,Black,Enchant,Creature,None,Common,000100,na,na
+0281,Web,Web,Magic,Green,Enchant,Creature,None,Rare,010000,na,na
+0282,Wheel of Fortune,Wheel of Fortune,Magic,Red,Sorcery,na,None,Rare,001002,na,na
+0283,White Knight,White Knight,Magic,White,Summon,Knight,None,Uncommon,200000,2,2
+0284,White Ward,White Ward,Magic,White,Enchant,Creature,None,Uncommon,100000,na,na
+0285,Wild Growth,Wild Growth,Magic,Green,Enchant,Land,None,Common,010000,na,na
+0286,Will-O-The-Wisp,Will-O-The-Wisp,Magic,Black,Summon,Wisp,None,Rare,000100,0,1
+0287,Winter Orb,Winter Orb,Magic,Brown,Artifact,Continuous,None,Rare,000002,na,na
+0288,Wooden Sphere,Wooden Sphere,Magic,Brown,Artifact,Poly,None,Uncommon,000001,na,na
+0289,Word of Command,Word of Command,Magic,Black,Instant,na,None,Rare,000200,na,na
+0290,Wrath of God,Wrath of God,Magic,White,Sorcery,na,None,Rare,200002,na,na
+0291,Zombie Master,Zombie Master,Magic,Black,Summon,Lord,None,Rare,000201,2,3
+0292,Amnesia,Amnesia,Dark,Blue,Sorcery,na,None,Uncommon,000033,na,na
+0293,Angry Mob,Angry Mob,Dark,White,Summon,Mob,None,Uncommon,200002,2+x,2+x
+0294,Ashes to Ashes,Ashes to Ashes,Dark,Black,Sorcery,na,None,Common,000201,na,na
+0295,Ball Lightning,Ball Lightning,Dark,Red,Summon,Ball Lightning,None,Rare,003000,6,1
+0296,Banshee,Banshee,Dark,Black,Summon,Banshee,None,Uncommon,000202,0,1
+0297,Barl's Cage,Barl's Cage,Dark,Brown,Artifact,Poly,None,Rare,000004,na,na
+0298,Dark Heart of the Wood,Wood's Dark Heart,Dark,Gold,Enchant,na,None,Common,010100,na,na
+0299,Blood Moon,Blood Moon,Dark,Red,Enchant,na,None,Rare,001002,na,na
+0300,Apprentice Wizard,Apprentice Wizard,Dark,Blue,Summon,Wizard,None,Rare,000021,0,1
+0301,Blood of the Martyr,Blood of the Martyr,Dark,White,Instant,na,None,Uncommon,300000,na,na
+0302,Bone Flute,Bone Flute,Dark,Brown,Artifact,Mono,None,Uncommon,000003,na,na
+0303,Brainwash,Brainwash,Dark,White,Enchant,Creature,None,Common,100000,na,na
+0304,Brothers of Fire,Brothers of Fire,Dark,Red,Summon,Brothers,None,Uncommon,002001,2,2
+0305,Carnivorous Plant,Carnivorous Plant,Dark,Green,Summon,Wall,None,Common,010003,4,5
+0306,Cave People,Cave People,Dark,Red,Summon,Cave People,None,Uncommon,002001,1,4
+0307,City of Shadows,City of Shadows,Dark,Grey,Land,na,None,Rare,000000,na,na
+0308,Coal Man,Coal Man,Dark,Brown,Artifact,Creature,None,Uncommon,000005,3,3
+0309,Dance of Many,Dance of Many,Dark,Blue,Enchant,na,None,Rare,000020,na,na
+0310,Deep Water,Deep Water,Dark,Blue,Enchant,na,None,Common,000020,na,na
+0311,Dust to Dust,Dust to Dust,Dark,White,Sorcery,na,None,Common,200001,na,na
+0312,Eater of the Dead,Eater of the Dead,Dark,Black,Summon ,Eater,None,Uncommon,000104,3,4
+0313,Elves of Deep Shadow,Deep Shadow Elves,Dark,Green,Summon,Elves,None,Uncommon,010000,1,1
+0314,Erosion,Erosion,Dark,Blue,Enchant,Land,None,Common,000030,na,na
+0315,Eternal Flame,Eternal Flame,Dark,Red,Sorcery,na,None,Rare,002002,na,na
+0316,Exorcist,Exorcist,Dark,White,Summon,Exorcist,None,Rare,200000,1,1
+0317,Fasting,Fasting,Dark,White,Enchant,na,None,Uncommon,100000,na,na
+0318,Fellwar Stone,Fellwar Stone,Dark,Brown,Artifact,Mono,None,Uncommon,000002,na,na
+0319,Fire and Brimstone,Fire and Brimstone,Dark,White,Instant,na,None,Uncommon,200003,na,na
+0320,Fire Drake,Fire Drake,Dark,Red,Summon,Drake,None,Uncommon,002001,1,2
+0321,Fissure,Fissure,Dark,Red,Instant,na,None,Common,002003,na,na
+0322,Scarwood Hag,Scarwood Hag,Dark,Green,Summon,Hag,None,Uncommon,010001,1,1
+0323,People of the Woods,People of the Wood,Dark,Green,Summon,People,None,Uncommon,020000,1,x
+0324,Fountain of Youth,Fountain of Youth,Dark,Brown,Artifact,Mono,None,Uncommon,000000,na,na
+0325,Frankenstein's Monster,Frankenstein,Dark,Black,Summon,Monster,None,Rare,00020x,0,1
+0326,Ghost Ship,Ghost Ship,Dark,Blue,Summon,Ship,None,Common,000022,2,4
+0327,Giant Shark,Giant Shark,Dark,Blue,Summon,Shark,None,Common,000015,4,4
+0328,Spitting Slug,Spitting Slug,Dark,Green,Summon,Slug,None,Uncommon,020001,2,4
+0329,Goblin Caves,Goblin Caves,Dark,Red,Enchant,Land,None,Common,002001,na,na
+0330,Goblin Hero,Goblin Hero,Dark,Red,Summon,Goblin,None,Common,001002,2,2
+0331,Goblin Wizard,Goblin Wizard,Dark,Red,Summon,Goblin,None,Rare,002002,1,1
+0332,Goblins of the Flarg,Goblins of the Flarg,Dark,Red,Summon,Goblins,None,Common,001000,1,1
+0333,Grave Robbers,Grave Robbers,Dark,Black,Summon,Robbers,None,Rare,000201,1,1
+0334,Gaea's Touch,Gaea's Touch,Dark,Green,Enchant,na,None,Common,020000,na,na
+0335,Hidden Path,Hidden Path,Dark,Green,Enchant,na,None,Rare,040002,na,na
+0336,Bog Imp,Bog Imp,Dark,Black,Summon,Imp,None,Common,000101,1,1
+0337,Inferno,Inferno,Dark,Red,Instant,na,None,Rare,002005,na,na
+0338,Knights of Thorn,Knights of Thorn,Dark,White,Summon,Knights,None,Rare,100003,2,2
+0339,Land Leeches,Land Leeches,Dark,Green,Summon,Leeches,None,Common,020001,2,2
+0340,Leviathan,Leviathan,Dark,Blue,Summon,Leviathan,None,Rare,000045,10,10
+0341,Living Armor,Living Armor,Dark,Brown,Artifact,Mono,None,Uncommon,000004,na,na
+0342,Lurker,Lurker,Dark,Green,Summon,Lurker,None,Rare,010002,2,3
+0343,Mana Clash,Mana Clash,Dark,Red,Sorcery,na,None,Rare,001000,na,na
+0344,Mana Vortex,Mana Vortex,Dark,Blue,Enchant,na,None,Rare,000021,na,na
+0345,Martyr's Cry,Martyr's Cry,Dark,White,Sorcery,na,None,Rare,200000,na,na
+0346,Mind Bomb,Mind Bomb,Dark,Blue,Sorcery,na,None,Rare,000010,na,na
+0347,Morale,Morale,Dark,White,Instant,na,None,Common,200001,na,na
+0348,Necropolis,Necropolis,Dark,Brown,Artifact,Wall,None,Uncommon,000005,0,1
+0349,Orc General,Orc General,Dark,Red,Summon,na,None,Uncommon,001002,2,2
+0350,Bog Rats,Bog Rats,Dark,Black,Summon,Rats,None,Common,000100,1,1
+0351,Preacher,Preacher,Dark,White,Summon,Preacher,None,Rare,200001,1,1
+0352,Psychic Allergy,Psychic Allergy,Dark,Blue,Enchant,na,None,Rare,000023,na,na
+0353,Book of Rass,Book of Rass,Dark,Brown,Artifact,Poly,None,Uncommon,000006,na,na
+0354,Reflecting Mirror,Reflecting Mirror,Dark,Brown,Artifact,Mono,None,Uncommon,000004,na,na
+0355,Riptide,Riptide,Dark,Blue,Instant,na,None,Common,000010,na,na
+0356,Runesword,Runesword,Dark,Brown,Artifact,Mono,None,Uncommon,000006,na,na
+0357,Safe Haven,Safe Haven,Dark,Grey,Land,na,None,Rare,000000,na,na
+0358,ScareCrow,ScareCrow,Dark,Brown,Artifact,Creature,None,Uncommon,000005,2,2
+0359,Season of the Witch,Season of the Witch,Dark,Black,Enchant,na,None,Rare,000300,na,na
+0360,Sisters of the Flame,Sisters of the Flame,Dark,Red,Summon,Sisters,None,Uncommon,002001,2,2
+0361,Skull of Orm,Skull of Orm,Dark,Brown,Artifact,Mono,None,Uncommon,000003,na,na
+0362,Standing Stones,Standing Stones,Dark,Brown,Artifact,Mono,None,Uncommon,000003,na,na
+0363,Stone Calender,Stone Calender,Dark,Brown,Artifact,Continuous,None,Rare,000005,na,na
+0364,Sunken City,Sunken City,Dark,Blue,Enchant,na,None,Common,000020,na,na
+0365,Marsh Gas,Marsh Gas,Dark,Black,Instant,na,None,Common,000100,na,na
+0366,Marsh Goblins,Marsh Goblins,Dark,Gold,Summon,Goblins,None,Common,001100,1,1
+0367,Cleansing,Cleansing,Dark,White,Sorcery,na,None,Rare,300000,na,na
+0368,Tormod's Crypt,Tormod's Crypt,Dark,Brown,Artifact,Mono,None,Uncommon,000000,na,na
+0369,Dark Sphere,Dark Sphere,Dark,Brown,Artifact,Mono,None,Uncommon,000000,na,na
+0370,The Drowned,The Drowned,Dark,Blue,Summon,Zombies,None,Common,000011,1,1
+0371,Murk Dwellers,Murk Dwellers,Dark,Black,Summon ,Dwellers,None,Common,000103,2,2
+0372,The Fallen,The Fallen,Dark,Black,Summon,Fallen,None,Uncommon,000301,2,3
+0373,Niall Silvain,Niall Silvain,Dark,Green,Summon,Niall Silvain,None,Rare,030000,2,2
+0374,Inquisition,Inquisition,Dark,Black,Sorcery,na,None,Common,000102,na,na
+0375,Holy Light,Holy Light,Dark ,White,Instant,na,None,Common,100002,na,na
+0376,Diabolic Machine,Diabolic Machine,Dark,Brown,Artifact,Creature,None,Uncommon,000007,4,4
+0377,Maze of Ith,Maze of Ith,Dark,Grey,Land,na,None,Uncommon,000000,na,na
+0378,Nameless Race,Nameless Race,Dark,Black,Summon,Nameless,None,Rare,000103,x,x
+0379,Tower of Coireall,Tower of Coireall,Dark,Brown,Artifact,Mono,None,Uncommon,000002,na,na
+0380,Tracker,Tracker,Dark,Green,Summon,Tracker,None,Rare,010002,2,2
+0381,Sorrow's Path,Sorrow's Path,Dark,Grey,Land,na,None,Rare,000000,na,na
+0382,Uncle Istvan,Uncle Istvan,Dark,Black,Summon,Istvan,None,Uncommon,000301,1,3
+0383,Venom,Venom,Dark,Green,Enchant,Creature,None,Common,020001,na,na
+0384,Wand of Ith,Wand of Ith,Dark,Brown,Artifact,Mono,None,Uncommon,000004,na,na
+0385,War Barge,War Barge,Dark,Brown,Artifact,Poly,None,Uncommon,000004,na,na
+0386,Whippoorwill,Whippoorwill,Dark,Green,Summon,Whippoorwill,None,Uncommon,010000,1,1
+0387,Witch Hunter,Witch Hunter,Dark,White,Summon,Hunter,None,Rare,200002,1,1
+0388,Word of Binding,Word of Binding,Dark,Black,Sorcery,na,None,Common,00020x,na,na
+0389,WormWood Treefolk,WormWood Treefolk,Dark,Green,Summon,Treefolk,None,Rare,020003,4,4
+0390,Worms of the Earth,Worms of the Earth,Dark,Black,Enchant,na,None,Rare,000302,na,na
+0391,Abu Jafar,Abu Jafar,Arabian,White,Summon,Abu Jafar,None,Uncommon,100000,0,1
+0392,Aladdin,Aladdin,Arabian,Red,Summon,Aladdin,None,Uncommon,002002,1,1
+0393,Aladdin's Lamp,Aladdin's Lamp,Arabian ,Brown,Artifact,Mono,None,Uncommon,00000A,na,na
+0394,Ali Baba,Ali Baba,Arabian,Red,Summon,Ali Baba,None,Uncommon,001000,1,1
+0395,Ali from Cairo,Ali from Cairo,Arabian,Red,Summon,Ali,None,Uncommon,002002,0,1
+0396,Aladdin's Ring,Aladdin's Ring,Arabian,Brown,Artifact,Mono,None,Uncommon,000008,na,na
+0397,Army of Allah,Army of Allah,Arabian,White,Instant,na,None,Common,200001,na,na
+0398,Bazaar of Baghdad,Bazaar of Baghdad,Arabian,Grey,Land,na,None,Uncommon,000000,na,na
+0399,Bird Maiden,Bird Maiden,Arabian,Red,Summon,Bird Maid,None,Common,001002,1,2
+0400,Bottle of Suleiman,Bottle of Suleiman,Arabian,Brown,Artifact,Mono,None,Uncommon,000004,na,na
+0401,Camel,Camel,Arabian,White,Summon,Camel,None,Common,100000,0,1
+0402,City in a Bottle,City in a Bottle,Arabian,Brown,Artifact,Continuous,None,Uncommon,000002,na,na
+0403,City of Brass,City of Brass,Arabian,Grey,Land,na,None,Uncommon,000000,na,na
+0404,Cuombajj Witches,Cuombajj Witches,Arabian,Black,Summon,Witches,None,Common,000200,1,3
+0405,Cyclone,Cyclone,Arabian,Green,Enchant,na,None,Uncommon,020002,na,na
+0406,Dandan,Dandan,Arabian,Blue,Summon,Dandan,None,Common,000020,4,1
+0407,Desert,Desert,Arabian,Grey,Land,na,None,Common,000000,na,na
+0408,Desert Nomads,Desert Nomads,Arabian,Red,Summon,Nomads,None,Common,001002,2,2
+0409,Desert Twister,Desert Twister,Arabian,Green,Sorcery,na,None,Uncommon,020004,na,na
+0410,Diamond Valley,Diamond Valley,Arabian,Grey,Land,na,None,Uncommon,000000,na,na
+0411,Drop of Honey,Drop of Honey,Arabian,Green,Enchant,na,None,Uncommon,010000,na,na
+0412,Ebony Horse,Ebony Horse,Arabian,Brown,Artifact,Mono,None,Uncommon,000003,na,na
+0413,El-hajjaj,El-hajjaj,Arabian,Black,Summon,El-hajjaj,None,Uncommon,000201,1,1
+0414,Elephant Graveyard,Elephant Graveyard,Arabian,Grey,Land,na,None,Uncommon,000000,na,na
+0415,Erg Raiders,Erg Raiders,Arabian,Black,Summon,Raiders,None,Common,000101,2,3
+0416,Erhnam Djinn,Erhnam Djinn,Arabian,Green,Summon,Djinn,None,Uncommon,010003,4,5
+0417,Eye for an Eye,Eye for an Eye,Arabian,White,Instant,na,Redirect,Uncommon,200000,na,na
+0418,Fishliver Oil,Fishliver Oil,Arabian,Blue,Enchant,Creature,None,Common,000011,na,na
+0419,Flying Carpet,Flying Carpet,Arabian,Brown,Artifact,Mono,None,Uncommon,000004,na,na
+0420,Flying Men,Flying Men,Arabian,Blue,Summon,Flying Men,None,Common,000010,1,1
+0421,Ghazban Ogre,Ghazban Ogre,Arabian,Green,Summon,Ogre,None,Common,010000,2,2
+0422,Giant Tortoise ,Giant Tortoise ,Arabian,Blue,Summon,Tortoise,None,Common,000011,1,1
+0423,Guardian Beast,Guardian Beast,Arabian,Black,Summon,Guardian,None,Uncommon,000100,2,4
+0424,Hasran Ogress ,Hasran Ogress ,Arabian,Black,Summon,Ogre,None,Common,000200,3,2
+0425,Hurr Jackal,Hurr Jackal,Arabian,Red,Summon,Jackal,None,Common,001000,1,1
+0426,Ifh-Biff Efreet,Ifh-Biff Efreet,Arabian,Green,Summon,Efreet,None,Uncommon,020002,3,3
+0427,Island Fish Jasconius,Island Fish,Arabian,Blue,Summon,Island Fish,None,Uncommon,000034,6,8
+0428,Island of Wak-Wak,Island of Wak-Wak,Arabian,Grey,Land,na,None,Uncommon,000000,na,na
+0429,Jandor's Ring,Jandor's Ring,Arabian,Brown,Artifact,Mono,None,Uncommon,000006,na,na
+0430,Jandor's Saddlebags,Jandor's Saddlebags,Arabian,Brown,Artifact,Mono,None,Uncommon,000002,na,na
+0431,Jeweled Bird,Jeweled Bird,Arabian,Brown,Artifact,Mono,None,Uncommon,000001,na,na
+0432,Jihad,Jihad,Arabian,White,Enchant,na,None,Uncommon,300000,na,na
+0433,Junun Efreet,Junun Efreet,Arabian,Black,Summon,Efreet,None,Uncommon,000201,3,3
+0434,Juzam Djinn,Juzam Djinn,Arabian,Black,Summon,Djinn,None,Uncommon,000202,5,5
+0435,Khabal Ghoul,Khabal Ghoul,Arabian,Black,Summon,Ghoul,None,Uncommon,000102,1,1
+0436,King Suleiman,King Suleiman,Arabian,White,Summon,King,None,Uncommon,100001,1,1
+0437,Kird Ape,Kird Ape,Arabian,Red,Summon,Ape,None,Common,001000,1,1
+0438,Library of Alexandria,Alexandrian Library,Arabian,Grey,Land,na,None,Uncommon,000000,na,na
+0439,Magnetic Mountain,Magnetic Mountain,Arabian,Red,Enchant,na,None,Uncommon,002001,na,na
+0440,Merchant Ship,Merchant Ship,Arabian,Blue,Summon,Ship,None,Uncommon,000010,0,2
+0441,Metamorphosis,Metamorphosis,Arabian,Green,Sorcery,na,None,Common,010000,na,na
+0442,Mijae Djinn,Mijae Djinn,Arabian,Red,Summon,Djinn,None,Uncommon,003000,6,3
+0443,Moorish Cavalry,Moorish Cavalry,Arabian,White,Summon,Cavalry,None,Common,200002,3,3
+0444,Naf's Asp,Naf's Asp,Arabian,Green,Summon,Asp,None,Common,010000,1,1
+0445,Oasis,Oasis,Arabian,Grey,Land,na,Prevent,Uncommon,000000,na,na
+0446,Old Man of the Sea,Old Man of the Sea,Arabian,Blue,Summon,Marid,None,Uncommon,000021,2,3
+0447,Oubliette,Oubliette,Arabian,Black,Enchant,na,None,Common,000201,na,na
+0448,Piety,Piety,Arabian,White,Instant,na,None,Common,100002,na,na
+0449,Pyramids,Pyramids,Arabian,Brown,Artifact,Poly,None,Uncommon,000006,na,na
+0450,Repentant Blacksmith,Blacksmith,Arabian,White,Summon,Smith,None,Uncommon,100001,1,2
+0451,Ring of Maruf,Ring of Maruf,Arabian,Brown,Artifact,Mono,None,Uncommon,000005,na,na
+0452,Rukh Egg,Rukh Egg,Arabian,Red,Summon,Egg,None,Common,001003,0,3
+0453,Sandals of Abdallah,Sandals of Abdallah,Arabian,Brown,Artifact,Mono,None,Uncommon,000004,na,na
+0454,Sandstorm,Sandstorm,Arabian,Green,Instant,na,None,Common,010000,na,na
+0455,Serendib Djinn,Serendib Djinn,Arabian,Blue,Summon,Djinn,None,Uncommon,000022,5,6
+0456,Serendib Efreet,Serendib Efreet,Arabian,Blue ,Summon,Efreet,None,Uncommon,000012,3,4
+0457,Shahrazad,Shahrazad,Arabian,White,Sorcery,na,None,Uncommon,200000,na,na
+0458,Sindbad,Sindbad,Arabian,Blue,Summon,Sindbad,None,Uncommon,000011,1,1
+0459,Singing Tree,Singing Tree,Arabian,Green,Summon,Singing Tree,None,Uncommon,010003,0,3
+0460,Sorceress Queen,Sorceress Queen,Arabian,Black,Summon,Sorceress,None,Uncommon,000200,1,1
+0461,Stone Throwing Devils,Stone Devils,Arabian,Black,Summon,Devils,None,Common,000100,1,1
+0462,Unstable Mutation,Unstable Mutation,Arabian,Blue,Enchant,Creature,None,Common,000010,na,na
+0463,War Elephant,War Elephant,Arabian,White,Summon,Elephant,None,Common,100003,2,2
+0464,Wyluli Wolf,Wyluli Wolf,Arabian,Green,Summon,Wolves,None,Common,010001,1,1
+0465,Ydwen Efreet,Ydwen Efreet,Arabian,Red,Summon,Efreet,None,Uncommon,003000,3,6
+0466,Amulet of Kroog,Amulet of Kroog,Antiquities,Brown,Artifact,Mono,Prevent,Common,000002,na,na
+0467,Argivian Archaeoligist,Archaeoligist,Antiquities,White,Summon,Archaeoligist,None,Rare,200001,1,1
+0468,Argivian Blacksmith,Argivian Blacksmith,Antiquities,White,Summon ,Smith,None,Common,200001,2,2
+0469,Argothian Pixies,Argothian Pixies,Antiquities,Green,Summon,Pixies,None,Common,010001,2,1
+0470,Argothian Treefolk,Argothian Treefolk,Antiquities,Green,Summon,Treefolk,None,Common,020003,3,5
+0471,Armageddon Clock,Armageddon Clock,Antiquities,Brown,Artifact,Continuous,None,Rare,000006,na,na
+0472,Artifact Blast,Artifact Blast,Antiquities,Red,Interrupt,na,None,Common,001000,na,na
+0473,Artifact Ward,Artifact Ward,Antiquities,White,Enchant,Creature,None,Common,100000,na,na
+0474,Ashnod's Alter,Ashnod's Alter,Antiquities,Brown,Artifact,Poly,None,Uncommon,000003,na,na
+0475,Ashnod's Battlegear,Ashnod's Battlegear,Antiquities,Brown,Artifact,Mono,None,Uncommon,000002,na,na
+0476,Ashnod's Transmogrant,Transmogrant,Antiquities,Brown,Artifact,Mono,None,Uncommon,000001,na,na
+0477,Atog,Atog,Antiquities,Red,Summon,Atog,None,Common,001001,1,2
+0478,Battering Ram,Battering Ram,Antiquities,Brown,Artifact,Creature,None,Common,000002,1,1
+0479,Bronze Tablet,Bronze Tablet,Antiquities,Brown,Artifact,Mono,None,Rare,000006,na,na
+0480,Candelabra of Tawnos,Tawnos' Candelabra ,Antiquities,Brown,Artifact,Mono,None,Rare,000001,na,na
+0481,Circle of Protection from Artifacts,Artifact Circle,Antiquities,White,Enchant,na,Prevent,Uncommon,100001,na,na
+0482,Citanul Druid,Citanul Druid,Antiquities,Green,Summon,Druid,None,Uncommon,010001,1,1
+0483,Clay Statue,Clay Statue,Antiquities,Brown,Artifact,Creature,None,Common,000004,3,1
+0484,Clockwork Avian,Clockwork Avian,Antiquities,Brown,Artifact,Creature,None,Rare,000005,0,4
+0485,Colossus of Sardia,Colossus of Sardia,Antiquities,Brown,Artifact,Creature,None,Rare,000009,9,9
+0486,Coral Helm,Coral Helm,Antiquities,Brown,Artifact,Poly,None,Rare,000003,na,na
+0487,Crumble,Crumble,Antiquities,Green,Instant,na,None,Common,010000,na,na
+0488,Cursed Rack,Cursed Rack,Antiquities,Brown,Artifact,Continuous,None,Uncommon,000004,na,na
+0489,Damping Field,Damping Field,Antiquities,White,Enchant,na,None,Uncommon,100002,na,na
+0490,Detonate,Detonate,Antiquities,Red,Sorcery,na,None,Uncommon,00100x,na,na
+0491,Drafna's Restoration,Drafnas Restoration,Antiquities,Blue,Sorcery,na,None,Common,000010,na,na
+0492,Dragon Engine,Dragon Engine,Antiquities,Brown,Artifact,Creature,None,Common,000003,1,3
+0493,Dwarven Weaponsmith,Dwarven Smith,Antiquities,Red,Summon,Dwarves,None,Uncommon,001001,1,1
+0494,Energy Flux,Energy Flux,Antiquities,Blue,Enchant,na,None,Uncommon,000012,na,na
+0495,Feldon's Cane,Feldon's Cane,Antiquities,Brown,Artifact,Mono,None,Uncommon,000001,na,na
+0496,Gaea's Avenger,Gaea's Avenger,Antiquities,Green,Summon,Avenger,None,Rare,020001,1,1
+0497,Gate to Phyrexia,Gate to Phyrexia,Antiquities,Black,Enchant,na,None,Uncommon,000200,na,na
+0498,Goblin Artisans,Goblin Artisans,Antiquities,Red,Summon,Goblins,None,Uncommon,001000,1,1
+0499,Golgothian Sylex,Golgothian Sylex,Antiquities,Brown,Artifact,Mono,None,Rare,000004,na,na
+0500,Grapeshot Catapult,Grapeshot Catapult,Antiquities,Brown,Artifact,Creature,None,Common,000004,2,3
+0501,Haunting Wind,Haunting Wind,Antiquities,Black,Enchant,na,None,Uncommon,000103,na,na
+0502,Hurkyl's Recall,Hurkyl's Recall,Antiquities,Blue,Instant,na,None,Uncommon,000011,na,na
+0503,Ivory Tower,Ivory Tower,Antiquities,Brown,Artifact,Continuous,None,Uncommon,000001,na,na
+0504,Jalum Tome,Jalum Tome,Antiquities,Brown,Artifact,Mono,None,Rare,000003,na,na
+0505,Martyrs of Korlis,Martyrs of Korlis,Antiquities,White,Summon,Bodyguard,None,Uncommon,200003,1,6
+0506,Mightstone,Mightstone,Antiquities,Brown,Artifact,Continuous,None,Uncommon,000004,na,na
+0507,Millstone,Millstone,Antiquities,Brown,Artifact,Mono,None,Uncommon,000002,na,na
+0508,Mishra's Factory,Mishra's Factory,Antiquities,Grey,Land,na,None,Uncommon,000000,na,na
+0509,Mishra's War Machine,War Machine,Antiquities,Brown,Artifact,Creature,None,Rare,000007,5,5
+0510,Mishra's Workshop,Mishra's Workshop,Antiquities,Grey,Land,na,None,Uncommon,000000,na,na
+0511,Obelisk of Undoing,Obelisk of Undoing,Antiquities,Brown,Artifact,Mono,None,Rare,000001,na,na
+0512,Onulet,Onulet,Antiquities,Brown,Artifact,Creature,None,Uncommon,000003,2,2
+0513,Orcish Mechanics,Orcish Mechanics,Antiquities,Red,Summon,Orcs,None,Common,001002,1,1
+0514,Ornithopter,Ornithopter,Antiquities,Brown,Artifact,Creature,None,Common,000000,0,2
+0515,Phyrexian Gremlins,Phyrexian Gremlins,Antiquities,Black,Summon,Gremlins,None,Common,000102,1,1
+0516,Artifact Possession,Artifact Possession,Antiquities,Black,Enchant,Artifact,None,Common,000102,na,na
+0517,Power Artifact,Power Artifact,Antiquities,Blue,Enchant,Artifact,None,Uncommon,000020,na,na
+0518,Powerleech,Powerleech,Antiquities,Green,Enchant,na,None,Uncommon,020000,na,na
+0519,Primal Clay,Primal Clay,Antiquities,Brown,Artifact,Creature,None,Uncommon,000004,0,0
+0520,Rakalite,Rakalite,Antiquities,Brown,Artifact,Poly,None,Uncommon,000006,na,na
+0521,Reconstruction,Reconstruction,Antiquities,Blue,Sorcery,na,None,Common,000010,na,na
+0522,Reverse Polarity,Reverse Polarity,Antiquities,White,Instant,na,Prevent,Common,200000,na,na
+0523,Rocket Launcher,Rocket Launcher,Antiquities,Brown,Artifact,Poly,None,Uncommon,000004,na,na
+0524,Sage of Lat-Nam,Sage of Lat-Nam,Antiquities,Blue,Summon,Sage,None,Common,000011,1,2
+0525,Shapeshifter,Shapeshifter,Antiquities,Brown,Artifact,Creature,None,Rare,000006,0,0
+0526,Shatterstorm,Shatterstorm,Antiquities,Red,Sorcery,na,None,Rare,002002,na,na
+0527,Staff of Zegon,Staff of Zegon,Antiquities,Brown,Artifact,Mono,None,Common,000004,na,na
+0528,Strip Mine,Strip Mine,Antiquities,Grey,Land,na,None,Uncommon,000000,na,na
+0529,Su-Chi,Su-Chi,Antiquities,Brown,Artifact,Creature,None,Uncommon,000004,4,4
+0530,Tablets of Epityr,Tablets of Epityr,Antiquities,Brown,Artifact,Poly,None,Common,000001,na,na
+0531,Tawnos' Coffin,Tawnos' Coffin,Antiquities,Brown,Artifact,Mono,None,Rare,000004,na,na
+0532,Tawnos' Wand,Tawnos' Wand,Antiquities,Brown,Artifact,Mono,None,Uncommon,000004,na,na
+0533,Tawnos' Weaponry,Tawnos' Weaponry,Antiquities,Brown,Artifact,Mono,None,Uncommon,000002,na,na
+0534,Tetravus,Tetravus,Antiquities,Brown,Artifact,Creature,None,Rare,000006,1,1
+0535,The Rack,The Rack,Antiquities,Brown,Artifact,Continuous,None,Uncommon,000001,na,na
+0536,Titania's Song,Titania's Song,Antiquities,Green,Enchant,na,None,Uncommon,010003,na,na
+0537,Transmute Artifact,Transmute Artifact,Antiquities,Blue,Sorcery,na,None,Uncommon,000020,na,na
+0538,Triskelion,Triskelion,Antiquities,Brown,Artifact,Creature,None,Rare,000006,1,1
+0539,Urza's Avenger,Urza's Avenger,Antiquities,Brown,Artifact,Creature,None,Rare,000006,4,4
+0540,Urza's Chalice,Urza's Chalice,Antiquities,Brown,Artifact,Poly,None,Common,000001,na,na
+0541,Urza's Mine,Urza's Mine,Antiquities,Grey,Land,na,None,Uncommon,000000,na,na
+0542,Urza's Miter,Urza's Miter,Antiquities,Brown,Artifact,Poly,None,Rare,000003,na,na
+0543,Urza's Powerplant,Urza's Powerplant,Antiquities,Grey,Land,na,None,Uncommon,000000,na,na
+0544,Urza's Tower,Urza's Tower,Antiquities,Grey,Land,na,None,Uncommon,000000,na,na
+0545,Wall of Spears,Wall of Spears,Antiquities,Brown,Artifact,Wall,None,Uncommon,000003,2,3
+0546,Weakstone,Weakstone,Antiquities,Brown,Artifact,Continuous,None,Uncommon,000004,na,na
+0547,Xenic Poltergeist,Xenic Poltergeist,Antiquities,Black,Summon,Poltergeist,None,Uncommon,000201,1,1
+0548,Yawgmoth Demon,Yawgmoth Demon,Antiquities,Black,Summon,Demon,None,Rare,000204,6,6
+0549,Priest of Yawgmoth,Priest of Yawgmoth,Antiquities,Black,Summon,Priest,None,Common,000101,1,2
+0550,Yotian Soldiers,Yotian Soldiers,Antiquities,Brown,Artifact,Creature,None,Common,000003,1,4
+0551,Abomination,Abomination,Legends,Black,Summon,Abomination,None,Rare,000203,2,6
+0552,Acid Rain,Acid Rain,Legends,Blue,Sorcery,na,None,Rare,000013,na,na
+0553,Active Volcano,Active Volcano,Legends,Red,Instant,na,None,Common,001000,na,na
+0554,Adun Oakenshield,Adun Oakenshield,Legends,Gold,Summon,Legend,None,Rare,011100,1,2
+0555,Adventurer's Guildhouse,Adventurer's Guild,Legends,Grey,Land,na,None,Uncommon,000000,na,na
+0556,Aerathi Berserker,Aerathi Berserker,Legends,Red,Summon,Berserker,None,Rare,003002,2,4
+0557,Aisling Leprechaun,Aisling Leprechaun,Legends,Green,Summon,Faerie,None,Common,010000,1,1
+0558,Akron Legionnaire,Akron Legionnaire,Legends,White,Summon,Legionnaire,None,Rare,200006,8,4
+0559,Al-abara's Carpet,Al-abara's Carpet,Legends,Brown,Artifact,Mono,None,Rare,000005,na,na
+0560,Alabaster Potion,Alabaster Potion,Legends,White,Instant,na,None,Uncommon,20000x,na,na
+0561,Alchor's Tomb,Alchor's Tomb,Legends,Brown,Artifact,Mono,None,Rare,000004,na,na
+0562,All Hallows Eve,All Hallows Eve,Legends,Black,Enchant,na,None,Rare,000202,na,na
+0563,Amrou Kithkin,Amrou Kithkin,Legends,White,Summon,Kithkin,None,Common,200000,1,1
+0564,Angelic Voices,Angelic Voices,Legends,White,Enchant,na,None,Rare,200002,na,na
+0565,Angus Mackenzie,Angus Mackenzie,Legends,Gold,Summon,Legend,None,Rare,110010,2,2
+0566,Anti-Magic Aura,Anti-Magic Aura,Legends,Blue,Enchant,Creature,None,Common,000012,na,na
+0567,Arboria,Arboria,Legends,Green,Enchant,World,None,Uncommon,020002,na,na
+0568,Arcades Sabboth,Arcades Sabboth,Legends,Gold,Summon,ElderDragon,None,Rare,220022,7,7
+0569,Arena of the Ancients,Ancients' Arena,Legends,Brown,Artifact,Continuous,None,Rare,000003,na,na
+0570,Avoid Fate,Avoid Fate,Legends,Green,Interrupt,na,None,Common,010000,na,na
+0571,Axelrod Gunnarson,Axelrod,Legends,Gold,Summon,Legend,None,Rare,002204,5,5
+0572,Ayesha Tanaka,Ayesha Tanaka,Legends,Gold,Summon,Legend,None,Rare,200020,2,2
+0573,Azure Drake,Azure Drake,Legends,Blue,Summon,Drake,None,Uncommon,000013,2,4
+0574,Backdraft,Backdraft,Legends,Red,Instant,na,None,Uncommon,001001,na,na
+0575,Backfire,Backfire,Legends,Blue,Enchant,Creature,None,Uncommon,000010,na,na
+0576,Barbary Apes,Barbary Apes,Legends,Green,Summon,Apes,None,Common,010001,2,2
+0577,Barktooth Warbeard,Barktooth Warbeard,Legends,Gold,Summon,Legend,None,Uncommon,002104,6,5
+0578,Bartel Runeaxe,Bartel Runeaxe,Legends,Gold,Summon,Legend,None,Rare,011103,6,5
+0579,Beasts of Bogardan,Beasts of Bogardan,Legends,Red,Summon,Beasts,None,Uncommon,001004,3,3
+0580,Black Mana Battery,Black Mana Battery,Legends,Brown,Artifact,Mono,None,Uncommon,000004,na,na
+0581,Blazing Effigy,Blazing Effigy,Legends,Red,Summon,Effigy,None,Common,001001,0,3
+0582,Blight,Blight,Legends,Black,Enchant,Land,None,Uncommon,000200,na,na
+0583,Blood Lust,Blood Lust,Legends,Red,Instant,na,None,Uncommon,001001,na,na
+0584,Blue Mana Battery,Blue Mana Battery,Legends,Brown,Artifact,Mono,None,Uncommon,000004,na,na
+0585,Boomerang,Boomerang,Legends,Blue,Instant,na,None,Uncommon,000020,na,na
+0586,Boris Devilboon,Boris Devilboon,Legends,Gold,Summon,Legend,None,Rare,001103,2,2
+0587,Brine Hag,Brine Hag,Legends,Blue,Summon,Hag,None,Uncommon,000022,2,2
+0588,Bronze Horse,Bronze Horse,Legends,Brown,Artifact,Creature,None,Rare,000007,4,4
+0589,Carrion Ants,Carrion Ants,Legends,Black,Summon,Ants,None,Rare,000202,0,1
+0590,Cat Warriors ,Cat Warriors,Legends,Green,Summon,Cat Warriors,None,Common,020001,2,2
+0591,Cathedral of Sara,Cathedral of Serra,Legends,Grey,Land,na,None,Uncommon,000000,na,na
+0592,Caverns of Despair,Caverns of Despair,Legends,Red,Enchant,World,None,Rare,002002,na,na
+0593,Chain Lightning,Chain Lightning,Legends,Red,Sorcery,na,None,Common,001000,na,na
+0594,Chains of Mephistopholes,Chains of Mephisto,Legends,Black,Enchant,na,None,Uncommon,000101,na,na
+0595,Chromium,Chromium,Legends,Gold,Summon,ElderDragon,None,Rare,200222,7,7
+0596,Cleanse,Cleanse,Legends,White,Sorcery,na,None,Rare,200002,na,na
+0597,Clergy of the Holy Nimbus,Holy Nimbus Clerics,Legends,White,Summon,Priest,None,Common,100000,1,1
+0598,Cocoon,Cocoon,Legends,Green,Enchant,Creature,None,Uncommon,010000,na,na
+0599,Concordant Crossroads,Concordant Roads,Legends,Green,Enchant,World,None,Uncommon,010000,na,na
+0600,Cosmic Horror,Cosmic Horror,Legends,Black,Summon,Horror,None,Rare,000303,7,7
+0601,Craw Giant,Craw Giant,Legends,Green,Summon,Giant,None,Uncommon,040003,6,4
+0602,Crevasse,Crevasse,Legends,Red,Enchant,na,None,Common,001002,na,na
+0603,Crimson Kobolds,Crimson Kobolds,Legends,Red,Summon,Kobolds,None,Common,000000,0,1
+0604,Crimson Manticore,Crimson Manticore,Legends,Red,Summon ,Manticore,None,Uncommon,002002,2,2
+0605,Crookshank Kobolds,Crookshank Kobolds,Legends,Red,Summon,Kobolds,None,Common,000000,0,1
+0606,Cyclopian Mummy,Cyclopian Mummy,Legends,Black,Summon,Mummy,None,Common,000101,2,1
+0607,D'Avenant Archer,D'Avenant Archer,Legends,White,Summon,Archer,None,Common,100002,1,2
+0608,Dakkon Blackblade,Dakkon Blackblade,Legends,Gold,Summon,Legend,None,Rare,100122,0,0
+0609,Darkness,Darkness,Legends,Black,Instant,na,None,Common,000100,na,na
+0610,Deadfall,Deadfall,Legends,Green,Enchant,na,None,Uncommon,010002,na,na
+0611,Demonic Torment,Demonic Torment,Legends,Black,Enchant,Creature,None,Uncommon,000102,na,na
+0612,Devouring Deep,Devouring Deep,Legends,Blue,Summon,Devourer,None,Common,000012,1,1
+0613,Disharmony ,Disharmony,Legends,Red ,Instant,na,None,Rare,001002,na,na
+0614,Divine Intervention,Divine Intervention,Legends,White,Enchant,na,None,Rare,200006,na,na
+0615,Divine Offering,Divine Offering,Legends,White,Instant,na,None,Common,100001,na,na
+0616,Divine Transformation,Transformation,Legends,White,Enchant,Creature,None,Rare,200002,na,na
+0617,Dream Coat,Dream Coat,Legends,Blue,Enchant,Creature,None,Uncommon,000010,na,na
+0618,Durkwood Boars,Durkwood Boars,Legends,Green,Summon,Boars,None,Common,010004,4,4
+0619,Dwarven Song,Dwarven Song,Legends,Red,Instant,na,None,Uncommon,001000,na,na
+0620,Elder Land Wurm,Elder Land Wurm,Legends,White,Summon,Wurm,None,Rare,300004,5,5
+0621,Elder Spawn,Elder Spawn,Legends,Blue,Summon,Spawn,None,Rare,000034,6,6
+0622,Elven Riders,Elven Riders,Legends,Green,Summon,Elves,None,Rare,020003,3,3
+0623,Emerald Dragonfly,Emerald Dragonfly,Legends,Green,Summon,Dragonfly,None,Common,010001,1,1
+0624,Enchanted Being ,Enchanted Being,Legends,White,Summon,Being,None,Common,200001,2,2
+0625,Enchantment Alteration,Enchant Alteration,Legends,Blue,Instant,na,None,Common,000010,na,na
+0626,Energy Tap,Energy Tap,Legends,Blue,Sorcery,na,None,Common,000010,na,na
+0627,Equinox,Equinox,Legends,White,Enchant,Land,None,Common,100000,na,na
+0628,Eternal Warrior,Eternal Warrior,Legends,Red,Enchant,Creature,None,Uncommon,001000,na,na
+0629,Eureka,Eureka,Legends,Green,Sorcery,na,None,Rare,020002,na,na
+0630,Evil Eye of Orms-by-Gore,Evil Eye,Legends,Black,Summon,Evil Eye,None,Uncommon,000104,3,6
+0631,Fallen Angel,Fallen Angel,Legends,Black,Summon,Angel,None,Uncommon,000203,3,3
+0632,Falling Star,Falling Star,Legends,Red,Sorcery,na,None,Rare,001002,na,na
+0633,Feint,Feint,Legends,Red,Instant,na,None,Common,001000,na,na
+0634,Field of Dreams,Field of Dreams,Legends,Blue,Enchant,World,None,Uncommon,000010,na,na
+0635,Fire Sprites,Fire Sprites,Legends,Green,Summon,Faeries,None,Uncommon,010001,1,1
+0636,Firestorm Phoenix,Firestorm Phoenix,Legends,Red,Summon ,Phoenix,None,Rare,002004,3,2
+0637,Flash Counter,Flash Counter,Legends,Blue,Interrupt,na,None,Common,000011,na,na
+0638,Flash Flood,Flash Flood,Legends,Blue,Instant,na,None,Common,000010,na,na
+0639,Floral Spuzzem,Floral Spuzzem,Legends,Green,Summon,Spuzzem,None,Uncommon,010003,2,2
+0640,Force Spike,Force Spike,Legends,Blue,Interrupt,na,None,Common,000010,na,na
+0641,Forethought Amulet,Forethought Amulet,Legends,Brown,Artifact,Continuous,None,Rare,000005,na,na
+0642,Fortified Area,Fortified Area,Legends,White,Enchant,na,None,Rare,200001,na,na
+0643,Frost Giant,Frost Giant,Legends,Red,Summon,Giant,None,Rare,003003,4,4
+0644,Gabriel Angelfire,Gabriel Angelfire,Legends,Gold,Summon,Legend,None,Rare,220003,4,4
+0645,Gaseous Form,Gaseous Form,Legends,Blue,Enchant,Creature,None,Common,000012,na,na
+0646,Gauntlets of Chaos,Gauntlets of Chaos,Legends,Brown,Artifact,Mono,None,Rare,000005,na,na
+0647,Ghosts of the Damned,Damned Spirits,Legends,Black,Summon,Ghosts,None,Common,000201,0,2
+0648,Giant Slug,Giant Slug,Legends,Black,Summon,Slug,None,Uncommon,000101,1,1
+0649,Giant Strength,Giant Strength,Legends,Red,Enchant,Creature,None,Common,002000,na,na
+0650,Giant Turtle,Giant Turtle,Legends,Green,Summon,Turtle,None,Common,020001,2,4
+0651,Glyph of Delusion,Glyph of Delusion,Legends,Blue,Instant,na,None,Common,000010,na,na
+0652,Glyph of Destruction,Glyph of Destruction,Legends,Red,Instant,na,None,Common,001000,na,na
+0653,Glyph of Doom,Glyph of Doom,Legends,Black ,Instant,na,None,Common,000100,na,na
+0654,Glyph of Life,Glyph of Life,Legends,White,Instant,na,None,Common,100000,na,na
+0655,Glyph of Reincarnation,Reincarnation Glyph,Legends,Green,Instant,na,None,Common,010000,na,na
+0656,Gosta Dirk,Gosta Dirk,Legends,Gold,Summon,Legend,None,Rare,200023,4,4
+0657,Gravity Sphere,Gravity Sphere,Legends,Red,Enchant,World,None,Rare,001002,na,na
+0658,Great Defender,Great Defender,Legends,White,Instant,na,None,Common,100000,na,na
+0659,Great Wall,Great Wall,Legends,White,Enchant,na,None,Uncommon,100002,na,na
+0660,Greater Realm of Preservation,Greater Realm,Legends,White,Enchant,na,Prevent,Uncommon,100001,na,na
+0661,Greed,Greed,Legends,Black,Enchant,na,None,Rare,000103,na,na
+0662,Green Mana Battery,Green Mana Battery,Legends,Brown,Artifact,Mono,None,Uncommon,000004,na,na
+0663,Gwendlyn Di Corsi,Gwendlyn Di Corsi,Legends,Gold,Summon,Legend,None,Rare,001210,3,5
+0664,Halfdane,Halfdane,Legends,Gold,Summon,Legend,None,Rare,100111,3,3
+0665,Hammerheim,Hammerheim,Legends,Grey,Land,na,None,Rare,000000,na,na
+0666,Hazezon Tamar,Hazezon Tamar,Legends,Gold,Summon ,Legend,None,Rare,111004,2,4
+0667,Headless Horseman,Headless Horseman,Legends,Black,Summon,Horseman,None,Common,000102,2,2
+0668,Heavens Gate,Heavens Gate,Legends,White,Instant,na,None,Uncommon,100000,na,na
+0669,Hell Swarm,Hell Swarm,Legends,Black,Instant,na,None,Common,000100,na,na
+0670,Hell's Caretaker,Hell's Caretaker,Legends,Black,Summon,Caretaker,None,Rare,000103,1,1
+0671,Hellfire,Hellfire,Legends,Black,Sorcery,na,None,Rare,000302,na,na
+0672,Holy Day,Holy Day,Legends,White,Instant,na,None,Common,100000,na,na
+0673,Horn of Deafening,Horn of Deafening,Legends,Brown,Artifact,Mono,None,Rare,000004,na,na
+0674,Hornet Cobra ,Hornet Cobra,Legends,Green,Summon,Cobra,None,Common,020001,2,1
+0675,Horror of Horrors,Horror of Horrors,Legends,Black,Enchant,na,None,Uncommon,000203,na,na
+0676,Hunding Gjornersen,Hunding Gjornersen,Legends,Gold,Summon,Legend,None,Uncommon,100023,5,4
+0677,Hyperion Blacksmith,Hyperion Blacksmith,Legends,Red,Summon,Smith,None,Uncommon,002001,2,2
+0678,Ichnemon Druid,Ichnemon Druid,Legends,Green,Summon,Druid,None,Uncommon,020001,2,2
+0679,Immolation,Immolation,Legends,Red,Enchant,Creature,None,Common,001000,na,na
+0680,Imprison,Imprison,Legends,Black,Enchant,Creature,None,Rare,000100,na,na
+0681,In the Eye of Chaos,The Eye of Chaos,Legends,Blue,Enchant,World,None,Rare,000012,na,na
+0682,Indestructable Aura,Indestructable Aura,Legends,White,Instant,na,None,Common,100000,na,na
+0683,Infernal Medusa,Infernal Medusa,Legends,Black,Summon,Medusa,None,Uncommon,000203,2,4
+0684,Infinite Authority,Infinite Authority,Legends,White,Enchant,Creature,None,Rare,300000,na,na
+0685,Invoke Prejudice,Invoke Prejudice,Legends,Blue,Enchant,na,None,Rare,000040,na,na
+0686,Ivory Guardiands,Ivory Guardians,Legends,White,Summon,Guardians,None,Uncommon,200004,3,3
+0687,Jacques le Vert,Jacques le Vert,Legends,Gold,Summon,Legend,None,Rare,111001,3,2
+0688,Jasmine Boreal,Jasmine Boreal,Legends,Gold,Summon,Legend,None,Uncommon,110003,4,5
+0689,Jedit Ojanen,Jedit Ojanen,Legends,Gold,Summon,Legend,None,Uncommon,200014,5,5
+0690,Jerrard of the Closed Fist,Jerrard,Legends,Gold,Summon,Legend,None,Uncommon,021003,6,5
+0691,Johan,Johan,Legends,Gold,Summon,Legend,None,Rare,111003,5,4
+0692,Jovial Evil,Jovial Evil,Legends,Black,Sorcery,na,None,Rare,000102,na,na
+0693,Juxtapose,Juxtapose,Legends,Blue,Sorcery,na,None,Rare,000013,na,na
+0694,Karakas,Karakas,Legends,Grey,Land,na,None,Rare,000000,na,na
+0695,Kasimer the Lone Wolf,Kasimer Lone Wolf,Legends ,Gold,Summon,Legend,None,Uncommon,100014,5,3
+0696,Keepers of the Faith,Keepers of Faith,Legends,White,Summon,Keepers,None,Common,200001,2,3
+0697,Kei Takahashi,Kei Takahashi,Legends,Gold,Summon,Legend,Prevent,Rare,110002,2,2
+0698,Killer Bees,Killer Bees,Legends,Green,Summon,Bees,None,Rare,020001,0,1
+0699,Kismet,Kismet,Legends,White,Enchant,na,None,Uncommon,100003,na,na
+0700,Knowledge Vault,Knowledge Vault,Legends,Brown,Artifact,Mono,None,Rare,000004,na,na
+0701,Kobold Drill Sergent,Kobold Drill Sergent,Legends,Red,Summon,Sergent,None,Uncommon,001001,1,2
+0702,Kobold Overlord,Kobold Overlord,Legends,Red,Summon,Lord,None,Rare,001001,1,2
+0703,Kobold Taskmaster,Kobold Taskmaster,Legends,Red,Summon,Taskmaster,None,Uncommon,001001,1,2
+0704,Kobolds of Kher Keep,Kher Keep Kobolds,Legends,Red,Summon,Kobolds,None,Common,000000,0,1
+0705,Kry Shield,Kry Shield,Legends,Brown,Artifact,Mono,None,Uncommon,000002,na,na
+0706,Lady Caladria,Lady Caladria,Legends,Gold,Summon,Legend,None,Rare,220003,3,6
+0707,Lady Evangela ,Lady Evangela,Legends,Gold,Summon,Legend,None,Rare,100110,1,2
+0708,Lady Orca,Lady Orca,Legends,Gold,Summon,Legend,None,Uncommon,001105,7,4
+0709,Land Equilibrium,Land Equilibrium,Legends,Blue,Enchant,na,None,Rare,000022,na,na
+0710,Land Tax,Land Tax,Legends,White,Enchant,na,None,Uncommon,100000,na,na
+0711,Land's Edge,Land's Edge,Legends,Red,Enchant,World,None,Rare,002001,na,na
+0712,Lesser Werewolf,Lesser Werewolf,Legends,Black,Summon,Lycanthrope,None,Uncommon,000103,2,4
+0713,Life Chisel,Life Chisel,Legends,Brown,Artifact,Continuous,None,Uncommon,000004,na,na
+0714,Life Matrix,Life Matrix,Legends,Brown,Artifact,Mono,None,Rare,000004,na,na
+0715,Lifeblood,Lifeblood,Legends,White,Enchant,na ,None,Rare,200002,na,na
+0716,Living Plane,Living Plane,Legends,Green,Enchant,World,None,Rare,020002,na,na
+0717,Livonya Silone,Livonya Silone,Legends,Gold,Summon,Legend,None,Rare,022002,4,4
+0718,Lord Magnus,Lord Magnus,Legends,Gold,Summon,Legend,None,Uncommon,210003,4,3
+0719,Lost Soul,Lost Soul,Legends,Black,Summon,Lost Soul,None,Common,000201,2,1
+0720,Mana Drain,Mana Drain,Legends,Blue,Interrupt,na,None,Uncommon,000020,na,na
+0721,Mana Matrix,Mana Matrix,Legends,Brown,Artifact,Continuous,None,Rare,000006,na,na
+0722,Marble Priest,Marble Priest,Legends,Brown ,Artifact,Creature,None,Uncommon,000005,3,3
+0723,Marhault Elsdragon,Marhault Elsdragon,Legends,Gold,Summon,Legend,None,Uncommon,012003,4,6
+0724,Master of the Hunt,Master of the Hunt,Legends,Green,Summon,Master,None,Uncommon,020002,2,2
+0725,Mirror Universe,Mirror Universe,Legends,Brown,Artifact,Mono,None,Rare,000006,na,na
+0726,Moat,Moat,Legends,White,Enchant,na,None,Rare,200002,na,na
+0727,Mold Demon,Mold Demon,Legends,Black,Summon,Demon,None,Rare,000205,6,6
+0728,Moss Monster,Moss Monster,Legends,Green,Summon,MossMonster,None,Common,020003,3,6
+0729,Mountain Stronghold,Mountain Hold,Legends,Grey,Land,na,None,Uncommon,000000,na,na
+0730,Mountain Yeti ,Mountain Yeti,Legends,Red,Summon,Yeti,None,Uncommon,002002,3,3
+0731,Nebuchadnezzar,Nebuchadnezzar,Legends,Gold,Summon,Legend,None,Rare,000113,3,3
+0732,Nether Void,Nether Void,Legends,Black,Enchant,World,None,Rare,000103,na,na
+0733,Nicol Bolas,Nicol Bolas,Legends,Gold,Summon,ElderDragon,None,Rare,002222,7,7
+0734,North Star,North Star,Legends,Brown,Artifact,Mono,None,Rare,000004,na,na
+0735,Nova Pentacle,Nova Pentacle,Legends,Brown,Artifact,Mono,None,Rare,000004,na,na
+0736,Osai Vultures,Osai Vultures,Legends,White,Summon,Vultures,None,Common,100001,1,1
+0737,Palladia-Mors,Palladia-Mors,Legends,Gold,Summon,ElderDragon,None,Rare,222002,7,7
+0738,Part Water,Part Water,Legends,Blue,Sorcery,na,None,Uncommon,00001x,na,na
+0739,Pavel Maliki,Pavel Maliki,Legends,Gold,Summon,Legend,None,Uncommon,001104,5,3
+0740,Pendlehaven,Pendlehaven,Legends,Grey,Land,na,None,Rare,000000,na,na
+0741,Petra Sphinx,Petra Sphinx,Legends,White,Summon,Sphinx,None,Rare,300002,3,4
+0742,Pit Scorpion,Pit Scorpian,Legends,Black,Summon,Scorpion,None,Common,000102,1,1
+0743,Pixie Queen,Pixie Queen,Legends,Green,Summon,Pixie,None,Rare,020002,1,1
+0744,Planar Gate,Planar Gate,Legends,Brown,Artifact,Continuous,None,Rare,000006,na,na
+0745,Pradesh Gypsies,Pradesh Gypsies,Legends,Green,Summon,Gypsies,None,Uncommon,010002,1,1
+0746,Presence of the Master,Master's Presence,Legends,White,Enchant,na,None,Uncommon,100003,na ,na
+0747,Primordial Ooze,Primordial Ooze,Legends,Red,Summon,Ooze,None,Rare,001000,1,1
+0748,Princess Lucrezia,Princess Lucrezia,Legends,Gold,Summon,Legend,None,Uncommon,000123,5,4
+0749,Psionic Entity,Psionic Entity,Legends,Blue,Summon,Entity,None,Uncommon,000014,2,2
+0750,Psychic Purge,Psychic Purge,Legends,Blue,Sorcery,na,None,Common,000010,na,na
+0751,Puppet Master,Puppet Master,Legends,Blue,Enchant,Creature,None,Uncommon,000030,na,na
+0752,Pyrotechnics,Pyrotechnics,Legends,Red,Sorcery,na,None,Uncommon,001004,na,na
+0753,Quagmire,Quagmire,Legends,Black,Enchant,na,None,Common,000102,na,na
+0754,Quarum Trench Gnomes,Trench Gnomes,Legends,Red,Summon,Gnomes,None,Uncommon,001003,1,1
+0755,Rabid Wombat,Rabid Wombat,Legends,Green,Summon,Wombat,None,Uncommon,020002,0,1
+0756,Radjan Spirit,Radjan Spirit,Legends,Green,Summon,Spirit,None,Uncommon,010003,3,2
+0757,Raging Bull,Raging Bull,Legends,Red,Summon,Bull,None,Common,001002,2,2
+0758,Ragnar,Ragnar,Legends,Gold,Summon,Legend,None,Rare,110010,2,2
+0759,Ramirez DePietro,Ramirez DePietro,Legends,Gold,Summon,Legend,None,Uncommon,000213,4,3
+0760,Ramses Overdark,Ramses Overdark,Legends,Gold,Summon,Legend,None,Rare,000222,4,3
+0761,Rapid Fire,Rapid Fire,Legends,White,Instant,na,None,Rare,100003,na,na
+0762,Rasputin Dreamweaver,Rasputin,Legends,Gold,Summon,Legend,None,Rare,100014,4,1
+0763,Rebirth,Rebirth,Legends,Green,Sorcery,na,None,Rare,030003,na,na
+0764,Recall,Recall,Legends,Blue,Sorcery,na,None,Uncommon,00001x,na,na
+0765,Red Mana Battery,Red Mana Battery,Legends,Brown,Artifact,Mono,None,Uncommon,000004,na,na
+0766,Reincarnation,Reincarnation,Legends,Green,Instant,na,None,Uncommon,020001,na,na
+0767,Relic Barrier,Relic Barrier,Legends,Brown,Artifact,Mono,None,Uncommon,000002,na,na
+0768,Relic Bind,Relic Bind,Legends,Blue,Enchant,Artifact,None,Rare,000012,na,na
+0769,Remove Enchantment,Remove Enchantment,Legends,White,Instant,na,None,Common,100000,na,na
+0770,Remove Soul,Remove Soul,Legends,Blue,Interrupt,na,None,Common,000011,na,na
+0771,Reset,Reset,Legends,Blue,Interrupt,na,None,Uncommon,000020,na,na
+0772,Revelation,Revelation,Legends,Green,Enchant,World,None,Rare,010000,na,na
+0773,Reverberation,Reverberation,Legends,Blue,Instant,na,Redirect,Rare,000022,na,na
+0774,Righteous Avengers,Righteous Avengers,Legends,White,Summon,Avengers,None,Uncommon,100004,3,1
+0775,Ring of Immortals,Ring of Immortals,Legends,Brown,Artifact,Mono,None,Rare,000005,na,na
+0776,Riven Turnbull,Riven Turnbull,Legends,Gold,Summon,Legend,None,Uncommon,000115,5,7
+0777,Rohgahh of Kher Keep,Rohgahh,Legends,Gold,Summon,Legend,None,Rare,002202,5,5
+0778,Rust,Rust,Legends,Green,Interrupt,na,None,Common,010000,na,na
+0779,Sea Kings' Blessing,Sea Kings' Blessing,Legends,Blue,Instant,na,None,Uncommon,000010,na,na
+0780,Seafarer's Quay,Seafarer's Quay,Legends,Grey,Land,na,None,Uncommon,000000,na,na
+0781,Seeker,Seeker,Legends,White,Enchant,Creature,None,Uncommon,200002,na,na
+0782,Segovian Leviathan,Segovian Leviathan,Legends,Blue,Summon,Leviathan,None,Uncommon,000014,3,3
+0783,Sentinel,Sentinel,Legends,Brown,Artifact,Creature,None,Rare,000004,1,0
+0784,Serpent Generator,Serpent Generator,Legends,Grey,Artifact,Mono,None,Rare,000006,na,na
+0785,Shelkin Brownie,Shelkin Brownie,Legends,Green,Summon,Faerie,None,Common,010001,1,1
+0786,Shield Wall,Shield Wall,Legends,White,Instant,na,None,Common,100001,na,na
+0787,Shimian Night Stalker,Night Stalker,Legends,Black,Summon,Stalker,None,Uncommon,000203,4,4
+0788,Silhouette,Silhouette,Legends,Blue,Instant,na,None,Common,000011,na,na
+0789,Sir Shandlar of Eberyn,Sir Shandlar,Legends,Gold,Summon,Legend,None,Uncommon,110004,4,7
+0790,Sivitri Scarzam,Sivitri Scarzam,Legends,Gold,Summon,Legend,None,Uncommon,000115,6,4
+0791,Sol'kanar the Swamp King,Sol'kanar,Legends,Gold,Summon,Legend,None,Rare,001112,5,5
+0792,Spectral Cloak,Spectral Cloak,Legends,Blue,Enchant,Creature,None,Uncommon,000020,na,na
+0793,Spinal Villain,Spinal Villain,Legends,Red,Summon,Villain,None,Uncommon,001002,1,2
+0794,Spirit Link,Spirit Link,Legends,White,Enchant,Creature,None,Uncommon,100000,na,na
+0795,Spirit Shackle,Spirit Shackle,Legends,Black,Enchant,Creature,None,Common,000200,na,na
+0796,Spiritual Sanctuary,Spiritual Sanctuary,Legends,White,Enchant,na,None,Rare,200002,na,na
+0797,Stangg,Stangg,Legends,Gold,Summon,Legend,None,Rare,011004,3,4
+0798,Storm Seeker,Storm Seeker,Legends,Green,Instant,na,None,Uncommon,010003,na,na
+0799,Storm World,Strorm World,Legends,Red,Enchant ,World,None,Rare,001000,na,na
+0800,Subdue,Subdue,Legends,Green,Instant,na,None,Common,010000,na,na
+0801,Sunastian Falconer,Sunastian,Legends,Gold,Summon,Legend,None,Uncommon,011003,4,4
+0802,Sword of the Ages,Sword of the Ages ,Legends,Brown,Artifact,Mono,None,Rare,000006,na,na
+0803,Sylvan Library,Sylvan Library,Legends,Green,Enchant,na,None,Uncommon,010001,na,na
+0804,Sylvan Paradise,Sylvan Paradise,Legends,Green,Instant,na,None,Uncommon,010000,na,na
+0805,Syphon Soul,Syphon Soul,Legends,Black,Sorcery,na,None,Common,000102,na,na
+0806,Tabernacle at Pendrell Vale,Pendrell Tabernacle,Legends,Grey,Land,na,None,Rare,000000,na,na
+0807,Takklemaggot,Takklemaggot,Legends,Black,Enchant,Creature,None,Uncommon,000202,na,na
+0808,Telekinesis,Telekinesis,Legends,Blue,Instant,na,None,Rare,000020,na,na
+0809,Teleport,Teleport,Legends,Blue,Instant,na,None,Rare,000030,na,na
+0810,Tempest Efreet,Tempest Efreet,Legends,Red,Summon,Efreet,None,Rare,003001,3,3
+0811,Tetsuo Umezawa,Tetsuo Umezawa,Legends,Gold,Summon,Legend,None,Rare,001110,3,3
+0812,The Abyss,The Abyss,Legends,Black,Enchant,World,None,Rare,000103,na,na
+0813,The Brute,The Brute,Legends,Red,Enchant,Creature,None,Common,001001,na,na
+0814,The Lady of the Mountain,Lady of the Mount,Legends,Gold,Summon,Legend,None,Uncommon,011004,5,5
+0815,The Wretched,The Wretched,Legends,Black,Summon,Wretched,None,Rare,000203,2,5
+0816,Thunder Spirit,Thunder Spirit,Legends,White,Summon,Spirit,None,Rare,200001,2,2
+0817,Time Elemental,Time Elemental,Legends,Blue,Summon,Elemental,None,Rare,000012,0,2
+0818,Tobias Andrion,Tobias Andrion,Legends,Gold,Summon,Legend,None,Uncommon,100013,4,4
+0819,Tolaria,Tolaria,Legends,Grey,Land,na,None,Rare,000000,na,na
+0820,Tor Wauki,Tor Wauki,Legends,Gold,Summon,Legend,None,Uncommon,001202,3,3
+0821,Torsten von Ursus,Torsten,Legends,Gold,Summon,Legend,None,Uncommon,120003,5,5
+0822,Touch of Darkness,Touch of Darkness,Legends,Black,Instant,na,None,Common,000100,na,na
+0823,Transmutation,Transmutation,Legends,Black,Instant,na,None,Common,000101,na,na
+0824,Triassic Egg,Triassic Egg,Legends,Brown,Artifact,Mono,None,Rare,000004,na,na
+0825,Tuknir Deathlock,Tuknir Deathlock,Legends,Gold,Summon,Legend,None,Rare,022000,2,2
+0826,Turndra Wolves,Tundra Wolves,Legends,White,Summon,Wolves,None,Common,100000,1,1
+0827,Typhoon,Typhoon,Legends,Green,Sorcery,na,None,Uncommon,010002,na,na
+0828,Undertow,Undertow,Legends,Blue,Enchant,na,None,Common,000012,na,na
+0829,Underworld Dreams,Underworld Dreams,Legends,Black,Enchant,na,None,Uncommon,000300,na,na
+0830,Unholy Citadel,Unholy Citadel,Legends,Grey,Land,na,None,Uncommon,000000,na,na
+0831,Untamed Wilds,Untamed Wilds,Legends,Green,Sorcery,na,None,Uncommon,010002,na,na
+0832,Ur-Drago,Ur-Drago,Legends,Gold,Summon,Legend,None,Rare,000223,4,4
+0833,Urborg,Urborg,Legends,Grey,Land,na,None,Rare,000000,na,na
+0834,Vaevictis Asmadi,Vaevictis Asmadi,Legends,Gold,Summon,ElderDragon,None,Rare,022202,7,7
+0835,Vampire Bats,Vampire Bats,Legends,Black,Summon,Bats,None,Common,000100,0,1
+0836,Venarian Gold,Venarian Gold,Legends,Blue,Enchant,Creature,None,Common,00002x,na,na
+0837,Visions,Visions,Legends,White,Sorcery,na,None,Common,100000,na,na 
+0838,Voodoo Doll,Voodoo Doll,Legends,Brown,Artifact,Mono,None,Rare,000006,na,na
+0839,Walking Dead,Walking Dead,Legends,Black,Summon,Dead,None,Common,000101,1,1
+0840,Wall of Caltrops,Wall of Caltrops,Legends,White,Summon,Wall,None,Common,100001,2,1
+0841,Wall of Dust,Wall of Dust,Legends,Red,Summon,Wall,None,Uncommon,001002,1,4
+0842,Wall of Earth,Wall of Earth,Legends,Red,Summon,Wall,None,Common,001001,0,6
+0843,Wall of Heat,Wall of Heat,Legends,Red,Summon,Wall,None,Common,001002,2,6
+0844,Wall of Light,Wall of Light,Legends,White,Summon,Wall,None,Uncommon,100002,1,5
+0845,Wall of Opposition,Wall of Opposition,Legends,Red,Summon,Wall,None,Rare,002003,0,6
+0846,Wall of Putrid Flesh,Wall of Putrid Flesh,Legends,Black,Summon,Wall,None,Uncommon,000102,2,4
+0847,Wall of Shadows,Wall of Shadows,Legends,Black,Summon,Wall,None,Common,000201,0,1
+0848,Wall of Tombstones,Wall of Tombstones,Legends,Black,Summon,Wall,None,Uncommon,000101,0,1
+0849,Wall of Vapor,Wall of Vapor,Legends,Blue,Summon,Wall,None,Common,000013,0,1
+0850,Wall of Wonder,Wall of Wonder,Legends,Blue,Summon,Wall,None,Uncommon,000022,1,5
+0851,Whirling Dervish,Whirling Dervish,Legends,Green,Summon,Dervish,None,Uncommon,020000,1,1
+0852,White Mana Battery,White Mana Battery,Legends,Brown,Artifact,Mono,None,Uncommon,000004,na,na
+0853,Willow Satyr,Willow Satyr,Legends,Green,Summon,Satyr,None,Rare,020002,1,1
+0854,Winds of Change,Winds of Change,Legends,Red,Sorcery,na,None,Uncommon,001000,na,na
+0855,Winter Blast,Winter Blast,Legends,Green,Sorcery,na,None,Rare,01000x,na,na
+0856,Wolverine Pack,Wolverine Pack,Legends,Green,Summon,Wolverines,None,Common,020002,2,4
+0857,Wood Elemental,Wood Elemental,Legends,Green,Summon,Elemental,None,Rare,010003,x,x
+0858,Xira Arien,Xira Arien,Legends,Gold,Summon,Legend,None,Rare,011100,1,2
+0859,Zephyr Falcon,Zephyr Falcon,Legends,Blue,Summon,Falcon,None,Common,000011,1,1
+0860,Call from the Grave,Call from the Grave,Astral,Black,Sorcery,na,None,Special,000201,na,na
+0861,Prismatic Dragon,Prismatic Dragon,Astral,White,Summon,Dragon,None,Special,200002,2,3
+0862,Knights of the Rainbow Vale,Rainbow Knights,Astral,White,Summon,Knights,None,Special,200001,2,2
+0863,Pandora's Box,Pandora's Box,Astral,Brown,Artifact,na,None,Special,000005,na,na
+0864,Whimsy,Whimsy,Astral,Blue,Sorcery,na,None,Special,00001x,na,na
+0865,Faerie Dragon,Faerie Dragon,Astral,Green,Summon,Dragon,None,Special,020002,1,3
+0866,Goblin Polka Band,Goblin Polka Band,Astral,Red,Summon,Goblins,None,Special,002000,1,1
+0867,Power Junction,Power Junction,Astral,Blue,Enchant,na,None,Special,000032,na,na
+0868,Aswan Jaguar,Aswan Jaguar,Astral,Green,Summon,Jaguar,None,Special,020001,2,2
+0869,Orcish Catapult,Orcish Catapult,Astral,Red,Instant,na,None,Special,00100x,na,na
+0870,Gem Bazaar,Gem Bazaar,Astral,Grey,Land,na,None,Special,000000,na,na
+0871,Necropolis of Azaar,Necropolis of Azaar,Astral,Black,Enchant,na,None,Special,000202,na,na
+0872,Red Guild,Red Guild,Astral,Grey,Land,na,None,Special,000000,na,na
+0873,Blue Guild,Blue Guild,Astral,Grey,Land,na,None,Special,000000,na,na
+0874,White Guild,White Guild,Astral,Grey,Land,na,None,Special,000000,na,na
+0875,Green Guild,Green Guild,Astral,Grey,Land,na,None,Special,000000,na,na
+0876,Black Guild,Black Guild,Astral,Grey,Land,na,None,Special,000000,na,na
+0877,Artificer's Guild,Artificer's Guild,Astral,Grey,Land,na,None,Special,000000,na,na
+0878,Bright Society,Bright Society,Astral,Grey,Land,na,None,Special,000000,na,na
+0879,Grey Society,Grey Society,Astral,Grey,Land,na,None,Special,000000,na,na
+0880,Dark Society,Dark Society,Astral,Grey,Land,na,None,Special,000000,na,na
+0881,Gladiator,Gladiator,Astral,Brown,Artifact,Creature,None,Special,000003,2,2
+0882,Master,Master,Astral,Blue,Enchant,Creature,None,Special,000010,na,na
+0883,Royalty,Royalty,Astral,White,Enchant,na,None,Special,100000,na,na
+0884,Veteran,Veteran,Astral,Red,Summon,Veteran,None,Special,001000,2,1
+0885,Giant Wasp,Giant Wasp,Magic,Brown,Token,Giant Wasp,None,None,000005,1,1
+0886,Wolves of the Hunt,Wolves of the Hunt,Legends,Green,Token,Wolves,None,None,020002,1,1
+0887,Poison Snake,Poison Snake,Legends,Brown,Token,Snake,None,None,000004,1,1
+0888,Minor Demon,Minor Demon,Legends,Gold,Token,Demon,None,None,001102,1,1
+0889,Sand Warrior,Sand Warrior,Legends,Gold,Token,Sand Warrior,None,None,111000,1,1
+0890,Djinn of the Bottle,Djinn of the Bottle,Arabian,Brown,Token,Djinn,None,None,000000,5,5
+0891,Tetravii,Tetravii,Antiquities,Brown,Token,Tetravii,None,None,000000,1,1
+0892,Ruhk,Ruhk,Arabian,Red,Token,Ruhk,None,None,000000,4,4
+0893,Arena,Arena,Astral,Grey,Land,na,None,Special,000000,1,1
+0894,Mana Crypt,Mana Crypt,Astral,Brown,Artifact,na,None,Special,000000,na,na
+0895,Nalathni Dragon,Nalathni Dragon,Astral,Red,Summon,Dragon,None,Special,002002,1,1
+0896,Sewers of Estark,Sewers of Estark,Astral,Black,Instant,na,None,Special,000202,na,na
+0897,Windseeker Centaur,Windseeker Centaur,Astral,Red,Summon,Centaur,None,Special,002001,2,2
+0898,Giant Badger,Giant Badger,Astral,Green,Summon,Badger,None,Special,020001,2,2
+0899,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0900,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0901,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0902,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0903,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0904,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0905,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0906,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0907,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0908,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0909,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0910,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0911,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0912,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0913,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0914,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0915,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0916,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0917,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0918,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0919,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0920,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0921,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0922,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0923,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0924,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0925,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0926,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0927,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0928,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0929,Blank Slot 13,Blank Slot 13,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0930,Brass Man,Brass Man,Arabian,Brown,Artifact,Creature,None,Uncommon,000001,1,3
+0931,Dancing Scimitar,Dancing Scimitar,Arabian,Brown,Artifact,Creature,None,Rare,000004,1,5
+0932,Curse Artifact,Curse Artifact,Dark,Black,Enchant,Artifact,None,Uncommon,000202,na,na
+0933,Electric Eel,Electric Eel,Dark,Blue,Summon,Eel,None,Uncommon,000010,1,1
+0934,Festival,Festival,Dark,White,Instant,na,None,Common,100000,na,na
+0935,Flood,Flood,Dark,Blue,Enchant,na,None,Uncommon,000010,na,na
+0936,Goblin Digging Team,Goblin Digging Team,Dark,Red,Summon,Goblins,None,Common,001000,1,1
+0937,Goblin Rock Sled,Goblin Rock Sled,Dark,Red,Summon,Rock Sled,None,Common,001001,3,1
+0938,Goblin Shrine,Goblin Shrine,Dark,Red,Enchant,Land,None,Common,002001,na,na
+0939,Marsh Viper,Marsh Viper,Dark,Green,Summon,Viper,None,Common,010003,1,2
+0940,Merfolk Assassin,Merfolk Assassin,Dark,Blue,Summon,Merfolk,None,Uncommon,000020,1,2
+0941,Miracle Worker,Miracle Worker,Dark,White,Summon,Savant,None,Common,100000,1,1
+0942,Pikemen,Pikemen,Dark,White,Summon,Pikemen,None,Common,100001,1,1
+0943,Ragman,Ragman,Dark,Black,Summon,Ragman,None,Rare,000202,2,1
+0944,Savaen Elves,Savaen Elves,Dark,Green,Summon,Elves,None,Common,010000,1,1
+0945,Scarwood Bandits,Scarwood Bandits,Dark,Green,Summon,Bandits,None,Rare,020002,2,2
+0946,Scarwood Goblins,Scarwood Goblins,Dark,Gold,Summon,Goblins,None,Common,011000,2,2
+0947,Scavenger Folk,Scavenger Folk,Dark,Green,Summon,Scavengers,None,Common,010000,1,1
+0948,Squire,Squire,Dark,White,Summon,Squire,None,Common,100001,1,2
+0949,Tangle Kelp,Tangle Kelp,Dark,Blue,Enchant,Creature,None,Uncommon,000010,na,na
+0950,Tivandar's Crusade,Tivandar's Crusade,Dark,White,Sorcery,na,None,Uncommon,200001,na,na
+0951,Water Wurm,Water Wurm,Dark,Blue,Summon,Wurm,None,Common,000010,1,1
+0952,Rubinia Soulsinger,Rubinia Soulsinger,Legends,Gold,Summon,Legend,None,Rare,110012,2,3
+0953,MPS Logo,MPS Logo,Astral,Brown,Artifact,na,MPS,Special,000000,na,na
+0954,Blank Slot 46,Blank Slot 46,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0955,Blank Slot 47,Blank Slot 47,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0956,Blank Slot 48,Blank Slot 48,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0957,Blank Slot 49,Blank Slot 49,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0958,Blank Slot 50,Blank Slot 50,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0959,Blank Slot 51,Blank Slot 51,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0960,Across the Rhine,Across the Rhine,Astral,Brown,Enchant,na,MPS,Special,000000,na,na
+0961,CivNet,CivNet,Astral,Grey,Land,na,MPS,Special,000000,na,na
+0962,Terror from the Deep,Terror from the Deep,Astral,Blue,Summon,Terror,MPS,Special,000070,24,24
+0963,World Card,World Card,Magic,Brown,World,na,None,na,000000,na,na
+0964,Blank Slot 53,Blank Slot 53,Magic,Clear,Summon,Demon,None,Common,000000,1,1
+0965,Blank Slot 54,Blank Slot 54,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0966,Blank Slot 55,Blank Slot 55,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0967,Blank Slot 56,Blank Slot 56,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0968,Blank Slot 57,Blank Slot 57,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0969,Blank Slot 58,Blank Slot 58,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0970,Blank Slot 59,Blank Slot 59,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0971,Blank Slot 60,Blank Slot 60,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0972,Blank Slot 61,Blank Slot 61,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0973,Blank Slot 62,Blank Slot 62,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0974,Blank Slot 63,Blank Slot 63,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0975,Blank Slot 64,Blank Slot 64,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0976,Blank Slot 65,Blank Slot 65,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0977,Blank Slot 66,Blank Slot 66,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0978,Blank Slot 67,Blank Slot 67,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0979,Blank Slot 68,Blank Slot 68,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0980,Blank Slot 69,Blank Slot 69,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0981,Blank Slot 70,Blank Slot 70,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0982,Blank Slot 71,Blank Slot 71,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0983,Blank Slot 72,Blank Slot 72,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0984,Blank Slot 73,Blank Slot 73,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0985,Blank Slot 74,Blank Slot 74,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0986,Blank Slot 75,Blank Slot 75,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0987,Blank Slot 76,Blank Slot 76,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0988,Blank Slot 77,Blank Slot 77,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0989,Blank Slot 78,Blank Slot 78,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0990,Blank Slot 79,Blank Slot 79,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0991,Blank Slot 80,Blank Slot 80,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0992,Blank Slot 81,Blank Slot 81,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0993,Blank Slot 82,Blank Slot 82,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0994,Blank Slot 83,Blank Slot 83,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0995,Blank Slot 84,Blank Slot 84,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0996,Blank Slot 85,Blank Slot 85,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0997,Blank Slot 86,Blank Slot 86,Magic,Brown,Summon,Demon,None,Common,000000,1,1
+0998,Damage Card,Damage,Magic,Brown,Damage,na,None,na,000000,na,na
+0999,Player Card,Player Card,Magic,Brown,Player,na,None,na,000000,na,na
+1000,Basalt Monolith,Basalt Untap,Magic,Brown,Instant,Effect,None,na,000003,na,na
+1001,Blessing,Blessing PowerUp,Magic,White,Instant,Effect,None,na,x00000,na,na
+1002,Chaos Orb,Silly Orb Thing,Magic,Brown,Instant,Effect,None,na,000002,na,na
+1003,Circle of Protection Black,Black Protection,Magic,White,Instant,Effect,None,na,000001,na,na
+1004,Circle of Protection Blue,Blue Protection,Magic,White,Instant,Effect,None,na,000001,na,na
+1005,Circle of Protection Green,Green Protection,Magic,White,Instant,Effect,None,na,000001,na,na
+1006,Circle of Protection Red,Red Protection,Magic,White,Instant,Effect,None,na,000001,na,na
+1007,Circle of Protection White,White Protection,Magic,White,Instant,Effect,None,na,000001,na,na
+1008,Clockwork Beast,Rewind Beast,Magic,Brown,Instant,Effect,None,na,00000x,na,na
+1009,Conservator,Conserve Life,Magic,Brown,Instant,Effect,None,na,000003,na,na
+1010,Crystal Rod,Blue Lucky Charm,Magic,Brown,Instant,Effect,None,na,000001,na,na
+1011,Cyclopean Tomb,Creative Irrigation,Magic,Brown,Instant,Effect,None,na,000002,na,na
+1012,Deathgrip,Cancel Green,Magic,Black,Interrupt,Effect,None,na,000200,na,na
+1013,Demonic Hordes,Consume Land,Magic,Black,Instant,Effect,None,na,000000,na,na
+1014,Disrupting Sceptre,Discard Therapy,Magic,Brown,Instant,Effect,None,na,000003,na,na
+1015,Dragon Whelp,Whelp Up,Magic,Red,Instant,Effect,None,na,00x000,na,na
+1016,Dwarven Demolition Team,Urban Renewal,Magic,Red,Instant,Effect,None,na,000000,na,na
+1017,Dwarven Warrior,Thanks Drive Thru,Magic,Red,Instant,Effect,None,na,000000,na,na
+1018,Farmstead,Bumper Crop,Magic,White,Instant,Effect,None,na,200000,na,na
+1019,Firebreathing,Now Thats a Fire,Magic,Red,Instant,Effect,None,na,00x000,na,na
+1020,Forcefield,Stay Away,Magic,Brown,Instant,Effect,None,na,000001,na,na
+1021,Frozen Shade,Shade PowerUp,Magic,Black,Instant,Effect,None,na,000x00,na,na
+1022,Gaea's Liege,Rural Renewal,Magic,Green,Instant,Effect,None,na,000000,na,na
+1023,Glasses of Urza,Peekaboo,Magic,Brown,Instant,Effect,None,na,000000,na,na
+1024,Goblin Baloon Brigade,Up Up and Away,Magic,Red,Instant,Effect,None,na,001000,na,na
+1025,Granite Gargoyle,Stone Skin,Magic,Red,Instant,Effect,None,na,00x000,na,na
+1026,Empty Slot 1,Empty Slot 1,Magic,Brown,Instant,Effect,None,na,000000,na,na
+1027,Helm of Chatzuk,Band Together,Magic,Brown,Instant,Effect,None,na,000001,na,na
+1028,Holy Armor,ArmorUp,Magic,White,Instant,Effect,None,na,x00000,na,na
+1029,Empty Slot 2,Empty Slot 2,Magic,Brown,Instant,Effect,None,na,000000,na,na
+1030,Icy Manipulator,Icy Touch,Magic,Brown,Instant,Effect,None,na,000001,na,na
+1031,Samite Healer,Good Drugs,Magic,White,Instant,Effect,None,na,000000,na,na
+1032,Instill Energy,Untap Once,Magic,Green,Instant,Effect,None,na,000000,na,na
+1033,Iron Star,Red Lucky Charm,Magic,Brown,Instant,Effect,None,na,000001,na,na
+1034,Ivory Cup,White Lucky Charm,Magic,Brown,Instant,Effect,None,na,000001,na,na
+1035,Jade Monolith,Monolith Redirect,Magic,Brown,Instant,Effect,None,na,000001,na,na
+1036,Jade Statue,Dont Touch The Idol,Magic,Brown,Instant,Effect,None,na,000002,na,na
+1037,Jayemdae Tome,Musty Tome,Magic,Brown,Instant,Effect,None,na,000004,na,na
+1038,Mana Vault,Pay The Shark,Magic,Brown,Instant,Effect,None,na,000004,na,na
+1039,Nettling Imp,Red Rover Red Rover,Magic,Black,Instant,Effect,None,na,000000,na,na
+1040,Nevinyrral's Disk,History Eraser Button,Magic,Brown,Instant,Effect,None,na,000001,na,na
+1041,Northern Paladin,Dudley DoRight,Magic,White,Instant,Effect,None,na,200000,na,na
+1042,Orcish Artillery,Dangerous Artillery,Magic,Red,Instant,Effect,None,na,000000,na,na
+1043,Personal Incarnation,OnTheChin,Magic,White,Instant,Effect,None,na,000000,na,na
+1044,Pestilence,Germ Warfare,Magic,Black,Instant,Effect,None,na,000x00,na,na
+1045,Pirate Ship,Tim on a Boat,Magic,Blue,Instant,Effect,None,na,000000,na,na
+1046,Prodigal Sorcerer,Tims Poke,Magic,Blue,Instant,Effect,None,na,000000,na,na
+1047,Regeneration,Hes Not Dead Yet,Magic,Green,Instant,Effect,None,na,010000,na,na
+1048,Rock Hydra,Save A Head,Magic,Red,Instant,Effect,None,na,00x000,na,na
+1049,Rod of Ruin,Tim on a Stick,Magic,Brown,Instant,Effect,None,na,000003,na,na
+1050,Royal Assassin,Royal Stab,Magic,Black,Instant,Effect,None,na,000000,na,na
+1051,Shivan Dragon,Shivan PowerUp,Magic,Red,Instant,Effect,None,na,00x000,na,na
+1052,Stone Giant,Fastball Special,Magic,Red,Instant,Effect,None,na,000000,na,na
+1053,The Hive,Bzzzz,Magic,Brown,Instant,Effect,None,na,000005,na,na
+1054,Throne of Bone,Black Lucky Charm,Magic,Brown,Instant,Effect,None,na,000001,na,na
+1055,Wall of Fire,Buddha Flame,Magic,Red,Instant,Effect,None,na,00x000,na,na
+1056,Wall of Water,Waterbreathing,Magic,Blue,Instant,Effect,None,na,0000x0,na,na
+1057,Wooden Sphere,Green Lucky Charm,Magic,Brown,Instant,Effect,None,na,000001,na,na
+1058,Ley Druid,Restore Land,Magic,Green,Interrupt,Effect,None,na,000000,na,na
+1059,Lifeforce,Cancel Black,Magic,Green,Interrupt,Effect,None,na,020000,na,na
+1060,Banshee,Banshee Scream,Dark,Black,Instant,Effect,None,na,00000x,na,na
+1061,Barl's Cage,In the Slammer,Dark,Brown,Instant,Effect,None,na,000000,na,na
+1062,Dark Heart of the Wood,Tree Killers,Dark,Gold,Instant,Effect,None,na,000000,na,na
+1063,Bone Flute,Haunting Tune,Dark,Brown,Instant,Effect,None,na,000000,na,na
+1064,Brothers of Fire,Work Hazard,Dark,Red,Instant,Effect,None,na,000000,na,na
+1065,Cave People,Secret Path,Dark,Red,Instant,Effect,None,na,000000,na,na
+1066,Eater of the Dead,Bring Out Yer Dead,Dark,Black,Instant,Effect,None,na,000000,na,na
+1067,Exorcist,Get Thee Gone Evil,Dark,White,Instant,Effect,None,na,000000,na,na
+1068,Fire Drake,Bunsen Burner,Dark,Red,Instant,Effect,None,na,001000,na,na
+1069,Scarwood Hag Effect 1,Map of Scarwood,Dark,Green,Instant,Effect,None,na,000000,na,na
+1070,Scarwood Hag Effect 2,Tree Barricade,Dark,Green,Instant,Effect,None,na,000000,na,na
+1071,People of the Woods,Get a Life You Bum,Dark,Green,Instant,Effect,None,na,000000,na,na
+1072,Spitting Slug,Hawk a Loogie,Dark,Green,Instant,Effect,None,na,000000,na,na
+1073,Goblin Wizard Effect 1,Pull Goblin out of Hat,Dark,Red,Instant,Effect,None,na,000000,na,na
+1074,Goblin Wizard Effect 2,WizWard,Dark,Red,Instant,Effect,None,na,000000,na,na
+1075,Grave Robbers,Throw Me The Idol,Dark,Black,Instant,Effect,None,na,000000,na,na
+1076,Living Armor,We Have the Tech...,Dark,Brown,Instant,Effect,None,na,000000,na,na
+1077,Necropolis,Pushin' Up Daisies,Dark,Brown,Instant,Effect,None,na,000000,na,na
+1078,Orc General,Let's Set an Example,Dark,Red,Instant,Effect,None,na,000000,na,na
+1079,Preacher,Drink This Kool-Aid,Dark,White,Instant,Effect,None,na,000000,na,na
+1080,Book of Rass,Library Card,Dark,Brown,Instant,Effect,None,na,000000,na,na
+1081,Runesword,RuneSword Effect,Dark,Brown,Instant,Effect,None,na,000000,na,na
+1082,Safe Haven Effect 1,Safe Haven Effect,Dark,Grey,Instant,Effect,None,na,000000,na,na
+1083,Safe Haven Effect 2,Safe Haven Sacrifice,Dark,Grey,Instant,Effect,None,na,000000,na,na
+1084,Skull of Orm,Regrow Enchant,Dark,Brown,Instant,Effect,None,na,000000,na,na
+1085,Tormod's Crypt,Cryptage,Dark,Brown,Instant,Effect,None,na,000000,na,na
+1086,Dark Sphere,Dark Sphere Effect,Dark,Brown,Instant,Effect,None,na,000000,na,na
+1087,Niall Silvain,The Green Man,Dark,Green,Instant,Effect,None,na,000000,na,na
+1088,Maze of Ith,Maze Effect,Dark,Grey,Instant,Effect,None,na,000000,na,na
+1089,Tower of Coireall,Over the Walls!,Dark,Brown,Instant,Effect,None,na,000000,na,na
+1090,Tracker,I Will Find You,Dark,Green,Instant,Effect,None,na,000000,na,na
+1091,Wand of Ith,What Have We Here?,Dark,Brown,Instant,Effect,None,na,000000,na,na
+1092,War Barge,The Love Barge...,Dark,Brown,Instant,Effect,None,na,000000,na,na
+1093,Whippoorwill,That Bird Don't Fly,Dark,Green,Instant,Effect,None,na,000000,na,na
+1094,Witch Hunter Effect 1,Take That You Fiend!,Dark,White,Instant,Effect,None,na,000000,na,na
+1095,Witch Hunter Effect 2,Shh. Be Vewy Qwiet...,Dark,White,Instant,Effect,None,na,000000,na,na
+1096,Worm Wood Treefolk Effect 1,Stroll in the Forest,Dark,Green,Instant,Effect,None,na,000000,na,na
+1097,Worm Wood Treefolk Effect 2,Trip to the Swamp,Dark,Green,Instant,Effect,None,na,000000,na,na
+1098,Aladdin,Aladdin Effect,Arabian,Red,Instant,Effect,None,na,000000,na,na
+1099,Aladdin's Lamp,Lamp Effect,Arabian,Brown,Instant,Effect,None,na,000000,na,na
+1100,Ali Baba,Open Sesame,Arabian,Red,Instant,Effect,None,na,000000,na,na
+1101,Aladdin's Ring,Tim's Revenge,Arabian,Brown,Instant,Effect,None,na,000000,na,na
+1102,Bazaar of Baghdad,Wizard's Market,Arabian,Grey,Instant,Effect,None,na,000000,na,na
+1103,Bottle of Suleiman,Abraca-pocus,Arabian,Brown,Instant,Effect,None,na,000000,na,na
+1104,Scarecrow,Mrs. King,Dark,Brown,Instant,Effect,None,na,000000,na,na
+1105,Cuombajj Witches,Kuumbaya My Lord,Arabian,Black,Instant,Effect,None,na,000000,na,na
+1106,Desert,Oh water boy...,Arabian,Grey,Instant,Effect,None,na,000000,na,na
+1107,Diamond Valley,A girl's best friend.,Arabian,Grey,Instant,Effect,None,na,000000,na,na
+1108,Elephant Graveyard,Elephant Revival,Arabian,Grey,Instant,Effect,None,na,000000,na,na
+1109,Erhnam Djinn,Mi foresta y su foresta,Arabian,Green,Instant,Effect,None,na,000000,na,na
+1110,Flying Carpet,Don't look down,Arabian,Brown,Instant,Effect,None,na,000000,na,na
+1111,Hurr Jackal,Hizz Jackal,Arabian,Red,Instant,Effect,None,na,000000,na,na
+1112,Ifh-Biff Efreet,Hurricane Biff,Arabian,Green,Instant,Effect,None,na,000000,na,na
+1113,Island of Wak-Wak,Waka-waka,Arabian,Grey,Instant,Effect,None,na,000000,na,na
+1114,Jandor's Saddlebags,Saddlebaggage,Arabian,Brown,Instant,Effect,None,na,000000,na,na
+1115,King Suleiman,Back in Bottle,Arabian,White,Instant,Effect,None,na,000000,na,na
+1116,Library of Alexandria,Get A Card,Arabian,Grey,Instant,Effect,None,na,000000,na,na
+1117,Naf's Asp,Asp Problem,Arabian,Green,Instant,Effect,None,na,000000,na,na
+1118,Oasis,Vacation Resort,Arabian,Grey,Instant,Effect,None,na,000000,na,na
+1119,Old Man of the Sea,Monkey on Your Back,Arabian,Blue,Instant,Effect,None,na,000000,na,na
+1120,Pyramids,Protect Land,Arabian,Brown,Instant,Effect,None,na,000000,na,na
+1121,Pyramids,Blow Enchant,Arabian,Brown,Instant,Effect,None,na,000000,na,na
+1122,Sandals of Abdallah,Walk a mile in my...,Arabian,Brown,Instant,Effect,None,na,000000,na,na
+1123,Singing Tree,The trees are alive...,Arabian,Green,Instant,Effect,None,na,000000,na,na
+1124,Sorceress Queen,Here little piggy...,Arabian,Black,Instant,Effect,None,na,000000,na,na
+1125,Wyluli Wolf,Wolf's howl,Arabian,Green,Instant,Effect,None,na,000000,na,na
+1126,Amulet of Kroog,Salve of Kroog,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1127,Argivian Archaeologist,Throw Me the Whip,Antiquities,White,Instant,Effect,None,na,000000,na,na
+1128,Argivian Blacksmith,Argivian Bodyshop,Antiquities,White,Instant,Effect,None,na,000000,na,na
+1129,Lady Caladria,Get the Point?,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1130,Ashnod's Battle Gear,Can Opener Bait,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1131,Atog,Eat em up Yum,Antiquities,Red,Instant,Effect,None,na,000000,na,na
+1132,Armageddon Clock,Remove Counter,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1133,Ashnod's Transmorgrant,Happy Chemistry,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1134,Bronze Tablet,Tablet Effect,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1135,Candelabra of Tawnos,Mana Recycling,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1136,Circle of Protection Artifacts,Artifact Protection,Antiquities,White,Instant,Effect,None,na,000000,na,na
+1137,Clockwork Avian,Rewind Avian,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1138,Coral Helm,Take the Helm,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1139,Dragon Engine,Steambreathing,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1140,Dwarven Weaponsmith,Wartoys R Us,Antiquities,Red,Instant,Effect,None,na,000000,na,na
+1141,Feldon's Cane,Recycle Graveyard,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1142,Gate to Phyrexia,Watch for Customs,Antiquities,Black,Instant,Effect,None,na,000000,na,na
+1143,Goblin Artisans,What Manual?,Antiquities,Red,Instant,Effect,None,na,000000,na,na
+1144,Grapeshot Catapult,Pull!,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1145,Jalum Tome,Self Help Tome,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1146,Millstone,Grind Away,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1147,Mishra's Factory Effect 1,Become Worker,Antiquities,Grey,Instant,Effect,None,na,000000,na,na
+1148,Mishra's Factory Effect 2,Boost Worker,Antiquities,Grey,Instant,Effect,None,na,000000,na,na
+1149,Obelisk of Undoing,Obelisk of Undoing,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1150,Orcish Mechanics,INCOMING!,Antiquities,Red,Instant,Effect,None,na,000000,na,na
+1151,Phyrexian Gremlins,Gremlins in th' Works,Antiquities,Black,Instant,Effect,None,na,000000,na,na
+1152,Rakalite,Rakalite Effect,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1153,Rocket Launcher,I'll be back...,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1154,Sage of Lat-Nam,Fee: One Artifact,Antiquities,Blue,Instant,Effect,None,na,000000,na,na
+1155,Staff of Zegon,Rap their Knuckles,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1156,Strip Mine,Landscape Artist,Antiquities,Grey,Instant,Effect,None,na,000000,na,na
+1157,Tawnos' Coffin,Coffin Effect,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1158,Tawnos' Wand,Dwarves on a Stick,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1159,Tawnos' Weaponry,Call to Arms,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1160,Tetravus Effect 1,Create Drone,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1161,Tetravus Effect 2,Absorb Drone,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1162,Urza's Avenger,Modular Avenger,Antiquities,Brown,Instant,Effect,None,na,000000,na,na
+1163,Xenic Poltergeist,True Possession,Antiquities,Black,Instant,Effect,None,na,000000,na,na
+1164,Adun Oakenshield,Adun's Passing,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1165,Al-abara's Carpet,Up Where it's Safe,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1166,Alchor's Tomb,Shades of Grey,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1167,Arcades Sabboth,Sabboth Threat,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1168,Angus MacKenzie,Fog on a Stick,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1169,Ayesha Tanaka,Rust on a Stick,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1170,Black Mana Battery,Charge Black Battery,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1171,Blue Mana Battery,Charge Blue Battery,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1172,Boris Devilboon,Plop goes a Devil,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1173,Carrion Ants,Ant Swarm,Legends,Black,Instant,Effect,None,na,000000,na,na
+1174,Crimson Manticore,Ugly Mug,Legends,Red,Instant,Effect,None,na,000000,na,na
+1175,D'Avenant Archer,Apple? What Apple?,Legends,White,Instant,Effect,None,na,000000,na,na
+1176,Dream Coat,New Coat of Paint,Legends,Blue,Instant,Effect,None,na,000000,na,na
+1177,Emerald Dragonfly,Dragonfly Bite,Legends,Green,Instant,Effect,None,na,000000,na,na
+1178,Floral Spuzzem,Artifact Compost,Legends,Green,Instant,Effect,None,na,000000,na,na
+1179,Gabriel Angelfire,Modular Angelfire,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1180,Gauntlets of Chaos,Chaotic Effect,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1181,Ghosts of the Damned,Damned Ghosts,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1182,Giant Slug,Sluggish Slug,Legends,Black,Instant,Effect,None,na,000000,na,na
+1183,Greater Realm of Preservation,Greater Protection,Legends,White,Instant,Effect,None,na,000000,na,na
+1184,Greed,Gimme gimme!,Legends,Black,Instant,Effect,None,na,000000,na,na
+1185,Green Mana Battery,Charge Green Battery,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1186,Gwendlyn Di Corsi,Sugar for Mommy,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1187,Halfdane,Half anyone he wants,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1188,Hammerheim,Wrong Turn,Legends,Grey,Instant,Effect,None,na,000000,na,na
+1189,Hell's Caretaker,Body Snatchers,Legends,Black,Instant,Effect,None,na,000000,na,na
+1190,Horn of Deafening,Tuba Blues,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1191,Horror of Horrors,Swampy Remedy,Legends,Black,Instant,Effect,None,na,000000,na,na
+1192,Hyperion Blacksmith,Hyperion Twiddle,Legends,Red,Instant,Effect,None,na,000000,na,na
+1193,Karakas,Back in Bowl,Legends,Grey,Instant,Effect,None,na,000000,na,na
+1194,Kei Takahashi,Herbal Remedy,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1195,Killer Bees,Bee Stings,Legends,Green,Instant,Effect,None,na,000000,na,na
+1196,Lady Evangela,Stop Fighting!,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1197,Kry Shield,The Krying Game,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1198,Land's Edge,Land's Edge Effect,Legends,Red,Instant,Effect,None,na,000000,na,na
+1199,Lesser Werewolf,There Wolf!,Legends,Black,Instant,Effect,None,na,000000,na,na
+1200,Life Chisel,Open Wide,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1201,Master of the Hunt,Wolves of the Hunt,Legends,Green,Instant,Effect,None,na,000000,na,na
+1202,Mirror Universe,Dark Mirror,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1203,Nebuchadnezzar,Nebbiecasneezer,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1204,North Star,North Star Effect,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1205,Nova Pentacle,Pentacle Redirect,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1206,Osai Vultures,Carrion Cud,Legends,White,Instant,Effect,None,na,000000,na,na
+1207,Pavel Maliki,Pavel PowerUp,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1208,Pendlehaven,Girlieman Pump Up,Legends,Grey,Instant,Effect,None,na,000000,na,na
+1209,Pixie Queen,Fly and be Free!,Legends,Green,Instant,Effect,None,na,000000,na,na
+1210,Pradesh Gypsies,Gypsy Curse,Legends,Green,Instant,Effect,None,na,000000,na,na
+1211,Psionic Entity,Psuicide is Painful,Legends,Blue,Instant,Effect,None,na,000000,na,na
+1212,Radjan Spirit,Earthbind on a Stick,Legends,Green,Instant,Effect,None,na,000000,na,na
+1213,Ragnar,Field of Honor,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1214,Ramses Overdark,Bad Enchantment,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1215,Rasputin Dreamweaver,Rasputin Effect,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1216,Red Mana Battery,Charge Red Battery,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1217,Relic Barrier,Slap that Relic,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1218,Ring of Immortals,Avoid Fate on a Stick,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1219,Sentinel,Adjust Sentinel,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1220,Serpent Generator,Snake Factory,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1221,Shelkin Brownie,Fuzzy BandsWith,Legends,Green,Instant,Effect,None,na,000000,na,na
+1222,Shimian Night Stalker,Night Martyr,Legends,Black,Instant,Effect,None,na,000000,na,na
+1223,Spinal Villian,Gurgle Spurt,Legends,Red,Instant,Effect,None,na,000000,na,na
+1224,Sword of the Ages,Sword of Wrath,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1225,Time Elemental,Back in Time,Legends,Blue,Instant,Effect,None,na,000000,na,na
+1226,Tolaria,Parties Over,Legends,Grey,Instant,Effect,None,na,000000,na,na
+1227,Tor Wauki,Bullseye!,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1228,Triassic Egg,Three Minute Egg,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1229,Tuknir Deathlock,Dinosaur Head,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1230,Urborg Effect 1,Urborg's Revenge,Legends,Grey,Instant,Effect,None,na,000000,na,na
+1231,Urborg Effect 2,Guess a Gator got em,Legends,Grey,Instant,Effect,None,na,000000,na,na
+1232,Vaevictis Asmadi,Nasty Dragon Thingie,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1233,Vampire Bats,Mad Mice with Wings,Legends,Black,Instant,Effect,None,na,000000,na,na
+1234,Voodoo Doll,Voodoo Lady,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1235,Wall of Opposition,Wall of Pumps,Legends,Red,Instant,Effect,None,na,000000,na,na
+1236,Wall of Wonder,Stuffy doll?,Legends,Blue,Instant,Effect,None,na,000000,na,na
+1237,White Mana Battery,Charge White Battery,Legends,Brown,Instant,Effect,None,na,000000,na,na
+1238,Willow Satyr,Satyr's Pipes,Legends,Green,Instant,Effect,None,na,000000,na,na
+1239,Xira Arien,Nice Costume!,Legends,Gold,Instant,Effect,None,na,000000,na,na
+1240,Electric Eel,Ohm! That Hertz!,Legends,Blue,Instant,Effect,None,na,000000,na,na
+1241,Flood,Treading Water,Legends,Blue,Instant,Effect,None,na,000000,na,na
+1242,Goblin Digging Team,Dig-dug,Legends,Red,Instant,Effect,None,na,000000,na,na
+1243,Merfolk Assassin,Boating Accident,Legends,Blue,Instant,Effect,None,na,000000,na,na
+1244,Miracle Worker,Workin' Wonders,Legends,White,Instant,Effect,None,na,000000,na,na
+1245,Rag Man,Riches to Rags,Legends,Black,Instant,Effect,None,na,000000,na,na
+1246,Savaen Elves,Purify Land,Legends,Green,Instant,Effect,None,na,000000,na,na
+1247,Scarwood Bandits,Bandit Effect,Legends,Green,Instant,Effect,None,na,000000,na,na
+1248,Scavenger Folk,Me Precioussss!,Legends,Green,Instant,Effect,None,na,000000,na,na
+1249,Rubinia Soulsinger,Soulsinger Swing,Legends,Gold,Instant,Effect,None,na,000000,na,na
+

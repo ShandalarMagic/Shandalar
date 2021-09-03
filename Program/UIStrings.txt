@@ -1,0 +1,1426 @@
+@GAMETITLE
+1
+Magic: The Gathering
+
+@SHELLSCREEN_DUEL
+5
+Duel
+4Duel &Opponent:Duel your registered opponent.
+1Solo &Duel:Single game or match of Magic.
+2&Gauntlet:Defeat as many opponents in a row as possible.
+3&Sealed Deck:Compete in the most popular form of Magic Tournament.
+
+@SHELLSCREEN_TOOLS
+3
+Tools
+1&Deck Builder:Build or Modify decks.
+2&Face Builder:Create Player Portraits for use with the Duel.
+
+@SHELLSCREEN_METAGAME
+3
+World
+2&Shandalar:Save the world of Shandalar from destruction.
+1&Animation:View the opening animation for Shandalar.
+
+@SHELLSCREEN_HELP
+5
+Help
+1&Help File:Context-sensitive Help File for Magic the Gathering.
+2&Tutorial:Interactive multimedia designed to teach the basics of Magic.
+4&Read Me:Development notes on each version of the game.
+3&Credits:Credits for Magic and Expansions.
+
+@SHELLSCREEN_RECORDS
+2
+Player
+1&Screen Name:Modify and view your player information.
+2&Hall of Fame:View Game Records.
+
+@SHELLPAGE_SINGLEDUEL
+16
+Player:
+Opponent S&kill 
+Apprentice
+Magician
+Sorcerer
+Wizard
+Match parameters 
+&Ante
+&Best of:
+Side&board between duels
+Duel &Options...
+O&pponent's deck:
+&Your deck:
+<random deck>
+Start &match
+&Load match...
+
+@SHELLPAGE_GAUNTLET
+16
+Player:
+&Your deck:
+<random deck>
+Gauntlet difficulty: %3d (%s)
+very easy
+easy
+normal
+hard
+very hard 
+&Num opponents:
+&Ante
+&Best of:
+Side&board between duels
+Duel &Options...
+&Run the gauntlet
+&Load gauntlet...
+
+@SHELLPAGE_SEALEDDECK
+15
+Player:
+Duel &Options...
+Tournament Setup 
+&Rounds in tournament:
+(%d players)
+Each player gets %d cards 
+&Free lands:
+&Minimum deck size:
+&40 cards
+&60 cards
+Match parameters 
+&Ante
+&Best of:
+Start &tournament
+&Load tournament...
+
+@SEALEDDECK_PACKNAMES
+9
+Unlimited
+Revised
+4th Edition
+Arabian Nights
+Antiquities
+Legends
+The Dark
+Chronicles
+5th Edition
+
+@SEALEDDECK_FOILPACKSCREEN
+7
+Sealed Deck Tournament Information
+%d Starter Packs
+%d Booster Packs
+Your Starters and Boosters
+Selected Pack
+Cards\nIn\nPack
+D\nO\nN\nE
+
+@SEALEDDECK_PICKFREELANDS
+2
+Pick free lands (up to %d more)
+Done
+
+@SEALEDDECK_LADDERSCREEN
+9
+Tournament Ladder
+Save tournament...
+Edit deck
+Quit
+Restart
+Next Round
+The opponents are still building their decks.  Please wait a few more moments.
+Your deck does not meet the minimum deck size for the tournament (%d cards).  You must edit your deck before you can play this next match.
+OK
+
+@SHELLPAGE_SCREENNAME
+7
+&User:
+Screen &name:
+<player>
+&Real name:
+&Quote:
+Player record: %1!d!/%2!d!/%3!d! (%4!d!%%)
+&Clear record
+
+@DIALOG_STARTEXP1MATCH
+2
+vs.
+playing with %s
+
+@DIALOG_STARTEXP1MATCH_GAUNTLET
+3
+Your first opponent in the gauntlet:
+You now meet opponent %1!d! (of %2!d!) in the gauntlet:
+Your final opponent in the gauntlet:
+
+@WINDOWTITLES
+7
+%s Attack
+Your attack
+Spell Chain
+Opponent
+Your hand
+Save Game
+Load Saved Game
+
+@SAVEGAMEFILETYPE
+4
+MTG Gauntlet Save Game
+MtG Saved Match
+MtG Saved Gauntlet
+MtG Saved Tournament
+
+@DIALOGBUTTONS
+3
+OK
+Cancel
+Done
+
+@BUTTONLABELS
+2
+Cancel
+Done
+
+@COLORWORDS
+15
+black
+blue
+green
+red
+white
+Black
+Blue
+Green
+Red
+White
+BLACK
+BLUE
+GREEN
+RED
+WHITE
+
+@LANDWORDS
+15
+swamp
+island
+forest
+mountain
+plains
+Swamp
+Island
+Forest
+Mountain
+Plains
+SWAMP
+ISLAND
+FOREST
+MOUNTAIN
+PLAINS
+
+@ABILITYWORDS
+17
+Flying
+Reach
+Banding
+Trample
+First strike
+Regenerates
+Swampwalk
+Islandwalk
+Forestwalk
+Mountainwalk
+Plainswalk
+Protection from black
+Protection from blue
+Protection from green
+Protection from red
+Protection from white
+Protection from artifacts
+
+@COLORLESSMANA
+1
+Colorless
+
+@OPPONENT
+1
+Opponent
+
+@ENCHANTMENTTYPENAME
+1
+Enchantment
+
+@ARTISTLINE
+1
+Illus. %s
+
+@CARDTITLES
+5
+Damage
+Hunting: %s
+Activation
+Upkeep
+Draw a card
+
+@MULTIBLOCKCARD
+2
+MultiBlock Creature
+The creature can block multiple attackers; this is the shadow blocker.
+
+@HUNTING_SUBTYPENAMES
+212
+None
+Abomination
+Aladdin
+AliBaba
+Ali from Cairo
+Angel
+Ants
+Ape
+Apes
+Archaeologist
+Archer
+Artifact
+Asp
+Assassin
+Atog
+Avatar
+Avenger
+Avengers
+Badger
+Ball Lightning
+Bandits
+Banshee
+Basilisk
+Bats
+Bears
+Beasts
+Bees
+Being
+Berserker
+BirdMaiden
+Boars
+Bodyguard
+Brothers
+Bull
+Camel
+Caretaker
+Cat Warriors
+Cavalry
+Cave People
+Centaur
+Cleric
+Clone
+Cobra
+Cockatrice
+Creature
+Dandan
+Demon
+Dervish
+Devils
+Devouring Deep
+Djinn
+Doppelganger
+Dragon
+Dragonfly
+Drake
+Drill Sergent
+Druid
+Dwarves
+Eater
+Eel
+Effigy
+Efreet
+Egg
+El-hajjaj
+Elder Dragon
+Elemental
+Elephant
+Elves
+Enchant
+Enchantress
+Entity
+EvilEye
+Exorcist
+Faerie
+Faeries
+Falcon
+Fallen
+Flying Men
+Force
+Fungusaur
+Gaea's Liege
+Gargoyle
+Ghosts
+Ghoul
+Giant
+Gnomes
+Goblin
+Goblins
+Gremlins
+Guardian
+Guardians
+Gypsies
+Hag
+Hero
+Horror
+Horseman
+Hunter
+Hydra
+Imp
+Island Fish
+Jackal
+Jaguar
+Keepers
+King
+Kithkin
+Knight
+Knights
+Kobolds
+Land
+Leeches
+Legend
+Legendary
+Legionnaire
+Leper
+Leviathan
+Lions
+Lord
+LostSoul
+Lurker
+Lycanthrope
+Mammoth
+ManaBirds
+Manticore
+Master
+Medusa
+Merfolk
+Minotaur
+Miracle Worker
+Mob
+Mold Demon
+Monster
+Mummy
+Murk Dwellers
+Nameless
+Niall Silvain
+Nightmare
+Nomads
+Nymphs
+Ogre
+Old Man
+Ooze
+Orcs
+Paladin
+Pegasus
+People
+Phantasm
+Phoenix
+Pikemen
+Pixie
+Poltergeist
+Preacher
+Priest
+RagMan
+Raiders
+Rats
+Riders
+Robbers
+Roc
+Rock Sled
+Sage
+Satyr
+Scavengers
+Scorpion
+Serpent
+Shade
+Shadow
+Shark
+Ship
+Sindbad
+Singing Tree
+Sisters
+Skeletons
+Slug
+Smith
+Sorceress
+Spawn
+Specter
+Sphinx
+Spider
+Spirit
+Spuzzem
+Squire
+Stalker
+Taskmaster
+Tortoise
+Tracker
+Treefolk
+Troll
+Turtle
+Uncle Istvan
+Unicorn
+Vampire
+Veteran
+Villain
+Viper
+Vultures
+Walking Dead
+Wall
+Whippoorwill
+Will-O'-The-Wisp
+Witches
+Wizard
+Wolverines
+Wolves
+Wombat
+World
+Wraith
+Wretched
+Wurm
+Yeti
+Zombies
+na
+					
+@DIALOG_STARTCOINFLIP
+1
+Start of Duel
+
+@DIALOG_PLAYORDRAW
+9
+%s won the toss
+and will play first.
+and has chosen to draw first.
+You won the coin toss.
+Would you like to:
+Play first
+Draw first
+%s will play first.
+%s has chosen to draw first.
+
+@DIALOG_MULLIGAN
+12
+%s will start first
+You will take the first turn
+%s ante:
+Your ante:
+%s has no land and chose to take a mulligan
+%s has all land and will take a mulligan
+%s has chosen to take a mulligan
+%s did not take a mulligan
+%s will also take a mulligan
+%s decided not to take a mulligan
+Take &mulligan
+&Start the duel
+
+@DIALOG_SHANDALARENDDUEL
+3
+%s won
+You won!
+The duel is a draw
+
+@DIALOG_GAUNTLETENDDUEL
+4
+That was round %d
+Your record is %d/%d/%d
+&Next round
+&Quit Gauntlet
+
+@DIALOG_ENDDUEL
+2
+%s next draw:
+Your next draw:
+
+@DIALOG_ENDEXP1DUEL_LOSE
+5
+You lost.  And don't try that mana locked excuse on me bub.
+You lost.  No...the computer doesn't cheat. Not even a little bit.
+You lost.  Hey, you could always try badminton.
+You lost.  So what do you do for an encore, line dance?
+You lost.  I've played better games against your toaster.
+
+@DIALOG_ENDEXP1DUEL_WIN
+5
+You won!  Don't gloat, computers are people too.
+You won.  Give me a bigger swap file and I'll wipe that smirk off your face.
+You won.  Yeah, but can you beat me using only 1s and 0s?
+You won.  Of course, I didn't draw enough land...
+You won.  Wanna play "best 0101 out of 0111"?
+
+@DIALOG_ENDEXP1DUEL_TIE
+2
+The duel was a tie.  You've found your equal!
+The duel was a tie.  At least you didn't LOSE to a computer.
+
+@DIALOG_ENDEXP1DUEL_MATCHPROGRESS
+8
+FORFEIT (your deck is below min size)\n\n
+OPPONENT FORFEIT (deck too small)\n\n
+   
+After %1!d! duel(s) in this best of 3 match, your record is %2!d!/%3!d!/%4!d!
+After %1!d! duel(s) in this best of 5 match, your record is %2!d!/%3!d!/%4!d!
+\n\nYou've won the match!
+\n\nYou've lost the match.
+\n\nThe match ends in a tie.
+
+@DIALOG_ENDEXP1DUEL_BUTTONS
+6
+Side&board...
+Side&board...
+&Edit deck...
+&Save match
+&Save gauntlet
+&Save tournament
+
+@DIALOG_ENDEXP1DUEL
+6
+%s next draw:
+Your next draw:
+&Continue match
+&Quit match
+OK
+Your deck size (%1!d! cards) is below the minimum (%2!d! cards).  You must edit your deck before you can play the next duel.
+
+@DIALOG_MANABURN
+3
+Mana Burn!
+%s loses %d life
+You lose %d life
+
+@DIALOG_VIEWANTES
+2
+%s ante:
+Your ante:
+
+@DIALOG_COINFLIP
+2
+Coin flip results: Heads
+Coin flip results: Tails
+
+@DIALOG_DUELOPTIONS
+19
+Duel Options
+&Layout
+Standard
+Advanced
+Show coin &flip animations
+Show &cue cards
+Show &abilities on small cards
+Show &power/toughness on small cards
+See next &draws at end of duel
+Your &territory background
+White
+Blue
+Black
+Red
+Green
+Deck color
+Line drawing
+Pattern
+Mana symbols
+
+@DIALOG_GAUNTLETOPTIONS
+11
+Gauntlet Options
+Difficulty
+Match Size
+Best of &Three
+Best of &One
+A&nte
+Enemy Level
+&Apprentice
+&Magician
+&Sorcerer
+&Wizard
+
+@DIALOG_GAUNTLETSTARTUP
+15
+Game
+&Gauntlet
+&Single Duel
+DIFFICULTY:
+Gauntlet &Options...
+&Duel Options...
+O&pponent's Deck
+Random deck
+Pick a deck
+&Your deck
+Random deck
+Pick a deck
+&Create Deck...
+&Load saved game...
+E&xit
+
+@DIALOG_CHANGETEXT
+2
+&Change word:
+&To:
+
+@DIALOG_FIREBALL
+7
+Generic &mana to put into the spell:
+(max: %d)
+X cost:
+Cost for additional targets:
+# &Targets:
+(max %d)
+Amount of damage to be done each target:
+
+@CUECARD_OTHER
+8
+Minimized attack window
+Minimized spell chain
+%s library
+Your library
+%s graveyard
+Your graveyard
+Scrollbar
+Scroll thumb
+
+@CUECARD_LIFE
+8
+%s life points
+%s life points and poison counters
+Your life points
+Your life points and poison counters
+%s life points (opponent is Lich'd)
+%s life points and poison counters (opponent is Lich'd)
+Your life points (you are Lich'd)
+Your life points and poison counters (you are Lich'd)
+
+@CUECARD_MANAPOOL
+14
+%s mana pool: amount of Colorless
+%s mana pool: amount of Black
+%s mana pool: amount of Blue
+%s mana pool: amount of Green
+%s mana pool: amount of Red
+%s mana pool: amount of White
+%s mana pool: amount of Artifact
+Your mana pool: amount of Colorless
+Your mana pool: amount of Black
+Your mana pool: amount of Blue
+Your mana pool: amount of Green
+Your mana pool: amount of Red
+Your mana pool: amount of White
+Your mana pool: amount of Artifact
+
+@CUECARD_PHASEBAR
+23
+%s Untap phase
+%s Upkeep phase
+%s Draw phase
+%s Main phase (precombat)
+%s Main phase (combat)
+%s Main phase (postcombat)
+%s Discard phase
+%s Cleanup phase
+Your Untap phase
+Your Upkeep phase
+Your Draw phase
+Your Main phase (precombat)
+Your Main phase (declare combat)
+Your Main phase (postcombat)
+Your Discard phase
+Your Cleanup phase
+Choose attackers phase
+Attacker fast effects phase
+Assign defenders phase
+Blocker fast effects phase
+Resolve 1st strike damage
+Resolve normal damage
+Main phase (postcombat)
+
+@CUECARD_SMALLCARD
+10
+Damage to player
+This card will untap
+Damage: %d
+Card is not controlled by owner
+Is a target
+Can't target this
+Is a target, can't target again
+Dying
+Summoning sickness
+Phased
+
+@CUECARD_COUNTERS_ArmageddonClock
+1
+Doom counters: %d
+
+@CUECARD_COUNTERS_ManaBattery
+1
+Charge counters: %d
+
+@CUECARD_COUNTERS_ClockworkAvian
+1
+Clockwork (+1/+0) counters: %d
+
+@CUECARD_COUNTERS_ClockworkBeast
+1
+Clockwork (+1/+0) counters: %d
+
+@CUECARD_COUNTERS_LuckyCharms
+1
+Life counters: %d
+
+@CUECARD_COUNTERS_Fungusaur
+1
++1/+1 counters: %d
+
+@CUECARD_COUNTERS_WhirlingDervish
+1
++1/+1 counters: %d
+
+@CUECARD_COUNTERS_LivingArtifact
+1
+Vitality counters: %d
+
+@CUECARD_COUNTERS_OsaiVultures
+1
+Carrion counters: %d
+
+@CUECARD_COUNTERS_ScavengingGhouls
+1
+Corpse counters: %d
+
+@CUECARD_COUNTERS_SengirVampire
+1
++1/+1 counters: %d
+
+@CUECARD_COUNTERS_NecropolisOfAzar
+1
+Husk counters: %d
+
+@CUECARD_COUNTERS_Triskelion
+1
++1/+1 counters: %d
+
+@CUECARD_COUNTERS_Tetravus
+1
+Drone (+1/+1) counters: %d
+
+@CUECARD_COUNTERS_TimeVault
+1
+Turn counters: %d
+
+@CUECARD_COUNTERS_Cyclone
+1
+Wind counters: %d
+
+@CUECARD_COUNTERS_CitanulDruid
+1
++1/+1 counters: %d
+
+@CUECARD_COUNTERS_RockHydra
+1
++1/+1 counters: %d
+
+@CUECARD_COUNTERS_KhabalGhoul
+1
++1/+1 counters: %d
+
+@CUECARD_COUNTERS_OrcishCatapult
+1
+Damage (-0/-1) counters: %d
+
+@CUECARD_COUNTERS_UnstableMutation
+1
+-1/-1 counters: %d
+
+@CUECARD_COUNTERS_SpiritShackle
+1
+Shackle (-0/-2) counters: %d
+
+@CUECARD_COUNTERS_DwarvenWeaponsmith
+1
++1/+1 counters: %d
+
+@CUECARD_COUNTERS_AshnodsTransmorgrant
+1
++1/+1 counters: %d
+
+@MENU_ATTACK
+2
+Minimize
+Help...
+
+@MENU_MINIMIZEDATTACK
+2
+Restore
+Help...
+
+@MENU_SPELLCHAIN
+2
+Minimize
+Help...
+
+@MENU_MINIMIZEDSPELLCHAIN
+2
+Restore
+Help...
+
+@MENU_FACE
+4
+Target %s
+Target yourself
+Flip back to lifepoints
+Help...
+
+@MENU_FULLCARD
+3
+Expand text box
+Help for this card...
+Help...
+
+@MENU_HAND
+1
+Help...
+
+@MENU_LIBRARY
+2
+Count library cards
+Help...
+
+@MENU_LIFE
+4
+Target %s
+Target yourself
+Flip over to face
+Help...
+
+@MENU_MANAPOOL
+8
+Spend 1 mana: black
+Spend 1 mana: blue
+Spend 1 mana: green
+Spend 1 mana: red
+Spend 1 mana: white
+Spend 1 mana: colorless
+Spend 1 mana: artifact
+Help...
+
+@MENU_GRAVEYARD
+4
+View the graveyard
+View exiled cards
+View both antes
+Help...
+
+@MENU_TERRITORY
+25
+Go to: Upkeep phase
+Go to: Draw phase
+Go to: Main phase (precombat)
+Go to: Main phase (combat)
+Go to: Attack Fast Effects phase
+Go to: Choose Defenders phase
+Go to: Block Fast Effects phase
+Go to: Resolve first strike damage
+Go to: Resolve combat
+Go to: Main phase (postcombat)
+Go to: Discard phase
+Go to: Cleanup phase
+Go to: Start of next turn
+Go to: next phase
+Arrange your cards\tDblClk
+Arrange opponent's cards\tDblClk
+Duel Options...
+Show ID tags\tCtrl+T
+Show invisible effects\tCtrl+I
+Show all cards' summoning sickness\tCtrl+U
+Minimize
+Save game...\tCtrl+S
+Help...
+Concede
+Yes, I'm sure
+
+@MENU_SMALLCARD
+8
+Original type
+Show full card\tR DblClk
+View in full card
+Don't auto tap this card
+Show ID tags\tCtrl+T
+Show invisible effects\tCtrl+I
+Show all cards' summoning sickness\tCtrl+U
+Help...
+
+@MENU_PHASEBAR
+4
+Run to this phase
+Mark this phase to always stop
+Help for this phase...
+Help...
+
+@PROMPT_STILLTHINKING
+1
+Still thinking...
+
+@PROMPT_CHOOSEDEFENDERS
+1
+Choose defenders
+
+@PROMPT_ASSERT
+1
+Please call MPS Customer Support 1-510-522-1164
+
+@PROMPT_STARTUPERROR
+9
+Duel couldn't run
+Couldn't find raw card data file %s
+Couldn't find raw special card data file %s (or the number of cards in it didn't match CARDS.DAT)
+Not enough system resources to determine display color depth
+Couldn't create the palette
+Couldn't create the app-wide memory DC or bitmap
+Couldn't initialize for card drawing
+Couldn't initialize for utility drawing
+Couldn't create the main window
+
+@PROMPT_RESOLUTIONERROR
+1
+Not enough system memory to run at this screen resolution.  Change it back to a smaller size before continuing (the game will hide itself until then).
+
+@PROMPT_SYSERR
+2
+Error
+The following error has ocurred in the Magic duel which will cause the current card to behave improperly (to not perform all of its effect or not deal all of its damage):\n\n%s\n
+
+@PROMPT_BANDWITHWHOM
+3
+Band with which attacker?
+Illegal band.
+That isn't an attacker.
+
+@PROMPT_DEFENDWHOM
+3
+Block which attacker?
+Illegal block.
+That isn't an attacker.
+
+@PROMPT_RESOLVECOMBAT
+10
+%s: Assign damage to blockers, %d points left
+%s: Assign trample damage to blockers, %d points left
+Assign %d damage
+Assign %d trample damage
+Illegal target (wrong attack group)
+Illegal target (gaseous form)
+%s: Assign damage to attackers, %d points left
+Assign %d damage
+Illegal target (wrong attack group)
+Illegal target (gaseous form)
+
+@PROMPT_ACTION
+3
+CASTING
+ACTIVATING
+PROCESSING
+
+@PROMPT_FASTEFFECTS
+3
+Triggered effects?...%s
+Interrupts?...%s
+Fast Effects?...%s
+
+@PROMPT_CHECKFEPHASE
+12
+Damage prevention
+Trying to cast %s
+Cast %s
+Activate %s
+Process %s
+Upkeep Phase
+Draw Phase
+Main Phase
+Assign Attackers
+Assign Blockers
+Discard Phase
+Use Regeneration Effects
+
+@PROMPT_SPECIALFEPHASE
+16
+Card into play
+Card leaving play
+Damage Dealing
+Graveyard order
+Card(s) to Graveyard
+Draw a card
+Casting
+Tapping
+Begin Upkeep
+End Upkeep
+Draw Phase
+Choose Attackers
+Pay for attacker
+Choose Defenders
+End of Combat
+End of Turn
+
+@PROMPT_UNTAP
+2
+Untap effects?
+Paused: Untap phase
+
+@PROMPT_MAIN
+8
+Main phase (before combat): cast spells
+Main phase (before combat): cast spells, play land
+Main phase (after combat): cast spells
+Main phase (after combat): cast spells, play land
+Combat phase: Choose attackers.
+Illegal attacker.
+Band with other attacker?
+Combat phase: Choose blockers.
+
+@PROMPT_DISCARD
+1
+Paused: Discard phase
+
+@PROMPT_STOPANYWAY
+9
+Paused
+Paused: Upkeep phase 
+Paused: Untap phase 
+Paused: Draw phase 
+Paused: Main phase 
+Paused: Discard phase 
+Paused: Cleanup phase 
+Paused: First strike damage resolution 
+Paused: Combat damage resolution 
+
+@PROMPT_GRABMANA
+3
+Tap %s
+%s(%d so far)
+%s(%d so far, max %d)
+
+@PROMPT_GRABMANA_DUALUSE
+1
+Which color to use that choice as?
+
+@PROMPT_DRAWACARD
+3
+Draw Card
+No more cards, you lose.
+No more cards, opponent loses.
+
+@PROMPT_DISCARDACARD
+5
+Select card to discard.
+at random to discard.
+to discard.
+Discard to Library.
+Discard to Graveyard.
+
+@PROMPT_NEWFULLCARD
+1
+%s selects:
+
+@PROMPT_CAST1
+2
+%s casts...
+%s casts...\nX is %d.
+
+@PROMPT_TAP1
+3
+%s activates...
+%s activates...\nX is %d.
+%s activates...\n(with %d mana).
+
+@PROMPT_PAYUPKEEP
+2
+Pay Upkeep costs.
+Don't pay Upkeep.
+
+@PROMPT_PROC1
+2
+%s processes...
+%s processes...\nX is %d.
+
+@PROMPT_CHOOSEBLOCKERS
+3
+Choose blockers
+Block which attacker?
+Illegal block.
+
+@PROMPT_ILLEGALTARGET
+2
+Illegal target.
+Illegal target (%s).
+
+@PROMPT_ILLEGALTARGETWHY
+29
+,player
+,can't target this
+,where
+,controller
+,owner
+,type
+,abilities
+,color
+,name
+,subtype
+,power
+,toughness
+,walls
+,spell
+,basic land
+,artifact creature
+,target player
+,tapped
+,attacking
+,attacked
+,blocked
+,blocking
+,attacking/blocking
+,enchanted
+,casted
+,cast resolved
+,damaged
+,can untap
+,will untap
+
+@WORDSTOHACK_BLACK
+7
+1swamps
+1Swamps
+2Swamp
+2swamp
+a swamp
+a Swamp
+|B
+
+@WORDSHACKED_BLACK
+7
+SWAMPS
+SWAMPS
+SWAMP
+SWAMP
+a SWAMP
+a SWAMP
+|B
+
+@WORDSTOHACK_BLUE
+7
+1islands
+1Islands
+2Island
+2island
+an island
+an Island
+|U
+
+@WORDSHACKED_BLUE
+7
+ISLANDS
+ISLANDS
+ISLAND
+ISLAND
+an ISLAND
+an ISLAND
+|U
+
+@WORDSTOHACK_GREEN
+7
+1forests
+1Forests
+2Forest
+2forest
+a forest
+a Forest
+|G
+
+@WORDSHACKED_GREEN
+7
+FORESTS
+FORESTS
+FOREST
+FOREST
+a FOREST
+a FOREST
+|G
+
+@WORDSTOHACK_RED
+7
+1mountains
+1Mountains
+2Mountain
+2mountain
+a mountain
+a Mountain
+|R
+
+@WORDSHACKED_RED
+7
+MOUNTAINS
+MOUNTAINS
+MOUNTAIN
+MOUNTAIN
+a MOUNTAIN
+a MOUNTAIN
+|R
+
+@WORDSTOHACK_WHITE
+7
+1plains
+1Plains
+2Plains
+2plains
+a plains
+a Plains
+|W
+
+@WORDSHACKED_WHITE
+7
+PLAINS
+PLAINS
+PLAINS
+PLAINS
+a PLAINS
+a PLAINS
+|W
+
+@WORDSTOSLEIGHT_BLACK
+4
+black
+Black
+non-black
+non-Black
+
+@WORDSLEIGHTED_BLACK
+4
+BLACK
+BLACK
+non-BLACK
+non-BLACK
+
+@WORDSTOSLEIGHT_BLUE
+4
+blue
+Blue
+non-blue
+non-Blue
+
+@WORDSLEIGHTED_BLUE
+4
+BLUE
+BLUE
+non-BLUE
+non-BLUE
+
+@WORDSTOSLEIGHT_GREEN
+4
+green
+Green
+non-green
+non-Green
+
+@WORDSLEIGHTED_GREEN
+4
+GREEN
+GREEN
+non-GREEN
+non-GREEN
+
+@WORDSTOSLEIGHT_RED
+4
+red
+Red
+non-red
+non-Red
+
+@WORDSLEIGHTED_RED
+4
+RED
+RED
+non-RED
+non-RED
+
+@WORDSTOSLEIGHT_WHITE
+4
+white
+White
+non-white
+non-White
+
+@WORDSLEIGHTED_WHITE
+4
+WHITE
+WHITE
+non-WHITE
+non-WHITE
+
+@GAUNTLET
+10
+\n Congratulations!\n\n
+\n Too bad\n\n
+\n Oh well... \nThe duel ended in a tie\n\n
+You won the match.\n\n
+\n\n Your next duel is against %s.\n
+ Do you wish to continue?
+ You've successfully run the gauntlet!\n
+ You've won the duel!\n
+ You lost the game.\n
+\n\n The match continues...
+
+@GAUNTLETERRORS
+12
+Duel Error
+Your selected deck is not a legal deck. Please select a new deck.
+Player's deck %s is invalid.
+Player's deck %s is invalid. Wrong version number.
+Player's deck %s is invalid. Decks must have a minimum of 40 cards.
+Player's deck %s is invalid. Decks are limited to 200 unique cards / 500 total cards.
+Error loading deck file: %s
+Opponent's deck %s is invalid.
+Opponent's deck %s is invalid. Wrong version number.
+Opponent's deck %s is invalid. Decks must have a minimum of 40 cards.
+Opponent's deck %s  is invalid. Decks are limited to 200 unique cards / 500 total cards.
+Couldn't bring up the startup screen
+
+@ABOUTBOX
+3
+MAGIC: THE GATHERING © 1997 Wizards of the Coast, Inc.  All Rights Reserved.
+MAGIC: THE GATHERING is a registered trademark of Wizards of the Coast, Inc.  MicroProse Software, Inc. is an official licensee.
+Computer code © 1997 MicroProse Software, Inc.
+
+@ABOUTBOX_EXPANSION1
+4
+MAGIC: THE GATHERING © 1997 Wizards of the Coast, Inc.  All Rights Reserved.  
+WIZARDS OF THE COAST and MAGIC: THE GATHERING are U.S. registered trademarks, and LEGENDS, THE DARK, MANALINK, GATHERINGNET, and DUELS OF THE PLANESWALKERS are trademarks of Wizards of the Coast, Inc.  
+MicroProse is an official licensee.  Computer code © 1997 MicroProse Software, Inc.  All Rights Reserved.  
+MICROPROSE is a U.S. registered trademark of MicroProse Software, Inc.  All other trademarks are the property of their respective holders.
+
+@PLAYMOVIE_ERROR
+1
+The movie file %s could not be located.  Please make sure that the correct CD is in the drive and try again.
+
+@TUTORIAL_ERROR
+1
+The tutorial could not be located on your CD-ROM.  Please make sure that the correct disc is in the drive and try again.
+
+@SEALDECK_OPPONEDITING
+4
+Editing my deck, please wait
+Just a second while I make a few changes to my deck
+Editing my deck; this will just take a minute
+Making a few changes to my deck--hold on
+
+@LADDER_OPPONBUILDING
+2
+Opponents still building their decks...
+Determining match outcomes...
+
+@CHECKCD
+2
+Please insert the Spells of the Ancients CD.
+Please insert the Duels of the Planeswalkers CD.
+
+@GROUPMOVE
+7
+Select which color(s) to move
+&Black
+Bl&ue
+&Green
+&Red
+&White
+&Colorless

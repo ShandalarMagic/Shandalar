@@ -1,0 +1,79 @@
+;-*- conf-windows -*-
+;Overrides for the Vanguard card frame.
+;See Duel.dat for documentation.
+;
+[SmallCard]
+ArtLeft = 79
+ArtTop = 160
+ArtWidth = 851
+ArtHeight = 819
+;
+TitleSourceTop = 3
+TitleSourceHeight = 37
+TitleDestHeight = 205
+FrameSourceTop = 37
+FrameSourceHeight = 252
+FrameDestTop = 205
+;
+;
+[FullCard]
+ExpandTop = 6298
+ExpandHeight = 2962
+;
+TitleLeft = 127
+TitleTop = 40
+TitleWidth = 540
+TitleHeight = 64
+;
+TitleCenter = 1
+;
+ArtLeft = 76
+ArtTop = 93
+ArtWidth = 646
+ArtHeight = 597
+;
+TypeLeft = 230
+TypeTop = 692
+TypeWidth = 520
+TypeHeight = 60
+;
+RulestextLeft = 165
+RulestextTop = 762
+RulestextWidth = 480
+RulestextHeight = 310
+;
+RulesboxLeft = 72
+RulesboxTop = 740
+RulesboxWidth = 655
+RulesboxHeight = 350
+;
+ExpansionLeft = 610
+ExpansionTop = 787
+ExpansionWidth = 70
+ExpansionHeight = 35
+;
+RoundingX = 55
+RoundingY = 55
+;
+TitleColorR = 47
+TitleColorG = 47
+TitleColorB = 47
+TitleShadowColorR = -1
+;
+TypeColorR = 47
+TypeColorG = 47
+TypeColorB = 47
+TypeShadowColorR = -1
+;
+;
+[Frames]
+TranslucentColorless = -1
+ColorlessAlpha = 255
+ForceColorless = 2
+;
+FrameBaseDir=Vanguard
+;
+DefaultImage=..\blank.png
+;
+CardBk_Colorless=CardBk_Colorless.png
+CardOv_Colorless=CardOv_Colorless.png

@@ -1,0 +1,18 @@
+LIBRARY "CardArtLib.dll" BASE=0x10800000
+
+EXPORTS
+LoadBigArt
+DestroySmallArt
+IsSmallArtRightSize
+DestroyAllSmallArts
+IsBigArtIn
+LoadSmallArt
+ReloadBigArtIfWrongSize
+DestroyAllBigArts
+ReloadSmallArtIfWrongSize
+IsSmallArtIn
+IsBigArtRightSize
+DrawSmallArt
+DrawBigArt
+DestroyBigArt
+Cardartlib_initialize_for_shandalar

@@ -1,0 +1,138 @@
+;-*- conf-windows -*-
+;Overrides for Future Sight futureshifted frames.
+;See Duel.dat for documentation.
+;
+[SmallCard]
+ArtLeft = 49
+ArtTop = 98
+ArtWidth = 951
+ArtHeight = 897
+;
+TitleSourceTop = 1
+TitleSourceHeight = 45
+TitleDestHeight = 182
+FrameSourceTop = 46
+FrameSourceHeight = 262
+FrameDestTop = 182
+;
+ExpansionVisible = 1
+ExpansionLeft = 703
+ExpansionTop = 1025
+ExpansionWidth = 91
+ExpansionHeight = 65
+;
+;
+[FullCard]
+ExpandTop = 6362
+ExpandHeight = 2750
+;
+TitleLeft = 140
+TitleTop = 52
+TitleWidth = 575
+;
+CurveManaDiameter = 70
+CurveMana1X = 120
+CurveMana1Y = 186
+CurveMana2X = 86
+CurveMana2Y = 265
+CurveMana3X = 72
+CurveMana3Y = 352
+CurveMana4X = 72
+CurveMana4Y = 444
+CurveMana5X = 85
+CurveMana5Y = 538
+CurveMana6X = 138
+CurveMana6Y = 627
+;
+ArtLeft = 42
+ArtTop = 88
+ArtWidth = 734
+ArtHeight = 760
+;
+TypeLeft = 90
+TypeTop = 685
+TypeWidth = 610
+;
+RulestextLeft = 70
+RulestextTop = 763
+RulestextWidth = 655
+RulestextHeight = 305
+;
+RulesboxLeft = 45
+RulesboxTop = 740
+RulesboxWidth = 724
+RulesboxHeight = 332
+;
+PowertoughnessLeft = 588
+PowertoughnessTop = 1087
+PowertoughnessWidth = 151
+;
+ExtendedPowertoughness = 1
+;
+PowertoughnessBoxLeft = 562
+PowertoughnessBoxTop = 1071
+PowertoughnessBoxWidth = 200
+PowertoughnessBoxHeight = 100
+;
+ExpansionLeft = 694
+ExpansionTop = 698
+ExpansionWidth = 74
+ExpansionHeight = 38
+;
+;TombstoneVisible = 1
+TombstoneTitleOffset = 0
+TombstoneLeft = 49
+TombstoneTop = 41
+TombstoneWidth = 28
+TombstoneHeight = 42
+;
+TypeIconVisible = 1
+TypeIconSuppressedByTombstone = 1
+TypeIconLeft = 27
+TypeIconTop = 31
+TypeIconWidth = 57
+TypeIconHeight = 57
+;
+BorderColorR = 0
+BorderColorG = 0
+BorderColorB = 0
+;
+TitleShadowColorR = -1
+;
+PowertoughnessShadowColorR = -1
+;
+TypeShadowColorR = -1
+;
+TitleOnLightColorR = 47
+TitleOnLightColorG = 47
+TitleOnLightColorB = 47
+;
+TitleOnWhiteBlackColorR = 40
+TitleOnWhiteBlackColorG = 100
+TitleOnWhiteBlackColorB = 160
+;
+RulesOnDarkLandColorR = 255
+RulesOnDarkLandColorG = 255
+RulesOnDarkLandColorB = 255
+;
+RulesOnWhiteBlackLandColorR = 40
+RulesOnWhiteBlackLandColorG = 100
+RulesOnWhiteBlackLandColorB = 160
+;
+;
+[Frames]
+;Only monocolor non-artifact non-land spells and creatures, a colorless spell,
+;colorless artifacts, a blue artifact creature, and colorless and two-color
+;lands were printed.  If a futureshifted card becomes other combinations during
+;play, however, the settings here will be honored.
+;
+;
+TranslucentColorless = 0
+ColorlessAlpha = 255
+FrameBaseDir=FutureShift
+;
+CardBk_Colorless=..\blank.png
+CardOv_GoldLand=CardOv_GoldLand.png
+CardOv_LandBar=CardOv_LandBar.png
+;
+Tombstone=..\classic\Tombstone.png

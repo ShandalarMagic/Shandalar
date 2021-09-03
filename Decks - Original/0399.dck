@@ -1,0 +1,37 @@
+Elementalist (Re/Ub, 4th)
+
+.164	12	Mountain
+.126	12	Island
+.870	2	Gem Bazaar
+.157	2	Mana Vault
+.0	3	Air Elemental
+.73	3	Earth Elemental
+.83	3	Fire Elemental
+.279	3	Water Elemental
+.267	1	Wall of Air
+.274	1	Wall of Water
+.270	1	Wall of Fire
+.272	1	Wall of Stone
+.75	3	Earthquake
+.84	3	Fireball
+.69	2	Drain Power
+.145	2	Lightning Bolt
+.462	2	Unstable Mutation
+.494	1	Energy Flux
+
+.vNone
+.69	2	Drain Power
+.494	1	Energy Flux
+.vBlack
+.69	2	Drain Power
+.494	1	Energy Flux
+.vBlue
+.199	3	Red Elemental Blast
+.vGreen
+.69	2	Drain Power
+.494	1	Energy Flux
+.vRed
+.22	3	Blue Elemental Blast
+.vWhite
+.69	2	Drain Power
+.494	1	Energy Flux

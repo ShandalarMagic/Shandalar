@@ -1,0 +1,96 @@
+;-*- conf-windows -*-
+;Overrides for the Kaladesh Vehicle frames.
+;See Duel.dat for documentation.
+;
+[SmallCard]
+ArtLeft = 46
+ArtTop = 184
+ArtWidth = 917
+ArtHeight = 785
+;
+TitleSourceTop = 7
+TitleSourceHeight = 195
+TitleDestHeight = 1074
+FrameSourceTop = 458
+FrameSourceHeight = 17
+FrameDestTop = 1074
+;
+ExpansionLeft = 600
+ExpansionTop = 26
+ExpansionWidth = 171
+ExpansionHeight = 122
+;
+TitleOwnedColorR = 47
+TitleOwnedColorG = 47
+TitleOwnedColorB = 47
+TitleOwnedShadowColorR = -1
+;
+TitleUnownedColorR = 47
+TitleUnownedColorG = 47
+TitleUnownedColorB = 47
+TitleUnownedShadowColorR = -1
+;
+;
+[FullCard]
+ExpandTop = 6265
+ExpandHeight = 3000
+;
+RulestextLeft = 65
+RulestextTop = 759
+RulestextWidth = 650
+RulestextHeight = 317
+;
+RulesboxLeft = 45
+RulesboxTop = 736
+RulesboxWidth = 710
+RulesboxHeight = 342
+;
+WatermarkLeft = 230
+WatermarkTop = 768
+WatermarkWidth = 340
+WatermarkHeight = 340
+;
+TitleColorR = 47
+TitleColorG = 47
+TitleColorB = 47
+TitleShadowColorR = -1
+;
+PowertoughnessLeft = 599
+PowertoughnessTop = 1083
+PowertoughnessWidth = 148
+PowertoughnessHeight = 72
+;
+PowertoughnessBoxLeft = 559
+PowertoughnessBoxTop = 1071
+PowertoughnessBoxWidth = 214
+PowertoughnessBoxHeight = 102
+;
+PowertoughnessColorR = 47
+PowertoughnessColorG = 47
+PowertoughnessColorB = 47
+PowertoughnessShadowColorR = -1
+;
+TypeColorR = 47
+TypeColorG = 47
+TypeColorB = 47
+TypeShadowColorR = -1
+;
+;
+[Frames]
+;sic
+FrameBaseDir=magic2015
+;
+CardBk_Artifact=..\vehicle\CardBk_Vehicle.png
+Powertoughness=..\vehicle\Powertoughness.png
+;
+CardOv_ColorlessLand=CardOv_Colorless.png
+;
+CardOv_ArtifactNyx=CardOv_ArtifactNyx.png
+CardOv_ColorlessNyx=CardOv_ArtifactNyx.png
+CardOv_GoldNyx=CardOv_GoldNyx.png
+CardOv_LandNyx=CardOv_ArtifactNyx.png
+CardOv_WNyx=CardOv_WNyx.png
+CardOv_UNyx=CardOv_UNyx.png
+CardOv_BNyx=CardOv_BNyx.png
+CardOv_RNyx=CardOv_RNyx.png
+CardOv_GNyx=CardOv_GNyx.png

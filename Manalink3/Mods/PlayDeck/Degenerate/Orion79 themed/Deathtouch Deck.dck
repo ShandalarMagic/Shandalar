@@ -1,0 +1,37 @@
+;Deathtouch Deck
+;B-G 1.5 Ability
+;Mattia Loy // Orion79
+;orpheananger@hotmail.com
+;23/05/2011
+;1
+;4th Edition
+;The Deathtouch deck uses only creatures with deathouch ability, that will turno any combat damage into lethal damage. For this reason, Lure would be less effective than in the Stoning and is replaced with Arena.
+
+.1483	2	Diabolic Edict
+.1050	1	Grave Pact
+.11127	2	Grave Titan
+.1110	1	Phyrexian Arena
+.10703	4	Vampire Nighthawk
+.11864	2	Vengeful Pharaoh
+.10379	3	Acidic Slime
+.1745	4	Ohran Viper
+.9632	1	Prismatic Omen
+.803	1	Sylvan Library
+.10695	2	Turntimber Basilisk
+.1360	4	Wren's Run Vanquisher
+.11449	1	Glissa, the Traitor
+.1506	2	Putrefy
+.1362	2	Tidehollow Strix
+.1602	2	Voracious Cobra
+.11118	1	Elixir of Immortality
+.11413	3	Wurmcoil Engine
+.899	2	Arena
+.12	4	Bayou
+.403	2	City of Brass
+.3244	2	Reflecting Pool
+.1204	3	Savage Lands
+.2801	2	Undiscovered Paradise
+.3452	1	Volrath's Stronghold
+.4211	1	Yavimaya Hollow
+.91	3	Forest
+.239	2	Swamp

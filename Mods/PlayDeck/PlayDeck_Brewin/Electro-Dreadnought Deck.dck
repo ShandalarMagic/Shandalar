@@ -1,0 +1,39 @@
+;Electro-Dreadnought Deck
+;B-U-R-W 1.5
+;Mattia Loy // Orion79
+;orpheananger@hotmail.com
+;23/06/2011
+;1
+;4th Edition
+;The Electro-Dreadnought is built around Phyrexian Dreadnought with Electropotence and other enchantments. The combo is based on the fact that, even if the Dreadnought will die due to the lack of creatures to sacrifice, it still enters the battlefield and so activates Electropotence and may be stored in the Mimic Vat for further damage. Sadly, a bug in the game engine prevents the combo.
+
+.48	4	Counterspell
+.1514	2	Fabricate
+.7242	1	Honden of Seeing Winds
+.685	1	Invoke Prejudice
+.720	4	Mana Drain
+.1483	2	Diabolic Edict
+.1050	1	Grave Pact
+.7241	1	Honden of Night's Reach
+.10532	1	Electropotence
+.7239	1	Honden of Infinite Rage
+.3693	1	Angelic Chorus
+.1496	1	Final Judgment
+.7238	1	Honden of Cleansing Fire
+.1517	2	Idyllic Tutor
+.1559	2	Path to Exile
+.3869	1	Remembrance
+.1302	4	Vindicate
+.1561	4	Darksteel Ingot
+.11118	1	Elixir of Immortality
+.11305	1	Mimic Vat
+.2558	3	Phyrexian Dreadnought
+.410	1	Diamond Valley
+.694	1	Karakas
+.189	3	Plateau
+.216	3	Scrubland
+.3894	1	Serra's Sanctum
+.254	4	Tundra
+.258	4	Underground Sea
+.266	3	Volcanic Island
+.3452	1	Volrath's Stronghold

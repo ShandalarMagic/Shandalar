@@ -1,0 +1,21594 @@
+section .text
+
+;card functions
+extern _card_ainok_artillerist
+extern _card_ainok_survivalist
+extern _card_assault_formation
+extern _card_avatar_of_the_resolute
+extern _card_den_protector
+extern _card_dromokas_gift
+extern _card_epic_confrontation
+extern _card_foe_razer_regent
+extern _card_guardian_shield_bearer
+extern _card_azorius_signet
+extern _card_rakdos_signet
+extern _card_simic_signet
+extern _card_gruul_signet
+extern _card_orzhov_signet
+extern _card_boros_signet
+extern _card_dimir_signet
+extern _card_golgari_signet
+extern _card_selesnya_signet
+extern _card_azorius_chancery
+extern _card_rakdos_carnarium
+extern _card_simic_growth_chamber
+extern _card_gruul_turf
+extern _card_izzet_boilerworks
+extern _card_boros_garrison
+extern _card_dimir_aqueduct
+extern _card_golgari_rot_farm
+extern _card_selesnya_sanctuary
+extern _protection_from_black
+extern _protection_from_red
+extern _protection_from_blue
+extern _protection_from_green
+extern _protection_from_white
+extern _card_sabertooth_nishoba
+extern _card_timetwister
+extern _card_feldons_cane
+extern _card_inspiring_call
+extern _card_lurking_arynx
+extern _card_obscuring_aether
+extern _card_pinion_feast
+extern _card_press_the_advantage
+extern _card_gauntlet_of_power
+extern _card_mulldrifter
+extern _card_salt_road_quartermasters
+extern _dispatch_event_raw
+extern _shadow
+extern _card_tormods_crypt
+extern _card_ancestors_chosen
+extern _card_bottle_gnomes
+extern _card_gorilla_titan
+extern _card_kami_of_the_crescent_moon
+extern _card_priest_of_gix
+extern _count_graveyard
+extern _card_nimble_mongoose
+extern _card_werebear
+extern _card_mirrodins_core
+extern _has_threshold
+extern _card_chromatic_sphere
+extern _card_chromatic_star
+extern _card_disciple_of_the_vault
+extern _card_ogre_arsonist
+extern _card_flametongue_kavu
+extern _card_fire_imp
+extern _card_merrow_reejerey
+extern _card_vodalian_knights
+extern _card_balduvian_horde
+extern _card_goblin_lore
+extern _card_kobold_drill_sergeant
+extern _card_lightning_helix
+extern _card_repulse
+extern _card_recoil
+extern _card_martial_coup
+extern _card_oversoul_of_dusk
+extern _card_spectral_procession
+extern _card_goblin_warchief
+extern _card_heart_sliver
+extern _card_synchronous_sliver
+extern _card_manamorphose
+extern _card_wilt_leaf_cavaliers
+extern _card_stitch_together
+extern _card_survival_of_the_fittest
+extern _card_careful_consideration
+extern _card_deranged_hermit
+extern _card_soraya_the_falconer
+extern _card_uktabi_orangutan
+extern _card_man_o_war
+extern _card_tahngarth_talruum_hero
+extern _card_pearl_dragon
+extern _card_sphere_of_resistance
+extern _card_thorn_of_amethyst
+extern _card_yawgmoths_bargain
+extern _card_necropotence
+extern _card_master_of_etherium
+extern _card_academy_rector
+extern _card_gamble
+extern _card_temple_of_the_false_god
+extern _card_ancient_tomb
+extern _card_helm_of_awakening
+extern _card_reap_and_sow
+extern _card_bonesplitter
+extern _card_skullclamp
+extern _card_siege_gang_commander
+extern _card_force_of_will
+extern _card_chrome_mox
+extern _card_silvergill_adept
+extern _card_wrens_run_vanquisher
+extern _card_goldmeadow_stalwart
+extern _card_cruel_ultimatum
+extern _card_mox_diamond
+extern _card_springleaf_drum
+extern _card_goblin_grenade
+extern _card_kjeldoran_outpost
+extern _card_reanimate
+extern _card_dark_confidant
+extern _card_cranial_plating
+extern _card_blastoderm
+extern _card_stonybrook_banneret
+extern _card_momir
+extern _card_tinker
+extern _card_upheaval
+extern _card_price_of_progress
+extern _card_wasteland
+extern _card_standstill
+extern _card_rite_of_flame
+extern _card_magnivore
+extern _card_terravore
+extern _card_tarmogoyf
+extern _card_cabal_ritual
+extern _card_carnophage
+extern _card_senseis_divining_top
+extern _card_cloudgoat_ranger
+extern _card_sages_dousing
+extern _card_spell_snare
+extern _card_cursecatcher
+extern _card_nyxathid
+extern _card_scepter_of_fugue
+extern _card_gaddock_teeg
+extern _card_door_to_nothingness
+extern _card_aether_vial
+extern _card_honden_of_cleansing_fire
+extern _card_honden_of_seeing_winds
+extern _card_honden_of_lifes_web
+extern _card_honden_of_nights_reach
+extern _card_honden_of_infinite_rage
+extern _card_daze
+extern _card_gush
+extern _card_disrupt
+extern _card_rumbling_slum
+extern _card_tower_of_fortunes
+extern _card_balancing_act
+extern _card_weird_harvest
+extern _card_pacifism
+extern _card_mystical_tutor
+extern _card_eureka
+extern _card_show_and_tell
+extern _card_smallpox
+extern _card_pox
+extern _card_thoughts_of_ruin
+extern _card_fireblast
+extern _card_goblin_lackey
+extern _card_gerrards_verdict
+extern _card_bringer_of_the_blue_dawn
+extern _card_bringer_of_the_black_dawn
+extern _card_bringer_of_the_green_dawn
+extern _card_maelstrom_archangel
+extern _card_child_of_alara
+extern _card_brainstorm
+extern _card_wydwen_the_biting_gale
+extern _card_hidetsugus_second_rite
+extern _card_innocent_blood
+extern _card_barter_in_blood
+extern _card_grafted_skullcap
+extern _card_mind_stone
+extern _card_helldozer
+extern _card_covetous_dragon
+extern _card_couriers_capsule
+extern _card_lightning_greaves
+extern _card_empyrial_plate
+extern _card_loxodon_warhammer
+extern _card_fire_ice
+extern _card_dwarven_ruins
+extern _card_ebon_stronghold
+extern _card_havenwood_battleground
+extern _card_ruins_of_trokair
+extern _card_svyelunite_temple
+extern _card_ancient_spring
+extern _card_geothermal_crevice
+extern _card_irrigation_ditch
+extern _card_sulfur_vent
+extern _card_tinder_farm
+extern _card_nezumi_shortfang
+extern _card_early_harvest
+extern _card_death_cloud
+extern _card_oversold_cemetery
+extern _card_desolation_angel
+extern _card_goblin_piledriver
+extern _card_akrasan_squire
+extern _card_battlegrace_angel
+extern _card_angelic_benediction
+extern _card_noble_hierarch
+extern _card_skirk_prospector
+extern _card_broodstar
+extern _card_stratadon
+extern _card_draco
+extern _card_goblin_tutor
+extern _card_wall_of_reverence
+extern _card_master_transmuter
+extern _card_wirewood_symbiote
+extern _card_dauthi_horror
+extern _card_dauthi_marauder
+extern _card_dauthi_mercenary
+extern _card_dauthi_slayer
+extern _card_dauthi_warlord
+extern _card_soltari_trooper
+extern _card_stronghold_overseer
+extern _card_trespasser_il_vec
+extern _card_looter_il_kor
+extern _card_drifter_il_dal
+extern _card_barbarian_ring
+extern _card_meloku_the_clouded_mirror
+extern _card_sword_of_fire_and_ice
+extern _card_sword_of_light_and_shadow
+extern _card_sarcomancy
+extern _card_tattermunge_maniac
+extern _card_nightscape_familiar
+extern _card_hellfire
+extern _card_pernicious_deed
+extern _card_forbid
+extern _card_browbeat
+extern _card_arcanis_the_omnipotent
+extern _card_dark_depths
+extern _card_marit_lage
+extern _card_tooth_and_nail
+extern _card_spirit_of_the_night
+extern _card_farseek
+extern _card_bloodstained_mire
+extern _card_windswept_heath
+extern _card_wooded_foothills
+extern _card_polluted_delta
+extern _card_flooded_strand
+extern _card_glimpse_the_unthinkable
+extern _card_arcbound_worker
+extern _card_mana_drain
+extern _card_scavenger_drake
+extern _card_basalt_monolith
+extern _card_grim_monolith
+extern _card_demonic_hordes
+extern _card_exploration
+extern _card_ivory_guardians
+extern _card_obliterate
+extern _card_twincast
+extern _card_duress
+extern _pattern_of_rebirth_tutor
+extern _game_startup
+extern _card_rules_engine
+extern _card_tendrils_of_agony
+extern _card_anger
+extern _pregame
+extern _card_peregrine_drake
+extern _card_palinchron
+extern _card_flash
+extern _card_pact_of_negation
+extern _card_summoners_pact
+extern _card_protean_hulk
+extern _card_dragonstorm
+extern _card_carnival_of_souls
+extern _card_glimpse_of_nature
+extern _card_tombstalker
+extern _card_goblin_matron
+extern _card_goblin_sharpshooter
+extern _card_goblin_ringleader
+extern _card_qasali_pridemage
+extern _card_jenara_asura_of_war
+extern _card_relentless_rats
+extern _get_abilities
+extern _card_progenitus
+extern _card_prosperity
+extern _card_wistful_selkie
+extern _card_ashenmoor_gouger
+extern _card_flame_javelin
+extern _card_avatar_elvish_champion
+extern _card_avatar_oni_of_wild_places
+extern _card_empty_the_warrens
+extern _card_primal_forcemage
+extern _card_avatar_akroma
+extern _card_avatar_erhnam_djinn
+extern _card_avatar_goblin_warchief
+extern _card_avatar_heartwood_storyteller
+extern _card_avatar_mirri_the_cursed
+extern _card_avatar_nekrataal
+extern _card_avatar_royal_assassin
+extern _card_avatar_serra_angel
+extern _card_reflecting_pool
+extern _card_avatar_reaper_king
+extern _card_avatar_prodigal_sorcerer
+extern _card_etherium_sculptor
+extern _card_grand_arbiter_augustin_iv
+extern _card_sharuum_the_hegemon
+extern _card_magister_sphinx
+extern _card_avatar_chaos_orb
+extern _card_draft
+extern _card_avatar_chaos_orb_lite
+extern _card_elvish_spirit_guide
+extern _card_forgotten_cave
+extern _card_lonely_sandbar
+extern _card_barren_moor
+extern _card_tranquil_thicket
+extern _card_secluded_steppe
+extern _card_flame_wreathed_phoenix
+extern _card_gempalm_incinerator
+extern _card_cryptic_command
+extern _card_yawgmoths_will
+extern _card_treetop_village
+extern _card_treetop_village_ape
+extern _card_sundering_titan
+extern _card_crucible_of_worlds
+extern _card_wilt_leaf_liege
+extern _card_kitchen_finks
+extern _card_high_tide
+extern _card_cloud_of_faeries
+extern _card_squee_goblin_nabob
+extern _card_traumatize
+extern _card_genesis
+extern _card_mental_note
+extern _card_oath_of_druids
+extern _card_forbidden_orchard
+extern _card_life_from_the_loam
+extern _card_hatred
+extern _card_figure_of_destiny
+extern _card_ranger_of_eos
+extern _card_meddling_mage
+extern _card_saproling_burst
+extern _card_saproling
+extern _card_fires_of_yavimaya
+extern _card_windbrisk_heights
+extern _card_propaganda
+extern _card_collective_restraint
+extern _card_living_death
+extern _card_undead_warchief
+extern _card_lord_of_the_undead
+extern _card_zombie_master
+extern _card_tidehollow_sculler
+extern _card_putrid_leech
+extern _card_graveborn_muse
+extern _card_exhume
+extern _card_recurring_nightmare
+extern _card_demonic_consultation
+extern _card_lions_eye_diamond
+extern _card_memory_jar
+extern _card_trinisphere
+extern _card_burning_wish
+extern _card_priest_of_titania
+extern _card_overrun
+extern _card_lorescale_coatl
+extern _card_nettle_sentinel
+extern _card_heritage_druid
+extern _card_regal_force
+extern _card_battle_of_wits
+extern _card_bramblewood_paragon
+extern _card_cunning_wish
+extern _card_living_wish
+extern _card_birchlore_rangers
+extern _card_quirion_ranger
+extern _card_sneak_attack
+extern _card_reveillark
+extern _card_sleight_of_hand
+extern _card_fact_or_fiction
+extern _card_gifts_ungiven
+extern _card_lord_of_extinction
+extern _card_serra_avatar
+extern _card_wall_of_kelp
+extern _card_isochron_scepter
+extern _card_natural_order
+extern _card_thoughtseize
+extern _card_land_grant
+extern _card_maelstrom_pulse
+extern _card_echoing_truth
+extern _card_volcanic_fallout
+extern _card_zealous_persecution
+extern _card_cloudthresher
+extern _card_gorilla_shaman
+extern _card_spat
+extern _card_swamp_mosquito
+extern _card_suqata_assassin
+extern _card_preeminent_captain
+extern _card_captain_of_the_watch
+extern _card_veteran_armorsmith
+extern _card_veteran_swordsmith
+extern _card_honor_of_the_pure
+extern _card_goblin_chieftain
+extern _card_elvish_archdruid
+extern _card_merfolk_sovereign
+extern _card_cemetery_reaper
+extern _card_army_of_allah
+extern _card_beacon_of_immortality
+extern _card_allied_strategies
+extern _card_merfolk_assassin
+extern _card_lich
+extern _card_tribal_flames
+extern _card_argothian_enchantress
+extern _card_sanctum_gargoyle
+extern _quick_start
+extern _fake_random
+extern _card_incinerate
+extern _card_mystic_enforcer
+extern _card_mystic_remora
+extern _card_city_of_traitors
+extern _card_quirion_dryad
+extern _card_goblin_welder
+extern _card_avalanche_riders
+extern _card_psychatog
+extern _card_jesters_cap
+extern _card_smokestack
+extern _card_cursed_scroll
+extern _card_demigod_of_revenge
+extern _card_serrated_arrows
+extern _card_shriekmaw
+extern _card_enchantresss_presence
+extern _card_fulminator_mage
+extern _card_grim_lavamancer
+extern _card_opposition
+extern _card_serra_sanctum
+extern _card_mind_over_matter
+extern _card_coalition_relic
+extern _card_coalition_victory
+extern _card_smash_to_smithereens
+extern _card_garruk_wildspeaker
+extern _card_jace_berelen
+extern _card_jace_beleren
+extern _card_ajani_goldmane
+extern _card_liliana_vess
+extern _card_chandra_nalaar
+extern _card_nicol_bolas_planeswalker
+extern _autoselect_target
+extern _card_tromokratis
+extern _ai_assign_blockers
+extern _card_baneslayer_angel
+extern _card_ajani_vengeant
+extern _card_elspeth_knight_errant
+extern _card_manabond
+extern _card_brain_freeze
+extern _card_tangle_wire
+extern _card_gemstone_mine
+extern _card_kiki_jiki_mirror_breaker
+extern _card_pestermite
+extern _card_rout
+extern _card_goblin_charbelcher
+extern _card_street_wraith
+extern _alphabetize_deck
+extern _card_serum_powder
+extern _card_bridge_from_below
+extern _card_dread_return
+extern _card_ichorid
+extern _card_golgari_grave_troll
+extern _card_unmask
+extern _card_stinkweed_imp
+extern _card_golgari_thug
+extern _card_flamekin_zealot
+extern _card_tinder_wall
+extern _card_desperate_ritual
+extern _card_eye_of_nowhere
+extern _card_cabal_therapy
+extern _card_millstone
+extern _card_kodamas_reach
+extern _card_lava_spike
+extern _card_infernal_contract
+extern _card_magus_of_the_tabernacle
+extern _card_dissipate
+extern _card_spreading_seas
+extern _card_predatory_urge
+extern _card_blazing_torch
+extern _card_celestial_mantle
+extern _card_mire_blight
+extern _card_gigantiform
+extern _card_adventuring_gear
+extern _card_blade_of_the_bloodchief
+extern _card_carnage_altar
+extern _card_eternity_vessel
+extern _card_expedition_map
+extern _card_explorers_scope
+extern _card_hedron_scrabbler
+extern _card_khalni_gem
+extern _card_spidersilk_net
+extern _card_trailblazers_boots
+extern _card_trusty_machete
+extern _card_arid_mesa
+extern _card_marsh_flats
+extern _card_misty_rainforest
+extern _card_scalding_tarn
+extern _card_verdant_catacombs
+extern _card_crypt_of_agadeem
+extern _card_emeria_the_sky_ruin
+extern _card_kabira_crossroads
+extern _card_magosi_the_waterveil
+extern _card_oran_rief_the_vastwood
+extern _card_piranha_marsh
+extern _card_soaring_seacliff
+extern _card_teetering_peaks
+extern _card_turntimber_grove
+extern _card_valakut_the_molten_pinnacle
+extern _card_baloth_cage_trap
+extern _card_baloth_woodcrasher
+extern _card_beast_hunt
+extern _card_beastmaster_ascension
+extern _card_cobra_trap
+extern _card_frontier_guide
+extern _card_grazing_gladehart
+extern _card_greenweaver_druid
+extern _card_harrow
+extern _card_joraga_bard
+extern _card_khalni_heart_expedition
+extern _card_lotus_cobra
+extern _card_mold_shambler
+extern _card_nissas_chosen
+extern _card_nissa_revane
+extern _card_oracle_of_mul_daya
+extern _card_oran_rief_recluse
+extern _card_oran_rief_survivalist
+extern _card_primal_bellow
+extern _card_quest_for_the_gemblades
+extern _card_rampaging_baloths
+extern _card_relic_crush
+extern _card_savage_silhouette
+extern _card_scute_mob
+extern _card_scythe_tiger
+extern _card_summoners_trap
+extern _card_tajuru_archer
+extern _card_terra_stomper
+extern _card_timbermaw_larva
+extern _card_turntimber_basilisk
+extern _card_turntimber_ranger
+extern _card_vines_of_vastwood
+extern _card_bala_ged_thief
+extern _card_blood_seeker
+extern _card_blood_tribute
+extern _card_bloodchief_ascension
+extern _card_bloodghast
+extern _card_crypt_ripper
+extern _card_desecrated_earth
+extern _card_disfigure
+extern _card_feast_of_blood
+extern _card_gatekeeper_of_malakir
+extern _card_grim_discovery
+extern _card_guul_draz_vampire
+extern _card_hagra_crocodile
+extern _card_hagra_diabolist
+extern _card_halo_hunter
+extern _card_heartstabber_mosquito
+extern _card_hideous_end
+extern _card_vampire
+extern _card_kalitas_bloodchief_of_ghet
+extern _card_malakir_bloodwitch
+extern _card_marsh_casualties
+extern _card_mindless_null
+extern _card_needlebite_trap
+extern _card_ob_nixilis_the_fallen
+extern _card_quest_for_the_gravelord
+extern _card_ravenous_trap
+extern _card_sadistic_sacrament
+extern _card_soul_stair_expedition
+extern _card_surrakar_marauder
+extern _card_vampire_hexmage
+extern _card_vampire_lacerator
+extern _card_vampire_nighthawk
+extern _card_vampires_bite
+extern _card_bladetusk_boar
+extern _card_burst_lightning
+extern _card_chandra_ablaze
+extern _card_electropotence
+extern _card_elemental_appeal
+extern _card_geyser_glider
+extern _card_goblin_bushwacker
+extern _card_goblin_shortcutter
+extern _card_goblin_war_paint
+extern _card_goblin_guide
+extern _card_hellfire_mongrel
+extern _card_highland_berserker
+extern _card_inferno_trap
+extern _card_kazuul_warlord
+extern _card_lavaball_trap
+extern _card_magma_rift
+extern _card_mark_of_mutiny
+extern _card_murasa_pyromancer
+extern _card_obsidian_fireheart
+extern _card_punishing_fire
+extern _card_pyromancer_ascension
+extern _card_ruinous_minotaur
+extern _card_runeflare_trap
+extern _card_slaughter_cry
+extern _card_spire_barrage
+extern _card_torch_slinger
+extern _card_tuktuk_grunts
+extern _card_unstable_footing
+extern _card_zektar_shrine_expedition
+extern _card_armament_master
+extern _card_arrow_volley_trap
+extern _card_bold_defense
+extern _card_brave_the_elements
+extern _card_conquerors_pledge
+extern _card_day_of_judgment
+extern _card_devout_lightcaster
+extern _card_emeria_angel
+extern _card_felidar_sovereign
+extern _card_iona_shield_of_emeria
+extern _card_journey_to_nowhere
+extern _card_kabira_evangel
+extern _card_kor_aeronaut
+extern _card_kor_cartographer
+extern _card_kor_hookmaster
+extern _card_kor_outfitter
+extern _card_kor_sanctifiers
+extern _card_kor_skyfisher
+extern _card_landbind_ritual
+extern _card_luminarch_ascension
+extern _card_narrow_escape
+extern _card_nimbus_wings
+extern _card_ondu_cleric
+extern _card_pitfall_trap
+extern _card_quest_for_the_holy_relic
+extern _card_shieldmates_blessing
+extern _card_sunspring_expedition
+extern _card_windborne_charge
+extern _card_world_queller
+extern _card_aether_figment
+extern _card_archive_trap
+extern _card_archmage_ascension
+extern _card_caller_of_gales
+extern _card_cosis_trickster
+extern _card_gomazoa
+extern _card_hedron_crab
+extern _card_into_the_roil
+extern _card_ior_ruin_expedition
+extern _card_lethargy_trap
+extern _card_living_tsunami
+extern _card_lorthos_the_tidemaker
+extern _card_merfolk_seastalkers
+extern _card_merfolk_wayfinder
+extern _card_mindbreak_trap
+extern _card_paralyzing_grasp
+extern _card_quest_for_ancient_secrets
+extern _card_reckless_scholar
+extern _card_rite_of_replication
+extern _card_sea_gate_loremaster
+extern _card_seascape_aerialist
+extern _card_shoal_serpent
+extern _card_spell_pierce
+extern _card_sphinx_of_jwar_isle
+extern _card_sphinx_of_lost_truths
+extern _card_summoners_bane
+extern _card_tempest_owl
+extern _card_trapfinders_trick
+extern _card_zombie
+extern _get_card_image_number
+extern _card_whiplash_trap
+extern _card_steppe_lynx
+extern _card_threads_of_disloyalty
+extern _card_sorin_markov
+extern _card_sarkhan_vol
+extern _card_vedalken_shackles
+extern _card_umezawas_jitte
+extern _card_illusions_of_grandeur
+extern _card_donate
+extern _card_might_of_alara
+extern _card_tezzeret_the_seeker
+extern _card_wall_of_roots
+extern _card_sower_of_temptation
+extern _card_bloodbraid_elf
+extern _card_minds_desire
+extern _card_guul_draz_specter
+extern _card_beast_token
+extern _card_path_to_exile
+extern _deck_was_shuffled
+extern _card_akoum_refuge
+extern _card_roil_elemental
+extern _card_goblin_ruinblaster
+extern _card_trapmakers_snare
+extern _card_kazandu_blademaster
+extern _set_draft
+extern _set_momir
+extern _set_testing
+extern _set_none
+extern _set_challenge
+extern _get_card_or_subtype_name
+extern _card_vampire_nocturnus
+extern _card_knight_of_the_reliquary
+extern _card_essence_sliver
+extern _card_virulent_sliver
+extern _deathtouch
+extern _card_harmonic_sliver
+extern _card_spiritmonger
+extern _get_counter_type_by_id
+extern _card_jareth_leonine_titan
+extern _card_hellkite_overlord
+extern _card_crop_rotation
+extern _card_loxodon_hierarch
+extern _card_thorn_elemental
+extern _card_cadaverous_bloom
+extern _card_diabolic_edict
+extern _card_blinding_angel
+extern _card_brass_herald
+extern _card_furnace_of_rath
+extern _card_gaeas_herald
+extern _card_hammer_of_bogardan
+extern _card_mind_bend
+extern _card_mind_slash
+extern _card_oracles_attendants
+extern _card_phyrexian_colossus
+extern _card_redeem
+extern _card_rhox
+extern _card_spreading_algae
+extern _card_story_circle
+extern _card_teferis_puzzle_box
+extern _card_eldrazi_monument
+extern _card_ant_queen
+extern _card_darksteel_colossus
+extern _card_sprouting_thrinax
+extern _indestructible
+extern _card_derelor
+extern _card_armor_thrull
+extern _card_basal_thrull
+extern _card_breeding_pit
+extern _card_ebon_praetor
+extern _card_initiates_of_the_ebon_hand
+extern _card_mindstab_thrull
+extern _card_necrite
+extern _card_soul_exchange
+extern _card_thrull_champion
+extern _card_thrull_retainer
+extern _card_thrull_wizard
+extern _card_tourachs_chant
+extern _card_tourachs_gate
+extern _card_orcish_spy
+extern _card_brassclaw_orcs
+extern _card_dwarven_armorer
+extern _card_dwarven_catapult
+extern _card_dwarven_lieutenant
+extern _card_dwarven_soldier
+extern _card_goblin_chirurgeon
+extern _card_goblin_flotilla
+extern _card_goblin_kites
+extern _card_goblin_war_drums
+extern _card_goblin_warrens
+extern _card_orcish_captain
+extern _card_orcish_veteran
+extern _card_orgg
+extern _card_raiding_party
+extern _card_tar_fiend
+extern _card_combat_medic
+extern _card_farrels_mantle
+extern _card_farrelite_priest
+extern _card_farrels_zealot
+extern _card_hand_of_justice
+extern _card_heroism
+extern _card_icatian_infantry
+extern _card_icatian_javelineers
+extern _card_icatian_lieutenant
+extern _card_icatian_moneychanger
+extern _card_icatian_priest
+extern _card_icatian_scout
+extern _card_icatian_skirmishers
+extern _card_deep_spawn
+extern _card_homarid
+extern _card_homarid_shaman
+extern _card_homarid_spawning_bed
+extern _card_homarid_warrior
+extern _card_merseine
+extern _card_river_merfolk
+extern _card_seasinger
+extern _card_tidal_flats
+extern _card_svyelunite_priest
+extern _card_tidal_influence
+extern _card_vodalian_mage
+extern _card_vodalian_war_machine
+extern _card_thelonite_druid
+extern _card_elven_fortress
+extern _card_elvish_farmer
+extern _card_elvish_hunter
+extern _card_elvish_scout
+extern _card_feral_thallid
+extern _card_fungal_bloom
+extern _card_night_soil
+extern _card_spore_cloud
+extern _card_spore_flower
+extern _card_thallid
+extern _card_thallid_devourer
+extern _card_thelonite_monk
+extern _card_thelons_chant
+extern _card_thelons_curse
+extern _card_thorn_thallid
+extern _card_aeolipile
+extern _card_balm_of_restoration
+extern _card_bottomless_vault
+extern _card_dwarven_hold
+extern _card_hollow_trees
+extern _card_icatian_store
+extern _card_sand_silos
+extern _card_conch_horn
+extern _card_delifs_cone
+extern _card_delifs_cube
+extern _card_draconian_cylix
+extern _card_elven_lyre
+extern _card_implements_of_sacrifice
+extern _card_rainbow_vale
+extern _card_ring_of_renewal
+extern _card_spirit_shield
+extern _card_zelyon_sword
+extern _card_sunpetal_grove
+extern _card_rootbound_crag
+extern _card_glacial_fortress
+extern _card_drowned_catacomb
+extern _card_dragonskull_summit
+extern _card_bituminous_blast
+extern _card_violent_ultimatum
+extern _card_acidic_slime
+extern _card_gargoyle_castle
+extern _card_open_the_vaults
+extern _card_sphinx_steel_wind
+extern _card_oblivion_ring
+extern _card_sigil_of_the_empty_throne
+extern _card_hellspark_elemental
+extern _card_lavalanche
+extern _card_spike_weaver
+extern _card_phyrexian_negator
+extern _card_two_headed_dragon
+extern _card_helm_of_obedience
+extern _card_leyline_of_the_void
+extern _card_presence_of_the_master
+extern _card_esper_charm
+extern _card_grixis_charm
+extern _card_naya_charm
+extern _card_knight_of_the_white_orchid
+extern _card_halfdane
+extern _card_hazezon_tamar
+extern _card_hells_caretaker
+extern _card_nether_void
+extern _card_stangg
+extern _card_stangg_twin
+extern _card_triassic_egg
+extern _card_voodoo_doll
+extern _card_eater_of_the_dead
+extern _card_frankensteins_monster
+extern _card_grave_robbers
+extern _card_nameless_race
+extern _card_the_fallen
+extern _card_dance_of_many
+extern _card_electric_eel
+extern _card_giant_shark
+extern _card_mana_vortex
+extern _card_psychic_allergy
+extern _card_gaeas_touch
+extern _card_lurker
+extern _card_scarwood_bandits
+extern _card_scarwood_hag
+extern _card_spitting_slug
+extern _card_whippoorwill
+extern _card_goblin_wizard
+extern _card_orc_general
+extern _card_dust_to_dust
+extern _card_fasting
+extern _card_festival
+extern _card_fire_and_brimstone
+extern _card_preacher
+extern _card_dark_sphere
+extern _card_living_armor
+extern _card_necropolis
+extern _card_reflecting_mirror
+extern _card_runesword
+extern _card_scarecrow
+extern _card_skull_of_orm
+extern _card_standing_stones
+extern _card_tower_of_coireall
+extern _card_city_of_shadows
+extern _card_safe_haven
+extern _card_krovikan_horror
+extern _card_ashen_ghoul
+extern _card_nshadow
+extern _card_momentary_blink
+extern _card_victimize
+extern _card_hell_thunder
+extern _card_rotting_rats
+extern _card_sedraxis_specter
+extern _card_architects_of_will
+extern _card_thornscape_battlemage
+extern _card_shivan_wurm
+extern _card_master_of_the_wild_hunt
+extern _card_deathbringer_thoctar
+extern _card_extractor_demon
+extern _card_vein_drinker
+extern _card_breakthrough
+extern _card_ideas_unbound
+extern _card_krark_clan_ironworks
+extern _card_myr_incubator
+extern _card_mycoloth
+extern _card_karmic_guide
+extern _card_greater_good
+extern _card_keiga
+extern _card_earthcraft
+extern _card_horseshoe_crab
+extern _card_soldevi_excavations
+extern _card_lake_of_the_dead
+extern _card_cloudpost
+extern _card_ryusei
+extern _card_foresee
+extern _card_telling_time
+extern _card_sunder2
+extern _card_sporesower_thallid
+extern _card_thelon_of_havenwood
+extern _card_steward_of_valeron
+extern _card_fatestitcher
+extern _card_monstrous_carabid
+extern _card_tome_scour
+extern _card_time_sieve
+extern _card_negate
+extern _card_burning_inquiry
+extern _card_viscera_dragger
+extern _card_tombstone_stairwell
+extern _card_infernal_genesis
+extern _card_ascendant_evincar
+extern _card_crovax_ascendant_hero
+extern _card_beacon_of_creation
+extern _card_beacon_of_destruction
+extern _card_beacon_of_unrest
+extern _card_seedborn_muse
+extern _card_tradewind_rider
+extern _card_scroll_rack
+extern _card_ramosian_sergeant
+extern _card_defiant_falcon
+extern _card_ramosian_captain
+extern _card_lin_sivvi_defiant_hero
+extern _card_ertai_wizard_adept
+extern _card_varchilds_war_riders
+extern _card_vexing_sphinx
+extern _card_fiery_justice
+extern _card_enlisted_wurm
+extern _card_kavu_predator
+extern _card_stormbind
+extern _card_grove_of_the_burnwillows
+extern _card_lim_dul_vault
+extern _card_thawing_glaciers
+extern _card_dimishing_returns
+extern _card_contagion
+extern _card_scalpelexis
+extern _card_mind_funeral
+extern _card_guiltfeeder
+extern _card_nemesis_of_reason
+extern _card_jotun_grunt
+extern _card_plague_spitter
+extern _card_void
+extern _card_pyre_zombie
+extern _card_phyrexian_scuta
+extern _card_deserted_temple
+extern _card_horizon_canopy
+extern _card_petrified_field
+extern _card_rishadan_port
+extern _card_vitu_ghazi_the_city_tree
+extern _card_countryside_crusher
+extern _card_fledgling_dragon
+extern _card_stampeding_wildebeest
+extern _card_accumulated_knowledge
+extern _card_volrath_stronghold
+extern _card_academy_ruins
+extern _card_rogue_elephant
+extern _card_vine_dryad
+extern _card_timbermare
+extern _card_magus_of_the_vineyard
+extern _card_evolution_charm
+extern _card_stonewood_invocation
+extern _card_scryb_ranger
+extern _card_wall_of_dust
+extern _card_zombie_master2
+extern _card_ward_sliver
+extern _card_gemhide_sliver
+extern _card_magma_sliver
+extern _card_telekinetik_sliver
+extern _card_synapse_sliver
+extern _card_psionic_sliver
+extern _card_necrotic_sliver
+extern _card_altar_of_dementia
+extern _card_static_orb
+extern _card_horn_of_greed
+extern _card_null_brooch
+extern _card_metalworker
+extern _card_phyrexian_processor
+extern _card_minion
+extern _card_engineered_explosives
+extern _card_kill_switch
+extern _card_slate_of_ancestry
+extern _card_doubling_cube
+extern _card_staff_of_domination
+extern _card_yosei
+extern _card_spectral_force
+extern _card_woodfall_primus
+extern _card_murderous_redcap
+extern _card_rain_of_daggers
+extern _card_righteous_fury
+extern _card_sea_drake
+extern _card_imperial_recruiter
+extern _card_cao_cao
+extern _card_xiahou_dun_the_one_eyed
+extern _card_hua_tou
+extern _card_cold_eyed_selkie
+extern _card_balefire_liege
+extern _card_deathbringer_liege
+extern _card_gilder_bairn
+extern _card_darksteel_reactor
+extern _card_yavimaya_elder
+extern _card_eternal_dragon
+extern _card_tolaria_west
+extern _card_decree_of_justice
+extern _card_call_of_the_herd
+extern _card_zombie_infestation
+extern _card_reckless_charge
+extern _card_aether_burst
+extern _card_wild_mongrel
+extern _card_doubling_season
+extern _card_ravens_crime
+extern _card_worm_harvest
+extern _card_spitting_image
+extern _card_hermit_druid
+extern _card_sutured_ghoul
+extern _card_gaeas_blessing
+extern _card_hunted_horror
+extern _card_hunted_dragon
+extern _card_ulasht
+extern _card_starstorm
+extern _card_hallowed_burial
+extern _card_impulse
+extern _card_cream_of_the_crop
+extern _card_cloudstone_curio
+extern _card_wren_run_packmaster
+extern _card_face_down_creature
+extern _card_exalted_angel
+extern _card_celestial_colonnade
+extern _card_celestial_colonnade_animated
+extern _card_raging_ravine
+extern _card_raging_ravine_animated
+extern _card_lavaclaw_reaches
+extern _card_lavaclaw_reaches_animated
+extern _card_creeping_tar_pit
+extern _card_creeping_tar_pit_animated
+extern _card_stirring_wildwood
+extern _card_stirring_wildwood_animated
+extern _card_illusionary_mask
+extern _card_deaths_shadow
+extern _card_treasure_hunt
+extern _card_lodestone_golem
+extern _card_novablast_wurm
+extern _card_dragonmaster_outcast
+extern _card_kalastria_highborn
+extern _card_chain_reaction
+extern _card_whipcorder
+extern _card_halimar_depths
+extern _card_everflowing_chalice
+extern _card_joraga_warcaller
+extern _card_wolfbriar_elemental
+extern _card_slavering_nulls
+extern _card_urge_to_feed
+extern _card_phyrexian_dreadnought
+extern _card_jace_the_mind_sculptor
+extern _card_leatherback_baloth
+extern _card_edh
+extern _get_ability_image
+extern _card_field_marshal
+extern _card_dryad_arbor
+extern _card_coiling_oracle
+extern _card_ad_nauseam
+extern _card_patriarchs_bidding
+extern _card_platinum_angel
+extern _card_goblin_king
+extern _card_overgrown_battlement
+extern _card_extirpate
+extern _card_haunting_echoes
+extern _card_stoneforge_mystic
+extern _card_quicksand
+extern _card_urzas_bauble
+extern _card_sarkhan_the_mad
+extern _card_nostalgic_dreams
+extern _card_sign_in_blood
+extern _card_perish
+extern _card_stroke_of_genius
+extern _card_chainers_edict
+extern _card_emrakul_the_aeons_torn
+extern _card_kozilek_butcher_of_truth
+extern _card_creakwood_liege
+extern _card_trygon_predator
+extern _card_eldrazi_conscription
+extern _card_gideon_jura
+extern _card_gideon_jura_animated
+extern _set_discard_flag
+extern _card_eldrazi_spawn
+extern _card_nest_invader
+extern _card_kozileks_predator
+extern _card_awakening_zone
+extern _card_growth_spasm
+extern _card_ulamog_the_infinite_gyre
+extern _card_ulamogs_crusher
+extern _card_artisan_of_kozilek
+extern _card_pelakka_wurm
+extern _card_all_is_dust
+extern _card_arbor_elf
+extern _card_searing_blaze
+extern _card_eldrazi_temple
+extern _card_broodwarden
+extern _card_eye_of_ugin
+extern _card_elvish_champion
+extern _card_conundrum_sphinx
+extern _card_act_of_treason
+extern _card_air_servant
+extern _card_ajanis_mantra
+extern _card_ajanis_pridemate
+extern _card_alluring_siren
+extern _card_ancient_hellkite
+extern _card_angelic_arbiter
+extern _card_armored_ascension
+extern _card_augury_owl
+extern _card_awakener_druid
+extern _card_berserkers_of_blood_ridge
+extern _card_blood_tithe
+extern _card_boggart_ramgang
+extern _card_brindle_boar
+extern _card_brittle_effigy
+extern _card_call_to_mind
+extern _card_captivating_vampire
+extern _card_celestial_purge
+extern _card_chandras_outrage
+extern _card_chandras_spitfire
+extern _card_vengevine
+extern _card_combust
+extern _card_condemn
+extern _card_crystal_ball
+extern _card_cyclops_gladiator
+extern _card_deathmark
+extern _card_demon_of_deaths_gate
+extern _card_destructive_force
+extern _card_diminish
+extern _card_doom_blade
+extern _card_dryads_favor
+extern _card_earth_servant
+extern _card_elixir_of_immortality
+extern _card_ember_hauler
+extern _card_excommunicate
+extern _card_fauna_shaman
+extern _card_fire_servant
+extern _card_flashfreeze
+extern _card_fling
+extern _card_frost_titan
+extern _card_gaeas_revenge
+extern _card_gargoyle_sentinel
+extern _card_garruks_packleader
+extern _card_goldenglow_moth
+extern _card_grave_titan
+extern _card_vortex_elemental
+extern _card_harbor_serpent
+extern _card_hoarding_dragon
+extern _card_hornet_sting
+extern _card_howling_banshee
+extern _card_hunters_feast
+extern _card_ice_cage
+extern _card_incite
+extern _card_infantry_veteran
+extern _card_inferno_titan
+extern _card_inspired_charge
+extern _card_jaces_erasure
+extern _card_jinxed_idol
+extern _card_knight_exemplar
+extern _card_leyline_of_punishment
+extern _card_leyline_of_sanctity
+extern _card_leyline_of_vitality
+extern _card_magma_phoenix
+extern _card_mass_polymorph
+extern _card_merfolk_spy
+extern _card_mighty_leap
+extern _card_mitotic_slime
+extern _card_ooze
+extern _card_mystifying_maze
+extern _card_natures_spiral
+extern _card_necrotic_plague
+extern _card_nightwing_shade
+extern _card_overwhelming_stampede
+extern _card_phantom_beast
+extern _card_phylactery_lich
+extern _card_preordain
+extern _card_primal_cocoon
+extern _card_primeval_titan
+extern _card_lure
+extern _card_protean_hydra
+extern _card_pyretic_ritual
+extern _card_quag_sickness
+extern _card_reassembling_skeleton
+extern _card_rise_from_the_grave
+extern _card_roc_egg
+extern _card_rotting_legion
+extern _card_mindreaver
+extern _card_safe_passage
+extern _card_giant_solifuge
+extern _card_serra_ascendant
+extern _card_shivs_embrace
+extern _card_silence
+extern _card_sleep
+extern _card_solemn_offering
+extern _card_sorcerers_strongbox
+extern _card_squadron_hawk
+extern _card_stabbing_pain
+extern _card_steel_overseer
+extern _card_stormtide_leviathan
+extern _card_sun_titan
+extern _card_sword_of_vengeance
+extern _card_temple_bell
+extern _card_thunder_strike
+extern _card_time_reversal
+extern _card_tireless_missionaries
+extern _card_vengeful_archon
+extern _card_viscera_seer
+extern _card_volcanic_strength
+extern _card_wall_of_frost
+extern _card_war_priest_of_thune
+extern _card_warlords_axe
+extern _card_water_servant
+extern _card_whispersilk_cloak
+extern _card_wild_evocation
+extern _card_bloodcrazed_goblin
+extern _card_cultivate
+extern _card_terramorphic_expanse
+extern _card_reset
+extern _card_augury_adept
+extern _card_niv_mizzet_the_firemind
+extern _card_akroma_angel_of_fury
+extern _card_putrid_imp
+extern _card_rotlung_reanimator
+extern _card_replenish
+extern _card_sacred_mesa
+extern _card_elephant_grass
+extern _card_utopia_sprawl
+extern _card_sterling_grove
+extern _card_solitary_confinement
+extern _card_words_of_war
+extern _card_seal_of_primordium
+extern _card_astral_slide
+extern _card_devestating_dreams
+extern _card_radha_heir_to_keld
+extern _card_future_sight
+extern _card_miraris_wake
+extern _card_dwarven_blastminer
+extern _card_jaya_ballard_task_mage
+extern _card_auriok_salvagers
+extern _get_attack_power
+extern _card_compulsive_research
+extern _card_thirst_for_knowledge
+extern _card_wayfarers_bauble
+extern _card_spirit_link
+extern _card_trinket_mage
+extern _card_rolling_earthquake
+extern _card_horobi_deaths_wail
+extern _card_mox_opal
+extern _card_ezuris_brigade
+extern _card_tithe
+extern _card_myr_battlesphere
+extern _card_kitaki_wars_wage
+extern _card_kargan_dragonlord
+extern _card_coralhelm_commander
+extern _card_joraga_treespeaker
+extern _card_wurmcoil_engine
+extern _card_back_to_basics
+extern _card_5_starting_hand
+extern _card_6_starting_hand
+extern _card_7_starting_hand
+extern _card_8_starting_hand
+extern _card_4_starting_hand
+extern _card_3_starting_hand
+extern _card_koth_of_the_hammer
+extern _card_koth_emblem
+extern _card_venser_the_sojourner
+extern _card_elspeth_tirel
+extern _card_tempered_steel
+extern _card_gelatinous_genesis
+extern _card_myr_galvanizer
+extern _card_kuldotha_rebirth
+extern _card_spikeshot_elder
+extern _card_enclave_cryptologist
+extern _card_radiants_dragoons
+extern _card_spike_feeder
+extern _card_loyal_retainers
+extern _card_avenger_of_zendikar
+extern _card_consume_the_meek
+extern _card_sea_gate_oracle
+extern _card_consuming_vapors
+extern _card_argentum_armor
+extern _card_sword_of_body_and_mind
+extern _card_prismatic_omen
+extern _card_glint_hawk
+extern _card_pulse_tracker
+extern _card_genesis_wave
+extern _card_dark_tutelage
+extern _card_ratchet_bomb
+extern _card_ezuri_renegade_leader
+extern _card_skinrender
+extern _card_moltentail_masticore
+extern _card_scapeshift
+extern _card_anathemancer
+extern _card_venser_emblem
+extern _card_join_the_ranks
+extern _card_akoum_battlesinger
+extern _card_hada_freeblade
+extern _card_harabaz_druid
+extern _card_oust
+extern _card_see_beyond
+extern _card_doomsday
+extern _card_basking_rootwalla
+extern _card_dream_halls
+extern _card_avatar_of_discord
+extern _card_thopter_foundry
+extern _card_sword_of_the_meek
+extern _card_triskelavus
+extern _card_thopter2
+extern _card_johan
+extern _card_livonya_silone
+extern _card_gabriel_angelfire
+extern _card_primordial_ooze
+extern _card_reincarnation
+extern _card_recall
+extern _card_rohgahh_of_kher_keep
+extern _card_nova_pentacle
+extern _card_rasputin_dreamweaver
+extern _card_ichneumon_druid
+extern _card_ring_of_immortals
+extern _card_sword_of_the_ages
+extern _card_al_abaras_carpet
+extern _card_chains_of_mephistopheles
+extern _card_all_hallows_eve
+extern _card_nebuchadnezzar
+extern _card_north_star
+extern _card_ancestral_vision
+extern _card_hypergenesis
+extern _card_violent_outburst
+extern _card_demonic_dread
+extern _card_turnabout
+extern _card_karador_ghost_chieftain
+extern _card_thopter_assembly
+extern _card_glissa_the_traitor
+extern _event_activate_then_duplicate_into_stack
+extern _draw_a_card
+extern _card_skithiryx_blight_dragon
+extern _card_solemn_simulacrum
+extern _card_hero_of_bladehold
+extern _card_rith_the_awakener
+extern _card_treva_the_renewer
+extern _card_dromar_the_banisher
+extern _card_darigaaz_the_igniter
+extern _card_crosis_the_purger
+extern _card_numot_the_devastator
+extern _card_oros_the_avenger
+extern _card_vorosh_the_hunter
+extern _card_teneb_the_harvester
+extern _card_bladewing_the_risen
+extern _card_karrthus_tyrant_of_jund
+extern _card_dragon_tyrant
+extern _card_rakdos_pit_dragon
+extern _card_student_of_warfare
+extern _card_dragon_arc
+extern _card_quicksilver_amulet
+extern _card_dragonspeaker_shaman
+extern _card_captain_sisay
+extern _card_intet_the_dreamer
+extern _card_explore2
+extern _card_rafiq_of_the_many
+extern _card_sliver_overlord
+extern _card_sliver_legion
+extern _card_mimic_vat
+extern _card_pandemonium
+extern _card_devastating_summons
+extern _card_doran_the_siege_tower
+extern _card_treefolk_harbinger
+extern _card_dauntless_dourbark
+extern _card_timber_protector
+extern _card_murmuring_bosk
+extern _card_chameleon_colossus
+extern _card_mirror_entity
+extern _card_painters_servant
+extern _card_contagion_clasp
+extern _card_contagion_engine
+extern _card_thrummingbird
+extern _card_lux_cannon
+extern _card_toxin_sliver
+extern _card_muscle_sliver
+extern _card_bonesplitter_sliver
+extern _card_blade_sliver
+extern _card_might_sliver
+extern _card_winged_sliver
+extern _card_talon_sliver
+extern _card_crystalline_sliver
+extern _card_horned_sliver
+extern _card_spinneret_sliver
+extern _card_triskelion
+extern _card_eladamri_lord_of_leaves
+extern _card_lord_of_atlantis
+extern _card_generic_shockland
+extern _card_rofellos_llanowar_emissary
+extern _card_fury_sliver
+extern _card_axelrod_gunnarson
+extern _card_grindstone
+extern _card_ethersworn_canonist
+extern _card_withered_wretch
+extern _card_lotus_bloom
+extern _card_plaxcaster_frogling
+extern _card_cytoplast_root_kin
+extern _card_plaxmanta
+extern _card_crypt_champion
+extern _card_phyrexian_rager
+extern _card_karn_silver_golem
+extern _card_telekinesis
+extern _card_tezzeret_agent_of_bolas
+extern _card_devoted_caretaker
+extern _card_etched_champion
+extern _card_quest_for_the_goblin_lord
+extern _card_last_stand
+extern _card_sword_of_feast_and_famine
+extern _card_viridian_emissary
+extern _card_faceless_butcher
+extern _card_bone_shredder
+extern _card_ghitu_slinger
+extern _card_polymorph
+extern _card_shape_anew
+extern _card_blightsteel_colossus
+extern _card_khalni_garden
+extern _card_phytohydra
+extern _card_pariahs_shield
+extern _card_sapling_of_colfenor
+extern _card_haze_of_rage
+extern _card_chord_of_calling
+extern _card_sprout_swarm
+extern _card_mana_echoes
+extern _card_recycle
+extern _card_ninja_of_the_deep_hours
+extern _card_mistblade_shinobi
+extern _card_throat_slitter
+extern _card_okiba_gang_shinobi
+extern _card_ink_eyes_servant_of_oni
+extern _card_higure_the_still_wind
+extern _card_leonin_relic_warder
+extern _card_red_suns_zenith
+extern _card_blue_suns_zenith
+extern _card_black_suns_zenith
+extern _card_green_suns_zenith
+extern _card_white_suns_zenith
+extern _card_phyrexian_vatmother
+extern _card_victorys_herald
+extern _card_steel_sabotage
+extern _card_treasure_mage
+extern _card_sangromancer
+extern _card_septic_rats
+extern _card_phyrexian_hydra
+extern _card_rot_wolf
+extern _card_lichs_tomb
+extern _card_ichor_wellspring
+extern _card_signal_pest
+extern _card_hero_of_oxid_ridge
+extern _card_creeping_corrosion
+extern _card_spine_of_ish_sah
+extern _card_go_for_the_throat
+extern _card_vivisection
+extern _card_thrun_the_last_troll
+extern _card_troll_ascetic
+extern _card_stromgald_crusader
+extern _card_white_shield_crusader
+extern _card_turn_the_tide
+extern _card_massacre_wurm
+extern _card_hand_of_the_praetors
+extern _card_retraction_helix
+extern _card_ichorclaw_myr
+extern _card_vector_asp
+extern _card_tainted_strike
+extern _card_shrieking_grotesque
+extern _card_deprive
+extern _card_unified_will
+extern _card_horror_of_horrors
+extern _card_lesser_werewolf
+extern _card_ardent_recruit
+extern _card_galvanoth
+extern _card_haakon_stromgald_scourge
+extern _card_in_the_eye_of_chaos
+extern _card_invoke_prejudice
+extern _card_the_wretched
+extern _card_brine_hag
+extern _card_shimian_night_stalker
+extern _card_juxtapose
+extern _card_avoid_fate
+extern _card_floral_spuzzem
+extern _card_master_of_the_hunt
+extern _card_phantom_nishoba
+extern _card_attrition
+extern _card_wall_of_shards
+extern _card_bribery
+extern _card_baron_sengir
+extern _card_didgeridoo
+extern _card_drudge_spell
+extern _card_grandmother_sengir
+extern _card_greater_werewolf
+extern _card_marjhan
+extern _card_kird_ape
+extern _card_primal_order
+extern _card_retribution
+extern _card_sengir_autocrat
+extern _card_willow_priestess
+extern _mana_producer_tapped
+extern _card_mystic_snake
+extern _card_spellstutter_sprite
+extern _card_venser_shaper_savant
+extern _card_renegade_doppelganger
+extern _card_scion_of_the_ur_dragon
+extern _card_march_of_the_machines
+extern _card_grafted_wargear
+extern _card_grafted_exoskeleton
+extern _card_flayer_husk
+extern _card_darksteel_forge
+extern _card_counterbalance
+extern _card_altar_of_bone
+extern _card_arensons_aura
+extern _card_battle_frenzy
+extern _card_chromatic_armor
+extern _card_dance_of_the_dead
+extern _card_mirrorweave
+extern _card_tamanoa
+extern _card_despotic_scepter
+extern _card_diabolic_vision
+extern _card_dreams_of_the_dead
+extern _card_dwarven_armory
+extern _card_elemental_augury
+extern _card_essence_vortex
+extern _card_enduring_renewal
+extern _card_fyndhorn_pollen
+extern _card_gangrenous_zombies
+extern _card_giant_trap_door_spider
+extern _card_glacial_chasm
+extern _card_goblin_mutant
+extern _card_goblin_ski_patrol
+extern _card_hymn_of_rebirth
+extern _card_icequake
+extern _card_thermokarst
+extern _card_icy_prison
+extern _card_illusionary_forces
+extern _card_jesters_mask
+extern _card_kjeldoran_dead
+extern _card_kjeldoran_royal_guard
+extern _card_marton_stromgald
+extern _card_magus_of_the_unseen
+extern _card_merieke_ri_berit
+extern _card_minion_of_leshrac
+extern _card_minion_of_tevesh_szat
+extern _card_oath_of_lim_dul
+extern _card_orcish_lumberjack
+extern _card_pentagram_of_the_ages
+extern _card_pit_trap
+extern _card_polar_kraken
+extern _card_shield_of_the_ages
+extern _card_soldevi_simulacrum
+extern _card_songs_of_the_damned
+extern _card_soul_barrier
+extern _card_spoils_of_evil
+extern _card_spoils_of_war
+extern _card_stampede
+extern _card_stunted_growth
+extern _card_time_bomb
+extern _card_woolly_mammuth
+extern _card_woolly_spider
+extern _card_arcane_denial
+extern _card_godsire
+extern _card_plant_token
+extern _card_semblance_anvil
+extern _card_throne_of_geth
+extern _card_kuldotha_forgemaster
+extern _card_tumble_magnet
+extern _card_sphere_of_the_suns
+extern _card_vesuva
+extern _card_vendilion_clique
+extern _card_balduvian_dead
+extern _card_bounty_of_the_hunt
+extern _card_browse
+extern _card_death_spark
+extern _card_exile
+extern _card_feast_or_famine
+extern _card_gargantuan_gorilla
+extern _card_hail_storm
+extern _card_inheritance
+extern _card_ivory_gargoyle
+extern _card_juniper_order_advocate
+extern _card_kjeldoran_home_guard
+extern _card_multi_purpose_al_token
+extern _card_lat_nam_legacy
+extern _card_lord_of_tresserhorn
+extern _card_natures_blessing
+extern _card_phelddagrif
+extern _card_phyrexian_boon
+extern _card_pyrokinesis
+extern _card_reinforcements
+extern _card_ritual_of_the_machine
+extern _card_scars_of_the_veteran
+extern _card_shield_sphere
+extern _card_soldevi_digger
+extern _card_spiny_starfish
+extern _card_thought_lash
+extern _card_yavimaya_ants
+extern _generic_painland
+extern _card_teferis_isle
+extern _card_everglades
+extern _card_genesis_hydra
+extern _card_waste_not
+extern _card_adarkar_valkyrie
+extern _card_arctic_nishoba
+extern _card_arcum_dagsson
+extern _card_blizzard_specter
+extern _card_boreal_druid
+extern _card_coldsteel_heart
+extern _card_darien_king_of_kjeldor
+extern _card_earthen_goo
+extern _card_braid_of_fire
+extern _card_garza_zol_plague_queen
+extern _card_glacial_plating
+extern _card_herald_of_leshrac
+extern _card_hibernations_end
+extern _card_into_the_north
+extern _card_jesters_scepter
+extern _card_jotun_owl_keeper
+extern _card_juniper_order_ranger
+extern _card_kjeldoran_javelineer
+extern _card_lightning_serpent
+extern _card_lovisa_coldeyes
+extern _card_martyr_of_the_ashes
+extern _card_martyr_of_sands
+extern _card_mouth_of_ronom
+extern _card_perilous_researches
+extern _card_phobian_phantasm
+extern _card_phyrexian_etchings
+extern _card_rime_transfusion
+extern _card_ronom_unicorn
+extern _card_phyrexian_ironfoot
+extern _card_rune_snag
+extern _card_scrying_sheets
+extern _card_sek_kuar_death_keeper
+extern _card_sheltering_ancient
+extern _card_skred
+extern _card_stalking_yeti
+extern _card_zur_the_enchanter
+extern _card_barbed_foliage
+extern _card_benevolent_unicorn
+extern _card_benthic_djinn
+extern _card_bone_harvest
+extern _card_cadaverous_knight
+extern _card_canopy_dragon
+extern _card_insect
+extern _card_carrion
+extern _card_catacomb_dragon
+extern _card_circle_of_despair
+extern _card_crystal_golem
+extern _card_discordant_spirit
+extern _card_dwarven_miner
+extern _card_emberwilde_caliph
+extern _card_energy_bolt
+extern _card_floodgate
+extern _card_forsaken_wastes
+extern _card_frenetic_efreet
+extern _card_goblin_soothsayer
+extern _card_goblin_tinkerer
+extern _card_grim_feast
+extern _card_harbinger_of_night
+extern _card_illumination
+extern _card_jolraels_centaur
+extern _card_wood2
+extern _card_jungle_patrol
+extern _card_kukemssa_pirates
+extern _card_lure_of_prey
+extern _card_mist_dragon
+extern _card_natural_balance
+extern _card_phyrexian_purge
+extern _card_phyrexian_vault
+extern _card_preferred_selection
+extern _card_prismatic_boon
+extern _card_purgatory
+extern _card_purraj_of_urborg
+extern _card_razor_pendulum
+extern _card_reflect_damage
+extern _card_reparations
+extern _card_reality_ripple
+extern _card_savage_twister
+extern _card_seeds_of_innocence
+extern _card_serene_heart
+extern _card_sewer_rats
+extern _card_shallow_grave
+extern _card_shauku_endbringer
+extern _card_shimmer
+extern _card_spectral_guardian
+extern _card_superior_numbers
+extern _card_taniwha
+extern _card_teekas_dragon
+extern _card_tranquil_domain
+extern _card_unfulfilled_desires
+extern _card_ventifact_bottle
+extern _card_withering_boon
+extern _card_zhalfirin_commander
+extern _card_zhalfirin_knight
+extern _card_burning_shield_askari
+extern _card_afterlife
+extern _card_spirit2
+extern _card_auspicious_ancestor
+extern _card_crimson_hellkite
+extern _card_dream_cache
+extern _card_granger_guildmage
+extern _card_shadow_guildmage
+extern _card_hivis_of_the_scale
+extern _card_mtenda_lion
+extern _card_rashida_scalebane
+extern _card_sealed_fate
+extern _card_skulking_ghost
+extern _card_zirilan_of_the_claw
+extern _card_charcoal_diamond
+extern _card_fire_diamond
+extern _card_marble_diamond
+extern _card_moss_diamond
+extern _card_sky_diamond
+extern _card_aku_djinn
+extern _card_anvil_of_bagardan
+extern _card_army_ants
+extern _card_breathstealers_crypt
+extern _card_breezekeeper
+extern _card_corrosion
+extern _card_bull_elephant
+extern _card_desertion
+extern _card_diamond_kaleidoscope
+extern _card_prism2
+extern _card_dragon_mask
+extern _card_femeref_enchantress
+extern _card_firestorm_hellkite
+extern _card_flooded_shoreline
+extern _card_gossamer_chains
+extern _card_griffin_canyon
+extern _card_guiding_spirit
+extern _card_juju_bubble
+extern _card_kaerveks_spite
+extern _card_keeper_of_kookus
+extern _card_knight_of_valor
+extern _card_kookus
+extern _card_lightning_cloud
+extern _card_miracolous_recovery
+extern _card_mundungu
+extern _card_necrosavant
+extern _card_pygmy_hippo
+extern _card_rainbow_efreet
+extern _card_retribution_of_the_meek
+extern _card_righteous_war
+extern _card_rowen
+extern _card_shimmering_efreet
+extern _card_squandered_resources
+extern _card_suleimans_legacy
+extern _card_summer_bloom
+extern _card_suq_ata_lancer
+extern _card_teferi_honor_guard
+extern _card_undiscovered_paradise
+extern _card_undo
+extern _card_viashivan_dragon
+extern _card_wand_of_denial
+extern _card_zhalfirin_crusader
+extern _card_equipoise
+extern _card_fallen_askari
+extern _card_funeral_charm
+extern _card_knight_of_the_mists
+extern _card_relentless_assault
+extern _card_rock_slide
+extern _card_abjure
+extern _card_abyssal_gatekeeper
+extern _card_ancestral_knowledge
+extern _card_angelic_renewal
+extern _card_argivian_find
+extern _card_argivian_restoration
+extern _card_aether_flash
+extern _card_aura_of_silence
+extern _card_barishi
+extern _card_barrow_ghoul
+extern _card_bone_dancer
+extern _card_bubble_matrix
+extern _card_circling_vultures
+extern _card_debt_of_loyalty
+extern _card_dingus_staff
+extern _card_downdraft
+extern _card_dwarven_berserk
+extern _card_ertais_familiar
+extern _card_fallow_wurm
+extern _card_firestorm
+extern _card_flux
+extern _card_fog_elemental
+extern _card_gallowbraid
+extern _card_gerrards_wisdom
+extern _card_goblin_grenadiers
+extern _card_goblin_vandal
+extern _card_harvest_wurm
+extern _card_heart_of_bogardan
+extern _card_hidden_horror
+extern _card_inner_sanctum
+extern _card_liege_of_hollows
+extern _card_llanowar_sentinel
+extern _card_lotus_vale
+extern _card_maraxus_of_keld
+extern _card_mistmoon_griffin
+extern _card_natures_resurgence
+extern _card_necratog
+extern _card_ophidian
+extern _card_orcish_settlers
+extern _card_psychic_vortex
+extern _card_revered_unicorn
+extern _card_serenity
+extern _card_serrated_biskelion
+extern _card_shattered_crypt
+extern _card_spinning_darkness
+extern _card_steel_golem
+extern _card_strands_of_night
+extern _card_straw_golem
+extern _card_teferis_veil
+extern _card_thunderbolt
+extern _card_thundermare
+extern _card_vodalian_illusionist
+extern _card_tranquil_grove
+extern _card_veteran_explorer
+extern _card_wave_of_terror
+extern _card_abeyance
+extern _card_bethrothed_of_fire
+extern _card_briar_shield
+extern _card_chimeric_sphere
+extern _card_empyrial_armor
+extern _card_fervor
+extern _card_fire_whip
+extern _card_goblin_bomb
+extern _card_merfolk_traders
+extern _card_paradigm_shift
+extern _card_peacekeeper
+extern _card_phyrexian_furnace
+extern _card_xanthic_statue
+extern _card_zombie_scavengers
+extern _card_glimmerpost
+extern _card_moments_peace
+extern _card_repeal
+extern _card_makeshift_mannequin
+extern _card_basilisk_collar
+extern _card_squirrel_nest
+extern _card_inkmoth_nexus
+extern _card_infective_blinkmoth
+extern _card_advance_scout
+extern _card_aftershock
+extern _card_aluren
+extern _card_ancient_runes
+extern _card_apocalypse
+extern _tempest_painland
+extern _card_carrionette
+extern _card_coffin_queen
+extern _card_cold_storage
+extern _card_commander_greven_il_vec
+extern _card_corpse_dance
+extern _card_dauthi_embrace
+extern _card_dauthi_mindripper
+extern _card_dracoplasm
+extern _card_dregs_of_sorrow
+extern _card_echo_chamber
+extern _card_eladamris_vineyard
+extern _card_emerald_medallion
+extern _card_energizer
+extern _card_escaped_shapeshifter
+extern _card_feverd_convulsion
+extern _card_field_of_souls
+extern _card_flickering_ward
+extern _card_flowstone_sculpture
+extern _card_gerrards_battle_cry
+extern _card_goblin_bombardment
+extern _card_hannas_custody
+extern _card_helm_of_possession
+extern _card_intuition
+extern _card_invulnerability
+extern _card_jackal_pup
+extern _card_jet_medallion
+extern _card_kindle
+extern _card_knight_of_dawn
+extern _card_knight_of_dusk
+extern _card_krakilin
+extern _card_legacys_allure
+extern _card_lobotomy
+extern _card_mana_severance
+extern _card_marble_titan
+extern _card_minion_of_the_wastes
+extern _card_mirris_guile
+extern _card_mogg_conscripts
+extern _card_mongrel_pack
+extern _card_orims_prayer
+extern _card_orim_samite_healer
+extern _card_patchwork_gnomes
+extern _card_pearl_medallion
+extern _card_pegasus_refuge
+extern _card_necromancers_assistant
+extern _card_precognition
+extern _card_rathi_dragon
+extern _card_respite
+extern _card_rolling_thunder
+extern _card_root_maze
+extern _card_rootwater_matriarch
+extern _card_ruby_medallion
+extern _card_sadistic_glee
+extern _card_safeguard
+extern _card_sapphire_medallion
+extern _card_gloomdrifter
+extern _mana_producer
+extern _card_scalding_tongs
+extern _card_shocker
+extern _card_seasoned_marshal
+extern _card_skyshroud_elves
+extern _card_skyshroud_ranger
+extern _card_soltari_crusader
+extern _card_soltari_emissary
+extern _card_soltari_guerrillas
+extern _card_urborg_justice
+extern _card_deadbox
+extern _card_caller_of_the_claw
+extern _card_spirit_mirror
+extern _card_storm_front
+extern _card_thumbscrew
+extern _card_torture_chamber
+extern _card_unstable_shapeshifter
+extern _card_verdant_force
+extern _card_vathi_il_dal
+extern _card_winds_of_rath
+extern _card_worthy_cause
+extern _card_fake_card
+extern _card_amok
+extern _card_awakening2
+extern _card_bottomless_pit
+extern _card_burgeoning
+extern _card_change_of_heart
+extern _card_constant_mists
+extern _card_contemplation
+extern _card_crovax_the_cursed
+extern _card_flowstone_hellion
+extern _card_foul_imp
+extern _card_hammerhead_shark
+extern _card_mind_games
+extern _card_mogg_bombers
+extern _card_mogg_flunkies
+extern _card_mogg_infestation
+extern _card_mogg_maniac
+extern _card_morgue_thrull
+extern _card_nomads_en_kor
+extern _card_portcullis
+extern _card_primal_rage
+extern _card_revenant
+extern _card_ruination
+extern _card_shaman_en_kor
+extern _card_shard_phoenix
+extern _card_sift
+extern _card_skeleton_scavengers
+extern _card_soltari_champion
+extern _card_spike_colony
+extern _card_spike_drone
+extern _card_spike_soldier
+extern _card_spike_worker
+extern _card_spindrift_drake
+extern _card_stronghold_assassin
+extern _card_thalakos_deceiver
+extern _card_tortured_existence
+extern _card_volraths_shapeshifter
+extern _card_wall_of_essence
+extern _card_wall_of_souls
+extern _card_wall_of_tears
+extern _card_anarchist
+extern _card_cartographer
+extern _card_cataclysm
+extern _card_convalescence
+extern _card_culling_the_weak
+extern _card_elvish_berserk
+extern _card_equilibrium
+extern _card_erratic_portal
+extern _card_keeper_of_the_beasts
+extern _card_keeper_of_the_dead
+extern _card_keeper_of_the_flame
+extern _card_keeper_of_the_light
+extern _card_keeper_of_the_mind
+extern _card_limited_resources
+extern _card_mind_maggots
+extern _card_mindless_automaton
+extern _card_oath_of_ghouls
+extern _card_oath_of_lieges
+extern _card_oath_of_scholars
+extern _card_ogre_shaman
+extern _card_onslaught
+extern _card_peace_of_mind
+extern _card_pit_spawn
+extern _card_plaguebearer
+extern _card_pygmy_troll
+extern _card_reclaim
+extern _card_school_of_piranha
+extern _card_srivener
+extern _card_skyshroud_elite
+extern _card_skyshroud_warbeast
+extern _card_soltari_visionary
+extern _card_sonic_burst
+extern _card_spellshock
+extern _card_spike_cannibal
+extern _card_thalakos_drifters
+extern _card_thalakos_scout
+extern _card_thrull_surgeon
+extern _card_treasure_hunter
+extern _card_vampire_hounds
+extern _card_wall_of_nets
+extern _card_workhorse
+extern _card_acidic_sliver
+extern _card_hybernating_sliver
+extern _card_spined_sliver
+extern _card_victual_sliver
+extern _card_elesh_norn
+extern _card_urabrask_the_hidden
+extern _card_sheoldred_whispering_one
+extern _card_birthing_pod
+extern _card_karn_liberated
+extern _card_phyrexian_obliterator
+extern _card_phyrexian_unlife
+extern _card_blade_splicer
+extern _card_cathedral_membrane
+extern _card_dispatch
+extern _card_master_splicer
+extern _card_puresteel_paladin
+extern _card_norns_annex
+extern _card_jin_gitaxias_core_augur
+extern _card_mental_misstep
+extern _card_wing_splicer
+extern _card_geths_verdict
+extern _card_spined_thopter
+extern _card_vault_skirge
+extern _card_postmortem_lunge
+extern _card_surgical_extraction
+extern _card_golem_token
+extern _card_titan_forge
+extern _card_moltensteel_dragon
+extern _card_volt_charge
+extern _card_beast_within
+extern _card_chancellor_of_the_tangle
+extern _card_fresh_meat
+extern _card_noxious_revival
+extern _card_phyrexian_swarmlord
+extern _card_vorinclex_voice_of_hunger
+extern _card_batterskull
+extern _card_vital_splicer
+extern _card_necrotic_ooze
+extern _card_phyrexian_devourer
+extern _card_hex_parasite
+extern _card_sword_of_war_and_peace
+extern _card_lashwrithe
+extern _card_experiment_kraj
+extern _card_bitterblossom
+extern _card_tetravus
+extern _card_hecatomb
+extern _card_alabaster_dragon
+extern _card_primitive_justice
+extern _card_phyrexian_metamorph
+extern _card_mortarpod
+extern _card_gifts_ungiven2
+extern _card_abundance
+extern _card_academy_researchers
+extern _card_sovereigns_of_lost_alara
+extern _card_acidic_soil
+extern _card_acridian
+extern _card_albino_troll
+extern _card_angelic_chorus
+extern _card_annul
+extern _card_arcane_laboratory
+extern _card_argothian_wurm
+extern _card_attunement
+extern _card_barrins_codex
+extern _card_barrin_master_wizard
+extern _card_befoul
+extern _card_catastrophe
+extern _card_child_of_gaea
+extern _card_chimeric_staff
+extern _card_citanul_flute
+extern _card_citanul_hierophants
+extern _card_claws_of_gix
+extern _card_congregate
+extern _card_cradle_guard
+extern _card_crater_hellion
+extern _card_diabolic_servitude
+extern _card_discordant_dirge
+extern _card_disruptive_student
+extern _card_dragons_blood
+extern _card_drifting_djinn
+extern _card_elvish_herder
+extern _card_endless_wurm
+extern _card_energy_field
+extern _card_exhaustion
+extern _card_faith_healer
+extern _card_falter
+extern _card_fire_ants
+extern _card_flesh_reaver
+extern _card_fog_bank
+extern _card_gaeas_embrace
+extern _card_gilded_drake
+extern _card_goblin_offensive
+extern _card_goblin_patrol
+extern _card_goblin_war_buggy
+extern _card_herald_of_serra
+extern _card_hermetic_study
+extern _card_hidden_guerrillas
+extern _card_ill_gotten_gains
+extern _card_imaginary_pet
+extern _card_launch
+extern _card_lifeline
+extern _card_lightning_dragon
+extern _card_lotus_blossom
+extern _card_lurking_evil
+extern _card_meltdown
+extern _card_metrognome
+extern _card_midsummer_revel
+extern _card_mishras_helix
+extern _card_monk_idealist
+extern _card_monk_realist
+extern _card_no_rest_for_the_wicked
+extern _card_noetic_scales
+extern _card_opal_acrolith
+extern _card_opal_acrolith_animated
+extern _card_opal_titan
+extern _card_opal_titan_animated
+extern _card_oppression
+extern _card_persecute
+extern _card_phyrexian_tower
+extern _card_planar_birth
+extern _card_pouncing_jaguar
+extern _card_purging_scythe
+extern _card_rain_of_filth
+extern _card_rain_of_filth_effect
+extern _card_recantation
+extern _card_remembrance
+extern _card_reprocess
+extern _card_rumbling_crescendo
+extern _card_serras_liturgy
+extern _card_shivan_gorge
+extern _card_shivan_hellkite
+extern _card_skirge_familiar
+extern _card_skittering_skirge
+extern _card_somnophore
+extern _card_spined_fluke
+extern _card_steam_blast
+extern _card_stern_proctor
+extern _card_symbiosis
+extern _card_madness_effect
+extern _card_penumbra_wurm
+extern _card_roar_of_the_wurm
+extern _card_tainted_aether
+extern _card_temporal_aperture
+extern _card_thran_quarry
+extern _card_umbilicus
+extern _card_vampiric_embrace
+extern _card_vernal_bloom
+extern _card_vile_requiem
+extern _card_wild_dogs
+extern _card_worn_powerstone
+extern _card_zephid_embrace
+extern _card_anthroplasm
+extern _card_crawlspace
+extern _card_defense_of_the_heart
+extern _card_delusion_of_mediocrity
+extern _card_engineered_plague
+extern _card_faerie_conclave
+extern _card_faerie_conclave_animated
+extern _card_forbidding_watchtower
+extern _card_forbidding_watchtower_animated
+extern _card_ghitu_encampment
+extern _card_ghitu_encampment_animated
+extern _card_ghitu_war_cry
+extern _card_hope_and_glory
+extern _card_impending_disaster
+extern _card_jhoira_toolbox
+extern _card_knighthood
+extern _card_martyrs_cause
+extern _card_mirari2
+extern _card_miscalculation
+extern _card_molten_hydra
+extern _card_mother_of_runes
+extern _card_multanis_acolyte
+extern _card_multani_maro_sorcerer
+extern _card_no_mercy
+extern _card_peace_and_quiet
+extern _card_phyrexian_broodlings
+extern _card_phyrexian_reclamation
+extern _card_planar_collapse
+extern _card_purify
+extern _card_pyromancy
+extern _card_rack_and_ruin
+extern _card_radiant_archangel
+extern _card_raven_familiar
+extern _card_ring_of_gix
+extern _card_scrapheap
+extern _card_second_chance
+extern _card_sick_and_tired
+extern _card_simian_grunts
+extern _card_spawning_pool
+extern _card_spawning_pool_animated
+extern _card_thran_lens
+extern _card_thran_weaponry
+extern _card_ticking_gnomes
+extern _card_unearth
+extern _card_urzas_blueprints
+extern _card_viashino_heretic
+extern _card_fated_intervention
+extern _card_yavimaya_granger
+extern _card_apprentice_necromancer
+extern _card_body_snatcher
+extern _card_brine_seer
+extern _card_bubbling_muck
+extern _card_caltrops
+extern _card_cinder_seer
+extern _card_eradicate
+extern _card_false_prophet
+extern _card_field_surgeon
+extern _card_fledgling_osprey
+extern _card_gamekeeper
+extern _card_goblin_marshall
+extern _card_heart_warden
+extern _card_hunting_moa
+extern _card_iridescent_drake
+extern _card_ivy_seer
+extern _card_jasmine_seer
+extern _card_junk_diver
+extern _card_keldon_champion
+extern _card_centaur_chieftain
+extern _card_centaur_glade
+extern _card_deceiver_exarch
+extern _card_dismember
+extern _card_gitaxian_probe
+extern _card_tezzerets_gambit
+extern _card_splinter_twin
+extern _card_marker_beetle
+extern _card_metathran_elite
+extern _card_nightshade_seer
+extern _card_powder_keg
+extern _card_quash
+extern _card_rayne_academy_chancellor
+extern _card_reckless_abandon
+extern _card_repercussion
+extern _card_reliquiary_monk
+extern _card_scour
+extern _card_sigil_of_sleep
+extern _card_sowing_salt
+extern _card_splinter2
+extern _card_taunting_elf
+extern _card_tethered_griffin
+extern _card_thran_dynamo
+extern _card_thran_foundry
+extern _card_thran_golem
+extern _card_twisted_experiment
+extern _card_wake_of_destruction
+extern _card_yavimaya_enchantress
+extern _card_yavimaya_hollow
+extern _card_rancor
+extern _card_bear_umbra
+extern _card_nomad_mythmaker
+extern _card_kor_spiritdancer
+extern _card_generic_som_tapland
+extern _card_dragon_token
+extern _card_broodmate_dragon
+extern _card_dragon_roost
+extern _card_coat_of_arms
+extern _card_slith_predator
+extern _card_slith_firewalker
+extern _card_slith_bloodletter
+extern _card_slith_strider
+extern _card_ley_druid
+extern _card_symbiotic_wurm
+extern _card_juggernaut
+extern _card_makindi_shieldmate
+extern _card_carven_caryatid
+extern _card_archenemy
+extern _card_martyrs_bond
+extern _card_soul_snare
+extern _card_avatar_of_slaughter
+extern _card_scavenging_ooze
+extern _card_animar_soul_of_elements
+extern _card_kaalia_of_the_vast
+extern _card_riku_of_two_reflections
+extern _card_the_mimeoplasm
+extern _card_flusterstorm
+extern _card_ruhan_of_the_fomori
+extern _card_edric_spymaster_of_trest
+extern _card_crescendo_of_war
+extern _card_vengeful_pharaoh
+extern _card_adaptive_automaton
+extern _card_angelic_destiny
+extern _card_aegis_angel
+extern _card_archon_of_justice
+extern _card_call_to_the_grave
+extern _card_chandra_firebrand
+extern _card_doubling_chant
+extern _card_druidic_satchel
+extern _card_garruk_primal_hunter
+extern _card_gideons_avenger
+extern _card_griffin_rider
+extern _card_hideous_visage
+extern _card_hunters_insight
+extern _card_jace_memory_adept
+extern _card_jaces_archivist
+extern _card_lord_of_the_unreal
+extern _card_phantasmal_image
+extern _card_primordial_hydra
+extern _card_rites_of_flourishing
+extern _card_rune_scarred_demon
+extern _card_skinshifter
+extern _card_stonehorn_dignitary
+extern _card_timely_reinforcements
+extern _card_worldslayer
+extern _card_swords_to_plowshares
+extern _card_planechase
+extern _card_vish_kal_blood_arbiter
+extern _card_nim_deathmantle
+extern _card_illusion_token
+extern _card_melira_sylvok_outcast
+extern _card_fog
+extern _card_lady_evangela
+extern _card_angus_mackenzie
+extern _card_horn_of_deafening
+extern _card_maze_of_ith
+extern _card_olivia_voldaren
+extern _card_woodland_cemetery
+extern _card_mikaeus_the_lunarch
+extern _card_isolated_chapel
+extern _card_clifftop_retreat
+extern _card_hinterland_harbor
+extern _card_sulfur_falls
+extern _card_mayor_of_avabruck
+extern _card_howlpack_alpha
+extern _card_wolf_token
+extern _card_garruk_relentless
+extern _card_garruk_the_veil_cursed
+extern _card_divine_reckoning
+extern _card_mentor_of_the_meek
+extern _card_snapcaster_mage
+extern _card_ghost_quarter
+extern _card_rooftop_storm
+extern _card_stitchers_apprentice
+extern _card_bloodgift_demon
+extern _card_skaab_ruinator
+extern _card_nuisance_engine
+extern _card_tolsimir_wolfblood
+extern _card_imperious_perfect
+extern _card_oonas_blackguard
+extern _card_diregraf_ghoul
+extern _card_endless_ranks_of_the_dead
+extern _card_moans_of_the_unhallowed
+extern _card_reaper_from_the_abyss
+extern _card_skirsdag_high_priest
+extern _card_devils_play
+extern _card_wildblood_pack
+extern _card_instigator_gang
+extern _card_essence_of_the_wild
+extern _card_moonmist
+extern _card_grimgrin_corpse_born
+extern _card_mindshrieker
+extern _card_army_of_the_damned
+extern _card_champion_of_the_parish
+extern _card_undead_alchemist
+extern _card_stuffy_doll
+extern _card_oona_queen_of_the_fae
+extern _card_mutavault
+extern _card_mutavault_animated
+extern _card_cackling_counterpart
+extern _card_clone
+extern _card_sliver_queen
+extern _card_fire_elemental
+extern _card_pithing_needle
+extern _card_bloodline_keeper
+extern _card_lord_of_lineage
+extern _card_geist_honored_monk
+extern _card_doomed_traveller
+extern _card_deranged_assistant
+extern _card_intangible_virtue
+extern _card_forbidden_alchemy
+extern _card_unburial_rites
+extern _card_blasphemous_act
+extern _card_rakish_heir
+extern _card_vampire_outcasts
+extern _card_bloodlord_of_vaasgoth
+extern _card_crown_of_empires
+extern _card_scepter_of_empires
+extern _card_throne_of_empires
+extern _card_sedris_the_traitor_king
+extern _card_mayael_the_anima
+extern _card_grimoire_of_the_dead
+extern _card_jhoira_of_the_ghitu
+extern _card_back_from_the_brink
+extern _card_past_in_flames
+extern _card_cloistered_youth
+extern _card_unholy_fiend
+extern _card_mausoleum_guard
+extern _card_midnight_haunting
+extern _card_selfless_cathar
+extern _card_silverchase_fox
+extern _card_lost_in_the_mist
+extern _card_skaab_goliath
+extern _card_stitched_drake
+extern _card_altars_reap
+extern _card_disciple_of_griselbrand
+extern _card_unbreathing_horde
+extern _card_balefire_dragon
+extern _card_brimstone_volley
+extern _card_charmbreaker_devils
+extern _card_falkenrath_marauders
+extern _card_vampiric_fury
+extern _card_telepathy
+extern _card_bramblecrush
+extern _card_caravan_vigil
+extern _card_creeping_renaissance
+extern _card_elder_of_laurels
+extern _card_festerhide_boar
+extern _card_full_moons_rise
+extern _card_gutter_grime
+extern _card_hamlet_captain
+extern _card_kessig_cagebreakers
+extern _card_make_a_wish
+extern _card_moldgraf_monstrosity
+extern _card_parallel_lives
+extern _card_splinterfright
+extern _card_geist_of_saint_traft
+extern _card_inquisitors_flail
+extern _card_gavony_township
+extern _card_kessig_wolf_run
+extern _card_momir_vig
+extern _card_nantuko_husk
+extern _card_tree_of_redemption
+extern _card_fork
+extern _card_reiterate
+extern _card_ohran_viper
+extern _card_heartless_summoning
+extern _card_perilous_myr
+extern _card_vesuvan_shapeshifter
+extern _card_teferi_mage_of_zhalfir
+extern _card_mystical_teachings
+extern _card_liliana_of_the_veil
+extern _card_epochrasite
+extern _card_aeon_chronicler
+extern _card_merchant_scroll
+extern _card_rock_hydra
+extern _card_river_kelpie
+extern _card_scion_of_oona
+extern _card_obsidian_battle_axe
+extern _card_leafcrown_elder
+extern _card_greater_gargadon
+extern _card_bosk_banneret
+extern _card_bringer_of_the_red_dawn
+extern _card_bringer_of_the_white_dawn
+extern _card_deadwood_treefolk
+extern _card_heartwood_storyteller
+extern _card_alabaster_mage
+extern _card_azure_mage
+extern _card_jade_mage
+extern _card_crimson_mage
+extern _card_onyx_mage
+extern _card_angels_mercy
+extern _card_arbalest_elite
+extern _card_auramancer
+extern _card_benalish_veteran
+extern _card_divine_favor
+extern _card_grand_abolisher
+extern _card_guardians_pledge
+extern _card_personal_sanctuary
+extern _card_pride_guardian
+extern _card_spirit_mantle
+extern _card_stave_off
+extern _card_aven_fleetwing
+extern _card_belltower_sphinx
+extern _card_chasm_drake
+extern _card_djinn_of_wishes
+extern _card_frost_breath
+extern _card_master_thief
+extern _card_merfolk_mesmerist
+extern _card_mind_unbound
+extern _card_skywinder_drake
+extern _card_sphinx_of_uthuun
+extern _card_turn_into_frog
+extern _card_visions_of_beyond
+extern _card_bloodrage_vampire
+extern _card_brink_of_disaster
+extern _card_dark_favor
+extern _card_devouring_swarm
+extern _card_distress
+extern _card_monomania
+extern _card_sorins_vengeance
+extern _card_taste_of_blood
+extern _card_wring_flesh
+extern _card_circle_of_flame
+extern _card_flameblast_dragon
+extern _card_furyborn_hellkite
+extern _card_goblin_arsonist
+extern _card_tormented
+extern _card_goblin_bangchuckers
+extern _card_goblin_fireslinger
+extern _card_gorehorn_minotaur
+extern _card_scrambleverse
+extern _card_stormblood_berserker
+extern _card_tectonic_rift
+extern _card_warstorm_surge
+extern _card_arachnus_spinner
+extern _card_arachnus_web
+extern _card_arrest
+extern _card_faiths_fetters
+extern _card_bountiful_harvest
+extern _card_carnage_wurm
+extern _card_dungrove_elder
+extern _card_garruks_horde
+extern _card_brimaz_king_of_oreskos
+extern _card_stingerfling_spider
+extern _card_trollhide
+extern _card_crumbling_colossus
+extern _card_greatsword
+extern _card_kite_shield
+extern _card_nissas_renewal
+extern _card_swiftfoot_boots
+extern _card_buried_ruin
+extern _card_coastal_piracy
+extern _card_shrine_of_boundless_growth
+extern _card_shrine_of_burning_rage
+extern _card_shrine_of_limitless_power
+extern _card_shrine_of_loyal_legions
+extern _card_shrine_of_piercing_vision
+extern _card_lead_the_stampede
+extern _card_slagstorm
+extern _card_court_hussar
+extern _card_miren_the_moaning_well
+extern _card_profane_command
+extern _card_lifelink
+extern _card_levitation
+extern _card_child_of_night
+extern _card_craw_wurm
+extern _card_abuna_acolyte
+extern _card_accorder_shield
+extern _card_acid_web_spider
+extern _card_argent_sphynx
+extern _card_arc_trail
+extern _card_asceticism
+extern _card_assault_strobe
+extern _card_auriok_edgewright
+extern _card_auriok_replica
+extern _card_auriok_sunchaser
+extern _card_barbed_battlegear
+extern _card_barrage_ogre
+extern _card_bellowing_tanglewurm
+extern _card_fearsome_temper
+extern _card_blade_tribe_berserkers
+extern _card_bladed_pinons
+extern _card_bleak_coven_vampires
+extern _card_marshmist_titan
+extern _card_blistergrub
+extern _card_bloodshoot_trainee
+extern _card_blunt_the_assault
+extern _card_bonds_of_quicksilver
+extern _card_carnifex_demon
+extern _card_carrion_call
+extern _card_cerebral_eruption
+extern _card_chimeric_mass
+extern _card_clone_shell
+extern _card_copperhorn_scout
+extern _card_corpse_cur
+extern _card_corrupted_harvester
+extern _card_culling_dais
+extern _card_darkslick_drake
+extern _card_darksteel_axe
+extern _card_darksteel_juggernaut
+extern _card_darksteel_sentinel
+extern _card_dispense_justice
+extern _card_disperse
+extern _card_dissipation_field
+extern _card_dross_hopper
+extern _card_embersmith
+extern _card_darksteel_myr
+extern _card_engulfing_slagwurm
+extern _card_exsanguinate
+extern _card_ezuris_archers
+extern _card_echo_circlet
+extern _card_ferrovore
+extern _card_flameborn_hellion
+extern _card_flesh_allergy
+extern _card_flight_spellbomb
+extern _card_fulgent_distraction
+extern _card_fume_spitter
+extern _card_furnace_celebration
+extern _card_galvanic_blast
+extern _card_geth_lord_of_the_vault
+extern _card_glimmerpoint_stag
+extern _card_glint_hawk_idol
+extern _card_goblin_gaveleer
+extern _card_golden_urn
+extern _card_golem_artisan
+extern _card_golem_foundry
+extern _card_pentavus
+extern _card_tetravite
+extern _card_golems_heart
+extern _card_grand_architect
+extern _card_grasp_of_darkness
+extern _card_grindclock
+extern _card_halt_order
+extern _card_heavy_arbalest
+extern _card_hoard_smelter_dragon
+extern _card_horizon_spellbomb
+extern _card_ichor_rats
+extern _card_indomitable_archangel
+extern _card_inexorable_tide
+extern _card_infiltration_lens
+extern _card_instill_infection
+extern _card_kembas_skyguard
+extern _card_kemba_kha_regent
+extern _card_kuldotha_phoenix
+extern _card_liege_of_the_tangle
+extern _card_lifesmith
+extern _card_liquidmetal_coating
+extern _card_livewire_lash
+extern _card_lumengrid_drake
+extern _card_melt_terrain
+extern _card_memoricide
+extern _card_molder_beast
+extern _card_molten_psyche
+extern _card_moriok_replica
+extern _card_myr_propagator
+extern _card_myr_reservoir
+extern _card_myrsmith
+extern _card_necrogen_censer
+extern _card_necrogen_scudder
+extern _card_necropede
+extern _card_neurok_invisimancer
+extern _card_neurok_replica
+extern _card_nihil_spellbomb
+extern _card_ogre_geargrabber
+extern _card_origin_spellbomb
+extern _card_oxidda_daredevil
+extern _card_ali_from_cairo
+extern _card_painful_quandary
+extern _card_painsmith
+extern _card_panic_spellbomb
+extern _card_platinum_emperion
+extern _card_precursor_golem
+extern _card_prototype_portal
+extern _card_psychic_miasma
+extern _card_quicksilver_gargantuan
+extern _card_razor_hippogriff
+extern _card_relic_putrescence
+extern _card_revoke_existence
+extern _card_riddlesmith
+extern _card_rust_tick
+extern _card_rusted_relic
+extern _card_saberclaw_golem
+extern _card_salvage_scout
+extern _card_scrapdiver_serpent
+extern _card_screeching_silcaw
+extern _card_seize_the_initiative
+extern _card_slice_in_twain
+extern _card_snapsail_glider
+extern _card_soul_parry
+extern _card_steady_progress
+extern _card_stoic_rebuttal
+extern _card_strata_scythe
+extern _card_strider_harness
+extern _card_sunblast_angel
+extern _card_sunspear_shikari
+extern _card_sylvok_lifestaff
+extern _card_sylvok_replica
+extern _card_tangle_angler
+extern _card_steel_hellkite
+extern _card_tel_jilad_defiance
+extern _card_epharas_radiance
+extern _card_tower_of_calamities
+extern _card_trigon_of_corruption
+extern _card_trigon_of_infestation
+extern _card_trigon_of_mending
+extern _card_trigon_of_rage
+extern _card_trigon_of_thought
+extern _card_true_conviction
+extern _card_tunnel_ignus
+extern _card_turn_aside
+extern _card_turn_to_slag
+extern _card_untamed_might
+extern _card_vault_skyward
+extern _card_vedalken_certarch
+extern _card_vensers_journal
+extern _card_vigil_for_the_lost
+extern _card_viridian_revel
+extern _card_volition_reins
+extern _card_vulshok_heartstoker
+extern _card_vulshok_replica
+extern _card_wall_of_tanglecord
+extern _card_whitesuns_passage
+extern _card_wing_puncture
+extern _card_withstand_death
+extern _card_random_singleton_deck
+extern _card_accorder_paladin
+extern _card_banishment_decree
+extern _card_bladed_sentinel
+extern _card_blisterstick_shaman
+extern _card_bonehoard
+extern _card_brass_squire
+extern _card_burn_the_impure
+extern _card_caustic_hound
+extern _card_chocking_fumes
+extern _card_concussive_bolt
+extern _card_consecrated_sphinx
+extern _card_contested_war_zone
+extern _card_copper_carapace
+extern _card_core_prowler
+extern _card_corrupted_conscience
+extern _card_crush
+extern _card_cryptoplasm
+extern _card_darksteel_plate
+extern _card_decimator_web
+extern _card_distant_memories
+extern _card_dross_ripper
+extern _card_fangren_marauder
+extern _card_evanescent_intellect
+extern _card_claim_of_erebos
+extern _card_frantic_salvage
+extern _card_fuel_for_the_cause
+extern _card_gnathosaur
+extern _card_gore_vassal
+extern _card_gruesome_encore
+extern _card_gust_skimmer
+extern _card_hellkite_igniter
+extern _card_horryfing_revelation
+extern _card_into_the_core
+extern _card_kuldotha_flamefiend
+extern _card_kuldotha_ringleader
+extern _card_magnetic_mine
+extern _card_masters_call
+extern _card_metallic_mastery
+extern _card_mirran_mettle
+extern _card_mirran_spy
+extern _card_mirrorworks
+extern _card_mitotic_manipulation
+extern _card_morbid_plunder
+extern _card_myr_sire
+extern _card_myr_turbine
+extern _card_myr_welder
+extern _card_nested_ghoul
+extern _card_neurok_commando
+extern _card_oculus
+extern _card_peace_strider
+extern _card_phyresis
+extern _card_satyr_firedancer
+extern _card_horror_token
+extern _card_phyrexian_rebirth
+extern _card_pierce_strider
+extern _card_piston_sledge
+extern _card_pistus_strike
+extern _format_manacost_into_global_allpurpose_buffer
+extern _card_plaguemaw_beast
+extern _card_praetors_counsel
+extern _card_noble_quarry
+extern _card_psychosis_crawler
+extern _card_quicksilve_geyser
+extern _card_rally_the_forces
+extern _card_rusted_slasher
+extern _card_serum_raker
+extern _card_shimmer_myr
+extern _card_shriekhorn
+extern _card_skinwing
+extern _card_spin_engine
+extern _card_spiraling_duelist
+extern _card_spire_serpent
+extern _card_spread_the_sickness
+extern _card_strandwalker
+extern _card_tangle_hulk
+extern _card_training_drone
+extern _card_unnatural_predation
+extern _card_vedalken_anatomist
+extern _card_vedalken_infuser
+extern _card_viridian_claw
+extern _card_virulent_wound
+extern _card_act_of_aggression
+extern _card_apostles_blessing
+extern _card_arm_with_aether
+extern _card_artillerize
+extern _card_auriok_survivors
+extern _card_karametras_favor
+extern _card_blind_zealot
+extern _card_blinding_souleater
+extern _card_brutalizer_exarch
+extern _card_caged_sun
+extern _card_caress_of_phyrexia
+extern _card_chained_throatseeker
+extern _card_coa_special_effect
+extern _card_chancellor_of_the_annex
+extern _card_chancellor_of_the_forge
+extern _card_chancellor_of_the_spires
+extern _card_conversion_chamber
+extern _card_corrosive_gale
+extern _card_corrupted_resolve
+extern _card_darksteel_relic
+extern _card_death_hood_cobra
+extern _card_defensive_stance
+extern _card_dementia_bat
+extern _card_despise
+extern _card_due_respect
+extern _card_enslave
+extern _card_card_entomber_exarch
+extern _card_etched_monstrosity
+extern _card_exclusion_ritual
+extern _card_fallen_ferromancer
+extern _card_forced_worship
+extern _card_furnace_scamp
+extern _card_glissas_scorn
+extern _card_glistening_oil
+extern _card_greenhilt_trainee
+extern _card_gremlin_mine
+extern _card_grim_affliction
+extern _card_gut_shot
+extern _card_ichor_explosion
+extern _card_immolating_souleater
+extern _card_impaler_shrike
+extern _card_inquisitor_exarch
+extern _card_insatiable_souleater
+extern _card_invader_parasite
+extern _card_jor_kadeen_the_prevailer
+extern _card_kiln_walker
+extern _card_leeching_bite
+extern _card_lifes_finale
+extern _card_marrow_shards
+extern _card_maul_splicer
+extern _card_mindcrank
+extern _card_mindculling
+extern _card_mortis_dogs
+extern _card_mutagenic_growth
+extern _card_mycosynth_fiend
+extern _card_mycosynth_wellsprin
+extern _card_necropouncer
+extern _card_oracles_insight
+extern _card_omen_machine
+extern _card_parasitic_implant
+extern _card_pestilent_souleater
+extern _card_phyrexias_core
+extern _card_phyrexian_ingester
+extern _card_pith_driller
+extern _card_porcelain_legionnaire
+extern _card_praetors_grasp
+extern _card_priest_of_urabrask
+extern _card_pristine_talisman
+extern _card_psychic_barrier
+extern _card_rage_extractor
+extern _card_reaper_of_sheoldred
+extern _card_ruthless_invasion
+extern _card_scrapyard_salvo
+extern _card_sensor_splicer
+extern _card_shattered_angel
+extern _card_sickleslicer
+extern _card_slag_fiend
+extern _card_slash_panter
+extern _card_soul_conduit
+extern _card_courser_of_kruphix
+extern _card_surge_node
+extern _card_suture_priest
+extern _card_thundering_thanadon
+extern _card_tormentor_exarch
+extern _card_revelation
+extern _card_trespassing_souleater
+extern _card_triumph_of_the_horde
+extern _card_unwinding_clock
+extern _card_vapor_snag
+extern _card_victorious_destruction
+extern _card_viridian_betrayers
+extern _card_viridian_harvest
+extern _card_war_report
+extern _card_whipflare
+extern _card_whispering_specter
+extern _card_xenograft
+extern _card_numbing_dose
+extern _card_remember_the_fallen
+extern _card_viral_drake
+extern _card_abattoir_ghoul
+extern _card_ancient_grudge
+extern _card_angel_of_flight_alabaster
+extern _card_angelic_overseer
+extern _card_armored_skaab
+extern _card_ashmouth_hound
+extern _card_avacynian_priest
+extern _card_bane_of_hanweir
+extern _card_battleground_geist
+extern _card_bitterheart_witch
+extern _card_bloodcrazed_neonate
+extern _card_bonds_of_faith
+extern _card_brain_weevil
+extern _card_bump_in_the_night
+extern _card_burning_vengeance
+extern _card_butchers_cleaver
+extern _card_cellar_door
+extern _card_civilized_scholar
+extern _card_claustrophobia
+extern _card_cobbled_wings
+extern _card_corpse_lunge
+extern _card_creepy_doll
+extern _card_curse_of_deaths_hold
+extern _card_curse_of_oblivion
+extern _card_curse_of_stalked_prey
+extern _card_curse_of_the_bloody_tome
+extern _card_curse_of_the_nightly_hunt
+extern _card_curse_of_the_pierced_heart
+extern _card_darkthicket_wolf
+extern _card_daybreak_ranger
+extern _card_dead_weight
+extern _card_delver_of_secrets
+extern _card_demonmail_hauberk
+extern _card_desperate_ravings
+extern _card_dream_twist
+extern _card_elder_cathar
+extern _card_elite_inquisitor
+extern _card_twiddle
+extern _card_evil_twin
+extern _card_falkenrath_noble
+extern _card_feeling_of_dread
+extern _card_feral_ridgewolf
+extern _card_frightful_delusion
+extern _card_furor_of_the_bitten
+extern _card_gallows_warden
+extern _card_galvanic_juggernaut
+extern _card_gastaf_howler
+extern _card_gastaf_shepherd
+extern _card_geistcatchers_rig
+extern _card_geistflame
+extern _card_ghostly_possession
+extern _card_ghoulcallers_bell
+extern _card_ghoulcallers_chant
+extern _card_ghoulraiser
+extern _card_gnaw_to_the_bone
+extern _card_grasp_of_phantoms
+extern _card_grave_bramble
+extern _card_graveyard_shovel
+extern _card_gruesome_deformity
+extern _card_hanweir_watchkeep
+extern _card_harvest_pyre
+extern _card_heretics_punishment
+extern _card_hollowhenge_scavenger
+extern _card_homicidal_brute
+extern _card_howlpack_of_estwald
+extern _card_hysterical_blindness
+extern _card_infernal_plunge
+extern _card_into_the_maw_of_hell
+extern _card_invisible_stalker
+extern _card_kessig_wolf2
+extern _card_laboratory_maniac
+extern _card_ludevics_test_subject
+extern _card_lumberknot
+extern _card_makeshift_mauler
+extern _card_manor_gargoyle
+extern _card_manor_skeleton
+extern _card_mask_of_avacyn
+extern _card_maw_of_the_mire
+extern _card_memorys_journey
+extern _card_mirror_mad_phantasm
+extern _card_moment_of_heroism
+extern _card_moorland_haunt
+extern _card_morkrut_banshee
+extern _card_mulch
+extern _card_murder_of_crows
+extern _card_nephalia_drownyard
+extern _card_night_revelers
+extern _card_night_terrors
+extern _card_nightbirds_clutches
+extern _card_nightfall_predator
+extern _card_one_eyed_scarecrow
+extern _card_orchard_spirit
+extern _card_paraselne
+extern _card_pitchburn_devils
+extern _card_prey_upon
+extern _card_purify_the_grave
+extern _card_rage_thrower
+extern _card_rally_the_peasants
+extern _card_rangers_guile
+extern _card_rebuke
+extern _card_rolling_temblor
+extern _card_runechanters_pike
+extern _card_runic_repetition
+extern _card_scourge_of_geier_reach
+extern _card_screeching_bat
+extern _card_selhoff_occultist
+extern _card_card_sensory_deprivation
+extern _card_sever_the_bloodline
+extern _card_sharpened_pitchfork
+extern _card_sorceress_queen
+extern _card_silent_departure
+extern _card_silver_inlaid_dagger
+extern _card_skeletal_grimace
+extern _card_skirsdag_cultist
+extern _card_slayer_of_the_wicked
+extern _card_smite_the_monstrous
+extern _card_spare_from_evil
+extern _card_spectral_flight
+extern _card_spectral_rider
+extern _card_market_festival
+extern _card_spiders_spawning
+extern _card_stalking_vampire
+extern _card_stensia_bloodhall
+extern _card_stony_silence
+extern _card_stromkirk_noble
+extern _card_sturmgeist
+extern _card_terror_of_kruin_pass
+extern _card_think_twice
+extern _card_thraben_sentry
+extern _card_traitorous_blood
+extern _card_travel_preparations
+extern _card_travelers_amulet
+extern _card_trepanation_blade
+extern _card_tribute_to_hunger
+extern _card_lightning_volley
+extern _card_ulvenwald_primordials
+extern _card_unruly_mob
+extern _card_urgent_exorcism
+extern _card_vampire_interloper
+extern _card_village_bell_ringer
+extern _card_witchbane_orb
+extern _card_wooden_stake
+extern _card_woodland_sleuth
+extern _card_wreath_of_geists
+extern _card_UNUSED1
+extern _card_lantern_spirit
+extern _card_spidery_grasp
+extern _card_victim_of_night
+extern _card_village_cannibals
+extern _card_flagstones_of_trokair
+extern _card_dual_nature
+extern _card_parallax_wave
+extern _card_maeltrom_wanderer
+extern _card_khalni_hydra
+extern _card_inquisition_of_kozilek
+extern _card_kiln_fiend
+extern _card_time_walk
+extern _card_stranglehold
+extern _card_demonic_tutor
+extern _card_chaos_warp
+extern _card_smother
+extern _card_marshals_anthem
+extern _card_terastodon
+extern _card_drana_kalastrian_highborn
+extern _card_emerge_unschated
+extern _card_gigantomancer
+extern _card_nirkana_revenant
+extern _card_nomads_assembly
+extern _card_pestilence_demon
+extern _card_admonition_angel
+extern _card_anowon_the_ruin_sage
+extern _card_archon_of_redemption
+extern _card_grey_ogre
+extern _card_kazuul_tyrant_of_the_cliffs
+extern _card_sejiri_steppe
+extern _card_smoldering_spires
+extern _card_wrexial_the_risen_deep
+extern _card_aura_gnarlid
+extern _card_boar_umbra
+extern _card_bramblesnap
+extern _card_deathless_angel
+extern _card_distortion_strike
+extern _card_hedron_matrix
+extern _card_caldera_hellion
+extern _card_hellion_eruption
+extern _card_hyena_umbra
+extern _card_mul_daya_channelers
+extern _card_sphinx_of_magosi
+extern _card_spider_umbra
+extern _card_watcher_sliver
+extern _card_anaba_spirit_crafter
+extern _card_enduring_ideal
+extern _card_raise_the_alarm
+extern _card_alley_grifters
+extern _card_ancestral_mask
+extern _card_bargaining_table
+extern _card_bifurcate
+extern _card_black_market
+extern _card_blood_oath
+extern _card_bog_witch
+extern _card_briar_patch
+extern _card_cateran_brute
+extern _card_cateran_enforcer
+extern _card_cateran_kidnapper
+extern _card_cateran_overlord
+extern _card_cateran_persuader
+extern _card_cateran_slavers
+extern _card_battering_ram
+extern _card_graveborn_token
+extern _card_gather_the_townsfolk
+extern _card_increasing_devotion
+extern _card_loyal_cathar
+extern _card_unhallowed_cathar
+extern _card_ray_of_revelation
+extern _card_thraben_doomsayer
+extern _card_increasing_confusion
+extern _card_secrets_of_the_dead
+extern _card_curse_of_thirst
+extern _card_gravecrawler
+extern _card_ravenous_demon
+extern _card_archdemon_of_greed
+extern _card_zombie_apocalypse
+extern _card_faithless_looting
+extern _card_moonveil_dragon
+extern _card_seance
+extern _card_tovolars_magehunters
+extern _card_nearheath_stalker
+extern _card_ghoultreee
+extern _card_hunger_of_the_howlpack
+extern _card_scorned_villager
+extern _card_moonscarred_werewolf
+extern _card_strangleroor_geist
+extern _card_drogskol_reaver
+extern _card_falkenrath_aristocrat
+extern _card_sorin_lord_of_innistrad
+extern _card_thalia_guardian_of_thraben
+extern _card_silverpelt_werewolf
+extern _card_havengul_lich
+extern _card_chalice_of_life
+extern _card_chalice_of_death
+extern _card_jar_of_eyeballs
+extern _card_cateran_summons
+extern _card_cave_in
+extern _card_charisma
+extern _card_cho_arrim_alchemist
+extern _card_cho_arrim_bruiser
+extern _card_cho_manno_revolutionary
+extern _card_common_cause
+extern _card_beguiler_of_wills
+extern _card_fiend_of_the_shadows
+extern _card_pyreheart_wolf
+extern _card_wolfbitten_captive
+extern _card_krallenhorde_killer
+extern _card_huntmaster_of_the_fells
+extern _card_wurm_token
+extern _card_vorapede
+extern _card_mikaeus_the_unhallowed
+extern _card_immerwolf
+extern _card_vault_of_the_archangel
+extern _card_predator_ooze
+extern _card_chant_of_skifsang
+extern _card_deadly_allure
+extern _card_hellrider
+extern _card_feed_the_pack
+extern _card_warden_of_the_wall
+extern _card_helvault
+extern _card_lingering_souls
+extern _card_thought_scour
+extern _card_stromkirk_captain
+extern _card_crackdown
+extern _card_crumbling_sanctuary
+extern _card_custom_depot
+extern _card_dawnstrider
+extern _card_delraich
+extern _card_devout_witness
+extern _card_dust_bowl
+extern _card_embargo
+extern _card_enslaved_horror
+extern _card_eye_of_ramos
+extern _card_forced_march
+extern _card_sudden_disappearance
+extern _card_headless_skaab
+extern _card_falkenrath_torturer
+extern _card_geralfs_messanger
+extern _card_skirsdag_flayer
+extern _card_cabal_coffers
+extern _card_gruesome_discovery
+extern _card_increasing_ambition
+extern _card_tragic_slip
+extern _card_curse_of_bloodletting
+extern _card_forge_devil
+extern _card_heckling_fiend
+extern _card_talons_of_falkenrath
+extern _card_briarpack_alpha
+extern _card_gravetiller_wurm
+extern _card_increasing_savagery
+extern _card_diregraf_captain
+extern _card_elbrus_the_binding_blade
+extern _card_withengar_unbound
+extern _card_executioners_hood
+extern _card_heavy_mattock
+extern _card_haunted_fengraf
+extern _card_grim_backwoods
+extern _card_asmira_holy_avenger
+extern _card_staunch_defenders
+extern _card_archangels_light
+extern _card_bar_the_door
+extern _card_break_of_day
+extern _card_burden_of_guilt
+extern _card_curse_of_exhaustion
+extern _card_elgaud_inquisitor
+extern _card_faiths_shield
+extern _card_gavony_ironwright
+extern _card_hollowhenge_spirit
+extern _card_midnight_guard
+extern _card_niblis_of_the_mist
+extern _card_requiem_angel
+extern _card_thunder_brute
+extern _card_artful_dodge
+extern _card_thraben_heretic
+extern _card_bone_to_ash
+extern _card_call_to_the_kindred
+extern _card_chill_of_foreboding
+extern _card_dungeon_geist
+extern _card_geralfs_mindcrusher
+extern _card_griptide
+extern _card_mystic_retrieval
+extern _card_niblis_of_the_breath
+extern _card_relentless_skaabs
+extern _card_saving_grasp
+extern _card_screeching_skaab
+extern _card_shriekgeist
+extern _card_stormbound_geist
+extern _card_tower_geist
+extern _card_black_cat
+extern _card_chosen_of_markov
+extern _card_curse_of_misfortunes
+extern _card_deaths_caress
+extern _card_farbog_boneflinger
+extern _card_harrowing_journey
+extern _card_highborn_ghoul
+extern _card_sightless_ghoul
+extern _card_reap_the_seagraf
+extern _card_spiteful_shadows
+extern _card_spell_burst
+extern _card_gaeas_cradle
+extern _card_tolarian_academy
+extern _card_undying_evil
+extern _card_wakedancer
+extern _card_alpha_brawl
+extern _card_burning_oil
+extern _card_blood_feud
+extern _card_fires_of_undeath
+extern _card_hinterland_scourge
+extern _card_markov_warlord
+extern _card_scorch_the_fields
+extern _card_shattered_perception
+extern _card_torch_fiend
+extern _card_wrack_with_madness
+extern _card_clinging_mists
+extern _card_crushing_vines
+extern _card_dawntrader_elk
+extern _card_deranged_outcast
+extern _card_grim_flowering
+extern _card_lost_in_the_woods
+extern _card_trackers_instict
+extern _card_ulvenwald_bear
+extern _card_favor_of_the_woods
+extern _card_village_survivors
+extern _card_wild_hunger
+extern _card_drogskol_captain
+extern _card_avacyns_collar
+extern _card_wolfhunters_quiver
+extern _card_foster
+extern _card_furious_assault
+extern _card_game_preserve
+extern _card_generals_regalia
+extern _card_hammer_mage
+extern _card_haunted_crossroads
+extern _card_heart_of_ramos
+extern _card_hickory_woodlot
+extern _card_high_market
+extern _card_hired_giant
+extern _card_honor_the_fallen
+extern _card_horn_of_plenty
+extern _card_horn_of_ramos
+extern _card_invigorate
+extern _card_kris_mage
+extern _card_kyren_negotiations
+extern _card_voice_of_all
+extern _card_kyren_toy
+extern _card_liability
+extern _card_lumbering_satyr
+extern _card_lunge
+extern _card_magistrates_scepter
+extern _card_megatherium
+extern _card_mercadian_atlas
+extern _card_mercadian_lift
+extern _card_triskelavite
+extern _card_stabwhisker_the_odious
+extern _card_pendrell_mists
+extern _card_greater_gargadon_suspended
+extern _card_havengul_runebinder
+extern _card_sorins_emblem
+extern _card_curiosity
+extern _card_sleepers_robe
+extern _card_larceny
+extern _card_noble_purpose
+extern _card_ashnods_transmogrant
+extern _card_snake_token
+extern _card_nevermore
+extern _card_powerleech
+extern _card_phyrexian_gremlins
+extern _card_karakas
+extern _card_martyrs_of_korlis
+extern _card_snake_basket
+extern _card_bestial_menace
+extern _card_willow_satyr
+extern _card_empress_galina
+extern _card_tsabo_tavoc
+extern _card_vexing_arcanix
+extern _card_takklemaggot
+extern _card_gauntlets_of_chaos
+extern _card_cradle_of_vitality
+extern _card_stigma_lasher
+extern _card_false_cure
+extern _card_ageless_sentinels
+extern _card_elemental_token
+extern _card_capsize
+extern _card_time_spiral
+extern _card_frantic_search
+extern _card_snap2
+extern _card_treachery
+extern _card_rewind
+extern _card_sulfuric_vortex
+extern _card_flames_of_the_blood_hand
+extern _card_midnight_ritual
+extern _card_misstep
+extern _card_moment_of_silence
+extern _card_monkey_cage
+extern _card_monlit_wake
+extern _card_muzzle
+extern _card_nether_spirit
+extern _card_notorious_assassin
+extern _card_orims_cure
+extern _card_overtaker
+extern _card_pangosaur
+extern _card_peat_bog
+extern _card_power_matrix
+extern _card_puffer_extract
+extern _card_pulverize
+extern _card_ramosian_commander
+extern _card_ramosian_liutenant
+extern _card_ramosian_sky_marshall
+extern _card_reverent_mantra
+extern _card_remote_farm
+extern _card_renounce
+extern _card_revive
+extern _card_rishadan_brigand
+extern _card_rishadan_cutpurse
+extern _card_rishadan_footpad
+extern _card_rishadan_pawnshop
+extern _card_rushwood_elemental
+extern _card_rushwood_herbalist
+extern _card_saber_ants
+extern _card_sand_squid
+extern _card_sandstone_needle
+extern _card_saprazzan_heir
+extern _card_saprazzan_skerry
+extern _card_seismic_mage
+extern _card_silverglade_elemental
+extern _card_silverglade_pathfinder
+extern _card_sizzle
+extern _card_skull_of_ramos
+extern _card_snuff_out
+extern _card_soothsaying
+extern _card_spidersilk_armor
+extern _card_spiritual_focus
+extern _card_spontaneous_generation
+extern _card_squeeze
+extern _card_statecraft
+extern _card_task_force
+extern _card_tectonic_break
+extern _card_thwart
+extern _card_tooth_of_ramos
+extern _card_undertaker
+extern _card_uphill_battle
+extern _card_vendetta
+extern _card_war_tax
+extern _card_waterfront_bouncer
+extern _card_wave_of_reckoning
+extern _card_cackling_witch
+extern _card_chameleon_spirit
+extern _card_deepwood_drummer
+extern _card_howling_wolf
+extern _card_intimidation
+extern _card_karns_touch
+extern _card_altar_of_shadows
+extern _card_arc_slogger
+extern _card_assert_autority
+extern _card_aether_spellbomb
+extern _card_auriok_steelshaper
+extern _card_auriok_transfixer
+extern _card_awe_strike
+extern _card_banshees_blade
+extern _card_betrayal_of_flesh
+extern _card_blinding_beam
+extern _card_blinkmoth_urn
+extern _card_blinkmoth_well
+extern _card_bloodscent
+extern _card_bosh_iron_golem
+extern _card_clockwork_dragon
+extern _card_crystal_shard
+extern _card_culling_scales
+extern _card_damping_matrix
+extern _card_deconstruct
+extern _card_dreams_grip
+extern _card_dross_harvester
+extern _card_dross_scorpion
+extern _card_duplicant
+extern _card_clockwork_beetle
+extern _card_chalice_of_the_void
+extern _card_confusion_in_the_ranks
+extern _card_electrostatic_bolt
+extern _card_elf_replica
+extern _card_farsight_mask
+extern _card_fiery_gambit
+extern _card_fireshrieker
+extern _card_gate_to_aether
+extern _card_glimmervoid
+extern _card_goblin_replica
+extern _card_golem_skin_gauntlets
+extern _card_grab_the_reins
+extern _card_granite_shard
+extern _card_grid_monitor
+extern _card_heartwood_shard
+extern _card_journey_of_discovery
+extern _card_krark_clan_shaman
+extern _card_leonin_abunas
+extern _card_leonin_bladetrap
+extern _card_leonin_den_guard
+extern _card_leonin_elder
+extern _card_leonin_scimitar
+extern _card_leonin_sun_standard
+extern _card_lightning_coils
+extern _card_living_hive
+extern _card_lodestone_myr
+extern _card_loxodon_punisher
+extern _card_lumengrid_augur
+extern _card_lumengrid_sentinel
+extern _card_luminous_angel
+extern _card_mask_of_memory
+extern _card_mass_hysteria
+extern _card_megatog
+extern _card_mesmeric_orb
+extern _card_minds_eye
+extern _card_molder_slug
+extern _card_molten_rain
+extern _card_myr_retriver
+extern _card_necrogen_mists
+extern _card_necrogen_spellbomb
+extern _card_needlebug
+extern _card_neurok_familiar
+extern _card_nightmare_lash
+extern _card_nim_devourer
+extern _card_nim_replica
+extern _card_oblivion_stone
+extern _card_one_dozen_eyes
+extern _card_override
+extern _card_pearl_shard
+extern _card_nessian_demolok
+extern _card_predators_strike
+extern _card_promise_of_power
+extern _card_demon_token
+extern _card_proteus_staff
+extern _card_psychic_membrane
+extern _card_pyrite_spellbomb
+extern _card_quicksilver_fountain
+extern _card_razor_barrier
+extern _card_reiver_demon
+extern _card_roar_of_the_kha
+extern _card_rust_elemental
+extern _card_rustmouth_ogre
+extern _card_scythe_of_the_wretched
+extern _card_second_sunrise
+extern _card_serum_tank
+extern _card_skeleton_shard
+extern _card_solar_tide
+extern _card_soldier_replica
+extern _card_soul_foundry
+extern _card_spellweaver_helix
+extern _card_spikeshot_goblin
+extern _card_spoils_of_the_vault
+extern _card_stalking_stones
+extern _card_stalking_stones_animated
+extern _card_sun_droplet
+extern _card_sunbeam_spellbomb
+extern _card_sword_of_kaldra
+extern _card_taj_nar_swordsmith
+extern _card_ajanis_presence
+extern _card_dakra_mystic
+extern _card_pheres_band_warchief
+extern _card_setessan_tactics
+extern _card_colossal_heroics
+extern _card_tangleroot
+extern _card_temporal_cascade
+extern _card_thought_prison
+extern _card_scale_of_chiss_goria
+extern _card_tower_of_champions
+extern _card_tower_of_eons
+extern _card_tower_of_murmurs
+extern _card_trash_for_treasures
+extern _card_turn_to_dust
+extern _card_vedalken_archmage
+extern _card_vermiculos
+extern _card_viridian_joiner
+extern _card_vorrac_battlehorns
+extern _card_vulshok_battlegear
+extern _card_vulshok_battlemaster
+extern _card_vulshock_gauntlets
+extern _card_wail_of_the_nim
+extern _card_war_elemental
+extern _card_welding_jar
+extern _card_wizard_replica
+extern _card_wrench_mind
+extern _card_staggershock
+extern _card_beastbreaker_of_bala_ged
+extern _card_riftwing_cloudskate
+extern _card_flickerwisp
+extern _card_kami_of_ancient_law
+extern _card_calciderm
+extern _card_austere_command
+extern _card_kor_haven
+extern _card_eight_and_a_half_tails
+extern _card_prison_term
+extern _card_temporal_isolation
+extern _card_prophetic_bolt
+extern _card_magma_jet
+extern _card_flame_slash
+extern _card_zozu_the_punisher
+extern _card_ravenous_baboons
+extern _card_keldon_marauders
+extern _card_condescend
+extern _card_magus_of_the_scroll
+extern _card_jack_in_the_mox
+extern _card_vivid_creek
+extern _card_vivid_crag
+extern _card_cascade_bluffs
+extern _card_fetid_heath
+extern _card_fire_lit_thicket
+extern _card_flooded_grove
+extern _card_graven_cairns
+extern _card_mystic_gate
+extern _card_rugged_prarie
+extern _card_sunken_ruins
+extern _card_twilight_mire
+extern _card_wooded_bastion
+extern _card_vivid_meadow
+extern _card_vivid_grove
+extern _card_vivid_marsh
+extern _card_glen_elendra_archmage
+extern _card_twinblade_slasher
+extern _card_wickerbough_elder
+extern _card_stingscourger
+extern _card_pulse_of_the_forge
+extern _card_grinning_demon
+extern _card_shelldock_isle
+extern _card_plague_sliver
+extern _card_narcolepsy
+extern _card_grand_coliseum
+extern _card_binding_grasp
+extern _card_rakka_mar
+extern _card_arboria
+extern _card_faerie_trickery
+extern _card_body_double
+extern _card_necromancy
+extern _card_arrogant_bloodlord
+extern _card_nezumi_graverobber
+extern _card_nighteyes_the_desecrator
+extern _card_puppeteer_clique
+extern _card_dead_gone
+extern _card_blistering_firecat
+extern _card_floodtide_serpent
+extern _card_powerstone_minefield
+extern _card_kira_great_glass_spinner
+extern _card_suffocating_blast
+extern _card_primal_command
+extern _card_razormane_masticore
+extern _card_phantom_centaur
+extern _card_agony_warp
+extern _card_bant_charm
+extern _card_chaos_orb
+extern _card_thornling
+extern _card_stillmoon_cavalier
+extern _card_brion_stoutarm
+extern _card_ethersworn_adjudicator
+extern _card_soul_manipulation
+extern _card_everlasting_torment
+extern _card_mindslicer
+extern _card_cover_of_darkness
+extern _card_arcbound_hybrid
+extern _card_arcbound_overseer
+extern _card_arcbound_ravager
+extern _card_arcbound_reclaimer
+extern _card_arcbound_slith
+extern _card_aether_snap
+extern _card_auriok_glaivemaster
+extern _card_barbed_lighting
+extern _card_blinkmoth_nexus
+extern _card_blinkmoth_nexus_animated
+extern _card_carry_away
+extern _card_chittering_rats
+extern _card_chromescale_drake
+extern _card_coretapper
+extern _card_chimeric_egg
+extern _card_darksteel_pendant
+extern _card_dismantle
+extern _card_dross_golem
+extern _card_eater_of_days
+extern _card_echoing_calm
+extern _card_echoing_courage
+extern _card_echoing_decay
+extern _card_echoing_ruin
+extern _card_fangren_firstborn
+extern _card_furnace_dragon
+extern _card_gemini_engine
+extern _card_twin_token
+extern _card_genesis_chamber
+extern _card_geths_grimoire
+extern _card_consume_spirit
+extern _card_drain_life
+extern _card_blaze
+extern _card_death_grasp
+extern _card_earthquake
+extern _card_hurricane
+extern _card_stream_of_life
+extern _card_guardian_angel
+extern _card_disintegrate
+extern _card_fireball
+extern _card_spell_blast
+extern _card_power_sink
+extern _card_detonate
+extern _card_word_of_binding
+extern _card_winter_blast
+extern _card_whimsy
+extern _card_mind_twist
+extern _card_howl_from_beyond
+extern _card_alabaster_potion
+extern _card_orcish_catapult
+extern _card_volcanic_eruption
+extern _card_angels_feather2
+extern _card_demons_horn2
+extern _card_dragons_claw2
+extern _card_krakens_eye2
+extern _card_wurms_tooth2
+extern _card_crystal_rod
+extern _card_iron_star
+extern _card_ivory_cup
+extern _card_throne_of_bone
+extern _card_wooden_sphere
+extern _card_lone_missionary
+extern _card_angel_of_mercy
+extern _card_venerable_monk
+extern _card_soul_warden
+extern _card_armadillo_cloack
+extern _card_dark_heart_of_the_woods
+extern _card_farmstead
+extern _card_lifeblood
+extern _card_spiritual_sanctury
+extern _card_absorb
+extern _card_blessed_reversal
+extern _card_chastise
+extern _card_divine_offering
+extern _card_healing_salve
+extern _card_punish_ignorance
+extern _card_reverse_damage
+extern _card_kiss_of_the_amesha
+extern _card_thespians_stage
+extern _card_sacred_nectar
+extern _card_ravenous_baloth
+extern _card_living_artifact
+extern _card_crumble
+extern _card_biorhythm
+extern _card_sol_kanar_the_swamp_king
+extern _card_merchant_ship
+extern _card_lifetap
+extern _card_relic_bind2
+extern _card_mirror_universe
+extern _card_magus_of_the_mirror
+extern _card_vicious_hunger
+extern _card_simulacrum
+extern _card_corrupt2
+extern _card_sever_soul
+extern _card_soul_feast
+extern _card_syphon_soul
+extern _card_diamond_valley
+extern _card_fountain_of_youth
+extern _card_ivory_tower
+extern _card_life_chisel
+extern _card_onulet
+extern _card_soul_net
+extern _card_tablet_of_epityr
+extern _card_urzas_chalice
+extern _card_zuran_orb
+extern _card_obelisk_of_alara2
+extern _card_greater_harvester
+extern _card_grimclaw_bat
+extern _card_hallow2
+extern _card_heartseeker
+extern _card_karstoderm
+extern _card_krark_clan_stoker
+extern _card_last_word
+extern _card_leonin_battlemage
+extern _card_leonin_bola
+extern _card_machinate
+extern _card_memnarch
+extern _card_mephitic_ooze
+extern _card_murderous_spoils
+extern _card_myr_moonvessel
+extern _card_nemesis_mask
+extern _card_nim_abomination
+extern _card_nourish
+extern _card_oxidda_golem
+extern _card_panoptic_mirror
+extern _card_pristine_angel
+extern _card_pulse_of_the_dross
+extern _card_pulse_of_the_fields
+extern _card_pulse_of_the_grid
+extern _card_pulse_of_the_tangle
+extern _card_razor_golem
+extern _card_reshape
+extern _card_retract
+extern _card_savage_beating
+extern _card_second_sight
+extern _card_shield_of_kaldra
+extern _card_shriveling_rot
+extern _card_soulscour
+extern _card_specters_shroud
+extern _card_spellbinder
+extern _card_spire_golem
+extern _card_stand_together
+extern _card_surestrike_trident
+extern _card_talon_of_pain
+extern _card_tangle_golem
+extern _card_test_of_faith
+extern _card_thought_dissector
+extern _card_turn_the_table
+extern _card_vex
+extern _card_viridian_zealot
+extern _card_voltaic_construct
+extern _card_vulshok_morningstar
+extern _card_vulshok_war_boar
+extern _card_wand_of_the_elements
+extern _card_abunas_chant
+extern _card_acquire
+extern _card_all_suns_dawn
+extern _card_arcbound_wanderer
+extern _card_artificiers_intuition
+extern _card_auriok_champion
+extern _card_auriok_windwalker
+extern _card_avarice_totem
+extern _card_battered_golem
+extern _card_beacon_of_tomorrows
+extern _card_blasting_station
+extern _card_blind_creeper
+extern _card_chimeric_coils
+extern _card_clearwater_goblet
+extern _card_clock_of_omens
+extern _card_composite_golem
+extern _card_conjurers_bouble
+extern _card_cosmic_larva
+extern _card_desecration_elemental
+extern _card_devour_in_shadows
+extern _card_early_frost
+extern _card_ebon_drake
+extern _card_endless_whispers
+extern _card_energy_chamber
+extern _card_ensouled_scimitar
+extern _card_etched_oracle
+extern _card_eyes_of_the_watcher
+extern _card_fangren_pathcutter
+extern _card_ferocious_charge
+extern _card_fill_with_fright
+extern _card_fist_of_suns
+extern _card_fleshgrafter
+extern _card_furnace_whelp
+extern _card_gemstone_array
+extern _card_goblin_cannon
+extern _card_granulate
+extern _card_guardian_idol
+extern _card_healers_headdress
+extern _card_helm_of_kaldra
+extern _card_horned_helm
+extern _card_hoverguard_sweepers
+extern _card_tendrils_of_corruption
+extern _card_kokusho_the_evening_star
+extern _card_stifle
+extern _card_voidslime
+extern _card_bind2
+extern _card_interdict
+extern _card_elspeths_emblem
+extern _card_tectonic_edge
+extern _card_dragon_fodder
+extern _card_cruel_tutor
+extern _card_grim_tutor
+extern _card_idyllic_tutor
+extern _card_personal_tutor
+extern _card_sylvan_tutor
+extern _card_enlightened_tutor
+extern _card_diabolic_intent
+extern _card_conflux
+extern _card_beseech_the_queen
+extern _card_elvish_piper
+extern _card_insurrection
+extern _card_demand_supply
+extern _card_demonic_collusion
+extern _card_edge_of_autumn
+extern _card_infernal_tutor
+extern _card_mwonvuli_acid_moss
+extern _card_rhystic_tutor
+extern _card_search_for_tomorrow
+extern _card_shard_convergence
+extern _card_skyshroud_claim
+extern _card_time_of_need
+extern _card_wargate
+extern _card_ion_storm
+extern _card_joiner_adept
+extern _card_leonin_squire
+extern _card_lose_hope
+extern _card_magma_giant
+extern _card_magnetic_theft
+extern _card_mephidross_vampire
+extern _card_moriok_rigger
+extern _card_mycosynth_golem
+extern _card_myr_servitor
+extern _card_neurok_stealthsuit
+extern _card_opaline_bracers
+extern _card_paradise_mantle
+extern _card_pentad_prism
+extern _card_plunge_into_darkness
+extern _card_possessed_portal
+extern _card_raksha_golden_cub
+extern _card_reversal_of_fortune
+extern _card_rite_of_passage
+extern _card_roar_of_reclamation
+extern _card_serum_visions
+extern _card_skullcage
+extern _card_skyreach_manta
+extern _card_solarion
+extern _card_sparring_collar
+extern _card_stand_firm
+extern _card_city_of_solitude
+extern _card_cursed_totem
+extern _card_null_rod
+extern _card_stasis_cocoon
+extern _card_steelshapers_gift
+extern _card_summoners_egg
+extern _card_suncrusher
+extern _card_sylvok_explorer
+extern _card_synod_centurion
+extern _card_tel_jilad_justice
+extern _card_tornado_elemental
+extern _card_vedalken_mastermind
+extern _card_angel_of_glorys_rise
+extern _card_angel_of_jubilation
+extern _card_avacyn_angel_of_hope
+extern _card_banishing_stroke
+extern _card_cathars_crusade
+extern _card_cloudshift
+extern _card_emancipation_angel
+extern _card_herald_of_war
+extern _card_silverblade_paladin
+extern _card_arcane_melee
+extern _card_ghostly_flicker
+extern _card_latch_seeker
+extern _card_tamiyo_the_moon_sage
+extern _card_tamiyos_emblem
+extern _card_tandem_lookout
+extern _card_temporal_mastery
+extern _card_wingcrafter
+extern _card_demonic_taskmaster
+extern _card_demonlord_of_ashmouth
+extern _card_griselbrand
+extern _card_harvester_of_souls
+extern _card_killing_wave
+extern _card_bonfire_of_the_damned
+extern _card_stonewright
+extern _card_thunderous_wrath
+extern _card_tibalt_the_fiend_blooded
+extern _card_vexing_devil
+extern _card_zealous_conscripts
+extern _card_craterhoof_behemoth
+extern _card_descendants_path
+extern _card_druids_repository
+extern _card_howlgeist
+extern _card_joint_assault
+extern _card_nightshade_peddler
+extern _card_revenge_of_the_hunted
+extern _card_gisela_blade_of_goldnight
+extern _card_sigarda_host_of_herons
+extern _card_angels_tomb
+extern _card_moonsilver_spear
+extern _card_desolate_lighthouse
+extern _card_defy_death
+extern _card_entreat_the_angels
+extern _card_goldnight_redeemer
+extern _card_nephalia_smugglers
+extern _card_appetite_for_brains
+extern _card_demonic_rising
+extern _card_crypt_creeper
+extern _card_descent_into_madness
+extern _card_champion_of_lambholt
+extern _card_wolfir_silverheart
+extern _card_slayers_stronghold
+extern _card_somberwald_druid
+extern _card_living_airship
+extern _card_deadly_recluse
+extern _card_terminus
+extern _card_infinite_reflection
+extern _card_peel_from_reality
+extern _card_exquisite_blood
+extern _card_homicidal_seclusion
+extern _card_human_frailty
+extern _card_treacherous_pit_dweller
+extern _card_triumph_of_cruelty
+extern _card_spawnwrithe
+extern _card_lightning_mauler
+extern _card_malignus
+extern _card_rite_of_ruin
+extern _card_pillar_of_flame
+extern _card_thatchers_revolt
+extern _card_human_token
+extern _card_primal_surge
+extern _card_triumph_of_ferocity
+extern _card_ulvenwald_tracker
+extern _card_shadowmage_infiltrator
+extern _card_thieving_magpie
+extern _card_kor_firewalker
+extern _card_leap_of_faith
+extern _card_riders_of_gavony
+extern _card_spectral_gateguards
+extern _card_voice_of_the_provinces
+extern _card_havengul_skaab
+extern _card_lunar_mystic
+extern _card_rotcrown_ghoul
+extern _card_card_second_guess
+extern _card_spectral_prison
+extern _card_vanishment
+extern _card_evernight_shade
+extern _card_maalfeld_twins
+extern _card_burn_at_the_stake
+extern _card_gang_of_devils
+extern _card_havengul_vampire
+extern _card_kessig_malcontents
+extern _card_kruin_striker
+extern _card_riot_ringleader
+extern _card_rush_of_blood
+extern _card_somberwald_vigilante
+extern _card_siren_song_lyre
+extern _card_grounded
+extern _card_wolfir_avenger
+extern _card_call_to_serve
+extern _card_builders_blessing
+extern _card_commanders_autority
+extern _card_cursebreak
+extern _card_devout_chaplain
+extern _card_goldnight_commander
+extern _card_holy_justicar
+extern _card_midnight_duelist
+extern _card_midvast_protector
+extern _card_moonlight_geist
+extern _card_moorland_inquisitor
+extern _card_nearheath_pilgrim
+extern _card_restoration_angel
+extern _card_righteous_blow
+extern _card_zealous_strike
+extern _card_divine_deflection
+extern _card_alchemists_apprentice
+extern _card_amass_the_components
+extern _card_captain_of_the_mists
+extern _card_crippling_chill
+extern _card_deadeye_navigator
+extern _card_dreadwaters
+extern _card_elgaud_shieldmate
+extern _card_favourable_winds
+extern _card_fettergeist
+extern _card_fleeting_distraction
+extern _card_galvanic_alchemist
+extern _card_geist_snatch
+extern _card_ghostform
+extern _card_ghostly_touch
+extern _card_into_the_void
+extern _card_lone_revenant
+extern _card_mass_appeal
+extern _card_outwit
+extern _card_spirit_away
+extern _card_stolen_goods
+extern _card_blood_artist
+extern _card_drafnas_restoration
+extern _card_corpse_traders
+extern _card_dark_imposter
+extern _card_driver_of_the_dead
+extern _card_dread_slaver
+extern _card_essence_harvest
+extern _card_ghoulflesh
+extern _card_gloom_surgeon
+extern _card_grave_exchange
+extern _card_hunted_ghoul
+extern _card_marrow_bats
+extern _card_mental_agony
+extern _card_necrobite
+extern _card_polluted_dead
+extern _card_searchlight_geist
+extern _card_soulcage_fiend
+extern _card_predators_gambit
+extern _card_unhallowed_pact
+extern _card_death_wind
+extern _card_aggravate
+extern _card_banners_rised
+extern _card_battle_hymn
+extern _card_dangerous_wager
+extern _card_dual_casting
+extern _card_falkenrath_exterminator
+extern _card_fervent_cathar
+extern _card_guise_of_fire
+extern _card_hanveir_lancer
+extern _card_heirs_of_stromkirk
+extern _card_lightning_prowess
+extern _card_malicious_intent
+extern _card_scalding_devil
+extern _card_uncanny_speed
+extern _card_tyrant_of_discord
+extern _card_vigilante_justice
+extern _card_abundant_growth
+extern _card_blessing_of_nature
+extern _card_bower_passage
+extern _card_diregraf_escort
+extern _card_druids_familiar
+extern _card_eaten_by_spiders
+extern _card_flowering_lumberknot
+extern _card_geist_trapper
+extern _card_lair_delve
+extern _card_natural_end
+extern _card_pathbreaker_wurm
+extern _card_rain_of_thorns
+extern _card_sheltering_word
+extern _card_snare_the_skies
+extern _card_terrifying_presence
+extern _card_soul_of_the_harvest
+extern _card_timberland_guide
+extern _card_trusted_forcemage
+extern _card_wandering_wolf
+extern _card_wild_defiance
+extern _card_wildwood_geist
+extern _card_yew_spirit
+extern _card_angelic_armaments
+extern _card_bladed_bracers
+extern _card_conjuring_closet
+extern _card_gallows_at_willow_hill
+extern _card_narstad_scrapper
+extern _card_otherworld_atlas
+extern _card_scroll_of_avacyn
+extern _card_scroll_of_griselbrand
+extern _card_tormentors_trident
+extern _card_vanguards_shield
+extern _card_vessel_of_endless_rest
+extern _card_cavern_of_souls
+extern _card_seraphs_sanctuary
+extern _card_akki_coalflinger
+extern _card_ashes_skin_zubera
+extern _card_azami_lady_of_scrolls
+extern _card_azusa_lost_but_seeking
+extern _card_battle_mad_ronin
+extern _card_ben_ben_akki_hermit
+extern _card_blessed_breath
+extern _card_blood_speaker
+extern _card_bloodthirsty_ogre
+extern _card_brothers_yamazaki
+extern _card_budoka_gardener
+extern _card_dokai_weaver_of_life
+extern _card_burr_grafter
+extern _card_wild_nacatal
+extern _card_moroii
+extern _card_bushi_tenderfoot
+extern _card_kenzo_the_hardhearted
+extern _card_cage_of_hands
+extern _card_call_to_glory
+extern _card_candles_glow
+extern _card_commune_with_nature
+extern _card_consuming_vortex
+extern _card_cursed_ronin
+extern _card_dampen_thought
+extern _card_devoted_retainer
+extern _card_devouring_greed
+extern _card_dosan_the_falling_leaf
+extern _card_dripping_tongue_zubera
+extern _card_earthshaker
+extern _card_eerie_procession
+extern _card_eiganjo_castle
+extern _card_ember_fist_zubera
+extern _card_feast_of_worms
+extern _card_floating_dream_zubera
+extern _card_generals_kabuto
+extern _card_glacial_ray
+extern _card_godo_bandit_warlord
+extern _card_gutwrencher_oni
+extern _card_hana_kami
+extern _card_he_who_hungers
+extern _card_heart_kami
+extern _card_hideous_laughter
+extern _card_hikari_twilight_guardian
+extern _card_hinder
+extern _card_hisoka_minamo_sensei
+extern _card_honor_worn_shaku
+extern _card_iname_death_aspect
+extern _card_iname_life_aspect
+extern _card_indomitable_will
+extern _card_jade_idol
+extern _card_journeyers_kite
+extern _card_jugan_rising_star
+extern _card_junkyo_bell
+extern _card_jushi_apprentice
+extern _card_tomoya_the_revealer
+extern _card_kami_of_fires_roar
+extern _card_kami_of_the_hunt
+extern _card_kami_of_waning_moon
+extern _card_kashi_tribe_reaver
+extern _card_kiku_night_flower
+extern _card_kitsune_healer
+extern _card_kodama_of_the_south_tree
+extern _card_kodamas_might
+extern _card_explosive_vegetation
+extern _card_kondas_banner
+extern _card_kondas_hatamoto
+extern _card_konda_lord_of_eiganjo
+extern _card_kumano_master_yamabushi
+extern _card_kuro_pit_lord
+extern _card_long_forgotten_gohei
+extern _card_marrow_gnawer
+extern _card_matsu_tribe_decoy
+extern _card_minamo_school_at_waters_edge
+extern _card_myojin_of_cleansing_fire
+extern _card_myojin_of_infinite_rage
+extern _card_myojin_of_lifes_web
+extern _card_myojin_of_nights_reach
+extern _card_myojin_of_seeing_winds
+extern _card_nagao_bound_by_honor
+extern _card_natures_will
+extern _card_nezumi_bone_reader
+extern _card_nezumi_cutthroat
+extern _card_night_dealings
+extern _card_no_dachi
+extern _card_oathkeeper_takenos_daisho
+extern _card_okina_temple_to_the_grandfathers
+extern _card_oni_possession
+extern _card_orochi_eggwatcher
+extern _card_shidako_broodmistress
+extern _card_orochi_hatchery
+extern _card_orochi_leafcaller
+extern _card_orochi_ranger
+extern _card_otherworldly_journey
+extern _card_pain_kami
+extern _card_painwracker_oni
+extern _card_peer_through_depths
+extern _card_pious_kitsune
+extern _card_psychic_puppetry
+extern _card_quiet_purity
+extern _card_reach_through_mists
+extern _card_rend_flesh
+extern _card_ronin_houndmaster
+extern _card_rootrunner
+extern _card_sachi_daughter_of_seshiro
+extern _card_samurai_enforcers
+extern _card_samurai_of_the_pale_courtain
+extern _card_seizan_perverter_of_truth
+extern _card_sensei_golden_tail
+extern _card_seshiro_the_anointed
+extern _card_shimatsu_the_bloodcloaked
+extern _card_shinka_the_bloodsoaked_keep
+extern _card_shisato_whispering_hunter
+extern _card_shizo_deaths_storehouse
+extern _card_sift_through_sands
+extern _card_silent_chant_zubera
+extern _card_soratami_cloudskater
+extern _card_soratami_savant
+extern _card_soratami_seer
+extern _card_sosuke_son_of_seshiro
+extern _card_soulblast
+extern _card_soulless_revival
+extern _card_swallowing_plague
+extern _card_takeno_samurai_general
+extern _card_tatsumasa_the_dragon_fang
+extern _card_dragon_spirit
+extern _card_tenza_godos_maul
+extern _card_the_unspeakable
+extern _card_thief_of_hope
+extern _card_through_the_breach
+extern _card_uyo_silent_prophet
+extern _card_villainous_ogre
+extern _card_waking_nightmare
+extern _card_wear_away
+extern _card_wicked_akuba
+extern _card_yamabushis_flame
+extern _card_yamabushis_storm
+extern _card_azamuki_treachery_incarnate
+extern _card_cunning_bandit
+extern _card_baku_altar
+extern _card_bile_urchin
+extern _card_blademane_baku
+extern _card_blazing_shoal
+extern _card_ichiga_who_topples_oaks
+extern _card_jaraku_the_interloper
+extern _card_child_of_thorns
+extern _card_chisei_heart_of_oceans
+extern _card_crack_the_earth
+extern _card_day_of_destiny
+extern _card_disrupting_shoal
+extern _card_empty_shrine_kannushi
+extern _card_enshrined_memories
+extern _card_kaiso_memory_of_loyalty
+extern _card_first_volley
+extern _card_forked_branch_garami
+extern _card_frostling
+extern _card_fumiko_the_lowblood
+extern _card_genju_of_the_cedars
+extern _card_genju_of_the_falls
+extern _card_genju_of_the_fields
+extern _card_genju_of_the_realm
+extern _card_genju_of_the_spires
+extern _card_gods_eye_gate_to_reikai
+extern _card_goryos_vengeance
+extern _card_heartless_hidetsugu
+extern _card_scarmaker
+extern _card_hokori_dust_drinker
+extern _card_horobis_whisper
+extern _card_in_the_web_of_war
+extern _card_indebted_samurai
+extern _card_ire_of_kaminari
+extern _card_isao_enlightned_bushi
+extern _card_iwamori_the_open_fist
+extern _card_kami_of_false_hope
+extern _card_kentaro_the_smiling_cat
+extern _card_kyoki_sanitys_eclipse
+extern _card_lifegift
+extern _card_lifespinner
+extern _card_loam_dweller
+extern _card_mark_of_the_oni
+extern _card_matsu_tribe_sniper
+extern _card_moonlit_strider
+extern _card_mirror_gallery
+extern _card_neko_te
+extern _card_nourishing_shoal
+extern _card_ogre_marauder
+extern _card_opal_eye_kondas_yojimbo
+extern _card_orb_of_dreams
+extern _card_oyobi_who_splits_the_heavens
+extern _card_patron_of_the_akki
+extern _card_patron_of_the_kitsune
+extern _card_patron_of_the_moon
+extern _card_patron_of_the_nezumi
+extern _card_patron_of_the_orochi
+extern _card_petalmane_baku
+extern _card_reduce_to_dreams
+extern _card_ronin_warclub
+extern _card_sakiko_mother_of_summer
+extern _card_scourge_of_numai
+extern _card_shining_shoal
+extern _card_shuko
+extern _card_sickening_shoal
+extern _card_skullsnatcher
+extern _card_slumbering_tora
+extern _card_sosukes_summons
+extern _card_stir_the_grave
+extern _card_sway_of_the_stars
+extern _card_takenuma_bleeder
+extern _card_tallowisp
+extern _card_tendo_ice_bridge
+extern _card_terashis_grasp
+extern _card_that_which_was_taken
+extern _card_three_tragedies
+extern _card_tomorrow_azamis_familiar
+extern _card_toshiro_umezawa
+extern _card_unchecked_growth
+extern _card_waxmane_baku
+extern _card_yomiji_who_bars_the_way
+extern _card_yukora_the_prisoner
+extern _card_devastation_tide
+extern _card_mad_prophet
+extern _card_stern_mentor
+extern _card_undead_executioner
+extern _card_adamaro_first_to_desire
+extern _card_akki_drillmaster
+extern _card_akuta_born_from_ashes
+extern _card_arashi_the_sky_asunder
+extern _card_aether_shockwave
+extern _card_bounteous_kirin
+extern _card_celestial_kirin
+extern _card_charge_across_the_araba
+extern _card_choice_of_damnation
+extern _card_cloudhoof_kirin
+extern _card_death_denied
+extern _card_death_of_a_thousand_stings
+extern _card_descendant_of_kiyomaro
+extern _card_eiganjo_free_riders
+extern _card_descendant_of_masumaro
+extern _card_descendant_of_soramaro
+extern _card_ebony_owl_netsuke
+extern _card_elder_pine_of_jukai
+extern _card_erayo_soratami_ascendant
+extern _card_erayos_essence
+extern _card_eternal_dominion
+extern _card_evermind
+extern _card_exile_into_darkness
+extern _card_feral_lightning
+extern _card_footsteps_of_the_goryo
+extern _card_ghost_lit_nourisher
+extern _card_ghost_lit_raider
+extern _card_ghost_lit_redeemer
+extern _card_ghost_lit_stalker
+extern _card_haru_onna
+extern _card_homuras_essence
+extern _card_homura_human_ascendant
+extern _card_iizuka_the_restless
+extern _card_iname_as_one
+extern _card_infernal_kirin
+extern _card_ivory_crane_netsuke
+extern _card_jiwari_the_earth_aflame
+extern _card_kagemaro_first_to_suffer
+extern _card_kaho_minamo_hystorian
+extern _card_kami_of_the_tender_garden
+extern _card_kashi_tribe_elite
+extern _card_kemuri_onna
+extern _card_kikus_shadow
+extern _card_kiri_onna
+extern _card_kiyomaro_first_to_stand
+extern _card_kuon_essence
+extern _card_kuon_ogre_ascendant
+extern _card_kuros_taken
+extern _card_maga_traitor_to_mortals
+extern _card_manriki_gusari
+extern _card_masumaro_first_to_live
+extern _card_meishin_the_mind_cage
+extern _card_michiko_konda_truth_seeker
+extern _card_mikokoro_center_of_the_sea
+extern _card_molting_skin
+extern _card_murmurs_from_beyond
+extern _card_neverending_torment
+extern _card_nightsoil_kami
+extern _card_nikko_onna
+extern _card_o_naginata
+extern _card_oboro_palace_in_the_clouds
+extern _card_oni_of_the_wild_places
+extern _card_oppressive_will
+extern _card_overwhelming_intellect
+extern _card_pains_reward
+extern _card_path_of_angers_flame
+extern _card_promise_of_the_bunrei
+extern _card_promised_kannushi
+extern _card_raving_oni_slave
+extern _card_razorjaw_oni
+extern _card_reki_the_history_of_kamigawa
+extern _card_rending_vines
+extern _card_reverence
+extern _card_rune_tails_essence
+extern _card_rune_tail_kitsune_ascendant
+extern _card_special_effect
+extern _card_sakashima_the_impostor
+extern _card_sasayas_essence
+extern _card_sasaya_orochi_ascendant
+extern _card_seed_the_land
+extern _card_seek_the_horizon
+extern _card_sekki_seasons_guide
+extern _card_shinen_of_lifes_roar
+extern _card_sink_into_takenuma
+extern _card_skull_collector
+extern _card_skyfire_kirin
+extern _card_soramaro_first_to_dream
+extern _card_spiritual_visit
+extern _card_sunder_from_within
+extern _card_urami
+extern _card_tomb_of_urami
+extern _card_trusted_advisor
+extern _card_undying_flame
+extern _card_wine_of_blood_and_iron
+extern _card_yuki_onna
+extern _card_acorn_catapult
+extern _card_alliance_of_arms
+extern _card_archangel_of_strife
+extern _card_basandra_battle_seraph
+extern _card_celestial_force
+extern _card_champions_helm
+extern _card_collective_voyage
+extern _card_command_tower
+extern _card_damia_sage_of_stone
+extern _card_death_by_dragons
+extern _card_dread_cacodemon
+extern _card_ghave_guru_of_spores
+extern _card_homeward_path
+extern _card_hornet_queen
+extern _card_magmatic_force
+extern _card_mana_charged_dragon
+extern _card_minds_aglow
+extern _card_nin_the_pain_artist
+extern _card_riddlekeeper
+extern _card_scythe_specter
+extern _card_sewer_nemesis
+extern _card_shared_trauma
+extern _card_skullbriar_the_walking_grave
+extern _card_spell_crumple
+extern _card_syphon_flesh
+extern _card_tariel_reckoner_of_souls
+extern _card_trench_gorger
+extern _card_tribute_to_the_wild
+extern _card_vow_of_duty
+extern _card_vow_of_flight
+extern _card_vow_of_lightning
+extern _card_vow_of_malice
+extern _card_vow_of_wildness
+extern _card_zedruu_the_greathearted
+extern _card_nim_lasher
+extern _card_nim_shambler
+extern _card_felidar_umbra
+extern _card_illusory_angel
+extern _card_sakashimas_student
+extern _card_beetleback_chief
+extern _card_preyseizer_dragon
+extern _card_brindle_shoat
+extern _card_dreampod_druid
+extern _card_baleful_strix
+extern _card_dragonlair_spider
+extern _card_etherium_horn_sorcerer
+extern _card_indrik_umbra
+extern _card_krond_the_dawn_clad
+extern _card_jeweled_bird
+extern _card_silent_blade_oni
+extern _card_thromok_the_insatiable
+extern _card_vela_the_night_clad
+extern _card_fractured_powerstone
+extern _card_sai_of_the_shinobi
+extern _card_archaeomancer
+extern _card_nefarox_overlord_of_grixis
+extern _card_whims_of_the_fates
+extern _card_xathrid_gorgon
+extern _card_chandras_fury
+extern _card_centaur_token
+extern _card_agrus_kos_wojek_veteran
+extern _card_bathe_in_light
+extern _card_blazing_archon
+extern _card_bloodbond_march
+extern _card_autochthon_wurm
+extern _card_bloodletter_quill
+extern _card_boros_fury_shield
+extern _card_boros_guildmage
+extern _card_boros_recruit
+extern _card_talrand_sky_summoner
+extern _card_flames_of_the_firebrand
+extern _card_brainspoil
+extern _card_bramble_elemental
+extern _card_brightflame
+extern _card_centaur_safeguard
+extern _card_chant_of_vitu_ghazi
+extern _card_chorus_of_the_conclave
+extern _card_circu_dimir_lobotomist
+extern _card_cleansing_beam
+extern _card_clutch_of_the_undercity
+extern _card_concerted_effort
+extern _card_conclave_phalanx
+extern _card_consult_the_necrosages
+extern _card_convolute
+extern _card_copy_enchantment
+extern _card_crown_of_convergence
+extern _card_darkblast
+extern _card_devouring_light
+extern _card_dimir_cutpurse
+extern _card_dimir_doppelganger
+extern _card_dimir_guildmage
+extern _card_kaldra
+extern _card_kodama_of_the_north_tree
+extern _card_fabricate
+extern _card_maro
+extern _card_ajani_caller_of_the_pride
+extern _card_arctic_aven
+extern _card_attended_knight
+extern _card_augur_of_bolas
+extern _card_battlefligh_eagle
+extern _card_arms_dealer
+extern _card_blood_reckoning
+extern _card_bloodhunter_bat
+extern _card_consign_to_dust
+extern _card_boundless_realms
+extern _card_captains_call
+extern _card_cathedral_of_war
+extern _card_chadras_fury
+extern _card_chronomaton
+extern _card_cleaver_riot
+extern _card_courtly_provacateur
+extern _card_cower_in_fear
+extern _card_crimson_muckwader
+extern _card_crippling_blight
+extern _card_diabolic_revelation
+extern _card_disciple_of_bolas
+extern _card_downpour
+extern _card_duskmantle_prowler
+extern _card_duty_bound_dead
+extern _card_elderscale_wurm
+extern _card_encrust
+extern _card_erase
+extern _card_essence_drain
+extern _card_faerie_invaders
+extern _card_faiths_reward
+extern _card_firewing_phoenix
+extern _card_flinthoof_boar
+extern _card_fungal_sprouting
+extern _card_gem_of_becoming
+extern _card_goblin_battle_jester
+extern _card_griffin_protector
+extern _card_hamletback_goliath
+extern _card_harbor_bandit
+extern _card_healer_of_the_pride
+extern _card_hellion_crucible
+extern _card_hellion_token
+extern _card_jaces_phantasm
+extern _card_kindled_fury
+extern _card_kitesail
+extern _card_krenko_mob_boss
+extern _card_teferis_moat
+extern _card_liliana_of_the_dark_realms
+extern _card_lilianas_emblem
+extern _card_lilianas_shade
+extern _card_magmaquake
+extern _card_mark_of_the_vampire
+extern _card_mind_sculpt
+extern _card_mindclaw_shaman
+extern _card_murder2
+extern _card_mutilate
+extern _card_mwonvuli_beast_tracker
+extern _card_odric_master_tactician
+extern _card_omniscience
+extern _card_predatory_rampage
+extern _card_prized_elephant
+extern _card_public_execution
+extern _card_rangers_path
+extern _card_kragma_butcher
+extern _card_reliquiary_tower
+extern _card_card_ring_of_evos_isle
+extern _card_ring_of_kalonia
+extern _card_ring_of_thune
+extern _card_ring_of_valkas
+extern _card_ring_of_xathrid
+extern _card_roaring_primadox
+extern _card_rummaging_goblin
+extern _card_sands_of_delirium
+extern _card_serpents_gift
+extern _card_serra_avenger
+extern _card_shimian_specter
+extern _card_show_of_valor
+extern _card_silklash_spider
+extern _card_slumbering_dragon
+extern _card_spelltwine
+extern _card_staff_of_nin
+extern _card_sublime_archangel
+extern _card_switcheroo
+extern _card_talrands_invocation
+extern _card_thragtusk
+extern _card_thundermaw_hellkite
+extern _card_timberpack_wolf
+extern _card_touch_of_the_eternal
+extern _card_trading_post
+extern _card_tricks_of_the_trade
+extern _card_trumpet_blast
+extern _card_vedalken_entrancer
+extern _card_veilborn_ghoul
+extern _card_vile_rebirth
+extern _card_void_stalker
+extern _card_war_falcon
+extern _card_watercourser
+extern _card_wild_guess
+extern _card_wits_end
+extern _card_worldfire
+extern _card_yeva_forcemage
+extern _card_yeva_natures_herald
+extern _card_dimir_house_guard
+extern _card_dimir_infiltrator
+extern _card_dimir_machinations
+extern _card_dream_leash
+extern _card_drift_of_phantasms
+extern _card_drooling_groodion
+extern _card_dryads_caress
+extern _card_duskmantle_house_of_shadows
+extern _card_elvish_skysweeper
+extern _card_empty_the_catacombs
+extern _card_festival_of_the_guildpact
+extern _card_firemane_angel
+extern _card_fists_of_ironwood
+extern _card_flame_fusillade
+extern _card_flash_conscript
+extern _card_flight_of_fancy
+extern _card_flow_of_ideas
+extern _card_followed_footsteps
+extern _card_frenzied_goblin
+extern _card_gather_courage
+extern _card_ghosts_of_the_innocent
+extern _card_glare_of_subdual
+extern _card_gleancrawler
+extern _card_golgari_brownscale
+extern _card_golgari_germination
+extern _card_golgari_guildmage
+extern _card_golgari_rotwurm
+extern _card_graveshell_scarab
+extern _card_greater_mossdog
+extern _card_grozoth
+extern _card_guardian_of_vitu_ghazi
+extern _card_hammerfist_giant
+extern _card_hex
+extern _card_hour_of_reckoning
+extern _card_hunted_lammasu
+extern _card_hunted_phantasm
+extern _card_hunted_troll
+extern _card_induce_paranoia
+extern _card_ivy_dancer
+extern _card_keening_banshee
+extern _card_leave_no_trace
+extern _card_light_of_sanction
+extern _card_lore_broker
+extern _card_lurking_informant
+extern _card_mark_of_eviction
+extern _card_mindleech_mass
+extern _card_mindmoil
+extern _card_mnemonic_nexus
+extern _card_moldervine_cloak
+extern _card_moonlight_bargain
+extern _card_mortipede
+extern _card_muddle_the_mixture
+extern _card_necroplasm
+extern _card_nightmare_void
+extern _card_nullmage_shepherd
+extern _card_nullstone_gargoyle
+extern _card_oathsworn_giant
+extern _card_overwhelm2
+extern _card_plague_boiler
+extern _card_pollenbright_wings
+extern _card_endless_swarm
+extern _card_master_of_the_pearl_trident
+extern _card_primordial_sage
+extern _card_privileged_position
+extern _card_psychic_drain
+extern _card_rain_of_embers
+extern _card_rally_the_righteous
+extern _card_razias_purification
+extern _card_razia_boros_archangel
+extern _card_ribbons_of_night
+extern _card_rolling_spoil
+extern _card_savra_queen_of_the_golgari
+extern _card_seed_spark
+extern _card_seeds_of_strength
+extern _card_seismic_peak
+extern _card_selesnya_guildmage
+extern _card_leonine_arbiter
+extern _card_shadow_of_doubt
+extern _card_shambling_shell
+extern _card_shred_memory
+extern _card_sins_of_the_past
+extern _card_sisters_of_stone_death
+extern _card_smash2
+extern _card_sparkmage_apprentice
+extern _card_spawnbroker
+extern _card_stoneshaker_shaman
+extern _card_stoneseeder_hierophant
+extern _card_strands_of_undeath
+extern _card_sundering_vitae
+extern _card_sunforger
+extern _card_sunhome_enforcer
+extern _card_sunhome_fortress_of_the_legion
+extern _card_surge_of_zeal
+extern _card_svoghtos_the_restless_tomb
+extern _card_svoghtos_animated
+extern _card_szadeck_lord_of_secrets
+extern _card_thoughtpicker_witch
+extern _card_three_dreams
+extern _card_thundersong_trumpeter
+extern _card_transluminant
+extern _card_trophy_hunter
+extern _card_tunnel_vision
+extern _card_twisted_justice
+extern _card_ursapine
+extern _card_vigor_mortis
+extern _card_vinelasher_kudzu
+extern _card_voyager_staff
+extern _card_vulturous_zombie
+extern _card_warp_world
+extern _card_woebringer_demon
+extern _card_wojek_siren
+extern _card_absolver_thrull
+extern _card_abyssal_nocturnus
+extern _card_aetherplasm
+extern _card_beastmasters_magemark
+extern _card_belfry_spirit
+extern _card_blind_hunter
+extern _card_borborygmos
+extern _card_castigate
+extern _card_cerebral_vortex
+extern _card_conjurers_ban
+extern _card_crash_landing
+extern _card_cremate
+extern _card_cry_of_contrition
+extern _card_culling_sun
+extern _card_debtors_knell
+extern _card_djinn_illuminatus
+extern _card_droning_bureaucrats
+extern _card_drowned_rusalka
+extern _card_dryad_sophisticate
+extern _card_dune_brood_nephilim
+extern _card_fencers_magemark
+extern _card_feral_animist
+extern _card_gatherer_of_graces
+extern _card_gelectrode
+extern _card_ghost_council_of_orzhova
+extern _card_ghostway
+extern _card_gigadrowse
+extern _card_glint_eye_nephilim
+extern _card_graven_dominator
+extern _card_gristleback
+extern _card_gruul_guildmage
+extern _card_gruul_war_plow
+extern _card_hatching_plans
+extern _card_hissing_miasma
+extern _card_infiltrators_magemark
+extern _card_invoke_the_firemind
+extern _card_izzet_guildmage
+extern _card_killer_instinct
+extern _card_leyline_of_lightning
+extern _card_leap_of_flame
+extern _card_leyline_of_singularity
+extern _card_leyline_of_the_meek
+extern _card_martyred_rusalka
+extern _card_mimeofacture
+extern _card_mizzium_transreliquat
+extern _card_moratorium_stone
+extern _card_mourning_thrull
+extern _card_necromancers_magemark
+extern _card_order_of_the_stars
+extern _card_orzhov_guildmage
+extern _card_orzhov_pontiff
+extern _card_orzhova_the_church_of_deals
+extern _card_parallectric_feedback
+extern _card_petrified_wood_kin
+extern _card_pillory_of_the_sleepless
+extern _card_plagued_rusalka
+extern _card_primeval_light
+extern _card_pyromatics
+extern _card_revenant_patriarch
+extern _card_sanguine_praetor
+extern _card_scab_clan_mauler
+extern _card_schismotivate
+extern _card_scorched_rusalka
+extern _card_seize_the_soul
+extern _card_shadow_lance
+extern _card_shattering_spree
+extern _card_silhana_ledgewalker
+extern _card_skarrg_the_rage_pit
+extern _card_skarrgan_pit_skulk
+extern _card_skeletal_vampire
+extern _card_smogsteed_rider
+extern _card_souls_of_the_faultless
+extern _card_spelltithe_enforcer
+extern _card_starved_rusalka
+extern _card_stitch_in_time
+extern _card_storm_herd
+extern _card_sword_of_the_paruns
+extern _card_teysa_orzhov_scion
+extern _card_tibor_and_lumia
+extern _card_tin_street_hooligan
+extern _card_train_of_thoughts
+extern _card_vedalken_plotter
+extern _card_vertigo_spawn
+extern _card_wee_dragonauts
+extern _card_wild_cantor
+extern _card_wildsize
+extern _card_witch_maw_nephilim
+extern _card_wreak_havok
+extern _card_wurmweaver_coil
+extern _card_yore_tiller_nephilim
+extern _card_hydrosurge
+extern _card_aethermages_touch
+extern _card_anthem_of_rakdos
+extern _card_aquastrand_spider
+extern _card_azorius_guildmage
+extern _card_azorius_herald
+extern _card_azorius_ploy
+extern _card_beacon_hawk
+extern _card_biomantic_mastery
+extern _card_blessing_of_the_nephilim
+extern _card_bond_of_agony
+extern _card_bound_determined
+extern _card_brain_pry
+extern _card_celestial_ancient
+extern _card_crime_punishment
+extern _card_cytoplast_manipulator
+extern _card_cytoshape
+extern _card_cytospawn_shambler
+extern _card_delirium_skeins
+extern _card_demonfire
+extern _card_development_research
+extern _card_bird_token
+extern _card_dovescape
+extern _card_dread_slag
+extern _card_drekavac
+extern _card_elemental_resonance
+extern _card_odds_ends
+extern _card_enemy_of_the_guildpact
+extern _card_error_trial
+extern _card_evolution_vat
+extern _card_fall_rise
+extern _card_flame_kin_war_scout
+extern _card_flaring_flame_kin
+extern _card_freewind_equenaut
+extern _card_gobhobbler_rats
+extern _card_guardian_of_the_guildpact
+extern _card_haazda_shield_mate
+extern _card_helium_squirter
+extern _card_hellhole_rats
+extern _card_hide_seek
+extern _card_hit_run
+extern _card_isperia_the_inscrutable
+extern _card_jagged_poppet
+extern _card_loaming_shaman
+extern _card_lyzolda_the_blood_witch
+extern _card_macabre_waltz
+extern _card_nihilistic_glee
+extern _card_novijen_sages
+extern _card_novijen_heart_of_progress
+extern _card_omnibian
+extern _card_overrule
+extern _card_pain_magnification
+extern _card_defender_of_chaos
+extern _card_might_of_the_nephilim
+extern _card_paladin_of_prahv
+extern _card_patagia_viper
+extern _card_plumes_of_peace
+extern _card_prahv_spires_of_order
+extern _card_pride_of_clouds
+extern _card_proclamation_of_rebirth
+extern _card_proper_burial
+extern _card_psychic_possession
+extern _card_psychotic_fury
+extern _card_pure_simple
+extern _card_raggamuffyn
+extern _card_rakdos_augermage
+extern _card_rakdos_guildmage
+extern _card_goblin_token
+extern _card_rakdos_ickspitter
+extern _card_rakdos_riteknife
+extern _card_rakdos_the_defiler
+extern _card_ratcatcher
+extern _card_riot_spikes
+extern _card_rix_maadi_dungeon_palace
+extern _card_seal_of_doom
+extern _card_simic_basilisk
+extern _card_simic_guildmage
+extern _card_simic_initiate
+extern _card_sky_hussar
+extern _card_skyscribing
+extern _card_slithering_shade
+extern _card_soulsworn_jury
+extern _card_sporeback_troll
+extern _card_sprouting_phytohydra
+extern _card_squealing_devil
+extern _card_stalking_vengeance
+extern _card_stomp_and_howl
+extern _card_stormscale_anarch
+extern _card_taste_for_mayhem
+extern _card_tidespout_tyrant
+extern _card_twinstrike
+extern _card_unliving_psychopath
+extern _card_vigean_graftmage
+extern _card_vigean_hydropon
+extern _card_vision_skeins
+extern _card_wakestone_gargoyle
+extern _card_windreaver
+extern _card_wrecking_ball
+extern _card_aether_web
+extern _card_aetherflame_wall
+extern _card_vitalizing_cascade
+extern _card_amrou_seekers
+extern _card_angels_grace
+extern _card_aspect_of_the_mangoose
+extern _card_basal_sliver
+extern _card_benalish_cavalry
+extern _card_arrogant_wurm
+extern _card_call_to_the_netherworld
+extern _card_candles_of_leng
+extern _card_chameleon_blur
+extern _card_celestial_crusader
+extern _card_children_of_korlis
+extern _card_chronatog
+extern _card_chronatog_totem
+extern _card_chronosavant
+extern _card_clockspinning
+extern _card_clockwork_hydra
+extern _card_cloudchaser_kestrel
+extern _card_coal_stoker
+extern _card_conflagrate
+extern _card_coral_trickster
+extern _card_curse_of_the_cabal
+extern _card_dark_withering
+extern _card_deathspore_thallid
+extern _card_deep_sea_kraken
+extern _card_draining_whelk
+extern _card_dralnu_lich_lord
+extern _card_dream_stalker
+extern _card_durkwood_baloth
+extern _card_endrek_sahr_master_breeder
+extern _card_errant_doomsayer
+extern _card_errant_ephemeron
+extern _card_memory_crystal
+extern _card_evangelize
+extern _card_fathom_seer
+extern _card_firewake_sliver
+extern _card_fledgling_mawcor
+extern _card_flickering_spirit
+extern _card_flowstone_channeler
+extern _card_foriysian_totem
+extern _card_fortify
+extern _card_fortune_thief
+extern _card_fungus_sliver
+extern _card_gemstone_caverns
+extern _card_goblin_skycutter
+extern _card_gorgon_recluse
+extern _card_grapeshot
+extern _card_greenseeker
+extern _card_griffin_guide
+extern _card_ground_rift
+extern _card_haunting_hymn
+extern _card_herd_gnarr
+extern _card_hivestone
+extern _card_ib_halfheart_goblin_tactician
+extern _card_icatian_crier
+extern _card_ith_high_arcanist
+extern _card_ivory_giant
+extern _card_ixidron
+extern _card_jediths_dragoons
+extern _card_jhoiras_timebug
+extern _card_kaervek_the_merciless
+extern _card_kher_keep
+extern _card_knight_of_the_holy_nimbus
+extern _card_krosan_grip
+extern _card_liege_of_the_pit
+extern _card_lim_dul_the_necromancer
+extern _card_living_end
+extern _card_nevinyrrals_disk
+extern _card_magus_of_the_jar
+extern _card_mangara_of_corondor
+extern _card_might_of_old_krosa
+extern _card_mindlash_sliver
+extern _card_mishra_artificer_prodigy
+extern _card_mogg_war_marshal
+extern _card_molder2
+extern _card_nether_traitor
+extern _card_nightshade_assassin
+extern _card_norin_the_wary
+extern _card_lockets_of_yesterday
+extern _card_opaline_sliver
+extern _card_outrider_en_kor
+extern _card_paradise_plume
+extern _card_paradox_haze
+extern _card_pardic_dragon
+extern _card_pendelhaven_elder
+extern _card_pentarch_paladin
+extern _card_spider_token
+extern _card_penumbra_spider
+extern _card_phantom_wurm
+extern _card_phthisis
+extern _card_phyrexian_totem
+extern _card_pit_keeper
+extern _card_plated_pegasus
+extern _card_prismatic_lens
+extern _card_psychotic_episode
+extern _card_pull_from_eternity
+extern _card_pulmonic_sliver
+extern _card_quilled_sliver
+extern _card_restore_balance
+extern _card_return_to_dust
+extern _card_rift_bolt
+extern _card_saffi_eriksdotter
+extern _card_sangrophage
+extern _card_sarpadian_empires_vol_vii
+extern _card_savage_thallid
+extern _card_screeching_sliver
+extern _card_sedge_sliver
+extern _card_bat_token
+extern _card_sengir_nosferatu
+extern _card_shadow_sliver
+extern _card_sidewinder_sliver
+extern _card_snapback
+extern _card_spiketail_drakeling
+extern _card_sprite_noble
+extern _card_stonebrow_krosan_hero
+extern _card_strangling_soot
+extern _card_strength_in_numbers
+extern _card_subterranean_shambler
+extern _card_sudden_death
+extern _card_sudden_shock
+extern _card_sudden_spoiling
+extern _card_sulfurous_blast
+extern _card_swarmyard
+extern _card_thallid_germinator
+extern _after_damage
+extern _card_thelonite_hermit
+extern _card_thick_skinned_goblin
+extern _card_thunder_totem
+extern _card_tivadar_of_thorn
+extern _card_trump_the_domains
+extern _card_unyaro_bees
+extern _card_urborg_syphon_mage
+extern _card_urzas_factory
+extern _card_vampiric_sliver
+extern _card_verdant_embrace
+extern _card_volcanic_awakening
+extern _card_walk_the_aeons
+extern _card_weathered_bodyguards
+extern _card_weatherseed_totem
+extern _card_wheel_of_fate
+extern _card_wipe_away
+extern _card_word_of_seizing
+extern _card_wurmcalling
+extern _card_yavimaya_dryad
+extern _card_ana_battlemage
+extern _card_auramancers_guise
+extern _card_aven_riftwatcher
+extern _card_benalish_commander
+extern _card_big_game_hunter
+extern _card_goblin_shrine
+extern _card_goblin_caves
+extern _card_blightspeaker
+extern _card_boom_bust
+extern _card_braids_conjurer_adept
+extern _card_cautery_sliver
+extern _card_chronozoa
+extern _card_circle_of_affliction
+extern _card_darkheart_sliver
+extern _card_dash_hopes
+extern _card_dawn_charm
+extern _card_detritivore
+extern _card_dichotomancy
+extern _card_dormant_sliver
+extern _card_dust_elemental
+extern _card_fatal_frenzy
+extern _card_frenetic_sliver
+extern _card_fungal_behemoth
+extern _card_fury_charm
+extern _card_hedge_troll
+extern _card_heroes_remembered
+extern _card_jedit_ojanen_of_efrava
+extern _card_cat_token
+extern _card_jodahs_avenger
+extern _card_kor_dirge
+extern _card_magus_of_the_coffers
+extern _card_mirri_the_cursed
+extern _card_pestilence
+extern _card_ovinize
+extern _card_pallid_mycoderm
+extern _card_ape_token
+extern _card_pongify
+extern _card_psychotrope_thallid
+extern _card_rathi_trapper
+extern _card_rebuff_the_wicked
+extern _card_retether
+extern _card_riftmarked_knight
+extern _card_knight_token
+extern _card_roiling_horror
+extern _card_saltblast
+extern _card_shade_of_trokair
+extern _card_shaper_parasite
+extern _card_shivan_meteor
+extern _card_shrouded_lore
+extern _card_simian_spirit_guide
+extern _card_skirk_shaman
+extern _card_stonecloaker
+extern _card_sulfur_elemental
+extern _card_sunlance
+extern _card_temporal_extortion
+extern _card_torchling
+extern _card_treacherous_urge
+extern _card_uktabi_drake
+extern _card_urborg_tomb_of_yawgmoth
+extern _card_vitaspore_thallid
+extern _card_voidstone_gargoyle
+extern _card_volcano_hellion
+extern _card_whitemane_lion
+extern _card_wild_pair
+extern _card_wistful_thinking
+extern _card_arcanum_wings
+extern _card_augur_of_skulls
+extern _card_aven_mindcensor
+extern _card_barren_glory
+extern _card_baru_fist_of_krosa
+extern _card_bitter_ordeal
+extern _card_bonded_fetch
+extern _card_centaur_omenreader
+extern _card_chronomantic_escape
+extern _card_cloud_key
+extern _card_cloudseeder
+extern _card_cryptic_anellid
+extern _card_dakmor_salvage
+extern _card_daybreak_coronet
+extern _card_death_rattle
+extern _card_delay
+extern _card_emberwilde_augur
+extern _card_emblem_of_the_warmind
+extern _card_festering_march
+extern _card_fleshwrither
+extern _card_frenzy_sliver
+extern _card_gathan_rider
+extern _card_gibbering_descend
+extern _card_glittering_wish
+extern _card_goldmeadow_lookout
+extern _card_grinning_ignus
+extern _card_homing_sliver
+extern _card_ichor_slick
+extern _card_intervention_pact
+extern _card_keldon_megaliths
+extern _card_knight_of_sursi
+extern _card_korlash_heir_to_blackblade
+extern _card_lynessa_zephyr_mage
+extern _card_llanowar_empath
+extern _card_llanowar_mentor
+extern _card_llanowar_reborn
+extern _card_logic_knot
+extern _card_lost_auramancers
+extern _card_lumithread_field
+extern _card_lymph_sliver
+extern _card_maelstrom_djinn
+extern _card_marshaling_cry
+extern _card_mesmeric_sliver
+extern _card_minions_murmurs
+extern _card_molten_disaster
+extern _card_mystic_speculation
+extern _card_new_benalia
+extern _card_nihilith
+extern _card_nimbus_maze
+extern _card_oriss_samite_guardian
+extern _card_pact_of_the_titan
+extern _card_pyromancers_swath
+extern _card_patricians_scorn
+extern _card_ramosia_revivalist
+extern _card_ravaging_riftwurm
+extern _card_reality_strobe
+extern _card_riddle_of_lightning
+extern _card_rift_elemental
+extern _card_riftsweeper
+extern _card_river_of_tears
+extern _card_saltskitter
+extern _card_scourge_of_kher_ridges
+extern _card_sehts_tiger
+extern _card_shah_of_naar_isle
+extern _card_shapeshifters_marrow
+extern _card_festering_goblin
+extern _card_skirk_ridge_exhumer
+extern _card_slaughter_pact
+extern _card_sliversmith
+extern _card_soultether_golem
+extern _card_sparkspitter
+extern _card_spellweaver_volute
+extern _card_spin_into_myth
+extern _card_spirit_en_dal
+extern _card_sporoloth_ancient
+extern _card_storm_entity
+extern _card_stronghold_rats
+extern _card_tarox_bladewing
+extern _card_sengir_bats
+extern _card_unblinking_bleb
+extern _card_utopia_mycon
+extern _card_vedalken_aethermage
+extern _card_veilstone_amulet
+extern _card_wrap_in_vigor
+extern _card_adder_staff_boggart
+extern _card_aethersnipe
+extern _card_amoeboid_changeling
+extern _card_ancient_amphitheater
+extern _card_aquitects_will
+extern _card_arbiter_of_knollridge
+extern _card_ashling_the_pilgrim
+extern _card_ashlings_prerogative
+extern _card_aunties_hovel
+extern _card_battle_mastery
+extern _card_battlewand_oak
+extern _card_blades_of_velis_vel
+extern _card_boggart_birth_rite
+extern _card_boggart_harbinger
+extern _card_boggart_mob
+extern _card_boggart_shenanigans
+extern _card_boggart_sprite_chaser
+extern _card_briarhorn
+extern _card_brigid_hero_of_kinsbaile
+extern _card_broken_ambitions
+extern _card_angel_of_serenity
+extern _card_armory_guard
+extern _card_azorius_arrester
+extern _card_azorius_justiciar
+extern _card_bazaar_krovod
+extern _card_ethereal_armor
+extern _card_eyes_in_the_sky
+extern _card_knightly_valor
+extern _card_martial_law
+extern _card_palisade_giant
+extern _card_phantom_general
+extern _card_precint_captain
+extern _card_rest_in_peace
+extern _card_rootborn_defenses
+extern _card_security_blockade
+extern _card_selesnya_sentry
+extern _card_seller_of_songbirds
+extern _card_soul_tithe
+extern _card_swift_justice
+extern _card_trostanis_judgement
+extern _card_aquus_steed
+extern _card_chronic_flooding
+extern _card_cyclonic_rift
+extern _card_doorkeeper
+extern _card_crosstown_courier
+extern _card_downsize
+extern _card_faerie_impostor
+extern _card_inaction_injunction
+extern _card_jace_architect_of_thought
+extern _card_mizzium_skin
+extern _card_psychic_spiral
+extern _card_runewing
+extern _card_search_the_city
+extern _card_soulsworn_spirit
+extern _card_sphinx_of_the_chimes
+extern _card_stealer_of_secrets
+extern _card_syncopate
+extern _card_tower_drake
+extern _card_voidwielder
+extern _card_assassins_strike
+extern _card_dark_revenant
+extern _card_dark_reveler
+extern _card_desecration_demon
+extern _card_destroy_the_evidence
+extern _card_deviant_glee
+extern _card_drainpipe_vermin
+extern _card_grave_betrayal
+extern _card_launch_party
+extern _card_grim_roustabout
+extern _card_necropolis_regent
+extern _card_ogre_jailbreaker
+extern _card_pack_rat
+extern _card_perilous_shadow
+extern _card_sewer_shambler
+extern _card_shrieking_affliction
+extern _card_tavern_swindler
+extern _card_terrus_wurm
+extern _card_thrill_kill_assassin
+extern _card_ultimate_price
+extern _card_zanikev_locust
+extern _card_necromaster_dragon
+extern _card_batterhorn
+extern _card_bellows_lizard
+extern _card_chaos_imps
+extern _card_dynacharge
+extern _card_electrickery
+extern _card_goblin_rally
+extern _card_guild_feud
+extern _card_guttersnipe
+extern _card_lobber_crew
+extern _card_mizzium_mortars
+extern _card_pursuit_of_flight
+extern _card_pyroconvergence
+extern _card_racecourse_fury
+extern _card_street_spasm
+extern _card_survey_the_wreckage
+extern _card_traitorous_instinct
+extern _card_utvara_hellkite
+extern _card_vandalblast
+extern _card_viashino_racketeer
+extern _card_aerial_predation
+extern _card_axebane_guardian
+extern _card_centaurs_herald
+extern _card_chorus_of_might
+extern _card_deadbridge_goliath
+extern _card_deaths_presence
+extern _card_drudge_beetle
+extern _card_druids_deliverance
+extern _card_gatecreeper_vine
+extern _card_gobbling_ooze
+extern _card_golgari_decoy
+extern _card_horncallers_chant
+extern _card_rhino_token
+extern _card_mana_bloom
+extern _card_oak_street_innkeeper
+extern _card_savage_surge
+extern _card_slime_molding
+extern _card_stonefare_crocodile
+extern _card_urban_burgeoning
+extern _card_wild_beastmaster
+extern _card_worldspine_wurm
+extern _card_abrupt_decay
+extern _card_archon_of_the_triumvirate
+extern _card_armada_wurm
+extern _card_auger_spree
+extern _card_azorius_charm
+extern _card_call_of_the_conclave
+extern _card_carnival_hellsteed
+extern _card_centaur_healer
+extern _card_chemisters_trick
+extern _card_common_bond
+extern _card_detention_sphere
+extern _card_epic_experiment
+extern _card_dreg_mangler
+extern _card_dreadbore
+extern _card_dramatic_rescue
+extern _card_essence_backlash
+extern _card_fall_of_the_gavel
+extern _card_fireminds_foresight
+extern _card_goblin_electromancer
+extern _card_golgari_charm
+extern _card_grisly_salvage
+extern _card_havoc_festival
+extern _card_hellhole_flailer
+extern _card_heroes_reunion
+extern _card_hussar_patrol
+extern _card_hypersonic_dragon
+extern _card_isperia_supreme_judge
+extern _card_izzet_charm
+extern _card_izzet_staticaster
+extern _card_jarad_golgari_lich_lord
+extern _card_jarads_orders
+extern _card_korozda_guildmage
+extern _card_lotleth_troll
+extern _card_mercurial_chemister
+extern _card_new_prahv_guildmage
+extern _card_nivix_guildmage
+extern _card_niv_mizzet_dracogenius
+extern _card_rakdos_charm
+extern _card_rakdos_ragemutt
+extern _card_rakdos_ringleader
+extern _card_rakdos_lord_of_riots
+extern _card_rakdoss_return
+extern _card_righteous_autority
+extern _card_rites_of_reaping
+extern _card_rix_maadi_guildmage
+extern _card_search_warrant
+extern _card_selesnya_charm
+extern _card_skull_rend
+extern _card_skymark_roc
+extern _card_slaughter_games
+extern _card_sluiceway_scorpion
+extern _card_sphynxs_revelation
+extern _card_supreme_verdict
+extern _card_teleportal
+extern _card_thoughtflare
+extern _card_treasured_find
+extern _card_trestle_troll
+extern _card_trostani_selesnyas_voice
+extern _card_vitu_ghazi_guildmage
+extern _card_vraska_the_unseen
+extern _card_wayfaring_temple
+extern _card_azors_elocutors
+extern _card_blistercoil_weird
+extern _card_cryptborn_horror
+extern _card_deathrite_shaman
+extern _card_dryad_militant
+extern _card_frostburn_weird
+extern _card_golgari_longlegs
+extern _card_growing_ranks
+extern _card_judges_familiar
+extern _card_nivmagus_elemental
+extern _card_rakdos_cackler
+extern _card_rakdos_shred_freak
+extern _card_slitherhead
+extern _card_sundering_growth
+extern _card_seal_of_fire
+extern _card_azorius_keyrune
+extern _card_chromatic_lantern
+extern _card_civic_saber
+extern _card_codex_shredder
+extern _card_golgari_keyrune
+extern _card_izzet_keyrune
+extern _card_rakdos_keyrune
+extern _card_selesnya_keyrune
+extern _card_street_sweeper
+extern _card_tablet_of_the_guilds
+extern _card_volatile_rig
+extern _card_azorius_guildgate
+extern _card_grove_of_the_guardian
+extern _card_rogues_passage
+extern _card_transguild_promenade
+extern _card_survivor_token
+extern _card_assassin_token
+extern _card_caterwauling_boggart
+extern _card_cenns_heir
+extern _card_changeling_berserker
+extern _card_changeling_hero
+extern _card_colfenors_urn
+extern _card_crib_swap
+extern _card_deathrender
+extern _card_dolmen_gate
+extern _card_dread
+extern _card_ego_erasure
+extern _card_elvish_branchbender
+extern _card_elvish_harbinger
+extern _card_elvish_promenade
+extern _card_epic_proportions
+extern _card_eyeblights_ending
+extern _card_facevaulter
+extern _card_faerie_harbinger
+extern _card_faerie_taunting
+extern _card_fallowsage
+extern _card_familiars_rouse
+extern _card_fathom_trawl
+extern _card_favor_of_the_mighty
+extern _card_flamekin_bladewhirl
+extern _card_flamekin_spitfire
+extern _card_fodder_launch
+extern _card_forced_fruition
+extern _card_galepowder_mage
+extern _card_ghostly_changeling
+extern _card_giant_harbinger
+extern _card_giants_ire
+extern _card_gilt_leaf_ambush
+extern _card_gilt_leaf_palace
+extern _card_gilt_leaf_seer
+extern _card_guile
+extern _card_heat_shimmer
+extern _card_hoarders_greed
+extern _card_hoofprints_of_the_stag
+extern _card_horde_of_notions
+extern _card_hostility
+extern _card_howltooth_hollow
+extern _card_immaculate_magistrate
+extern _card_incandescent_soulstoke
+extern _card_incendiary_command
+extern _card_kinsbaille_skirmisher
+extern _card_kithkin_greatheart
+extern _card_kithkin_harbinger
+extern _card_militias_pride
+extern _card_pollen_lullaby
+extern _card_purity
+extern _card_shields_of_velis_vel
+extern _card_summon_the_school
+extern _card_surge_of_thoughtweft
+extern _card_thoughtweft_trio
+extern _card_whispmare
+extern _card_merrow_commerce
+extern _card_merrow_harbinger
+extern _card_mistbind_clique
+extern _card_scattering_stroke
+extern _card_shapesharer
+extern _card_stonybrook_angler
+extern _card_surgespanner
+extern _card_wanderwine_prophet
+extern _card_wings_of_velis_vel
+extern _card_incremental_growth
+extern _card_ingot_chewer
+extern _card_inner_flame_acolyte
+extern _card_inner_flame_igniter
+extern _card_jagged_scar_archers
+extern _card_judge_of_the_currents
+extern _card_kithkin_mourncaller
+extern _card_knucklebone_witch
+extern _card_lash_out
+extern _card_lignify
+extern _card_lys_alana_huntmaster
+extern _card_mad_auntie
+extern _card_marsh_flitter
+extern _card_masked_admirers
+extern _card_mosswort_bridge
+extern _card_mournwhelk
+extern _card_nameless_inversion
+extern _card_nath_of_the_gilt_leaf
+extern _card_nightshade_stinger
+extern _card_nova_chaser
+extern _card_peppersmoke
+extern _card_prowess_of_the_fair
+extern _card_rebellion_of_the_flamekin
+extern _card_rootgrapple
+extern _card_runed_stalactite
+extern _card_secluded_glen
+extern _card_seedguide_ash
+extern _card_silvergill_douser
+extern _card_skeletal_changeling
+extern _card_soulbright_flamekin
+extern _card_spinerock_knoll
+extern _card_spring_cleaning
+extern _card_squeaking_pie_sneak
+extern _card_stinkdrinker_daredevil
+extern _card_sunrise_sovereign
+extern _card_sygg_river_guide
+extern _card_thousand_year_elixir
+extern _card_thundercloud_shaman
+extern _card_vigor
+extern _card_wanderwine_hub
+extern _card_wort_boggart_auntie
+extern _card_ambassador_oak
+extern _card_aunties_snitch
+extern _card_bullyrush_banneret
+extern _card_battletide_alchemist
+extern _card_blightsoil_druid
+extern _card_boldwyr_heavyweights
+extern _card_borderland_behemoth
+extern _card_brightheart_banneret
+extern _card_cloak_and_dagger
+extern _card_curse_of_echoes
+extern _card_declaration_of_naught
+extern _card_deglamer
+extern _card_distant_melody
+extern _card_diviners_wand
+extern _card_door_of_destinies
+extern _card_earwig_squad
+extern _card_fertilid
+extern _card_festercreep
+extern _card_feudkiller_verdict
+extern _card_forfend
+extern _card_frogtosser_banneret
+extern _card_gilt_leaf_archdruid
+extern _card_graceful_reprieve
+extern _card_greatbow_doyen
+extern _card_grimoire_thief
+extern _card_hunting_triad
+extern _card_ink_dissolver
+extern _card_inspired_sprite
+extern _card_kinsbaile_borderguard
+extern _card_kinsbaile_cavalier
+extern _card_kithkin_zephyrnaut
+extern _card_knowledge_exploitation
+extern _card_lightning_crafter
+extern _card_lys_alana_bowmaster
+extern _card_maralen_of_the_mornsong
+extern _card_meadowboon
+extern _card_merrow_witsniper
+extern _card_moonglove_changeling
+extern _card_morsel_theft
+extern _card_mosquito_guard
+extern _card_mothdust_changeling
+extern _card_nevermaker
+extern _card_noggin_whack
+extern _card_notorious_throng
+extern _card_offalsnout
+extern _card_orchard_warden
+extern _card_prickly_boggart
+extern _card_pyroclast_consul
+extern _card_rage_forger
+extern _card_reach_of_branches
+extern _card_redeem_the_lost
+extern _card_release_the_ants
+extern _card_research_the_deep
+extern _card_revive_the_fallen
+extern _card_rhys_the_exiled
+extern _card_rustic_clachan
+extern _card_sage_of_fables
+extern _card_scarblade_elite
+extern _card_sensation_gorger
+extern _card_shard_volley
+extern _card_shared_animosity
+extern _card_shinewed
+extern _card_sigil_tracer
+extern _card_slithermuse
+extern _card_spitebellows
+extern _card_squeaking_pie_grubfellows
+extern _card_stenchskipper
+extern _card_stinkdrinker_bandit
+extern _card_stonehewer_giant
+extern _card_stonybrook_schoolmaster
+extern _card_tauren_mauler
+extern _card_thieves_fortune
+extern _card_thornbite_staff
+extern _card_titans_revenge
+extern _card_unstoppable_ash
+extern _card_vengeful_firebrand
+extern _card_veterans_armaments
+extern _card_wandering_graybeard
+extern _card_weirding_shaman
+extern _card_wolf_skull_shaman
+extern _card_advice_from_the_fae
+extern _card_aethertow
+extern _card_ashenmoor_liege
+extern _card_barkshell_blessing
+extern _card_blight_sickle
+extern _card_bloodmark_mentor
+extern _card_blowfly_infestation
+extern _card_boartusk_liege
+extern _card_cauldron_of_souls
+extern _card_cemetery_puca
+extern _card_chainbreaker
+extern _card_animate_dead
+extern _card_cinderhaze_wretch
+extern _card_corrosive_mentor
+extern _card_counterbore
+extern _card_cragganwick_cremator
+extern _card_crowd_of_cinders
+extern _card_dawnglove_infusion
+extern _card_deep_slumber_titan
+extern _card_deus_of_calamity
+extern _card_devoted_druid
+extern _card_din_of_the_fireherd
+extern _card_dire_undercurrents
+extern _card_disturbing_plot
+extern _card_dramatic_entrance
+extern _card_dream_salvage
+extern _card_drove_of_elves
+extern _card_drowner_initiate
+extern _card_dusk_urchins
+extern _card_elemental_mastery
+extern _card_elvish_hexhunter
+extern _card_enchanted_evening
+extern _card_farie_macabre
+extern _card_faerie_swarm
+extern _card_farhaven_elf
+extern _card_fate_transfer
+extern _card_firespout
+extern _card_fists_of_the_demigod
+extern _card_fracturing_gust
+extern _card_furystoke_giant
+extern _card_ghastlord_of_fugue
+extern _card_ghastly_discovery
+extern _card_giantbaiting
+extern _card_glen_elendra_liege
+extern _card_gnarled_effigy
+extern _card_godhead_of_awe
+extern _card_greater_auramancy
+extern _card_grief_tyrant
+extern _card_grim_poppet
+extern _card_heap_doll
+extern _card_heartmender
+extern _card_helm_of_the_ghastlord
+extern _card_hollowborn_barghest
+extern _card_hollowsage
+extern _card_horde_of_boggarts
+extern _card_howl_of_the_night_pack
+extern _card_improptu_raid
+extern _card_incremental_blight
+extern _card_inkfathom_infiltrator
+extern _card_inkfathom_witch
+extern _card_intimidator_initiate
+extern _card_isleback_spawn
+extern _card_juvenile_gloomwidow
+extern _card_kithkin_rabble
+extern _card_knacksaw_clique
+extern _card_knollspine_dragon
+extern _card_knollspine_invocation
+extern _card_kulrath_knight
+extern _card_leech_bonder
+extern _card_leechridden_swamp
+extern _card_lockjaw_snapper
+extern _card_lurebound_scarecrow
+extern _card_madblind_mountain
+extern _card_mana_reflection
+extern _card_manaforge_cinder
+extern _card_mass_calcify
+extern _card_medicine_runner
+extern _card_memory_plunder
+extern _card_mercy_killing
+extern _card_midnight_banshee
+extern _card_mine_excavation
+extern _card_mistmeadow_witch
+extern _card_mistveil_plains
+extern _card_moonring_island
+extern _card_morselhoarder
+extern _card_mossbridge_troll
+extern _card_nurturer_initiate
+extern _card_oracle_of_nectars
+extern _card_order_of_whiteclay
+extern _card_pili_pala
+extern _card_plague_of_vermin
+extern _card_polluted_bonds
+extern _card_pucas_mischief
+extern _card_puncture_bolt
+extern _card_put_away
+extern _card_rage_reflection
+extern _card_raking_canopy
+extern _card_reaper_king
+extern _card_repel_intruders
+extern _card_resplendant_mentor
+extern _card_rhys_the_redeemed
+extern _card_rite_of_consumption
+extern _card_rivers_grasp
+extern _card_roughshod_mentor
+extern _card_runed_halo
+extern _card_runes_of_the_deus
+extern _card_safewright_quest
+extern _card_sapseep_forest
+extern _card_savor_the_moment
+extern _card_scarscale_ritual
+extern _card_scuzzback_marauders
+extern _card_scuzzback_scrapper
+extern _card_seedcradle_witch
+extern _card_shield_of_the_oversoul
+extern _card_leviathan
+extern _card_smolder_initiate
+extern _card_somnomancer
+extern _card_sootstoke_kindler
+extern _card_spiteflame_witch
+extern _card_spiteful_visions
+extern _card_steel_of_the_godhead
+extern _card_swans_of_bryn_argoll
+extern _card_sygg_river_cutthroat
+extern _card_tattermunge_witch
+extern _card_thistledown_liege
+extern _card_thought_reflection
+extern _card_thoughtweft_gambit
+extern _card_torrent_of_souls
+extern _card_tower_above
+extern _card_trip_noose
+extern _card_turn_to_mist
+extern _card_twilight_shepherd
+extern _card_tyrannize
+extern _card_umbral_mantle
+extern _card_valleymaker
+extern _card_wheel_of_sun_and_moon
+extern _card_windbrisk_raptor
+extern _card_witherscale_wurm
+extern _card_worldpurge
+extern _card_worth_the_raidmother
+extern _card_wound_reflection
+extern _card_antler_skulkin
+extern _card_ashling_the_extinguisher
+extern _card_battlegate_mimic
+extern _card_batwing_brume
+extern _card_beckon_apparition
+extern _card_belligerent_hatchling
+extern _card_bloom_tender
+extern _card_cache_riders
+extern _card_card_call_the_skybreaker
+extern _card_canker_abomination
+extern _card_cankerous_thirst
+extern _card_cauldron_haze
+extern _card_cenns_enlistment
+extern _card_clout_of_the_dominus
+extern _card_crackleburr
+extern _card_deity_of_scars
+extern _card_desecrator_hag
+extern _card_divinity_of_pride
+extern _card_dominus_of_fealty
+extern _card_doomgape
+extern _card_dream_fracture
+extern _card_dream_thief
+extern _card_duergar_assailant
+extern _card_duergar_hedge_mage
+extern _card_duergar_mine_captain
+extern _card_edge_of_the_divinity
+extern _card_endless_horizons
+extern _card_evershrike
+extern _card_fable_of_the_wolf_and_owl
+extern _card_fang_skulkin
+extern _card_favor_of_the_overbeing
+extern _card_fiery_bombardment
+extern _card_fire_at_will
+extern _card_flame_jab
+extern _card_flickerwhisp
+extern _card_gift_of_the_deity
+extern _card_gwyllion_hedge_mage
+extern _card_hag_hedge_mage
+extern _card_hateflayer
+extern _card_heartfire_goblin
+extern _card_helix_pinnacle
+extern _card_hoof_skulkin
+extern _card_hotheaded_giant
+extern _card_idle_thoughts
+extern _card_inundate
+extern _card_invert_the_skies
+extern _card_jawbone_skulkin
+extern _card_leering_emblem
+extern _card_light_from_within
+extern _card_merrow_bonegnawer
+extern _card_merrow_levitator
+extern _card_mindwrack_liege
+extern _card_mirror_sheen
+extern _card_monstrify
+extern _card_murkfiend_liege
+extern _card_necroskitter
+extern _card_needle_specter
+extern _card_nightmare_incursion
+extern _card_nightsky_mimic
+extern _card_nip_gwyllion
+extern _card_nobilis_of_war
+extern _card_noggle_hedge_mage
+extern _card_noxious_hatchling
+extern _card_nucklavee
+extern _card_oonas_grace
+extern _card_overbeing_of_myth
+extern _card_patrol_signaler
+extern _card_primalcrux
+extern _card_puncture_blast
+extern _card_phyrric_revival
+extern _card_quillspike
+extern _card_rekindle_the_flame
+extern _card_restless_apparition
+extern _card_rise_of_the_hobgoblins
+extern _card_riverfall_mimic
+extern _card_sanity_grinding
+extern _card_savage_conception
+extern _card_scarecrone
+extern _card_scourge_of_the_nobilis
+extern _card_selkie_hedge_mage
+extern _card_shell_skulkin
+extern _card_shorecrasher_mimic
+extern _card_shrewd_hatchling
+extern _card_snakeform
+extern _card_soot_imp
+extern _card_soul_snuffers
+extern _card_sturdy_hatchling
+extern _card_suture_spirit
+extern _card_syphon_life
+extern _card_talaras_battalion
+extern _card_thunderblust
+extern _card_tilling_treefolk
+extern _card_umbra_stalker
+extern _card_unmake
+extern _card_unnerving_assault
+extern _card_unwilling_recruit
+extern _card_voracious_hatchling
+extern _card_wake_thrasher
+extern _card_ward_of_bones
+extern _card_woodlurker_mimic
+extern _card_angelsong
+extern _card_bant_battlemage
+extern _card_bant_panorama
+extern _card_blister_beetle
+extern _card_blood_cultist
+extern _card_bloodthorn_taunter
+extern _card_bone_splinters
+extern _card_branching_bolt
+extern _card_brilliant_ultimatum
+extern _card_call_to_heel
+extern _card_clarion_ultimatum
+extern _card_corpse_conoisseur
+extern _card_crucible_of_fire
+extern _card_cunning_lethemancer
+extern _card_death_baron
+extern _card_dispeller_capsule
+extern _card_dregscape_zombie
+extern _card_oran_rief_hydra
+extern _card_drumhunter
+extern _card_empyrial_archangel
+extern _card_esper_battlemage
+extern _card_esper_panorama
+extern _card_executioners_capsule
+extern _card_exuberant_firestoker
+extern _card_filigree_sages
+extern _card_fire_field_ogre
+extern _card_fleshbag_marauder
+extern _card_gather_specimens
+extern _card_gift_of_the_gargantuan
+extern _card_glaze_fiend
+extern _card_goblin_assault
+extern _card_grixis_battlemage
+extern _card_grixis_panorama
+extern _card_hindering_light
+extern _card_hissing_iguanar
+extern _card_immortal_coil
+extern _card_invincible_hymn
+extern _card_jund_battlemage
+extern _card_jund_charm
+extern _card_jund_panorama
+extern _card_kederekt_creeper
+extern _card_kederekt_leviathan
+extern _card_keeper_of_progenitus
+extern _card_knight_captain_of_eos
+extern _card_kresh_the_bloodbraided
+extern _card_magma_spray
+extern _card_manaplasm
+extern _card_marble_chalice
+extern _card_memory_erosion
+extern _card_mighty_emergence
+extern _card_mindlock_orb
+extern _card_minion_reflector
+extern _card_mosstodon
+extern _card_naya_battlemage
+extern _card_naya_panorama
+extern _card_necrogenesis
+extern _card_obelisk_of_bant
+extern _card_onyx_goblet
+extern _card_ooze_garden
+extern _card_predator_dragon
+extern _card_prince_of_thralls
+extern _card_qasali_ambusher
+extern _card_quietus_spike
+extern _card_realm_razer
+extern _card_relic_of_progenitus
+extern _card_resounding_roar
+extern _card_resounding_scream
+extern _card_resounding_silence
+extern _card_resounding_thunder
+extern _card_resounding_wave
+extern _card_sacellum_godspeaker
+extern _card_salvage_titan
+extern _card_scourglass
+extern _card_sharding_sphinx
+extern _card_sigil_blessing
+extern _card_sigil_of_distinction
+extern _card_skill_borrower
+extern _card_skullmulcher
+extern _card_souls_fire
+extern _card_spearbreaker_behemoth
+extern _card_sphinx_sovereign
+extern _card_thorn_thrash_viashino
+extern _card_thoughtcutter_agent
+extern _card_thunder_thrash_elder
+extern _card_titanic_ultimatum
+extern _card_vicious_shadows
+extern _card_where_ancients_tread
+extern _card_apocalypse_hydra
+extern _card_armillary_sphere
+extern _card_beacon_behemoth
+extern _card_blood_tyrant
+extern _card_bloodhall_ooze
+extern _card_bone_saw
+extern _card_charnelhoard_wurm
+extern _card_cliffrunner_behemoth
+extern _card_countersquall
+extern _card_court_homunculus
+extern _card_cumber_stone
+extern _card_cylian_sunsinger
+extern _card_drag_down
+extern _card_dragonsoul_knight
+extern _card_dreadwing
+extern _card_esperzoa
+extern _card_faerie_mechanist
+extern _card_fleshformer
+extern _card_giltspire_avenger
+extern _card_gluttonous_slime
+extern _card_goblin_razerunners
+extern _card_grixis_slavedriver
+extern _card_hellkite_hatchling
+extern _card_kaleidostone
+extern _card_kederekt_parasite
+extern _card_knotvine_mystic
+extern _card_malfegor
+extern _card_mark_of_asylum
+extern _card_meglonoth
+extern _card_mirror_sigil_sergeant
+extern _card_paleoloth
+extern _card_paragon_of_the_amesha
+extern _card_parasitic_strix
+extern _card_salvage_slasher
+extern _card_scarland_thrinax
+extern _card_scattershot_archer
+extern _card_scepter_of_dominance
+extern _card_scepter_of_insight
+extern _card_sedraxis_alchemist
+extern _card_shambling_remains
+extern _card_sludge_strider
+extern _card_souls_majesty
+extern _card_sphinx_summoner
+extern _card_spore_burst
+extern _card_telemin_performance
+extern _card_traumatic_visions
+extern _card_tukatongue_thallid
+extern _card_voices_from_the_void
+extern _card_voracious_dragon
+extern _card_worldheart_phoenix
+extern _card_worldly_counsel
+extern _card_ardent_plea
+extern _card_arsenal_thresher
+extern _card_bant_sureblade
+extern _card_behemoth_sledge
+extern _card_blitz_hellion
+extern _card_captured_sunlight
+extern _card_cerodon_yearling
+extern _card_cloven_casting
+extern _card_colossal_might
+extern _card_dauntless_escort
+extern _card_defiler_of_souls
+extern _card_demonspine_whip
+extern _card_deny_reality
+extern _card_dragon_broodmother
+extern _card_drastic_revelation
+extern _card_enigma_sphinx
+extern _card_esper_stormblade
+extern _card_ethersworn_shieldmage
+extern _card_etherwrought_page
+extern _card_fieldmist_borderpost
+extern _card_filigree_angel
+extern _card_flurry_of_wings
+extern _card_glory_of_warfare
+extern _card_grixis_grimblade
+extern _card_identity_crisis
+extern _card_illusory_demon
+extern _card_intimidation_bolt
+extern _card_jund_hackblade
+extern _card_kathari_bomber
+extern _card_kathari_remnant
+extern _card_knight_of_new_alara
+extern _card_knotvine_paladin
+extern _card_lich_lord_of_unx
+extern _card_lightning_reaver
+extern _card_maelstrom_nexus
+extern _card_mage_slayer
+extern _card_mask_of_riddles
+extern _card_mayaels_aria
+extern _card_mycoid_shepherd
+extern _card_naya_hushblade
+extern _card_necromancers_covenant
+extern _card_nulltread_gargantuan
+extern _card_offering_to_asha
+extern _card_reborn_hope
+extern _card_retaliator_griffin
+extern _card_sages_of_the_anima
+extern _card_sigil_captain
+extern _card_slave_of_bolas
+extern _card_soulquake
+extern _card_spellbound_dragon
+extern _card_stun_sniper
+extern _card_tainted_sigil
+extern _card_thought_hemorrhage
+extern _card_thraximundar
+extern _card_unbender_tine
+extern _card_unscythe_killer_of_kings
+extern _card_uril_the_miststalker
+extern _card_vedalken_heretic
+extern _card_vengeful_rebirth
+extern _card_winged_coatl
+extern _card_abyssal_persecutor
+extern _card_aether_tradwinds
+extern _card_agadeem_occultist
+extern _card_bazaar_trader
+extern _card_bloodhusk_ritualist
+extern _card_bojuka_bog
+extern _card_butcher_of_malakir
+extern _card_comet_storm
+extern _card_dread_statuary
+extern _card_dread_statuary_animated
+extern _card_halimar_excavator
+extern _card_hammer_of_ruin
+extern _card_jwari_shapeshifter
+extern _card_kitesail_apprentice
+extern _card_mordant_dragon
+extern _card_natures_claim
+extern _card_nemesis_trap
+extern _card_perimeter_captain
+extern _card_permafrost_trap
+extern _card_pilgrims_eye
+extern _card_quest_for_renewal
+extern _card_quest_for_the_nihil_stone
+extern _card_quest_for_ulas_temple
+extern _card_rest_for_the_weary
+extern _card_ruin_ghost
+extern _card_ruthless_cullblade
+extern _card_seer_sundial
+extern _card_sejiri_merfolk
+extern _card_strength_of_the_tajuru
+extern _card_summit_apes
+extern _card_talus_paladin
+extern _card_terra_eternal
+extern _card_thada_adel_acquisitor
+extern _card_tideforce_elemental
+extern _card_tuktuk_scrapper
+extern _card_ancient_stirrings
+extern _card_baneful_omen
+extern _card_champions_drake
+extern _card_conquering_manticore
+extern _card_curse_of_wizardry
+extern _card_dawnglare_invoker
+extern _card_disaster_radius
+extern _card_dormant_gomazoa
+extern _card_drake_umbra
+extern _card_dreamstone_hedron
+extern _card_echo_mage
+extern _card_explosive_revelation
+extern _card_forked_bolt
+extern _card_gravitational_shift
+extern _card_guard_gomazoa
+extern _card_guul_draz_assassin
+extern _card_hand_of_emrakul
+extern _card_hellcarver_demon
+extern _card_it_that_betrays
+extern _card_kazandu_tuskcaller
+extern _card_keening_stone
+extern _card_lay_bare
+extern _card_lighthouse_chronologist
+extern _card_lightmine_field
+extern _card_linvala_keeper_of_silence
+extern _card_lord_of_shatterskull_pass
+extern _card_magmaw
+extern _card_mammoth_umbra
+extern _card_might_of_the_masses
+extern _card_momentous_fall
+extern _card_mortician_beetle
+extern _card_near_death_experience
+extern _card_ogres_cleaver
+extern _card_pathrazer_of_ulamog
+extern _card_pawn_of_ulamog
+extern _card_pennon_blade
+extern _card_prophetic_prism
+extern _card_puncturing_light
+extern _card_rage_nimbus
+extern _card_raid_bombardment
+extern _card_rapacious_one
+extern _card_recurring_insight
+extern _card_skittering_invasion
+extern _card_snake_umbra
+extern _card_spawnsire_of_ulamog
+extern _card_sphinx_bone_wand
+extern _card_surrakar_spellblade
+extern _card_surreal_memoir
+extern _card_thought_gorger
+extern _card_time_of_heroes
+extern _card_transcendent_master
+extern _card_tuktuk_the_explorer
+extern _card_tuktuk_the_returned
+extern _card_virulent_swipe
+extern _card_warmongers_chariot
+extern _card_aether_barrier
+extern _card_ancient_hydra
+extern _card_arc_mage
+extern _card_avenger_en_dal
+extern _card_belbes_armor
+extern _card_belbes_portal
+extern _card_bola_warrior
+extern _card_chieftain_en_dal
+extern _card_complex_automaton
+extern _card_dark_triumph
+extern _card_defender_en_vec
+extern _card_defiant_vanguard
+extern _card_dominate
+extern _card_ensnare
+extern _card_fanatical_devotion
+extern _card_flowstone_overseer
+extern _card_flowstone_slide
+extern _card_flowstone_surge
+extern _card_jolting_merfolk
+extern _card_laccolith_grunt
+extern _card_massacre2
+extern _card_mogg_salvage
+extern _card_moggcatcher
+extern _card_netter_en_dal
+extern _card_overlaid_terrain
+extern _card_pack_hunt
+extern _card_parallax_inhibitor
+extern _card_parallax_nexus
+extern _card_parallax_tide
+extern _card_plague_witch
+extern _card_predator_flagship
+extern _card_raths_edge
+extern _card_rathi_assassin
+extern _card_rathi_fiend
+extern _card_rathi_intimidator
+extern _card_refreshing_rain
+extern _card_rising_waters
+extern _card_reverent_silence
+extern _card_rupture
+extern _card_seal_of_removal
+extern _card_seal_of_strength
+extern _card_sivvis_rouse
+extern _card_sivvis_valor
+extern _card_skyshroud_behemoth
+extern _card_skyshroud_poacher
+extern _card_skyshroud_ridgeback
+extern _card_spiritual_asylum
+extern _card_stampede_driver
+extern _card_stronghold_biologist
+extern _card_stronghold_machinist
+extern _card_trickster_mage
+extern _card_volrath_the_fallen
+extern _card_wild_mammoth
+extern _card_woodripper
+extern _card_abolish
+extern _card_alexi_zephyr_mage
+extern _card_aura_fracture
+extern _card_avatar_of_fury
+extern _card_avatar_of_might
+extern _card_avatar_of_will
+extern _card_avatar_of_wOE
+extern _card_blessed_wind
+extern _card_branded_brawlers
+extern _card_calming_verses
+extern _card_chimeric_idol
+extern _card_citadel_of_pain
+extern _card_denying_wind
+extern _card_foil
+extern _card_greel_mind_raker
+extern _card_gulf_squid
+extern _card_heightened_awareness
+extern _card_keldon_firebombers
+extern _card_latulla_keldon_overseer
+extern _card_mageta_the_lion
+extern _card_mungha_wurm
+extern _card_overburden
+extern _card_rethink
+extern _card_reveille_squad
+extern _card_rhystic_circle
+extern _card_rhystic_deluge
+extern _card_rhystic_study
+extern _card_searing_wind
+extern _card_shield_dancer
+extern _card_snag
+extern _card_spiketail_drake2
+extern _card_spore_frog
+extern _card_squirrel_wrangler
+extern _card_thrive
+extern _card_troublesome_spirit
+extern _card_vitalizing_wind
+extern _card_well_of_discovery
+extern _card_well_of_life
+extern _card_whip_sergeant
+extern _card_wild_might
+extern _card_withdraw
+extern _card_addle
+extern _card_aether_rift
+extern _card_angelic_shield
+extern _card_artifact_mutation
+extern _card_assault_battery
+extern _card_atalya_samite_master
+extern _card_aura_mutation
+extern _card_aura_shards
+extern _card_backlash
+extern _card_barrins_spite
+extern _card_benalish_heralds
+extern _card_blurred_mangoose
+extern _card_breath_of_darigaaz
+extern _card_canopy_surge
+extern _card_cauldron_dance
+extern _card_cinder_shade
+extern _card_collapsing_borders
+extern _card_crypt_angel
+extern _card_death_or_glory
+extern _card_desperate_research
+extern _card_dismantling_blow
+extern _card_devouring_strossus
+extern _card_distorting_wake
+extern _card_elfhame_sanctuary
+extern _card_ghitu_fire
+extern _card_global_ruin
+extern _card_hanna_ships_navigator
+extern _card_harsh_judgement
+extern _card_jade_leech
+extern _card_juntu_stakes
+extern _card_kavu_chameleon
+extern _card_kavu_lair
+extern _card_kavu_monarch
+extern _card_kavu_titan
+extern _card_keldon_necropolis
+extern _card_liberate
+extern _card_malice_spite
+extern _card_metathran_aerostat
+extern _card_meteor_storm
+extern _card_UNUSED2
+extern _card_nightscape_master
+extern _card_opt
+extern _card_ordered_migration
+extern _card_overabundance
+extern _card_overload
+extern _card_phyrexian_altar
+extern _card_phyrexian_delver
+extern _card_phyrexian_infiltrator
+extern _card_phyrexian_lens
+extern _card_planar_portal
+extern _card_probe
+extern _card_prohibit
+extern _card_raging_kavu
+extern _card_reckless_assault
+extern _card_restock
+extern _card_reviving_vapors
+extern _card_reya_dawnbringer
+extern _card_saproling_infestation
+extern _card_saproling_symbiosis
+extern _card_shivan_harvest
+extern _card_skizzik
+extern _card_smoldering_tar
+extern _card_collective_blessing
+extern _card_coursers_accord
+extern _card_korozda_monitor
+extern _card_loxodon_smither
+extern _card_stab_wound
+extern _card_underworld_connections
+extern _card_blustersquall
+extern _card_spirit_of_resistance
+extern _card_stalking_assassin
+extern _card_stormscape_master
+extern _card_sunscape_master
+extern _card_tangle2
+extern _card_tectonic_instability
+extern _card_tek
+extern _card_thicket_elemental
+extern _card_thornscape_master
+extern _card_thunderscape_master
+extern _card_tsabos_decree
+extern _card_tsabos_web
+extern _card_twilights_call
+extern _card_urborg_emissary
+extern _card_urzas_filter
+extern _card_urzas_rage
+extern _card_utopia_tree
+extern _card_verdeloth_the_ancient
+extern _card_verduran_emissary
+extern _card_nessian_wilds_ravager
+extern _card_vigorous_charge
+extern _card_vile_consumption
+extern _card_wax_wane
+extern _card_wash_out
+extern _card_yawgmoths_agenda
+extern _card_arctic_merfolk
+extern _card_cavern_harpy
+extern _card_crosis_catacombs
+extern _card_crosis_charm
+extern _card_darigaaz_charm
+extern _card_dark_suspicions
+extern _card_deadapult
+extern _card_destructive_flow
+extern _card_doomsday_specter
+extern _card_dralnus_crusade
+extern _card_dralnus_pet
+extern _card_dromar_charm
+extern _card_ertai_the_corrupted
+extern _card_fleetfoot_panther
+extern _card_gerrards_command
+extern _card_horned_kavu
+extern _card_hull_breach
+extern _card_lashknife_barrier
+extern _card_lava_zombie
+extern _card_malicious_advice
+extern _card_marsh_crocodile
+extern _card_nemata_grove_guardian
+extern _card_nightscape_battlemage
+extern _card_orims_chant
+extern _card_phyrexian_tyranny
+extern _card_questing_phelddagrif
+extern _card_rith_charm
+extern _card_root_greevil
+extern _card_rushing_river
+extern _card_sawtooth_loon
+extern _card_stormscape_battlemage
+extern _card_sunken_hope
+extern _card_sunscape_battlemage
+extern _card_terminal_moraine
+extern _card_thunderscape_battlemage
+extern _card_treva_charm
+extern _card_urzas_guilt
+extern _card_aether_mutation
+extern _card_ana_disciple
+extern _card_ana_sanctuary
+extern _card_anavolver
+extern _card_desecration_plague
+extern _card_bloodfire_colossus
+extern _card_bloodfire_dwarf
+extern _card_bloodfire_kavu
+extern _card_captains_maneuver
+extern _card_goldenhide_ox
+extern _card_ceta_disciple
+extern _card_cetavolver
+extern _card_ceta_sanctuary
+extern _card_order_chaos
+extern _card_consume_strength
+extern _card_cromat
+extern _card_dega_disciple
+extern _card_dega_sanctuary
+extern _card_degavolver
+extern _card_desolation_giant
+extern _card_ebony_treefolk
+extern _card_enlistment_officer
+extern _card_evasive_action
+extern _card_fervent_charge
+extern _card_flowstone_charger
+extern _card_gerrard_capashen
+extern _card_goblin_legionnaire
+extern _card_goblin_trenches
+extern _card_grave_defiler
+extern _card_guided_passage
+extern _card_jilt
+extern _card_kavu_howler
+extern _card_kavu_mauler
+extern _card_legacy_weapon
+extern _card_humbler_of_mortals
+extern _card_necra_sanctuary
+extern _card_necravolver
+extern _card_orims_thunder
+extern _card_overgrown_estate
+extern _card_penumbra_bobcat
+extern _card_phyrexian_arena
+extern _card_phyrexian_gargantua
+extern _card_planar_despair
+extern _card_putrid_warrior
+extern _card_quicksilver_dagger
+extern _card_raka_sanctuary
+extern _card_rakavolver
+extern _card_natures_panoply
+extern _card_squees_embrace
+extern _card_squees_revenge
+extern _card_strength_of_night
+extern _card_suppress
+extern _card_sylvan_messenger
+extern _card_symbiotic_deployment
+extern _card_temporal_spring
+extern _card_tidal_courier
+extern _card_murasa_ranger
+extern _card_wild_research
+extern _card_nessian_game_warden
+extern _card_aboshan_cephalid_emperor
+extern _card_aegis_of_honor
+extern _card_ancestral_tribute
+extern _card_animal_boneyard
+extern _card_atogatog
+extern _card_aven_shrine
+extern _card_bash_to_bits
+extern _card_battle_strain
+extern _card_bearscape
+extern _card_beast_attack
+extern _card_beloved_chaplain
+extern _card_bomb_squad
+extern _card_braids_cabal_minion
+extern _card_cabal_patriarch
+extern _card_cabal_pit
+extern _card_cabal_shrine
+extern _card_cantivore
+extern _card_caustic_tar
+extern _card_centaur_garden
+extern _card_cephalid_broker
+extern _card_cephalid_looter
+extern _card_cephalid_retainer
+extern _card_cephalid_shrine
+extern _card_chamber_of_manipulation
+extern _card_chance_encounter
+extern _card_charmed_pendant
+extern _card_chatter_of_squirrel
+extern _card_childhood_horror
+extern _card_chlorophant
+extern _card_coffin_purge
+extern _card_cognivore
+extern _card_confessor
+extern _card_crystal_quarry
+extern _card_cultural_exchanges
+extern _card_darkwater_catacombs
+extern _card_darkwater_egg
+extern _card_decimate
+extern _card_dedicated_martyr
+extern _card_delaying_shield
+extern _card_dematerialize
+extern _card_demoralize
+extern _card_diligent_farmhand
+extern _card_dirty_wererat
+extern _card_divine_sacrament
+extern _card_dwarven_recruiter
+extern _card_dwarven_shrine
+extern _card_earnest_fellowship
+extern _card_earth_rift
+extern _card_elephants_ambush
+extern _card_engulfing_flames
+extern _card_entomb2
+extern _card_epicenter
+extern _card_escape_artist
+extern _card_extract2
+extern _card_firebolt
+extern _card_frightcrawler
+extern _card_ghastly_demise
+extern _card_gravestorm
+extern _card_hallowed_healer
+extern _card_holistic_wisdom
+extern _card_infected_vermin
+extern _card_kamahls_desire
+extern _card_kamahl_pit_fighter
+extern _card_kirtars_desire
+extern _card_kirtars_wrath
+extern _card_krosan_avenger
+extern _card_krosan_beast
+extern _card_laquatus_creativity
+extern _card_last_rites
+extern _card_liutenant_kirtar
+extern _card_life_burst
+extern _card_lithatog
+extern _card_magma_vein
+extern _card_malevolent_awakening
+extern _card_master_apothecary
+extern _card_millikin
+extern _card_mind_burst
+extern _card_minotaur_explorer
+extern _card_molten_influence
+extern _card_mortivore
+extern _card_mossfire_egg
+extern _card_mossfire_valley
+extern _card_muscle_burst
+extern _card_mystic_crusader
+extern _card_nantuko_disciple
+extern _card_nantuko_elder
+extern _card_nantuko_mentor
+extern _card_nantuko_shrine
+extern _card_need_for_speed
+extern _card_nefarious_lich
+extern _card_nomad_decoy
+extern _card_nomad_stadium
+extern _card_nut_collector
+extern _card_overeager_apprentice
+extern _card_patrol_hound
+extern _card_patron_wizard
+extern _card_peek
+extern _card_phantatog
+extern _card_pianna_nomad_captain
+extern _card_ray_of_distortion
+extern _card_recoup
+extern _card_repentant_vampire
+extern _card_rites_of_initiation
+extern _card_rites_of_refusal
+extern _card_rites_of_spring
+extern _card_rotting_giant
+extern _card_sacred_rites
+extern _card_sadistic_hypnotist
+extern _card_sarcatog
+extern _card_setons_desire
+extern _card_seton_krosan_protector
+extern _card_hellkite_charger
+extern _card_shadowblood_ridge
+extern _card_shadowblood_egg
+extern _card_shelter2
+extern _card_shifty_doppelganger
+extern _card_shower_of_coals
+extern _card_skeletal_scrying
+extern _card_skycloud_expanse
+extern _card_skycloud_eGG
+extern _card_soulcatcher
+extern _card_spark_mage
+extern _card_squirrel_mob
+extern _card_stalking_bloodsucker
+extern _card_lowland_basilisk
+extern _card_stone_tongue_basilisk
+extern _card_sungrass_prairie
+extern _card_sungrass_egg
+extern _card_sylvan_might
+extern _card_tainted_pact
+extern _card_thaumatog
+extern _card_think_tank
+extern _card_thought_devourer
+extern _card_thought_eater
+extern _card_thought_nibbler
+extern _card_tireless_tribe
+extern _card_unifying_theory
+extern _card_vampiric_dragon
+extern _card_verdant_succession
+extern _card_volley_of_boulders
+extern _card_wayward_angel
+extern _card_words_of_wisdom
+extern _card_zoologist
+extern _card_acorn_harvest
+extern _card_ambassador_laquatus
+extern _card_anurid_scavenger
+extern _card_aquamoeba
+extern _card_balthor_the_stout
+extern _card_carrion_rats
+extern _card_carrion_wurm
+extern _card_cephalid_sage
+extern _card_cephalid_vandal
+extern _card_chainer_dementia_master
+extern _card_cleansing_meditation
+extern _card_compulsion
+extern _card_crippling_fatigue
+extern _card_dawn_of_the_dead
+extern _card_deep_analysis
+extern _card_dwell_on_the_past
+extern _card_false_memories
+extern _card_far_wanderings
+extern _card_fiery_temper
+extern _card_flaming_gambit
+extern _card_frantic_purification
+extern _card_gurzigost
+extern _card_hell_bent_rider
+extern _card_hypnox
+extern _card_hypochondria
+extern _card_insidious_dreams
+extern _card_krosan_restorer
+extern _card_laquatus_champion
+extern _card_last_laugh
+extern _card_liquify
+extern _card_mesmeric_fiend
+extern _card_mind_sludge
+extern _card_morningtide
+extern _card_lyev_skyknight
+extern _card_mortal_combat
+extern _card_mortiphobia
+extern _card_mystic_familiar
+extern _card_nantuko_cultivator
+extern _card_narcissism
+extern _card_obsessive_search
+extern _card_organ_grinder
+extern _card_parallel_evolution
+extern _card_pardic_arsonist
+extern _card_plagiarize
+extern _card_possessed_aven
+extern _card_possessed_barbarian
+extern _card_possessed_centaur
+extern _card_possessed_nomad
+extern _card_pyromania
+extern _card_rancid_earth
+extern _card_restless_dreams
+extern _card_retraced_image
+extern _card_sickening_dreams
+extern _card_skullscorch
+extern _card_sonic_seizures
+extern _card_strength_of_isolation
+extern _card_strength_of_lunacy
+extern _card_stupefying_touch
+extern _card_tainted_field
+extern _card_tainted_isle
+extern _card_tainted_peak
+extern _card_tainted_wood
+extern _card_transcendence
+extern _card_turbulent_dreams
+extern _card_vengeful_dreams
+extern _card_violent_eruption
+extern _card_anurid_brushhopper
+extern _card_arcane_teachings
+extern _card_balthor_the_defiled
+extern _card_battle_screech
+extern _card_battlefield_scrounger
+extern _card_benevolent_bodyguard
+extern _card_book_burning
+extern _card_breaking_point
+extern _card_cephalid_constable
+extern _card_cephalid_inkshrouder
+extern _card_commander_eesha
+extern _card_crush_of_wurms
+extern _card_death_wish
+extern _card_dwarven_bloodboiler
+extern _card_dwarven_driller
+extern _card_elephant_guide
+extern _card_envelop
+extern _card_elemental_cat
+extern _card_firecat_blitz
+extern _card_flash_of_insight
+extern _card_forcemage_advocate
+extern _card_glory
+extern _card_grizzly_fate
+extern _card_hapless_researcher
+extern _card_hunting_grounds
+extern _card_keep_watch
+extern _card_krosan_reclamation
+extern _card_krosan_verge
+extern _card_lava_dart
+extern _card_mist_of_stagnation
+extern _card_morality_shift
+extern _card_nantuko_monastery
+extern _card_nantuko_monastery_animated
+extern _card_nullmage_advocate
+extern _card_phantom_nantuko
+extern _card_prismatic_strands
+extern _card_pulsemage_advocate
+extern _card_quiet_speculation
+extern _card_silver_seraph
+extern _card_soulcatchers_aerie
+extern _card_brine_elemental
+extern _card_spirit_cairn
+extern _card_spurnmage_advocate
+extern _card_sylvan_safekeeper
+extern _card_test_of_endurance
+extern _card_thriss_nantuko_primus
+extern _card_vigilant_sentry
+extern _card_accursed_centaur
+extern _card_aether_charge
+extern _card_aggravated_assault
+extern _card_airborne_aid
+extern _card_akromas_blessing
+extern _card_akromas_vengeance
+extern _card_ancestors_prophet
+extern _card_aphetto_dredging
+extern _card_aphetto_grifter
+extern _card_aura_extraction
+extern _card_aurification
+extern _card_avarax
+extern _card_aven_brigadier
+extern _card_battlefield_medic
+extern _card_bloodline_shaman
+extern _card_boneknitter
+extern _card_brightstone_ritual
+extern _card_broodhatch_nantuko
+extern _card_cabal_archon
+extern _card_catapult_master
+extern _card_catapult_squad
+extern _card_choking_tethers
+extern _card_contested_cliffs
+extern _card_convalescent_care
+extern _card_crown_of_ascension
+extern _card_crown_of_awe
+extern _card_crown_of_fury
+extern _card_crown_of_suspicion
+extern _card_crown_of_vigor
+extern _card_cruel_revival
+extern _card_cryptic_gateway
+extern _card_death_match
+extern _card_death_pulse
+extern _card_dirge_of_the_dread
+extern _card_discombobulate
+extern _card_dispersing_orb
+extern _card_disruptive_pitmage
+extern _card_doomed_necromancer
+extern _card_doubtless_one
+extern _card_ebonblade_reaper
+extern _card_elvish_vanguard
+extern _card_entrails_feaster
+extern _card_erratic_explosion
+extern _card_gangrenous_goliath
+extern _card_gigapede
+extern _card_goblin_burrows
+extern _card_goblin_pyromancer
+extern _card_goblin_sledder
+extern _card_goblin_taskmaster
+extern _card_gratuitous_violence
+extern _card_gravespawn_sovereign
+extern _card_haunted_cadaver
+extern _card_head_games
+extern _card_heedless_one
+extern _card_hystrodon
+extern _card_information_dealer
+extern _card_invigorating_boon
+extern _card_ixidor_reality_sculptor
+extern _card_kamahl_fist_of_krosa
+extern _card_krosan_colossus
+extern _card_krosan_groundshaker
+extern _card_krosan_tusker
+extern _card_mobilization
+extern _card_mythic_proportions
+extern _card_nameless_one
+extern _card_nova_cleric
+extern _card_oblation
+extern _card_overwhelming_instinct
+extern _card_primal_boost
+extern _card_profane_prayers
+extern _card_read_the_runes
+extern _card_reckless_one
+extern _card_reminisce
+extern _card_riptide_laboratory
+extern _card_riptide_replicator
+extern _card_riptide_shapeshifter
+extern _card_seaside_haven
+extern _card_shared_triumph
+extern _card_shepherd_of_rot
+extern _card_sigil_of_the_new_dawn
+extern _card_silent_specter
+extern _card_skirk_fire_marshal
+extern _card_slice_and_dice
+extern _card_snarling_undorak
+extern _card_solar_blast
+extern _card_soulless_one
+extern _card_sparksmith
+extern _card_starlit_sanctum
+extern _card_steely_resolve
+extern _card_supreme_inquisitor
+extern _card_symbiotic_beast
+extern _card_symbiotic_elf
+extern _card_tempting_wurm
+extern _card_tephraderm
+extern _card_tribal_unity
+extern _card_undead_gladiator
+extern _card_unholy_grotto
+extern _card_voice_of_the_woods
+extern _card_voidmage_prodigy
+extern _card_wall_of_mulch
+extern _card_weathered_wayfarer
+extern _card_wellwisher
+extern _card_wirewood_herald
+extern _card_wirewood_lodge
+extern _card_wirewood_pride
+extern _card_wirewood_savage
+extern _card_words_of_waste
+extern _card_words_of_wilding
+extern _card_words_of_wind
+extern _card_words_of_worship
+extern _card_akromas_devoted
+extern _card_aphetto_exterminator
+extern _card_bane_of_the_living
+extern _card_beacon_of_destiny
+extern _card_brontotherium
+extern _card_brood_sliver
+extern _card_canopy_crawler
+extern _card_chromeshell_crab
+extern _card_clickslither
+extern _card_corpse_harvester
+extern _card_crypt_sliver
+extern _card_dark_supplicant
+extern _card_daru_sanctifier
+extern _card_defender_of_the_order
+extern _card_deftblade_elite
+extern _card_dreamborn_muse
+extern _card_drinker_of_sorrow
+extern _card_echo_tracer
+extern _card_embalmed_brawler
+extern _card_feral_throwback
+extern _card_frenetic_raptor
+extern _card_gempalm_avenger
+extern _card_gempalm_polluter
+extern _card_gempalm_sorcerer
+extern _card_gempalm_strider
+extern _card_ghastly_remains
+extern _card_goblin_clearcutter
+extern _card_goblin_goon
+extern _card_goblin_lookout
+extern _card_havok_demon
+extern _card_hollow_specter
+extern _card_hunter_sliver
+extern _card_imperial_hellkite
+extern _card_infernal_caretaker
+extern _card_keeper_of_the_nine_gales
+extern _card_kilnmouth_dragon
+extern _card_krosan_cloudscrapper
+extern _card_lavaborn_muse
+extern _card_mistform_ultimus
+extern _card_nantuko_vigilante
+extern _card_noxious_ghoul
+extern _card_patron_of_the_wild
+extern _card_phage_the_untouchable
+extern _card_planar_guide
+extern _card_plated_sliver
+extern _card_riptide_director
+extern _card_riptide_mangler
+extern _card_scion_of_darkness
+extern _card_shifting_sliver
+extern _card_skinthinner
+extern _card_skirk_alarmist
+extern _card_skirk_marauder
+extern _card_skirk_outrider
+extern _card_spectral_sliver
+extern _card_whirling_dervish
+extern _card_timberwatch_elf
+extern _card_totem_speaker
+extern _card_tribal_forcemage
+extern _card_voidmage_apprentice
+extern _card_wall_of_deceit
+extern _card_warbreak_trumpeter
+extern _card_wirewood_channeler
+extern _card_wirewood_hivemaster
+extern _card_alpha_status
+extern _card_ambush_commander
+extern _card_ancient_ooze
+extern _card_ark_of_blight
+extern _card_astral_steel
+extern _card_bladewings_thrall
+extern _card_break_asunder
+extern _card_cabal_conditioning
+extern _card_cabal_interrogator
+extern _card_carbonize
+extern _card_carrion_feeder
+extern _card_chartooth_cougar
+extern _card_consumptive_goo
+extern _card_daru_spiritualist
+extern _card_daru_warchief
+extern _card_dawn_elemental
+extern _card_day_of_the_dragons
+extern _card_decree_of_annihilation
+extern _card_decree_of_pain
+extern _card_decree_of_savagery
+extern _card_decree_of_silence
+extern _card_dimensional_breach
+extern _card_dispersal_shield
+extern _card_dragons_breath
+extern _card_dragons_fangs
+extern _card_dragon_mage
+extern _card_dragons_scales
+extern _card_dragons_shadow
+extern _card_dragons_wings
+extern _card_edgewalker
+extern _card_elvish_aberration
+extern _card_fierce_empath
+extern _card_final_punishment
+extern _card_forgotten_ancient
+extern _card_form_of_the_dragon
+extern _card_frontline_strategist
+extern _card_gilded_light
+extern _card_goblin_war_strike
+extern _card_guilty_conscience
+extern _card_hindering_touch
+extern _card_hunting_pack
+extern _card_karona_false_god
+extern _card_krosan_drover
+extern _card_krosan_warchief
+extern _card_long_term_plans
+extern _card_mischievous_quanar
+extern _card_misguided_rage
+extern _card_nefashu
+extern _card_noble_templar
+extern _card_proteus_machine
+extern _card_putrid_raptor
+extern _card_pyrostatic_pillar
+extern _card_raven_guild_master
+extern _card_reaping_the_graves
+extern _card_riptide_survivor
+extern _card_root_elemental
+extern _card_rush_of_knowledge
+extern _card_shoreline_ranger
+extern _card_skulltap
+extern _card_sprouting_vines
+extern _card_twisted_abomination
+extern _card_unburden
+extern _card_unspeakable_symbol
+extern _card_vengeful_dead
+extern _card_wing_shards
+extern _card_wirewood_guardian
+extern _card_xantid_swarm
+extern _card_zombie_cutthroat
+extern _card_balance_of_power
+extern _card_breath_of_life
+extern _card_command_of_unsummoning
+extern _card_cruel_fate
+extern _card_deep_wood
+extern _card_deja_vu
+extern _card_devastation2
+extern _card_dread_reaper
+extern _card_ebon_dragon
+extern _card_endless_cockroaches
+extern _card_final_strike
+extern _card_fire_dragon
+extern _card_gift_of_estates
+extern _card_harsh_justice
+extern _card_jungle_lion
+extern _card_kings_assassin
+extern _card_last_chance
+extern _card_needle_storm
+extern _card_omen2
+extern _card_plant_elemental
+extern _card_primeval_force
+extern _card_serpent_assassin
+extern _card_temporary_truce
+extern _card_thing_from_the_deep
+extern _card_wicked_pact
+extern _card_abyssal_nightstalker
+extern _card_alaborn_zealot
+extern _card_alluring_scent
+extern _card_ancient_craving
+extern _card_cruel_edict
+extern _card_dakmor_plague
+extern _card_dakmor_sorceress
+extern _card_denizen_of_the_deep
+extern _card_festival_of_trokin
+extern _card_foul_spirit
+extern _card_goblin_firestarter
+extern _card_goblin_general
+extern _card_lurking_nightstalker
+extern _card_mystic_denial
+extern _card_natures_lore
+extern _card_nightstalker_engine
+extern _card_norwood_priestess
+extern _card_predatory_nightstalker
+extern _card_prowling_nightstalker
+extern _card_return_of_the_nightstalkers
+extern _card_righteous_charge
+extern _card_swarm_of_rats
+extern _card_temple_acolyte
+extern _card_vampiric_spirit
+extern _card_borrowing_the_east_wind
+extern _card_burning_of_xinye
+extern _card_cao_ren_wei_commander
+extern _card_diaochan_artful_beauty
+extern _card_dong_zhou_the_tyrant
+extern _card_guan_yus_1000_li_march
+extern _card_guan_yu_sainted_warrior
+extern _card_hunting_cheetah
+extern _card_kongmings_contraptions
+extern _card_lady_sun
+extern _card_lady_zhurong_warrior_queen
+extern _card_liu_bei_lord_of_shu
+extern _card_lu_bu_master_at_arms
+extern _card_lu_xun_scholar_general
+extern _card_ma_chao_western_warrior
+extern _card_overwhelming_forces
+extern _card_pang_tong_young_phoenix
+extern _card_riding_red_hare
+extern _card_riding_the_dilu_horse
+extern _card_shu_cavalry
+extern _card_shu_general
+extern _card_sima_yi_wei_field_general
+extern _card_sun_ce_young_conquerer
+extern _card_sun_quan_lord_of_wu
+extern _card_wei_assassins
+extern _card_wei_night_riders
+extern _card_xun_yu_wei_advisor
+extern _card_zhang_fei_fierce_warrior
+extern _card_zhang_he_wei_general
+extern _card_zhang_liao_hero_of_hefei
+extern _card_zhuge_jin_wu_strategist
+extern _card_zodiac_dragon
+extern _card_dakmor_ghoul
+extern _card_devout_monk
+extern _card_thunder_dragon
+extern _card_acolythe_of_xathrid
+extern _card_burst_of_speed
+extern _card_capricious_efreet
+extern _card_wall_of_wonder
+extern _card_gorgon_flail
+extern _card_guardian_seraph
+extern _card_harms_way
+extern _card_hive_mind
+extern _card_lurking_predators
+extern _card_magebane_armor
+extern _card_mirror_of_fate
+extern _card_planar_cleansing
+extern _card_rhox_pikemaster
+extern _card_sphinx_ambassador
+extern _card_xathrid_demon
+extern _card_aerial_maneuver
+extern _card_angelic_edict
+extern _card_angelic_skirmisher
+extern _card_time_vault
+extern _card_blind_obedience
+extern _card_boros_elite
+extern _card_court_street_denizen
+extern _card_daring_skyjak
+extern _card_debtors_pulpit
+extern _card_dutiful_thrull
+extern _card_frontline_medic
+extern _card_gideon_champion_of_justice
+extern _card_gideon_champion_animated
+extern _card_guildscorn_ward
+extern _card_hold_the_gates
+extern _card_holy_mantle
+extern _card_knight_of_obligation
+extern _card_knight_watch
+extern _card_luminate_primordial
+extern _card_murder_investigation
+extern _card_nav_squad_commandos
+extern _card_shielded_passage
+extern _card_syndic_of_tithes
+extern _card_urbis_protector
+extern _card_zarichi_tiger
+extern _card_aetherize
+extern _card_intruder_alarm
+extern _card_cloudfin_raptor
+extern _card_diluvian_primordial
+extern _card_enter_the_infinite
+extern _card_gridlock
+extern _card_hands_of_binding
+extern _card_incursion_specialist
+extern _card_keymaster_rogue
+extern _card_last_thoughts
+extern _card_leyline_phantom
+extern _card_metropolis_sprite
+extern _card_mindeye_drake
+extern _card_rapid_hybridization
+extern _card_realmwright
+extern _card_sages_row_denizen
+extern _card_simic_manipulator
+extern _card_skygames
+extern _card_spell_rupture
+extern _card_stolen_identity
+extern _card_totally_lost
+extern _card_voidwalk
+extern _card_way_of_the_thief
+extern _card_balustrade_spy
+extern _card_contaminated_ground
+extern _card_corpse_blockade
+extern _card_crypt_ghast
+extern _card_deaths_approach
+extern _card_devour_flesh
+extern _card_dying_wish
+extern _card_gateway_shadow
+extern _card_grisly_spectacle
+extern _card_horror_of_the_dim
+extern _card_illness_in_the_ranks
+extern _card_killing_glare
+extern _card_lord_of_the_void
+extern _card_mental_vapors
+extern _card_midnight_recovery
+extern _card_ogre_slumlord
+extern _card_sepulchral_primordial
+extern _card_smog_elemental
+extern _card_thrull_parasite
+extern _card_undercity_informer
+extern _card_undercity_plague
+extern _card_bomber_corps
+extern _card_cinder_elemental
+extern _card_crackling_perimeter
+extern _card_firefist_striker
+extern _card_five_alarm_fire
+extern _card_foundry_street_denizen
+extern _card_shadow_alley_denizen
+extern _card_shadow_slice
+extern _card_furious_resistance
+extern _card_hellkite_tyrant
+extern _card_hellraiser_goblin
+extern _card_homing_lightning
+extern _card_legion_loyalist
+extern _card_madcap_skills
+extern _card_mark_for_death
+extern _card_massive_raid
+extern _card_molten_primordial
+extern _card_mugging
+extern _card_ripscale_predators
+extern _card_scorchwalker
+extern _card_skinbrand_goblin
+extern _card_skullcrack
+extern _card_structural_colapse
+extern _card_tin_street_market
+extern _card_towering_thunderfist
+extern _card_viashino_shanktail
+extern _card_warmind_infantry
+extern _card_wrecking_ogre
+extern _card_alpha_autority
+extern _card_burst_of_strength
+extern _card_crowned_ceratok
+extern _card_disciple_of_the_old_ways
+extern _card_experiment_one
+extern _card_forced_adaption
+extern _card_giant_adephage
+extern _card_greenside_watcher
+extern _card_gyre_sage
+extern _card_hindervines
+extern _card_ivy_lane_denizen
+extern _card_miming_slime
+extern _card_ooze_flux
+extern _card_predators_rapport
+extern _card_rust_scarab
+extern _card_scab_clan_charger
+extern _card_serene_remembrance
+extern _card_skarrg_goliath
+extern _card_slaughterhorn
+extern _card_sylvan_primordial
+extern _card_tower_defence
+extern _card_verdant_haven
+extern _card_wasteland_viper
+extern _card_raise_dead
+extern _card_alms_beast
+extern _card_assemble_the_legion
+extern _card_aurelia_the_warleader
+extern _card_aurelias_fury
+extern _card_bane_alley_broker
+extern _card_biovisionary
+extern _card_borborygmos_enraged
+extern _card_boros_charm
+extern _card_call_of_the_nightwing
+extern _card_cartel_aristocrat
+extern _card_clan_defiance
+extern _card_consuming_aberration
+extern _card_cleric_token
+extern _card_deathpact_angel
+extern _card_dimir_charm
+extern _card_dinrova_horror
+extern _card_domri_rade
+extern _card_domri_rades_emblem
+extern _card_duskmantle_guildmage
+extern _card_duskmantle_seer
+extern _card_elusive_krasis
+extern _card_firemane_avenger
+extern _card_fortress_cyclops
+extern _card_foundry_champion
+extern _card_frenzied_tilling
+extern _card_ghor_clan_rampager
+extern _card_ground_assault
+extern _card_gruul_charm
+extern _card_gruul_ragebeast
+extern _card_high_priest_of_penance
+extern _card_lazav_dimir_mastermind
+extern _card_martial_glory
+extern _card_master_biomancer
+extern _card_merciless_eviction
+extern _card_mind_grind
+extern _card_mystic_genesis
+extern _card_ozbedat_ghost_council
+extern _card_one_thousand_lashes
+extern _card_orzhov_charm
+extern _card_paranoid_delusion
+extern _card_primal_visitation
+extern _card_prime_speaker_zegana
+extern _card_psychic_strike
+extern _card_purge_the_profane
+extern _card_rubblehulk
+extern _card_shambleshark
+extern _card_signal_the_clans
+extern _card_simic_charm
+extern _card_skarrg_guildmage
+extern _card_spark_trooper
+extern _card_sunhome_guildmage
+extern _card_treasury_thrull
+extern _card_truefire_paladine
+extern _card_unexpected_results
+extern _card_urban_evolution
+extern _card_vizkopa_confessor
+extern _card_ordruun_veteran
+extern _card_vizkopa_guildmage
+extern _card_whispering_madness
+extern _card_wojek_halberdier
+extern _card_zameck_guildmage
+extern _card_zhur_taa_swine
+extern _card_bioshift
+extern _card_arrows_of_justice
+extern _card_biomass_mutation
+extern _card_boros_reckoner
+extern _card_burning_tree_emissary
+extern _card_coerced_confession
+extern _card_deathcult_rogue
+extern _card_gift_of_orzhova
+extern _card_immortal_servitude
+extern _card_merfolk_of_the_depths
+extern _card_nightveil_specter
+extern _card_pit_fight
+extern _card_shattering_blow
+extern _card_armored_transport
+extern _card_boros_keyrune
+extern _card_dimir_keyrune
+extern _card_glaring_spotlight
+extern _card_gruul_keyrune
+extern _card_orzhov_keyrune
+extern _card_razortip_whip
+extern _card_riot_gear
+extern _card_simic_keyrune
+extern _card_skyblinder_staff
+extern _card_icatian_town
+extern _card_blood_of_the_martyr
+extern _card_season_of_the_witch
+extern _card_cleansing2
+extern _card_city_in_a_bottle
+extern _card_golgothian_sylex
+extern _card_cocoon
+extern _card_demonic_torment
+extern _card_disharmony
+extern _card_dream_coat
+extern _card_dwarven_song
+extern _card_enchanted_being
+extern _card_evil_eye_of_orms_by_gore
+extern _card_field_of_dreams
+extern _card_forethought_amulet
+extern _card_giant_slug
+extern _card_glyph_of_delusion
+extern _card_glyph_of_destruction
+extern _card_glyph_of_doom
+extern _card_glyph_of_life
+extern _card_glyph_of_reincarnation
+extern _card_hold_at_bay
+extern _card_infinite_autority
+extern _card_knowledge_vault
+extern _card_kry_shield
+extern _card_life_matrix
+extern _card_marble_priest
+extern _card_part_water
+extern _card_psychic_purge
+extern _card_rapid_fire
+extern _card_sea_kings_blessing
+extern _card_sentinel
+extern _card_spectral_cloak
+extern _card_subdue
+extern _card_sylvan_paradise
+extern _card_teleport2
+extern _card_touch_of_darkness
+extern _card_wall_of_putrid_flesh
+extern _card_wall_of_vapor
+extern _card_wood_elemental
+extern _card_venarian_gold
+extern _card_brine_shaman
+extern _card_energy_storm
+extern _card_freyalise_supplicant
+extern _card_iceberg
+extern _card_krovikan_elementalist
+extern _card_krovikan_vampire
+extern _card_meteor_shower
+extern _card_mudslide
+extern _card_musician
+extern _card_pestilence_rats
+extern _card_portent
+extern _card_runed_arch
+extern _card_skeleton_ship
+extern _card_skull_catapult
+extern _card_vibrating_sphere
+extern _card_aegis_of_the_meek
+extern _card_baton_of_morale
+extern _card_celestial_sword
+extern _card_fyndhorn_bow
+extern _card_whalebone_glider
+extern _card_wiitigo
+extern _card_zurs_weirding
+extern _card_ashnods_cylix
+extern _card_balduvian_trading_post
+extern _card_bestial_fury
+extern _card_diseased_vermin
+extern _card_energy_arc
+extern _card_fatal_lore
+extern _card_gorilla_chieftain
+extern _card_gorilla_war_cry
+extern _card_heart_of_yavimaya
+extern _card_library_of_lat_nam
+extern _card_keeper_of_tresserhorn
+extern _card_lim_duls_paladin
+extern _card_misfortune
+extern _card_natures_chosen
+extern _card_noble_steeds
+extern _card_phyrexian_war_beast
+extern _card_reprisal
+extern _card_rogue_skycaptain
+extern _card_sheltered_valley
+extern _card_sol_grail
+extern _card_soldier_of_fortune
+extern _card_splinter_token
+extern _card_splintering_wind
+extern _card_surge_of_strength
+extern _card_sustaining_spirit
+extern _card_taste_of_paradise
+extern _card_tornado
+extern _card_unlikely_alliance
+extern _card_whip_vine
+extern _card_whirling_catapult
+extern _card_abyssal_hunter
+extern _card_acidic_dagger
+extern _card_afiya_grove
+extern _card_amber_prison
+extern _card_amulet_of_unmaking
+extern _card_armorer_guildmage
+extern _card_ashen_powder
+extern _card_bad_river
+extern _card_basalt_golem
+extern _card_bazaar_of_wonders
+extern _card_bone_mask
+extern _card_burning_palm_efreet
+extern _card_chaosphere
+extern _card_chariot_of_the_sun
+extern _card_choking_sands
+extern _card_civic_guildmage
+extern _card_divine_retribution
+extern _card_dream_fighter
+extern _card_elixir_of_vitality
+extern _card_emberwilde_djinn
+extern _card_femeref_archers
+extern _card_femeref_knight
+extern _card_flood_plain
+extern _card_forbidden_crypt
+extern _card_goblin_elite_infantry
+extern _card_goblin_scouts
+extern _card_grasslands
+extern _card_hakim_loreweaver
+extern _card_harmattan_efreet
+extern _card_jungle_wurm
+extern _card_locust_swarm
+extern _card_malignant_growth
+extern _card_mindbender_spores
+extern _card_misers_cage
+extern _card_mountain_valley
+extern _card_mtenda_griffin
+extern _card_null_chamber
+extern _card_paupers_cage
+extern _card_phyrexian_tribute
+extern _card_political_trickery
+extern _card_psychic_transfer
+extern _card_quirion_elves
+extern _card_rocky_tar_pit
+extern _card_sandbar_crocodile
+extern _card_shaper_guildmage
+extern _card_sidar_jabari
+extern _card_soulshriek
+extern _card_spatial_binding
+extern _card_subterranean_spirit
+extern _card_sunweb
+extern _card_tainted_specter
+extern _card_telim_tor
+extern _card_telim_tors_darts
+extern _card_uktabi_faeries
+extern _card_uktabi_wildcats
+extern _card_unerring_sling
+extern _card_vaporous_djinn
+extern _card_vigilant_martyr
+extern _card_village_elder
+extern _card_wall_of_corpses
+extern _card_wall_of_resistance
+extern _card_warping_wurm
+extern _card_agoraphobia
+extern _card_sapphire_drake
+extern _card_scatter_arc
+extern _card_blanket_of_night
+extern _card_bogardan_phoenix
+extern _card_brass_talon_chimera
+extern _card_coral_atoll
+extern _card_dormant_volcano
+extern _card_dragons_mask
+extern _card_dream_tides
+extern _card_emerald_charm
+extern _card_eye_of_singularity
+extern _card_forbidden_ritual
+extern _card_goblin_recruiter
+extern _card_heart_charm
+extern _card_ivory_charm
+extern _card_iron_heart_chimera
+extern _card_jamuraa_lion
+extern _card_jungle_basin
+extern _card_karoo
+extern _card_katabatic_winds
+extern _card_lead_belly_chimera
+extern _card_magma_mine
+extern _card_parapet
+extern _card_pillar_tombs_of_aku
+extern _card_resistance_fighter
+extern _card_righteous_aura
+extern _card_sands_of_time
+extern _card_simoon
+extern _card_teferis_realm
+extern _card_three_wishes
+extern _card_tin_wing_chimera
+extern _card_waterspout_djinn
+extern _card_wind_shear
+extern _card_aboroth
+extern _card_agonizing_memories
+extern _card_alms2
+extern _card_blossoming_wreath
+extern _card_bosium_strip
+extern _card_buried_alive
+extern _card_call_of_the_wild
+extern _card_festering_evil
+extern _card_infernal_tribute
+extern _card_jabaris_banner
+extern _card_scorched_ruins
+extern _card_sylvan_hierophant
+extern _card_tariff
+extern _card_thran_tome
+extern _card_tolarian_entrancer
+extern _card_tolarian_serpent
+extern _card_touchstone
+extern _card_uktabi_efreet
+extern _card_urborg_stalker
+extern _card_vitalize
+extern _card_volounteer_reserves
+extern _card_abandon_hope
+extern _card_anoint
+extern _card_armord_sliver
+extern _card_barbed_sliver
+extern _card_blood_frenzy
+extern _card_magus_of_the_arena
+extern _card_broken_fall
+extern _card_clot_sliver
+extern _card_crazed_armodon
+extern _card_darkling_stalker
+extern _card_dauthi_ghoul
+extern _card_dirtcowl_wurm
+extern _card_disturbed_burial
+extern _card_elven_warhounds
+extern _card_elvish_fury
+extern _card_emessi_tome
+extern _card_essence_bottle
+extern _card_evincars_justice
+extern _card_extinction
+extern _card_fools_tome
+extern _card_heartwood_giant
+extern _card_humility
+extern _card_kezzerdrix
+extern _card_mindwhip_sliver
+extern _card_mnemonic_sliver
+extern _card_mogg_raider
+extern _card_puppet_strings
+extern _card_reckless_spite
+extern _card_repentance
+extern _card_scorched_earth
+extern _card_seeker_of_skybreak
+extern _card_selenia_dark_angel
+extern _card_serene_offering
+extern _card_shadow_rift
+extern _card_skyshroud_vampire
+extern _card_soltari_lancer
+extern _card_starke_of_rath
+extern _card_thalakos_seer
+extern _card_tooth_and_claw
+extern _card_wild_wurm
+extern _card_brush_with_death
+extern _card_bullwhip
+extern _card_cannibalize
+extern _card_whispers_of_the_muse
+extern _card_searing_touch
+extern _card_elven_rite
+extern _card_fanning_the_flames
+extern _card_flame_wave
+extern _card_flowstone_mauler
+extern _card_grave_pact
+extern _card_wight_of_precint_six
+extern _card_pyre_charger
+extern _card_hesitation
+extern _card_jinxed_ring
+extern _card_lab_rats
+extern _card_mask_of_the_mimic
+extern _card_mind_peel
+extern _card_mindwarper
+extern _card_mob_justice
+extern _card_mortuary
+extern _card_overgrowth
+extern _card_pursuit_of_knowledge
+extern _card_rabid_rats
+extern _card_ransack
+extern _card_reins_of_power
+extern _card_scapegoat
+extern _card_seething_anger
+extern _card_skyshroud_archer
+extern _card_spike_breeder
+extern _card_spitting_hydra
+extern _card_sword_of_the_chosen
+extern _card_volraths_gardens
+extern _card_volraths_laboratory
+extern _card_allay
+extern _card_dauthi_jackal
+extern _card_deaths_duet
+extern _card_ephemeron
+extern _card_exalted_dragon
+extern _card_flowstone_flood
+extern _card_jackalope_herd
+extern _card_mana_breach
+extern _card_pegasus_stampede
+extern _card_reaping_the_rewards
+extern _card_rootwater_mystic
+extern _card_scalding_salamander
+extern _card_scare_tactics
+extern _card_seismic_assault
+extern _card_shackles
+extern _card_shattering_pulse
+extern _card_skyshaper
+extern _card_slaughter2
+extern _card_spike_hatcher
+extern _card_spike_rogue
+extern _card_theft_of_dreams
+extern _card_volraths_dungeon
+extern _card_welkin_hawk
+extern _card_abyssal_horror
+extern _card_arc_lightning
+extern _card_argothian_elder
+extern _card_bedlam
+extern _card_blanchwood_armor
+extern _card_blasted_landscape
+extern _card_blood_vassal
+extern _card_brilliant_halo
+extern _card_bulwark
+extern _card_carrion_beetles
+extern _card_copper_gnomes
+extern _card_crosswinds
+extern _card_crystal_chimes
+extern _card_curfew
+extern _card_dark_hatchling
+extern _card_darkest_hour
+extern _card_despondency
+extern _card_destructive_urge
+extern _card_drifting_meadow
+extern _card_elvish_lyrist
+extern _card_expunge
+extern _card_fiery_mantle
+extern _card_gaeas_bounty
+extern _card_great_whale
+extern _card_greener_pastures
+extern _card_hidden_ancients
+extern _card_hidden_herd
+extern _card_hidden_predators
+extern _card_hidden_spider
+extern _card_hidden_stag
+extern _card_hidden_stag_animated
+extern _card_humble
+extern _card_intrepid_hero
+extern _card_lilting_refrain
+extern _card_lull
+extern _card_morphling
+extern _card_order_of_yawgmoth
+extern _card_pariah
+extern _card_planar_void
+extern _card_rejuvenate
+extern _card_rescind
+extern _card_sanctum_guardian
+extern _card_scoria_wurm
+extern _card_scrap2
+extern _card_shivan_raptor
+extern _card_songstitcher
+extern _card_titanias_boon
+extern _card_titanias_chosen
+extern _card_torch_song
+extern _card_vebulid
+extern _card_hidden_gibbons
+extern _card_opal_gargoyle
+extern _card_opal_archangel
+extern _card_veiled_sentry
+extern _card_veiled_sentry_animated
+extern _card_war_dance
+extern _card_whetstone
+extern _card_whirlwind2
+extern _card_wildfire
+extern _card_witch_engine
+extern _card_angels_trumpet
+extern _card_archivist
+extern _card_aura_flux
+extern _card_brink_of_madness
+extern _card_devout_harpist
+extern _card_eviscerator
+extern _card_expendable_troops
+extern _card_fleeting_image
+extern _card_harmonic_convergence
+extern _card_iron_maiden
+extern _card_lurking_skirge
+extern _card_opal_champion
+extern _card_opal_avenger
+extern _card_ostracize
+extern _card_phyrexian_plaguelord
+extern _card_radiants_judgement
+extern _card_rebuild
+extern _card_repopulate
+extern _card_subversion
+extern _card_swat
+extern _card_thran_war_machine
+extern _card_viashino_cutthroath
+extern _card_walking_sponge
+extern _card_wheel_of_torture
+extern _card_aether_sting
+extern _card_aura_thief
+extern _card_bloodshot_cyclops
+extern _card_fend_off
+extern _card_flame_jet
+extern _card_flicker2
+extern _card_impatience
+extern _card_keldon_vandals
+extern _card_master_healer
+extern _card_masticore
+extern _card_mental_discipline
+extern _card_multanis_decree
+extern _card_pattern_of_rebirth
+extern _card_plow_under
+extern _card_rapid_decay
+extern _card_rofellos_gift
+extern _card_scent_of_brine
+extern _card_scent_of_cinder
+extern _card_scent_of_ivy
+extern _card_scent_of_jasmine
+extern _card_scent_of_nightshade
+extern _card_temporal_adept
+extern _card_urzas_incubator
+extern _card_an_zerrin_ruins
+extern _card_anaba_ancestor
+extern _card_anaba_shaman
+extern _card_aysen_bureaucrats
+extern _card_aysen_crusader
+extern _card_black_carriage
+extern _card_broken_visage
+extern _card_chandler
+extern _card_clockwork_steed
+extern _card_clockwork_swarm
+extern _card_clockwork_beast
+extern _card_dry_spell
+extern _card_eron_the_relentless
+extern _card_faerie_noble
+extern _card_feast_of_the_unicorn
+extern _card_ferozs_ban
+extern _card_forget
+extern _card_giant_oyster
+extern _card_hungry_mist
+extern _card_joven
+extern _card_jovens_ferrets
+extern _card_jovens_tools
+extern _card_koskun_falls
+extern _card_alibans_tower
+extern _card_leeches
+extern _card_mystic_decree
+extern _card_reveka_wizard_savant
+extern _card_roots
+extern _card_roterothopter
+extern _card_rysorian_badger
+extern _card_serra_aviary
+extern _card_serra_paladin
+extern _card_petra_sphinx
+extern _card_spectral_bears
+extern _card_trade_caravan
+extern _card_allosaurus_rider
+extern _card_aurochs_herd
+extern _card_balduvian_fallen
+extern _card_balduvian_rage
+extern _card_bull_aurochs
+extern _card_cover_of_winter
+extern _card_deepfire_elemental
+extern _card_diamond_faerie
+extern _card_disciple_of_tevesh_szat
+extern _card_feast_of_flesh
+extern _card_frostweb_spider
+extern _card_frozen_solid
+extern _card_garzas_assassin
+extern _card_controvert
+extern _card_gelid_shackles
+extern _card_grim_harvest
+extern _card_gutless_ghoul
+extern _card_heidar_rimewind_master
+extern _card_icefall
+extern _card_jokulmorder
+extern _card_karplusan_minotaur
+extern _card_karplusan_wolverine
+extern _card_kjeldoran_war_cry
+extern _card_krovikan_rot
+extern _card_krovikan_whispers
+extern _card_magmatic_core
+extern _card_martyr_of_bones
+extern _card_martyr_of_frost
+extern _card_martyr_of_spores
+extern _card_phyrexian_soulgorger
+extern _card_rimebound_dead
+extern _card_rimefeather_owl
+extern _card_rimescale_dragon
+extern _card_rimewind_taskmage
+extern _card_shape_of_the_wiitigo
+extern _card_soul_spike
+extern _card_sound_the_call
+extern _card_squall_drifter
+extern _card_suns_bounty
+extern _card_sunscour
+extern _card_surging_aether
+extern _card_surging_dementia
+extern _card_surging_flame
+extern _card_surging_might
+extern _card_surging_sentinels
+extern _card_thermopod
+extern _card_thrummingstone
+extern _card_vanish_into_memory
+extern _card_void_maw
+extern _card_wilderness_elemental
+extern _card_woolly_razorback
+extern _card_renounce_the_guilds
+extern _card_maze_sentinel
+extern _card_sunspire_gatekeeper
+extern _card_maze_glider
+extern _card_opal_lake_gatekeeper
+extern _card_uncovered_clues
+extern _card_blood_scrivener
+extern _card_maze_abomination
+extern _card_ubal_sar_gatekeeper
+extern _card_maze_rusher
+extern _card_possibility_storm
+extern _card_smelt_ward_gatekeeper
+extern _card_maze_behemoth
+extern _card_renegade_krasis
+extern _card_surali_gatekeeper
+extern _card_advent_of_the_wurm
+extern _card_blood_baron_of_vizkopa
+extern _card_bred_for_the_hunt
+extern _card_council_of_the_absolute
+extern _card_deadbridge_chant
+extern _card_deputy_of_acquittals
+extern _card_exava_rakdos_blood_witch
+extern _card_goblin_test_pilot
+extern _card_lavinia_of_the_tenth
+extern _card_legions_initiative
+extern _card_master_of_cruelties
+extern _card_melek_izzet_paragon
+extern _card_mirko_vosk_mind_drinker
+extern _card_nivix_cyclops
+extern _card_notion_thief
+extern _card_obzedats_aid
+extern _card_progenitor_mimic
+extern _card_ral_zarek
+extern _card_render_silent
+extern _card_rot_farm_skeleton
+extern _card_ruric_thar_the_unbowed
+extern _card_savageborn_hydra
+extern _card_showstopper
+extern _card_sin_collector
+extern _card_sire_of_insanity
+extern _card_tajic_blade_of_the_legion
+extern _card_teysa_envoy_of_ghosts
+extern _card_trostanis_summoner
+extern _card_varolz_the_scar_striped
+extern _card_viashino_firstblade
+extern _card_voice_of_resurgence
+extern _card_vorel_of_the_hull_clade
+extern _card_warleaders_helix
+extern _card_warped_physique
+extern _card_reap_intellect
+extern _card_alive_well
+extern _card_armed_dangerous
+extern _card_beck_call
+extern _card_breaking_entering
+extern _card_catch_release
+extern _card_down_dirty
+extern _card_far_away
+extern _card_flesh_blood
+extern _card_give_take
+extern _card_profit_loss
+extern _card_protect_serve
+extern _card_ready_willing
+extern _card_toil_trouble
+extern _card_turn_burn
+extern _card_wear_tear
+extern _card_azorius_cluestone
+extern _card_mazes_end
+extern _card_wake_the_reflections
+extern _card_hidden_strings
+extern _card_aetherling
+extern _card_crypt_incursion
+extern _card_pontiff_of_blight
+extern _card_pyrewild_shaman
+extern _card_skylasher
+extern _card_beetleform_mage
+extern _card_blast_of_genius
+extern _card_dragonshift
+extern _card_drown_in_filth
+extern _card_emmara_tandris
+extern _card_gaze_of_granite
+extern _card_gleam_of_battle
+extern _card_gruul_war_chant
+extern _card_haunter_of_nightveil
+extern _card_jelenn_sphinx
+extern _card_korozda_gorgon
+extern _card_pilfered_plans
+extern _card_species_gorger
+extern _card_tithe_drinker
+extern _card_boros_mastiff
+extern _card_haazda_snare_squad
+extern _card_lyev_decree
+extern _card_riot_control
+extern _card_mindstatic
+extern _card_crypt_rats
+extern _card_runners_bane
+extern _card_fatal_fumes
+extern _card_hired_torturer
+extern _card_sinister_possession
+extern _card_awe_for_the_guilds
+extern _card_clear_a_path
+extern _card_punish_the_enemy
+extern _card_astral_cornucopia
+extern _card_weapon_surge
+extern _card_rubblebelt_maaka
+extern _card_kraul_warrior
+extern _card_mending_touch
+extern _card_mutants_prey
+extern _card_phytoburst
+extern _card_thrashing_mossdog
+extern _card_blaze_commando
+extern _card_bronzebeak_moa
+extern _card_carnage_gladiator
+extern _card_debt_to_the_deathless
+extern _card_krasis_incubation
+extern _card_maw_of_obzedat
+extern _card_morgue_burst
+extern _card_scab_clan_giant
+extern _card_zhur_taa_druid
+extern _card_back_to_95
+extern _card_academy_at_tolaria_west
+extern _card_agyrem
+extern _card_bant
+extern _card_cliffside_market
+extern _card_eloren_wilds
+extern _card_feeding_grounds
+extern _card_fields_of_summer
+extern _card_goldmeadow2
+extern _card_grixis
+extern _card_immersturm
+extern _card_isle_of_vesuva
+extern _card_izzet_steam_maze
+extern _card_krosa2
+extern _card_lethe_lake
+extern _card_llanowar2
+extern _card_naar_isle
+extern _card_naya2
+extern _card_panopticon
+extern _card_pools_of_becoming
+extern _card_ravens_run
+extern _card_sanctum_of_serra
+extern _card_sea_of_sand
+extern _card_shiv2
+extern _card_skybreen
+extern _card_sokenzan
+extern _card_stronghold_furnace
+extern _card_tazeem
+extern _card_the_aether_flues
+extern _card_the_eon_fog
+extern _card_the_fourth_sphere
+extern _card_the_great_forest
+extern _card_the_hippodrome
+extern _card_the_maelstrom
+extern _card_turri_island
+extern _card_undercity_reaches
+extern _card_velis_vel
+extern _card_minamo2
+extern _card_otaria
+extern _card_ground_seal
+extern _card_aretopolis
+extern _card_bloodhill_bastion
+extern _card_edge_of_malacol
+extern _card_furnace_layer
+extern _card_gavony
+extern _card_grand_ossuary
+extern _card_grove_of_the_dreampods
+extern _card_hedron_fields_of_agadeem
+extern _card_jund2
+extern _card_kessig2
+extern _card_kharasha_foothills
+extern _card_kilnspire_district
+extern _card_lair_of_the_ashen_idol
+extern _card_mount_keralia
+extern _card_nephalia2
+extern _card_norns_dominion
+extern _card_onakke_catacomb
+extern _card_orochi_colony
+extern _card_orzhova2
+extern _card_prahv
+extern _card_quicksilver_sea
+extern _card_selesnya_loft_gardens
+extern _card_stensia
+extern _card_takenuma2
+extern _card_talon_gates
+extern _card_the_zephyr_maze
+extern _card_truga_jungle
+extern _card_windriddle_palaces
+extern _card_drop_of_honey
+extern _card_tranquillity
+extern _card_rubblebelt_raiders
+extern _card_simic_fluxmage
+extern _card_bloodstone_cameo
+extern _card_nantuko_shade
+extern _card_phantom_nomad
+extern _card_zuberi_golden_feather
+extern _card_scion_of_vitu_ghazi
+extern _card_gleam_of_resistence
+extern _card_saltfield_recluse
+extern _card_sandsower
+extern _card_stir_the_pride
+extern _card_erratic_mutation
+extern _card_latchkey_faerie
+extern _card_petals_of_insight
+extern _card_take_possession
+extern _card_vedalken_dismisser
+extern _card_absorb_vis
+extern _card_deepcavern_imp
+extern _card_dreamspoil_witches
+extern _card_thieving_sprites
+extern _card_warren_pilfeners
+extern _card_blind_spot_giant
+extern _card_crush_underfoot
+extern _card_fiery_fall
+extern _card_hammerheim_deadeye
+extern _card_tar_pitcher
+extern _card_warspike_changeling
+extern _card_citanul_woodreaders
+extern _card_giant_dustwasp
+extern _card_nantuko_shaman
+extern _card_sylvan_bounty
+extern _card_walker_of_the_grove
+extern _card_duh
+extern _card_phyrexian_revoker
+extern _card_desert2
+extern _fetch_ability_tooltip_name
+extern _initialize_ability_tooltip_names
+extern _real_target_available
+extern _real_select_target
+extern _real_validate_target
+extern _is_displayed_as_attached@8
+extern _legacy_name
+extern _check_timer_for_ai_speculation
+extern _after_load_game
+extern _human_autotap_for_mana
+extern _card_generic_animated_land
+extern _card_plasm_capture
+extern _card_shambling_swarm
+extern _card_hydroform
+extern _card_jolrael_empress_of_beasts
+extern _card_life_death
+extern _card_living_plane
+extern _card_natural_affinity
+extern _card_natures_revolt
+extern _card_rude_awakening
+extern _card_ajanis_chosen
+extern _card_ayesha_tanaka
+extern _card_not_of_this_world
+extern _card_teferis_response
+extern _card_angelic_accord
+extern _card_banisher_priest
+extern _card_bonescythe_sliver
+extern _card_capashen_knight
+extern _card_celestial_flare
+extern _card_dawnstrike_paladin
+extern _card_devout_invocation
+extern _card_hive_stirrings
+extern _card_imposing_sovereign
+extern _card_indestructibility
+extern _card_master_of_diversion
+extern _card_path_of_bravery
+extern _card_pay_no_heed
+extern _card_sentinel_sliver
+extern _card_seraph_of_the_sword
+extern _card_soulmender
+extern _card_colossal_whale
+extern _card_dismiss_into_dream
+extern _card_domestication
+extern _card_elite_arcanist
+extern _card_galerider_sliver
+extern _card_glimpse_the_future
+extern _card_illusionary_armor
+extern _card_jaces_mindseeker
+extern _card_kobold_taskmaster
+extern _card_assembly_worker
+extern _card_tidebinder_mage
+extern _card_time_ebb
+extern _card_trained_condor
+extern _card_warden_of_evos_isle
+extern _card_windreader_sphinx
+extern _card_zephyr_charge
+extern _card_arteficers_hex
+extern _card_blightcaster
+extern _card_blood_bairn
+extern _card_bogbrew_witch
+extern _card_corpse_hauler
+extern _card_dark_prophecy
+extern _card_festering_newt
+extern _card_gnawing_zombie
+extern _card_grim_return
+extern _card_lifebane_zombie
+extern _card_lilianas_reaver
+extern _card_liturgy_of_blood
+extern _card_nightmare2
+extern _card_rise_of_the_dark_realms
+extern _card_shadowborn_apostle
+extern _card_shadowborn_demon
+extern _card_syphon_sliver
+extern _card_tenacious_dead
+extern _card_vampire_warlord
+extern _card_xathrid_necromancer
+extern _card_academy_rider
+extern _card_awaken_the_ancient
+extern _card_barrage_of_expendables
+extern _card_battle_sliver
+extern _card_blur_sliver
+extern _card_burning_earth
+extern _card_contamination
+extern _card_chandra_pyromaster
+extern _card_cyclops_tyrant
+extern _card_dragon_egg
+extern _card_fleshpulper_giant
+extern _card_goblin_diplomats
+extern _card_marauding_maulhorn
+extern _card_mindsparker
+extern _card_molten_birth
+extern _card_ogre_battledriver
+extern _card_scourge_of_valkas
+extern _card_striking_sliver
+extern _card_thorncaster_sliver
+extern _card_young_pyromancer
+extern _card_advocate_of_the_beast
+extern _card_elvish_mystic
+extern _card_enlarge
+extern _card_garruk_caller_of_beasts
+extern _card_groundshaker_sliver
+extern _card_hunt_the_weak
+extern _card_into_the_wilds
+extern _card_kalonian_hydra
+extern _card_manaweft_sliver
+extern _card_megantic_sliver
+extern _card_oath_of_the_ancient_wood
+extern _card_predatory_sliver
+extern _card_primeval_bounty
+extern _card_sporemound
+extern _card_vastwood_hydra
+extern _card_voracious_wurm
+extern _card_witchstalker
+extern _card_woodborn_behemoth
+extern _card_guardian_of_the_ages
+extern _card_haunted_plate_mail
+extern _card_pyromancers_gauntlet
+extern _card_ring_of_three_wishes
+extern _card_staff_of_the_death_magus
+extern _card_staff_of_the_flame_magus
+extern _card_staff_of_the_mind_magus
+extern _card_staff_of_the_sun_magus
+extern _card_vial_of_poison
+extern _card_encroaching_wastes
+extern _card_dense_foliage
+extern _card_fellwar_stone
+extern _card_ivory_mask
+extern _card_true_believer
+extern _card_imperial_mask
+extern _card_spirit_of_the_hearth
+extern _card_spellbreaker_behemoth
+extern _card_finest_hour
+extern _card_world_at_war
+extern _card_waves_of_aggression
+extern _card_izzet_signet
+extern _card_opalescence
+extern _card_garruk_caller_emblem
+extern _card_bubbling_cauldron
+extern _card_fiendslayer_paladin
+extern _card_lightning_talons
+extern _card_steelform_sliver
+extern _card_stonehorn_chanter
+extern _card_staff_of_the_wild_magus
+extern _card_divination
+extern _card_heartstone
+extern _card_suppression_field
+extern _card_training_grounds
+extern _card_power_artifact
+extern _card_voltaic_key
+extern _card_ihsans_shade
+extern _card_autumn_willow
+extern _card_apprentice_wizard
+extern _card_black_lotus
+extern _card_gilded_lotus
+extern _card_mana_flare
+extern _card_mishras_workshop
+extern _card_orzhov_basilica
+extern _card_palladium_myr
+extern _card_sol_ring
+extern _card_urzas_mine_card_urzas_power_plant
+extern _card_urzas_tower
+extern _card_adun_oakenshield
+extern _card_arcades_sabboth
+extern _card_barktooth_warbeard
+extern _card_bartel_runeaxe
+extern _card_boris_devilboon
+extern _card_chromium
+extern _card_dakkon_blackblade
+extern _card_gwendlyn_di_corci
+extern _card_hammerheim
+extern _card_hunding_gjornersen
+extern _card_kei_takahashi
+extern _card_lady_caleria
+extern _card_nicol_bolas2
+extern _card_palladia_mors
+extern _card_pendelhaven
+extern _card_princess_lucrezia
+extern _card_ragnar
+extern _card_ramses_overdark
+extern _card_riven_turnbull
+extern _card_rubinia_soulsinger
+extern _card_sunastian_falconer
+extern _card_tetsuo_umezawa
+extern _card_the_tabernacle_at_pendrell_vale
+extern _card_tolaria
+extern _card_tor_wauki
+extern _card_tuknir_deathlock
+extern _card_urborg
+extern _card_vaevictis_asmadi
+extern _card_xira_arien
+extern _card_battlewise_valor
+extern _card_cavalry_pegasus
+extern _card_celestial_archon
+extern _card_chained_to_the_rocks
+extern _card_chosen_by_heliod
+extern _card_dauntless_onslaught
+extern _card_decorated_griffin
+extern _card_elspeth_suns_champion
+extern _card_evangel_of_heliod
+extern _card_fabled_hero
+extern _card_gift_of_immortality
+extern _card_glare_of_heresy
+extern _card_gods_willing
+extern _card_heliod_god_of_the_sun
+extern _card_heliods_emissary
+extern _card_hopeful_eidolon
+extern _card_hundred_handed_one
+extern _card_lagonna_band_elder
+extern _card_last_breath
+extern _card_leonin_snarecaster
+extern _card_observant_alseid
+extern _card_ordeal_of_heliod
+extern _card_phalanx_leader
+extern _card_ray_of_dissolution
+extern _card_scholar_of_athreos
+extern _card_setessan_battle_priest
+extern _card_setessan_griffin
+extern _card_spear_of_heliod
+extern _card_vanquish_the_foul
+extern _card_aqueous_form
+extern _card_artisan_of_forms
+extern _card_bident_of_thassa
+extern _card_breaching_hippocamp
+extern _card_crackling_triton
+extern _card_curse_of_the_swine
+extern _card_dissolve
+extern _card_fate_foretold
+extern _card_gainsay
+extern _card_horizon_scholar
+extern _card_lost_in_a_labyrinth
+extern _card_master_of_waves
+extern _card_meletis_charlatan
+extern _card_nimbus_naiad
+extern _card_ordeal_of_thassa
+extern _card_prescient_chimera
+extern _card_prognostic_sphinx
+extern _card_sealock_monster
+extern _card_sea_gods_revenge
+extern _card_shipbreaker_kraken
+extern _card_stymied_hopes
+extern _card_swan_song
+extern _card_thassa_god_of_the_sea
+extern _card_thassas_bounty
+extern _card_thassas_emissary
+extern _card_triton_fortune_hunter
+extern _card_triton_tactics
+extern _card_voyages_end
+extern _card_wavecrash_triton
+extern _card_abhorrent_overlord
+extern _card_agent_of_the_fates
+extern _card_asphodel_wanderer
+extern _card_baleful_eidolon
+extern _card_blood_toll_harpy
+extern _card_boon_of_erebos
+extern _card_cavern_lampad
+extern _card_cutthroat_maneuver
+extern _card_dark_betrayal
+extern _card_disciple_of_phenax
+extern _card_erebos_god_of_the_dead
+extern _card_ereboss_emissary
+extern _card_fleshmad_steed
+extern _card_gray_merchant_of_asphodel
+extern _card_hythonia_the_cruel
+extern _card_keepsake_gorgon
+extern _card_lash_of_the_whip
+extern _card_loathsome_catoblepas
+extern _card_mogiss_marauder
+extern _card_nighthowler
+extern _card_ordeal_of_erebos
+extern _card_read_the_bones
+extern _card_rescue_from_the_underworld
+extern _card_returned_centaur
+extern _card_returned_phalanx
+extern _card_scourgemark
+extern _card_sip_of_hemlock
+extern _card_tormented_hero
+extern _card_vipers_kiss
+extern _card_whip_of_erebos
+extern _card_akroan_crusader
+extern _card_anger_of_the_gods
+extern _card_arena_athlete
+extern _card_boulderfall
+extern _card_coordinated_assault
+extern _card_deathbellow_raider
+extern _card_dragon_mantle
+extern _card_ember_swallower
+extern _card_fanatic_of_mogis
+extern _card_firedrinker_satyr
+extern _card_flamespeaker_adept
+extern _card_hammer_of_purphoros
+extern _card_ill_tempered_cyclops
+extern _card_labyrinth_champion
+extern _card_messengers_speed
+extern _card_minotaur_skullcleaver
+extern _card_peak_eruption
+extern _card_portent_of_betrayal
+extern _card_priest_of_iroas
+extern _card_purphoros_god_of_the_forge
+extern _card_purphoross_emissary
+extern _card_rage_of_purphoros
+extern _card_rageblood_shaman
+extern _card_spearpoint_oread
+extern _card_spark_jolt
+extern _card_stoneshock_giant
+extern _card_stormbreath_dragon
+extern _card_titan_of_eternal_fire
+extern _card_titans_strength
+extern _card_agent_of_horizons
+extern _card_anthousa_setessan_hero
+extern _card_arbor_colossus
+extern _card_artisans_sorrow
+extern _card_boon_satyr
+extern _card_centaur_battlemaster
+extern _card_commune_with_the_gods
+extern _card_defend_the_hearth
+extern _card_fade_into_antiquity
+extern _card_feral_invocation
+extern _card_hunt_the_hunter
+extern _card_karametras_acolyte
+extern _card_leafcrown_dryad
+extern _card_mistcutter_hydra
+extern _card_nemesis_of_mortals
+extern _card_nylea_god_of_the_hunt
+extern _card_nyleas_disciple
+extern _card_nyleas_emissary
+extern _card_nyleas_presence
+extern _card_ordeal_of_nylea
+extern _card_nessian_asp
+extern _card_polukranos_world_eater
+extern _card_reverent_hunter
+extern _card_satyr_hedonist
+extern _card_satyr_piper
+extern _card_shredding_winds
+extern _card_staunch_hearted_warrior
+extern _card_sylvan_caryatid
+extern _card_time_to_feed
+extern _card_warriors_lesson
+extern _card_akroan_hoplite
+extern _card_anax_and_cymede
+extern _card_ashen_rider
+extern _card_ashiok_nightmare_weaver
+extern _card_battlewise_hoplite
+extern _card_chronicler_of_heroes
+extern _card_electrolyze
+extern _card_daxos_of_meletis
+extern _card_destructive_revelry
+extern _card_fleecemane_lion
+extern _card_horizon_chimera
+extern _card_kragma_warcaller
+extern _card_medomai_the_ageless
+extern _card_pharikas_mender
+extern _card_polis_crusher
+extern _card_prophet_of_kruphix
+extern _card_psychic_intrusion
+extern _card_reaper_of_the_wilds
+extern _card_sentry_of_the_underworld
+extern _card_shipwreck_singer
+extern _card_spellheart_chimera
+extern _card_triad_of_fates
+extern _card_tymaret_the_murder_king
+extern _card_underworld_cerberus
+extern _card_xenagos_the_reveler
+extern _card_akroan_horse
+extern _card_burnished_hart
+extern _card_colossus_of_akros
+extern _card_flamecast_wheel
+extern _card_thrashing_wumpus
+extern _card_prowlers_helm
+extern _card_pyxis_of_pandemonium
+extern _card_witches_eye
+extern _card_nykthos_shrine_to_nix
+extern _card_order_of_the_ebon_hand
+extern _card_order_of_leitbur
+extern _card_steam_augury
+extern _card_elspeth_suns_champion_emblem
+extern _card_font_of_mythos
+extern _card_dragon_engine
+extern _card_hydra_head
+extern _card_ravenous_brute_head
+extern _card_snapping_fang_head
+extern _card_shrieking_titan_head
+extern _card_savage_vigor_head
+extern _card_strike_the_weak_spot
+extern _card_city_of_brass
+extern _card_generic_noncombat_1_mana_producing_creature
+extern _card_spirit_shackle
+extern _card_bazaar_of_baghdad
+extern _card_elephant_graveyard
+extern _card_island_of_wak_wak
+extern _card_oasis
+extern _card_arena
+extern _card_disorienting_glower
+extern _card_distract_the_hydra
+extern _card_grown_from_the_stump
+extern _card_hydra_impenetrable_hide
+extern _card_neck_tangle
+extern _card_noxious_hydra_breath
+extern _card_swallow_the_hero_whole
+extern _card_torn_between_the_heads
+extern _card_unified_lunge
+extern _card_the_philosopher
+extern _card_the_avenger
+extern _card_the_warrior
+extern _card_the_hunter
+extern _card_the_slayer
+extern _dispatch_trigger
+extern _card_kitsune_mystic
+extern _card_autumn_tail_kitsune_sage
+extern _card_enraging_licid
+extern _card_leeching_licid
+extern _card_nurturing_licid
+extern _card_quickening_licid
+extern _card_stinging_licid
+extern _card_calming_licid
+extern _card_convulsing_licid
+extern _card_corrupting_licid
+extern _card_gliding_licid
+extern _card_tempting_licid
+extern _card_dominating_licid
+extern _card_trasmogrifying_licid
+extern _card_unflinching_courage
+extern _card_el_hajjaj
+extern _destroy_attached_auras_and_obliterate_card
+extern _card_bow_of_nylea
+extern _card_epharas_warden
+extern _card_favored_hoplite
+extern _card_fleetfeather_sandals
+extern _card_soldier_of_the_pantheon
+extern _untap_phase
+extern _process_multiblock
+extern _card_multiblocker_hook
+extern _recalculate_all_cards_in_play
+extern _card_sylvan_yeti
+extern _card_avatar_of_hope
+extern _card_palace_guard
+extern _card_two_headed_giant_of_foriys
+extern _card_imperial_edict
+extern _card_meng_huo_barbarian_king
+extern _create_card_instance
+extern _legacy_effect_activated
+extern _card_mystic_penitent
+extern _get_protections_from
+extern _resolve_trigger
+extern _card_force_spike
+extern _card_amulet_of_vigor
+extern _card_spiketail_hatchling
+extern _card_ivy_elemental
+extern _card_hypnotic_specter
+extern _card_abyssal_specter
+extern _card_library_of_leng
+extern _card_tempt_with_immortality
+extern _card_price_of_knowledge
+extern _card_fell_shepherd
+extern _card_hooded_horror
+extern _card_ophiomancer
+extern _card_toxic_deluge
+extern _card_curse_of_inertia
+extern _card_diviner_spirit
+extern _card_djinn_of_infinite_deceits
+extern _card_order_of_succession
+extern _card_true_name_nemesis
+extern _card_tempt_with_reflections
+extern _card_tidal_force
+extern _card_bane_of_progress
+extern _card_curse_of_predation
+extern _card_naya_soulbeast
+extern _card_restore2
+extern _card_spawning_grounds
+extern _card_tempt_with_discovery
+extern _card_curse_of_chaos
+extern _card_from_the_ashes
+extern _card_sudden_demise
+extern _card_tempt_with_vengeance
+extern _card_terra_ravager
+extern _card_witch_hunt
+extern _card_act_of_authority
+extern _card_angel_of_finality
+extern _card_curse_of_the_forsaken
+extern _card_darksteel_mutation_insect
+extern _card_darksteel_mutation
+extern _card_serene_master
+extern _card_tempt_with_glory
+extern _card_unexpectedly_absent
+extern _card_derevi_empyrial_tactician
+extern _card_gahiji_honored_one
+extern _card_jeleva_nephalias_scourge
+extern _card_marath_will_of_the_wild
+extern _card_nekusar_the_mindrazer
+extern _card_oloro_ageless_ascetic
+extern _card_prossh_skyraider_of_kher
+extern _card_roon_of_the_hidden_realm
+extern _card_sydri_galvanic_genius
+extern _card_shattergang_brothers
+extern _card_eye_of_doom
+extern _card_surveyors_scope
+extern _card_opal_palace
+extern _is_legal_block
+extern _is_legal_block_impl
+extern _count_colors_of_lands_in_play
+extern _card_mox_emerald
+extern _card_lotus_petal
+extern _card_darksteel_ingot
+extern _card_bogardan_hellkite
+extern _card_bruna_light_of_alabaster
+extern _card_auratouched_mage
+extern _card_blazing_specter
+extern _card_fear
+extern _card_barls_cage
+extern _card_goblin_rock_sled
+extern _card_goblin_polka_band
+extern _backup_data_for_ai
+extern _restore_data_for_ai
+extern _backup_data_for_ai_0
+extern _restore_data_for_ai_0
+extern _copy_to_display_supplement
+extern _card_rolling_stones
+extern _card_dehydration
+extern _card_tangle_kelp
+extern _card_animate_wall
+extern _card_bog_rats
+extern _card_invisibility
+extern _card_fortified_area
+extern _card_paralyze
+extern _card_elven_riders
+extern _card_island_sanctuary
+extern _card_sirens_call
+extern _card_primal_clay
+extern _can_attack
+extern _card_erhnam_djinn
+extern _card_thicket_basilisk
+extern _card_infernal_medusa
+extern _card_venom
+extern _card_nettling_imp
+extern _effect_asterisk
+extern _phase_changed
+extern _card_time_elemental
+extern _card_moat
+extern _card_land_tax
+extern _card_scion_of_the_wild
+extern _card_instill_energy
+extern _check_destroys_if_blocked
+extern _card_deathgazer
+extern _card_abu_jafar
+extern _card_abomination
+extern _ante_top_card_of_library
+extern _dlgproc_do_dialog_hook@16
+extern _card_forgestoker_dragon
+extern _card_pharagax_giant
+extern _card_insist
+extern _card_overmaster
+extern _card_leyline_of_lifeforce
+extern _card_root_sliver
+extern _card_savage_summoning
+extern _card_vexing_shusher
+extern _card_banefire
+extern _card_excruciator
+extern _card_flaring_pain
+extern _card_lava_burst
+extern _card_death_ward
+extern _card_jade_statue
+extern _card_serpent_generator
+extern _card_the_hive
+extern _card_mycosynth_lattice
+extern _card_phantasmal_fiend
+extern _card_mannichi_the_fevered_dream
+extern _card_kiora_the_crashing_wave
+extern _card_kioras_emblem
+extern _card_strange_inversion
+extern _card_valor_made_real
+extern _card_fluxcharger
+extern _card_crag_puca
+extern _card_inside_out
+extern _card_high_ground
+extern _card_myr_quadropod
+extern _card_guardian_of_the_gateless
+extern _card_dwarven_pony
+extern _card_heart_wolf
+extern _card_reef_pirates
+extern _card_torture
+extern _card_adarkar_sentinel
+extern _card_aggression
+extern _card_amulet_of_quoz
+extern _card_anarchy
+extern _card_arctic_foxes
+extern _card_arcums_whistle
+extern _card_armor_of_faith
+extern _card_arnjlots_ascent
+extern _card_thassas_rebuff
+extern _card_avalanche
+extern _card_balduvian_conjurer
+extern _card_balduvian_hydra
+extern _card_barbarian_guides
+extern _card_barbed_sextant
+extern _card_battle_cry
+extern _card_black_scarab
+extern _card_blessed_wine
+extern _card_blizzard
+extern _card_blue_scarab
+extern _card_bone_shaman
+extern _card_brand_of_ill_omen
+extern _card_brown_ouphe
+extern _card_burnt_offering
+extern _card_chub_toad
+extern _card_clairvoyance
+extern _card_cold_snap
+extern _card_cooperation
+extern _card_curse_of_marit_lage
+extern _card_dire_wolves
+extern _card_forgotten_lore
+extern _card_green_scarab
+extern _card_red_scarab
+extern _card_white_scarab
+extern _card_anurid_swarmsnapper
+extern _card_transmutation
+extern _card_cenns_tactician
+extern _card_lairwatch_giant
+extern _card_turtleshell_changeling
+extern _card_divine_verdict
+extern _card_thirst
+extern _card_yare
+extern _card_kembas_legion
+extern _card_cephalid_coliseum
+extern _card_luminous_guardian
+extern _card_headhunter
+extern _card_ironfist_crusher
+extern _card_bog_serpent
+extern _card_melancholy
+extern _card_molten_firebird
+extern _card_piracy_charm
+extern _card_pyrohemia
+extern _card_reality_acid
+extern _card_reckless_wurm
+extern _card_revered_dead
+extern _card_riptide_pilferer
+extern _card_strafe
+extern _card_entangler
+extern _card_valakut_fireboar
+extern _card_twisted_image
+extern _card_mounted_archers
+extern _card_coastline_chimera
+extern _card_crookclaw_transmuter
+extern _card_foriysian_interceptor
+extern _card_dwarven_thaumaturgist
+extern _card_calcite_snapper
+extern _card_fated_retribution
+extern _card_hero_of_iroas
+extern _card_nyxborn_shieldmate
+extern _card_oreskos_sun_guide
+extern _card_silent_sentinel
+extern _card_arbiter_of_the_ideal
+extern _card_ashioks_adept
+extern _card_eater_of_hope
+extern _card_pain_seer
+extern _card_god_favored_general
+extern _card_aerie_worshippers
+extern _card_forlorn_pseudamma
+extern _card_satyr_nyx_smith
+extern _card_pheres_band_raiders
+extern _card_champion_of_stray_souls
+extern _card_drown_in_sorrow
+extern _card_epiphany_storm
+extern _card_everflame_eidolon
+extern _card_fated_conflagration
+extern _card_akromas_memorial
+extern _card_skyreaping
+extern _card_searing_blood
+extern _card_ephara_god_of_the_polis
+extern _card_fated_infatuation
+extern _card_bile_blight
+extern _card_fate_unraveler
+extern _card_herald_of_torment
+extern _card_raised_by_wolves
+extern _card_worship
+extern _card_epharas_enlightenment
+extern _card_fanatic_of_xenagos
+extern _card_karametra_god_of_harvests
+extern _card_kioras_follower
+extern _card_mogis_god_of_slaughter
+extern _card_reap_what_is_sown
+extern _card_xenagos_god_of_revels
+extern _card_felhide_spiritbinder
+extern _card_ragemonger
+extern _card_chromanticore
+extern _card_glimpse_the_sun_god
+extern _card_spirit_of_the_labyrinth
+extern _card_heroes_podium
+extern _card_candelabra_of_tawnos
+extern _card_magus_of_the_candelabra
+extern _card_jandors_saddlebags
+extern _card_whelming_wave
+extern _card_hero_of_leina_tower
+extern _card_vanguard_of_brimaz
+extern _card_phenax_god_of_deception
+extern _untap_card
+extern _card_ebony_horse
+extern _card_spiteful_returned
+extern _get_internal_card_id_from_csv_id
+extern _card_ifh_biff_efreet
+extern _card_lands_edge
+extern _card_mana_vault
+extern _card_hyperion_blacksmith
+extern _card_puppeteer
+extern _card_nyxborn_triton
+extern _card_nyxborn_eidolon
+extern _card_nyxborn_rollicker
+extern _card_nyxborn_wolf
+extern _card_hunters_prowess
+extern _card_oracle_of_bones
+extern _card_eidolon_of_countless_battles
+extern _card_plea_for_guidance
+extern _card_sunbond
+extern _card_kraken_of_the_straits
+extern _card_sudden_storm
+extern _card_black_oak_of_odunos
+extern _card_pillar_of_war
+extern _card_siren_of_the_silent_song
+extern _card_peregrination
+extern _card_graverobber_spider
+extern _card_culling_mark
+extern _card_dawn_to_dusk
+extern _damage_creature
+extern _card_acolytes_reward
+extern _card_akroan_phalanx
+extern _card_excoriate
+extern _card_ghostblade_eidolon
+extern _card_mortals_ardor
+extern _card_ornitharch
+extern _card_eternity_snare
+extern _card_flitterstep_eidolon
+extern _card_siren_of_the_fanged_coast
+extern _card_sphinxs_disciple
+extern _card_asphyxiate
+extern _card_eye_gouge
+extern _card_forsaken_drifters
+extern _card_gild
+extern _card_gold
+extern _card_grisly_transformation
+extern _card_sanguimancy
+extern _card_servant_of_tymaret
+extern _card_shrike_harpy
+extern _card_warchanter_of_mogis
+extern _card_weight_of_the_underworld
+extern _card_akroan_conscriptor
+extern _card_bolt_of_keranos
+extern _card_fall_of_the_hammer
+extern _card_pinnacle_of_rage
+extern _card_scouring_sands
+extern _card_stormcaller_of_keranos
+extern _card_thunderous_might
+extern _card_aspect_of_hydra
+extern _card_mischief_and_mayhem
+extern _card_mortals_resolve
+extern _card_pheres_band_tromper
+extern _card_lethal_vapors
+extern _card_oonas_prowler
+extern _card_saproling_cluster
+extern _card_satyr_wayfinder
+extern _card_meletis_astronomer
+extern _card_setessan_starbreaker
+extern _card_snake_of_the_golden_grove
+extern _card_gorgons_head
+extern _card_elite_skirmisher
+extern _card_chorus_of_the_tides
+extern _card_nullify
+extern _card_stratus_walk
+extern _card_fated_return
+extern _card_felhide_brawler
+extern _card_deepwater_hypnotist
+extern _card_odunos_river_trawler
+extern _card_scourge_of_skola_vale
+extern _card_reverse_polarity
+extern _effect_damage
+extern _card_baleful_force
+extern _card_island_fish_jasconius
+extern _card_archetype_of_aggression
+extern _card_archetype_of_courage
+extern _card_archetype_of_endurance
+extern _card_archetype_of_finality
+extern _card_archetype_of_imagination
+extern _human_assign_blockers
+extern _tap_card
+extern _card_thunderstaff
+extern _card_rabble_rouser
+extern _card_souls_attendant
+extern _card_chaos_harlequin
+extern _card_sakura_tribe_scout
+extern _mana_burn
+extern _card_omnath_locus_of_mana
+extern _card_springjack_pasture
+extern _card_lightkeeper_of_emeria
+extern _card_clergy_of_the_holy_nimbus
+extern _card_aleatory
+extern _card_slippery_bogle
+extern _card_crystal_vein
+extern _card_wall_of_shadows
+extern _card_flamebreak
+extern _card_puppets_verdict
+extern _card_torrent_of_stone
+extern _get_special_counters_name
+extern _card_fungusaur
+extern _card_citanul_druid
+extern _card_dwarven_weaponsmith
+extern _card_unstable_mutation
+extern _card_faerie_dragon
+extern _card_armageddon_clock
+extern _card_cyclone
+extern _card_osai_vultures
+extern _card_scavenging_ghoul
+extern _card_necropolis_of_azar
+extern _card_black_mana_battery
+extern _card_blue_mana_battery
+extern _card_green_mana_battery
+extern _card_red_mana_battery
+extern _card_white_mana_battery
+extern _card_clockwork_avian
+extern _get_counter_type_by_instance
+extern _card_venerated_teacher
+extern _card_duskrider_peregrine
+extern _card_fertile_ground
+extern _card_lightning_axe
+extern _card_crooked_scales
+extern _card_undead_slayer
+extern _card_arcbound_crusher
+extern _card_bronze_bombshell
+extern _card_deadshot_minotaur
+extern _card_curse_of_shallow_graves
+extern _card_spitemare
+extern _card_part_the_veil
+extern _card_scatter_the_seeds
+extern _card_soul_link
+extern _upkeep_phase
+extern _ai_decision_phase
+extern _card_mass_mutiny
+extern _card_time_warp
+extern _card_time_stretch
+extern _card_stormscape_familiar
+extern _card_sunscape_familiar
+extern _card_thornscape_familiar
+extern _card_thunderscape_familiar
+extern _card_breaking_wave
+extern _card_winding_canyons
+extern _put_card_or_activation_onto_stack
+extern _recopy_card_onto_stack
+extern _finalize_activation
+extern _card_alchemists_refuge
+extern _is_a_tappable_mana_source
+extern _tap_card_for_mana
+extern _card_bog_down
+extern _card_seahunter
+extern _card_werewolf_ransacker
+extern _card_ravager_of_the_fells
+extern _card_akroma_angel_of_wrath
+extern _card_jacques_le_vert
+extern _card_jeska_warrior_adept
+extern _card_kaysa
+extern _card_kongming_sleeping_dragon
+extern _card_mirri_cat_warrior
+extern _card_night_of_souls_betrayal
+extern _card_pavel_maliki
+extern _card_rorix_bladewing
+extern _card_silvos_rogue_elemental
+extern _card_visara_the_dreadful
+extern _card_holy_armor
+extern _card_blessing
+extern _card_copy_artifact
+extern _card_sculpting_steel
+extern _card_vesuvan_doppelganger
+extern _put_card_on_stack3
+extern _card_titanias_song
+extern _card_kismet
+extern _card_jokulhaups
+extern _card_meditate
+extern _card_thoughtcast
+extern _card_charging_troll
+extern _card_darksteel_citadel
+extern _card_wild_aesthir
+extern _card_malach_of_the_dawn
+extern _card_merfolk_looter
+extern _card_wildfire_emissary
+extern _card_fists_of_the_anvil
+extern _compute_and_check_casting_cost
+extern _card_instances_should_be_displayed_identically
+extern _card_urborg_uprising
+extern _card_decompose
+extern _raw_put_card_in_graveyard
+extern _remove_card_from_grave
+extern _save_or_load_supplement
+extern _current_trigger_or_event_is_forced
+extern _card_noble_vestige
+extern _card_fastbond
+extern _card_ambush_party
+extern _card_twilight_drover
+extern _wndproc_CardClass_hook@16
+extern _card_raze
+extern _card_predatory_focus
+extern _card_haunting_misery
+extern _card_angel_of_salvation
+extern _kill_card_exe
+extern _card_northern_paladin
+extern _card_southern_paladin
+extern _card_kangee_aerie_keeper
+extern _card_epic_struggle
+extern _card_sigiled_starfish
+extern _card_whitewater_naiads
+extern _card_extinguish_all_hope
+extern _card_gnarled_scarhide
+extern _card_cyclops_of_eternal_fury
+extern _card_eidolon_of_blossoms
+extern _card_ravenous_leucrocota
+extern _card_hall_of_triumph
+extern _card_dawnbringer_charioteers
+extern _card_dictate_of_kruphix
+extern _card_scourge_of_fleets
+extern _card_doomwake_giant
+extern _card_dictate_of_the_twin_gods
+extern _card_spawn_of_thraxes
+extern _card_heroes_bane
+extern _card_iroas_god_of_victory
+extern _card_underworld_coinsmith
+extern _card_keranos_god_of_storms
+extern _card_godsend
+extern _card_sage_of_hours
+extern _card_sightless_brawler
+extern _card_crystalline_nautilus
+extern _card_interpret_the_signs
+extern _card_eidolon_of_the_great_revel
+extern _card_silence_the_believers
+extern _card_mogiss_warhound
+extern _card_spite_of_mogis
+extern _card_spirespine
+extern _card_ajani_mentor_of_heroes
+extern _card_kruphix_god_of_horizons
+extern _card_flickerform
+extern _card_launch_the_fleet
+extern _card_hypnotic_siren
+extern _card_kioras_dismissal
+extern _card_dictate_of_karametra
+extern _card_kruphixs_insight
+extern _card_mana_confluence
+extern _card_polymorphous_rush
+extern _card_king_macar_the_gold_cursed
+extern _card_forgeborn_oreads
+extern _card_hydra_broodmaster
+extern _card_athreos_god_of_passage
+extern _card_master_of_the_feast
+extern _card_prophetic_flamespeaker
+extern _card_twinflame
+extern _card_pharika_god_of_affliction
+extern _card_battlefield_thaumaturge
+extern _card_daring_thief
+extern _card_riptide_chimera
+extern _card_bearer_of_the_heavens
+extern _card_oubliette
+extern _card_tawnoss_coffin
+extern _card_banishing_light
+extern _card_deicide
+extern _card_dictate_of_heliod
+extern _card_font_of_vigor
+extern _card_font_of_fortune
+extern _card_godhunter_octopus
+extern _card_brain_maggot
+extern _card_dictate_of_erebos
+extern _card_font_of_return
+extern _card_font_of_ire
+extern _card_font_of_fertility
+extern _card_renowned_weaver
+extern _card_strength_from_the_fallen
+extern _card_desperate_stand
+extern _card_disciple_of_deceit
+extern _card_nyx_weaver
+extern _card_armament_of_nyx
+extern _card_harvestguard_alseids
+extern _card_leonin_iconoclast
+extern _card_mortal_obstinacy
+extern _card_oppressive_rays
+extern _card_phalanx_formation
+extern _card_quarry_colossus
+extern _card_skybind
+extern _card_stonewise_fortifier
+extern _card_tethmos_high_priest
+extern _card_oakheart_dryads
+extern _card_solidarity_of_heroes
+extern _card_swarmborn_giant
+extern _card_reviving_melody
+extern _card_akroan_line_breaker
+extern _card_blinding_flare
+extern _card_flamespeakers_will
+extern _card_flurry_of_horns
+extern _card_gluttonous_cyclops
+extern _card_harness_by_force
+extern _card_knowledge_and_power
+extern _card_lightning_diadem
+extern _empty
+extern _empty
+extern _empty
+extern _empty
+extern _empty
+extern _empty
+extern _empty
+extern _empty
+extern _empty
+extern _empty
+extern _card_word_of_undoing
+extern _card_aerial_formation
+extern _card_countermand
+extern _card_hour_of_need
+extern _card_hubris
+extern _card_pin_to_the_earth
+extern _card_pull_from_the_deep
+extern _card_rise_of_eagles
+extern _card_thassas_devourer
+extern _card_thassas_ire
+extern _card_triton_cavalry
+extern _card_serras_boon
+extern _card_agent_of_erebos
+extern _card_aspect_of_gorgon
+extern _card_cast_into_darkness
+extern _card_cruel_feeding
+extern _card_dreadbringer_lampads
+extern _card_feast_of_dreams
+extern _card_felhide_petrifier
+extern _card_grim_guardian
+extern _card_nyx_infusion
+extern _card_returned_reveler
+extern _card_spiteful_blow
+extern _card_thoughtrender_lamia
+extern _card_fleetfeather_cockatrice
+extern _card_revel_of_the_fallen_god
+extern _card_stormchaser_chimera
+extern _card_armory_of_iroas
+extern _card_chariot_of_victory
+extern _card_deserters_quarters
+extern _card_nightmarish_end
+extern _card_rollick_of_abandon
+extern _card_rouse_the_mob
+extern _card_sigiled_skink
+extern _card_starfall
+extern _card_wildfire_cerberus
+extern _card_blood_moon
+extern _card_igneous_pouncer
+extern _card_jhessian_zombies
+extern _card_pale_recluse
+extern _card_sanctum_plowbeast
+extern _card_valley_rannet
+extern _card_dack_fayden
+extern _card_dack_faydens_emblem
+extern _card_pyramids
+extern _card_aswan_jaguar
+extern _card_waiting_in_the_weeds
+extern _card_new_frontiers
+extern _card_piety_charm
+extern _card_magister_of_worth
+extern _card_nyx_fleece_ram
+extern _card_ritual_of_the_returned
+extern _card_tormented_thoughts
+extern _card_stupor
+extern _card_hymn_to_tourach
+extern _card_mind_rot
+extern _card_blightning
+extern _card_lava_axe
+extern _card_storm_seeker
+extern _card_gaze_of_adamaro
+extern _card_ancestral_recall
+extern _card_animate_artifact
+extern _card_ankh_of_mishra
+extern _card_aspect_of_the_wolf
+extern _card_bad_moon
+extern _card_black_vise
+extern _card_black_ward
+extern _card_blue_elemental_blast
+extern _card_blue_ward
+extern _card_braingeyser
+extern _card_burrowing
+extern _card_balance
+extern _card_berserk
+extern _card_armageddon
+extern _card_disrupting_scepter
+extern _card_wand_of_ith
+extern _card_fumarole
+extern _card_plague_spores
+extern _card_reign_of_chaos
+extern _card_churning_eddy
+extern _card_castle
+extern _card_channel
+extern _card_chaoslace
+extern _card_circle_of_protection_black
+extern _card_circle_of_protection_blue
+extern _card_circle_of_protection_green
+extern _card_circle_of_protection_red
+extern _card_circle_of_protection_white
+extern _card_consecrated_land
+extern _card_conservator
+extern _card_control_magic
+extern _card_conversion2
+extern _card_copper_tablet
+extern _card_creature_bond
+extern _card_counterspell
+extern _card_crusade
+extern _card_cursed_land
+extern _card_cyclopean_tomb
+extern _card_aerathi_berserker
+extern _card_craw_giant
+extern _card_balduvian_war_makers
+extern _card_dark_ritual
+extern _card_deathgrip
+extern _card_deathlace
+extern _card_dingus_egg
+extern _card_disenchant
+extern _card_dragon_whelp
+extern _card_drain_power
+extern _card_drudge_skeletons
+extern _card_dwarven_demolition_team
+extern _card_dwarven_warriors
+extern _card_caravan_escort
+extern _card_hedron_field_purists
+extern _card_ikiral_outrider
+extern _card_kabira_vindicator
+extern _card_knight_of_cliffhaven
+extern _card_hada_spy_patrol
+extern _card_halimar_wavewatch
+extern _card_skywatcher_adept
+extern _card_nirkana_cutthroat
+extern _card_null_champion
+extern _card_zulaport_enforcer
+extern _card_brimstone_mage
+extern _card_false_orders
+extern _card_feedback
+extern _card_firebreathing
+extern _card_flashfires
+extern _card_flight2
+extern _card_force_of_nature
+extern _card_forcefield
+extern _card_gaeas_liege
+extern _card_gauntlet_of_might
+extern _card_giant_growth
+extern _card_glasses_of_urza
+extern _card_gloom2
+extern _card_goblin_balloon_brigade
+extern _card_granite_gargoyle
+extern _card_green_ward
+extern _card_helm_of_chatzuk
+extern _card_holy_strenght
+extern _card_howling_mine
+extern _card_ice_storm
+extern _card_icy_manipulator
+extern _card_ironclaw_orcs
+extern _card_jade_monolith
+extern _card_jayemdae_tome
+extern _card_jump
+extern _card_karma
+extern _card_keldon_warlord
+extern _card_kormus_bell
+extern _card_kudzu
+extern _card_lance
+extern _card_lifeforce
+extern _card_lifelace
+extern _card_lightning_bolt
+extern _card_lord_of_the_pit
+extern _card_mana_short
+extern _card_manabarbs
+extern _card_meekstone
+extern _card_natural_selection
+extern _card_orcish_artillery
+extern _card_orcish_oriflamme
+extern _card_personal_incarnation
+extern _card_phantasmal_forces
+extern _card_phantasmal_terrain
+extern _card_pirate_ship
+extern _card_plague_rats
+extern _card_power_leak
+extern _card_power_surge
+extern _card_prodigal_sorcerer
+extern _card_psionic_blast
+extern _card_psychic_venom
+extern _card_purelace
+extern _card_red_elemental_blast
+extern _card_red_ward
+extern _card_regeneration
+extern _card_regrowth
+extern _empty
+extern _card_righteousness
+extern _card_rod_of_ruin
+extern _card_royal_assassin
+extern _card_gravedigger
+extern _card_eternal_witness
+extern _card_sacrifice
+extern _card_samite_healer
+extern _card_sea_serpent
+extern _card_sedge_troll
+extern _card_sengir_vampire
+extern _card_serra_angel
+extern _card_shatter
+extern _empty
+extern _card_smoke
+extern _card_stasis
+extern _card_steal_artifact
+extern _card_stone_giant
+extern _card_terror
+extern _card_thoughtlace
+extern _card_tsunami
+extern _card_tunnel
+extern _card_unholy_strenght
+extern _card_unsummon
+extern _card_uthden_troll
+extern _card_verduran_enchantress
+extern _card_veteran_bodyguard
+extern _empty
+extern _empty
+extern _card_wall_of_brambles
+extern _empty
+extern _card_wall_of_water
+extern _card_wanderlust
+extern _card_warp_artifact
+extern _card_weakness
+extern _card_web
+extern _card_wheel_of_fortune
+extern _card_white_ward
+extern _card_wild_growth
+extern _card_winter_orb
+extern _card_wrath_of_god
+extern _card_aladdin
+extern _card_aladdins_lamp
+extern _card_aladdins_ring
+extern _card_ali_baba
+extern _card_bottle_of_suleiman
+extern _card_brass_man
+extern _card_cuombajj_witches
+extern _card_dandan
+extern _card_desert_nomads
+extern _card_desert_twister
+extern _card_erg_raiders
+extern _card_eye_for_an_eye
+extern _card_fishliver_oil
+extern _card_flying_carpet
+extern _card_giant_tortoise
+extern _card_guardian_beast
+extern _card_hasran_ogress
+extern _card_hurr_jackal
+extern _card_jandors_ring
+extern _card_jihad
+extern _card_junun_efreet
+extern _card_juzam_djinn
+extern _card_khabal_ghoul
+extern _card_king_suleiman
+extern _card_library_of_alexandria
+extern _card_magnetic_mountain
+extern _card_mijae_djinn
+extern _card_nafs_asp
+extern _card_old_man_of_the_sea
+extern _card_piety2
+extern _card_ring_of_ma_ruf
+extern _card_rukh_egg
+extern _card_sandals_of_abdallah
+extern _card_sandstorm
+extern _card_serendib_djinn
+extern _card_sindbad
+extern _card_singing_tree
+extern _card_wyluli_wolf
+extern _card_ydwen_efreet
+extern _card_amulet_of_kroog
+extern _card_argivian_archaeologist
+extern _card_argivian_blacksmith
+extern _card_argothian_pixies
+extern _card_argothian_treefolk
+extern _card_artifact_blast
+extern _card_artifact_possession
+extern _card_artifact_ward
+extern _card_ashnods_battle_gear
+extern _card_atog2
+extern _card_circle_of_protection_artifacts
+extern _card_clay_statue
+extern _card_colossus_of_sardia
+extern _card_coral_helm
+extern _card_cursed_rack
+extern _card_damping_field
+extern _card_energy_flux
+extern _card_gaeas_avenger
+extern _card_gate_to_phyrexia
+extern _card_grapeshot_catapult
+extern _card_haunting_wind
+extern _card_hurkyls_recall
+extern _card_jalum_tome
+extern _card_mightstone
+extern _card_mishras_factory
+extern _card_mishras_war_machine
+extern _card_obelisk_of_undoing
+extern _card_orcish_mechanic
+extern _card_priest_of_yawgmoth
+extern _card_rakalite
+extern _card_reconstruction
+extern _card_rocket_launcher
+extern _card_sage_of_lat_nam
+extern _card_shapeshifter2
+extern _card_shatterstorm
+extern _card_staff_of_zegon
+extern _card_strip_mine
+extern _card_su_chi
+extern _card_tawnos_wand
+extern _card_tawnos_weaponry
+extern _card_the_rack
+extern _card_transmute_artifact
+extern _card_urzas_avenger
+extern _card_weakstone
+extern _card_xenic_poltergeist
+extern _card_yawgmoths_demon
+extern _card_acid_rain
+extern _card_active_volcano
+extern _card_aisling_leprechaun
+extern _card_akron_legionnaire
+extern _card_alchors_tomb
+extern _card_amrou_kithkin
+extern _card_angelic_voices
+extern _card_anti_magic_aura
+extern _card_arena_of_the_ancients
+extern _card_concordant_crossroads
+extern _card_gravity_sphere
+extern _card_magus_of_the_abyss
+extern _card_storm_world
+extern _card_the_abyss
+extern _card_backdraft
+extern _card_backfire
+extern _card_beasts_of_bogardan
+extern _card_blazing_effigy
+extern _card_blight2
+extern _card_blood_lust
+extern _card_boomerang
+extern _card_bronze_horse
+extern _card_carrion_ants
+extern _card_caverns_of_despair
+extern _card_chain_lightning
+extern _card_cleanse
+extern _card_cosmic_horror
+extern _card_crimson_manticore
+extern _card_cyclopean_mummy
+extern _card_davenant_archer
+extern _card_divine_transformation
+extern _card_elder_land_wurm
+extern _card_elder_spawn
+extern _card_emerald_dragonfly
+extern _card_enchantment_alteration
+extern _card_energy_tap
+extern _card_equinox
+extern _card_eternal_warrior
+extern _card_fallen_angel
+extern _card_fallen_star
+extern _card_feint
+extern _card_fire_sprites
+extern _card_firestorm_phoenix
+extern _card_flash_counter
+extern _card_flash_flood
+extern _card_gaseous_form
+extern _card_ghosts_of_the_damned
+extern _card_giant_strenght
+extern _card_giant_turtle
+extern _card_great_defender
+extern _card_greater_realm_of_protection
+extern _card_greed
+extern _card_heavens_gate
+extern _card_hell_swarm
+extern _card_immolation
+extern _card_imprison
+extern _card_indestructible_aura
+extern _card_jovial_evil
+extern _card_killer_bees
+extern _card_kobold_overlord
+extern _card_land_equilibrium
+extern _card_mana_matrix
+extern _card_mold_demon
+extern _card_pit_scorpion
+extern _card_pixie_queen
+extern _card_planar_gate
+extern _card_pradesh_gypsies
+extern _card_psionic_entity
+extern _card_puppet_master
+extern _card_quarum_trench_gnomes
+extern _card_radjan_spirit
+extern _card_relic_barrier
+extern _card_remove_enchantments
+extern _card_remove_soul
+extern _card_reverberation
+extern _card_rust2
+extern _card_seeker2
+extern _card_shelkin_brownie
+extern _card_shield_wall
+extern _card_silhouette
+extern _card_spinal_villain
+extern _card_sylvan_library
+extern _card_the_brute
+extern _card_typhoon
+extern _card_underworld_dreams
+extern _card_untamed_wilds
+extern _card_vampiric_bats
+extern _card_visions2
+extern _card_wall_of_opposition
+extern _card_wall_of_tombstones
+extern _card_winds_of_change
+extern _card_crevasse
+extern _card_deadfall
+extern _card_great_wall
+extern _card_quagmire
+extern _card_undertow
+extern _card_staff_of_the_ages
+extern _card_urzas_armor
+extern _card_face_the_horde
+extern _card_hidden_agenda
+extern _card_bragos_favor
+extern _card_double_stroke
+extern _card_immediate_action
+extern _card_iterative_analysis
+extern _card_muzzios_preparations
+extern _card_secret_summoning
+extern _card_secret_of_paradise
+extern _card_unexpected_potential
+extern _card_apex_hawks
+extern _card_councils_judgement
+extern _card_council_guardian
+extern _card_custodi_soulbinders
+extern _card_custodi_squire
+extern _card_guardian_zendikon
+extern _card_rousing_of_souls
+extern _card_unquestioned_authority
+extern _card_academy_elite
+extern _card_grixis_illusionist
+extern _card_enclave_elite
+extern _card_jetting_glasskite
+extern _card_minamo_scrollkeeper
+extern _card_marchesas_emissary
+extern _card_marchesas_infiltrator
+extern _card_muzzio_visionary_architect
+extern _card_plea_for_power
+extern _card_screaming_seahawk
+extern _card_split_decision
+extern _card_stasis_cell
+extern _card_travellers_cloak
+extern _card_wind_dancer
+extern _card_bite_of_the_black_rose
+extern _card_drakestown_forgotten
+extern _card_infectious_horror
+extern _card_necromantic_thirst
+extern _card_quag_vampires
+extern _card_reign_of_the_pit
+extern _card_stronghold_discipline
+extern _card_tyrants_choice
+extern _card_boldwyr_intimidator
+extern _card_deathforge_shaman
+extern _card_enraged_evolutionary
+extern _card_flowstone_blade
+extern _card_grenzos_rebuttal
+extern _card_ignition_team
+extern _card_mana_geyser
+extern _card_orcish_cannonade
+extern _card_scourge_of_the_throne
+extern _card_skitter_of_the_lizard
+extern _card_treasonous_ogre
+extern _card_uncontrollable_anger
+extern _card_vent_sentinel
+extern _card_wrap_in_flames
+extern _card_predators_howl
+extern _card_realm_seeker
+extern _card_selvalas_charge
+extern _card_selvalas_enforcer
+extern _card_charging_rhino
+extern _card_gnarlid_pack
+extern _card_provoke
+extern _card_brago_king_eternal
+extern _card_dacks_duplicant
+extern _card_deathreap_ritual
+extern _card_extract_from_darkness
+extern _card_flamewright
+extern _card_grenzo_dungeon_warden
+extern _card_marchesa_the_black_rose
+extern _card_marchesas_smuggler
+extern _card_selvala_explorer_returned
+extern _card_wood_sage
+extern _card_reito_lantern
+extern _card_runed_servitor
+extern _card_silent_arbiter
+extern _card_spectral_searchlight
+extern _card_vedalken_orrery
+extern _card_battle_the_horde
+extern _card_vitality_salve
+extern _card_plundered_statue
+extern _card_massacre_totem
+extern _card_altar_of_mogis
+extern _card_unquenchable_fury
+extern _card_touch_of_the_horned_god
+extern _card_intervention_of_keranos
+extern _card_descend_of_the_prey
+extern _card_consuming_rage
+extern _card_reckless_minotaur
+extern _card_phoberos_reaver
+extern _card_mogis_chosen
+extern _card_lash_of_the_tyrant
+extern _card_cloak_of_the_philospher
+extern _card_spear_of_the_general
+extern _card_axe_of_the_warmonger
+extern _card_bow_of_the_hunter
+extern _card_ur_drago
+extern _card_gosta_dirk
+extern _card_amnesia
+extern _card_angry_mob
+extern _card_ashes_ot_ashes
+extern _card_ball_lightning
+extern _card_banshee2
+extern _card_bone_flute
+extern _card_book_of_rass
+extern _card_brainwash
+extern _card_brothers_of_fire
+extern _card_cave_people
+extern _card_coal_golem
+extern _card_curse_artifact
+extern _card_deep_water
+extern _card_diabolic_machine
+extern _card_elves_of_the_deep_shadow
+extern _card_erosion
+extern _card_eternal_flame
+extern _card_exorcist
+extern _card_fire_drake
+extern _card_fissure
+extern _card_flood2
+extern _card_ghost_ship
+extern _card_goblin_digging_team
+extern _card_hidden_path
+extern _card_holy_light
+extern _card_inferno2
+extern _card_inquisition2
+extern _card_mana_clash
+extern _card_marsh_gas
+extern _card_marsh_viper
+extern _card_martyrs_cry
+extern _card_mind_bomb
+extern _card_miracle_worker
+extern _card_morale
+extern _card_murk_dwellers
+extern _card_niall_silvain
+extern _card_people_of_the_woods
+extern _card_rag_man
+extern _card_riptide2
+extern _card_savaen_elves
+extern _card_scavenger_folk
+extern _card_stone_calendar
+extern _card_sunken_city
+extern _card_tivadars_crusade
+extern _card_tracker2
+extern _card_uncle_istvan
+extern _card_war_barge
+extern _card_water_wurm
+extern _card_witch_hunter
+extern _card_worms_of_the_earth
+extern _card_wormwood_treefolk
+extern _card_defeat_a_god
+extern _card_xenagos_ascended
+extern _card_rollicking_throng
+extern _card_impulsive_charge
+extern _card_xenagos_strike
+extern _card_ecstatic_piper
+extern _card_wild_maenads
+extern _card_pheres_band_revelers
+extern _card_impulsive_return
+extern _card_xenagos_scorn
+extern _card_impulsive_destruction
+extern _card_maddened_oread
+extern _card_rip_to_pieces
+extern _card_dance_of_panic
+extern _card_dance_of_flame
+extern _card_ajani_steadfast
+extern _card_avacyn_guardian_angel
+extern _card_dauntless_river_marshal
+extern _card_heliod_pilgrim
+extern _card_marked_for_honour
+extern _card_meditation_puzzle
+extern _card_paragon_of_new_dawns
+extern _card_return_to_the_ranks
+extern _card_resolute_archangel
+extern _card_soul_of_theros
+extern _card_spirit_bond
+extern _card_warden_of_the_beyond
+extern _card_ajani_steadfast_emblem
+extern _card_chasm_skulker
+extern _card_coral_barrier
+extern _card_frost_lynx
+extern _card_jalira_master_polymorphogist
+extern _card_jorubai_murk_lurker
+extern _card_master_of_predicaments
+extern _card_mercurial_pretender
+extern _card_military_intelligence
+extern _card_paragon_of_gathering_mists
+extern _card_quickling
+extern _card_soul_of_ravnica
+extern _card_void_snare
+extern _card_seraph_of_the_masses
+extern _card_triplicated_spirit
+extern _card_covenant_of_blood
+extern _card_cruel_sadist
+extern _card_endless_obedience
+extern _card_flesh_to_dust
+extern _card_in_garruks_wake
+extern _card_indulgent_tormenter
+extern _card_nightfire_giant
+extern _card_ob_nixilis_unshackled
+extern _card_paragon_of_open_graves
+extern _card_rotfeaster_maggot
+extern _card_shadowcloak_vampire
+extern _card_soul_of_innistrad
+extern _card_ulcerate
+extern _card_zof_shade
+extern _card_xathrid_slyblade
+extern _card_aggressive_mining
+extern _card_brood_keeper
+extern _card_burning_anger
+extern _card_cone_of_flame
+extern _card_land_mine
+extern _card_goblin_kaboomist
+extern _card_goblin_rabblemaster
+extern _card_heat_ray
+extern _card_inferno_fist
+extern _card_kird_chieftain
+extern _card_mights_tyranny
+extern _card_miners_bane
+extern _card_paragon_of_fierce_defiance
+extern _card_siege_dragon
+extern _card_soul_of_shandalar
+extern _card_seismic_strike
+extern _card_tanglesap
+extern _card_hunters_ambush
+extern _card_invasive_species
+extern _card_nissa_worldwaker
+extern _card_paragon_of_eternal_wilds
+extern _card_phytotitan
+extern _card_reclamation_sage
+extern _card_siege_wurm
+extern _card_soul_of_zendikar
+extern _card_sunblade_elf
+extern _card_yisan_the_wanderer_bard
+extern _card_avarice_amulet
+extern _card_brawlers_plate
+extern _card_hot_soup
+extern _card_obelisk_of_urd
+extern _card_perilous_vault
+extern _card_shield_of_the_avatar
+extern _card_soul_of_new_phyrexia
+extern _card_sliver_hive
+extern _card_boonweaver_giant
+extern _card_aether_whirlwind
+extern _card_chief_engineer
+extern _card_chronostutter
+extern _card_jace_the_living_guildpact
+extern _card_kapsho_kitefin
+extern _card_research_assistant
+extern _card_festergloom
+extern _card_necromancers_stockpile
+extern _card_generator_servant
+extern _card_stoke_the_flames
+extern _card_lifes_legacy
+extern _card_garruk_predator_emblem
+extern _card_garruk_apex_predator
+extern _card_sliver_hivelord
+extern _card_stain_the_mind
+extern _card_act_on_impulse
+extern _card_the_chain_veil
+extern _card_ensoul_artifact
+extern _card_leeching_sliver
+extern _card_hornet_nest
+extern _card_kalonian_twingrove
+extern _card_treefolk_warrior
+extern _card_scuttling_doom_engine
+extern _card_constricting_sliver
+extern _card_ephemeral_shield
+extern _card_first_response
+extern _card_pillar_of_light
+extern _card_sanctified_charge
+extern _card_spectral_ward
+extern _card_aeronaut_tinkerer
+extern _card_amphin_pathmage
+extern _card_diffusion_sliver
+extern _card_glacial_crasher
+extern _card_statute_of_denial
+extern _card_blood_host
+extern _card_carrion_crow
+extern _card_eternal_thirst
+extern _card_feast_on_the_fallen
+extern _card_unmake_the_graves
+extern _card_wall_of_limbs
+extern _card_altac_bloodseeker
+extern _card_belligerent_sliver
+extern _card_blastfire_bolt
+extern _card_crowds_favor
+extern _card_hammerhand
+extern _card_scrapyard_mongrel
+extern _card_carnivorous_moss_beast
+extern _card_feral_incarnation
+extern _card_living_totem
+extern _card_netcaster_spider
+extern _card_nissas_expedition
+extern _card_undergrowth_scavenger
+extern _card_venom_sliver
+extern _card_vineweft
+extern _card_meteorite
+extern _card_profane_memento
+extern _card_rogues_glove
+extern _card_sacred_armory
+extern _card_tyrants_machine
+extern _card_radiant_fountain
+extern _card_mana_crypt
+extern _card_sewers_of_estark
+extern _card_rainbow_knights
+extern _card_call_from_the_grave
+extern _card_prismatic_dragon
+extern _card_pandoras_box
+extern _card_gem_bazaar
+extern _card_power_struggle
+extern _card_irini_sengir
+extern _card_angel_of_despair
+extern _card_angelic_page
+extern _card_conquer
+extern _card_ashcoat_bear
+extern _card_ashnods_altar
+extern _card_assassinate
+extern _card_auratog
+extern _card_cloudchaser_eagle
+extern _card_aven_fisher
+extern _card_aven_flock
+extern _card_beast_of_burden
+extern _card_shock2
+extern _card_black_knight
+extern _card_blinking_spirit
+extern _card_white_knight
+extern _card_bull_cerodon
+extern _card_careful_study
+extern _card_catalog
+extern _card_cathodion
+extern _card_channel_the_suns
+extern _card_choke
+extern _card_cinder_wall
+extern _card_coastal_hornclaw
+extern _card_coercion
+extern _card_collective_unconscious
+extern _card_concentrate
+extern _card_confiscate
+extern _card_ravenous_rats
+extern _card_creeping_mold
+extern _card_cunning_sparkmage
+extern _card_daring_apprentice
+extern _card_dark_banishing
+extern _card_death_pit_offering
+extern _card_death_pits_of_rath
+extern _card_deepwood_ghoul
+extern _card_defense_grid
+extern _card_demolish
+extern _card_demystify
+extern _card_diplomatic_immunity
+extern _card_dismiss2
+extern _card_distorting_lens
+extern _card_earthbind
+extern _card_eastern_paladin
+extern _card_eladamris_call
+extern _card_elite_archers
+extern _card_elite_javelineers
+extern _card_elvish_pioneer
+extern _card_emperor_crocodile
+extern _card_ensnaring_bridge
+extern _card_evacuation
+extern _card_evil_presence
+extern _card_exclude
+extern _card_execute
+extern _card_fecundity
+extern _card_final_judgment
+extern _card_flame_rift
+extern _card_fodder_cannon
+extern _card_foratog
+extern _card_frogmite
+extern _card_gaeas_anthem
+extern _card_galinas_knight
+extern _card_giant_badger
+extern _card_glimmering_angel
+extern _card_warriors_honor
+extern _card_goblin_artisans
+extern _card_goblin_settler
+extern _card_heavy_ballista
+extern _card_hibernation2
+extern _card_hunted_wumpus
+extern _card_index2
+extern _card_indrik_stomphowler
+extern _card_infest
+extern _card_spire_owl
+extern _card_inspiration
+extern _card_memory_lapse
+extern _card_last_gasp
+extern _card_lava_hounds
+extern _card_lay_of_the_land
+extern _card_lesser_gargadon
+extern _card_lhurgoyf
+extern _card_lightning_blast
+extern _card_megrim
+extern _card_lilianas_specter
+extern _card_living_lands
+extern _card_living_wall
+extern _card_maggot_carrier
+extern _card_mana_leak
+extern _card_matca_rioters
+extern _card_might_of_oaks
+extern _card_mogg_fanatic
+extern _card_mogg_sentry
+extern _card_monstrous_growth
+extern _card_moonglove_extract
+extern _card_mortify
+extern _card_murderous_betrayal
+extern _card_nausea
+extern _card_nekrataal
+extern _card_nights_whispers
+extern _card_nightscape_apprentice
+extern _card_stormscape_apprentice
+extern _card_sunscape_apprentice
+extern _card_thornscape_apprentice
+extern _card_thunderscape_apprentice
+extern _card_noble_panther
+extern _card_okk
+extern _card_opportunity
+extern _card_oxidize
+extern _card_paladin_en_vec
+extern _card_panic_attack
+extern _card_patagia_golem
+extern _card_pillage
+extern _card_plague_wind
+extern _card_wing_snare
+extern _card_ponder
+extern _card_primal_frenzy
+extern _card_putrefy
+extern _card_pyroclasm
+extern _card_rabid_wombat
+extern _card_pyrotechnics
+extern _card_rain_of_salt
+extern _card_rampant_growth
+extern _card_reflexes
+extern _card_remand
+extern _card_sakura_tribe_elder
+extern _card_seething_song
+extern _card_tremor
+extern _card_serra_advocate
+extern _card_serras_blessing
+extern _card_serras_embrace
+extern _card_shifting_sky
+extern _card_shrapnel_blast
+extern _card_slay2
+extern _card_sneaky_homunculus
+extern _card_solidarity2
+extern _card_spellbook
+extern _card_spitting_spider
+extern _card_star_compass
+extern _card_stoic_angel
+extern _card_sword_dancer
+extern _card_sylvan_scrying
+extern _card_terminate
+extern _card_tidings
+extern _card_trade_routes
+extern _card_treasure_trove
+extern _card_undermine
+extern _card_urzas_miter
+extern _card_veteran_armorer
+extern _card_warped_devotion
+extern _card_western_paladin
+extern _card_windfall
+extern _card_wizened_cenn
+extern _card_wood_elves
+extern _card_wrath_of_marit_lage
+extern _card_fiend_hunter
+extern _card_polymorphists_jest
+extern _card_ainok_bon_kin
+extern _card_end_hostilities
+extern _card_herald_of_anafenza
+extern _card_wingmate_roc
+extern _card_jeskai_elder
+extern _card_jeskai_windscout
+extern _card_thousand_winds
+extern _card_bitter_revelation
+extern _card_mardu_skullhunter
+extern _card_necropolis_fiend
+extern _card_shambling_attendants
+extern _card_craters_claw
+extern _card_horde_ambusher
+extern _card_howl_of_the_horde
+extern _card_mocking_instigator
+extern _card_mardu_heart_piercer
+extern _card_mardu_warshrieker
+extern _card_sarkhan_the_dragonspeaker
+extern _card_sarkhan_the_dragonspeaker_animated
+extern _card_war_name_aspirant
+extern _card_heir_of_wilds
+extern _card_see_the_unwritten
+extern _card_temur_charger
+extern _card_abzan_ascendancy
+extern _card_abzan_guide
+extern _card_anafenza_the_foremost
+extern _card_ankle_shanker
+extern _card_avalanche_tusker
+extern _card_crackling_doom
+extern _card_duneblast
+extern _card_flying_crane_technique
+extern _card_icefeather_aven
+extern _card_ivorytusk_fortress
+extern _card_mardu_ascendancy
+extern _card_mindswipe
+extern _card_narset_enlightened_master
+extern _card_sage_of_the_inward_eye
+extern _card_sagu_mauler
+extern _card_savage_knucklebone
+extern _card_sidisi_brood_tyrant
+extern _card_sorin_solemn_visitor
+extern _card_sultai_ascendancy
+extern _card_sultai_charm
+extern _card_temur_ascendancy
+extern _card_utter_end
+extern _card_zurgo_helmsmasher
+extern _card_abzan_battle_priest
+extern _card_abzan_falconer
+extern _card_brave_the_sands
+extern _card_dazzling_ramparts
+extern _card_defiant_strike
+extern _card_oran_rief_invoker
+extern _card_retreat_to_kazandu
+extern _card_avatar2
+extern _card_feat_of_resistance
+extern _card_firehoof_cavalry
+extern _card_high_sentinel_of_arashin
+extern _card_mardu_hordechief
+extern _card_master_of_pearls
+extern _card_rush_of_battle
+extern _card_sage_eye_harrier
+extern _card_salt_road_patrol
+extern _card_seeker_of_the_way
+extern _card_siegecraft
+extern _card_suspension_field
+extern _card_take_up_arms
+extern _card_timely_hordemate
+extern _card_war_behemoth
+extern _card_watcher_of_the_roost
+extern _card_blinding_spray
+extern _card_clever_impersonator
+extern _card_dig_through_time
+extern _card_disdainful_stroke
+extern _card_dragons_eye_savants
+extern _card_embodiment_of_spring
+extern _card_force_away
+extern _card_glacial_stalker
+extern _card_icy_blast
+extern _card_khero_spellsnatcher
+extern _card_mistfire_weaver
+extern _card_monastery_flock
+extern _card_mystic_of_the_hidden_way
+extern _card_pearl_lake_ancient
+extern _card_quiet_contemplation
+extern _card_set_adrift
+extern _card_singing_bell_strike
+extern _card_stubborn_denial
+extern _card_taigams_scheming
+extern _card_treasure_cruise
+extern _card_waterwhirl
+extern _card_whirlwind_adept
+extern _card_bellowing_saddlebrute
+extern _card_bloodsoaked_champion
+extern _card_dead_drop
+extern _card_disowned_ancestor
+extern _card_empty_the_pits
+extern _card_grim_haruspex
+extern _card_kheru_bloodsucker
+extern _card_kheru_dreadmaw
+extern _card_krumar_bond_kin
+extern _card_mer_ek_nightblade
+extern _card_molting_snakeskin
+extern _card_murderous_cut
+extern _card_raiders_spoil
+extern _card_rakshasas_secret
+extern _card_retribution_of_the_ancients
+extern _card_ruthless_ripper
+extern _card_rite_of_the_serpent
+extern _card_sidisis_pet
+extern _card_swarm_of_bloodflies
+extern _card_unyielding_krumar
+extern _card_ainok_tracker
+extern _card_arrow_storm
+extern _card_ashcloud_phoenix
+extern _card_barrage_of_boulders
+extern _card_bloodfire_mentor
+extern _card_bring_low
+extern _card_burn_away
+extern _card_canyon_lurker
+extern _card_dragon_grip
+extern _card_goblinslide
+extern _card_leaping_master
+extern _card_monastery_swiftspear
+extern _card_swift_kick
+extern _card_tormenting_voice
+extern _card_archers_parapet
+extern _card_become_immense
+extern _card_dragonscale_boon
+extern _card_feed_the_clan
+extern _card_hooded_hydra
+extern _card_kin_tree_warden
+extern _card_longshot_squad
+extern _card_meandering_towershell
+extern _card_pine_walker
+extern _card_roar_of_challenge
+extern _card_savage_punch
+extern _card_smoke_teller
+extern _card_sultay_flayer
+extern _card_trail_of_mystery
+extern _card_tuskguard_captain
+extern _card_windstorm
+extern _card_wolly_loxodon
+extern _card_abomination_of_gudul
+extern _card_abzan_charm
+extern _card_armament_corps
+extern _card_bears_companion
+extern _card_butcher_of_the_horde
+extern _card_chief_of_the_edge
+extern _card_chief_of_the_scale
+extern _card_death_frenzy
+extern _card_deflecting_palm
+extern _card_efreet_weaponmaster
+extern _card_jeskai_ascendancy
+extern _card_jeskai_charm
+extern _card_kheru_lich_lord
+extern _card_kin_tree_invocation
+extern _card_mardu_charm
+extern _card_mardu_roughrider
+extern _card_master_the_way
+extern _card_ponyback_brigade
+extern _card_rakshasa_deathdealer
+extern _card_ride_down
+extern _card_secret_plan
+extern _card_siege_rhino
+extern _card_snowhorn_rider
+extern _card_trap_essence
+extern _card_villainous_wealth
+extern _card_warden_of_the_eye
+extern _card_winterflame
+extern _card_tomb_of_the_spirit_dragon
+extern _card_altar_of_the_brood
+extern _card_bribers_purse
+extern _card_cranial_archive
+extern _card_dragon_throne_of_tarkir
+extern _card_ghostfire_blade
+extern _card_heart_piercer_bow
+extern _card_lens_of_clarity
+extern _card_ugins_nexus
+extern _card_witness_of_the_ages
+extern _card_hordeling_outburst
+extern _card_rattleclaw_mystic
+extern _card_sultai_soothsayer
+extern _card_surrak_dragonclaw
+extern _card_temur_charm
+extern _card_barbed_shocker
+extern _card_sorin_solemn_visitor_emblem
+extern _card_sarkhan_the_dragonspeaker_emblem
+extern _card_angel_of_the_dire_hour
+extern _card_angelic_field_marshal
+extern _card_benevolent_offering
+extern _card_comeuppance
+extern _card_containment_priest
+extern _card_deploy_to_the_front
+extern _card_fell_the_mighty
+extern _card_hallowed_spiritkeeper
+extern _card_jazal_goldmane
+extern _card_nahiri_the_lithomancer
+extern _card_stoneforged_blade
+extern _card_aether_gale
+extern _card_breaching_leaviathan
+extern _card_domineering_will
+extern _card_dulcet_siren
+extern _card_intellectual_offering
+extern _card_whale_token
+extern _card_fish_token
+extern _card_reef_worm
+extern _card_stitcher_geralf
+extern _card_stormsurge_kraken
+extern _card_teferis_emblem
+extern _card_teferi_temporal_archmage
+extern _card_well_of_ideas
+extern _card_demone_of_wailing_agonies
+extern _card_flesh_carver
+extern _card_ghoulcaller_gisa
+extern _card_infernal_offering
+extern _card_malicious_affliction
+extern _card_necromantic_selection
+extern _card_ob_nilixis_of_the_black_oath
+extern _card_ob_nilixis_emblem
+extern _card_overseer_of_the_damned
+extern _card_raving_dead
+extern _card_spoils_of_blood
+extern _card_wake_the_dead
+extern _card_daretti_scrap_savant
+extern _card_daretti_emblem
+extern _card_dualcaster_mage
+extern _card_feldon_of_the_third_path
+extern _card_impact_resonance
+extern _card_incite_rebellion
+extern _card_scrap_mastery
+extern _card_tyrants_familiar
+extern _card_volcanic_offering
+extern _card_warmonge_hellkite
+extern _card_creeperhulk
+extern _card_elf_druid
+extern _card_freyalise_llanowars_fury
+extern _card_gravesifter
+extern _card_lifeblood_hydra
+extern _card_siege_behemoth
+extern _card_song_of_the_dryads
+extern _card_sylvan_offering
+extern _card_thunderfoot_baloth
+extern _card_titania_protector_of_argoth
+extern _card_wave_of_vitriol
+extern _card_wolfcallers_howl
+extern _card_arcane_lighthouse
+extern _card_flamekin_village
+extern _card_myriad_landscape
+extern _card_assault_suit
+extern _card_commanders_sphere
+extern _card_crown_of_doom
+extern _card_loreseekers_stone
+extern _card_masterwork_of_ingenuity
+extern _card_unstable_obelisk
+extern _card_armistice
+extern _card_annihilate
+extern _card_syphon_mind
+extern _card_fools_demise
+extern _card_zoetic_cavern
+extern _card_hush
+extern _card_lay_waste
+extern _card_veil_of_birds
+extern _card_wizard_mentor
+extern _card_crux_of_fate
+extern _card_yasova_dragonclaw
+extern _card_valorous_stance
+extern _card_sandsteppe_mastodon
+extern _card_ugin_the_spirit_dragon
+extern _card_daghatar_the_adamant
+extern _card_dragonscale_general
+extern _card_honors_reward
+extern _card_lightform
+extern _card_monastery_mentor
+extern _card_soul_summons
+extern _card_wandering_champion
+extern _card_abzan_advantage
+extern _card_abzan_runemark
+extern _card_abzan_skycaptain
+extern _card_channel_harm
+extern _card_citadel_siege
+extern _card_elite_scaleguard
+extern _card_jeskai_barricade
+extern _card_mardu_woe_reaper
+extern _card_mastery_of_the_unseen
+extern _card_pressure_point
+extern _card_sages_reverie
+extern _card_sandblast
+extern _card_sandsteppe_outcast
+extern _card_wardscale_dragon
+extern _card_lotus_eye_mystics
+extern _card_aven_surveyor
+extern _card_cloudform
+extern _card_enchanted_awareness
+extern _card_fascination
+extern _card_jeskai_infiltrator
+extern _card_jeskai_runemark
+extern _card_jeskai_sage
+extern _card_marang_river_prowler
+extern _card_mindscour_dragon
+extern _card_mistfire_adept
+extern _card_neutralizing_blast
+extern _card_rakshasas_disdain
+extern _card_reality_shift
+extern _card_refocus
+extern _card_renowned_weaponsmith
+extern _card_rite_of_undoing
+extern _card_sage_eye_avengers
+extern _card_shifting_loyalties
+extern _card_shun_yun_the_silent_tempest
+extern _card_supplant_form
+extern _card_torrent_elemental
+extern _card_whisk_away
+extern _card_will_of_the_naga
+extern _card_write_into_being
+extern _card_aleshas_vanguard
+extern _card_ancestral_vengeance
+extern _card_archfiend_of_depravity
+extern _card_battle_brawler
+extern _card_brutal_hordechief
+extern _card_dark_deal
+extern _card_diplomacy_of_the_wastes
+extern _card_fearsome_awakening
+extern _card_ghastly_conscripts
+extern _card_grave_strenght
+extern _card_hooded_assasin
+extern _card_mardu_shadowspear
+extern _card_mardu_strike_leader
+extern _card_noxious_dragon
+extern _card_orc_sureshot
+extern _card_palace_siege
+extern _card_qarsi_high_priest
+extern _card_reach_of_shadows
+extern _card_sibsig_host
+extern _card_sibsig_muckdraggers
+extern _card_soulflayer
+extern _card_sultai_emissary
+extern _card_sultai_runemark
+extern _card_tasigur_the_golden_fang
+extern _card_tasigur_cruelty
+extern _card_alesha_who_smileas_at_death
+extern _card_arcbond
+extern _card_bloodfire_enforcer
+extern _card_break_through_the_line
+extern _card_collateral_damage
+extern _card_defiant_ogre
+extern _card_dragonrage
+extern _card_fierce_invocation
+extern _card_extruder
+extern _card_flamerush_rider
+extern _card_friendly_fire
+extern _card_goblin_heelcutter
+extern _card_humble_defector
+extern _card_hungering_yeti
+extern _card_lightning_shrieker
+extern _card_mardu_runemark
+extern _card_mardu_scout
+extern _card_mob_rule
+extern _card_outpost_siege
+extern _card_rageform
+extern _card_shaman_of_the_great_hunt
+extern _card_shockmaw_dragon
+extern _card_smoldering_efreet
+extern _card_temur_battle_rage
+extern _card_vaultbreaker
+extern _card_wild_slash
+extern _card_abzan_beastmaster
+extern _card_abzan_kin_guard
+extern _card_ainok_guide
+extern _card_ambush_krotiq
+extern _card_arashin_war_beast
+extern _card_battlefront_krushok
+extern _card_cached_defenses
+extern _card_destructor_dragon
+extern _card_formless_nurturing
+extern _card_frontier_mastodon
+extern _card_frontier_siege
+extern _card_fruit_of_the_first_tree
+extern _card_map_the_wastes
+extern _card_return_to_the_earth
+extern _card_ruthless_instincts
+extern _card_ash_zealot
+extern _card_flayer_of_the_hatebound
+extern _card_shamanic_revelation
+extern _card_sudden_reclamation
+extern _card_temur_runemark
+extern _card_temur_sabretooth
+extern _card_temur_war_shaman
+extern _card_warden_of_the_first_tree
+extern _card_whisperer_of_the_wilds
+extern _card_whisperwood_elemental
+extern _card_wildcall
+extern _card_winds_of_qal_sisma
+extern _card_atarka_world_render
+extern _card_cunning_strike
+extern _card_dromoka_the_eternal
+extern _card_ethereal_ambush
+extern _card_grim_contest
+extern _card_harsh_sustenance
+extern _card_kologhan_the_storms_fury
+extern _card_ojutai_soul_of_winter
+extern _card_silumgar_the_drifting_death
+extern _card_war_flare
+extern _card_goblin_boom_keg
+extern _card_heros_blade
+extern _card_hewer_stone_retainer
+extern _card_scroll_of_the_masters
+extern _card_ugins_contruct
+extern _card_dragon_bell_monk
+extern _card_rally_the_ancestors
+extern _card_soulfire_grand_master
+extern _card_temporal_trespass
+extern _card_mystic_visionary
+extern _card_divine_intervention
+extern _card_lord_magnus
+extern _card_ambush
+extern _card_an_havva_constable
+extern _card_an_havva_inn
+extern _card_an_havva_township
+extern _card_aysen_abbey
+extern _card_castle_sengir
+extern _card_koskun_keep
+extern _card_wizards_school
+extern _card_abbey_matron
+extern _card_apocalypse_chime
+extern _card_aysen_highway
+extern _card_bakis_curse
+extern _card_beast_walkers
+extern _card_carapace
+extern _card_clockwork_gnomes
+extern _card_coral_reef
+extern _card_dark_maze
+extern _card_dwarven_sea_clan
+extern _card_evaporate
+extern _card_folk_of_an_havva
+extern _card_root_spider
+extern _card_funeral_march
+extern _card_ghost_hounds
+extern _card_headstone
+extern _card_ironclaw_curse
+extern _card_jinx
+extern _card_leaping_lizard
+extern _card_mammoth_harness
+extern _card_orcish_mine
+extern _card_prophecy
+extern _card_rashka_the_slayer
+extern _card_renewal
+extern _card_serra_inquisitors
+extern _card_veldrane_of_sengir
+extern _card_sea_troll
+extern _card_winter_sky
+extern _card_call_to_arms
+extern _card_chaos_lord
+extern _card_drift_of_the_dead
+extern _card_burning_sands
+extern _card_earthlink
+extern _card_thunder_wall
+extern _card_wall_of_lava
+extern _card_glaciers
+extern _card_elder_druid
+extern _card_gorilla_pack
+extern _card_krovikan_fetish
+extern _card_leshracs_rite
+extern _card_sibilant_spirit
+extern _card_stone_spirit
+extern _card_stonehands
+extern _card_essence_flare
+extern _card_maddening_wind
+extern _card_snow_devil
+extern _card_wings_of_aesthir
+extern _card_pyknite
+extern _card_fyndhorn_brownie
+extern _card_formation
+extern _card_lightning_blow
+extern _card_updraft
+extern _card_land_cap
+extern _card_storm_spirit
+extern _card_fanatical_fever
+extern _card_flare
+extern _card_flow_of_maggots
+extern _card_rally
+extern _card_folk_of_the_pines
+extern _card_hyalopterous_lemure
+extern _card_trailblazer
+extern _card_touch_of_death
+extern _card_enervate
+extern _card_infuse
+extern _card_tarpan
+extern _card_snowblind
+extern _card_karplusan_yeti
+extern _card_kelsinko_ranger
+extern _card_mind_ravel
+extern _card_essence_filter
+extern _card_force_void
+extern _card_foul_familiar
+extern _card_warning
+extern _card_kjeldoran_knight
+extern _card_errant_minion
+extern _card_zuran_enchanter
+extern _card_shambling_strider
+extern _card_war_chariot
+extern _card_mole_worms
+extern _card_snow_hound
+extern _card_monsoon
+extern _card_ray_of_erasure
+extern _card_errantry
+extern _card_snow_fortress
+extern _card_word_of_blasting
+extern _card_imposing_visage
+extern _card_heal
+extern _card_sacred_boon
+extern _card_withering_wisps
+extern _card_gravebind
+extern _card_vertigo
+extern _card_goblin_lyre
+extern _card_mind_warp
+extern _card_hydroblast
+extern _card_pyroblast
+extern _card_foxfire
+extern _card_walking_wall
+extern _card_panic
+extern _card_hematite_talisman
+extern _card_lapis_lazuli_talisman
+extern _card_malachite_talisman
+extern _card_nacre_talisman
+extern _card_onyx_talisman
+extern _card_freyalises_charm
+extern _card_mountain_titan
+extern _card_ice_floe
+extern _card_illusionary_terrain
+extern _card_johtull_wurm
+extern _effect_card_text_replace_pipe_n
+extern _card_mesmeric_trance
+extern _card_aven_sunstriker
+extern _card_misthoof_kirin
+extern _card_dirgur_nemesis
+extern _card_gudul_lurker
+extern _card_ojutai_interceptor
+extern _card_marang_river_skeleton
+extern _card_marsh_hulk
+extern _card_stormcrag_elemental
+extern _card_aerie_bowmasters
+extern _card_segmented_krotiq
+extern _card_pitiless_horde
+extern _card_reckless_imp
+extern _card_kolaghan_forerunners
+extern _card_lightning_berserker
+extern _card_sprinting_warbrute
+extern _card_zurgo_bellstriker
+extern _card_atarka_pummeler
+extern _card_dragon_whisperer
+extern _card_sabertooth_outrider
+extern _card_sarkhans_rage
+extern _card_sarkhans_triumph
+extern _card_atarka_beastbreaker
+extern _card_circle_of_elders
+extern _card_dragon_scarred_bear
+extern _card_glade_watcher
+extern _card_stampeding_elk_herd
+extern _card_roast
+extern _card_anafenza_kin_tree_spirit
+extern _card_arashin_foremost
+extern _card_artful_maneuver
+extern _card_aven_tactician
+extern _card_dromoka_captain
+extern _card_dromoka_dunecaster
+extern _card_echoes_of_the_kin_tree
+extern _card_enduring_victory
+extern _card_glaring_aegis
+extern _card_graceblade_artisan
+extern _card_great_teachers_decree
+extern _card_herald_of_dromoka
+extern _card_hidden_dragonslayer
+extern _card_lightwalker
+extern _card_myth_realized
+extern _card_gleam_of_authority
+extern _card_monk_token
+extern _card_ojutai_exemplars
+extern _card_resupply
+extern _card_orator_of_ojutai
+extern _card_dragonlords_prerogative
+extern _card_silumgars_scorn
+extern _card_foul_tongue_invocation
+extern _card_draconic_roar
+extern _card_scaleguard_sentinels
+extern _card_profound_journey
+extern _card_radiant_purge
+extern _card_scale_blessing
+extern _card_secure_the_wastes
+extern _card_shieldhide_dragon
+extern _card_belltoll_dragon
+extern _card_acid_spewer_dragon
+extern _card_stormwing_dragon
+extern _card_herdchaser_dragon
+extern _card_silkwrap
+extern _card_strongarm_monk
+extern _card_student_of_ojutai
+extern _card_sunscorch_regent
+extern _card_surge_of_righteousness
+extern _card_anticipate
+extern _card_blessed_reincarnation
+extern _card_clone_legion
+extern _card_dance_of_the_skywise
+extern _card_elusive_spellfist
+extern _card_encase_in_ice
+extern _card_glint
+extern _card_gurmag_drowner
+extern _card_illusory_gains
+extern _card_learn_from_the_past
+extern _card_mirror_mockery
+extern _card_monastery_loremaster
+extern _card_mystic_meditation
+extern _card_ojutais_breath
+extern _card_ojutais_summons
+extern _card_profaner_of_the_dead
+extern _card_reduce_in_stature
+extern _card_shorecrasher_elemental
+extern _card_sidisis_faithful
+extern _card_sight_beyond_sight
+extern _card_silumgar_sorcerer
+extern _card_skywise_teachings
+extern _card_taigams_strike
+extern _card_void_squall
+extern _card_youthful_scholar
+extern _card_zephyr_scribe
+extern _card_ambuscade_shaman
+extern _card_blood_chin_fanatic
+extern _card_blood_chin_rager
+extern _card_butchers_glee
+extern _card_coat_with_venom
+extern _card_damnable_pact
+extern _card_deadly_wanderings
+extern _card_deathbringer_regent
+extern _card_defeat
+extern _card_dutiful_attendant
+extern _card_foul_renewal
+extern _card_foul_tongue_shriek
+extern _card_minister_of_pain
+extern _card_qarsi_sadist
+extern _card_rakshasa_gravecaller
+extern _card_self_inflicted_wound
+extern _card_shambling_goblin
+extern _card_sibsig_icebreakers
+extern _card_sidisi_undead_vizier
+extern _card_silumgar_assassin
+extern _card_silumgar_butcher
+extern _card_virulent_plague
+extern _card_vulturous_aven
+extern _card_atarka_efreet
+extern _card_berserkes_onslaught
+extern _card_crater_elemental
+extern _card_dragon_tempest
+extern _card_dragonlords_servant
+extern _card_impact_tremors
+extern _card_kolaghan_stormsinger
+extern _card_lose_calm
+extern _card_rending_volley
+extern _card_seismic_rupture
+extern _card_tail_slash
+extern _card_vandalize
+extern _card_volcanic_rush
+extern _card_volcanic_vision
+extern _card_warbringer
+extern _card_sandsteppe_scavenger
+extern _card_servant_of_the_scale
+extern _card_shape_the_sands
+extern _card_sheltered_aerie
+extern _card_sight_of_the_scalelords
+extern _card_sunbringers_touch
+extern _card_surrak_the_hunt_caller
+extern _card_tread_upon
+extern _card_arashin_sovereign
+extern _card_atarkas_command
+extern _card_boltwing_marauder
+extern _card_cunning_breezedancer
+extern _card_dragonlord_atarka
+extern _card_dragonlord_dromoka
+extern _card_dragonlord_kolaghan
+extern _card_dragonlord_ojutai
+extern _card_dragonlord_silumgar
+extern _card_dromokas_command
+extern _card_fathom_mage
+extern _card_bloodcrazed_hoplite
+extern _card_enduring_scalelord
+extern _card_harbinger_of_the_hunt
+extern _card_kolaghans_command
+extern _card_ojutais_command
+extern _card_pristine_skywise
+extern _card_ruthless_deathfang
+extern _card_sarkhan_unbroken
+extern _card_mark_of_sakiko
+extern _card_sakura_tribe_springcaller
+extern _card_shizuko_caller_of_autumn
+extern _card_savage_ventmaw
+extern _card_silumgars_command
+extern _card_atarka_monument
+extern _card_dromoka_monument
+extern _card_kolaghan_monument
+extern _card_ojutai_monument
+extern _card_silumgar_monument
+extern _card_ancestral_statue
+extern _card_dragonloft_idol
+extern _card_gate_smasher
+extern _card_vial_of_dragonfire
+extern _card_akroan_jailer
+extern _card_ampryn_tactician
+extern _card_blessed_spirits
+extern _card_cleric_of_the_forward_order
+extern _card_consuls_lieutenant
+extern _card_enshrouding_mist
+extern _card_gideons_phalanx
+extern _card_grasp_of_the_hieromancer
+extern _card_healing_hands
+extern _card_heavy_infantry
+extern _card_knight_of_the_pilgrims_road
+extern _card_kytheons_irregulars
+extern _card_kytheons_tactics
+extern _card_patron_of_the_valiant
+extern _card_relic_seeker
+extern _card_sentinel_of_the_eternal_watch
+extern _card_suppression_bonds
+extern _card_topan_freeblade
+extern _card_totem_guide_hartebeest
+extern _card_valor_in_akros
+extern _card_war_oracle
+extern _card_anchor_to_the_aether
+extern _card_artificers_epiphany
+extern _card_aspiring_aeronaut
+extern _card_calculated_dismissal
+extern _card_clash_of_wills
+extern _card_deep_sea_terror
+extern _card_displacement_wave
+extern _card_faerie_miscreant
+extern _card_hydrolash
+extern _card_jaces_sanctum
+extern _card_jhessian_thief
+extern _card_nivix_barrier
+extern _card_send_to_sleep
+extern _card_dark_petition
+extern _card_deadbridge_shaman
+extern _card_demonic_pact
+extern _card_eyeblight_assassin
+extern _card_eyeblight_massacre
+extern _card_gilt_leaf_winnower
+extern _card_graveblade_marauder
+extern _card_kothophed_soul_hoarder
+extern _card_languish
+extern _card_malakir_cullblade
+extern _card_necromantic_summons
+extern _card_priest_of_the_blood_rite
+extern _card_rabid_bloodsucker
+extern _card_reave_soul
+extern _card_shadows_of_the_past
+extern _card_tainted_remedy
+extern _card_thornbow_archer
+extern _card_undead_servant
+extern _card_unholy_hunger
+extern _card_whirler_rogue
+extern _card_acolyte_of_the_inferno
+extern _card_chandras_ignition
+extern _card_enthralling_victor
+extern _card_exquisite_firecraft
+extern _card_fiery_conclusion
+extern _card_fiery_impulse
+extern _card_firefiend_elemental
+extern _card_flameshadow_conjuring
+extern _card_ghirapur_aether_grid
+extern _card_goblin_glory_chaser
+extern _card_infectious_bloodlust
+extern _card_mage_ring_bully
+extern _card_magmatic_insight
+extern _card_molten_vortex
+extern _card_pia_and_kiran_nalaar
+extern _card_prickleboar
+extern _card_ravaging_blaze
+extern _card_scab_clan_berserker
+extern _card_seismic_elemental
+extern _card_subterranean_scout
+extern _card_thopter_engineer
+extern _card_aerial_volley
+extern _card_dwynen_gilt_leaf_daen
+extern _card_dwynens_elite
+extern _card_elemental_bond
+extern _card_evolutionary_leap
+extern _card_herald_of_the_pantheon
+extern _card_honored_hierarch
+extern _card_joraga_invocation
+extern _card_managorger_hydra
+extern _card_mantle_of_webs
+extern _card_nissas_pilgrimage
+extern _card_nissas_revelation
+extern _card_somberwald_alpha
+extern _card_pharikas_disciple
+extern _card_rhox_maulers
+extern _card_undercity_troll
+extern _card_valeron_wardens
+extern _card_vine_snare
+extern _card_wild_instincts
+extern _card_woodland_bellower
+extern _card_zendikars_roil
+extern _card_blazing_hellhound
+extern _card_blood_cursed_knight
+extern _card_bounding_krasis
+extern _card_citadel_castellan
+extern _card_possessed_skaab
+extern _card_reclusive_artificer
+extern _card_shaman_of_the_pack
+extern _card_thunderclap_wyvern
+extern _card_zendikar_incarnate
+extern _card_alchemists_vial
+extern _card_chief_of_the_foundry
+extern _card_guardian_automaton
+extern _card_hangarback_walker
+extern _card_helm_of_the_gods
+extern _card_mage_ring_responder
+extern _card_orbs_of_warding
+extern _card_prism_ring
+extern _card_ramroller
+extern _card_sigil_of_valor
+extern _card_sword_of_the_animist
+extern _card_throwing_knife
+extern _card_foundry_of_the_consuls
+extern _card_bane_of_bala_ged
+extern _card_blight_herder
+extern _card_desolation_twin
+extern _card_endless_one
+extern _card_oblivion_sower
+extern _card_ruin_processor
+extern _card_scour_from_existence
+extern _card_ulamog_the_ceaseless_hunger
+extern _card_ulamogs_despoiler
+extern _card_void_winnower
+extern _card_angel_of_renewal
+extern _card_angelic_gift
+extern _card_cliffside_lookout
+extern _card_emeria_shepherd
+extern _card_encircling_fissure
+extern _card_gideon_ally_of_zendikar
+extern _card_gideons_reproach
+extern _card_hero_of_goma_fada
+extern _card_kor_bladewhirl
+extern _card_kor_castigator
+extern _card_kor_entanglers
+extern _card_lantern_scout
+extern _card_lithomancers_focus
+extern _card_makindi_patrol
+extern _card_ondu_rising
+extern _card_planar_outburst
+extern _card_quarantine_field
+extern _card_retreat_to_emeria
+extern _card_roils_retribution
+extern _card_serene_steward
+extern _card_sheer_drop
+extern _card_stone_haven_medic
+extern _card_tandem_tactics
+extern _card_unified_front
+extern _card_adverse_conditions
+extern _card_benthic_infiltrator
+extern _card_cryptic_cruiser
+extern _card_drowner_of_hope
+extern _card_eldrazi_skyspawner
+extern _card_horribly_awry
+extern _card_mist_intruder
+extern _card_murk_strider
+extern _card_oracle_of_dust
+extern _card_ruination_guide
+extern _card_salvage_drone
+extern _card_spell_shrivel
+extern _card_tide_drifter
+extern _card_ulamogs_reclaimer
+extern _card_brilliant_spectrum
+extern _card_clutch_of_currents
+extern _card_coastal_discovery
+extern _card_coralhelm_guide
+extern _card_exert_influence
+extern _card_guardian_of_tazeem
+extern _card_halimar_tidecaller
+extern _card_part_the_waterveil
+extern _card_prism_array
+extern _card_retreat_to_coralhelm
+extern _card_roilmages_trick
+extern _card_rush_of_ice
+extern _card_tightening_coils
+extern _card_ugins_insight
+extern _card_windrider_patrol
+extern _card_complete_disregard
+extern _card_dominator_drone
+extern _card_grave_birthing
+extern _card_grip_of_desolation
+extern _card_mind_raker
+extern _card_silent_skimmer
+extern _card_skitterskin
+extern _card_sludge_crawler
+extern _card_smothering_abomination
+extern _card_swarm_surge
+extern _card_transgress_the_mind
+extern _card_wasteland_strangler
+extern _card_bloodbond_vampire
+extern _card_carrier_thrall
+extern _card_demons_grasp
+extern _card_drana_liberator_of_malakir
+extern _card_geyserfield_stalker
+extern _card_guul_draz_overseer
+extern _card_hagra_sharpshooter
+extern _card_kalastria_healer
+extern _card_kalastria_nightwatch
+extern _card_malakir_familiar
+extern _card_mires_malice
+extern _card_nirkana_assassin
+extern _card_ob_nixilis_reignited
+extern _card_ob_nixilis_reignited_emblem
+extern _card_painful_truths
+extern _card_retreat_to_hagra
+extern _card_rising_miasma
+extern _card_ruinous_path
+extern _card_vampiric_rites
+extern _card_voracious_null
+extern _card_zulaport_cutthroat
+extern _card_barrage_tyrant
+extern _card_crumble_to_dust
+extern _card_kozileks_sentinel
+extern _card_molten_nursery
+extern _card_nettle_drone
+extern _card_processor_assault
+extern _card_serpentine_spike
+extern _card_vile_aggregate
+extern _card_akoum_firebird
+extern _card_akoum_hellkite
+extern _card_akoum_stonewaker
+extern _card_belligerent_whiptail
+extern _card_boiling_earth
+extern _card_chasm_guide
+extern _card_firemantle_mage
+extern _card_lavastep_raider
+extern _card_ondu_champion
+extern _card_outnumber
+extern _card_radiant_flames
+extern _card_reckless_cohort
+extern _card_retreat_to_valakut
+extern _card_tunneling_geopede
+extern _card_valakut_invoker
+extern _card_tangoland
+extern _card_brood_monitor
+extern _card_call_the_scions
+extern _card_eyeless_watcher
+extern _card_unnatural_aggression
+extern _card_void_attendant
+extern _card_earthen_arms
+extern _card_greenwarden_of_murasa
+extern _card_infuse_with_the_elements
+extern _card_from_beyond
+extern _card_jaddi_offshoot
+extern _card_generic_combat_1_mana_producing_creature
+extern _card_seek_the_wilds
+extern _card_swell_of_growth
+extern _card_tajuru_beastmaster
+extern _card_tajuru_stalwart
+extern _card_tajuru_warcaller
+extern _card_undergrowth_champion
+extern _card_woodland_wanderer
+extern _card_brood_butcher
+extern _card_brutal_expulsion
+extern _card_catacomb_sifter
+extern _card_dust_stalker
+extern _card_fathom_feeder
+extern _card_forerunner_of_slaughter
+extern _card_herald_of_kozilek
+extern _card_sire_of_stagnation
+extern _card_ulamogs_nullifier
+extern _card_angelic_captain
+extern _card_dranas_emissary
+extern _card_grovetender_druids
+extern _card_march_from_the_tomb
+extern _card_munda_ambush_leader
+extern _card_noyan_dar_roil_shaper
+extern _card_omnath_locus_of_rage
+extern _card_resolute_blademaster
+extern _card_roil_spout
+extern _card_skyrider_elf
+extern _card_veteran_warleader
+extern _card_aligned_hedron_network
+extern _card_hedron_archive
+extern _card_hedron_blade
+extern _card_pathway_arrows
+extern _card_slab_hammer
+extern _card_blighted_cataract
+extern _card_blighted_fen
+extern _card_blighted_gorge
+extern _card_blighted_steppe
+extern _card_blighted_woodland
+extern _card_spawning_bed
+extern _card_fertile_thicket
+extern _card_looming_spires
+extern _card_mortuary_mire
+extern _card_sanctum_of_ugin
+extern _card_sandstone_bridge
+extern _card_skyline_cascade
+extern _card_lumbering_falls
+extern _card_shambling_vent
+extern _card_archangel_of_tithes
+extern _card_kytheon_hero_of_akros
+extern _card_gideon_battle_forged
+extern _card_hixus_prison_warden
+extern _card_swift_reckoning
+extern _card_tragic_arrogance
+extern _card_silumgar_spell_eater
+extern _card_stratus_dancer
+extern _card_corpseweft
+extern _card_descent_of_the_dragons
+extern _card_collected_company
+extern _card_tapestry_of_the_ages
+extern _card_salt_road_ambushers
+extern _card_deathmist_raptor
+extern _card_harbinger_of_the_tides
+extern _card_alhammarret_high_arbiter
+extern _card_psychic_rebuttal
+extern _card_sphinxs_tutelage
+extern _card_thopter_spy_network
+extern _card_dark_dabbling
+extern _card_infinite_obliteration
+extern _play_sound_effect
+extern _set_smallcard_size
+extern _update_hand_window
+extern _card_infernal_scarring
+extern _card_liliana_heretical_healer
+extern _card_liliana_defiant_necromancer
+extern _card_liliana_defiant_necromancer_emblem
+extern _card_call_of_the_full_moon
+extern _card_chandra_fire_of_kaladesh
+extern _card_chandra_roaring_flame
+extern _card_chandra_roaring_flame_emblem
+extern _card_commune_with_lava
+extern _card_ire_shaman
+extern _card_abbot_of_keral_keep
+extern _card_bring_to_light
+extern _card_embermaw_hellion
+extern _card_animists_awakening
+extern _card_gather_the_pack
+extern _card_kiora_master_of_the_depths
+extern _card_kiora_master_of_the_depths_emblem
+extern _card_the_great_aurora
+extern _card_nissa_vastwood_seer
+extern _card_nissa_sage_animist
+extern _card_conduit_of_ruin
+extern _card_scatter_to_the_winds
+extern _card_titans_presence
+
+global _DllEntry
+_DllEntry:
+  mov eax, 1
+  ret
+
+global _CodeSectionEx
+; All card code pointers will be jumps here, card after card
+_CodeSectionEx:                  ; CodePointer
+  jmp near _card_ainok_artillerist         ; 2001006
+  jmp near _card_ainok_survivalist         ; 200100b
+  jmp near _card_assault_formation         ; 2001010
+  jmp near _card_avatar_of_the_resolute    ; 2001015
+  jmp near _card_den_protector             ; 200101a
+  jmp near _card_dromokas_gift             ; 200101f
+  jmp near _card_epic_confrontation        ; 2001024
+  jmp near _card_foe_razer_regent          ; 2001029
+  jmp near _card_guardian_shield_bearer    ; 200102e
+  jmp near _card_azorius_signet            ; 02001033
+  jmp near _card_rakdos_signet             ; 02001038
+  jmp near _card_simic_signet              ; 0200103D
+  jmp near _card_gruul_signet              ; 02001042
+  jmp near _card_orzhov_signet             ; 02001047
+  jmp near _card_boros_signet              ; 0200104C
+  jmp near _card_dimir_signet              ; 02001051
+  jmp near _card_golgari_signet            ; 02001056
+  jmp near _card_selesnya_signet           ; 0200105B
+  jmp near _card_azorius_chancery          ; 02001060
+  jmp near _card_rakdos_carnarium          ; 02001065
+  jmp near _card_simic_growth_chamber      ; 0200106A
+  jmp near _card_gruul_turf                ; 0200106F
+  jmp near _card_izzet_boilerworks         ; 02001074
+  jmp near _card_boros_garrison            ; 02001079
+  jmp near _card_dimir_aqueduct            ; 0200107E
+  jmp near _card_golgari_rot_farm          ; 02001083
+  jmp near _card_selesnya_sanctuary        ; 02001088
+  jmp near _protection_from_black          ; 0200108D
+  jmp near _protection_from_red            ; 02001092
+  jmp near _protection_from_blue           ; 02001097
+  jmp near _protection_from_green          ; 0200109C
+  jmp near _protection_from_white          ; 020010A1
+  jmp near _card_sabertooth_nishoba        ; 020010A6
+  jmp near _card_timetwister               ; 020010AB
+  jmp near _card_feldons_cane              ; 020010B0
+  jmp near _card_inspiring_call            ; 20010b5
+  jmp near _card_lurking_arynx             ; 20010ba
+  jmp near _card_obscuring_aether          ; 20010bf
+  jmp near _card_pinion_feast              ; 20010c4
+  jmp near _card_press_the_advantage       ; 20010c9
+  jmp near _card_gauntlet_of_power         ; 020010CE *
+  jmp near _card_mulldrifter               ; 020010D3
+  jmp near _card_salt_road_quartermasters  ; 20010d8
+  jmp near _dispatch_event_raw             ; 020010DD
+  jmp near _shadow                         ; 020010E2
+  jmp near _card_tormods_crypt             ; 020010E7
+  jmp near _card_ancestors_chosen          ; 020010EC
+  jmp near _card_bottle_gnomes             ; 020010F1
+  jmp near _card_gorilla_titan             ; 020010F6
+  jmp near _card_kami_of_the_crescent_moon ; 020010FB
+  jmp near _card_priest_of_gix             ; 02001100
+  jmp near _count_graveyard                ; 02001105
+  jmp near _card_nimble_mongoose           ; 0200110A
+  jmp near _card_werebear                  ; 0200110F
+  jmp near _card_mirrodins_core            ; 02001114
+  jmp near _has_threshold                  ; 02001119
+  jmp near _card_chromatic_sphere          ; 0200111E
+  jmp near _card_chromatic_star            ; 02001123
+  jmp near _card_disciple_of_the_vault     ; 02001128
+  jmp near _card_ogre_arsonist             ; 0200112D
+  jmp near _card_flametongue_kavu          ; 02001132
+  jmp near _card_fire_imp                  ; 02001137
+  jmp near _card_merrow_reejerey           ; 0200113C
+  jmp near _card_vodalian_knights          ; 02001141
+  jmp near _card_balduvian_horde           ; 02001146
+  jmp near _card_goblin_lore               ; 0200114B
+  jmp near _card_kobold_drill_sergeant     ; 02001150
+  jmp near _card_lightning_helix           ; 02001155
+  jmp near _card_repulse                   ; 0200115A
+  jmp near _card_recoil                    ; 0200115F
+  jmp near _card_martial_coup              ; 02001164
+  jmp near _card_oversoul_of_dusk          ; 02001169
+  jmp near _card_spectral_procession       ; 0200116E
+  jmp near _card_goblin_warchief           ; 02001173
+  jmp near _card_heart_sliver              ; 02001178
+  jmp near _card_synchronous_sliver        ; 0200117D
+  jmp near _card_manamorphose              ; 02001182
+  jmp near _card_wilt_leaf_cavaliers       ; 02001187
+  jmp near _card_stitch_together           ; 0200118C
+  jmp near _card_survival_of_the_fittest   ; 02001191
+  jmp near _card_careful_consideration     ; 02001196
+  jmp near _card_deranged_hermit           ; 0200119B
+  jmp near _card_soraya_the_falconer       ; 020011A0
+  jmp near _card_uktabi_orangutan          ; 020011A5
+  jmp near _card_man_o_war                 ; 020011AA
+  jmp near _card_tahngarth_talruum_hero    ; 020011AF
+  jmp near _card_pearl_dragon     ; 20011b4
+  jmp near _card_sphere_of_resistance     ; 20011b9
+  jmp near _card_thorn_of_amethyst     ; 20011be
+  jmp near _card_yawgmoths_bargain     ; 20011c3
+  jmp near _card_necropotence     ; 20011c8
+  jmp near _card_master_of_etherium     ; 20011cd
+  jmp near _card_academy_rector     ; 20011d2
+  jmp near _card_gamble     ; 20011d7
+  jmp near _card_temple_of_the_false_god     ; 20011dc
+  jmp near _card_ancient_tomb     ; 20011e1
+  jmp near _card_helm_of_awakening     ; 20011e6
+  jmp near _card_reap_and_sow     ; 20011eb
+  jmp near _card_bonesplitter     ; 20011f0
+  jmp near _card_skullclamp     ; 20011f5
+  jmp near _card_siege_gang_commander     ; 20011fa
+  jmp near _card_force_of_will     ; 20011ff
+  jmp near _card_chrome_mox     ; 2001204
+  jmp near _card_silvergill_adept     ; 2001209
+  jmp near _card_wrens_run_vanquisher     ; 200120e
+  jmp near _card_goldmeadow_stalwart     ; 2001213
+  jmp near _card_cruel_ultimatum     ; 2001218
+  jmp near _card_mox_diamond     ; 200121d
+  jmp near _card_springleaf_drum     ; 2001222
+  jmp near _card_goblin_grenade     ; 2001227
+  jmp near _card_kjeldoran_outpost     ; 200122c
+  jmp near _card_reanimate     ; 2001231
+  jmp near _card_dark_confidant     ; 2001236
+  jmp near _card_cranial_plating     ; 200123b
+  jmp near _card_blastoderm     ; 2001240
+  jmp near _card_stonybrook_banneret     ; 2001245
+  jmp near _card_momir     ; 200124a
+  jmp near _card_tinker     ; 200124f
+  jmp near _card_upheaval     ; 2001254
+  jmp near _card_price_of_progress     ; 2001259
+  jmp near _card_wasteland     ; 200125e
+  jmp near _card_standstill     ; 2001263
+  jmp near _card_rite_of_flame     ; 2001268
+  jmp near _card_magnivore     ; 200126d
+  jmp near _card_terravore     ; 2001272
+  jmp near _card_tarmogoyf     ; 2001277
+  jmp near _card_cabal_ritual     ; 200127c
+  jmp near _card_carnophage     ; 2001281
+  jmp near _card_senseis_divining_top     ; 2001286
+  jmp near _card_cloudgoat_ranger     ; 200128b
+  jmp near _card_sages_dousing     ; 2001290
+  jmp near _card_spell_snare     ; 2001295
+  jmp near _card_cursecatcher     ; 200129a
+  jmp near _card_nyxathid     ; 200129f
+  jmp near _card_scepter_of_fugue     ; 20012a4
+  jmp near _card_gaddock_teeg     ; 20012a9
+  jmp near _card_door_to_nothingness     ; 20012ae
+  jmp near _card_aether_vial     ; 20012b3
+  jmp near _card_honden_of_cleansing_fire     ; 20012b8
+  jmp near _card_honden_of_seeing_winds     ; 20012bd
+  jmp near _card_honden_of_lifes_web     ; 20012c2
+  jmp near _card_honden_of_nights_reach     ; 20012c7
+  jmp near _card_honden_of_infinite_rage     ; 20012cc
+  jmp near _card_daze     ; 20012d1
+  jmp near _card_gush     ; 20012d6
+  jmp near _card_disrupt     ; 20012db
+  jmp near _card_rumbling_slum     ; 20012e0
+  jmp near _card_tower_of_fortunes     ; 20012e5
+  jmp near _card_balancing_act     ; 20012ea
+  jmp near _card_weird_harvest     ; 20012ef
+  jmp near _card_pacifism     ; 20012f4
+  jmp near _card_mystical_tutor     ; 20012f9
+  jmp near _card_eureka     ; 20012fe
+  jmp near _card_show_and_tell     ; 2001303
+  jmp near _card_smallpox     ; 2001308
+  jmp near _card_pox     ; 200130d
+  jmp near _card_thoughts_of_ruin     ; 2001312
+  jmp near _card_fireblast     ; 2001317
+  jmp near _card_goblin_lackey     ; 200131c
+  jmp near _card_gerrards_verdict     ; 2001321
+  jmp near _card_bringer_of_the_blue_dawn     ; 2001326
+  jmp near _card_bringer_of_the_black_dawn     ; 200132b
+  jmp near _card_bringer_of_the_green_dawn     ; 2001330
+  jmp near _card_maelstrom_archangel     ; 2001335
+  jmp near _card_child_of_alara     ; 200133a
+  jmp near _card_brainstorm     ; 200133f
+  jmp near _card_wydwen_the_biting_gale     ; 2001344
+  jmp near _card_hidetsugus_second_rite     ; 2001349
+  jmp near _card_innocent_blood     ; 200134e
+  jmp near _card_barter_in_blood     ; 2001353
+  jmp near _card_grafted_skullcap     ; 2001358
+  jmp near _card_mind_stone     ; 200135d
+  jmp near _card_helldozer     ; 2001362
+  jmp near _card_covetous_dragon     ; 2001367
+  jmp near _card_couriers_capsule     ; 200136c
+  jmp near _card_lightning_greaves     ; 2001371
+  jmp near _card_empyrial_plate     ; 2001376
+  jmp near _card_loxodon_warhammer     ; 200137b
+  jmp near _card_fire_ice     ; 2001380
+  jmp near _card_dwarven_ruins     ; 2001385
+  jmp near _card_ebon_stronghold     ; 200138a
+  jmp near _card_havenwood_battleground     ; 200138f
+  jmp near _card_ruins_of_trokair     ; 2001394
+  jmp near _card_svyelunite_temple     ; 2001399
+  jmp near _card_ancient_spring     ; 200139e
+  jmp near _card_geothermal_crevice     ; 20013a3
+  jmp near _card_irrigation_ditch     ; 20013a8
+  jmp near _card_sulfur_vent     ; 20013ad
+  jmp near _card_tinder_farm     ; 20013b2
+  jmp near _card_nezumi_shortfang     ; 20013b7
+  jmp near _card_early_harvest     ; 20013bc
+  jmp near _card_death_cloud     ; 20013c1
+  jmp near _card_oversold_cemetery     ; 20013c6
+  jmp near _card_desolation_angel     ; 20013cb
+  jmp near _card_goblin_piledriver     ; 20013d0
+  jmp near _card_akrasan_squire     ; 20013d5
+  jmp near _card_battlegrace_angel     ; 20013da
+  jmp near _card_angelic_benediction     ; 20013df
+  jmp near _card_noble_hierarch     ; 20013e4
+  jmp near _card_skirk_prospector     ; 20013e9
+  jmp near _card_broodstar     ; 20013ee
+  jmp near _card_stratadon     ; 20013f3
+  jmp near _card_draco     ; 20013f8
+  jmp near _card_goblin_tutor     ; 20013fd
+  jmp near _card_wall_of_reverence     ; 2001402
+  jmp near _card_master_transmuter     ; 2001407
+  jmp near _card_wirewood_symbiote     ; 200140c
+  jmp near _card_dauthi_horror     ; 2001411
+  jmp near _card_dauthi_marauder     ; 2001416
+  jmp near _card_dauthi_mercenary     ; 200141b
+  jmp near _card_dauthi_slayer     ; 2001420
+  jmp near _card_dauthi_warlord     ; 2001425
+  jmp near _card_soltari_trooper     ; 200142a
+  jmp near _card_stronghold_overseer     ; 200142f
+  jmp near _card_trespasser_il_vec     ; 2001434
+  jmp near _card_looter_il_kor     ; 2001439
+  jmp near _card_drifter_il_dal     ; 200143e
+  jmp near _card_barbarian_ring     ; 2001443
+  jmp near _card_meloku_the_clouded_mirror     ; 2001448
+  jmp near _card_sword_of_fire_and_ice     ; 200144d
+  jmp near _card_sword_of_light_and_shadow     ; 2001452
+  jmp near _card_sarcomancy     ; 2001457
+  jmp near _card_tattermunge_maniac     ; 200145c
+  jmp near _card_nightscape_familiar     ; 2001461
+  jmp near _card_hellfire     ; 2001466
+  jmp near _card_pernicious_deed     ; 200146b
+  jmp near _card_forbid     ; 2001470
+  jmp near _card_browbeat     ; 2001475
+  jmp near _card_arcanis_the_omnipotent     ; 200147a
+  jmp near _card_dark_depths     ; 200147f
+  jmp near _card_marit_lage     ; 2001484
+  jmp near _card_tooth_and_nail     ; 2001489
+  jmp near _card_spirit_of_the_night     ; 200148e
+  jmp near _card_farseek     ; 2001493
+  jmp near _card_bloodstained_mire     ; 2001498
+  jmp near _card_windswept_heath     ; 200149d
+  jmp near _card_wooded_foothills     ; 20014a2
+  jmp near _card_polluted_delta     ; 20014a7
+  jmp near _card_flooded_strand     ; 20014ac
+  jmp near _card_glimpse_the_unthinkable     ; 20014b1
+  jmp near _card_arcbound_worker     ; 20014b6
+  jmp near _card_mana_drain     ; 20014bb
+  jmp near _card_scavenger_drake     ; 20014c0
+  jmp near _card_basalt_monolith     ; 20014c5
+  jmp near _card_grim_monolith     ; 20014ca
+  jmp near _card_demonic_hordes     ; 20014cf
+  jmp near _card_exploration     ; 20014d4
+  jmp near _card_ivory_guardians     ; 20014d9
+  jmp near _card_obliterate     ; 20014de
+  jmp near _card_twincast     ; 20014e3
+  jmp near _card_duress     ; 20014e8
+  jmp near _pattern_of_rebirth_tutor; 20014ed
+  jmp near _game_startup; 20014f2
+  jmp near _card_rules_engine     ; 20014f7
+  jmp near _card_tendrils_of_agony     ; 20014fc
+  jmp near _card_anger     ; 2001501
+  jmp near _pregame     ; 2001506
+  jmp near _card_peregrine_drake     ; 200150b
+  jmp near _card_palinchron     ; 2001510
+  jmp near _card_flash     ; 2001515
+  jmp near _card_pact_of_negation     ; 200151a
+  jmp near _card_summoners_pact     ; 200151f
+  jmp near _card_protean_hulk     ; 2001524
+  jmp near _card_dragonstorm     ; 2001529
+  jmp near _card_carnival_of_souls     ; 200152e
+  jmp near _card_glimpse_of_nature     ; 2001533
+  jmp near _card_tombstalker     ; 2001538
+  jmp near _card_goblin_matron     ; 200153d
+  jmp near _card_goblin_sharpshooter     ; 2001542
+  jmp near _card_goblin_ringleader     ; 2001547
+  jmp near _card_qasali_pridemage     ; 200154c
+  jmp near _card_jenara_asura_of_war     ; 2001551
+  jmp near _card_relentless_rats     ; 2001556
+  jmp near _get_abilities ; 200155B
+  jmp near _card_progenitus     ; 2001560
+  jmp near _card_prosperity     ; 2001565
+  jmp near _card_wistful_selkie     ; 200156a
+  jmp near _card_ashenmoor_gouger     ; 200156f
+  jmp near _card_flame_javelin     ; 2001574
+  jmp near _card_avatar_elvish_champion     ; 2001579
+  jmp near _card_avatar_oni_of_wild_places     ; 200157e
+  jmp near _card_empty_the_warrens     ; 2001583
+  jmp near _card_primal_forcemage     ; 2001588
+  jmp near _card_avatar_akroma     ; 200158d
+  jmp near _card_avatar_erhnam_djinn     ; 2001592
+  jmp near _card_avatar_goblin_warchief     ; 2001597
+  jmp near _card_avatar_heartwood_storyteller     ; 200159c
+  jmp near _card_avatar_mirri_the_cursed     ; 20015a1
+  jmp near _card_avatar_nekrataal     ; 20015a6
+  jmp near _card_avatar_royal_assassin     ; 20015ab
+  jmp near _card_avatar_serra_angel     ; 20015b0
+  jmp near _card_reflecting_pool     ; 20015b5
+  jmp near _card_avatar_reaper_king     ; 20015ba
+  jmp near _card_avatar_prodigal_sorcerer     ; 20015bf
+  jmp near _card_etherium_sculptor     ; 20015c4
+  jmp near _card_grand_arbiter_augustin_iv     ; 20015c9
+  jmp near _card_sharuum_the_hegemon     ; 20015ce
+  jmp near _card_magister_sphinx     ; 20015d3
+  jmp near _card_avatar_chaos_orb     ; 20015d8
+  jmp near _card_draft     ; 20015dd
+  jmp near _card_avatar_chaos_orb_lite     ; 20015e2
+  jmp near _card_elvish_spirit_guide     ; 20015e7
+  jmp near _card_forgotten_cave     ; 20015ec
+  jmp near _card_lonely_sandbar     ; 20015f1
+  jmp near _card_barren_moor     ; 20015f6
+  jmp near _card_tranquil_thicket     ; 20015fb
+  jmp near _card_secluded_steppe     ; 2001600
+  jmp near _card_flame_wreathed_phoenix     ; 2001605
+  jmp near _card_gempalm_incinerator     ; 200160a
+  jmp near _card_cryptic_command     ; 200160f
+  jmp near _card_yawgmoths_will     ; 2001614
+  jmp near _card_treetop_village     ; 2001619
+  jmp near _card_treetop_village_ape     ; 200161e
+  jmp near _card_sundering_titan     ; 2001623
+  jmp near _card_crucible_of_worlds     ; 2001628
+  jmp near _card_wilt_leaf_liege     ; 200162d
+  jmp near _card_kitchen_finks     ; 2001632
+  jmp near _card_high_tide     ; 2001637
+  jmp near _card_cloud_of_faeries     ; 200163c
+  jmp near _card_squee_goblin_nabob     ; 2001641
+  jmp near _card_traumatize     ; 2001646
+  jmp near _card_genesis     ; 200164b
+  jmp near _card_mental_note     ; 2001650
+  jmp near _card_oath_of_druids     ; 2001655
+  jmp near _card_forbidden_orchard     ; 200165a
+  jmp near _card_life_from_the_loam     ; 200165f
+  jmp near _card_hatred     ; 2001664
+  jmp near _card_figure_of_destiny     ; 2001669
+  jmp near _card_ranger_of_eos     ; 200166e
+  jmp near _card_meddling_mage     ; 2001673
+  jmp near _card_saproling_burst     ; 2001678
+  jmp near _card_saproling     ; 200167d
+  jmp near _card_fires_of_yavimaya     ; 2001682
+  jmp near _card_windbrisk_heights     ; 2001687
+  jmp near _card_propaganda     ; 200168c
+  jmp near _card_collective_restraint     ; 2001691
+  jmp near _card_living_death     ; 2001696
+  jmp near _card_undead_warchief     ; 200169b
+  jmp near _card_lord_of_the_undead     ; 20016a0
+  jmp near _card_zombie_master     ; 20016a5
+  jmp near _card_tidehollow_sculler     ; 20016aa
+  jmp near _card_putrid_leech     ; 20016af
+  jmp near _card_graveborn_muse     ; 20016b4
+  jmp near _card_exhume     ; 20016b9
+  jmp near _card_recurring_nightmare     ; 20016be
+  jmp near _card_demonic_consultation     ; 20016c3
+  jmp near _card_lions_eye_diamond     ; 20016c8
+  jmp near _card_memory_jar     ; 20016cd
+  jmp near _card_trinisphere     ; 20016d2
+  jmp near _card_burning_wish     ; 20016d7
+  jmp near _card_priest_of_titania     ; 20016dc
+  jmp near _card_overrun     ; 20016e1
+  jmp near _card_lorescale_coatl     ; 20016e6
+  jmp near _card_nettle_sentinel     ; 20016eb
+  jmp near _card_heritage_druid     ; 20016f0
+  jmp near _card_regal_force     ; 20016f5
+  jmp near _card_battle_of_wits     ; 20016fa
+  jmp near _card_bramblewood_paragon     ; 20016ff
+  jmp near _card_cunning_wish     ; 2001704
+  jmp near _card_living_wish     ; 2001709
+  jmp near _card_birchlore_rangers     ; 200170e
+  jmp near _card_quirion_ranger     ; 2001713
+  jmp near _card_sneak_attack     ; 2001718
+  jmp near _card_reveillark     ; 200171d
+  jmp near _card_sleight_of_hand     ; 2001722
+  jmp near _card_fact_or_fiction     ; 2001727
+  jmp near _card_gifts_ungiven     ; 200172c
+  jmp near _card_lord_of_extinction     ; 2001731
+  jmp near _card_serra_avatar     ; 2001736
+  jmp near _card_wall_of_kelp     ; 200173b
+  jmp near _card_isochron_scepter     ; 2001740
+  jmp near _card_natural_order     ; 2001745
+  jmp near _card_thoughtseize     ; 200174a
+  jmp near _card_land_grant     ; 200174f
+  jmp near _card_maelstrom_pulse     ; 2001754
+  jmp near _card_echoing_truth     ; 2001759
+  jmp near _card_volcanic_fallout     ; 200175e
+  jmp near _card_zealous_persecution     ; 2001763
+  jmp near _card_cloudthresher     ; 2001768
+  jmp near _card_gorilla_shaman     ; 200176d
+  jmp near _card_spat     ; 2001772
+  jmp near _card_swamp_mosquito     ; 2001777
+  jmp near _card_suqata_assassin     ; 200177c
+  jmp near _card_preeminent_captain     ; 2001781
+  jmp near _card_captain_of_the_watch     ; 2001786
+  jmp near _card_veteran_armorsmith     ; 200178b
+  jmp near _card_veteran_swordsmith     ; 2001790
+  jmp near _card_honor_of_the_pure     ; 2001795
+  jmp near _card_goblin_chieftain     ; 200179a
+  jmp near _card_elvish_archdruid     ; 200179f
+  jmp near _card_merfolk_sovereign     ; 20017a4
+  jmp near _card_cemetery_reaper     ; 20017a9
+  jmp near _card_army_of_allah     ; 20017ae
+  jmp near _card_beacon_of_immortality     ; 20017b3
+  jmp near _card_allied_strategies     ; 20017b8
+  jmp near _card_merfolk_assassin     ; 20017bd
+  jmp near _card_lich     ; 20017c2
+  jmp near _card_tribal_flames     ; 20017c7
+  jmp near _card_argothian_enchantress     ; 20017cc
+  jmp near _card_sanctum_gargoyle     ; 20017d1
+  jmp near _quick_start     ; 20017d6
+  jmp near _fake_random     ; 20017db
+  jmp near _card_incinerate     ; 20017e0
+  jmp near _card_mystic_enforcer     ; 20017e5
+  jmp near _card_mystic_remora     ; 20017ea
+  jmp near _card_city_of_traitors     ; 20017ef
+  jmp near _card_quirion_dryad     ; 20017f4
+  jmp near _card_goblin_welder     ; 20017f9
+  jmp near _card_avalanche_riders     ; 20017fe
+  jmp near _card_psychatog     ; 2001803
+  jmp near _card_jesters_cap     ; 2001808
+  jmp near _card_smokestack     ; 200180d
+  jmp near _card_cursed_scroll     ; 2001812
+  jmp near _card_demigod_of_revenge     ; 2001817
+  jmp near _card_serrated_arrows     ; 200181c
+  jmp near _card_shriekmaw     ; 2001821
+  jmp near _card_enchantresss_presence     ; 2001826
+  jmp near _card_fulminator_mage     ; 200182b
+  jmp near _card_grim_lavamancer     ; 2001830
+  jmp near _card_opposition     ; 2001835
+  jmp near _card_serra_sanctum     ; 200183a
+  jmp near _card_mind_over_matter     ; 200183f
+  jmp near _card_coalition_relic     ; 2001844
+  jmp near _card_coalition_victory     ; 2001849
+  jmp near _card_smash_to_smithereens     ; 200184e
+  jmp near _card_garruk_wildspeaker     ; 2001853
+  jmp near _card_jace_beleren     ; 2001858
+  jmp near _card_ajani_goldmane     ; 200185d
+  jmp near _card_liliana_vess     ; 2001862
+  jmp near _card_chandra_nalaar     ; 2001867
+  jmp near _card_nicol_bolas_planeswalker     ; 200186c
+  jmp near _autoselect_target     ; 2001871
+  jmp near _card_tromokratis     ; 2001876
+  jmp near _ai_assign_blockers     ; 200187b
+  jmp near _card_baneslayer_angel     ; 2001880
+  jmp near _card_ajani_vengeant     ; 2001885
+  jmp near _card_elspeth_knight_errant     ; 200188a
+  jmp near _card_manabond     ; 200188f
+  jmp near _card_brain_freeze     ; 2001894
+  jmp near _card_tangle_wire     ; 2001899
+  jmp near _card_gemstone_mine     ; 200189e
+  jmp near _card_kiki_jiki_mirror_breaker     ; 20018a3
+  jmp near _card_pestermite     ; 20018a8
+  jmp near _card_rout     ; 20018ad
+  jmp near _card_goblin_charbelcher     ; 20018b2
+  jmp near _card_street_wraith     ; 20018b7
+  jmp near _alphabetize_deck     ; 20018bc
+  jmp near _card_serum_powder     ; 20018c1
+  jmp near _card_bridge_from_below     ; 20018c6
+  jmp near _card_dread_return     ; 20018cb
+  jmp near _card_ichorid     ; 20018d0
+  jmp near _card_golgari_grave_troll     ; 20018d5
+  jmp near _card_unmask     ; 20018da
+  jmp near _card_stinkweed_imp     ; 20018df
+  jmp near _card_golgari_thug     ; 20018e4
+  jmp near _card_flamekin_zealot     ; 20018e9
+  jmp near _card_tinder_wall     ; 20018ee
+  jmp near _card_desperate_ritual     ; 20018f3
+  jmp near _card_eye_of_nowhere     ; 20018f8
+  jmp near _card_cabal_therapy     ; 20018fd
+  jmp near _card_millstone     ; 2001902
+  jmp near _card_kodamas_reach     ; 2001907
+  jmp near _card_lava_spike     ; 200190c
+  jmp near _card_infernal_contract     ; 2001911
+  jmp near _card_magus_of_the_tabernacle     ; 2001916
+  jmp near _card_dissipate     ; 200191b
+  jmp near _card_spreading_seas     ; 2001920
+  jmp near _card_predatory_urge     ; 2001925
+  jmp near _card_blazing_torch     ; 200192a
+  jmp near _card_celestial_mantle     ; 200192f
+  jmp near _card_mire_blight     ; 2001934
+  jmp near _card_gigantiform     ; 2001939
+  jmp near _card_adventuring_gear     ; 200193e
+  jmp near _card_blade_of_the_bloodchief     ; 2001943
+  jmp near _card_carnage_altar     ; 2001948
+  jmp near _card_eternity_vessel     ; 200194d
+  jmp near _card_expedition_map     ; 2001952
+  jmp near _card_explorers_scope     ; 2001957
+  jmp near _card_hedron_scrabbler     ; 200195c
+  jmp near _card_khalni_gem     ; 2001961
+  jmp near _card_spidersilk_net     ; 2001966
+  jmp near _card_trailblazers_boots     ; 200196b
+  jmp near _card_trusty_machete     ; 2001970
+  jmp near _card_arid_mesa     ; 2001975
+  jmp near _card_marsh_flats     ; 200197a
+  jmp near _card_misty_rainforest     ; 200197f
+  jmp near _card_scalding_tarn     ; 2001984
+  jmp near _card_verdant_catacombs     ; 2001989
+  jmp near _card_crypt_of_agadeem     ; 200198e
+  jmp near _card_emeria_the_sky_ruin     ; 2001993
+  jmp near _card_kabira_crossroads     ; 2001998
+  jmp near _card_magosi_the_waterveil     ; 200199d
+  jmp near _card_oran_rief_the_vastwood     ; 20019a2
+  jmp near _card_piranha_marsh     ; 20019a7
+  jmp near _card_soaring_seacliff     ; 20019ac
+  jmp near _card_teetering_peaks     ; 20019b1
+  jmp near _card_turntimber_grove     ; 20019b6
+  jmp near _card_valakut_the_molten_pinnacle     ; 20019bb
+  jmp near _card_baloth_cage_trap     ; 20019c0
+  jmp near _card_baloth_woodcrasher     ; 20019c5
+  jmp near _card_beast_hunt     ; 20019ca
+  jmp near _card_beastmaster_ascension     ; 20019cf
+  jmp near _card_cobra_trap     ; 20019d4
+  jmp near _card_frontier_guide     ; 20019d9
+  jmp near _card_grazing_gladehart     ; 20019de
+  jmp near _card_greenweaver_druid     ; 20019e3
+  jmp near _card_harrow     ; 20019e8
+  jmp near _card_joraga_bard     ; 20019ed
+  jmp near _card_khalni_heart_expedition     ; 20019f2
+  jmp near _card_lotus_cobra     ; 20019f7
+  jmp near _card_mold_shambler     ; 20019fc
+  jmp near _card_nissas_chosen     ; 2001a01
+  jmp near _card_nissa_revane     ; 2001a06
+  jmp near _card_oracle_of_mul_daya     ; 2001a0b
+  jmp near _card_oran_rief_recluse     ; 2001a10
+  jmp near _card_oran_rief_survivalist     ; 2001a15
+  jmp near _card_primal_bellow     ; 2001a1a
+  jmp near _card_quest_for_the_gemblades     ; 2001a1f
+  jmp near _card_rampaging_baloths     ; 2001a24
+  jmp near _card_relic_crush     ; 2001a29
+  jmp near _card_savage_silhouette     ; 2001a2e
+  jmp near _card_scute_mob     ; 2001a33
+  jmp near _card_scythe_tiger     ; 2001a38
+  jmp near _card_summoners_trap     ; 2001a3d
+  jmp near _card_tajuru_archer     ; 2001a42
+  jmp near _card_terra_stomper     ; 2001a47
+  jmp near _card_timbermaw_larva     ; 2001a4c
+  jmp near _card_turntimber_basilisk     ; 2001a51
+  jmp near _card_turntimber_ranger     ; 2001a56
+  jmp near _card_vines_of_vastwood     ; 2001a5b
+  jmp near _card_bala_ged_thief     ; 2001a60
+  jmp near _card_blood_seeker     ; 2001a65
+  jmp near _card_blood_tribute     ; 2001a6a
+  jmp near _card_bloodchief_ascension     ; 2001a6f
+  jmp near _card_bloodghast     ; 2001a74
+  jmp near _card_crypt_ripper     ; 2001a79
+  jmp near _card_desecrated_earth     ; 2001a7e
+  jmp near _card_disfigure     ; 2001a83
+  jmp near _card_feast_of_blood     ; 2001a88
+  jmp near _card_gatekeeper_of_malakir     ; 2001a8d
+  jmp near _card_grim_discovery     ; 2001a92
+  jmp near _card_guul_draz_vampire     ; 2001a97
+  jmp near _card_hagra_crocodile     ; 2001a9c
+  jmp near _card_hagra_diabolist     ; 2001aa1
+  jmp near _card_halo_hunter     ; 2001aa6
+  jmp near _card_heartstabber_mosquito     ; 2001aab
+  jmp near _card_hideous_end     ; 2001ab0
+  jmp near _card_vampire     ; 2001ab5
+  jmp near _card_kalitas_bloodchief_of_ghet     ; 2001aba
+  jmp near _card_malakir_bloodwitch     ; 2001abf
+  jmp near _card_marsh_casualties     ; 2001ac4
+  jmp near _card_mindless_null     ; 2001ac9
+  jmp near _card_needlebite_trap     ; 2001ace
+  jmp near _card_ob_nixilis_the_fallen     ; 2001ad3
+  jmp near _card_quest_for_the_gravelord     ; 2001ad8
+  jmp near _card_ravenous_trap     ; 2001add
+  jmp near _card_sadistic_sacrament     ; 2001ae2
+  jmp near _card_soul_stair_expedition     ; 2001ae7
+  jmp near _card_surrakar_marauder     ; 2001aec
+  jmp near _card_vampire_hexmage     ; 2001af1
+  jmp near _card_vampire_lacerator     ; 2001af6
+  jmp near _card_vampire_nighthawk     ; 2001afb
+  jmp near _card_vampires_bite     ; 2001b00
+  jmp near _card_bladetusk_boar     ; 2001b05
+  jmp near _card_burst_lightning     ; 2001b0a
+  jmp near _card_chandra_ablaze     ; 2001b0f
+  jmp near _card_electropotence     ; 2001b14
+  jmp near _card_elemental_appeal     ; 2001b19
+  jmp near _card_geyser_glider     ; 2001b1e
+  jmp near _card_goblin_bushwacker     ; 2001b23
+  jmp near _card_goblin_shortcutter     ; 2001b28
+  jmp near _card_goblin_war_paint     ; 2001b2d
+  jmp near _card_goblin_guide     ; 2001b32
+  jmp near _card_hellfire_mongrel     ; 2001b37
+  jmp near _card_highland_berserker     ; 2001b3c
+  jmp near _card_inferno_trap     ; 2001b41
+  jmp near _card_kazuul_warlord     ; 2001b46
+  jmp near _card_lavaball_trap     ; 2001b4b
+  jmp near _card_magma_rift     ; 2001b50
+  jmp near _card_mark_of_mutiny     ; 2001b55
+  jmp near _card_murasa_pyromancer     ; 2001b5a
+  jmp near _card_obsidian_fireheart     ; 2001b5f
+  jmp near _card_punishing_fire     ; 2001b64
+  jmp near _card_pyromancer_ascension     ; 2001b69
+  jmp near _card_ruinous_minotaur     ; 2001b6e
+  jmp near _card_runeflare_trap     ; 2001b73
+  jmp near _card_slaughter_cry     ; 2001b78
+  jmp near _card_spire_barrage     ; 2001b7d
+  jmp near _card_torch_slinger     ; 2001b82
+  jmp near _card_tuktuk_grunts     ; 2001b87
+  jmp near _card_unstable_footing     ; 2001b8c
+  jmp near _card_zektar_shrine_expedition     ; 2001b91
+  jmp near _card_armament_master     ; 2001b96
+  jmp near _card_arrow_volley_trap     ; 2001b9b
+  jmp near _card_bold_defense     ; 2001ba0
+  jmp near _card_brave_the_elements     ; 2001ba5
+  jmp near _card_conquerors_pledge     ; 2001baa
+  jmp near _card_day_of_judgment     ; 2001baf
+  jmp near _card_devout_lightcaster     ; 2001bb4
+  jmp near _card_emeria_angel     ; 2001bb9
+  jmp near _card_felidar_sovereign     ; 2001bbe
+  jmp near _card_iona_shield_of_emeria     ; 2001bc3
+  jmp near _card_journey_to_nowhere     ; 2001bc8
+  jmp near _card_kabira_evangel     ; 2001bcd
+  jmp near _card_kor_aeronaut     ; 2001bd2
+  jmp near _card_kor_cartographer     ; 2001bd7
+  jmp near _card_kor_hookmaster     ; 2001bdc
+  jmp near _card_kor_outfitter     ; 2001be1
+  jmp near _card_kor_sanctifiers     ; 2001be6
+  jmp near _card_kor_skyfisher     ; 2001beb
+  jmp near _card_landbind_ritual     ; 2001bf0
+  jmp near _card_luminarch_ascension     ; 2001bf5
+  jmp near _card_narrow_escape     ; 2001bfa
+  jmp near _card_nimbus_wings     ; 2001bff
+  jmp near _card_ondu_cleric     ; 2001c04
+  jmp near _card_pitfall_trap     ; 2001c09
+  jmp near _card_quest_for_the_holy_relic     ; 2001c0e
+  jmp near _card_shieldmates_blessing     ; 2001c13
+  jmp near _card_sunspring_expedition     ; 2001c18
+  jmp near _card_windborne_charge     ; 2001c1d
+  jmp near _card_world_queller     ; 2001c22
+  jmp near _card_aether_figment     ; 2001c27
+  jmp near _card_archive_trap     ; 2001c2c
+  jmp near _card_archmage_ascension     ; 2001c31
+  jmp near _card_caller_of_gales     ; 2001c36
+  jmp near _card_cosis_trickster     ; 2001c3b
+  jmp near _card_gomazoa     ; 2001c40
+  jmp near _card_hedron_crab     ; 2001c45
+  jmp near _card_into_the_roil     ; 2001c4a
+  jmp near _card_ior_ruin_expedition     ; 2001c4f
+  jmp near _card_lethargy_trap     ; 2001c54
+  jmp near _card_living_tsunami     ; 2001c59
+  jmp near _card_lorthos_the_tidemaker     ; 2001c5e
+  jmp near _card_merfolk_seastalkers     ; 2001c63
+  jmp near _card_merfolk_wayfinder     ; 2001c68
+  jmp near _card_mindbreak_trap     ; 2001c6d
+  jmp near _card_paralyzing_grasp     ; 2001c72
+  jmp near _card_quest_for_ancient_secrets     ; 2001c77
+  jmp near _card_reckless_scholar     ; 2001c7c
+  jmp near _card_rite_of_replication     ; 2001c81
+  jmp near _card_sea_gate_loremaster     ; 2001c86
+  jmp near _card_seascape_aerialist     ; 2001c8b
+  jmp near _card_shoal_serpent     ; 2001c90
+  jmp near _card_spell_pierce     ; 2001c95
+  jmp near _card_sphinx_of_jwar_isle     ; 2001c9a
+  jmp near _card_sphinx_of_lost_truths     ; 2001c9f
+  jmp near _card_summoners_bane     ; 2001ca4
+  jmp near _card_tempest_owl     ; 2001ca9
+  jmp near _card_trapfinders_trick     ; 2001cae
+  jmp near _card_zombie     ; 2001cb3
+  jmp near _get_card_image_number     ; 2001cb8
+  jmp near _card_whiplash_trap     ; 2001cbd
+  jmp near _card_steppe_lynx     ; 2001cc2
+  jmp near _card_threads_of_disloyalty     ; 2001cc7
+  jmp near _card_sorin_markov     ; 2001ccc
+  jmp near _card_sarkhan_vol     ; 2001cd1
+  jmp near _card_vedalken_shackles     ; 2001cd6
+  jmp near _card_umezawas_jitte     ; 2001cdb
+  jmp near _card_illusions_of_grandeur     ; 2001ce0
+  jmp near _card_donate     ; 2001ce5
+  jmp near _card_might_of_alara     ; 2001cea
+  jmp near _card_tezzeret_the_seeker     ; 2001cef
+  jmp near _card_wall_of_roots     ; 2001cf4
+  jmp near _card_sower_of_temptation     ; 2001cf9
+  jmp near _card_bloodbraid_elf     ; 2001cfe
+  jmp near _card_minds_desire     ; 2001d03
+  jmp near _card_guul_draz_specter     ; 2001d08
+  jmp near _card_beast_token     ; 2001d0d
+  jmp near _card_path_to_exile     ; 2001d12
+  jmp near _deck_was_shuffled     ; 2001d17
+  jmp near _card_akoum_refuge     ; 2001d1c
+  jmp near _card_roil_elemental     ; 2001d21
+  jmp near _card_goblin_ruinblaster     ; 2001d26
+  jmp near _card_trapmakers_snare     ; 2001d2b
+  jmp near _card_kazandu_blademaster     ; 2001d30
+  jmp near _set_draft     ; 2001d35
+  jmp near _set_momir     ; 2001d3A
+  jmp near _set_testing     ; 2001d3f
+  jmp near _set_none     ; 2001d44
+  jmp near _set_challenge     ; 2001d49
+  jmp near _get_card_or_subtype_name     ; 2001d4e
+  jmp near _card_vampire_nocturnus     ; 2001d53
+  jmp near _card_knight_of_the_reliquary     ; 2001d58
+  jmp near _card_essence_sliver     ; 2001d5d
+  jmp near _card_virulent_sliver     ; 2001d62
+  jmp near _deathtouch; 2001d67
+  jmp near _card_harmonic_sliver     ; 2001d6c
+  jmp near _card_spiritmonger     ; 2001d71
+  jmp near _get_counter_type_by_id     ; 2001d76
+  jmp near _card_jareth_leonine_titan     ; 2001d7b
+  jmp near _card_hellkite_overlord     ; 2001d80
+  jmp near _card_crop_rotation     ; 2001d85
+  jmp near _card_loxodon_hierarch     ; 2001d8a
+  jmp near _card_thorn_elemental     ; 2001d8f
+  jmp near _card_cadaverous_bloom     ; 2001d94
+  jmp near _card_diabolic_edict     ; 2001d99
+  jmp near _card_blinding_angel     ; 2001d9e
+  jmp near _card_brass_herald     ; 2001da3
+  jmp near _card_furnace_of_rath     ; 2001da8
+  jmp near _card_gaeas_herald     ; 2001dad
+  jmp near _card_hammer_of_bogardan     ; 2001db2
+  jmp near _card_mind_bend     ; 2001db7
+  jmp near _card_mind_slash     ; 2001dbc
+  jmp near _card_oracles_attendants     ; 2001dc1
+  jmp near _card_phyrexian_colossus     ; 2001dc6
+  jmp near _card_redeem     ; 2001dcb
+  jmp near _card_rhox     ; 2001dd0
+  jmp near _card_spreading_algae     ; 2001dd5
+  jmp near _card_story_circle     ; 2001dda
+  jmp near _card_teferis_puzzle_box     ; 2001ddf
+  jmp near _card_eldrazi_monument     ; 2001de4
+  jmp near _card_ant_queen     ; 2001de9
+  jmp near _card_darksteel_colossus     ; 2001dee
+  jmp near _card_sprouting_thrinax     ; 2001df3
+  jmp near _indestructible; 2001df8
+  jmp near _card_derelor     ; 2001dfd
+  jmp near _card_armor_thrull     ; 2001e02
+  jmp near _card_basal_thrull     ; 2001e07
+  jmp near _card_breeding_pit     ; 2001e0c
+  jmp near _card_ebon_praetor     ; 2001e11
+  jmp near _card_initiates_of_the_ebon_hand     ; 2001e16
+  jmp near _card_mindstab_thrull     ; 2001e1b
+  jmp near _card_necrite     ; 2001e20
+  jmp near _card_soul_exchange     ; 2001e25
+  jmp near _card_thrull_champion     ; 2001e2a
+  jmp near _card_thrull_retainer     ; 2001e2f
+  jmp near _card_thrull_wizard     ; 2001e34
+  jmp near _card_tourachs_chant     ; 2001e39
+  jmp near _card_tourachs_gate     ; 2001e3e
+  jmp near _card_orcish_spy     ; 2001e43
+  jmp near _card_brassclaw_orcs     ; 2001e48
+  jmp near _card_dwarven_armorer     ; 2001e4d
+  jmp near _card_dwarven_catapult     ; 2001e52
+  jmp near _card_dwarven_lieutenant     ; 2001e57
+  jmp near _card_dwarven_soldier     ; 2001e5c
+  jmp near _card_goblin_chirurgeon     ; 2001e61
+  jmp near _card_goblin_flotilla     ; 2001e66
+  jmp near _card_goblin_kites     ; 2001e6b
+  jmp near _card_goblin_war_drums     ; 2001e70
+  jmp near _card_goblin_warrens     ; 2001e75
+  jmp near _card_orcish_captain     ; 2001e7a
+  jmp near _card_orcish_veteran     ; 2001e7f
+  jmp near _card_orgg     ; 2001e84
+  jmp near _card_raiding_party     ; 2001e89
+  jmp near _card_tar_fiend     ; 2001e8e
+  jmp near _card_combat_medic     ; 2001e93
+  jmp near _card_farrels_mantle     ; 2001e98
+  jmp near _card_farrelite_priest     ; 2001e9d
+  jmp near _card_farrels_zealot     ; 2001ea2
+  jmp near _card_hand_of_justice     ; 2001ea7
+  jmp near _card_heroism     ; 2001eac
+  jmp near _card_icatian_infantry     ; 2001eb1
+  jmp near _card_icatian_javelineers     ; 2001eb6
+  jmp near _card_icatian_lieutenant     ; 2001ebb
+  jmp near _card_icatian_moneychanger     ; 2001ec0
+  jmp near _card_icatian_priest     ; 2001ec5
+  jmp near _card_icatian_scout     ; 2001eca
+  jmp near _card_icatian_skirmishers     ; 2001ecf
+  jmp near _card_deep_spawn     ; 2001ed4
+  jmp near _card_homarid     ; 2001ed9
+  jmp near _card_homarid_shaman     ; 2001ede
+  jmp near _card_homarid_spawning_bed     ; 2001ee3
+  jmp near _card_homarid_warrior     ; 2001ee8
+  jmp near _card_merseine     ; 2001eed
+  jmp near _card_river_merfolk     ; 2001ef2
+  jmp near _card_seasinger     ; 2001ef7
+  jmp near _card_tidal_flats     ; 2001efc
+  jmp near _card_svyelunite_priest     ; 2001f01
+  jmp near _card_tidal_influence     ; 2001f06
+  jmp near _card_vodalian_mage     ; 2001f0b
+  jmp near _card_vodalian_war_machine     ; 2001f10
+  jmp near _card_thelonite_druid     ; 2001f15
+  jmp near _card_elven_fortress     ; 2001f1a
+  jmp near _card_elvish_farmer     ; 2001f1f
+  jmp near _card_elvish_hunter     ; 2001f24
+  jmp near _card_elvish_scout     ; 2001f29
+  jmp near _card_feral_thallid     ; 2001f2e
+  jmp near _card_fungal_bloom     ; 2001f33
+  jmp near _card_night_soil;     ; 2001f38
+  jmp near _card_spore_cloud     ; 2001f3d
+  jmp near _card_spore_flower     ; 2001f42
+  jmp near _card_thallid     ; 2001f47
+  jmp near _card_thallid_devourer     ; 2001f4c
+  jmp near _card_thelonite_monk     ; 2001f51
+  jmp near _card_thelons_chant     ; 2001f56
+  jmp near _card_thelons_curse     ; 2001f5b
+  jmp near _card_thorn_thallid     ; 2001f60
+  jmp near _card_aeolipile     ; 2001f65
+  jmp near _card_balm_of_restoration     ; 2001f6a
+  jmp near _card_bottomless_vault     ; 2001f6f
+  jmp near _card_dwarven_hold     ; 2001f74
+  jmp near _card_hollow_trees     ; 2001f79
+  jmp near _card_icatian_store     ; 2001f7e
+  jmp near _card_sand_silos     ; 2001f83
+  jmp near _card_conch_horn     ; 2001f88
+  jmp near _card_delifs_cone     ; 2001f8d
+  jmp near _card_delifs_cube     ; 2001f92
+  jmp near _card_draconian_cylix     ; 2001f97
+  jmp near _card_elven_lyre     ; 2001f9c
+  jmp near _card_implements_of_sacrifice     ; 2001fa1
+  jmp near _card_rainbow_vale     ; 2001fa6
+  jmp near _card_ring_of_renewal     ; 2001fab
+  jmp near _card_spirit_shield     ; 2001fb0
+  jmp near _card_zelyon_sword     ; 2001fb5
+  jmp near _card_sunpetal_grove     ; 2001fba
+  jmp near _card_rootbound_crag     ; 2001fbf
+  jmp near _card_glacial_fortress     ; 2001fc4
+  jmp near _card_drowned_catacomb     ; 2001fc9
+  jmp near _card_dragonskull_summit     ; 2001fce
+  jmp near _card_bituminous_blast     ; 2001fd3
+  jmp near _card_violent_ultimatum     ; 2001fd8
+  jmp near _card_acidic_slime     ; 2001fdd
+  jmp near _card_gargoyle_castle     ; 2001fe2
+  jmp near _card_open_the_vaults     ; 2001fe7
+  jmp near _card_sphinx_steel_wind     ; 2001fec
+  jmp near _card_oblivion_ring     ; 2001ff1
+  jmp near _card_sigil_of_the_empty_throne     ; 2001ff6
+  jmp near _card_hellspark_elemental     ; 2001ffb
+  jmp near _card_lavalanche     ; 2002000
+  jmp near _card_spike_weaver     ; 2002005
+  jmp near _card_phyrexian_negator     ; 200200a
+  jmp near _card_two_headed_dragon     ; 200200f
+  jmp near _card_helm_of_obedience     ; 2002014
+  jmp near _card_leyline_of_the_void     ; 2002019
+  jmp near _card_presence_of_the_master     ; 200201e
+  jmp near _card_esper_charm     ; 2002023
+  jmp near _card_grixis_charm     ; 2002028
+  jmp near _card_naya_charm     ; 200202d
+  jmp near _card_knight_of_the_white_orchid     ; 2002032
+  jmp near _card_halfdane     ; 2002037
+  jmp near _card_hazezon_tamar     ; 200203c
+  jmp near _card_hells_caretaker     ; 2002041
+  jmp near _card_nether_void     ; 2002046
+  jmp near _card_stangg     ; 200204b
+  jmp near _card_stangg_twin     ; 2002050
+  jmp near _card_triassic_egg     ; 2002055
+  jmp near _card_voodoo_doll     ; 200205a
+  jmp near _card_eater_of_the_dead     ; 200205f
+  jmp near _card_frankensteins_monster     ; 2002064
+  jmp near _card_grave_robbers     ; 2002069
+  jmp near _card_nameless_race     ; 200206e
+  jmp near _card_the_fallen     ; 2002073
+  jmp near _card_dance_of_many     ; 2002078
+  jmp near _card_electric_eel     ; 200207d
+  jmp near _card_giant_shark     ; 2002082
+  jmp near _card_mana_vortex     ; 2002087
+  jmp near _card_psychic_allergy     ; 200208c
+  jmp near _card_gaeas_touch     ; 2002091
+  jmp near _card_lurker     ; 2002096
+  jmp near _card_scarwood_bandits     ; 200209b
+  jmp near _card_scarwood_hag     ; 20020a0
+  jmp near _card_spitting_slug     ; 20020a5
+  jmp near _card_whippoorwill     ; 20020aa
+  jmp near _card_goblin_wizard     ; 20020af
+  jmp near _card_orc_general     ; 20020b4
+  jmp near _card_dust_to_dust     ; 20020b9
+  jmp near _card_fasting     ; 20020be
+  jmp near _card_festival     ; 20020c3
+  jmp near _card_fire_and_brimstone     ; 20020c8
+  jmp near _card_preacher     ; 20020cd
+  jmp near _card_dark_sphere     ; 20020d2
+  jmp near _card_living_armor     ; 20020d7
+  jmp near _card_necropolis     ; 20020dc
+  jmp near _card_reflecting_mirror     ; 20020e1
+  jmp near _card_runesword     ; 20020e6
+  jmp near _card_scarecrow     ; 20020eb
+  jmp near _card_skull_of_orm     ; 20020f0
+  jmp near _card_standing_stones     ; 20020f5
+  jmp near _card_tower_of_coireall     ; 20020fa
+  jmp near _card_city_of_shadows     ; 20020ff
+  jmp near _card_safe_haven     ; 2002104
+  jmp near _card_krovikan_horror     ; 2002109
+  jmp near _card_ashen_ghoul     ; 200210e
+  jmp near _card_nshadow     ; 2002113
+  jmp near _card_momentary_blink     ; 2002118
+  jmp near _card_victimize     ; 200211d
+  jmp near _card_hell_thunder     ; 2002122
+  jmp near _card_rotting_rats     ; 2002127
+  jmp near _card_sedraxis_specter     ; 200212c
+  jmp near _card_architects_of_will     ; 2002131
+  jmp near _card_thornscape_battlemage     ; 2002136
+  jmp near _card_shivan_wurm     ; 200213b
+  jmp near _card_master_of_the_wild_hunt     ; 2002140
+  jmp near _card_deathbringer_thoctar     ; 2002145
+  jmp near _card_extractor_demon     ; 200214a
+  jmp near _card_vein_drinker     ; 200214f
+  jmp near _card_breakthrough     ; 2002154
+  jmp near _card_ideas_unbound     ; 2002159
+  jmp near _card_krark_clan_ironworks     ; 200215e
+  jmp near _card_myr_incubator     ; 2002163
+  jmp near _card_mycoloth     ; 2002168
+  jmp near _card_karmic_guide     ; 200216d
+  jmp near _card_greater_good     ; 2002172
+  jmp near _card_keiga     ; 2002177
+  jmp near _card_earthcraft     ; 200217c
+  jmp near _card_horseshoe_crab     ; 2002181
+  jmp near _card_soldevi_excavations     ; 2002186
+  jmp near _card_lake_of_the_dead     ; 200218b
+  jmp near _card_cloudpost     ; 2002190
+  jmp near _card_ryusei     ; 2002195
+  jmp near _card_foresee     ; 200219a
+  jmp near _card_telling_time     ; 200219f
+  jmp near _card_sunder2     ; 20021a4
+  jmp near _card_sporesower_thallid     ; 20021a9
+  jmp near _card_thelon_of_havenwood     ; 20021ae
+  jmp near _card_steward_of_valeron     ; 20021b3
+  jmp near _card_fatestitcher     ; 20021b8
+  jmp near _card_monstrous_carabid     ; 20021bd
+  jmp near _card_tome_scour     ; 20021c2
+  jmp near _card_time_sieve     ; 20021c7
+  jmp near _card_negate     ; 20021cc
+  jmp near _card_burning_inquiry     ; 20021d1
+  jmp near _card_viscera_dragger     ; 20021d6
+  jmp near _card_tombstone_stairwell     ; 20021db
+  jmp near _card_infernal_genesis     ; 20021e0
+  jmp near _card_ascendant_evincar     ; 20021e5
+  jmp near _card_crovax_ascendant_hero     ; 20021ea
+  jmp near _card_beacon_of_creation     ; 20021ef
+  jmp near _card_beacon_of_destruction     ; 20021f4
+  jmp near _card_beacon_of_unrest     ; 20021f9
+  jmp near _card_seedborn_muse     ; 20021fe
+  jmp near _card_tradewind_rider     ; 2002203
+  jmp near _card_scroll_rack     ; 2002208
+  jmp near _card_ramosian_sergeant     ; 200220d
+  jmp near _card_defiant_falcon     ; 2002212
+  jmp near _card_ramosian_captain     ; 2002217
+  jmp near _card_lin_sivvi_defiant_hero     ; 200221c
+  jmp near _card_ertai_wizard_adept     ; 2002221
+  jmp near _card_varchilds_war_riders     ; 2002226
+  jmp near _card_vexing_sphinx     ; 200222b
+  jmp near _card_fiery_justice     ; 2002230
+  jmp near _card_enlisted_wurm     ; 2002235
+  jmp near _card_kavu_predator     ; 200223a
+  jmp near _card_stormbind     ; 200223f
+  jmp near _card_grove_of_the_burnwillows     ; 2002244
+  jmp near _card_lim_dul_vault     ; 2002249
+  jmp near _card_thawing_glaciers     ; 200224e
+  jmp near _card_dimishing_returns     ; 2002253
+  jmp near _card_contagion     ; 2002258
+  jmp near _card_scalpelexis     ; 200225d
+  jmp near _card_mind_funeral     ; 2002262
+  jmp near _card_guiltfeeder     ; 2002267
+  jmp near _card_nemesis_of_reason     ; 200226c
+  jmp near _card_jotun_grunt     ; 2002271
+  jmp near _card_plague_spitter     ; 2002276
+  jmp near _card_void     ; 200227b
+  jmp near _card_pyre_zombie     ; 2002280
+  jmp near _card_phyrexian_scuta     ; 2002285
+  jmp near _card_deserted_temple     ; 200228a
+  jmp near _card_horizon_canopy     ; 200228f
+  jmp near _card_petrified_field     ; 2002294
+  jmp near _card_rishadan_port     ; 2002299
+  jmp near _card_vitu_ghazi_the_city_tree     ; 200229e
+  jmp near _card_countryside_crusher     ; 20022a3
+  jmp near _card_fledgling_dragon     ; 20022a8
+  jmp near _card_stampeding_wildebeest     ; 20022ad
+  jmp near _card_accumulated_knowledge     ; 20022b2
+  jmp near _card_volrath_stronghold     ; 20022b7
+  jmp near _card_academy_ruins     ; 20022bc
+  jmp near _card_rogue_elephant     ; 20022c1
+  jmp near _card_vine_dryad     ; 20022c6
+  jmp near _card_timbermare     ; 20022cb
+  jmp near _card_magus_of_the_vineyard     ; 20022d0
+  jmp near _card_evolution_charm     ; 20022d5
+  jmp near _card_stonewood_invocation     ; 20022da
+  jmp near _card_scryb_ranger     ; 20022df
+  jmp near _card_wall_of_dust     ; 20022e4
+  jmp near _card_zombie_master2     ; 20022e9
+  jmp near _card_ward_sliver     ; 20022ee
+  jmp near _card_gemhide_sliver     ; 20022f3
+  jmp near _card_magma_sliver     ; 20022f8
+  jmp near _card_telekinetik_sliver     ; 20022fd
+  jmp near _card_synapse_sliver     ; 2002302
+  jmp near _card_psionic_sliver     ; 2002307
+  jmp near _card_necrotic_sliver     ; 200230c
+  jmp near _card_altar_of_dementia     ; 2002311
+  jmp near _card_static_orb     ; 2002316
+  jmp near _card_horn_of_greed     ; 200231b
+  jmp near _card_null_brooch     ; 2002320
+  jmp near _card_metalworker     ; 2002325
+  jmp near _card_phyrexian_processor     ; 200232a
+  jmp near _card_minion     ; 200232f
+  jmp near _card_engineered_explosives     ; 2002334
+  jmp near _card_kill_switch     ; 2002339
+  jmp near _card_slate_of_ancestry     ; 200233e
+  jmp near _card_doubling_cube     ; 2002343
+  jmp near _card_staff_of_domination     ; 2002348
+  jmp near _card_yosei     ; 200234d
+  jmp near _card_spectral_force     ; 2002352
+  jmp near _card_woodfall_primus     ; 2002357
+  jmp near _card_murderous_redcap     ; 200235c
+  jmp near _card_rain_of_daggers     ; 2002361
+  jmp near _card_righteous_fury     ; 2002366
+  jmp near _card_sea_drake     ; 200236b
+  jmp near _card_imperial_recruiter     ; 2002370
+  jmp near _card_cao_cao     ; 2002375
+  jmp near _card_xiahou_dun_the_one_eyed     ; 200237a
+  jmp near _card_hua_tou     ; 200237f
+  jmp near _card_cold_eyed_selkie     ; 2002384
+  jmp near _card_balefire_liege     ; 2002389
+  jmp near _card_deathbringer_liege     ; 200238e
+  jmp near _card_gilder_bairn     ; 2002393
+  jmp near _card_darksteel_reactor     ; 2002398
+  jmp near _card_yavimaya_elder     ; 200239d
+  jmp near _card_eternal_dragon     ; 20023a2
+  jmp near _card_tolaria_west     ; 20023a7
+  jmp near _card_decree_of_justice     ; 20023ac
+  jmp near _card_call_of_the_herd     ; 20023b1
+  jmp near _card_zombie_infestation     ; 20023b6
+  jmp near _card_reckless_charge     ; 20023bb
+  jmp near _card_aether_burst     ; 20023c0
+  jmp near _card_wild_mongrel     ; 20023c5
+  jmp near _card_doubling_season     ; 20023ca
+  jmp near _card_ravens_crime     ; 20023cf
+  jmp near _card_worm_harvest     ; 20023d4
+  jmp near _card_spitting_image     ; 20023d9
+  jmp near _card_hermit_druid     ; 20023de
+  jmp near _card_sutured_ghoul     ; 20023e3
+  jmp near _card_gaeas_blessing     ; 20023e8
+  jmp near _card_hunted_horror     ; 20023ed
+  jmp near _card_hunted_dragon     ; 20023f2
+  jmp near _card_ulasht     ; 20023f7
+  jmp near _card_starstorm     ; 20023fc
+  jmp near _card_hallowed_burial     ; 2002401
+  jmp near _card_impulse     ; 2002406
+  jmp near _card_cream_of_the_crop     ; 200240b
+  jmp near _card_cloudstone_curio     ; 2002410
+  jmp near _card_wren_run_packmaster     ; 2002415
+  jmp near _card_face_down_creature     ; 200241a
+  jmp near _card_exalted_angel     ; 200241f
+  jmp near _card_celestial_colonnade     ; 2002424
+  jmp near _card_celestial_colonnade_animated     ; 2002429
+  jmp near _card_raging_ravine     ; 200242e
+  jmp near _card_raging_ravine_animated     ; 2002433
+  jmp near _card_lavaclaw_reaches     ; 2002438
+  jmp near _card_lavaclaw_reaches_animated     ; 200243d
+  jmp near _card_creeping_tar_pit     ; 2002442
+  jmp near _card_creeping_tar_pit_animated     ; 2002447
+  jmp near _card_stirring_wildwood     ; 200244c
+  jmp near _card_stirring_wildwood_animated     ; 2002451
+  jmp near _card_illusionary_mask     ; 2002456
+  jmp near _card_deaths_shadow     ; 200245b
+  jmp near _card_treasure_hunt     ; 2002460
+  jmp near _card_lodestone_golem     ; 2002465
+  jmp near _card_novablast_wurm     ; 200246a
+  jmp near _card_dragonmaster_outcast     ; 200246f
+  jmp near _card_kalastria_highborn     ; 2002474
+  jmp near _card_chain_reaction     ; 2002479
+  jmp near _card_whipcorder     ; 200247e
+  jmp near _card_halimar_depths     ; 2002483
+  jmp near _card_everflowing_chalice     ; 2002488
+  jmp near _card_joraga_warcaller     ; 200248d
+  jmp near _card_wolfbriar_elemental     ; 2002492
+  jmp near _card_slavering_nulls     ; 2002497
+  jmp near _card_urge_to_feed     ; 200249c
+  jmp near _card_phyrexian_dreadnought     ; 20024a1
+  jmp near _card_jace_the_mind_sculptor     ; 20024a6
+  jmp near _card_leatherback_baloth     ; 20024ab
+  jmp near _card_edh     ; 20024b0
+  jmp near _get_ability_image; 20024b5
+  jmp near _card_field_marshal     ; 20024ba
+  jmp near _card_dryad_arbor     ; 20024bf
+  jmp near _card_coiling_oracle     ; 20024c4
+  jmp near _card_ad_nauseam     ; 20024c9
+  jmp near _card_patriarchs_bidding     ; 20024ce
+  jmp near _card_platinum_angel     ; 20024d3
+  jmp near _card_goblin_king     ; 20024d8
+  jmp near _card_overgrown_battlement     ; 20024dd
+  jmp near _card_extirpate     ; 20024e2
+  jmp near _card_haunting_echoes     ; 20024e7
+  jmp near _card_stoneforge_mystic     ; 20024ec
+  jmp near _card_quicksand     ; 20024f1
+  jmp near _card_urzas_bauble     ; 20024f6
+  jmp near _card_sarkhan_the_mad     ; 20024fb
+  jmp near _card_nostalgic_dreams     ; 2002500
+  jmp near _card_sign_in_blood     ; 2002505
+  jmp near _card_perish     ; 200250a
+  jmp near _card_stroke_of_genius     ; 200250f
+  jmp near _card_chainers_edict     ; 2002514
+  jmp near _card_emrakul_the_aeons_torn     ; 2002519
+  jmp near _card_kozilek_butcher_of_truth     ; 200251e
+  jmp near _card_creakwood_liege     ; 2002523
+  jmp near _card_trygon_predator     ; 2002528
+  jmp near _card_eldrazi_conscription     ; 200252d
+  jmp near _card_gideon_jura     ; 2002532
+  jmp near _card_gideon_jura_animated     ; 2002537
+  jmp near _set_discard_flag   ; 200253c
+  jmp near _card_eldrazi_spawn     ; 2002541
+  jmp near _card_nest_invader     ; 2002546
+  jmp near _card_kozileks_predator     ; 200254b
+  jmp near _card_awakening_zone     ; 2002550
+  jmp near _card_growth_spasm     ; 2002555
+  jmp near _card_ulamog_the_infinite_gyre     ; 200255a
+  jmp near _card_ulamogs_crusher     ; 200255f
+  jmp near _card_artisan_of_kozilek     ; 2002564
+  jmp near _card_pelakka_wurm     ; 2002569
+  jmp near _card_all_is_dust     ; 200256e
+  jmp near _card_arbor_elf     ; 2002573
+  jmp near _card_searing_blaze     ; 2002578
+  jmp near _card_eldrazi_temple     ; 200257d
+  jmp near _card_broodwarden     ; 2002582
+  jmp near _card_eye_of_ugin     ; 2002587
+  jmp near _card_elvish_champion     ; 200258c
+  jmp near _card_conundrum_sphinx     ; 2002591
+  jmp near _card_act_of_treason     ; 2002596
+  jmp near _card_air_servant     ; 200259b
+  jmp near _card_ajanis_mantra     ; 20025a0
+  jmp near _card_ajanis_pridemate     ; 20025a5
+  jmp near _card_alluring_siren     ; 20025aa
+  jmp near _card_ancient_hellkite     ; 20025af
+  jmp near _card_angelic_arbiter     ; 20025b4
+  jmp near _card_armored_ascension     ; 20025b9
+  jmp near _card_augury_owl     ; 20025be
+  jmp near _card_awakener_druid     ; 20025c3
+  jmp near _card_berserkers_of_blood_ridge     ; 20025c8
+  jmp near _card_blood_tithe     ; 20025cd
+  jmp near _card_boggart_ramgang     ; 20025d2
+  jmp near _card_brindle_boar     ; 20025d7
+  jmp near _card_brittle_effigy     ; 20025dc
+  jmp near _card_call_to_mind     ; 20025e1
+  jmp near _card_captivating_vampire     ; 20025e6
+  jmp near _card_celestial_purge     ; 20025eb
+  jmp near _card_chandras_outrage     ; 20025f0
+  jmp near _card_chandras_spitfire     ; 20025f5
+  jmp near _card_vengevine     ; 20025fa
+  jmp near _card_combust     ; 20025ff
+  jmp near _card_condemn     ; 2002604
+  jmp near _card_crystal_ball     ; 2002609
+  jmp near _card_cyclops_gladiator     ; 200260e
+  jmp near _card_deathmark     ; 2002613
+  jmp near _card_demon_of_deaths_gate     ; 2002618
+  jmp near _card_destructive_force     ; 200261d
+  jmp near _card_diminish     ; 2002622
+  jmp near _card_doom_blade     ; 2002627
+  jmp near _card_dryads_favor     ; 200262c
+  jmp near _card_earth_servant     ; 2002631
+  jmp near _card_elixir_of_immortality     ; 2002636
+  jmp near _card_ember_hauler     ; 200263b
+  jmp near _card_excommunicate     ; 2002640
+  jmp near _card_fauna_shaman     ; 2002645
+  jmp near _card_fire_servant     ; 200264a
+  jmp near _card_flashfreeze     ; 200264f
+  jmp near _card_fling     ; 2002654
+  jmp near _card_frost_titan     ; 2002659
+  jmp near _card_gaeas_revenge     ; 200265e
+  jmp near _card_gargoyle_sentinel     ; 2002663
+  jmp near _card_garruks_packleader     ; 2002668
+  jmp near _card_goldenglow_moth     ; 200266d
+  jmp near _card_grave_titan     ; 2002672
+  jmp near _card_vortex_elemental     ; 2002677
+  jmp near _card_harbor_serpent     ; 200267c
+  jmp near _card_hoarding_dragon     ; 2002681
+  jmp near _card_hornet_sting     ; 2002686
+  jmp near _card_howling_banshee     ; 200268b
+  jmp near _card_hunters_feast     ; 2002690
+  jmp near _card_ice_cage     ; 2002695
+  jmp near _card_incite     ; 200269a
+  jmp near _card_infantry_veteran     ; 200269f
+  jmp near _card_inferno_titan     ; 20026a4
+  jmp near _card_inspired_charge     ; 20026a9
+  jmp near _card_jaces_erasure     ; 20026ae
+  jmp near _card_jinxed_idol     ; 20026b3
+  jmp near _card_knight_exemplar     ; 20026b8
+  jmp near _card_leyline_of_punishment     ; 20026bd
+  jmp near _card_leyline_of_sanctity     ; 20026c2
+  jmp near _card_leyline_of_vitality     ; 20026c7
+  jmp near _card_magma_phoenix     ; 20026cc
+  jmp near _card_mass_polymorph     ; 20026d1
+  jmp near _card_merfolk_spy     ; 20026d6
+  jmp near _card_mighty_leap     ; 20026db
+  jmp near _card_mitotic_slime     ; 20026e0
+  jmp near _card_ooze     ; 20026e5
+  jmp near _card_mystifying_maze     ; 20026ea
+  jmp near _card_natures_spiral     ; 20026ef
+  jmp near _card_necrotic_plague     ; 20026f4
+  jmp near _card_nightwing_shade     ; 20026f9
+  jmp near _card_overwhelming_stampede     ; 20026fe
+  jmp near _card_phantom_beast     ; 2002703
+  jmp near _card_phylactery_lich     ; 2002708
+  jmp near _card_preordain     ; 200270d
+  jmp near _card_primal_cocoon     ; 2002712
+  jmp near _card_primeval_titan     ; 2002717
+  jmp near _card_lure     ; 200271c
+  jmp near _card_protean_hydra     ; 2002721
+  jmp near _card_pyretic_ritual     ; 2002726
+  jmp near _card_quag_sickness     ; 200272b
+  jmp near _card_reassembling_skeleton     ; 2002730
+  jmp near _card_rise_from_the_grave     ; 2002735
+  jmp near _card_roc_egg     ; 200273a
+  jmp near _card_rotting_legion     ; 200273f
+  jmp near _card_mindreaver     ; 2002744
+  jmp near _card_safe_passage     ; 2002749
+  jmp near _card_giant_solifuge     ; 200274e
+  jmp near _card_serra_ascendant     ; 2002753
+  jmp near _card_shivs_embrace     ; 2002758
+  jmp near _card_silence     ; 200275d
+  jmp near _card_sleep     ; 2002762
+  jmp near _card_solemn_offering     ; 2002767
+  jmp near _card_sorcerers_strongbox     ; 200276c
+  jmp near _card_squadron_hawk     ; 2002771
+  jmp near _card_stabbing_pain     ; 2002776
+  jmp near _card_steel_overseer     ; 200277b
+  jmp near _card_stormtide_leviathan     ; 2002780
+  jmp near _card_sun_titan     ; 2002785
+  jmp near _card_sword_of_vengeance     ; 200278a
+  jmp near _card_temple_bell     ; 200278f
+  jmp near _card_thunder_strike     ; 2002794
+  jmp near _card_time_reversal     ; 2002799
+  jmp near _card_tireless_missionaries     ; 200279e
+  jmp near _card_vengeful_archon     ; 20027a3
+  jmp near _card_viscera_seer     ; 20027a8
+  jmp near _card_volcanic_strength     ; 20027ad
+  jmp near _card_wall_of_frost     ; 20027b2
+  jmp near _card_war_priest_of_thune     ; 20027b7
+  jmp near _card_warlords_axe     ; 20027bc
+  jmp near _card_water_servant     ; 20027c1
+  jmp near _card_whispersilk_cloak     ; 20027c6
+  jmp near _card_wild_evocation     ; 20027cb
+  jmp near _card_bloodcrazed_goblin     ; 20027d0
+  jmp near _card_cultivate     ; 20027d5
+  jmp near _card_terramorphic_expanse     ; 20027da
+  jmp near _card_reset     ; 20027df
+  jmp near _card_augury_adept     ; 20027e4
+  jmp near _card_niv_mizzet_the_firemind     ; 20027e9
+  jmp near _card_akroma_angel_of_fury     ; 20027ee
+  jmp near _card_putrid_imp     ; 20027f3
+  jmp near _card_rotlung_reanimator     ; 20027f8
+  jmp near _card_replenish     ; 20027fd
+  jmp near _card_sacred_mesa     ; 2002802
+  jmp near _card_elephant_grass     ; 2002807
+  jmp near _card_utopia_sprawl     ; 200280c
+  jmp near _card_sterling_grove     ; 2002811
+  jmp near _card_solitary_confinement     ; 2002816
+  jmp near _card_words_of_war     ; 200281b
+  jmp near _card_seal_of_primordium     ; 2002820
+  jmp near _card_astral_slide     ; 2002825
+  jmp near _card_devestating_dreams     ; 200282a
+  jmp near _card_radha_heir_to_keld     ; 200282f
+  jmp near _card_future_sight     ; 2002834
+  jmp near _card_miraris_wake     ; 2002839
+  jmp near _card_dwarven_blastminer     ; 200283e
+  jmp near _card_jaya_ballard_task_mage     ; 2002843
+  jmp near _card_auriok_salvagers     ; 2002848
+  jmp near _get_attack_power     ; 200284d
+  jmp near _card_compulsive_research     ; 2002852
+  jmp near _card_thirst_for_knowledge     ; 2002857
+  jmp near _card_wayfarers_bauble     ; 200285c
+  jmp near _card_spirit_link     ; 2002861
+  jmp near _card_trinket_mage     ; 2002866
+  jmp near _card_rolling_earthquake     ; 200286b
+  jmp near _card_horobi_deaths_wail     ; 2002870
+  jmp near _card_mox_opal     ; 2002875
+  jmp near _card_ezuris_brigade     ; 200287a
+  jmp near _card_tithe     ; 200287f
+  jmp near _card_myr_battlesphere     ; 2002884
+  jmp near _card_kitaki_wars_wage     ; 2002889
+  jmp near _card_kargan_dragonlord     ; 200288e
+  jmp near _card_coralhelm_commander     ; 2002893
+  jmp near _card_joraga_treespeaker     ; 2002898
+  jmp near _card_wurmcoil_engine     ; 200289d
+  jmp near _card_back_to_basics     ; 20028a2
+  jmp near _card_5_starting_hand     ; 20028a7
+  jmp near _card_6_starting_hand     ; 20028ac
+  jmp near _card_7_starting_hand     ; 20028b1
+  jmp near _card_8_starting_hand     ; 20028b6
+  jmp near _card_4_starting_hand     ; 20028bb
+  jmp near _card_3_starting_hand     ; 20028c0
+  jmp near _card_koth_of_the_hammer     ; 20028c5
+  jmp near _card_koth_emblem     ; 20028ca
+  jmp near _card_venser_the_sojourner     ; 20028cf
+  jmp near _card_elspeth_tirel     ; 20028d4
+  jmp near _card_tempered_steel     ; 20028d9
+  jmp near _card_gelatinous_genesis     ; 20028de
+  jmp near _card_myr_galvanizer     ; 20028e3
+  jmp near _card_kuldotha_rebirth     ; 20028e8
+  jmp near _card_spikeshot_elder     ; 20028ed
+  jmp near _card_enclave_cryptologist     ; 20028f2
+  jmp near _card_radiants_dragoons     ; 20028f7
+  jmp near _card_spike_feeder     ; 20028fc
+  jmp near _card_loyal_retainers     ; 2002901
+  jmp near _card_avenger_of_zendikar     ; 2002906
+  jmp near _card_consume_the_meek     ; 200290b
+  jmp near _card_sea_gate_oracle     ; 2002910
+  jmp near _card_consuming_vapors     ; 2002915
+  jmp near _card_argentum_armor     ; 200291a
+  jmp near _card_sword_of_body_and_mind     ; 200291f
+  jmp near _card_prismatic_omen     ; 2002924
+  jmp near _card_glint_hawk     ; 2002929
+  jmp near _card_pulse_tracker     ; 200292e
+  jmp near _card_genesis_wave     ; 2002933
+  jmp near _card_dark_tutelage     ; 2002938
+  jmp near _card_ratchet_bomb     ; 200293d
+  jmp near _card_ezuri_renegade_leader     ; 2002942
+  jmp near _card_skinrender     ; 2002947
+  jmp near _card_moltentail_masticore     ; 200294c
+  jmp near _card_scapeshift     ; 2002951
+  jmp near _card_anathemancer     ; 2002956
+  jmp near _card_venser_emblem     ; 200295b
+  jmp near _card_join_the_ranks     ; 2002960
+  jmp near _card_akoum_battlesinger     ; 2002965
+  jmp near _card_hada_freeblade     ; 200296a
+  jmp near _card_harabaz_druid     ; 200296f
+  jmp near _card_oust     ; 2002974
+  jmp near _card_see_beyond     ; 2002979
+  jmp near _card_doomsday     ; 200297e
+  jmp near _card_basking_rootwalla     ; 2002983
+  jmp near _card_dream_halls     ; 2002988
+  jmp near _card_avatar_of_discord     ; 200298d
+  jmp near _card_thopter_foundry     ; 2002992
+  jmp near _card_sword_of_the_meek     ; 2002997
+  jmp near _card_triskelavus     ; 200299c
+  jmp near _card_thopter2     ; 20029a1
+  jmp near _card_johan     ; 20029a6
+  jmp near _card_livonya_silone     ; 20029ab
+  jmp near _card_gabriel_angelfire     ; 20029b0
+  jmp near _card_primordial_ooze     ; 20029b5
+  jmp near _card_reincarnation     ; 20029ba
+  jmp near _card_recall     ; 20029bf
+  jmp near _card_rohgahh_of_kher_keep     ; 20029c4
+  jmp near _card_nova_pentacle     ; 20029c9
+  jmp near _card_rasputin_dreamweaver     ; 20029ce
+  jmp near _card_ichneumon_druid     ; 20029d3
+  jmp near _card_ring_of_immortals     ; 20029d8
+  jmp near _card_sword_of_the_ages     ; 20029dd
+  jmp near _card_al_abaras_carpet     ; 20029e2
+  jmp near _card_chains_of_mephistopheles     ; 20029e7
+  jmp near _card_all_hallows_eve     ; 20029ec
+  jmp near _card_nebuchadnezzar     ; 20029f1
+  jmp near _card_north_star     ; 20029f6
+  jmp near _card_ancestral_vision     ; 20029fb
+  jmp near _card_hypergenesis     ; 2002a00
+  jmp near _card_violent_outburst     ; 2002a05
+  jmp near _card_demonic_dread     ; 2002a0a
+  jmp near _card_turnabout     ; 2002a0f
+  jmp near _card_karador_ghost_chieftain     ; 2002a14
+  jmp near _card_thopter_assembly     ; 2002a19
+  jmp near _card_glissa_the_traitor     ; 2002a1e
+  jmp near _event_activate_then_duplicate_into_stack     ; 2002a23
+  jmp near _draw_a_card     ; 2002a28
+  jmp near _card_skithiryx_blight_dragon     ; 2002a2d
+  jmp near _card_solemn_simulacrum     ; 2002a32
+  jmp near _card_hero_of_bladehold     ; 2002a37
+  jmp near _card_rith_the_awakener     ; 2002a3c
+  jmp near _card_treva_the_renewer     ; 2002a41
+  jmp near _card_dromar_the_banisher     ; 2002a46
+  jmp near _card_darigaaz_the_igniter     ; 2002a4b
+  jmp near _card_crosis_the_purger     ; 2002a50
+  jmp near _card_numot_the_devastator     ; 2002a55
+  jmp near _card_oros_the_avenger     ; 2002a5a
+  jmp near _card_vorosh_the_hunter     ; 2002a5f
+  jmp near _card_teneb_the_harvester     ; 2002a64
+  jmp near _card_bladewing_the_risen     ; 2002a69
+  jmp near _card_karrthus_tyrant_of_jund     ; 2002a6e
+  jmp near _card_dragon_tyrant     ; 2002a73
+  jmp near _card_rakdos_pit_dragon     ; 2002a78
+  jmp near _card_student_of_warfare     ; 2002a7d
+  jmp near _card_dragon_arc     ; 2002a82
+  jmp near _card_quicksilver_amulet     ; 2002a87
+  jmp near _card_dragonspeaker_shaman     ; 2002a8c
+  jmp near _card_captain_sisay     ; 2002a91
+  jmp near _card_intet_the_dreamer     ; 2002a96
+  jmp near _card_explore2     ; 2002a9b
+  jmp near _card_rafiq_of_the_many     ; 2002aa0
+  jmp near _card_sliver_overlord     ; 2002aa5
+  jmp near _card_sliver_legion     ; 2002aaa
+  jmp near _card_mimic_vat     ; 2002aaf
+  jmp near _card_pandemonium     ; 2002ab4
+  jmp near _card_devastating_summons     ; 2002ab9
+  jmp near _card_doran_the_siege_tower     ; 2002abe
+  jmp near _card_treefolk_harbinger     ; 2002ac3
+  jmp near _card_dauntless_dourbark     ; 2002ac8
+  jmp near _card_timber_protector     ; 2002acd
+  jmp near _card_murmuring_bosk     ; 2002ad2
+  jmp near _card_chameleon_colossus     ; 2002ad7
+  jmp near _card_mirror_entity     ; 2002adc
+  jmp near _card_painters_servant     ; 2002ae1
+  jmp near _card_contagion_clasp     ; 2002ae6
+  jmp near _card_contagion_engine     ; 2002aeb
+  jmp near _card_thrummingbird     ; 2002af0
+  jmp near _card_lux_cannon     ; 2002af5
+  jmp near _card_toxin_sliver     ; 2002afa
+  jmp near _card_muscle_sliver     ; 2002aff
+  jmp near _card_bonesplitter_sliver     ; 2002b04
+  jmp near _card_blade_sliver     ; 2002b09
+  jmp near _card_might_sliver     ; 2002b0e
+  jmp near _card_winged_sliver     ; 2002b13
+  jmp near _card_talon_sliver     ; 2002b18
+  jmp near _card_crystalline_sliver     ; 2002b1d
+  jmp near _card_horned_sliver     ; 2002b22
+  jmp near _card_spinneret_sliver     ; 2002b27
+  jmp near _card_triskelion     ; 2002b2c
+  jmp near _card_eladamri_lord_of_leaves     ; 2002b31
+  jmp near _card_lord_of_atlantis     ; 2002b36
+  jmp near _card_generic_shockland     ; 2002b3b
+  jmp near _card_rofellos_llanowar_emissary     ; 2002b40
+  jmp near _card_fury_sliver     ; 2002b45
+  jmp near _card_axelrod_gunnarson     ; 2002b4a
+  jmp near _card_grindstone     ; 2002b4f
+  jmp near _card_ethersworn_canonist     ; 2002b54
+  jmp near _card_withered_wretch     ; 2002b59
+  jmp near _card_lotus_bloom     ; 2002b5e
+  jmp near _card_plaxcaster_frogling     ; 2002b63
+  jmp near _card_cytoplast_root_kin     ; 2002b68
+  jmp near _card_plaxmanta     ; 2002b6d
+  jmp near _card_crypt_champion     ; 2002b72
+  jmp near _card_phyrexian_rager     ; 2002b77
+  jmp near _card_karn_silver_golem     ; 2002b7c
+  jmp near _card_telekinesis     ; 2002b81
+  jmp near _card_tezzeret_agent_of_bolas     ; 2002b86
+  jmp near _card_devoted_caretaker     ; 2002b8b
+  jmp near _card_etched_champion     ; 2002b90
+  jmp near _card_quest_for_the_goblin_lord     ; 2002b95
+  jmp near _card_last_stand     ; 2002b9a
+  jmp near _card_sword_of_feast_and_famine     ; 2002b9f
+  jmp near _card_viridian_emissary     ; 2002ba4
+  jmp near _card_faceless_butcher     ; 2002ba9
+  jmp near _card_bone_shredder     ; 2002bae
+  jmp near _card_ghitu_slinger     ; 2002bb3
+  jmp near _card_polymorph     ; 2002bb8
+  jmp near _card_shape_anew     ; 2002bbd
+  jmp near _card_blightsteel_colossus     ; 2002bc2
+  jmp near _card_khalni_garden     ; 2002bc7
+  jmp near _card_phytohydra     ; 2002bcc
+  jmp near _card_pariahs_shield     ; 2002bd1
+  jmp near _card_sapling_of_colfenor     ; 2002bd6
+  jmp near _card_haze_of_rage     ; 2002bdb
+  jmp near _card_chord_of_calling     ; 2002be0
+  jmp near _card_sprout_swarm     ; 2002be5
+  jmp near _card_mana_echoes     ; 2002bea
+  jmp near _card_recycle     ; 2002bef
+  jmp near _card_ninja_of_the_deep_hours     ; 2002bf4
+  jmp near _card_mistblade_shinobi     ; 2002bf9
+  jmp near _card_throat_slitter     ; 2002bfe
+  jmp near _card_okiba_gang_shinobi     ; 2002c03
+  jmp near _card_ink_eyes_servant_of_oni     ; 2002c08
+  jmp near _card_higure_the_still_wind     ; 2002c0d
+  jmp near _card_leonin_relic_warder     ; 2002c12
+  jmp near _card_red_suns_zenith     ; 2002c17
+  jmp near _card_blue_suns_zenith     ; 2002c1c
+  jmp near _card_black_suns_zenith     ; 2002c21
+  jmp near _card_green_suns_zenith     ; 2002c26
+  jmp near _card_white_suns_zenith     ; 2002c2b
+  jmp near _card_phyrexian_vatmother     ; 2002c30
+  jmp near _card_victorys_herald     ; 2002c35
+  jmp near _card_steel_sabotage     ; 2002c3a
+  jmp near _card_treasure_mage     ; 2002c3f
+  jmp near _card_sangromancer     ; 2002c44
+  jmp near _card_septic_rats     ; 2002c49
+  jmp near _card_phyrexian_hydra     ; 2002c4e
+  jmp near _card_rot_wolf     ; 2002c53
+  jmp near _card_lichs_tomb     ; 2002c58
+  jmp near _card_ichor_wellspring     ; 2002c5d
+  jmp near _card_signal_pest     ; 2002c62
+  jmp near _card_hero_of_oxid_ridge     ; 2002c67
+  jmp near _card_creeping_corrosion     ; 2002c6c
+  jmp near _card_spine_of_ish_sah     ; 2002c71
+  jmp near _card_go_for_the_throat     ; 2002c76
+  jmp near _card_vivisection     ; 2002c7b
+  jmp near _card_thrun_the_last_troll     ; 2002c80
+  jmp near _card_troll_ascetic     ; 2002c85
+  jmp near _card_stromgald_crusader     ; 2002c8a
+  jmp near _card_white_shield_crusader     ; 2002c8f
+  jmp near _card_turn_the_tide     ; 2002c94
+  jmp near _card_massacre_wurm     ; 2002c99
+  jmp near _card_hand_of_the_praetors     ; 2002c9e
+  jmp near _card_retraction_helix     ; 2002ca3
+  jmp near _card_ichorclaw_myr     ; 2002ca8
+  jmp near _card_vector_asp     ; 2002cad
+  jmp near _card_tainted_strike     ; 2002cb2
+  jmp near _card_shrieking_grotesque     ; 2002cb7
+  jmp near _card_deprive     ; 2002cbc
+  jmp near _card_unified_will     ; 2002cc1
+  jmp near _card_horror_of_horrors     ; 2002cc6
+  jmp near _card_lesser_werewolf     ; 2002ccb
+  jmp near _card_ardent_recruit     ; 2002cd0
+  jmp near _card_galvanoth     ; 2002cd5
+  jmp near _card_haakon_stromgald_scourge     ; 2002cda
+  jmp near _card_in_the_eye_of_chaos     ; 2002cdf
+  jmp near _card_invoke_prejudice     ; 2002ce4
+  jmp near _card_the_wretched     ; 2002ce9
+  jmp near _card_brine_hag     ; 2002cee
+  jmp near _card_shimian_night_stalker     ; 2002cf3
+  jmp near _card_juxtapose     ; 2002cf8
+  jmp near _card_avoid_fate     ; 2002cfd
+  jmp near _card_floral_spuzzem     ; 2002d02
+  jmp near _card_master_of_the_hunt     ; 2002d07
+  jmp near _card_phantom_nishoba     ; 2002d0c
+  jmp near _card_attrition     ; 2002d11
+  jmp near _card_wall_of_shards     ; 2002d16
+  jmp near _card_bribery     ; 2002d1b
+  jmp near _card_baron_sengir     ; 2002d20
+  jmp near _card_didgeridoo     ; 2002d25
+  jmp near _card_drudge_spell     ; 2002d2a
+  jmp near _card_grandmother_sengir     ; 2002d2f
+  jmp near _card_greater_werewolf     ; 2002d34
+  jmp near _card_marjhan     ; 2002d39
+  jmp near _card_kird_ape     ; 2002d3e
+  jmp near _card_primal_order     ; 2002d43
+  jmp near _card_retribution     ; 2002d48
+  jmp near _card_sengir_autocrat     ; 2002d4d
+  jmp near _card_willow_priestess     ; 2002d52
+  jmp near _mana_producer_tapped     ; 2002d57
+  jmp near _card_mystic_snake     ; 2002d5c
+  jmp near _card_spellstutter_sprite     ; 2002d61
+  jmp near _card_venser_shaper_savant     ; 2002d66
+  jmp near _card_renegade_doppelganger     ; 2002d6b
+  jmp near _card_scion_of_the_ur_dragon     ; 2002d70
+  jmp near _card_march_of_the_machines     ; 2002d75
+  jmp near _card_grafted_wargear     ; 2002d7a
+  jmp near _card_grafted_exoskeleton     ; 2002d7f
+  jmp near _card_flayer_husk     ; 2002d84
+  jmp near _card_darksteel_forge     ; 2002d89
+  jmp near _card_counterbalance     ; 2002d8e
+  jmp near _card_altar_of_bone     ; 2002d93
+  jmp near _card_arensons_aura     ; 2002d98
+  jmp near _card_battle_frenzy     ; 2002d9d
+  jmp near _card_chromatic_armor     ; 2002da2
+  jmp near _card_dance_of_the_dead     ; 2002da7
+  jmp near _card_mirrorweave     ; 2002dac
+  jmp near _card_tamanoa     ; 2002db1
+  jmp near _card_despotic_scepter     ; 2002db6
+  jmp near _card_diabolic_vision     ; 2002dbb
+  jmp near _card_dreams_of_the_dead     ; 2002dc0
+  jmp near _card_dwarven_armory     ; 2002dc5
+  jmp near _card_elemental_augury     ; 2002dca
+  jmp near _card_essence_vortex     ; 2002dcf
+  jmp near _card_enduring_renewal     ; 2002dd4
+  jmp near _card_fyndhorn_pollen     ; 2002dd9
+  jmp near _card_gangrenous_zombies     ; 2002dde
+  jmp near _card_giant_trap_door_spider     ; 2002de3
+  jmp near _card_glacial_chasm     ; 2002de8
+  jmp near _card_goblin_mutant     ; 2002ded
+  jmp near _card_goblin_ski_patrol     ; 2002df2
+  jmp near _card_hymn_of_rebirth     ; 2002df7
+  jmp near _card_icequake     ; 2002dfc
+  jmp near _card_thermokarst     ; 2002e01
+  jmp near _card_icy_prison     ; 2002e06
+  jmp near _card_illusionary_forces     ; 2002e0b
+  jmp near _card_jesters_mask     ; 2002e10
+  jmp near _card_kjeldoran_dead     ; 2002e15
+  jmp near _card_kjeldoran_royal_guard     ; 2002e1a
+  jmp near _card_marton_stromgald     ; 2002e1f
+  jmp near _card_magus_of_the_unseen     ; 2002e24
+  jmp near _card_merieke_ri_berit     ; 2002e29
+  jmp near _card_minion_of_leshrac     ; 2002e2e
+  jmp near _card_minion_of_tevesh_szat     ; 2002e33
+  jmp near _card_oath_of_lim_dul     ; 2002e38
+  jmp near _card_orcish_lumberjack     ; 2002e3d
+  jmp near _card_pentagram_of_the_ages     ; 2002e42
+  jmp near _card_pit_trap     ; 2002e47
+  jmp near _card_polar_kraken     ; 2002e4c
+  jmp near _card_shield_of_the_ages     ; 2002e51
+  jmp near _card_soldevi_simulacrum     ; 2002e56
+  jmp near _card_songs_of_the_damned     ; 2002e5b
+  jmp near _card_soul_barrier     ; 2002e60
+  jmp near _card_spoils_of_evil     ; 2002e65
+  jmp near _card_spoils_of_war     ; 2002e6a
+  jmp near _card_stampede     ; 2002e6f
+  jmp near _card_stunted_growth     ; 2002e74
+  jmp near _card_time_bomb     ; 2002e79
+  jmp near _card_woolly_mammuth     ; 2002e7e
+  jmp near _card_woolly_spider     ; 2002e83
+  jmp near _card_arcane_denial     ; 2002e88
+  jmp near _card_godsire     ; 2002e8d
+  jmp near _card_plant_token     ; 2002e92
+  jmp near _card_semblance_anvil     ; 2002e97
+  jmp near _card_throne_of_geth     ; 2002e9c
+  jmp near _card_kuldotha_forgemaster     ; 2002ea1
+  jmp near _card_tumble_magnet     ; 2002ea6
+  jmp near _card_sphere_of_the_suns     ; 2002eab
+  jmp near _card_vesuva     ; 2002eb0
+  jmp near _card_vendilion_clique     ; 2002eb5
+  jmp near _card_balduvian_dead     ; 2002eba
+  jmp near _card_bounty_of_the_hunt     ; 2002ebf
+  jmp near _card_browse     ; 2002ec4
+  jmp near _card_death_spark     ; 2002ec9
+  jmp near _card_exile     ; 2002ece
+  jmp near _card_feast_or_famine     ; 2002ed3
+  jmp near _card_gargantuan_gorilla     ; 2002ed8
+  jmp near _card_hail_storm     ; 2002edd
+  jmp near _card_inheritance     ; 2002ee2
+  jmp near _card_ivory_gargoyle     ; 2002ee7
+  jmp near _card_juniper_order_advocate     ; 2002eec
+  jmp near _card_kjeldoran_home_guard     ; 2002ef1
+  jmp near _card_multi_purpose_al_token     ; 2002ef6
+  jmp near _card_lat_nam_legacy     ; 2002efb
+  jmp near _card_lord_of_tresserhorn     ; 2002f00
+  jmp near _card_natures_blessing     ; 2002f05
+  jmp near _card_phelddagrif     ; 2002f0a
+  jmp near _card_phyrexian_boon     ; 2002f0f
+  jmp near _card_pyrokinesis     ; 2002f14
+  jmp near _card_reinforcements     ; 2002f19
+  jmp near _card_ritual_of_the_machine     ; 2002f1e
+  jmp near _card_scars_of_the_veteran     ; 2002f23
+  jmp near _card_shield_sphere     ; 2002f28
+  jmp near _card_soldevi_digger     ; 2002f2d
+  jmp near _card_spiny_starfish     ; 2002f32
+  jmp near _card_thought_lash     ; 2002f37
+  jmp near _card_yavimaya_ants     ; 2002f3c
+  jmp near _generic_painland     ; 2002f41
+  jmp near _card_teferis_isle     ; 2002f46
+  jmp near _card_everglades     ; 2002f4b
+  jmp near _card_genesis_hydra     ; 2002f50
+  jmp near _card_waste_not     ; 2002f55
+  jmp near _card_adarkar_valkyrie     ; 2002f5a
+  jmp near _card_arctic_nishoba     ; 2002f5f
+  jmp near _card_arcum_dagsson     ; 2002f64
+  jmp near _card_blizzard_specter     ; 2002f69
+  jmp near _card_boreal_druid     ; 2002f6e
+  jmp near _card_coldsteel_heart     ; 2002f73
+  jmp near _card_darien_king_of_kjeldor     ; 2002f78
+  jmp near _card_earthen_goo     ; 2002f7d
+  jmp near _card_braid_of_fire     ; 2002f82
+  jmp near _card_garza_zol_plague_queen     ; 2002f87
+  jmp near _card_glacial_plating     ; 2002f8c
+  jmp near _card_herald_of_leshrac     ; 2002f91
+  jmp near _card_hibernations_end     ; 2002f96
+  jmp near _card_into_the_north     ; 2002f9b
+  jmp near _card_jesters_scepter     ; 2002fa0
+  jmp near _card_jotun_owl_keeper     ; 2002fa5
+  jmp near _card_juniper_order_ranger     ; 2002faa
+  jmp near _card_kjeldoran_javelineer     ; 2002faf
+  jmp near _card_lightning_serpent     ; 2002fb4
+  jmp near _card_lovisa_coldeyes     ; 2002fb9
+  jmp near _card_martyr_of_the_ashes     ; 2002fbe
+  jmp near _card_martyr_of_sands     ; 2002fc3
+  jmp near _card_mouth_of_ronom     ; 2002fc8
+  jmp near _card_perilous_researches     ; 2002fcd
+  jmp near _card_phobian_phantasm     ; 2002fd2
+  jmp near _card_phyrexian_etchings     ; 2002fd7
+  jmp near _card_rime_transfusion     ; 2002fdc
+  jmp near _card_ronom_unicorn     ; 2002fe1
+  jmp near _card_phyrexian_ironfoot     ; 2002fe6
+  jmp near _card_rune_snag     ; 2002feb
+  jmp near _card_scrying_sheets     ; 2002ff0
+  jmp near _card_sek_kuar_death_keeper     ; 2002ff5
+  jmp near _card_sheltering_ancient     ; 2002ffa
+  jmp near _card_skred     ; 2002fff
+  jmp near _card_stalking_yeti     ; 2003004
+  jmp near _card_zur_the_enchanter     ; 2003009
+  jmp near _card_barbed_foliage     ; 200300e
+  jmp near _card_benevolent_unicorn     ; 2003013
+  jmp near _card_benthic_djinn     ; 2003018
+  jmp near _card_bone_harvest     ; 200301d
+  jmp near _card_cadaverous_knight     ; 2003022
+  jmp near _card_canopy_dragon     ; 2003027
+  jmp near _card_insect     ; 200302c
+  jmp near _card_carrion     ; 2003031
+  jmp near _card_catacomb_dragon     ; 2003036
+  jmp near _card_circle_of_despair     ; 200303b
+  jmp near _card_crystal_golem     ; 2003040
+  jmp near _card_discordant_spirit     ; 2003045
+  jmp near _card_dwarven_miner     ; 200304a
+  jmp near _card_emberwilde_caliph     ; 200304f
+  jmp near _card_energy_bolt     ; 2003054
+  jmp near _card_floodgate     ; 2003059
+  jmp near _card_forsaken_wastes     ; 200305e
+  jmp near _card_frenetic_efreet     ; 2003063
+  jmp near _card_goblin_soothsayer     ; 2003068
+  jmp near _card_goblin_tinkerer     ; 200306d
+  jmp near _card_grim_feast     ; 2003072
+  jmp near _card_harbinger_of_night     ; 2003077
+  jmp near _card_illumination     ; 200307c
+  jmp near _card_jolraels_centaur     ; 2003081
+  jmp near _card_wood2     ; 2003086
+  jmp near _card_jungle_patrol     ; 200308b
+  jmp near _card_kukemssa_pirates     ; 2003090
+  jmp near _card_lure_of_prey     ; 2003095
+  jmp near _card_mist_dragon     ; 200309a
+  jmp near _card_natural_balance     ; 200309f
+  jmp near _card_phyrexian_purge     ; 20030a4
+  jmp near _card_phyrexian_vault     ; 20030a9
+  jmp near _card_preferred_selection     ; 20030ae
+  jmp near _card_prismatic_boon     ; 20030b3
+  jmp near _card_purgatory     ; 20030b8
+  jmp near _card_purraj_of_urborg     ; 20030bd
+  jmp near _card_razor_pendulum     ; 20030c2
+  jmp near _card_reflect_damage     ; 20030c7
+  jmp near _card_reparations     ; 20030cc
+  jmp near _card_reality_ripple     ; 20030d1
+  jmp near _card_savage_twister     ; 20030d6
+  jmp near _card_seeds_of_innocence     ; 20030db
+  jmp near _card_serene_heart     ; 20030e0
+  jmp near _card_sewer_rats     ; 20030e5
+  jmp near _card_shallow_grave     ; 20030ea
+  jmp near _card_shauku_endbringer     ; 20030ef
+  jmp near _card_shimmer     ; 20030f4
+  jmp near _card_spectral_guardian     ; 20030f9
+  jmp near _card_superior_numbers     ; 20030fe
+  jmp near _card_taniwha     ; 2003103
+  jmp near _card_teekas_dragon     ; 2003108
+  jmp near _card_tranquil_domain     ; 200310d
+  jmp near _card_unfulfilled_desires     ; 2003112
+  jmp near _card_ventifact_bottle     ; 2003117
+  jmp near _card_withering_boon     ; 200311c
+  jmp near _card_zhalfirin_commander     ; 2003121
+  jmp near _card_zhalfirin_knight     ; 2003126
+  jmp near _card_burning_shield_askari     ; 200312b
+  jmp near _card_afterlife     ; 2003130
+  jmp near _card_spirit2     ; 2003135
+  jmp near _card_auspicious_ancestor     ; 200313a
+  jmp near _card_crimson_hellkite     ; 200313f
+  jmp near _card_dream_cache     ; 2003144
+  jmp near _card_granger_guildmage     ; 2003149
+  jmp near _card_shadow_guildmage     ; 200314e
+  jmp near _card_hivis_of_the_scale     ; 2003153
+  jmp near _card_mtenda_lion     ; 2003158
+  jmp near _card_rashida_scalebane     ; 200315d
+  jmp near _card_sealed_fate     ; 2003162
+  jmp near _card_skulking_ghost     ; 2003167
+  jmp near _card_zirilan_of_the_claw     ; 200316c
+  jmp near _card_charcoal_diamond     ; 2003171
+  jmp near _card_fire_diamond     ; 2003176
+  jmp near _card_marble_diamond     ; 200317b
+  jmp near _card_moss_diamond     ; 2003180
+  jmp near _card_sky_diamond     ; 2003185
+  jmp near _card_aku_djinn     ; 200318a
+  jmp near _card_anvil_of_bagardan     ; 200318f
+  jmp near _card_army_ants     ; 2003194
+  jmp near _card_breathstealers_crypt     ; 2003199
+  jmp near _card_breezekeeper     ; 200319e
+  jmp near _card_corrosion     ; 20031a3
+  jmp near _card_bull_elephant     ; 20031a8
+  jmp near _card_desertion     ; 20031ad
+  jmp near _card_diamond_kaleidoscope     ; 20031b2
+  jmp near _card_prism2     ; 20031b7
+  jmp near _card_dragon_mask     ; 20031bc
+  jmp near _card_femeref_enchantress     ; 20031c1
+  jmp near _card_firestorm_hellkite     ; 20031c6
+  jmp near _card_flooded_shoreline     ; 20031cb
+  jmp near _card_gossamer_chains     ; 20031d0
+  jmp near _card_griffin_canyon     ; 20031d5
+  jmp near _card_guiding_spirit     ; 20031da
+  jmp near _card_juju_bubble     ; 20031df
+  jmp near _card_kaerveks_spite     ; 20031e4
+  jmp near _card_keeper_of_kookus     ; 20031e9
+  jmp near _card_knight_of_valor     ; 20031ee
+  jmp near _card_kookus     ; 20031f3
+  jmp near _card_lightning_cloud     ; 20031f8
+  jmp near _card_miracolous_recovery     ; 20031fd
+  jmp near _card_mundungu     ; 2003202
+  jmp near _card_necrosavant     ; 2003207
+  jmp near _card_pygmy_hippo     ; 200320c
+  jmp near _card_rainbow_efreet     ; 2003211
+  jmp near _card_retribution_of_the_meek     ; 2003216
+  jmp near _card_righteous_war     ; 200321b
+  jmp near _card_rowen     ; 2003220
+  jmp near _card_shimmering_efreet     ; 2003225
+  jmp near _card_squandered_resources     ; 200322a
+  jmp near _card_suleimans_legacy     ; 200322f
+  jmp near _card_summer_bloom     ; 2003234
+  jmp near _card_suq_ata_lancer     ; 2003239
+  jmp near _card_teferi_honor_guard     ; 200323e
+  jmp near _card_undiscovered_paradise     ; 2003243
+  jmp near _card_undo     ; 2003248
+  jmp near _card_viashivan_dragon     ; 200324d
+  jmp near _card_wand_of_denial     ; 2003252
+  jmp near _card_zhalfirin_crusader     ; 2003257
+  jmp near _card_equipoise     ; 200325c
+  jmp near _card_fallen_askari     ; 2003261
+  jmp near _card_funeral_charm     ; 2003266
+  jmp near _card_knight_of_the_mists     ; 200326b
+  jmp near _card_relentless_assault     ; 2003270
+  jmp near _card_rock_slide     ; 2003275
+  jmp near _card_abjure     ; 200327a
+  jmp near _card_abyssal_gatekeeper     ; 200327f
+  jmp near _card_ancestral_knowledge     ; 2003284
+  jmp near _card_angelic_renewal     ; 2003289
+  jmp near _card_argivian_find     ; 200328e
+  jmp near _card_argivian_restoration     ; 2003293
+  jmp near _card_aether_flash     ; 2003298
+  jmp near _card_aura_of_silence     ; 200329d
+  jmp near _card_barishi     ; 20032a2
+  jmp near _card_barrow_ghoul     ; 20032a7
+  jmp near _card_bone_dancer     ; 20032ac
+  jmp near _card_bubble_matrix     ; 20032b1
+  jmp near _card_circling_vultures     ; 20032b6
+  jmp near _card_debt_of_loyalty     ; 20032bb
+  jmp near _card_dingus_staff     ; 20032c0
+  jmp near _card_downdraft     ; 20032c5
+  jmp near _card_dwarven_berserk     ; 20032ca
+  jmp near _card_ertais_familiar     ; 20032cf
+  jmp near _card_fallow_wurm     ; 20032d4
+  jmp near _card_firestorm     ; 20032d9
+  jmp near _card_flux     ; 20032de
+  jmp near _card_fog_elemental     ; 20032e3
+  jmp near _card_gallowbraid     ; 20032e8
+  jmp near _card_gerrards_wisdom     ; 20032ed
+  jmp near _card_goblin_grenadiers     ; 20032f2
+  jmp near _card_goblin_vandal     ; 20032f7
+  jmp near _card_harvest_wurm     ; 20032fc
+  jmp near _card_heart_of_bogardan     ; 2003301
+  jmp near _card_hidden_horror     ; 2003306
+  jmp near _card_inner_sanctum     ; 200330b
+  jmp near _card_liege_of_hollows     ; 2003310
+  jmp near _card_llanowar_sentinel     ; 2003315
+  jmp near _card_lotus_vale     ; 200331a
+  jmp near _card_maraxus_of_keld     ; 200331f
+  jmp near _card_mistmoon_griffin     ; 2003324
+  jmp near _card_natures_resurgence     ; 2003329
+  jmp near _card_necratog     ; 200332e
+  jmp near _card_ophidian     ; 2003333
+  jmp near _card_orcish_settlers     ; 2003338
+  jmp near _card_psychic_vortex     ; 200333d
+  jmp near _card_revered_unicorn     ; 2003342
+  jmp near _card_serenity     ; 2003347
+  jmp near _card_serrated_biskelion     ; 200334c
+  jmp near _card_shattered_crypt     ; 2003351
+  jmp near _card_spinning_darkness     ; 2003356
+  jmp near _card_steel_golem     ; 200335b
+  jmp near _card_strands_of_night     ; 2003360
+  jmp near _card_straw_golem     ; 2003365
+  jmp near _card_teferis_veil     ; 200336a
+  jmp near _card_thunderbolt     ; 200336f
+  jmp near _card_thundermare     ; 2003374
+  jmp near _card_vodalian_illusionist     ; 2003379
+  jmp near _card_tranquil_grove     ; 200337e
+  jmp near _card_veteran_explorer     ; 2003383
+  jmp near _card_wave_of_terror     ; 2003388
+  jmp near _card_abeyance     ; 200338d
+  jmp near _card_bethrothed_of_fire     ; 2003392
+  jmp near _card_briar_shield     ; 2003397
+  jmp near _card_chimeric_sphere     ; 200339c
+  jmp near _card_empyrial_armor     ; 20033a1
+  jmp near _card_fervor     ; 20033a6
+  jmp near _card_fire_whip     ; 20033ab
+  jmp near _card_goblin_bomb     ; 20033b0
+  jmp near _card_merfolk_traders     ; 20033b5
+  jmp near _card_paradigm_shift     ; 20033ba
+  jmp near _card_peacekeeper     ; 20033bf
+  jmp near _card_phyrexian_furnace     ; 20033c4
+  jmp near _card_xanthic_statue     ; 20033c9
+  jmp near _card_zombie_scavengers     ; 20033ce
+  jmp near _card_glimmerpost     ; 20033d3
+  jmp near _card_moments_peace     ; 20033d8
+  jmp near _card_repeal     ; 20033dd
+  jmp near _card_makeshift_mannequin     ; 20033e2
+  jmp near _card_basilisk_collar     ; 20033e7
+  jmp near _card_squirrel_nest     ; 20033ec
+  jmp near _card_inkmoth_nexus     ; 20033f1
+  jmp near _card_infective_blinkmoth     ; 20033f6
+  jmp near _card_advance_scout     ; 20033fb
+  jmp near _card_aftershock     ; 2003400
+  jmp near _card_aluren     ; 2003405
+  jmp near _card_ancient_runes     ; 200340a
+  jmp near _card_apocalypse     ; 200340f
+  jmp near _tempest_painland     ; 2003414
+  jmp near _card_carrionette     ; 2003419
+  jmp near _card_coffin_queen     ; 200341e
+  jmp near _card_cold_storage     ; 2003423
+  jmp near _card_commander_greven_il_vec     ; 2003428
+  jmp near _card_corpse_dance     ; 200342d
+  jmp near _card_dauthi_embrace     ; 2003432
+  jmp near _card_dauthi_mindripper     ; 2003437
+  jmp near _card_dracoplasm     ; 200343c
+  jmp near _card_dregs_of_sorrow     ; 2003441
+  jmp near _card_echo_chamber     ; 2003446
+  jmp near _card_eladamris_vineyard     ; 200344b
+  jmp near _card_emerald_medallion     ; 2003450
+  jmp near _card_energizer     ; 2003455
+  jmp near _card_escaped_shapeshifter     ; 200345a
+  jmp near _card_feverd_convulsion     ; 200345f
+  jmp near _card_field_of_souls     ; 2003464
+  jmp near _card_flickering_ward     ; 2003469
+  jmp near _card_flowstone_sculpture     ; 200346e
+  jmp near _card_gerrards_battle_cry     ; 2003473
+  jmp near _card_goblin_bombardment     ; 2003478
+  jmp near _card_hannas_custody     ; 200347d
+  jmp near _card_helm_of_possession     ; 2003482
+  jmp near _card_intuition     ; 2003487
+  jmp near _card_invulnerability     ; 200348c
+  jmp near _card_jackal_pup     ; 2003491
+  jmp near _card_jet_medallion     ; 2003496
+  jmp near _card_kindle     ; 200349b
+  jmp near _card_knight_of_dawn     ; 20034a0
+  jmp near _card_knight_of_dusk     ; 20034a5
+  jmp near _card_krakilin     ; 20034aa
+  jmp near _card_legacys_allure     ; 20034af
+  jmp near _card_lobotomy     ; 20034b4
+  jmp near _card_mana_severance     ; 20034b9
+  jmp near _card_marble_titan     ; 20034be
+  jmp near _card_minion_of_the_wastes     ; 20034c3
+  jmp near _card_mirris_guile     ; 20034c8
+  jmp near _card_mogg_conscripts     ; 20034cd
+  jmp near _card_mongrel_pack     ; 20034d2
+  jmp near _card_orims_prayer     ; 20034d7
+  jmp near _card_orim_samite_healer     ; 20034dc
+  jmp near _card_patchwork_gnomes     ; 20034e1
+  jmp near _card_pearl_medallion     ; 20034e6
+  jmp near _card_pegasus_refuge     ; 20034eb
+  jmp near _card_necromancers_assistant     ; 20034f0
+  jmp near _card_precognition     ; 20034f5
+  jmp near _card_rathi_dragon     ; 20034fa
+  jmp near _card_respite     ; 20034ff
+  jmp near _card_rolling_thunder     ; 2003504
+  jmp near _card_root_maze     ; 2003509
+  jmp near _card_rootwater_matriarch     ; 200350e
+  jmp near _card_ruby_medallion     ; 2003513
+  jmp near _card_sadistic_glee     ; 2003518
+  jmp near _card_safeguard     ; 200351d
+  jmp near _card_sapphire_medallion     ; 2003522
+  jmp near _card_gloomdrifter     ; 2003527
+  jmp near _mana_producer     ; 200352c
+  jmp near _card_scalding_tongs     ; 2003531
+  jmp near _card_shocker     ; 2003536
+  jmp near _card_seasoned_marshal     ; 200353b
+  jmp near _card_skyshroud_elves     ; 2003540
+  jmp near _card_skyshroud_ranger     ; 2003545
+  jmp near _card_soltari_crusader     ; 200354a
+  jmp near _card_soltari_emissary     ; 200354f
+  jmp near _card_soltari_guerrillas     ; 2003554
+  jmp near _card_urborg_justice     ; 2003559
+  jmp near _card_deadbox     ; 200355e
+  jmp near _card_caller_of_the_claw     ; 2003563
+  jmp near _card_spirit_mirror     ; 2003568
+  jmp near _card_storm_front     ; 200356d
+  jmp near _card_thumbscrew     ; 2003572
+  jmp near _card_torture_chamber     ; 2003577
+  jmp near _card_unstable_shapeshifter     ; 200357c
+  jmp near _card_verdant_force     ; 2003581
+  jmp near _card_vathi_il_dal     ; 2003586
+  jmp near _card_winds_of_rath     ; 200358b
+  jmp near _card_worthy_cause     ; 2003590
+  jmp near _card_fake_card     ; 2003595
+  jmp near _card_amok     ; 200359a
+  jmp near _card_awakening2     ; 200359f
+  jmp near _card_bottomless_pit     ; 20035a4
+  jmp near _card_burgeoning     ; 20035a9
+  jmp near _card_change_of_heart     ; 20035ae
+  jmp near _card_constant_mists     ; 20035b3
+  jmp near _card_contemplation     ; 20035b8
+  jmp near _card_crovax_the_cursed     ; 20035bd
+  jmp near _card_flowstone_hellion     ; 20035c2
+  jmp near _card_foul_imp     ; 20035c7
+  jmp near _card_hammerhead_shark     ; 20035cc
+  jmp near _card_mind_games     ; 20035d1
+  jmp near _card_mogg_bombers     ; 20035d6
+  jmp near _card_mogg_flunkies     ; 20035db
+  jmp near _card_mogg_infestation     ; 20035e0
+  jmp near _card_mogg_maniac     ; 20035e5
+  jmp near _card_morgue_thrull     ; 20035ea
+  jmp near _card_nomads_en_kor     ; 20035ef
+  jmp near _card_portcullis     ; 20035f4
+  jmp near _card_primal_rage     ; 20035f9
+  jmp near _card_revenant     ; 20035fe
+  jmp near _card_ruination     ; 2003603
+  jmp near _card_shaman_en_kor     ; 2003608
+  jmp near _card_shard_phoenix     ; 200360d
+  jmp near _card_sift     ; 2003612
+  jmp near _card_skeleton_scavengers     ; 2003617
+  jmp near _card_soltari_champion     ; 200361c
+  jmp near _card_spike_colony     ; 2003621
+  jmp near _card_spike_drone     ; 2003626
+  jmp near _card_spike_soldier     ; 200362b
+  jmp near _card_spike_worker     ; 2003630
+  jmp near _card_spindrift_drake     ; 2003635
+  jmp near _card_stronghold_assassin     ; 200363a
+  jmp near _card_thalakos_deceiver     ; 200363f
+  jmp near _card_tortured_existence     ; 2003644
+  jmp near _card_volraths_shapeshifter     ; 2003649
+  jmp near _card_wall_of_essence     ; 200364e
+  jmp near _card_wall_of_souls     ; 2003653
+  jmp near _card_wall_of_tears     ; 2003658
+  jmp near _card_anarchist     ; 200365d
+  jmp near _card_cartographer     ; 2003662
+  jmp near _card_cataclysm     ; 2003667
+  jmp near _card_convalescence     ; 200366c
+  jmp near _card_culling_the_weak     ; 2003671
+  jmp near _card_elvish_berserk     ; 2003676
+  jmp near _card_equilibrium     ; 200367b
+  jmp near _card_erratic_portal     ; 2003680
+  jmp near _card_keeper_of_the_beasts     ; 2003685
+  jmp near _card_keeper_of_the_dead     ; 200368a
+  jmp near _card_keeper_of_the_flame     ; 200368f
+  jmp near _card_keeper_of_the_light     ; 2003694
+  jmp near _card_keeper_of_the_mind     ; 2003699
+  jmp near _card_limited_resources     ; 200369e
+  jmp near _card_mind_maggots     ; 20036a3
+  jmp near _card_mindless_automaton     ; 20036a8
+  jmp near _card_oath_of_ghouls     ; 20036ad
+  jmp near _card_oath_of_lieges     ; 20036b2
+  jmp near _card_oath_of_scholars     ; 20036b7
+  jmp near _card_ogre_shaman     ; 20036bc
+  jmp near _card_onslaught     ; 20036c1
+  jmp near _card_peace_of_mind     ; 20036c6
+  jmp near _card_pit_spawn     ; 20036cb
+  jmp near _card_plaguebearer     ; 20036d0
+  jmp near _card_pygmy_troll     ; 20036d5
+  jmp near _card_reclaim     ; 20036da
+  jmp near _card_school_of_piranha     ; 20036df
+  jmp near _card_srivener     ; 20036e4
+  jmp near _card_skyshroud_elite     ; 20036e9
+  jmp near _card_skyshroud_warbeast     ; 20036ee
+  jmp near _card_soltari_visionary     ; 20036f3
+  jmp near _card_sonic_burst     ; 20036f8
+  jmp near _card_spellshock     ; 20036fd
+  jmp near _card_spike_cannibal     ; 2003702
+  jmp near _card_thalakos_drifters     ; 2003707
+  jmp near _card_thalakos_scout     ; 200370c
+  jmp near _card_thrull_surgeon     ; 2003711
+  jmp near _card_treasure_hunter     ; 2003716
+  jmp near _card_vampire_hounds     ; 200371b
+  jmp near _card_wall_of_nets     ; 2003720
+  jmp near _card_workhorse     ; 2003725
+  jmp near _card_acidic_sliver     ; 200372a
+  jmp near _card_hybernating_sliver     ; 200372f
+  jmp near _card_spined_sliver     ; 2003734
+  jmp near _card_victual_sliver     ; 2003739
+  jmp near _card_elesh_norn     ; 200373e
+  jmp near _card_urabrask_the_hidden     ; 2003743
+  jmp near _card_sheoldred_whispering_one     ; 2003748
+  jmp near _card_birthing_pod     ; 200374d
+  jmp near _card_karn_liberated     ; 2003752
+  jmp near _card_phyrexian_obliterator     ; 2003757
+  jmp near _card_phyrexian_unlife     ; 200375c
+  jmp near _card_blade_splicer     ; 2003761
+  jmp near _card_cathedral_membrane     ; 2003766
+  jmp near _card_dispatch     ; 200376b
+  jmp near _card_master_splicer     ; 2003770
+  jmp near _card_puresteel_paladin     ; 2003775
+  jmp near _card_norns_annex     ; 200377a
+  jmp near _card_jin_gitaxias_core_augur     ; 200377f
+  jmp near _card_mental_misstep     ; 2003784
+  jmp near _card_wing_splicer     ; 2003789
+  jmp near _card_geths_verdict     ; 200378e
+  jmp near _card_spined_thopter     ; 2003793
+  jmp near _card_vault_skirge     ; 2003798
+  jmp near _card_postmortem_lunge     ; 200379d
+  jmp near _card_surgical_extraction     ; 20037a2
+  jmp near _card_golem_token     ; 20037a7
+  jmp near _card_titan_forge     ; 20037ac
+  jmp near _card_moltensteel_dragon     ; 20037b1
+  jmp near _card_volt_charge     ; 20037b6
+  jmp near _card_beast_within     ; 20037bb
+  jmp near _card_chancellor_of_the_tangle     ; 20037c0
+  jmp near _card_fresh_meat     ; 20037c5
+  jmp near _card_noxious_revival     ; 20037ca
+  jmp near _card_phyrexian_swarmlord     ; 20037cf
+  jmp near _card_vorinclex_voice_of_hunger     ; 20037d4
+  jmp near _card_batterskull     ; 20037d9
+  jmp near _card_vital_splicer     ; 20037de
+  jmp near _card_necrotic_ooze     ; 20037e3
+  jmp near _card_phyrexian_devourer     ; 20037e8
+  jmp near _card_hex_parasite     ; 20037ed
+  jmp near _card_sword_of_war_and_peace     ; 20037f2
+  jmp near _card_lashwrithe     ; 20037f7
+  jmp near _card_experiment_kraj     ; 20037fc
+  jmp near _card_bitterblossom     ; 2003801
+  jmp near _card_tetravus     ; 2003806
+  jmp near _card_hecatomb     ; 200380b
+  jmp near _card_alabaster_dragon     ; 2003810
+  jmp near _card_primitive_justice     ; 2003815
+  jmp near _card_phyrexian_metamorph     ; 200381a
+  jmp near _card_mortarpod     ; 200381f
+  jmp near _card_gifts_ungiven2     ; 2003824
+  jmp near _card_abundance     ; 2003829
+  jmp near _card_academy_researchers     ; 200382e
+  jmp near _card_sovereigns_of_lost_alara     ; 2003833
+  jmp near _card_acidic_soil     ; 2003838
+  jmp near _card_acridian     ; 200383d
+  jmp near _card_albino_troll     ; 2003842
+  jmp near _card_angelic_chorus     ; 2003847
+  jmp near _card_annul     ; 200384c
+  jmp near _card_arcane_laboratory     ; 2003851
+  jmp near _card_argothian_wurm     ; 2003856
+  jmp near _card_attunement     ; 200385b
+  jmp near _card_barrins_codex     ; 2003860
+  jmp near _card_barrin_master_wizard     ; 2003865
+  jmp near _card_befoul     ; 200386a
+  jmp near _card_catastrophe     ; 200386f
+  jmp near _card_child_of_gaea     ; 2003874
+  jmp near _card_chimeric_staff     ; 2003879
+  jmp near _card_citanul_flute     ; 200387e
+  jmp near _card_citanul_hierophants     ; 2003883
+  jmp near _card_claws_of_gix     ; 2003888
+  jmp near _card_congregate     ; 200388d
+  jmp near _card_cradle_guard     ; 2003892
+  jmp near _card_crater_hellion     ; 2003897
+  jmp near _card_diabolic_servitude     ; 200389c
+  jmp near _card_discordant_dirge     ; 20038a1
+  jmp near _card_disruptive_student     ; 20038a6
+  jmp near _card_dragons_blood     ; 20038ab
+  jmp near _card_drifting_djinn     ; 20038b0
+  jmp near _card_elvish_herder     ; 20038b5
+  jmp near _card_endless_wurm     ; 20038ba
+  jmp near _card_energy_field     ; 20038bf
+  jmp near _card_exhaustion     ; 20038c4
+  jmp near _card_faith_healer     ; 20038c9
+  jmp near _card_falter     ; 20038ce
+  jmp near _card_fire_ants     ; 20038d3
+  jmp near _card_flesh_reaver     ; 20038d8
+  jmp near _card_fog_bank     ; 20038dd
+  jmp near _card_gaeas_embrace     ; 20038e2
+  jmp near _card_gilded_drake     ; 20038e7
+  jmp near _card_goblin_offensive     ; 20038ec
+  jmp near _card_goblin_patrol     ; 20038f1
+  jmp near _card_goblin_war_buggy     ; 20038f6
+  jmp near _card_herald_of_serra     ; 20038fb
+  jmp near _card_hermetic_study     ; 2003900
+  jmp near _card_hidden_guerrillas     ; 2003905
+  jmp near _card_ill_gotten_gains     ; 200390a
+  jmp near _card_imaginary_pet     ; 200390f
+  jmp near _card_launch     ; 2003914
+  jmp near _card_lifeline     ; 2003919
+  jmp near _card_lightning_dragon     ; 200391e
+  jmp near _card_lotus_blossom     ; 2003923
+  jmp near _card_lurking_evil     ; 2003928
+  jmp near _card_meltdown     ; 200392d
+  jmp near _card_metrognome     ; 2003932
+  jmp near _card_midsummer_revel     ; 2003937
+  jmp near _card_mishras_helix     ; 200393c
+  jmp near _card_monk_idealist     ; 2003941
+  jmp near _card_monk_realist     ; 2003946
+  jmp near _card_no_rest_for_the_wicked     ; 200394b
+  jmp near _card_noetic_scales     ; 2003950
+  jmp near _card_opal_acrolith     ; 2003955
+  jmp near _card_opal_acrolith_animated     ; 200395a
+  jmp near _card_opal_titan     ; 200395f
+  jmp near _card_opal_titan_animated     ; 2003964
+  jmp near _card_oppression     ; 2003969
+  jmp near _card_persecute     ; 200396e
+  jmp near _card_phyrexian_tower     ; 2003973
+  jmp near _card_planar_birth     ; 2003978
+  jmp near _card_pouncing_jaguar     ; 200397d
+  jmp near _card_purging_scythe     ; 2003982
+  jmp near _card_rain_of_filth     ; 2003987
+  jmp near _card_rain_of_filth_effect     ; 200398c
+  jmp near _card_recantation     ; 2003991
+  jmp near _card_remembrance     ; 2003996
+  jmp near _card_reprocess     ; 200399b
+  jmp near _card_rumbling_crescendo     ; 20039a0
+  jmp near _card_serras_liturgy     ; 20039a5
+  jmp near _card_shivan_gorge     ; 20039aa
+  jmp near _card_shivan_hellkite     ; 20039af
+  jmp near _card_skirge_familiar     ; 20039b4
+  jmp near _card_skittering_skirge     ; 20039b9
+  jmp near _card_somnophore     ; 20039be
+  jmp near _card_spined_fluke     ; 20039c3
+  jmp near _card_steam_blast     ; 20039c8
+  jmp near _card_stern_proctor     ; 20039cd
+  jmp near _card_symbiosis     ; 20039d2
+  jmp near _card_madness_effect     ; 20039d7
+  jmp near _card_penumbra_wurm     ; 20039dc
+  jmp near _card_roar_of_the_wurm     ; 20039e1
+  jmp near _card_tainted_aether     ; 20039e6
+  jmp near _card_temporal_aperture     ; 20039eb
+  jmp near _card_thran_quarry     ; 20039f0
+  jmp near _card_umbilicus     ; 20039f5
+  jmp near _card_vampiric_embrace     ; 20039fa
+  jmp near _card_vernal_bloom     ; 20039ff
+  jmp near _card_vile_requiem     ; 2003a04
+  jmp near _card_wild_dogs     ; 2003a09
+  jmp near _card_worn_powerstone     ; 2003a0e
+  jmp near _card_zephid_embrace     ; 2003a13
+  jmp near _card_anthroplasm     ; 2003a18
+  jmp near _card_crawlspace     ; 2003a1d
+  jmp near _card_defense_of_the_heart     ; 2003a22
+  jmp near _card_delusion_of_mediocrity     ; 2003a27
+  jmp near _card_engineered_plague     ; 2003a2c
+  jmp near _card_faerie_conclave     ; 2003a31
+  jmp near _card_faerie_conclave_animated     ; 2003a36
+  jmp near _card_forbidding_watchtower     ; 2003a3b
+  jmp near _card_forbidding_watchtower_animated     ; 2003a40
+  jmp near _card_ghitu_encampment     ; 2003a45
+  jmp near _card_ghitu_encampment_animated     ; 2003a4a
+  jmp near _card_ghitu_war_cry     ; 2003a4f
+  jmp near _card_hope_and_glory     ; 2003a54
+  jmp near _card_impending_disaster     ; 2003a59
+  jmp near _card_jhoira_toolbox     ; 2003a5e
+  jmp near _card_knighthood     ; 2003a63
+  jmp near _card_martyrs_cause     ; 2003a68
+  jmp near _card_mirari2     ; 2003a6d
+  jmp near _card_miscalculation     ; 2003a72
+  jmp near _card_molten_hydra     ; 2003a77
+  jmp near _card_mother_of_runes     ; 2003a7c
+  jmp near _card_multanis_acolyte     ; 2003a81
+  jmp near _card_multani_maro_sorcerer     ; 2003a86
+  jmp near _card_no_mercy     ; 2003a8b
+  jmp near _card_peace_and_quiet     ; 2003a90
+  jmp near _card_phyrexian_broodlings     ; 2003a95
+  jmp near _card_phyrexian_reclamation     ; 2003a9a
+  jmp near _card_planar_collapse     ; 2003a9f
+  jmp near _card_purify     ; 2003aa4
+  jmp near _card_pyromancy     ; 2003aa9
+  jmp near _card_rack_and_ruin     ; 2003aae
+  jmp near _card_radiant_archangel     ; 2003ab3
+  jmp near _card_raven_familiar     ; 2003ab8
+  jmp near _card_ring_of_gix     ; 2003abd
+  jmp near _card_scrapheap     ; 2003ac2
+  jmp near _card_second_chance     ; 2003ac7
+  jmp near _card_sick_and_tired     ; 2003acc
+  jmp near _card_simian_grunts     ; 2003ad1
+  jmp near _card_spawning_pool     ; 2003ad6
+  jmp near _card_spawning_pool_animated     ; 2003adb
+  jmp near _card_thran_lens     ; 2003ae0
+  jmp near _card_thran_weaponry     ; 2003ae5
+  jmp near _card_ticking_gnomes     ; 2003aea
+  jmp near _card_unearth     ; 2003aef
+  jmp near _card_urzas_blueprints     ; 2003af4
+  jmp near _card_viashino_heretic     ; 2003af9
+  jmp near _card_fated_intervention     ; 2003afe
+  jmp near _card_yavimaya_granger     ; 2003b03
+  jmp near _card_apprentice_necromancer     ; 2003b08
+  jmp near _card_body_snatcher     ; 2003b0d
+  jmp near _card_brine_seer     ; 2003b12
+  jmp near _card_bubbling_muck     ; 2003b17
+  jmp near _card_caltrops     ; 2003b1c
+  jmp near _card_cinder_seer     ; 2003b21
+  jmp near _card_eradicate     ; 2003b26
+  jmp near _card_false_prophet     ; 2003b2b
+  jmp near _card_field_surgeon     ; 2003b30
+  jmp near _card_fledgling_osprey     ; 2003b35
+  jmp near _card_gamekeeper     ; 2003b3a
+  jmp near _card_goblin_marshall     ; 2003b3f
+  jmp near _card_heart_warden     ; 2003b44
+  jmp near _card_hunting_moa     ; 2003b49
+  jmp near _card_iridescent_drake     ; 2003b4e
+  jmp near _card_ivy_seer     ; 2003b53
+  jmp near _card_jasmine_seer     ; 2003b58
+  jmp near _card_junk_diver     ; 2003b5d
+  jmp near _card_keldon_champion     ; 2003b62
+  jmp near _card_centaur_chieftain     ; 2003b67
+  jmp near _card_centaur_glade     ; 2003b6c
+  jmp near _card_deceiver_exarch     ; 2003b71
+  jmp near _card_dismember     ; 2003b76
+  jmp near _card_gitaxian_probe     ; 2003b7b
+  jmp near _card_tezzerets_gambit     ; 2003b80
+  jmp near _card_splinter_twin     ; 2003b85
+  jmp near _card_marker_beetle     ; 2003b8a
+  jmp near _card_metathran_elite     ; 2003b8f
+  jmp near _card_nightshade_seer     ; 2003b94
+  jmp near _card_powder_keg     ; 2003b99
+  jmp near _card_quash     ; 2003b9e
+  jmp near _card_rayne_academy_chancellor     ; 2003ba3
+  jmp near _card_reckless_abandon     ; 2003ba8
+  jmp near _card_repercussion     ; 2003bad
+  jmp near _card_reliquiary_monk     ; 2003bb2
+  jmp near _card_scour     ; 2003bb7
+  jmp near _card_sigil_of_sleep     ; 2003bbc
+  jmp near _card_sowing_salt     ; 2003bc1
+  jmp near _card_splinter2     ; 2003bc6
+  jmp near _card_taunting_elf     ; 2003bcb
+  jmp near _card_tethered_griffin     ; 2003bd0
+  jmp near _card_thran_dynamo     ; 2003bd5
+  jmp near _card_thran_foundry     ; 2003bda
+  jmp near _card_thran_golem     ; 2003bdf
+  jmp near _card_twisted_experiment     ; 2003be4
+  jmp near _card_wake_of_destruction     ; 2003be9
+  jmp near _card_yavimaya_enchantress     ; 2003bee
+  jmp near _card_yavimaya_hollow     ; 2003bf3
+  jmp near _card_rancor     ; 2003bf8
+  jmp near _card_bear_umbra     ; 2003bfd
+  jmp near _card_nomad_mythmaker     ; 2003c02
+  jmp near _card_kor_spiritdancer     ; 2003c07
+  jmp near _card_generic_som_tapland     ; 2003c0c
+  jmp near _card_dragon_token     ; 2003c11
+  jmp near _card_broodmate_dragon     ; 2003c16
+  jmp near _card_dragon_roost     ; 2003c1b
+  jmp near _card_coat_of_arms     ; 2003c20
+  jmp near _card_slith_predator     ; 2003c25
+  jmp near _card_slith_firewalker     ; 2003c2a
+  jmp near _card_slith_bloodletter     ; 2003c2f
+  jmp near _card_slith_strider     ; 2003c34
+  jmp near _card_ley_druid     ; 2003c39
+  jmp near _card_symbiotic_wurm     ; 2003c3e
+  jmp near _card_juggernaut     ; 2003c43
+  jmp near _card_makindi_shieldmate     ; 2003c48
+  jmp near _card_carven_caryatid     ; 2003c4d
+  jmp near _card_archenemy     ; 2003c52
+  jmp near _card_martyrs_bond     ; 2003c57
+  jmp near _card_soul_snare     ; 2003c5c
+  jmp near _card_avatar_of_slaughter     ; 2003c61
+  jmp near _card_scavenging_ooze     ; 2003c66
+  jmp near _card_animar_soul_of_elements     ; 2003c6b
+  jmp near _card_kaalia_of_the_vast     ; 2003c70
+  jmp near _card_riku_of_two_reflections     ; 2003c75
+  jmp near _card_the_mimeoplasm     ; 2003c7a
+  jmp near _card_flusterstorm     ; 2003c7f
+  jmp near _card_ruhan_of_the_fomori     ; 2003c84
+  jmp near _card_edric_spymaster_of_trest     ; 2003c89
+  jmp near _card_crescendo_of_war     ; 2003c8e
+  jmp near _card_vengeful_pharaoh     ; 2003c93
+  jmp near _card_adaptive_automaton     ; 2003c98
+  jmp near _card_angelic_destiny     ; 2003c9d
+  jmp near _card_aegis_angel     ; 2003ca2
+  jmp near _card_archon_of_justice     ; 2003ca7
+  jmp near _card_call_to_the_grave     ; 2003cac
+  jmp near _card_chandra_firebrand     ; 2003cb1
+  jmp near _card_doubling_chant     ; 2003cb6
+  jmp near _card_druidic_satchel     ; 2003cbb
+  jmp near _card_garruk_primal_hunter     ; 2003cc0
+  jmp near _card_gideons_avenger     ; 2003cc5
+  jmp near _card_griffin_rider     ; 2003cca
+  jmp near _card_hideous_visage     ; 2003ccf
+  jmp near _card_hunters_insight     ; 2003cd4
+  jmp near _card_jace_memory_adept     ; 2003cd9
+  jmp near _card_jaces_archivist     ; 2003cde
+  jmp near _card_lord_of_the_unreal     ; 2003ce3
+  jmp near _card_phantasmal_image     ; 2003ce8
+  jmp near _card_primordial_hydra     ; 2003ced
+  jmp near _card_rites_of_flourishing     ; 2003cf2
+  jmp near _card_rune_scarred_demon     ; 2003cf7
+  jmp near _card_skinshifter     ; 2003cfc
+  jmp near _card_stonehorn_dignitary     ; 2003d01
+  jmp near _card_timely_reinforcements     ; 2003d06
+  jmp near _card_worldslayer     ; 2003d0b
+  jmp near _card_swords_to_plowshares     ; 2003d10
+  jmp near _card_planechase     ; 2003d15
+  jmp near _card_vish_kal_blood_arbiter     ; 2003d1a
+  jmp near _card_nim_deathmantle     ; 2003d1f
+  jmp near _card_illusion_token     ; 2003d24
+  jmp near _card_melira_sylvok_outcast     ; 2003d29
+  jmp near _card_fog     ; 2003d2e
+  jmp near _card_lady_evangela     ; 2003d33
+  jmp near _card_angus_mackenzie     ; 2003d38
+  jmp near _card_horn_of_deafening     ; 2003d3d
+  jmp near _card_maze_of_ith     ; 2003d42
+  jmp near _card_olivia_voldaren     ; 2003d47
+  jmp near _card_woodland_cemetery     ; 2003d4c
+  jmp near _card_mikaeus_the_lunarch     ; 2003d51
+  jmp near _card_isolated_chapel     ; 2003d56
+  jmp near _card_clifftop_retreat     ; 2003d5b
+  jmp near _card_hinterland_harbor     ; 2003d60
+  jmp near _card_sulfur_falls     ; 2003d65
+  jmp near _card_mayor_of_avabruck     ; 2003d6a
+  jmp near _card_howlpack_alpha     ; 2003d6f
+  jmp near _card_wolf_token     ; 2003d74
+  jmp near _card_garruk_relentless     ; 2003d79
+  jmp near _card_garruk_the_veil_cursed     ; 2003d7e
+  jmp near _card_divine_reckoning     ; 2003d83
+  jmp near _card_mentor_of_the_meek     ; 2003d88
+  jmp near _card_snapcaster_mage     ; 2003d8d
+  jmp near _card_ghost_quarter     ; 2003d92
+  jmp near _card_rooftop_storm     ; 2003d97
+  jmp near _card_stitchers_apprentice     ; 2003d9c
+  jmp near _card_bloodgift_demon     ; 2003da1
+  jmp near _card_skaab_ruinator     ; 2003da6
+  jmp near _card_nuisance_engine     ; 2003dab
+  jmp near _card_tolsimir_wolfblood     ; 2003db0
+  jmp near _card_imperious_perfect     ; 2003db5
+  jmp near _card_oonas_blackguard     ; 2003dba
+  jmp near _card_diregraf_ghoul     ; 2003dbf
+  jmp near _card_endless_ranks_of_the_dead     ; 2003dc4
+  jmp near _card_moans_of_the_unhallowed     ; 2003dc9
+  jmp near _card_reaper_from_the_abyss     ; 2003dce
+  jmp near _card_skirsdag_high_priest     ; 2003dd3
+  jmp near _card_devils_play     ; 2003dd8
+  jmp near _card_wildblood_pack     ; 2003ddd
+  jmp near _card_instigator_gang     ; 2003de2
+  jmp near _card_essence_of_the_wild     ; 2003de7
+  jmp near _card_moonmist     ; 2003dec
+  jmp near _card_grimgrin_corpse_born     ; 2003df1
+  jmp near _card_mindshrieker     ; 2003df6
+  jmp near _card_army_of_the_damned     ; 2003dfb
+  jmp near _card_champion_of_the_parish     ; 2003e00
+  jmp near _card_undead_alchemist     ; 2003e05
+  jmp near _card_stuffy_doll     ; 2003e0a
+  jmp near _card_oona_queen_of_the_fae     ; 2003e0f
+  jmp near _card_mutavault     ; 2003e14
+  jmp near _card_mutavault_animated     ; 2003e19
+  jmp near _card_cackling_counterpart     ; 2003e1e
+  jmp near _card_clone     ; 2003e23
+  jmp near _card_sliver_queen     ; 2003e28
+  jmp near _card_fire_elemental     ; 2003e2d
+  jmp near _card_pithing_needle     ; 2003e32
+  jmp near _card_bloodline_keeper     ; 2003e37
+  jmp near _card_lord_of_lineage     ; 2003e3c
+  jmp near _card_geist_honored_monk     ; 2003e41
+  jmp near _card_doomed_traveller     ; 2003e46
+  jmp near _card_deranged_assistant     ; 2003e4b
+  jmp near _card_intangible_virtue     ; 2003e50
+  jmp near _card_forbidden_alchemy     ; 2003e55
+  jmp near _card_unburial_rites     ; 2003e5a
+  jmp near _card_blasphemous_act     ; 2003e5f
+  jmp near _card_rakish_heir     ; 2003e64
+  jmp near _card_vampire_outcasts     ; 2003e69
+  jmp near _card_bloodlord_of_vaasgoth     ; 2003e6e
+  jmp near _card_crown_of_empires     ; 2003e73
+  jmp near _card_scepter_of_empires     ; 2003e78
+  jmp near _card_throne_of_empires     ; 2003e7d
+  jmp near _card_sedris_the_traitor_king     ; 2003e82
+  jmp near _card_mayael_the_anima     ; 2003e87
+  jmp near _card_grimoire_of_the_dead     ; 2003e8c
+  jmp near _card_jhoira_of_the_ghitu     ; 2003e91
+  jmp near _card_back_from_the_brink     ; 2003e96
+  jmp near _card_past_in_flames     ; 2003e9b
+  jmp near _card_cloistered_youth     ; 2003ea0
+  jmp near _card_unholy_fiend     ; 2003ea5
+  jmp near _card_mausoleum_guard     ; 2003eaa
+  jmp near _card_midnight_haunting     ; 2003eaf
+  jmp near _card_selfless_cathar     ; 2003eb4
+  jmp near _card_silverchase_fox     ; 2003eb9
+  jmp near _card_lost_in_the_mist     ; 2003ebe
+  jmp near _card_skaab_goliath     ; 2003ec3
+  jmp near _card_stitched_drake     ; 2003ec8
+  jmp near _card_altars_reap     ; 2003ecd
+  jmp near _card_disciple_of_griselbrand     ; 2003ed2
+  jmp near _card_unbreathing_horde     ; 2003ed7
+  jmp near _card_balefire_dragon     ; 2003edc
+  jmp near _card_brimstone_volley     ; 2003ee1
+  jmp near _card_charmbreaker_devils     ; 2003ee6
+  jmp near _card_falkenrath_marauders     ; 2003eeb
+  jmp near _card_vampiric_fury     ; 2003ef0
+  jmp near _card_telepathy     ; 2003ef5
+  jmp near _card_bramblecrush     ; 2003efa
+  jmp near _card_caravan_vigil     ; 2003eff
+  jmp near _card_creeping_renaissance     ; 2003f04
+  jmp near _card_elder_of_laurels     ; 2003f09
+  jmp near _card_festerhide_boar     ; 2003f0e
+  jmp near _card_full_moons_rise     ; 2003f13
+  jmp near _card_gutter_grime     ; 2003f18
+  jmp near _card_hamlet_captain     ; 2003f1d
+  jmp near _card_kessig_cagebreakers     ; 2003f22
+  jmp near _card_make_a_wish     ; 2003f27
+  jmp near _card_moldgraf_monstrosity     ; 2003f2c
+  jmp near _card_parallel_lives     ; 2003f31
+  jmp near _card_splinterfright     ; 2003f36
+  jmp near _card_geist_of_saint_traft     ; 2003f3b
+  jmp near _card_inquisitors_flail     ; 2003f40
+  jmp near _card_gavony_township     ; 2003f45
+  jmp near _card_kessig_wolf_run     ; 2003f4a
+  jmp near _card_momir_vig     ; 2003f4f
+  jmp near _card_nantuko_husk     ; 2003f54
+  jmp near _card_tree_of_redemption     ; 2003f59
+  jmp near _card_fork     ; 2003f5e
+  jmp near _card_reiterate     ; 2003f63
+  jmp near _card_ohran_viper     ; 2003f68
+  jmp near _card_heartless_summoning     ; 2003f6d
+  jmp near _card_perilous_myr     ; 2003f72
+  jmp near _card_vesuvan_shapeshifter     ; 2003f77
+  jmp near _card_teferi_mage_of_zhalfir     ; 2003f7c
+  jmp near _card_mystical_teachings     ; 2003f81
+  jmp near _card_liliana_of_the_veil     ; 2003f86
+  jmp near _card_epochrasite     ; 2003f8b
+  jmp near _card_aeon_chronicler     ; 2003f90
+  jmp near _card_merchant_scroll     ; 2003f95
+  jmp near _card_rock_hydra     ; 2003f9a
+  jmp near _card_river_kelpie     ; 2003f9f
+  jmp near _card_scion_of_oona     ; 2003fa4
+  jmp near _card_obsidian_battle_axe     ; 2003fa9
+  jmp near _card_leafcrown_elder     ; 2003fae
+  jmp near _card_greater_gargadon     ; 2003fb3
+  jmp near _card_bosk_banneret     ; 2003fb8
+  jmp near _card_bringer_of_the_red_dawn     ; 2003fbd
+  jmp near _card_bringer_of_the_white_dawn     ; 2003fc2
+  jmp near _card_deadwood_treefolk     ; 2003fc7
+  jmp near _card_heartwood_storyteller     ; 2003fcc
+  jmp near _card_alabaster_mage     ; 2003fd1
+  jmp near _card_azure_mage     ; 2003fd6
+  jmp near _card_jade_mage     ; 2003fdb
+  jmp near _card_crimson_mage     ; 2003fe0
+  jmp near _card_onyx_mage     ; 2003fe5
+  jmp near _card_angels_mercy     ; 2003fea
+  jmp near _card_arbalest_elite     ; 2003fef
+  jmp near _card_auramancer     ; 2003ff4
+  jmp near _card_benalish_veteran     ; 2003ff9
+  jmp near _card_divine_favor     ; 2003ffe
+  jmp near _card_grand_abolisher     ; 2004003
+  jmp near _card_guardians_pledge     ; 2004008
+  jmp near _card_personal_sanctuary     ; 200400d
+  jmp near _card_pride_guardian     ; 2004012
+  jmp near _card_spirit_mantle     ; 2004017
+  jmp near _card_stave_off     ; 200401c
+  jmp near _card_aven_fleetwing     ; 2004021
+  jmp near _card_belltower_sphinx     ; 2004026
+  jmp near _card_chasm_drake     ; 200402b
+  jmp near _card_djinn_of_wishes     ; 2004030
+  jmp near _card_frost_breath     ; 2004035
+  jmp near _card_master_thief     ; 200403a
+  jmp near _card_merfolk_mesmerist     ; 200403f
+  jmp near _card_mind_unbound     ; 2004044
+  jmp near _card_skywinder_drake     ; 2004049
+  jmp near _card_sphinx_of_uthuun     ; 200404e
+  jmp near _card_turn_into_frog     ; 2004053
+  jmp near _card_visions_of_beyond     ; 2004058
+  jmp near _card_bloodrage_vampire     ; 200405d
+  jmp near _card_brink_of_disaster     ; 2004062
+  jmp near _card_dark_favor     ; 2004067
+  jmp near _card_devouring_swarm     ; 200406c
+  jmp near _card_distress     ; 2004071
+  jmp near _card_monomania     ; 2004076
+  jmp near _card_sorins_vengeance     ; 200407b
+  jmp near _card_taste_of_blood     ; 2004080
+  jmp near _card_wring_flesh     ; 2004085
+  jmp near _card_circle_of_flame     ; 200408a
+  jmp near _card_flameblast_dragon     ; 200408f
+  jmp near _card_furyborn_hellkite     ; 2004094
+  jmp near _card_goblin_arsonist     ; 2004099
+  jmp near _card_tormented     ; 200409e
+  jmp near _card_goblin_bangchuckers     ; 20040a3
+  jmp near _card_goblin_fireslinger     ; 20040a8
+  jmp near _card_gorehorn_minotaur     ; 20040ad
+  jmp near _card_scrambleverse     ; 20040b2
+  jmp near _card_stormblood_berserker     ; 20040b7
+  jmp near _card_tectonic_rift     ; 20040bc
+  jmp near _card_warstorm_surge     ; 20040c1
+  jmp near _card_arachnus_spinner     ; 20040c6
+  jmp near _card_arachnus_web     ; 20040cb
+  jmp near _card_arrest     ; 20040d0
+  jmp near _card_faiths_fetters     ; 20040d5
+  jmp near _card_bountiful_harvest     ; 20040da
+  jmp near _card_carnage_wurm     ; 20040df
+  jmp near _card_dungrove_elder     ; 20040e4
+  jmp near _card_garruks_horde     ; 20040e9
+  jmp near _card_brimaz_king_of_oreskos     ; 20040ee
+  jmp near _card_stingerfling_spider     ; 20040f3
+  jmp near _card_trollhide     ; 20040f8
+  jmp near _card_crumbling_colossus     ; 20040fd
+  jmp near _card_greatsword     ; 2004102
+  jmp near _card_kite_shield     ; 2004107
+  jmp near _card_nissas_renewal     ; 200410c
+  jmp near _card_swiftfoot_boots     ; 2004111
+  jmp near _card_buried_ruin     ; 2004116
+  jmp near _card_coastal_piracy     ; 200411b
+  jmp near _card_shrine_of_boundless_growth     ; 2004120
+  jmp near _card_shrine_of_burning_rage     ; 2004125
+  jmp near _card_shrine_of_limitless_power     ; 200412a
+  jmp near _card_shrine_of_loyal_legions     ; 200412f
+  jmp near _card_shrine_of_piercing_vision     ; 2004134
+  jmp near _card_lead_the_stampede     ; 2004139
+  jmp near _card_slagstorm     ; 200413e
+  jmp near _card_court_hussar     ; 2004143
+  jmp near _card_miren_the_moaning_well     ; 2004148
+  jmp near _card_profane_command     ; 200414d
+  jmp near _card_lifelink     ; 2004152
+  jmp near _card_levitation     ; 2004157
+  jmp near _card_child_of_night     ; 200415c
+  jmp near _card_craw_wurm     ; 2004161
+  jmp near _card_abuna_acolyte     ; 2004166
+  jmp near _card_accorder_shield     ; 200416b
+  jmp near _card_acid_web_spider     ; 2004170
+  jmp near _card_argent_sphynx     ; 2004175
+  jmp near _card_arc_trail     ; 200417a
+  jmp near _card_asceticism     ; 200417f
+  jmp near _card_assault_strobe     ; 2004184
+  jmp near _card_auriok_edgewright     ; 2004189
+  jmp near _card_auriok_replica     ; 200418e
+  jmp near _card_auriok_sunchaser     ; 2004193
+  jmp near _card_barbed_battlegear     ; 2004198
+  jmp near _card_barrage_ogre     ; 200419d
+  jmp near _card_bellowing_tanglewurm     ; 20041a2
+  jmp near _card_fearsome_temper     ; 20041a7
+  jmp near _card_blade_tribe_berserkers     ; 20041ac
+  jmp near _card_bladed_pinons     ; 20041b1
+  jmp near _card_bleak_coven_vampires     ; 20041b6
+  jmp near _card_marshmist_titan     ; 20041bb
+  jmp near _card_blistergrub     ; 20041c0
+  jmp near _card_bloodshoot_trainee     ; 20041c5
+  jmp near _card_blunt_the_assault     ; 20041ca
+  jmp near _card_bonds_of_quicksilver     ; 20041cf
+  jmp near _card_carnifex_demon     ; 20041d4
+  jmp near _card_carrion_call     ; 20041d9
+  jmp near _card_cerebral_eruption     ; 20041de
+  jmp near _card_chimeric_mass     ; 20041e3
+  jmp near _card_clone_shell     ; 20041e8
+  jmp near _card_copperhorn_scout     ; 20041ed
+  jmp near _card_corpse_cur     ; 20041f2
+  jmp near _card_corrupted_harvester     ; 20041f7
+  jmp near _card_culling_dais     ; 20041fc
+  jmp near _card_darkslick_drake     ; 2004201
+  jmp near _card_darksteel_axe     ; 2004206
+  jmp near _card_darksteel_juggernaut     ; 200420b
+  jmp near _card_darksteel_sentinel     ; 2004210
+  jmp near _card_dispense_justice     ; 2004215
+  jmp near _card_disperse     ; 200421a
+  jmp near _card_dissipation_field     ; 200421f
+  jmp near _card_dross_hopper     ; 2004224
+  jmp near _card_embersmith     ; 2004229
+  jmp near _card_darksteel_myr     ; 200422e
+  jmp near _card_engulfing_slagwurm     ; 2004233
+  jmp near _card_exsanguinate     ; 2004238
+  jmp near _card_ezuris_archers     ; 200423d
+  jmp near _card_echo_circlet     ; 2004242
+  jmp near _card_ferrovore     ; 2004247
+  jmp near _card_flameborn_hellion     ; 200424c
+  jmp near _card_flesh_allergy     ; 2004251
+  jmp near _card_flight_spellbomb     ; 2004256
+  jmp near _card_fulgent_distraction     ; 200425b
+  jmp near _card_fume_spitter     ; 2004260
+  jmp near _card_furnace_celebration     ; 2004265
+  jmp near _card_galvanic_blast     ; 200426a
+  jmp near _card_geth_lord_of_the_vault     ; 200426f
+  jmp near _card_glimmerpoint_stag     ; 2004274
+  jmp near _card_glint_hawk_idol     ; 2004279
+  jmp near _card_goblin_gaveleer     ; 200427e
+  jmp near _card_golden_urn     ; 2004283
+  jmp near _card_golem_artisan     ; 2004288
+  jmp near _card_golem_foundry     ; 200428d
+  jmp near _card_pentavus     ; 2004292
+  jmp near _card_tetravite     ; 2004297
+  jmp near _card_golems_heart     ; 200429c
+  jmp near _card_grand_architect     ; 20042a1
+  jmp near _card_grasp_of_darkness     ; 20042a6
+  jmp near _card_grindclock     ; 20042ab
+  jmp near _card_halt_order     ; 20042b0
+  jmp near _card_heavy_arbalest     ; 20042b5
+  jmp near _card_hoard_smelter_dragon     ; 20042ba
+  jmp near _card_horizon_spellbomb     ; 20042bf
+  jmp near _card_ichor_rats     ; 20042c4
+  jmp near _card_indomitable_archangel     ; 20042c9
+  jmp near _card_inexorable_tide     ; 20042ce
+  jmp near _card_infiltration_lens     ; 20042d3
+  jmp near _card_instill_infection     ; 20042d8
+  jmp near _card_kembas_skyguard     ; 20042dd
+  jmp near _card_kemba_kha_regent     ; 20042e2
+  jmp near _card_kuldotha_phoenix     ; 20042e7
+  jmp near _card_liege_of_the_tangle     ; 20042ec
+  jmp near _card_lifesmith     ; 20042f1
+  jmp near _card_liquidmetal_coating     ; 20042f6
+  jmp near _card_livewire_lash     ; 20042fb
+  jmp near _card_lumengrid_drake     ; 2004300
+  jmp near _card_melt_terrain     ; 2004305
+  jmp near _card_memoricide   ; 200430a
+  jmp near _card_molder_beast     ; 200430f
+  jmp near _card_molten_psyche     ; 2004314
+  jmp near _card_moriok_replica     ; 2004319
+  jmp near _card_myr_propagator     ; 200431e
+  jmp near _card_myr_reservoir     ; 2004323
+  jmp near _card_myrsmith     ; 2004328
+  jmp near _card_necrogen_censer     ; 200432d
+  jmp near _card_necrogen_scudder     ; 2004332
+  jmp near _card_necropede     ; 2004337
+  jmp near _card_neurok_invisimancer     ; 200433c
+  jmp near _card_neurok_replica     ; 2004341
+  jmp near _card_nihil_spellbomb     ; 2004346
+  jmp near _card_ogre_geargrabber     ; 200434b
+  jmp near _card_origin_spellbomb     ; 2004350
+  jmp near _card_oxidda_daredevil     ; 2004355
+  jmp near _card_ali_from_cairo     ; 200435a
+  jmp near _card_painful_quandary     ; 200435f
+  jmp near _card_painsmith     ; 2004364
+  jmp near _card_panic_spellbomb     ; 2004369
+  jmp near _card_platinum_emperion     ; 200436e
+  jmp near _card_precursor_golem     ; 2004373
+  jmp near _card_prototype_portal     ; 2004378
+  jmp near _card_psychic_miasma     ; 200437d
+  jmp near _card_quicksilver_gargantuan     ; 2004382
+  jmp near _card_razor_hippogriff     ; 2004387
+  jmp near _card_relic_putrescence     ; 200438c
+  jmp near _card_revoke_existence     ; 2004391
+  jmp near _card_riddlesmith     ; 2004396
+  jmp near _card_rust_tick     ; 200439b
+  jmp near _card_rusted_relic     ; 20043a0
+  jmp near _card_saberclaw_golem     ; 20043a5
+  jmp near _card_salvage_scout     ; 20043aa
+  jmp near _card_scrapdiver_serpent     ; 20043af
+  jmp near _card_screeching_silcaw     ; 20043b4
+  jmp near _card_seize_the_initiative     ; 20043b9
+  jmp near _card_slice_in_twain     ; 20043be
+  jmp near _card_snapsail_glider     ; 20043c3
+  jmp near _card_soul_parry     ; 20043c8
+  jmp near _card_steady_progress     ; 20043cd
+  jmp near _card_stoic_rebuttal     ; 20043d2
+  jmp near _card_strata_scythe     ; 20043d7
+  jmp near _card_strider_harness     ; 20043dc
+  jmp near _card_sunblast_angel     ; 20043e1
+  jmp near _card_sunspear_shikari     ; 20043e6
+  jmp near _card_sylvok_lifestaff     ; 20043eb
+  jmp near _card_sylvok_replica     ; 20043f0
+  jmp near _card_tangle_angler     ; 20043f5
+  jmp near _card_steel_hellkite     ; 20043fa
+  jmp near _card_tel_jilad_defiance     ; 20043ff
+  jmp near _card_epharas_radiance     ; 2004404
+  jmp near _card_tower_of_calamities     ; 2004409
+  jmp near _card_trigon_of_corruption     ; 200440e
+  jmp near _card_trigon_of_infestation     ; 2004413
+  jmp near _card_trigon_of_mending     ; 2004418
+  jmp near _card_trigon_of_rage     ; 200441d
+  jmp near _card_trigon_of_thought     ; 2004422
+  jmp near _card_true_conviction     ; 2004427
+  jmp near _card_tunnel_ignus     ; 200442c
+  jmp near _card_turn_aside     ; 2004431
+  jmp near _card_turn_to_slag     ; 2004436
+  jmp near _card_untamed_might     ; 200443b
+  jmp near _card_vault_skyward     ; 2004440
+  jmp near _card_vedalken_certarch     ; 2004445
+  jmp near _card_vensers_journal     ; 200444a
+  jmp near _card_vigil_for_the_lost     ; 200444f
+  jmp near _card_viridian_revel     ; 2004454
+  jmp near _card_volition_reins     ; 2004459
+  jmp near _card_vulshok_heartstoker     ; 200445e
+  jmp near _card_vulshok_replica     ; 2004463
+  jmp near _card_wall_of_tanglecord     ; 2004468
+  jmp near _card_whitesuns_passage     ; 200446d
+  jmp near _card_wing_puncture     ; 2004472
+  jmp near _card_withstand_death     ; 2004477
+  jmp near _card_random_singleton_deck     ; 200447c
+  jmp near _card_accorder_paladin     ; 2004481
+  jmp near _card_banishment_decree     ; 2004486
+  jmp near _card_bladed_sentinel     ; 200448b
+  jmp near _card_blisterstick_shaman     ; 2004490
+  jmp near _card_bonehoard     ; 2004495
+  jmp near _card_brass_squire     ; 200449a
+  jmp near _card_burn_the_impure     ; 200449f
+  jmp near _card_caustic_hound     ; 20044a4
+  jmp near _card_chocking_fumes     ; 20044a9
+  jmp near _card_concussive_bolt     ; 20044ae
+  jmp near _card_consecrated_sphinx     ; 20044b3
+  jmp near _card_contested_war_zone     ; 20044b8
+  jmp near _card_copper_carapace     ; 20044bd
+  jmp near _card_core_prowler     ; 20044c2
+  jmp near _card_corrupted_conscience     ; 20044c7
+  jmp near _card_crush     ; 20044cc
+  jmp near _card_cryptoplasm     ; 20044d1
+  jmp near _card_darksteel_plate     ; 20044d6
+  jmp near _card_decimator_web     ; 20044db
+  jmp near _card_distant_memories     ; 20044e0
+  jmp near _card_dross_ripper     ; 20044e5
+  jmp near _card_fangren_marauder     ; 20044ea
+  jmp near _card_evanescent_intellect     ; 20044ef
+  jmp near _card_claim_of_erebos     ; 20044f4
+  jmp near _card_frantic_salvage     ; 20044f9
+  jmp near _card_fuel_for_the_cause     ; 20044fe
+  jmp near _card_gnathosaur     ; 2004503
+  jmp near _card_gore_vassal     ; 2004508
+  jmp near _card_gruesome_encore     ; 200450d
+  jmp near _card_gust_skimmer     ; 2004512
+  jmp near _card_hellkite_igniter     ; 2004517
+  jmp near _card_horryfing_revelation     ; 200451c
+  jmp near _card_into_the_core     ; 2004521
+  jmp near _card_kuldotha_flamefiend     ; 2004526
+  jmp near _card_kuldotha_ringleader     ; 200452b
+  jmp near _card_magnetic_mine     ; 2004530
+  jmp near _card_masters_call     ; 2004535
+  jmp near _card_metallic_mastery     ; 200453a
+  jmp near _card_mirran_mettle     ; 200453f
+  jmp near _card_mirran_spy     ; 2004544
+  jmp near _card_mirrorworks     ; 2004549
+  jmp near _card_mitotic_manipulation     ; 200454e
+  jmp near _card_morbid_plunder     ; 2004553
+  jmp near _card_myr_sire     ; 2004558
+  jmp near _card_myr_turbine     ; 200455d
+  jmp near _card_myr_welder     ; 2004562
+  jmp near _card_nested_ghoul     ; 2004567
+  jmp near _card_neurok_commando     ; 200456c
+  jmp near _card_oculus     ; 2004571
+  jmp near _card_peace_strider     ; 2004576
+  jmp near _card_phyresis     ; 200457b
+  jmp near _card_satyr_firedancer     ; 2004580
+  jmp near _card_horror_token     ; 2004585
+  jmp near _card_phyrexian_rebirth     ; 200458a
+  jmp near _card_pierce_strider     ; 200458f
+  jmp near _card_piston_sledge     ; 2004594
+  jmp near _card_pistus_strike     ; 2004599
+  jmp near _format_manacost_into_global_allpurpose_buffer     ; 200459e
+  jmp near _card_plaguemaw_beast     ; 20045a3
+  jmp near _card_praetors_counsel     ; 20045a8
+  jmp near _card_noble_quarry     ; 20045ad
+  jmp near _card_psychosis_crawler     ; 20045b2
+  jmp near _card_quicksilve_geyser     ; 20045b7
+  jmp near _card_rally_the_forces     ; 20045bc
+  jmp near _card_rusted_slasher     ; 20045c1
+  jmp near _card_serum_raker     ; 20045c6
+  jmp near _card_shimmer_myr     ; 20045cb
+  jmp near _card_shriekhorn     ; 20045d0
+  jmp near _card_skinwing     ; 20045d5
+  jmp near _card_spin_engine     ; 20045da
+  jmp near _card_spiraling_duelist     ; 20045df
+  jmp near _card_spire_serpent     ; 20045e4
+  jmp near _card_spread_the_sickness     ; 20045e9
+  jmp near _card_strandwalker     ; 20045ee
+  jmp near _card_tangle_hulk     ; 20045f3
+  jmp near _card_training_drone     ; 20045f8
+  jmp near _card_unnatural_predation     ; 20045fd
+  jmp near _card_vedalken_anatomist     ; 2004602
+  jmp near _card_vedalken_infuser     ; 2004607
+  jmp near _card_viridian_claw     ; 200460c
+  jmp near _card_virulent_wound     ; 2004611
+  jmp near _card_act_of_aggression     ; 2004616
+  jmp near _card_apostles_blessing     ; 200461b
+  jmp near _card_arm_with_aether     ; 2004620
+  jmp near _card_artillerize     ; 2004625
+  jmp near _card_auriok_survivors     ; 200462a
+  jmp near _card_karametras_favor     ; 200462f
+  jmp near _card_blind_zealot     ; 2004634
+  jmp near _card_blinding_souleater     ; 2004639
+  jmp near _card_brutalizer_exarch     ; 200463e
+  jmp near _card_caged_sun     ; 2004643
+  jmp near _card_caress_of_phyrexia     ; 2004648
+  jmp near _card_chained_throatseeker     ; 200464d
+  jmp near _card_coa_special_effect     ; 2004652
+  jmp near _card_chancellor_of_the_annex     ; 2004657
+  jmp near _card_chancellor_of_the_forge     ; 200465c
+  jmp near _card_chancellor_of_the_spires     ; 2004661
+  jmp near _card_conversion_chamber     ; 2004666
+  jmp near _card_corrosive_gale     ; 200466b
+  jmp near _card_corrupted_resolve     ; 2004670
+  jmp near _card_darksteel_relic     ; 2004675
+  jmp near _card_death_hood_cobra     ; 200467a
+  jmp near _card_defensive_stance     ; 200467f
+  jmp near _card_dementia_bat     ; 2004684
+  jmp near _card_despise     ; 2004689
+  jmp near _card_due_respect     ; 200468e
+  jmp near _card_enslave     ; 2004693
+  jmp near _card_card_entomber_exarch     ; 2004698
+  jmp near _card_etched_monstrosity     ; 200469d
+  jmp near _card_exclusion_ritual     ; 20046a2
+  jmp near _card_fallen_ferromancer     ; 20046a7
+  jmp near _card_forced_worship     ; 20046ac
+  jmp near _card_furnace_scamp     ; 20046b1
+  jmp near _card_glissas_scorn     ; 20046b6
+  jmp near _card_glistening_oil     ; 20046bb
+  jmp near _card_greenhilt_trainee     ; 20046c0
+  jmp near _card_gremlin_mine     ; 20046c5
+  jmp near _card_grim_affliction     ; 20046ca
+  jmp near _card_gut_shot     ; 20046cf
+  jmp near _card_ichor_explosion     ; 20046d4
+  jmp near _card_immolating_souleater     ; 20046d9
+  jmp near _card_impaler_shrike     ; 20046de
+  jmp near _card_inquisitor_exarch     ; 20046e3
+  jmp near _card_insatiable_souleater     ; 20046e8
+  jmp near _card_invader_parasite     ; 20046ed
+  jmp near _card_jor_kadeen_the_prevailer     ; 20046f2
+  jmp near _card_kiln_walker     ; 20046f7
+  jmp near _card_leeching_bite     ; 20046fc
+  jmp near _card_lifes_finale     ; 2004701
+  jmp near _card_marrow_shards     ; 2004706
+  jmp near _card_maul_splicer     ; 200470b
+  jmp near _card_mindcrank     ; 2004710
+  jmp near _card_mindculling     ; 2004715
+  jmp near _card_mortis_dogs     ; 200471a
+  jmp near _card_mutagenic_growth     ; 200471f
+  jmp near _card_mycosynth_fiend     ; 2004724
+  jmp near _card_mycosynth_wellsprin     ; 2004729
+  jmp near _card_necropouncer     ; 200472e
+  jmp near _card_oracles_insight     ; 2004733
+  jmp near _card_omen_machine     ; 2004738
+  jmp near _card_parasitic_implant     ; 200473d
+  jmp near _card_pestilent_souleater     ; 2004742
+  jmp near _card_phyrexias_core     ; 2004747
+  jmp near _card_phyrexian_ingester     ; 200474c
+  jmp near _card_pith_driller     ; 2004751
+  jmp near _card_porcelain_legionnaire     ; 2004756
+  jmp near _card_praetors_grasp     ; 200475b
+  jmp near _card_priest_of_urabrask     ; 2004760
+  jmp near _card_pristine_talisman     ; 2004765
+  jmp near _card_psychic_barrier     ; 200476a
+  jmp near _card_rage_extractor     ; 200476f
+  jmp near _card_reaper_of_sheoldred     ; 2004774
+  jmp near _card_ruthless_invasion     ; 2004779
+  jmp near _card_scrapyard_salvo     ; 200477e
+  jmp near _card_sensor_splicer     ; 2004783
+  jmp near _card_shattered_angel     ; 2004788
+  jmp near _card_sickleslicer     ; 200478d
+  jmp near _card_slag_fiend     ; 2004792
+  jmp near _card_slash_panter     ; 2004797
+  jmp near _card_soul_conduit     ; 200479c
+  jmp near _card_courser_of_kruphix     ; 20047a1
+  jmp near _card_surge_node     ; 20047a6
+  jmp near _card_suture_priest     ; 20047ab
+  jmp near _card_thundering_thanadon     ; 20047b0
+  jmp near _card_tormentor_exarch     ; 20047b5
+  jmp near _card_revelation     ; 20047ba
+  jmp near _card_trespassing_souleater     ; 20047bf
+  jmp near _card_triumph_of_the_horde     ; 20047c4
+  jmp near _card_unwinding_clock     ; 20047c9
+  jmp near _card_vapor_snag     ; 20047ce
+  jmp near _card_victorious_destruction     ; 20047d3
+  jmp near _card_viridian_betrayers     ; 20047d8
+  jmp near _card_viridian_harvest     ; 20047dd
+  jmp near _card_war_report     ; 20047e2
+  jmp near _card_whipflare     ; 20047e7
+  jmp near _card_whispering_specter     ; 20047ec
+  jmp near _card_xenograft     ; 20047f1
+  jmp near _card_numbing_dose     ; 20047f6
+  jmp near _card_remember_the_fallen     ; 20047fb
+  jmp near _card_viral_drake     ; 2004800
+  jmp near _card_abattoir_ghoul     ; 2004805
+  jmp near _card_ancient_grudge     ; 200480a
+  jmp near _card_angel_of_flight_alabaster     ; 200480f
+  jmp near _card_angelic_overseer     ; 2004814
+  jmp near _card_armored_skaab     ; 2004819
+  jmp near _card_ashmouth_hound     ; 200481e
+  jmp near _card_avacynian_priest     ; 2004823
+  jmp near _card_bane_of_hanweir     ; 2004828
+  jmp near _card_battleground_geist     ; 200482d
+  jmp near _card_bitterheart_witch     ; 2004832
+  jmp near _card_bloodcrazed_neonate     ; 2004837
+  jmp near _card_bonds_of_faith     ; 200483c
+  jmp near _card_brain_weevil     ; 2004841
+  jmp near _card_bump_in_the_night     ; 2004846
+  jmp near _card_burning_vengeance     ; 200484b
+  jmp near _card_butchers_cleaver     ; 2004850
+  jmp near _card_cellar_door     ; 2004855
+  jmp near _card_civilized_scholar     ; 200485a
+  jmp near _card_claustrophobia     ; 200485f
+  jmp near _card_cobbled_wings     ; 2004864
+  jmp near _card_corpse_lunge     ; 2004869
+  jmp near _card_creepy_doll     ; 200486e
+  jmp near _card_curse_of_deaths_hold     ; 2004873
+  jmp near _card_curse_of_oblivion     ; 2004878
+  jmp near _card_curse_of_stalked_prey     ; 200487d
+  jmp near _card_curse_of_the_bloody_tome     ; 2004882
+  jmp near _card_curse_of_the_nightly_hunt     ; 2004887
+  jmp near _card_curse_of_the_pierced_heart     ; 200488c
+  jmp near _card_darkthicket_wolf     ; 2004891
+  jmp near _card_daybreak_ranger     ; 2004896
+  jmp near _card_dead_weight     ; 200489b
+  jmp near _card_delver_of_secrets     ; 20048a0
+  jmp near _card_demonmail_hauberk     ; 20048a5
+  jmp near _card_desperate_ravings     ; 20048aa
+  jmp near _card_dream_twist     ; 20048af
+  jmp near _card_elder_cathar     ; 20048b4
+  jmp near _card_elite_inquisitor     ; 20048b9
+  jmp near _card_twiddle     ; 20048be
+  jmp near _card_evil_twin     ; 20048c3
+  jmp near _card_falkenrath_noble     ; 20048c8
+  jmp near _card_feeling_of_dread     ; 20048cd
+  jmp near _card_feral_ridgewolf     ; 20048d2
+  jmp near _card_frightful_delusion     ; 20048d7
+  jmp near _card_furor_of_the_bitten     ; 20048dc
+  jmp near _card_gallows_warden     ; 20048e1
+  jmp near _card_galvanic_juggernaut     ; 20048e6
+  jmp near _card_gastaf_howler     ; 20048eb
+  jmp near _card_gastaf_shepherd     ; 20048f0
+  jmp near _card_geistcatchers_rig     ; 20048f5
+  jmp near _card_geistflame     ; 20048fa
+  jmp near _card_ghostly_possession     ; 20048ff
+  jmp near _card_ghoulcallers_bell     ; 2004904
+  jmp near _card_ghoulcallers_chant     ; 2004909
+  jmp near _card_ghoulraiser     ; 200490e
+  jmp near _card_gnaw_to_the_bone     ; 2004913
+  jmp near _card_grasp_of_phantoms     ; 2004918
+  jmp near _card_grave_bramble     ; 200491d
+  jmp near _card_graveyard_shovel     ; 2004922
+  jmp near _card_gruesome_deformity     ; 2004927
+  jmp near _card_hanweir_watchkeep     ; 200492c
+  jmp near _card_harvest_pyre     ; 2004931
+  jmp near _card_heretics_punishment     ; 2004936
+  jmp near _card_hollowhenge_scavenger     ; 200493b
+  jmp near _card_homicidal_brute     ; 2004940
+  jmp near _card_howlpack_of_estwald     ; 2004945
+  jmp near _card_hysterical_blindness     ; 200494a
+  jmp near _card_infernal_plunge     ; 200494f
+  jmp near _card_into_the_maw_of_hell     ; 2004954
+  jmp near _card_invisible_stalker     ; 2004959
+  jmp near _card_kessig_wolf2     ; 200495e
+  jmp near _card_laboratory_maniac     ; 2004963
+  jmp near _card_ludevics_test_subject     ; 2004968
+  jmp near _card_lumberknot     ; 200496d
+  jmp near _card_makeshift_mauler     ; 2004972
+  jmp near _card_manor_gargoyle     ; 2004977
+  jmp near _card_manor_skeleton     ; 200497c
+  jmp near _card_mask_of_avacyn     ; 2004981
+  jmp near _card_maw_of_the_mire     ; 2004986
+  jmp near _card_memorys_journey     ; 200498b
+  jmp near _card_mirror_mad_phantasm     ; 2004990
+  jmp near _card_moment_of_heroism     ; 2004995
+  jmp near _card_moorland_haunt     ; 200499a
+  jmp near _card_morkrut_banshee     ; 200499f
+  jmp near _card_mulch     ; 20049a4
+  jmp near _card_murder_of_crows     ; 20049a9
+  jmp near _card_nephalia_drownyard     ; 20049ae
+  jmp near _card_night_revelers     ; 20049b3
+  jmp near _card_night_terrors     ; 20049b8
+  jmp near _card_nightbirds_clutches     ; 20049bd
+  jmp near _card_nightfall_predator     ; 20049c2
+  jmp near _card_one_eyed_scarecrow     ; 20049c7
+  jmp near _card_orchard_spirit     ; 20049cc
+  jmp near _card_paraselne     ; 20049d1
+  jmp near _card_pitchburn_devils     ; 20049d6
+  jmp near _card_prey_upon     ; 20049db
+  jmp near _card_purify_the_grave     ; 20049e0
+  jmp near _card_rage_thrower     ; 20049e5
+  jmp near _card_rally_the_peasants     ; 20049ea
+  jmp near _card_rangers_guile     ; 20049ef
+  jmp near _card_rebuke     ; 20049f4
+  jmp near _card_rolling_temblor     ; 20049f9
+  jmp near _card_runechanters_pike     ; 20049fe
+  jmp near _card_runic_repetition     ; 2004a03
+  jmp near _card_scourge_of_geier_reach     ; 2004a08
+  jmp near _card_screeching_bat     ; 2004a0d
+  jmp near _card_selhoff_occultist     ; 2004a12
+  jmp near _card_card_sensory_deprivation     ; 2004a17
+  jmp near _card_sever_the_bloodline     ; 2004a1c
+  jmp near _card_sharpened_pitchfork     ; 2004a21
+  jmp near _card_sorceress_queen     ; 2004a26
+  jmp near _card_silent_departure     ; 2004a2b
+  jmp near _card_silver_inlaid_dagger     ; 2004a30
+  jmp near _card_skeletal_grimace     ; 2004a35
+  jmp near _card_skirsdag_cultist     ; 2004a3a
+  jmp near _card_slayer_of_the_wicked     ; 2004a3f
+  jmp near _card_smite_the_monstrous     ; 2004a44
+  jmp near _card_spare_from_evil     ; 2004a49
+  jmp near _card_spectral_flight     ; 2004a4e
+  jmp near _card_spectral_rider     ; 2004a53
+  jmp near _card_market_festival     ; 2004a58
+  jmp near _card_spiders_spawning     ; 2004a5d
+  jmp near _card_stalking_vampire     ; 2004a62
+  jmp near _card_stensia_bloodhall     ; 2004a67
+  jmp near _card_stony_silence     ; 2004a6c
+  jmp near _card_stromkirk_noble     ; 2004a71
+  jmp near _card_sturmgeist     ; 2004a76
+  jmp near _card_terror_of_kruin_pass     ; 2004a7b
+  jmp near _card_think_twice     ; 2004a80
+  jmp near _card_thraben_sentry     ; 2004a85
+  jmp near _card_traitorous_blood     ; 2004a8a
+  jmp near _card_travel_preparations     ; 2004a8f
+  jmp near _card_travelers_amulet     ; 2004a94
+  jmp near _card_trepanation_blade     ; 2004a99
+  jmp near _card_tribute_to_hunger     ; 2004a9e
+  jmp near _card_lightning_volley     ; 2004aa3
+  jmp near _card_ulvenwald_primordials     ; 2004aa8
+  jmp near _card_unruly_mob     ; 2004aad
+  jmp near _card_urgent_exorcism     ; 2004ab2
+  jmp near _card_vampire_interloper     ; 2004ab7
+  jmp near _card_village_bell_ringer     ; 2004abc
+  jmp near _card_witchbane_orb     ; 2004ac1
+  jmp near _card_wooden_stake     ; 2004ac6
+  jmp near _card_woodland_sleuth     ; 2004acb
+  jmp near _card_wreath_of_geists     ; 2004ad0
+  jmp near _card_UNUSED1     ; 2004ad5
+  jmp near _card_lantern_spirit     ; 2004ada
+  jmp near _card_spidery_grasp     ; 2004adf
+  jmp near _card_victim_of_night     ; 2004ae4
+  jmp near _card_village_cannibals     ; 2004ae9
+  jmp near _card_flagstones_of_trokair     ; 2004aee
+  jmp near _card_dual_nature     ; 2004af3
+  jmp near _card_parallax_wave     ; 2004af8
+  jmp near _card_maeltrom_wanderer     ; 2004afd
+  jmp near _card_khalni_hydra     ; 2004b02
+  jmp near _card_inquisition_of_kozilek     ; 2004b07
+  jmp near _card_kiln_fiend     ; 2004b0c
+  jmp near _card_time_walk     ; 2004b11
+  jmp near _card_stranglehold     ; 2004b16
+  jmp near _card_demonic_tutor     ; 2004b1b
+  jmp near _card_chaos_warp     ; 2004b20
+  jmp near _card_smother     ; 2004b25
+  jmp near _card_marshals_anthem     ; 2004b2a
+  jmp near _card_terastodon     ; 2004b2f
+  jmp near _card_drana_kalastrian_highborn     ; 2004b34
+  jmp near _card_emerge_unschated     ; 2004b39
+  jmp near _card_gigantomancer     ; 2004b3e
+  jmp near _card_nirkana_revenant     ; 2004b43
+  jmp near _card_nomads_assembly     ; 2004b48
+  jmp near _card_pestilence_demon     ; 2004b4d
+  jmp near _card_admonition_angel     ; 2004b52
+  jmp near _card_anowon_the_ruin_sage     ; 2004b57
+  jmp near _card_archon_of_redemption     ; 2004b5c
+  jmp near _card_grey_ogre     ; 2004b61
+  jmp near _card_kazuul_tyrant_of_the_cliffs     ; 2004b66
+  jmp near _card_sejiri_steppe     ; 2004b6b
+  jmp near _card_smoldering_spires     ; 2004b70
+  jmp near _card_wrexial_the_risen_deep     ; 2004b75
+  jmp near _card_aura_gnarlid     ; 2004b7a
+  jmp near _card_boar_umbra     ; 2004b7f
+  jmp near _card_bramblesnap     ; 2004b84
+  jmp near _card_deathless_angel     ; 2004b89
+  jmp near _card_distortion_strike     ; 2004b8e
+  jmp near _card_hedron_matrix     ; 2004b93
+  jmp near _card_caldera_hellion     ; 2004b98
+  jmp near _card_hellion_eruption     ; 2004b9d
+  jmp near _card_hyena_umbra     ; 2004ba2
+  jmp near _card_mul_daya_channelers     ; 2004ba7
+  jmp near _card_sphinx_of_magosi     ; 2004bac
+  jmp near _card_spider_umbra     ; 2004bb1
+  jmp near _card_watcher_sliver     ; 2004bb6
+  jmp near _card_anaba_spirit_crafter     ; 2004bbb
+  jmp near _card_enduring_ideal     ; 2004bc0
+  jmp near _card_raise_the_alarm     ; 2004bc5
+  jmp near _card_alley_grifters     ; 2004bca
+  jmp near _card_ancestral_mask     ; 2004bcf
+  jmp near _card_bargaining_table     ; 2004bd4
+  jmp near _card_bifurcate     ; 2004bd9
+  jmp near _card_black_market     ; 2004bde
+  jmp near _card_blood_oath     ; 2004be3
+  jmp near _card_bog_witch     ; 2004be8
+  jmp near _card_briar_patch     ; 2004bed
+  jmp near _card_cateran_brute     ; 2004bf2
+  jmp near _card_cateran_enforcer     ; 2004bf7
+  jmp near _card_cateran_kidnapper     ; 2004bfc
+  jmp near _card_cateran_overlord     ; 2004c01
+  jmp near _card_cateran_persuader     ; 2004c06
+  jmp near _card_cateran_slavers     ; 2004c0b
+  jmp near _card_battering_ram     ; 2004c10
+  jmp near _card_graveborn_token     ; 2004c15
+  jmp near _card_gather_the_townsfolk     ; 2004c1a
+  jmp near _card_increasing_devotion     ; 2004c1f
+  jmp near _card_loyal_cathar     ; 2004c24
+  jmp near _card_unhallowed_cathar     ; 2004c29
+  jmp near _card_ray_of_revelation     ; 2004c2e
+  jmp near _card_thraben_doomsayer     ; 2004c33
+  jmp near _card_increasing_confusion     ; 2004c38
+  jmp near _card_secrets_of_the_dead     ; 2004c3d
+  jmp near _card_curse_of_thirst     ; 2004c42
+  jmp near _card_gravecrawler     ; 2004c47
+  jmp near _card_ravenous_demon     ; 2004c4c
+  jmp near _card_archdemon_of_greed     ; 2004c51
+  jmp near _card_zombie_apocalypse     ; 2004c56
+  jmp near _card_faithless_looting     ; 2004c5b
+  jmp near _card_moonveil_dragon     ; 2004c60
+  jmp near _card_seance     ; 2004c65
+  jmp near _card_tovolars_magehunters     ; 2004c6a
+  jmp near _card_nearheath_stalker     ; 2004c6f
+  jmp near _card_ghoultreee     ; 2004c74
+  jmp near _card_hunger_of_the_howlpack     ; 2004c79
+  jmp near _card_scorned_villager     ; 2004c7e
+  jmp near _card_moonscarred_werewolf     ; 2004c83
+  jmp near _card_strangleroor_geist     ; 2004c88
+  jmp near _card_drogskol_reaver     ; 2004c8d
+  jmp near _card_falkenrath_aristocrat     ; 2004c92
+  jmp near _card_sorin_lord_of_innistrad     ; 2004c97
+  jmp near _card_thalia_guardian_of_thraben     ; 2004c9c
+  jmp near _card_silverpelt_werewolf     ; 2004ca1
+  jmp near _card_havengul_lich     ; 2004ca6
+  jmp near _card_chalice_of_life     ; 2004cab
+  jmp near _card_chalice_of_death     ; 2004cb0
+  jmp near _card_jar_of_eyeballs     ; 2004cb5
+  jmp near _card_cateran_summons     ; 2004cba
+  jmp near _card_cave_in     ; 2004cbf
+  jmp near _card_charisma     ; 2004cc4
+  jmp near _card_cho_arrim_alchemist     ; 2004cc9
+  jmp near _card_cho_arrim_bruiser     ; 2004cce
+  jmp near _card_cho_manno_revolutionary     ; 2004cd3
+  jmp near _card_common_cause     ; 2004cd8
+  jmp near _card_beguiler_of_wills     ; 2004cdd
+  jmp near _card_fiend_of_the_shadows     ; 2004ce2
+  jmp near _card_pyreheart_wolf     ; 2004ce7
+  jmp near _card_wolfbitten_captive     ; 2004cec
+  jmp near _card_krallenhorde_killer     ; 2004cf1
+  jmp near _card_huntmaster_of_the_fells     ; 2004cf6
+  jmp near _card_wurm_token     ; 2004cfb
+  jmp near _card_vorapede     ; 2004d00
+  jmp near _card_mikaeus_the_unhallowed     ; 2004d05
+  jmp near _card_immerwolf     ; 2004d0a
+  jmp near _card_vault_of_the_archangel     ; 2004d0f
+  jmp near _card_predator_ooze     ; 2004d14
+  jmp near _card_chant_of_skifsang     ; 2004d19
+  jmp near _card_deadly_allure     ; 2004d1e
+  jmp near _card_hellrider     ; 2004d23
+  jmp near _card_feed_the_pack     ; 2004d28
+  jmp near _card_warden_of_the_wall     ; 2004d2d
+  jmp near _card_helvault     ; 2004d32
+  jmp near _card_lingering_souls     ; 2004d37
+  jmp near _card_thought_scour     ; 2004d3c
+  jmp near _card_stromkirk_captain     ; 2004d41
+  jmp near _card_crackdown     ; 2004d46
+  jmp near _card_crumbling_sanctuary     ; 2004d4b
+  jmp near _card_custom_depot     ; 2004d50
+  jmp near _card_dawnstrider     ; 2004d55
+  jmp near _card_delraich     ; 2004d5a
+  jmp near _card_devout_witness     ; 2004d5f
+  jmp near _card_dust_bowl     ; 2004d64
+  jmp near _card_embargo     ; 2004d69
+  jmp near _card_enslaved_horror     ; 2004d6e
+  jmp near _card_eye_of_ramos     ; 2004d73
+  jmp near _card_forced_march     ; 2004d78
+  jmp near _card_sudden_disappearance     ; 2004d7d
+  jmp near _card_headless_skaab     ; 2004d82
+  jmp near _card_falkenrath_torturer     ; 2004d87
+  jmp near _card_geralfs_messanger     ; 2004d8c
+  jmp near _card_skirsdag_flayer     ; 2004d91
+  jmp near _card_cabal_coffers     ; 2004d96
+  jmp near _card_gruesome_discovery     ; 2004d9b
+  jmp near _card_increasing_ambition     ; 2004da0
+  jmp near _card_tragic_slip     ; 2004da5
+  jmp near _card_curse_of_bloodletting     ; 2004daa
+  jmp near _card_forge_devil     ; 2004daf
+  jmp near _card_heckling_fiend     ; 2004db4
+  jmp near _card_talons_of_falkenrath     ; 2004db9
+  jmp near _card_briarpack_alpha     ; 2004dbe
+  jmp near _card_gravetiller_wurm     ; 2004dc3
+  jmp near _card_increasing_savagery     ; 2004dc8
+  jmp near _card_diregraf_captain     ; 2004dcd
+  jmp near _card_elbrus_the_binding_blade     ; 2004dd2
+  jmp near _card_withengar_unbound     ; 2004dd7
+  jmp near _card_executioners_hood     ; 2004ddc
+  jmp near _card_heavy_mattock     ; 2004de1
+  jmp near _card_haunted_fengraf     ; 2004de6
+  jmp near _card_grim_backwoods     ; 2004deb
+  jmp near _card_asmira_holy_avenger     ; 2004df0
+  jmp near _card_staunch_defenders     ; 2004df5
+  jmp near _card_archangels_light     ; 2004dfa
+  jmp near _card_bar_the_door     ; 2004dff
+  jmp near _card_break_of_day     ; 2004e04
+  jmp near _card_burden_of_guilt     ; 2004e09
+  jmp near _card_curse_of_exhaustion     ; 2004e0e
+  jmp near _card_elgaud_inquisitor     ; 2004e13
+  jmp near _card_faiths_shield     ; 2004e18
+  jmp near _card_gavony_ironwright     ; 2004e1d
+  jmp near _card_hollowhenge_spirit     ; 2004e22
+  jmp near _card_midnight_guard     ; 2004e27
+  jmp near _card_niblis_of_the_mist     ; 2004e2c
+  jmp near _card_requiem_angel     ; 2004e31
+  jmp near _card_thunder_brute     ; 2004e36
+  jmp near _card_artful_dodge     ; 2004e3b
+  jmp near _card_thraben_heretic     ; 2004e40
+  jmp near _card_bone_to_ash     ; 2004e45
+  jmp near _card_call_to_the_kindred     ; 2004e4a
+  jmp near _card_chill_of_foreboding     ; 2004e4f
+  jmp near _card_dungeon_geist     ; 2004e54
+  jmp near _card_geralfs_mindcrusher     ; 2004e59
+  jmp near _card_griptide     ; 2004e5e
+  jmp near _card_mystic_retrieval     ; 2004e63
+  jmp near _card_niblis_of_the_breath     ; 2004e68
+  jmp near _card_relentless_skaabs     ; 2004e6d
+  jmp near _card_saving_grasp     ; 2004e72
+  jmp near _card_screeching_skaab     ; 2004e77
+  jmp near _card_shriekgeist     ; 2004e7c
+  jmp near _card_stormbound_geist     ; 2004e81
+  jmp near _card_tower_geist     ; 2004e86
+  jmp near _card_black_cat     ; 2004e8b
+  jmp near _card_chosen_of_markov     ; 2004e90
+  jmp near _card_curse_of_misfortunes     ; 2004e95
+  jmp near _card_deaths_caress     ; 2004e9a
+  jmp near _card_farbog_boneflinger     ; 2004e9f
+  jmp near _card_harrowing_journey     ; 2004ea4
+  jmp near _card_highborn_ghoul     ; 2004ea9
+  jmp near _card_sightless_ghoul     ; 2004eae
+  jmp near _card_reap_the_seagraf     ; 2004eb3
+  jmp near _card_spiteful_shadows     ; 2004eb8
+  jmp near _card_spell_burst     ; 2004ebd
+  jmp near _card_gaeas_cradle     ; 2004ec2
+  jmp near _card_tolarian_academy     ; 2004ec7
+  jmp near _card_undying_evil     ; 2004ecc
+  jmp near _card_wakedancer     ; 2004ed1
+  jmp near _card_alpha_brawl     ; 2004ed6
+  jmp near _card_burning_oil     ; 2004edb
+  jmp near _card_blood_feud     ; 2004ee0
+  jmp near _card_fires_of_undeath     ; 2004ee5
+  jmp near _card_hinterland_scourge     ; 2004eea
+  jmp near _card_markov_warlord     ; 2004eef
+  jmp near _card_scorch_the_fields     ; 2004ef4
+  jmp near _card_shattered_perception     ; 2004ef9
+  jmp near _card_torch_fiend     ; 2004efe
+  jmp near _card_wrack_with_madness     ; 2004f03
+  jmp near _card_clinging_mists     ; 2004f08
+  jmp near _card_crushing_vines     ; 2004f0d
+  jmp near _card_dawntrader_elk     ; 2004f12
+  jmp near _card_deranged_outcast     ; 2004f17
+  jmp near _card_grim_flowering     ; 2004f1c
+  jmp near _card_lost_in_the_woods     ; 2004f21
+  jmp near _card_trackers_instict     ; 2004f26
+  jmp near _card_ulvenwald_bear     ; 2004f2b
+  jmp near _card_favor_of_the_woods     ; 2004f30
+  jmp near _card_village_survivors     ; 2004f35
+  jmp near _card_wild_hunger     ; 2004f3a
+  jmp near _card_drogskol_captain     ; 2004f3f
+  jmp near _card_avacyns_collar     ; 2004f44
+  jmp near _card_wolfhunters_quiver     ; 2004f49
+  jmp near _card_foster     ; 2004f4e
+  jmp near _card_furious_assault     ; 2004f53
+  jmp near _card_game_preserve     ; 2004f58
+  jmp near _card_generals_regalia     ; 2004f5d
+  jmp near _card_hammer_mage     ; 2004f62
+  jmp near _card_haunted_crossroads     ; 2004f67
+  jmp near _card_heart_of_ramos     ; 2004f6c
+  jmp near _card_hickory_woodlot     ; 2004f71
+  jmp near _card_high_market     ; 2004f76
+  jmp near _card_hired_giant     ; 2004f7b
+  jmp near _card_honor_the_fallen     ; 2004f80
+  jmp near _card_horn_of_plenty     ; 2004f85
+  jmp near _card_horn_of_ramos     ; 2004f8a
+  jmp near _card_invigorate     ; 2004f8f
+  jmp near _card_kris_mage     ; 2004f94
+  jmp near _card_kyren_negotiations     ; 2004f99
+  jmp near _card_voice_of_all     ; 2004f9e
+  jmp near _card_kyren_toy     ; 2004fa3
+  jmp near _card_liability     ; 2004fa8
+  jmp near _card_lumbering_satyr     ; 2004fad
+  jmp near _card_lunge     ; 2004fb2
+  jmp near _card_magistrates_scepter     ; 2004fb7
+  jmp near _card_megatherium     ; 2004fbc
+  jmp near _card_mercadian_atlas     ; 2004fc1
+  jmp near _card_mercadian_lift     ; 2004fc6
+  jmp near _card_triskelavite     ; 2004fcb
+  jmp near _card_stabwhisker_the_odious     ; 2004fd0
+  jmp near _card_pendrell_mists     ; 2004fd5
+  jmp near _card_greater_gargadon_suspended     ; 2004fda
+  jmp near _card_havengul_runebinder     ; 2004fdf
+  jmp near _card_sorins_emblem     ; 2004fe4
+  jmp near _card_curiosity     ; 2004fe9
+  jmp near _card_sleepers_robe     ; 2004fee
+  jmp near _card_larceny     ; 2004ff3
+  jmp near _card_noble_purpose     ; 2004ff8
+  jmp near _card_ashnods_transmogrant     ; 2004ffd
+  jmp near _card_snake_token     ; 2005002
+  jmp near _card_nevermore     ; 2005007
+  jmp near _card_powerleech     ; 200500c
+  jmp near _card_phyrexian_gremlins     ; 2005011
+  jmp near _card_karakas     ; 2005016
+  jmp near _card_martyrs_of_korlis     ; 200501b
+  jmp near _card_snake_basket     ; 2005020
+  jmp near _card_bestial_menace     ; 2005025
+  jmp near _card_willow_satyr     ; 200502a
+  jmp near _card_empress_galina     ; 200502f
+  jmp near _card_tsabo_tavoc     ; 2005034
+  jmp near _card_vexing_arcanix     ; 2005039
+  jmp near _card_takklemaggot     ; 200503e
+  jmp near _card_gauntlets_of_chaos     ; 2005043
+  jmp near _card_cradle_of_vitality     ; 2005048
+  jmp near _card_stigma_lasher     ; 200504d
+  jmp near _card_false_cure     ; 2005052
+  jmp near _card_ageless_sentinels     ; 2005057
+  jmp near _card_elemental_token     ; 200505c
+  jmp near _card_capsize     ; 2005061
+  jmp near _card_time_spiral     ; 2005066
+  jmp near _card_frantic_search     ; 200506b
+  jmp near _card_snap2     ; 2005070
+  jmp near _card_treachery     ; 2005075
+  jmp near _card_rewind     ; 200507a
+  jmp near _card_sulfuric_vortex     ; 200507f
+  jmp near _card_flames_of_the_blood_hand     ; 2005084
+  jmp near _card_midnight_ritual     ; 2005089
+  jmp near _card_misstep     ; 200508e
+  jmp near _card_moment_of_silence     ; 2005093
+  jmp near _card_monkey_cage     ; 2005098
+  jmp near _card_monlit_wake     ; 200509d
+  jmp near _card_muzzle     ; 20050a2
+  jmp near _card_nether_spirit     ; 20050a7
+  jmp near _card_notorious_assassin     ; 20050ac
+  jmp near _card_orims_cure     ; 20050b1
+  jmp near _card_overtaker     ; 20050b6
+  jmp near _card_pangosaur     ; 20050bb
+  jmp near _card_peat_bog     ; 20050c0
+  jmp near _card_power_matrix     ; 20050c5
+  jmp near _card_puffer_extract     ; 20050ca
+  jmp near _card_pulverize     ; 20050cf
+  jmp near _card_ramosian_commander     ; 20050d4
+  jmp near _card_ramosian_liutenant     ; 20050d9
+  jmp near _card_ramosian_sky_marshall     ; 20050de
+  jmp near _card_reverent_mantra     ; 20050e3
+  jmp near _card_remote_farm     ; 20050e8
+  jmp near _card_renounce     ; 20050ed
+  jmp near _card_revive     ; 20050f2
+  jmp near _card_rishadan_brigand     ; 20050f7
+  jmp near _card_rishadan_cutpurse     ; 20050fc
+  jmp near _card_rishadan_footpad     ; 2005101
+  jmp near _card_rishadan_pawnshop     ; 2005106
+  jmp near _card_rushwood_elemental     ; 200510b
+  jmp near _card_rushwood_herbalist     ; 2005110
+  jmp near _card_saber_ants     ; 2005115
+  jmp near _card_sand_squid     ; 200511a
+  jmp near _card_sandstone_needle     ; 200511f
+  jmp near _card_saprazzan_heir     ; 2005124
+  jmp near _card_saprazzan_skerry     ; 2005129
+  jmp near _card_seismic_mage     ; 200512e
+  jmp near _card_silverglade_elemental     ; 2005133
+  jmp near _card_silverglade_pathfinder     ; 2005138
+  jmp near _card_sizzle     ; 200513d
+  jmp near _card_skull_of_ramos     ; 2005142
+  jmp near _card_snuff_out     ; 2005147
+  jmp near _card_soothsaying     ; 200514c
+  jmp near _card_spidersilk_armor     ; 2005151
+  jmp near _card_spiritual_focus     ; 2005156
+  jmp near _card_spontaneous_generation     ; 200515b
+  jmp near _card_squeeze     ; 2005160
+  jmp near _card_statecraft     ; 2005165
+  jmp near _card_task_force     ; 200516a
+  jmp near _card_tectonic_break     ; 200516f
+  jmp near _card_thwart     ; 2005174
+  jmp near _card_tooth_of_ramos     ; 2005179
+  jmp near _card_undertaker     ; 200517e
+  jmp near _card_uphill_battle     ; 2005183
+  jmp near _card_vendetta     ; 2005188
+  jmp near _card_war_tax     ; 200518d
+  jmp near _card_waterfront_bouncer     ; 2005192
+  jmp near _card_wave_of_reckoning     ; 2005197
+  jmp near _card_cackling_witch     ; 200519c
+  jmp near _card_chameleon_spirit     ; 20051a1
+  jmp near _card_deepwood_drummer     ; 20051a6
+  jmp near _card_howling_wolf     ; 20051ab
+  jmp near _card_intimidation     ; 20051b0
+  jmp near _card_karns_touch     ; 20051b5
+  jmp near _card_altar_of_shadows     ; 20051ba
+  jmp near _card_arc_slogger     ; 20051bf
+  jmp near _card_assert_autority     ; 20051c4
+  jmp near _card_aether_spellbomb     ; 20051c9
+  jmp near _card_auriok_steelshaper     ; 20051ce
+  jmp near _card_auriok_transfixer     ; 20051d3
+  jmp near _card_awe_strike     ; 20051d8
+  jmp near _card_banshees_blade     ; 20051dd
+  jmp near _card_betrayal_of_flesh     ; 20051e2
+  jmp near _card_blinding_beam     ; 20051e7
+  jmp near _card_blinkmoth_urn     ; 20051ec
+  jmp near _card_blinkmoth_well     ; 20051f1
+  jmp near _card_bloodscent     ; 20051f6
+  jmp near _card_bosh_iron_golem     ; 20051fb
+  jmp near _card_clockwork_dragon     ; 2005200
+  jmp near _card_crystal_shard     ; 2005205
+  jmp near _card_culling_scales     ; 200520a
+  jmp near _card_damping_matrix     ; 200520f
+  jmp near _card_deconstruct     ; 2005214
+  jmp near _card_dreams_grip     ; 2005219
+  jmp near _card_dross_harvester     ; 200521e
+  jmp near _card_dross_scorpion     ; 2005223
+  jmp near _card_duplicant     ; 2005228
+  jmp near _card_clockwork_beetle     ; 200522d
+  jmp near _card_chalice_of_the_void     ; 2005232
+  jmp near _card_confusion_in_the_ranks     ; 2005237
+  jmp near _card_electrostatic_bolt     ; 200523c
+  jmp near _card_elf_replica     ; 2005241
+  jmp near _card_farsight_mask     ; 2005246
+  jmp near _card_fiery_gambit     ; 200524b
+  jmp near _card_fireshrieker     ; 2005250
+  jmp near _card_gate_to_aether     ; 2005255
+  jmp near _card_glimmervoid     ; 200525a
+  jmp near _card_goblin_replica     ; 200525f
+  jmp near _card_golem_skin_gauntlets     ; 2005264
+  jmp near _card_grab_the_reins     ; 2005269
+  jmp near _card_granite_shard     ; 200526e
+  jmp near _card_grid_monitor     ; 2005273
+  jmp near _card_heartwood_shard     ; 2005278
+  jmp near _card_journey_of_discovery     ; 200527d
+  jmp near _card_krark_clan_shaman     ; 2005282
+  jmp near _card_leonin_abunas     ; 2005287
+  jmp near _card_leonin_bladetrap     ; 200528c
+  jmp near _card_leonin_den_guard     ; 2005291
+  jmp near _card_leonin_elder     ; 2005296
+  jmp near _card_leonin_scimitar     ; 200529b
+  jmp near _card_leonin_sun_standard     ; 20052a0
+  jmp near _card_lightning_coils     ; 20052a5
+  jmp near _card_living_hive     ; 20052aa
+  jmp near _card_lodestone_myr     ; 20052af
+  jmp near _card_loxodon_punisher     ; 20052b4
+  jmp near _card_lumengrid_augur     ; 20052b9
+  jmp near _card_lumengrid_sentinel     ; 20052be
+  jmp near _card_luminous_angel     ; 20052c3
+  jmp near _card_mask_of_memory     ; 20052c8
+  jmp near _card_mass_hysteria     ; 20052cd
+  jmp near _card_megatog     ; 20052d2
+  jmp near _card_mesmeric_orb     ; 20052d7
+  jmp near _card_minds_eye     ; 20052dc
+  jmp near _card_molder_slug     ; 20052e1
+  jmp near _card_molten_rain     ; 20052e6
+  jmp near _card_myr_retriver     ; 20052eb
+  jmp near _card_necrogen_mists     ; 20052f0
+  jmp near _card_necrogen_spellbomb     ; 20052f5
+  jmp near _card_needlebug     ; 20052fa
+  jmp near _card_neurok_familiar     ; 20052ff
+  jmp near _card_nightmare_lash     ; 2005304
+  jmp near _card_nim_devourer     ; 2005309
+  jmp near _card_nim_replica     ; 200530e
+  jmp near _card_oblivion_stone     ; 2005313
+  jmp near _card_one_dozen_eyes     ; 2005318
+  jmp near _card_override     ; 200531d
+  jmp near _card_pearl_shard     ; 2005322
+  jmp near _card_nessian_demolok     ; 2005327
+  jmp near _card_predators_strike     ; 200532c
+  jmp near _card_promise_of_power     ; 2005331
+  jmp near _card_demon_token     ; 2005336
+  jmp near _card_proteus_staff     ; 200533b
+  jmp near _card_psychic_membrane     ; 2005340
+  jmp near _card_pyrite_spellbomb     ; 2005345
+  jmp near _card_quicksilver_fountain     ; 200534a
+  jmp near _card_razor_barrier     ; 200534f
+  jmp near _card_reiver_demon     ; 2005354
+  jmp near _card_roar_of_the_kha     ; 2005359
+  jmp near _card_rust_elemental     ; 200535e
+  jmp near _card_rustmouth_ogre     ; 2005363
+  jmp near _card_scythe_of_the_wretched     ; 2005368
+  jmp near _card_second_sunrise     ; 200536d
+  jmp near _card_serum_tank     ; 2005372
+  jmp near _card_skeleton_shard     ; 2005377
+  jmp near _card_solar_tide     ; 200537c
+  jmp near _card_soldier_replica     ; 2005381
+  jmp near _card_soul_foundry     ; 2005386
+  jmp near _card_spellweaver_helix     ; 200538b
+  jmp near _card_spikeshot_goblin     ; 2005390
+  jmp near _card_spoils_of_the_vault     ; 2005395
+  jmp near _card_stalking_stones     ; 200539a
+  jmp near _card_stalking_stones_animated     ; 200539f
+  jmp near _card_sun_droplet     ; 20053a4
+  jmp near _card_sunbeam_spellbomb     ; 20053a9
+  jmp near _card_sword_of_kaldra     ; 20053ae
+  jmp near _card_taj_nar_swordsmith     ; 20053b3
+  jmp near _card_ajanis_presence     ; 20053b8
+  jmp near _card_dakra_mystic     ; 20053bd
+  jmp near _card_pheres_band_warchief     ; 20053c2
+  jmp near _card_setessan_tactics     ; 20053c7
+  jmp near _card_colossal_heroics     ; 20053cc
+  jmp near _card_tangleroot     ; 20053d1
+  jmp near _card_temporal_cascade     ; 20053d6
+  jmp near _card_thought_prison     ; 20053db
+  jmp near _card_scale_of_chiss_goria     ; 20053e0
+  jmp near _card_tower_of_champions     ; 20053e5
+  jmp near _card_tower_of_eons     ; 20053ea
+  jmp near _card_tower_of_murmurs     ; 20053ef
+  jmp near _card_trash_for_treasures     ; 20053f4
+  jmp near _card_turn_to_dust     ; 20053f9
+  jmp near _card_vedalken_archmage     ; 20053fe
+  jmp near _card_vermiculos     ; 2005403
+  jmp near _card_viridian_joiner     ; 2005408
+  jmp near _card_vorrac_battlehorns     ; 200540d
+  jmp near _card_vulshok_battlegear     ; 2005412
+  jmp near _card_vulshok_battlemaster     ; 2005417
+  jmp near _card_vulshock_gauntlets     ; 200541c
+  jmp near _card_wail_of_the_nim     ; 2005421
+  jmp near _card_war_elemental     ; 2005426
+  jmp near _card_welding_jar     ; 200542b
+  jmp near _card_wizard_replica     ; 2005430
+  jmp near _card_wrench_mind     ; 2005435
+  jmp near _card_staggershock     ; 200543a
+  jmp near _card_beastbreaker_of_bala_ged     ; 200543f
+  jmp near _card_riftwing_cloudskate     ; 2005444
+  jmp near _card_flickerwisp     ; 2005449
+  jmp near _card_kami_of_ancient_law     ; 200544e
+  jmp near _card_calciderm     ; 2005453
+  jmp near _card_austere_command     ; 2005458
+  jmp near _card_kor_haven     ; 200545d
+  jmp near _card_eight_and_a_half_tails     ; 2005462
+  jmp near _card_prison_term     ; 2005467
+  jmp near _card_temporal_isolation     ; 200546c
+  jmp near _card_prophetic_bolt     ; 2005471
+  jmp near _card_magma_jet     ; 2005476
+  jmp near _card_flame_slash     ; 200547b
+  jmp near _card_zozu_the_punisher     ; 2005480
+  jmp near _card_ravenous_baboons     ; 2005485
+  jmp near _card_keldon_marauders     ; 200548a
+  jmp near _card_condescend     ; 200548f
+  jmp near _card_magus_of_the_scroll     ; 2005494
+  jmp near _card_jack_in_the_mox     ; 2005499
+  jmp near _card_vivid_creek     ; 200549e
+  jmp near _card_vivid_crag     ; 20054a3
+  jmp near _card_cascade_bluffs     ; 20054a8
+  jmp near _card_fetid_heath     ; 20054ad
+  jmp near _card_fire_lit_thicket     ; 20054b2
+  jmp near _card_flooded_grove     ; 20054b7
+  jmp near _card_graven_cairns     ; 20054bc
+  jmp near _card_mystic_gate     ; 20054c1
+  jmp near _card_rugged_prarie     ; 20054c6
+  jmp near _card_sunken_ruins     ; 20054cb
+  jmp near _card_twilight_mire     ; 20054d0
+  jmp near _card_wooded_bastion     ; 20054d5
+  jmp near _card_vivid_meadow     ; 20054da
+  jmp near _card_vivid_grove     ; 20054df
+  jmp near _card_vivid_marsh     ; 20054e4
+  jmp near _card_glen_elendra_archmage     ; 20054e9
+  jmp near _card_twinblade_slasher     ; 20054ee
+  jmp near _card_wickerbough_elder     ; 20054f3
+  jmp near _card_stingscourger     ; 20054f8
+  jmp near _card_pulse_of_the_forge     ; 20054fd
+  jmp near _card_grinning_demon     ; 2005502
+  jmp near _card_shelldock_isle     ; 2005507
+  jmp near _card_plague_sliver     ; 200550c
+  jmp near _card_narcolepsy     ; 2005511
+  jmp near _card_grand_coliseum     ; 2005516
+  jmp near _card_binding_grasp     ; 200551b
+  jmp near _card_rakka_mar     ; 2005520
+  jmp near _card_arboria     ; 2005525
+  jmp near _card_faerie_trickery     ; 200552a
+  jmp near _card_body_double     ; 200552f
+  jmp near _card_necromancy     ; 2005534
+  jmp near _card_arrogant_bloodlord     ; 2005539
+  jmp near _card_nezumi_graverobber     ; 200553e
+  jmp near _card_nighteyes_the_desecrator     ; 2005543
+  jmp near _card_puppeteer_clique     ; 2005548
+  jmp near _card_dead_gone     ; 200554d
+  jmp near _card_blistering_firecat     ; 2005552
+  jmp near _card_floodtide_serpent     ; 2005557
+  jmp near _card_powerstone_minefield     ; 200555c
+  jmp near _card_kira_great_glass_spinner     ; 2005561
+  jmp near _card_suffocating_blast     ; 2005566
+  jmp near _card_primal_command     ; 200556b
+  jmp near _card_razormane_masticore     ; 2005570
+  jmp near _card_phantom_centaur     ; 2005575
+  jmp near _card_agony_warp     ; 200557a
+  jmp near _card_bant_charm     ; 200557f
+  jmp near _card_chaos_orb     ; 2005584
+  jmp near _card_thornling     ; 2005589
+  jmp near _card_stillmoon_cavalier     ; 200558e
+  jmp near _card_brion_stoutarm     ; 2005593
+  jmp near _card_ethersworn_adjudicator     ; 2005598
+  jmp near _card_soul_manipulation     ; 200559d
+  jmp near _card_everlasting_torment     ; 20055a2
+  jmp near _card_mindslicer     ; 20055a7
+  jmp near _card_cover_of_darkness     ; 20055ac
+  jmp near _card_arcbound_hybrid     ; 20055b1
+  jmp near _card_arcbound_overseer     ; 20055b6
+  jmp near _card_arcbound_ravager     ; 20055bb
+  jmp near _card_arcbound_reclaimer     ; 20055c0
+  jmp near _card_arcbound_slith     ; 20055c5
+  jmp near _card_aether_snap     ; 20055ca
+  jmp near _card_auriok_glaivemaster     ; 20055cf
+  jmp near _card_barbed_lighting     ; 20055d4
+  jmp near _card_blinkmoth_nexus     ; 20055d9
+  jmp near _card_blinkmoth_nexus_animated     ; 20055de
+  jmp near _card_carry_away     ; 20055e3
+  jmp near _card_chittering_rats     ; 20055e8
+  jmp near _card_chromescale_drake     ; 20055ed
+  jmp near _card_coretapper     ; 20055f2
+  jmp near _card_chimeric_egg     ; 20055f7
+  jmp near _card_darksteel_pendant     ; 20055fc
+  jmp near _card_dismantle     ; 2005601
+  jmp near _card_dross_golem     ; 2005606
+  jmp near _card_eater_of_days     ; 200560b
+  jmp near _card_echoing_calm     ; 2005610
+  jmp near _card_echoing_courage     ; 2005615
+  jmp near _card_echoing_decay     ; 200561a
+  jmp near _card_echoing_ruin     ; 200561f
+  jmp near _card_fangren_firstborn     ; 2005624
+  jmp near _card_furnace_dragon     ; 2005629
+  jmp near _card_gemini_engine     ; 200562e
+  jmp near _card_twin_token     ; 2005633
+  jmp near _card_genesis_chamber     ; 2005638
+  jmp near _card_geths_grimoire     ; 200563d
+  jmp near _card_consume_spirit     ; 2005642
+  jmp near _card_drain_life     ; 2005647
+  jmp near _card_blaze     ; 200564c
+  jmp near _card_death_grasp     ; 2005651
+  jmp near _card_earthquake     ; 2005656
+  jmp near _card_hurricane     ; 200565b
+  jmp near _card_stream_of_life     ; 2005660
+  jmp near _card_guardian_angel     ; 2005665
+  jmp near _card_disintegrate     ; 200566a
+  jmp near _card_fireball     ; 200566f
+  jmp near _card_spell_blast     ; 2005674
+  jmp near _card_power_sink     ; 2005679
+  jmp near _card_detonate     ; 200567e
+  jmp near _card_word_of_binding     ; 2005683
+  jmp near _card_winter_blast     ; 2005688
+  jmp near _card_whimsy     ; 200568d
+  jmp near _card_mind_twist     ; 2005692
+  jmp near _card_howl_from_beyond     ; 2005697
+  jmp near _card_alabaster_potion     ; 200569c
+  jmp near _card_orcish_catapult     ; 20056a1
+  jmp near _card_volcanic_eruption     ; 20056a6
+  jmp near _card_angels_feather2     ; 20056ab
+  jmp near _card_demons_horn2     ; 20056b0
+  jmp near _card_dragons_claw2     ; 20056b5
+  jmp near _card_krakens_eye2     ; 20056ba
+  jmp near _card_wurms_tooth2     ; 20056bf
+  jmp near _card_crystal_rod     ; 20056c4
+  jmp near _card_iron_star     ; 20056c9
+  jmp near _card_ivory_cup     ; 20056ce
+  jmp near _card_throne_of_bone     ; 20056d3
+  jmp near _card_wooden_sphere     ; 20056d8
+  jmp near _card_lone_missionary     ; 20056dd
+  jmp near _card_angel_of_mercy     ; 20056e2
+  jmp near _card_venerable_monk     ; 20056e7
+  jmp near _card_soul_warden     ; 20056ec
+  jmp near _card_armadillo_cloack     ; 20056f1
+  jmp near _card_dark_heart_of_the_woods     ; 20056f6
+  jmp near _card_farmstead     ; 20056fb
+  jmp near _card_lifeblood     ; 2005700
+  jmp near _card_spiritual_sanctury     ; 2005705
+  jmp near _card_absorb     ; 200570a
+  jmp near _card_blessed_reversal     ; 200570f
+  jmp near _card_chastise     ; 2005714
+  jmp near _card_divine_offering     ; 2005719
+  jmp near _card_healing_salve     ; 200571e
+  jmp near _card_punish_ignorance     ; 2005723
+  jmp near _card_reverse_damage     ; 2005728
+  jmp near _card_kiss_of_the_amesha     ; 200572d
+  jmp near _card_thespians_stage     ; 2005732
+  jmp near _card_sacred_nectar     ; 2005737
+  jmp near _card_ravenous_baloth     ; 200573c
+  jmp near _card_living_artifact     ; 2005741
+  jmp near _card_crumble     ; 2005746
+  jmp near _card_biorhythm     ; 200574b
+  jmp near _card_sol_kanar_the_swamp_king     ; 2005750
+  jmp near _card_merchant_ship     ; 2005755
+  jmp near _card_lifetap     ; 200575a
+  jmp near _card_relic_bind2     ; 200575f
+  jmp near _card_mirror_universe     ; 2005764
+  jmp near _card_magus_of_the_mirror     ; 2005769
+  jmp near _card_vicious_hunger     ; 200576e
+  jmp near _card_simulacrum     ; 2005773
+  jmp near _card_corrupt2     ; 2005778
+  jmp near _card_sever_soul     ; 200577d
+  jmp near _card_soul_feast     ; 2005782
+  jmp near _card_syphon_soul     ; 2005787
+  jmp near _card_diamond_valley     ; 200578c
+  jmp near _card_fountain_of_youth     ; 2005791
+  jmp near _card_ivory_tower     ; 2005796
+  jmp near _card_life_chisel     ; 200579b
+  jmp near _card_onulet     ; 20057a0
+  jmp near _card_soul_net     ; 20057a5
+  jmp near _card_tablet_of_epityr     ; 20057aa
+  jmp near _card_urzas_chalice     ; 20057af
+  jmp near _card_zuran_orb     ; 20057b4
+  jmp near _card_obelisk_of_alara2     ; 20057b9
+  jmp near _card_greater_harvester     ; 20057be
+  jmp near _card_grimclaw_bat     ; 20057c3
+  jmp near _card_hallow2     ; 20057c8
+  jmp near _card_heartseeker     ; 20057cd
+  jmp near _card_karstoderm     ; 20057d2
+  jmp near _card_krark_clan_stoker     ; 20057d7
+  jmp near _card_last_word     ; 20057dc
+  jmp near _card_leonin_battlemage     ; 20057e1
+  jmp near _card_leonin_bola     ; 20057e6
+  jmp near _card_machinate     ; 20057eb
+  jmp near _card_memnarch     ; 20057f0
+  jmp near _card_mephitic_ooze     ; 20057f5
+  jmp near _card_murderous_spoils     ; 20057fa
+  jmp near _card_myr_moonvessel     ; 20057ff
+  jmp near _card_nemesis_mask     ; 2005804
+  jmp near _card_nim_abomination     ; 2005809
+  jmp near _card_nourish     ; 200580e
+  jmp near _card_oxidda_golem     ; 2005813
+  jmp near _card_panoptic_mirror     ; 2005818
+  jmp near _card_pristine_angel     ; 200581d
+  jmp near _card_pulse_of_the_dross     ; 2005822
+  jmp near _card_pulse_of_the_fields     ; 2005827
+  jmp near _card_pulse_of_the_grid     ; 200582c
+  jmp near _card_pulse_of_the_tangle     ; 2005831
+  jmp near _card_razor_golem     ; 2005836
+  jmp near _card_reshape     ; 200583b
+  jmp near _card_retract     ; 2005840
+  jmp near _card_savage_beating     ; 2005845
+  jmp near _card_second_sight     ; 200584a
+  jmp near _card_shield_of_kaldra     ; 200584f
+  jmp near _card_shriveling_rot     ; 2005854
+  jmp near _card_soulscour     ; 2005859
+  jmp near _card_specters_shroud     ; 200585e
+  jmp near _card_spellbinder     ; 2005863
+  jmp near _card_spire_golem     ; 2005868
+  jmp near _card_stand_together     ; 200586d
+  jmp near _card_surestrike_trident     ; 2005872
+  jmp near _card_talon_of_pain     ; 2005877
+  jmp near _card_tangle_golem     ; 200587c
+  jmp near _card_test_of_faith     ; 2005881
+  jmp near _card_thought_dissector     ; 2005886
+  jmp near _card_turn_the_table     ; 200588b
+  jmp near _card_vex     ; 2005890
+  jmp near _card_viridian_zealot     ; 2005895
+  jmp near _card_voltaic_construct     ; 200589a
+  jmp near _card_vulshok_morningstar     ; 200589f
+  jmp near _card_vulshok_war_boar     ; 20058a4
+  jmp near _card_wand_of_the_elements     ; 20058a9
+  jmp near _card_abunas_chant     ; 20058ae
+  jmp near _card_acquire     ; 20058b3
+  jmp near _card_all_suns_dawn     ; 20058b8
+  jmp near _card_arcbound_wanderer     ; 20058bd
+  jmp near _card_artificiers_intuition     ; 20058c2
+  jmp near _card_auriok_champion     ; 20058c7
+  jmp near _card_auriok_windwalker     ; 20058cc
+  jmp near _card_avarice_totem     ; 20058d1
+  jmp near _card_battered_golem     ; 20058d6
+  jmp near _card_beacon_of_tomorrows     ; 20058db
+  jmp near _card_blasting_station     ; 20058e0
+  jmp near _card_blind_creeper     ; 20058e5
+  jmp near _card_chimeric_coils     ; 20058ea
+  jmp near _card_clearwater_goblet     ; 20058ef
+  jmp near _card_clock_of_omens     ; 20058f4
+  jmp near _card_composite_golem     ; 20058f9
+  jmp near _card_conjurers_bouble     ; 20058fe
+  jmp near _card_cosmic_larva     ; 2005903
+  jmp near _card_desecration_elemental     ; 2005908
+  jmp near _card_devour_in_shadows     ; 200590d
+  jmp near _card_early_frost     ; 2005912
+  jmp near _card_ebon_drake     ; 2005917
+  jmp near _card_endless_whispers     ; 200591c
+  jmp near _card_energy_chamber     ; 2005921
+  jmp near _card_ensouled_scimitar     ; 2005926
+  jmp near _card_etched_oracle     ; 200592b
+  jmp near _card_eyes_of_the_watcher     ; 2005930
+  jmp near _card_fangren_pathcutter     ; 2005935
+  jmp near _card_ferocious_charge     ; 200593a
+  jmp near _card_fill_with_fright     ; 200593f
+  jmp near _card_fist_of_suns     ; 2005944
+  jmp near _card_fleshgrafter     ; 2005949
+  jmp near _card_furnace_whelp     ; 200594e
+  jmp near _card_gemstone_array     ; 2005953
+  jmp near _card_goblin_cannon     ; 2005958
+  jmp near _card_granulate     ; 200595d
+  jmp near _card_guardian_idol     ; 2005962
+  jmp near _card_healers_headdress     ; 2005967
+  jmp near _card_helm_of_kaldra     ; 200596c
+  jmp near _card_horned_helm     ; 2005971
+  jmp near _card_hoverguard_sweepers     ; 2005976
+  jmp near _card_tendrils_of_corruption     ; 200597b
+  jmp near _card_kokusho_the_evening_star     ; 2005980
+  jmp near _card_stifle     ; 2005985
+  jmp near _card_voidslime     ; 200598a
+  jmp near _card_bind2     ; 200598f
+  jmp near _card_interdict     ; 2005994
+  jmp near _card_elspeths_emblem     ; 2005999
+  jmp near _card_tectonic_edge     ; 200599e
+  jmp near _card_dragon_fodder     ; 20059a3
+  jmp near _card_cruel_tutor     ; 20059a8
+  jmp near _card_grim_tutor     ; 20059ad
+  jmp near _card_idyllic_tutor     ; 20059b2
+  jmp near _card_personal_tutor     ; 20059b7
+  jmp near _card_sylvan_tutor     ; 20059bc
+  jmp near _card_enlightened_tutor     ; 20059c1
+  jmp near _card_diabolic_intent     ; 20059c6
+  jmp near _card_conflux     ; 20059cb
+  jmp near _card_beseech_the_queen     ; 20059d0
+  jmp near _card_elvish_piper     ; 20059d5
+  jmp near _card_insurrection     ; 20059da
+  jmp near _card_demand_supply     ; 20059df
+  jmp near _card_demonic_collusion     ; 20059e4
+  jmp near _card_edge_of_autumn     ; 20059e9
+  jmp near _card_infernal_tutor     ; 20059ee
+  jmp near _card_mwonvuli_acid_moss     ; 20059f3
+  jmp near _card_rhystic_tutor     ; 20059f8
+  jmp near _card_search_for_tomorrow     ; 20059fd
+  jmp near _card_shard_convergence     ; 2005a02
+  jmp near _card_skyshroud_claim     ; 2005a07
+  jmp near _card_time_of_need     ; 2005a0c
+  jmp near _card_wargate     ; 2005a11
+  jmp near _card_ion_storm     ; 2005a16
+  jmp near _card_joiner_adept     ; 2005a1b
+  jmp near _card_leonin_squire     ; 2005a20
+  jmp near _card_lose_hope     ; 2005a25
+  jmp near _card_magma_giant     ; 2005a2a
+  jmp near _card_magnetic_theft     ; 2005a2f
+  jmp near _card_mephidross_vampire     ; 2005a34
+  jmp near _card_moriok_rigger     ; 2005a39
+  jmp near _card_mycosynth_golem     ; 2005a3e
+  jmp near _card_myr_servitor     ; 2005a43
+  jmp near _card_neurok_stealthsuit     ; 2005a48
+  jmp near _card_opaline_bracers     ; 2005a4d
+  jmp near _card_paradise_mantle     ; 2005a52
+  jmp near _card_pentad_prism     ; 2005a57
+  jmp near _card_plunge_into_darkness     ; 2005a5c
+  jmp near _card_possessed_portal     ; 2005a61
+  jmp near _card_raksha_golden_cub     ; 2005a66
+  jmp near _card_reversal_of_fortune     ; 2005a6b
+  jmp near _card_rite_of_passage     ; 2005a70
+  jmp near _card_roar_of_reclamation     ; 2005a75
+  jmp near _card_serum_visions     ; 2005a7a
+  jmp near _card_skullcage     ; 2005a7f
+  jmp near _card_skyreach_manta     ; 2005a84
+  jmp near _card_solarion     ; 2005a89
+  jmp near _card_sparring_collar     ; 2005a8e
+  jmp near _card_stand_firm     ; 2005a93
+  jmp near _card_city_of_solitude     ; 2005a98
+  jmp near _card_cursed_totem     ; 2005a9d
+  jmp near _card_null_rod     ; 2005aa2
+  jmp near _card_stasis_cocoon     ; 2005aa7
+  jmp near _card_steelshapers_gift     ; 2005aac
+  jmp near _card_summoners_egg     ; 2005ab1
+  jmp near _card_suncrusher     ; 2005ab6
+  jmp near _card_sylvok_explorer     ; 2005abb
+  jmp near _card_synod_centurion     ; 2005ac0
+  jmp near _card_tel_jilad_justice     ; 2005ac5
+  jmp near _card_tornado_elemental     ; 2005aca
+  jmp near _card_vedalken_mastermind     ; 2005acf
+  jmp near _card_angel_of_glorys_rise     ; 2005ad4
+  jmp near _card_angel_of_jubilation     ; 2005ad9
+  jmp near _card_avacyn_angel_of_hope     ; 2005ade
+  jmp near _card_banishing_stroke     ; 2005ae3
+  jmp near _card_cathars_crusade     ; 2005ae8
+  jmp near _card_cloudshift     ; 2005aed
+  jmp near _card_emancipation_angel     ; 2005af2
+  jmp near _card_herald_of_war     ; 2005af7
+  jmp near _card_silverblade_paladin     ; 2005afc
+  jmp near _card_arcane_melee     ; 2005b01
+  jmp near _card_ghostly_flicker     ; 2005b06
+  jmp near _card_latch_seeker     ; 2005b0b
+  jmp near _card_tamiyo_the_moon_sage     ; 2005b10
+  jmp near _card_tamiyos_emblem     ; 2005b15
+  jmp near _card_tandem_lookout     ; 2005b1a
+  jmp near _card_temporal_mastery     ; 2005b1f
+  jmp near _card_wingcrafter     ; 2005b24
+  jmp near _card_demonic_taskmaster     ; 2005b29
+  jmp near _card_demonlord_of_ashmouth     ; 2005b2e
+  jmp near _card_griselbrand     ; 2005b33
+  jmp near _card_harvester_of_souls     ; 2005b38
+  jmp near _card_killing_wave     ; 2005b3d
+  jmp near _card_bonfire_of_the_damned     ; 2005b42
+  jmp near _card_stonewright     ; 2005b47
+  jmp near _card_thunderous_wrath     ; 2005b4c
+  jmp near _card_tibalt_the_fiend_blooded     ; 2005b51
+  jmp near _card_vexing_devil     ; 2005b56
+  jmp near _card_zealous_conscripts     ; 2005b5b
+  jmp near _card_craterhoof_behemoth     ; 2005b60
+  jmp near _card_descendants_path     ; 2005b65
+  jmp near _card_druids_repository     ; 2005b6a
+  jmp near _card_howlgeist     ; 2005b6f
+  jmp near _card_joint_assault     ; 2005b74
+  jmp near _card_nightshade_peddler     ; 2005b79
+  jmp near _card_revenge_of_the_hunted     ; 2005b7e
+  jmp near _card_gisela_blade_of_goldnight     ; 2005b83
+  jmp near _card_sigarda_host_of_herons     ; 2005b88
+  jmp near _card_angels_tomb     ; 2005b8d
+  jmp near _card_moonsilver_spear     ; 2005b92
+  jmp near _card_desolate_lighthouse     ; 2005b97
+  jmp near _card_defy_death     ; 2005b9c
+  jmp near _card_entreat_the_angels     ; 2005ba1
+  jmp near _card_goldnight_redeemer     ; 2005ba6
+  jmp near _card_nephalia_smugglers     ; 2005bab
+  jmp near _card_appetite_for_brains     ; 2005bb0
+  jmp near _card_demonic_rising     ; 2005bb5
+  jmp near _card_crypt_creeper     ; 2005bba
+  jmp near _card_descent_into_madness     ; 2005bbf
+  jmp near _card_champion_of_lambholt     ; 2005bc4
+  jmp near _card_wolfir_silverheart     ; 2005bc9
+  jmp near _card_slayers_stronghold     ; 2005bce
+  jmp near _card_somberwald_druid     ; 2005bd3
+  jmp near _card_living_airship     ; 2005bd8
+  jmp near _card_deadly_recluse     ; 2005bdd
+  jmp near _card_terminus     ; 2005be2
+  jmp near _card_infinite_reflection     ; 2005be7
+  jmp near _card_peel_from_reality     ; 2005bec
+  jmp near _card_exquisite_blood     ; 2005bf1
+  jmp near _card_homicidal_seclusion     ; 2005bf6
+  jmp near _card_human_frailty     ; 2005bfb
+  jmp near _card_treacherous_pit_dweller     ; 2005c00
+  jmp near _card_triumph_of_cruelty     ; 2005c05
+  jmp near _card_spawnwrithe     ; 2005c0a
+  jmp near _card_lightning_mauler     ; 2005c0f
+  jmp near _card_malignus     ; 2005c14
+  jmp near _card_rite_of_ruin     ; 2005c19
+  jmp near _card_pillar_of_flame     ; 2005c1e
+  jmp near _card_thatchers_revolt     ; 2005c23
+  jmp near _card_human_token     ; 2005c28
+  jmp near _card_primal_surge     ; 2005c2d
+  jmp near _card_triumph_of_ferocity     ; 2005c32
+  jmp near _card_ulvenwald_tracker     ; 2005c37
+  jmp near _card_shadowmage_infiltrator     ; 2005c3c
+  jmp near _card_thieving_magpie     ; 2005c41
+  jmp near _card_kor_firewalker     ; 2005c46
+  jmp near _card_leap_of_faith     ; 2005c4b
+  jmp near _card_riders_of_gavony     ; 2005c50
+  jmp near _card_spectral_gateguards     ; 2005c55
+  jmp near _card_voice_of_the_provinces     ; 2005c5a
+  jmp near _card_havengul_skaab     ; 2005c5f
+  jmp near _card_lunar_mystic     ; 2005c64
+  jmp near _card_rotcrown_ghoul     ; 2005c69
+  jmp near _card_card_second_guess     ; 2005c6e
+  jmp near _card_spectral_prison     ; 2005c73
+  jmp near _card_vanishment     ; 2005c78
+  jmp near _card_evernight_shade     ; 2005c7d
+  jmp near _card_maalfeld_twins     ; 2005c82
+  jmp near _card_burn_at_the_stake     ; 2005c87
+  jmp near _card_gang_of_devils     ; 2005c8c
+  jmp near _card_havengul_vampire     ; 2005c91
+  jmp near _card_kessig_malcontents     ; 2005c96
+  jmp near _card_kruin_striker     ; 2005c9b
+  jmp near _card_riot_ringleader     ; 2005ca0
+  jmp near _card_rush_of_blood     ; 2005ca5
+  jmp near _card_somberwald_vigilante     ; 2005caa
+  jmp near _card_siren_song_lyre     ; 2005caf
+  jmp near _card_grounded     ; 2005cb4
+  jmp near _card_wolfir_avenger     ; 2005cb9
+  jmp near _card_call_to_serve     ; 2005cbe
+  jmp near _card_builders_blessing     ; 2005cc3
+  jmp near _card_commanders_autority     ; 2005cc8
+  jmp near _card_cursebreak     ; 2005ccd
+  jmp near _card_devout_chaplain     ; 2005cd2
+  jmp near _card_goldnight_commander     ; 2005cd7
+  jmp near _card_holy_justicar     ; 2005cdc
+  jmp near _card_midnight_duelist     ; 2005ce1
+  jmp near _card_midvast_protector     ; 2005ce6
+  jmp near _card_moonlight_geist     ; 2005ceb
+  jmp near _card_moorland_inquisitor     ; 2005cf0
+  jmp near _card_nearheath_pilgrim     ; 2005cf5
+  jmp near _card_restoration_angel     ; 2005cfa
+  jmp near _card_righteous_blow     ; 2005cff
+  jmp near _card_zealous_strike     ; 2005d04
+  jmp near _card_divine_deflection     ; 2005d09
+  jmp near _card_alchemists_apprentice     ; 2005d0e
+  jmp near _card_amass_the_components     ; 2005d13
+  jmp near _card_captain_of_the_mists     ; 2005d18
+  jmp near _card_crippling_chill     ; 2005d1d
+  jmp near _card_deadeye_navigator     ; 2005d22
+  jmp near _card_dreadwaters     ; 2005d27
+  jmp near _card_elgaud_shieldmate     ; 2005d2c
+  jmp near _card_favourable_winds     ; 2005d31
+  jmp near _card_fettergeist     ; 2005d36
+  jmp near _card_fleeting_distraction     ; 2005d3b
+  jmp near _card_galvanic_alchemist     ; 2005d40
+  jmp near _card_geist_snatch     ; 2005d45
+  jmp near _card_ghostform     ; 2005d4a
+  jmp near _card_ghostly_touch     ; 2005d4f
+  jmp near _card_into_the_void     ; 2005d54
+  jmp near _card_lone_revenant     ; 2005d59
+  jmp near _card_mass_appeal     ; 2005d5e
+  jmp near _card_outwit     ; 2005d63
+  jmp near _card_spirit_away     ; 2005d68
+  jmp near _card_stolen_goods     ; 2005d6d
+  jmp near _card_blood_artist     ; 2005d72
+  jmp near _card_drafnas_restoration     ; 2005d77
+  jmp near _card_corpse_traders     ; 2005d7c
+  jmp near _card_dark_imposter     ; 2005d81
+  jmp near _card_driver_of_the_dead     ; 2005d86
+  jmp near _card_dread_slaver     ; 2005d8b
+  jmp near _card_essence_harvest     ; 2005d90
+  jmp near _card_ghoulflesh     ; 2005d95
+  jmp near _card_gloom_surgeon     ; 2005d9a
+  jmp near _card_grave_exchange     ; 2005d9f
+  jmp near _card_hunted_ghoul     ; 2005da4
+  jmp near _card_marrow_bats     ; 2005da9
+  jmp near _card_mental_agony     ; 2005dae
+  jmp near _card_necrobite     ; 2005db3
+  jmp near _card_polluted_dead     ; 2005db8
+  jmp near _card_searchlight_geist     ; 2005dbd
+  jmp near _card_soulcage_fiend     ; 2005dc2
+  jmp near _card_predators_gambit     ; 2005dc7
+  jmp near _card_unhallowed_pact     ; 2005dcc
+  jmp near _card_death_wind     ; 2005dd1
+  jmp near _card_aggravate     ; 2005dd6
+  jmp near _card_banners_rised     ; 2005ddb
+  jmp near _card_battle_hymn     ; 2005de0
+  jmp near _card_dangerous_wager     ; 2005de5
+  jmp near _card_dual_casting     ; 2005dea
+  jmp near _card_falkenrath_exterminator     ; 2005def
+  jmp near _card_fervent_cathar     ; 2005df4
+  jmp near _card_guise_of_fire     ; 2005df9
+  jmp near _card_hanveir_lancer     ; 2005dfe
+  jmp near _card_heirs_of_stromkirk     ; 2005e03
+  jmp near _card_lightning_prowess     ; 2005e08
+  jmp near _card_malicious_intent     ; 2005e0d
+  jmp near _card_scalding_devil     ; 2005e12
+  jmp near _card_uncanny_speed     ; 2005e17
+  jmp near _card_tyrant_of_discord     ; 2005e1c
+  jmp near _card_vigilante_justice     ; 2005e21
+  jmp near _card_abundant_growth     ; 2005e26
+  jmp near _card_blessing_of_nature     ; 2005e2b
+  jmp near _card_bower_passage     ; 2005e30
+  jmp near _card_diregraf_escort     ; 2005e35
+  jmp near _card_druids_familiar     ; 2005e3a
+  jmp near _card_eaten_by_spiders     ; 2005e3f
+  jmp near _card_flowering_lumberknot     ; 2005e44
+  jmp near _card_geist_trapper     ; 2005e49
+  jmp near _card_lair_delve     ; 2005e4e
+  jmp near _card_natural_end     ; 2005e53
+  jmp near _card_pathbreaker_wurm     ; 2005e58
+  jmp near _card_rain_of_thorns     ; 2005e5d
+  jmp near _card_sheltering_word     ; 2005e62
+  jmp near _card_snare_the_skies     ; 2005e67
+  jmp near _card_terrifying_presence     ; 2005e6c
+  jmp near _card_soul_of_the_harvest     ; 2005e71
+  jmp near _card_timberland_guide     ; 2005e76
+  jmp near _card_trusted_forcemage     ; 2005e7b
+  jmp near _card_wandering_wolf     ; 2005e80
+  jmp near _card_wild_defiance     ; 2005e85
+  jmp near _card_wildwood_geist     ; 2005e8a
+  jmp near _card_yew_spirit     ; 2005e8f
+  jmp near _card_angelic_armaments     ; 2005e94
+  jmp near _card_bladed_bracers     ; 2005e99
+  jmp near _card_conjuring_closet     ; 2005e9e
+  jmp near _card_gallows_at_willow_hill     ; 2005ea3
+  jmp near _card_narstad_scrapper     ; 2005ea8
+  jmp near _card_otherworld_atlas     ; 2005ead
+  jmp near _card_scroll_of_avacyn     ; 2005eb2
+  jmp near _card_scroll_of_griselbrand     ; 2005eb7
+  jmp near _card_tormentors_trident     ; 2005ebc
+  jmp near _card_vanguards_shield     ; 2005ec1
+  jmp near _card_vessel_of_endless_rest     ; 2005ec6
+  jmp near _card_cavern_of_souls     ; 2005ecb
+  jmp near _card_seraphs_sanctuary     ; 2005ed0
+  jmp near _card_akki_coalflinger     ; 2005ed5
+  jmp near _card_ashes_skin_zubera     ; 2005eda
+  jmp near _card_azami_lady_of_scrolls     ; 2005edf
+  jmp near _card_azusa_lost_but_seeking     ; 2005ee4
+  jmp near _card_battle_mad_ronin     ; 2005ee9
+  jmp near _card_ben_ben_akki_hermit     ; 2005eee
+  jmp near _card_blessed_breath     ; 2005ef3
+  jmp near _card_blood_speaker     ; 2005ef8
+  jmp near _card_bloodthirsty_ogre     ; 2005efd
+  jmp near _card_brothers_yamazaki     ; 2005f02
+  jmp near _card_budoka_gardener     ; 2005f07
+  jmp near _card_dokai_weaver_of_life     ; 2005f0c
+  jmp near _card_burr_grafter     ; 2005f11
+  jmp near _card_wild_nacatal     ; 2005f16
+  jmp near _card_moroii     ; 2005f1b
+  jmp near _card_bushi_tenderfoot     ; 2005f20
+  jmp near _card_kenzo_the_hardhearted     ; 2005f25
+  jmp near _card_cage_of_hands     ; 2005f2a
+  jmp near _card_call_to_glory     ; 2005f2f
+  jmp near _card_candles_glow     ; 2005f34
+  jmp near _card_commune_with_nature     ; 2005f39
+  jmp near _card_consuming_vortex     ; 2005f3e
+  jmp near _card_cursed_ronin     ; 2005f43
+  jmp near _card_dampen_thought     ; 2005f48
+  jmp near _card_devoted_retainer     ; 2005f4d
+  jmp near _card_devouring_greed     ; 2005f52
+  jmp near _card_dosan_the_falling_leaf     ; 2005f57
+  jmp near _card_dripping_tongue_zubera     ; 2005f5c
+  jmp near _card_earthshaker     ; 2005f61
+  jmp near _card_eerie_procession     ; 2005f66
+  jmp near _card_eiganjo_castle     ; 2005f6b
+  jmp near _card_ember_fist_zubera     ; 2005f70
+  jmp near _card_feast_of_worms     ; 2005f75
+  jmp near _card_floating_dream_zubera     ; 2005f7a
+  jmp near _card_generals_kabuto     ; 2005f7f
+  jmp near _card_glacial_ray     ; 2005f84
+  jmp near _card_godo_bandit_warlord     ; 2005f89
+  jmp near _card_gutwrencher_oni     ; 2005f8e
+  jmp near _card_hana_kami     ; 2005f93
+  jmp near _card_he_who_hungers     ; 2005f98
+  jmp near _card_heart_kami     ; 2005f9d
+  jmp near _card_hideous_laughter     ; 2005fa2
+  jmp near _card_hikari_twilight_guardian     ; 2005fa7
+  jmp near _card_hinder     ; 2005fac
+  jmp near _card_hisoka_minamo_sensei     ; 2005fb1
+  jmp near _card_honor_worn_shaku     ; 2005fb6
+  jmp near _card_iname_death_aspect     ; 2005fbb
+  jmp near _card_iname_life_aspect     ; 2005fc0
+  jmp near _card_indomitable_will     ; 2005fc5
+  jmp near _card_jade_idol     ; 2005fca
+  jmp near _card_journeyers_kite     ; 2005fcf
+  jmp near _card_jugan_rising_star     ; 2005fd4
+  jmp near _card_junkyo_bell     ; 2005fd9
+  jmp near _card_jushi_apprentice     ; 2005fde
+  jmp near _card_tomoya_the_revealer     ; 2005fe3
+  jmp near _card_kami_of_fires_roar     ; 2005fe8
+  jmp near _card_kami_of_the_hunt     ; 2005fed
+  jmp near _card_kami_of_waning_moon     ; 2005ff2
+  jmp near _card_kashi_tribe_reaver     ; 2005ff7
+  jmp near _card_kiku_night_flower     ; 2005ffc
+  jmp near _card_kitsune_healer     ; 2006001
+  jmp near _card_kodama_of_the_south_tree     ; 2006006
+  jmp near _card_kodamas_might     ; 200600b
+  jmp near _card_explosive_vegetation     ; 2006010
+  jmp near _card_kondas_banner     ; 2006015
+  jmp near _card_kondas_hatamoto     ; 200601a
+  jmp near _card_konda_lord_of_eiganjo     ; 200601f
+  jmp near _card_kumano_master_yamabushi     ; 2006024
+  jmp near _card_kuro_pit_lord     ; 2006029
+  jmp near _card_long_forgotten_gohei     ; 200602e
+  jmp near _card_marrow_gnawer     ; 2006033
+  jmp near _card_matsu_tribe_decoy     ; 2006038
+  jmp near _card_minamo_school_at_waters_edge     ; 200603d
+  jmp near _card_myojin_of_cleansing_fire     ; 2006042
+  jmp near _card_myojin_of_infinite_rage     ; 2006047
+  jmp near _card_myojin_of_lifes_web     ; 200604c
+  jmp near _card_myojin_of_nights_reach     ; 2006051
+  jmp near _card_myojin_of_seeing_winds     ; 2006056
+  jmp near _card_nagao_bound_by_honor     ; 200605b
+  jmp near _card_natures_will     ; 2006060
+  jmp near _card_nezumi_bone_reader     ; 2006065
+  jmp near _card_nezumi_cutthroat     ; 200606a
+  jmp near _card_night_dealings     ; 200606f
+  jmp near _card_no_dachi     ; 2006074
+  jmp near _card_oathkeeper_takenos_daisho     ; 2006079
+  jmp near _card_okina_temple_to_the_grandfathers     ; 200607e
+  jmp near _card_oni_possession     ; 2006083
+  jmp near _card_orochi_eggwatcher     ; 2006088
+  jmp near _card_shidako_broodmistress     ; 200608d
+  jmp near _card_orochi_hatchery     ; 2006092
+  jmp near _card_orochi_leafcaller     ; 2006097
+  jmp near _card_orochi_ranger     ; 200609c
+  jmp near _card_otherworldly_journey     ; 20060a1
+  jmp near _card_pain_kami     ; 20060a6
+  jmp near _card_painwracker_oni     ; 20060ab
+  jmp near _card_peer_through_depths     ; 20060b0
+  jmp near _card_pious_kitsune     ; 20060b5
+  jmp near _card_psychic_puppetry     ; 20060ba
+  jmp near _card_quiet_purity     ; 20060bf
+  jmp near _card_reach_through_mists     ; 20060c4
+  jmp near _card_rend_flesh     ; 20060c9
+  jmp near _card_ronin_houndmaster     ; 20060ce
+  jmp near _card_rootrunner     ; 20060d3
+  jmp near _card_sachi_daughter_of_seshiro     ; 20060d8
+  jmp near _card_samurai_enforcers     ; 20060dd
+  jmp near _card_samurai_of_the_pale_courtain     ; 20060e2
+  jmp near _card_seizan_perverter_of_truth     ; 20060e7
+  jmp near _card_sensei_golden_tail     ; 20060ec
+  jmp near _card_seshiro_the_anointed     ; 20060f1
+  jmp near _card_shimatsu_the_bloodcloaked     ; 20060f6
+  jmp near _card_shinka_the_bloodsoaked_keep     ; 20060fb
+  jmp near _card_shisato_whispering_hunter     ; 2006100
+  jmp near _card_shizo_deaths_storehouse     ; 2006105
+  jmp near _card_sift_through_sands     ; 200610a
+  jmp near _card_silent_chant_zubera     ; 200610f
+  jmp near _card_soratami_cloudskater     ; 2006114
+  jmp near _card_soratami_savant     ; 2006119
+  jmp near _card_soratami_seer     ; 200611e
+  jmp near _card_sosuke_son_of_seshiro     ; 2006123
+  jmp near _card_soulblast     ; 2006128
+  jmp near _card_soulless_revival     ; 200612d
+  jmp near _card_swallowing_plague     ; 2006132
+  jmp near _card_takeno_samurai_general     ; 2006137
+  jmp near _card_tatsumasa_the_dragon_fang     ; 200613c
+  jmp near _card_dragon_spirit     ; 2006141
+  jmp near _card_tenza_godos_maul     ; 2006146
+  jmp near _card_the_unspeakable     ; 200614b
+  jmp near _card_thief_of_hope     ; 2006150
+  jmp near _card_through_the_breach     ; 2006155
+  jmp near _card_uyo_silent_prophet     ; 200615a
+  jmp near _card_villainous_ogre     ; 200615f
+  jmp near _card_waking_nightmare     ; 2006164
+  jmp near _card_wear_away     ; 2006169
+  jmp near _card_wicked_akuba     ; 200616e
+  jmp near _card_yamabushis_flame     ; 2006173
+  jmp near _card_yamabushis_storm     ; 2006178
+  jmp near _card_azamuki_treachery_incarnate     ; 200617d
+  jmp near _card_cunning_bandit     ; 2006182
+  jmp near _card_baku_altar     ; 2006187
+  jmp near _card_bile_urchin     ; 200618c
+  jmp near _card_blademane_baku     ; 2006191
+  jmp near _card_blazing_shoal     ; 2006196
+  jmp near _card_ichiga_who_topples_oaks     ; 200619b
+  jmp near _card_jaraku_the_interloper     ; 20061a0
+  jmp near _card_child_of_thorns     ; 20061a5
+  jmp near _card_chisei_heart_of_oceans     ; 20061aa
+  jmp near _card_crack_the_earth     ; 20061af
+  jmp near _card_day_of_destiny     ; 20061b4
+  jmp near _card_disrupting_shoal     ; 20061b9
+  jmp near _card_empty_shrine_kannushi     ; 20061be
+  jmp near _card_enshrined_memories     ; 20061c3
+  jmp near _card_kaiso_memory_of_loyalty     ; 20061c8
+  jmp near _card_first_volley     ; 20061cd
+  jmp near _card_forked_branch_garami     ; 20061d2
+  jmp near _card_frostling     ; 20061d7
+  jmp near _card_fumiko_the_lowblood     ; 20061dc
+  jmp near _card_genju_of_the_cedars     ; 20061e1
+  jmp near _card_genju_of_the_falls     ; 20061e6
+  jmp near _card_genju_of_the_fields     ; 20061eb
+  jmp near _card_genju_of_the_realm     ; 20061f0
+  jmp near _card_genju_of_the_spires     ; 20061f5
+  jmp near _card_gods_eye_gate_to_reikai     ; 20061fa
+  jmp near _card_goryos_vengeance     ; 20061ff
+  jmp near _card_heartless_hidetsugu     ; 2006204
+  jmp near _card_scarmaker     ; 2006209
+  jmp near _card_hokori_dust_drinker     ; 200620e
+  jmp near _card_horobis_whisper     ; 2006213
+  jmp near _card_in_the_web_of_war     ; 2006218
+  jmp near _card_indebted_samurai     ; 200621d
+  jmp near _card_ire_of_kaminari     ; 2006222
+  jmp near _card_isao_enlightned_bushi     ; 2006227
+  jmp near _card_iwamori_the_open_fist     ; 200622c
+  jmp near _card_kami_of_false_hope     ; 2006231
+  jmp near _card_kentaro_the_smiling_cat     ; 2006236
+  jmp near _card_kyoki_sanitys_eclipse     ; 200623b
+  jmp near _card_lifegift     ; 2006240
+  jmp near _card_lifespinner     ; 2006245
+  jmp near _card_loam_dweller     ; 200624a
+  jmp near _card_mark_of_the_oni     ; 200624f
+  jmp near _card_matsu_tribe_sniper     ; 2006254
+  jmp near _card_moonlit_strider     ; 2006259
+  jmp near _card_mirror_gallery     ; 200625e
+  jmp near _card_neko_te     ; 2006263
+  jmp near _card_nourishing_shoal     ; 2006268
+  jmp near _card_ogre_marauder     ; 200626d
+  jmp near _card_opal_eye_kondas_yojimbo     ; 2006272
+  jmp near _card_orb_of_dreams     ; 2006277
+  jmp near _card_oyobi_who_splits_the_heavens     ; 200627c
+  jmp near _card_patron_of_the_akki     ; 2006281
+  jmp near _card_patron_of_the_kitsune     ; 2006286
+  jmp near _card_patron_of_the_moon     ; 200628b
+  jmp near _card_patron_of_the_nezumi     ; 2006290
+  jmp near _card_patron_of_the_orochi     ; 2006295
+  jmp near _card_petalmane_baku     ; 200629a
+  jmp near _card_reduce_to_dreams     ; 200629f
+  jmp near _card_ronin_warclub     ; 20062a4
+  jmp near _card_sakiko_mother_of_summer     ; 20062a9
+  jmp near _card_scourge_of_numai     ; 20062ae
+  jmp near _card_shining_shoal     ; 20062b3
+  jmp near _card_shuko     ; 20062b8
+  jmp near _card_sickening_shoal     ; 20062bd
+  jmp near _card_skullsnatcher     ; 20062c2
+  jmp near _card_slumbering_tora     ; 20062c7
+  jmp near _card_sosukes_summons     ; 20062cc
+  jmp near _card_stir_the_grave     ; 20062d1
+  jmp near _card_sway_of_the_stars     ; 20062d6
+  jmp near _card_takenuma_bleeder     ; 20062db
+  jmp near _card_tallowisp     ; 20062e0
+  jmp near _card_tendo_ice_bridge     ; 20062e5
+  jmp near _card_terashis_grasp     ; 20062ea
+  jmp near _card_that_which_was_taken     ; 20062ef
+  jmp near _card_three_tragedies     ; 20062f4
+  jmp near _card_tomorrow_azamis_familiar     ; 20062f9
+  jmp near _card_toshiro_umezawa     ; 20062fe
+  jmp near _card_unchecked_growth     ; 2006303
+  jmp near _card_waxmane_baku     ; 2006308
+  jmp near _card_yomiji_who_bars_the_way     ; 200630d
+  jmp near _card_yukora_the_prisoner     ; 2006312
+  jmp near _card_devastation_tide     ; 2006317
+  jmp near _card_mad_prophet     ; 200631c
+  jmp near _card_stern_mentor     ; 2006321
+  jmp near _card_undead_executioner     ; 2006326
+  jmp near _card_adamaro_first_to_desire     ; 200632b
+  jmp near _card_akki_drillmaster     ; 2006330
+  jmp near _card_akuta_born_from_ashes     ; 2006335
+  jmp near _card_arashi_the_sky_asunder     ; 200633a
+  jmp near _card_aether_shockwave     ; 200633f
+  jmp near _card_bounteous_kirin     ; 2006344
+  jmp near _card_celestial_kirin     ; 2006349
+  jmp near _card_charge_across_the_araba     ; 200634e
+  jmp near _card_choice_of_damnation     ; 2006353
+  jmp near _card_cloudhoof_kirin     ; 2006358
+  jmp near _card_death_denied     ; 200635d
+  jmp near _card_death_of_a_thousand_stings     ; 2006362
+  jmp near _card_descendant_of_kiyomaro     ; 2006367
+  jmp near _card_eiganjo_free_riders     ; 200636c
+  jmp near _card_descendant_of_masumaro     ; 2006371
+  jmp near _card_descendant_of_soramaro     ; 2006376
+  jmp near _card_ebony_owl_netsuke     ; 200637b
+  jmp near _card_elder_pine_of_jukai     ; 2006380
+  jmp near _card_erayo_soratami_ascendant     ; 2006385
+  jmp near _card_erayos_essence     ; 200638a
+  jmp near _card_eternal_dominion     ; 200638f
+  jmp near _card_evermind     ; 2006394
+  jmp near _card_exile_into_darkness     ; 2006399
+  jmp near _card_feral_lightning     ; 200639e
+  jmp near _card_footsteps_of_the_goryo     ; 20063a3
+  jmp near _card_ghost_lit_nourisher     ; 20063a8
+  jmp near _card_ghost_lit_raider     ; 20063ad
+  jmp near _card_ghost_lit_redeemer     ; 20063b2
+  jmp near _card_ghost_lit_stalker     ; 20063b7
+  jmp near _card_haru_onna     ; 20063bc
+  jmp near _card_homuras_essence     ; 20063c1
+  jmp near _card_homura_human_ascendant     ; 20063c6
+  jmp near _card_iizuka_the_restless     ; 20063cb
+  jmp near _card_iname_as_one     ; 20063d0
+  jmp near _card_infernal_kirin     ; 20063d5
+  jmp near _card_ivory_crane_netsuke     ; 20063da
+  jmp near _card_jiwari_the_earth_aflame     ; 20063df
+  jmp near _card_kagemaro_first_to_suffer     ; 20063e4
+  jmp near _card_kaho_minamo_hystorian     ; 20063e9
+  jmp near _card_kami_of_the_tender_garden     ; 20063ee
+  jmp near _card_kashi_tribe_elite     ; 20063f3
+  jmp near _card_kemuri_onna     ; 20063f8
+  jmp near _card_kikus_shadow     ; 20063fd
+  jmp near _card_kiri_onna     ; 2006402
+  jmp near _card_kiyomaro_first_to_stand     ; 2006407
+  jmp near _card_kuon_essence     ; 200640c
+  jmp near _card_kuon_ogre_ascendant     ; 2006411
+  jmp near _card_kuros_taken     ; 2006416
+  jmp near _card_maga_traitor_to_mortals     ; 200641b
+  jmp near _card_manriki_gusari     ; 2006420
+  jmp near _card_masumaro_first_to_live     ; 2006425
+  jmp near _card_meishin_the_mind_cage     ; 200642a
+  jmp near _card_michiko_konda_truth_seeker     ; 200642f
+  jmp near _card_mikokoro_center_of_the_sea     ; 2006434
+  jmp near _card_molting_skin     ; 2006439
+  jmp near _card_murmurs_from_beyond     ; 200643e
+  jmp near _card_neverending_torment     ; 2006443
+  jmp near _card_nightsoil_kami     ; 2006448
+  jmp near _card_nikko_onna     ; 200644d
+  jmp near _card_o_naginata     ; 2006452
+  jmp near _card_oboro_palace_in_the_clouds     ; 2006457
+  jmp near _card_oni_of_the_wild_places     ; 200645c
+  jmp near _card_oppressive_will     ; 2006461
+  jmp near _card_overwhelming_intellect     ; 2006466
+  jmp near _card_pains_reward     ; 200646b
+  jmp near _card_path_of_angers_flame     ; 2006470
+  jmp near _card_promise_of_the_bunrei     ; 2006475
+  jmp near _card_promised_kannushi     ; 200647a
+  jmp near _card_raving_oni_slave     ; 200647f
+  jmp near _card_razorjaw_oni     ; 2006484
+  jmp near _card_reki_the_history_of_kamigawa     ; 2006489
+  jmp near _card_rending_vines     ; 200648e
+  jmp near _card_reverence     ; 2006493
+  jmp near _card_rune_tails_essence     ; 2006498
+  jmp near _card_rune_tail_kitsune_ascendant     ; 200649d
+  jmp near _card_special_effect     ; 20064a2
+  jmp near _card_sakashima_the_impostor     ; 20064a7
+  jmp near _card_sasayas_essence     ; 20064ac
+  jmp near _card_sasaya_orochi_ascendant     ; 20064b1
+  jmp near _card_seed_the_land     ; 20064b6
+  jmp near _card_seek_the_horizon     ; 20064bb
+  jmp near _card_sekki_seasons_guide     ; 20064c0
+  jmp near _card_shinen_of_lifes_roar     ; 20064c5
+  jmp near _card_sink_into_takenuma     ; 20064ca
+  jmp near _card_skull_collector     ; 20064cf
+  jmp near _card_skyfire_kirin     ; 20064d4
+  jmp near _card_soramaro_first_to_dream     ; 20064d9
+  jmp near _card_spiritual_visit     ; 20064de
+  jmp near _card_sunder_from_within     ; 20064e3
+  jmp near _card_urami     ; 20064e8
+  jmp near _card_tomb_of_urami     ; 20064ed
+  jmp near _card_trusted_advisor     ; 20064f2
+  jmp near _card_undying_flame     ; 20064f7
+  jmp near _card_wine_of_blood_and_iron     ; 20064fc
+  jmp near _card_yuki_onna     ; 2006501
+  jmp near _card_acorn_catapult     ; 2006506
+  jmp near _card_alliance_of_arms     ; 200650b
+  jmp near _card_archangel_of_strife     ; 2006510
+  jmp near _card_basandra_battle_seraph     ; 2006515
+  jmp near _card_celestial_force     ; 200651a
+  jmp near _card_champions_helm     ; 200651f
+  jmp near _card_collective_voyage     ; 2006524
+  jmp near _card_command_tower     ; 2006529
+  jmp near _card_damia_sage_of_stone     ; 200652e
+  jmp near _card_death_by_dragons     ; 2006533
+  jmp near _card_dread_cacodemon     ; 2006538
+  jmp near _card_ghave_guru_of_spores     ; 200653d
+  jmp near _card_homeward_path     ; 2006542
+  jmp near _card_hornet_queen     ; 2006547
+  jmp near _card_magmatic_force     ; 200654c
+  jmp near _card_mana_charged_dragon     ; 2006551
+  jmp near _card_minds_aglow     ; 2006556
+  jmp near _card_nin_the_pain_artist     ; 200655b
+  jmp near _card_riddlekeeper     ; 2006560
+  jmp near _card_scythe_specter     ; 2006565
+  jmp near _card_sewer_nemesis     ; 200656a
+  jmp near _card_shared_trauma     ; 200656f
+  jmp near _card_skullbriar_the_walking_grave     ; 2006574
+  jmp near _card_spell_crumple     ; 2006579
+  jmp near _card_syphon_flesh     ; 200657e
+  jmp near _card_tariel_reckoner_of_souls     ; 2006583
+  jmp near _card_trench_gorger     ; 2006588
+  jmp near _card_tribute_to_the_wild     ; 200658d
+  jmp near _card_vow_of_duty     ; 2006592
+  jmp near _card_vow_of_flight     ; 2006597
+  jmp near _card_vow_of_lightning     ; 200659c
+  jmp near _card_vow_of_malice     ; 20065a1
+  jmp near _card_vow_of_wildness     ; 20065a6
+  jmp near _card_zedruu_the_greathearted     ; 20065ab
+  jmp near _card_nim_lasher     ; 20065b0
+  jmp near _card_nim_shambler     ; 20065b5
+  jmp near _card_felidar_umbra     ; 20065ba
+  jmp near _card_illusory_angel     ; 20065bf
+  jmp near _card_sakashimas_student     ; 20065c4
+  jmp near _card_beetleback_chief     ; 20065c9
+  jmp near _card_preyseizer_dragon     ; 20065ce
+  jmp near _card_brindle_shoat     ; 20065d3
+  jmp near _card_dreampod_druid     ; 20065d8
+  jmp near _card_baleful_strix     ; 20065dd
+  jmp near _card_dragonlair_spider     ; 20065e2
+  jmp near _card_etherium_horn_sorcerer     ; 20065e7
+  jmp near _card_indrik_umbra     ; 20065ec
+  jmp near _card_krond_the_dawn_clad     ; 20065f1
+  jmp near _card_jeweled_bird     ; 20065f6
+  jmp near _card_silent_blade_oni     ; 20065fb
+  jmp near _card_thromok_the_insatiable     ; 2006600
+  jmp near _card_vela_the_night_clad     ; 2006605
+  jmp near _card_fractured_powerstone     ; 200660a
+  jmp near _card_sai_of_the_shinobi     ; 200660f
+  jmp near _card_archaeomancer     ; 2006614
+  jmp near _card_nefarox_overlord_of_grixis     ; 2006619
+  jmp near _card_whims_of_the_fates     ; 200661e
+  jmp near _card_xathrid_gorgon     ; 2006623
+  jmp near _card_chandras_fury     ; 2006628
+  jmp near _card_centaur_token     ; 200662d
+  jmp near _card_agrus_kos_wojek_veteran     ; 2006632
+  jmp near _card_bathe_in_light     ; 2006637
+  jmp near _card_blazing_archon     ; 200663c
+  jmp near _card_bloodbond_march     ; 2006641
+  jmp near _card_autochthon_wurm     ; 2006646
+  jmp near _card_bloodletter_quill     ; 200664b
+  jmp near _card_boros_fury_shield     ; 2006650
+  jmp near _card_boros_guildmage     ; 2006655
+  jmp near _card_boros_recruit     ; 200665a
+  jmp near _card_talrand_sky_summoner     ; 200665f
+  jmp near _card_flames_of_the_firebrand     ; 2006664
+  jmp near _card_brainspoil     ; 2006669
+  jmp near _card_bramble_elemental     ; 200666e
+  jmp near _card_brightflame     ; 2006673
+  jmp near _card_centaur_safeguard     ; 2006678
+  jmp near _card_chant_of_vitu_ghazi     ; 200667d
+  jmp near _card_chorus_of_the_conclave     ; 2006682
+  jmp near _card_circu_dimir_lobotomist     ; 2006687
+  jmp near _card_cleansing_beam     ; 200668c
+  jmp near _card_clutch_of_the_undercity     ; 2006691
+  jmp near _card_concerted_effort     ; 2006696
+  jmp near _card_conclave_phalanx     ; 200669b
+  jmp near _card_consult_the_necrosages     ; 20066a0
+  jmp near _card_convolute     ; 20066a5
+  jmp near _card_copy_enchantment     ; 20066aa
+  jmp near _card_crown_of_convergence     ; 20066af
+  jmp near _card_darkblast     ; 20066b4
+  jmp near _card_devouring_light     ; 20066b9
+  jmp near _card_dimir_cutpurse     ; 20066be
+  jmp near _card_dimir_doppelganger     ; 20066c3
+  jmp near _card_dimir_guildmage     ; 20066c8
+  jmp near _card_kaldra     ; 20066cd
+  jmp near _card_kodama_of_the_north_tree     ; 20066d2
+  jmp near _card_fabricate     ; 20066d7
+  jmp near _card_maro     ; 20066dc
+  jmp near _card_ajani_caller_of_the_pride     ; 20066e1
+  jmp near _card_arctic_aven     ; 20066e6
+  jmp near _card_attended_knight     ; 20066eb
+  jmp near _card_augur_of_bolas     ; 20066f0
+  jmp near _card_battlefligh_eagle     ; 20066f5
+  jmp near _card_arms_dealer     ; 20066fa
+  jmp near _card_blood_reckoning     ; 20066ff
+  jmp near _card_bloodhunter_bat     ; 2006704
+  jmp near _card_consign_to_dust     ; 2006709
+  jmp near _card_boundless_realms     ; 200670e
+  jmp near _card_captains_call     ; 2006713
+  jmp near _card_cathedral_of_war     ; 2006718
+  jmp near _card_chadras_fury     ; 200671d
+  jmp near _card_chronomaton     ; 2006722
+  jmp near _card_cleaver_riot     ; 2006727
+  jmp near _card_courtly_provacateur     ; 200672c
+  jmp near _card_cower_in_fear     ; 2006731
+  jmp near _card_crimson_muckwader     ; 2006736
+  jmp near _card_crippling_blight     ; 200673b
+  jmp near _card_diabolic_revelation     ; 2006740
+  jmp near _card_disciple_of_bolas     ; 2006745
+  jmp near _card_downpour     ; 200674a
+  jmp near _card_duskmantle_prowler     ; 200674f
+  jmp near _card_duty_bound_dead     ; 2006754
+  jmp near _card_elderscale_wurm     ; 2006759
+  jmp near _card_encrust     ; 200675e
+  jmp near _card_erase     ; 2006763
+  jmp near _card_essence_drain     ; 2006768
+  jmp near _card_faerie_invaders     ; 200676d
+  jmp near _card_faiths_reward     ; 2006772
+  jmp near _card_firewing_phoenix     ; 2006777
+  jmp near _card_flinthoof_boar     ; 200677c
+  jmp near _card_fungal_sprouting     ; 2006781
+  jmp near _card_gem_of_becoming     ; 2006786
+  jmp near _card_goblin_battle_jester     ; 200678b
+  jmp near _card_griffin_protector     ; 2006790
+  jmp near _card_hamletback_goliath     ; 2006795
+  jmp near _card_harbor_bandit     ; 200679a
+  jmp near _card_healer_of_the_pride     ; 200679f
+  jmp near _card_hellion_crucible     ; 20067a4
+  jmp near _card_hellion_token     ; 20067a9
+  jmp near _card_jaces_phantasm     ; 20067ae
+  jmp near _card_kindled_fury     ; 20067b3
+  jmp near _card_kitesail     ; 20067b8
+  jmp near _card_krenko_mob_boss     ; 20067bd
+  jmp near _card_teferis_moat     ; 20067c2
+  jmp near _card_liliana_of_the_dark_realms     ; 20067c7
+  jmp near _card_lilianas_emblem     ; 20067cc
+  jmp near _card_lilianas_shade     ; 20067d1
+  jmp near _card_magmaquake     ; 20067d6
+  jmp near _card_mark_of_the_vampire     ; 20067db
+  jmp near _card_mind_sculpt     ; 20067e0
+  jmp near _card_mindclaw_shaman     ; 20067e5
+  jmp near _card_murder2     ; 20067ea
+  jmp near _card_mutilate     ; 20067ef
+  jmp near _card_mwonvuli_beast_tracker     ; 20067f4
+  jmp near _card_odric_master_tactician     ; 20067f9
+  jmp near _card_omniscience     ; 20067fe
+  jmp near _card_predatory_rampage     ; 2006803
+  jmp near _card_prized_elephant     ; 2006808
+  jmp near _card_public_execution     ; 200680d
+  jmp near _card_rangers_path     ; 2006812
+  jmp near _card_kragma_butcher     ; 2006817
+  jmp near _card_reliquiary_tower     ; 200681c
+  jmp near _card_card_ring_of_evos_isle     ; 2006821
+  jmp near _card_ring_of_kalonia     ; 2006826
+  jmp near _card_ring_of_thune     ; 200682b
+  jmp near _card_ring_of_valkas     ; 2006830
+  jmp near _card_ring_of_xathrid     ; 2006835
+  jmp near _card_roaring_primadox     ; 200683a
+  jmp near _card_rummaging_goblin     ; 200683f
+  jmp near _card_sands_of_delirium     ; 2006844
+  jmp near _card_serpents_gift     ; 2006849
+  jmp near _card_serra_avenger     ; 200684e
+  jmp near _card_shimian_specter     ; 2006853
+  jmp near _card_show_of_valor     ; 2006858
+  jmp near _card_silklash_spider     ; 200685d
+  jmp near _card_slumbering_dragon     ; 2006862
+  jmp near _card_spelltwine     ; 2006867
+  jmp near _card_staff_of_nin     ; 200686c
+  jmp near _card_sublime_archangel     ; 2006871
+  jmp near _card_switcheroo     ; 2006876
+  jmp near _card_talrands_invocation     ; 200687b
+  jmp near _card_thragtusk     ; 2006880
+  jmp near _card_thundermaw_hellkite     ; 2006885
+  jmp near _card_timberpack_wolf     ; 200688a
+  jmp near _card_touch_of_the_eternal     ; 200688f
+  jmp near _card_trading_post     ; 2006894
+  jmp near _card_tricks_of_the_trade     ; 2006899
+  jmp near _card_trumpet_blast     ; 200689e
+  jmp near _card_vedalken_entrancer     ; 20068a3
+  jmp near _card_veilborn_ghoul     ; 20068a8
+  jmp near _card_vile_rebirth     ; 20068ad
+  jmp near _card_void_stalker     ; 20068b2
+  jmp near _card_war_falcon     ; 20068b7
+  jmp near _card_watercourser     ; 20068bc
+  jmp near _card_wild_guess     ; 20068c1
+  jmp near _card_wits_end     ; 20068c6
+  jmp near _card_worldfire     ; 20068cb
+  jmp near _card_yeva_forcemage     ; 20068d0
+  jmp near _card_yeva_natures_herald     ; 20068d5
+  jmp near _card_dimir_house_guard     ; 20068da
+  jmp near _card_dimir_infiltrator     ; 20068df
+  jmp near _card_dimir_machinations     ; 20068e4
+  jmp near _card_dream_leash     ; 20068e9
+  jmp near _card_drift_of_phantasms     ; 20068ee
+  jmp near _card_drooling_groodion     ; 20068f3
+  jmp near _card_dryads_caress     ; 20068f8
+  jmp near _card_duskmantle_house_of_shadows     ; 20068fd
+  jmp near _card_elvish_skysweeper     ; 2006902
+  jmp near _card_empty_the_catacombs     ; 2006907
+  jmp near _card_festival_of_the_guildpact     ; 200690c
+  jmp near _card_firemane_angel     ; 2006911
+  jmp near _card_fists_of_ironwood     ; 2006916
+  jmp near _card_flame_fusillade     ; 200691b
+  jmp near _card_flash_conscript     ; 2006920
+  jmp near _card_flight_of_fancy     ; 2006925
+  jmp near _card_flow_of_ideas     ; 200692a
+  jmp near _card_followed_footsteps     ; 200692f
+  jmp near _card_frenzied_goblin     ; 2006934
+  jmp near _card_gather_courage     ; 2006939
+  jmp near _card_ghosts_of_the_innocent     ; 200693e
+  jmp near _card_glare_of_subdual     ; 2006943
+  jmp near _card_gleancrawler     ; 2006948
+  jmp near _card_golgari_brownscale     ; 200694d
+  jmp near _card_golgari_germination     ; 2006952
+  jmp near _card_golgari_guildmage     ; 2006957
+  jmp near _card_golgari_rotwurm     ; 200695c
+  jmp near _card_graveshell_scarab     ; 2006961
+  jmp near _card_greater_mossdog     ; 2006966
+  jmp near _card_grozoth     ; 200696b
+  jmp near _card_guardian_of_vitu_ghazi     ; 2006970
+  jmp near _card_hammerfist_giant     ; 2006975
+  jmp near _card_hex     ; 200697a
+  jmp near _card_hour_of_reckoning     ; 200697f
+  jmp near _card_hunted_lammasu     ; 2006984
+  jmp near _card_hunted_phantasm     ; 2006989
+  jmp near _card_hunted_troll     ; 200698e
+  jmp near _card_induce_paranoia     ; 2006993
+  jmp near _card_ivy_dancer     ; 2006998
+  jmp near _card_keening_banshee     ; 200699d
+  jmp near _card_leave_no_trace     ; 20069a2
+  jmp near _card_light_of_sanction     ; 20069a7
+  jmp near _card_lore_broker     ; 20069ac
+  jmp near _card_lurking_informant     ; 20069b1
+  jmp near _card_mark_of_eviction     ; 20069b6
+  jmp near _card_mindleech_mass     ; 20069bb
+  jmp near _card_mindmoil     ; 20069c0
+  jmp near _card_mnemonic_nexus     ; 20069c5
+  jmp near _card_moldervine_cloak     ; 20069ca
+  jmp near _card_moonlight_bargain     ; 20069cf
+  jmp near _card_mortipede     ; 20069d4
+  jmp near _card_muddle_the_mixture     ; 20069d9
+  jmp near _card_necroplasm     ; 20069de
+  jmp near _card_nightmare_void     ; 20069e3
+  jmp near _card_nullmage_shepherd     ; 20069e8
+  jmp near _card_nullstone_gargoyle     ; 20069ed
+  jmp near _card_oathsworn_giant     ; 20069f2
+  jmp near _card_overwhelm2     ; 20069f7
+  jmp near _card_plague_boiler     ; 20069fc
+  jmp near _card_pollenbright_wings     ; 2006a01
+  jmp near _card_endless_swarm     ; 2006a06
+  jmp near _card_master_of_the_pearl_trident     ; 2006a0b
+  jmp near _card_primordial_sage     ; 2006a10
+  jmp near _card_privileged_position     ; 2006a15
+  jmp near _card_psychic_drain     ; 2006a1a
+  jmp near _card_rain_of_embers     ; 2006a1f
+  jmp near _card_rally_the_righteous     ; 2006a24
+  jmp near _card_razias_purification     ; 2006a29
+  jmp near _card_razia_boros_archangel     ; 2006a2e
+  jmp near _card_ribbons_of_night     ; 2006a33
+  jmp near _card_rolling_spoil     ; 2006a38
+  jmp near _card_savra_queen_of_the_golgari     ; 2006a3d
+  jmp near _card_seed_spark     ; 2006a42
+  jmp near _card_seeds_of_strength     ; 2006a47
+  jmp near _card_seismic_peak     ; 2006a4c
+  jmp near _card_selesnya_guildmage     ; 2006a51
+  jmp near _card_leonine_arbiter     ; 2006a56
+  jmp near _card_shadow_of_doubt     ; 2006a5b
+  jmp near _card_shambling_shell     ; 2006a60
+  jmp near _card_shred_memory     ; 2006a65
+  jmp near _card_sins_of_the_past     ; 2006a6a
+  jmp near _card_sisters_of_stone_death     ; 2006a6f
+  jmp near _card_smash2     ; 2006a74
+  jmp near _card_sparkmage_apprentice     ; 2006a79
+  jmp near _card_spawnbroker     ; 2006a7e
+  jmp near _card_stoneshaker_shaman     ; 2006a83
+  jmp near _card_stoneseeder_hierophant     ; 2006a88
+  jmp near _card_strands_of_undeath     ; 2006a8d
+  jmp near _card_sundering_vitae     ; 2006a92
+  jmp near _card_sunforger     ; 2006a97
+  jmp near _card_sunhome_enforcer     ; 2006a9c
+  jmp near _card_sunhome_fortress_of_the_legion     ; 2006aa1
+  jmp near _card_surge_of_zeal     ; 2006aa6
+  jmp near _card_svoghtos_the_restless_tomb     ; 2006aab
+  jmp near _card_svoghtos_animated     ; 2006ab0
+  jmp near _card_szadeck_lord_of_secrets     ; 2006ab5
+  jmp near _card_thoughtpicker_witch     ; 2006aba
+  jmp near _card_three_dreams     ; 2006abf
+  jmp near _card_thundersong_trumpeter     ; 2006ac4
+  jmp near _card_transluminant     ; 2006ac9
+  jmp near _card_trophy_hunter     ; 2006ace
+  jmp near _card_tunnel_vision     ; 2006ad3
+  jmp near _card_twisted_justice     ; 2006ad8
+  jmp near _card_ursapine     ; 2006add
+  jmp near _card_vigor_mortis     ; 2006ae2
+  jmp near _card_vinelasher_kudzu     ; 2006ae7
+  jmp near _card_voyager_staff     ; 2006aec
+  jmp near _card_vulturous_zombie     ; 2006af1
+  jmp near _card_warp_world     ; 2006af6
+  jmp near _card_woebringer_demon     ; 2006afb
+  jmp near _card_wojek_siren     ; 2006b00
+  jmp near _card_absolver_thrull     ; 2006b05
+  jmp near _card_abyssal_nocturnus     ; 2006b0a
+  jmp near _card_aetherplasm     ; 2006b0f
+  jmp near _card_beastmasters_magemark     ; 2006b14
+  jmp near _card_belfry_spirit     ; 2006b19
+  jmp near _card_blind_hunter     ; 2006b1e
+  jmp near _card_borborygmos     ; 2006b23
+  jmp near _card_castigate     ; 2006b28
+  jmp near _card_cerebral_vortex     ; 2006b2d
+  jmp near _card_conjurers_ban     ; 2006b32
+  jmp near _card_crash_landing     ; 2006b37
+  jmp near _card_cremate     ; 2006b3c
+  jmp near _card_cry_of_contrition     ; 2006b41
+  jmp near _card_culling_sun     ; 2006b46
+  jmp near _card_debtors_knell     ; 2006b4b
+  jmp near _card_djinn_illuminatus     ; 2006b50
+  jmp near _card_droning_bureaucrats     ; 2006b55
+  jmp near _card_drowned_rusalka     ; 2006b5a
+  jmp near _card_dryad_sophisticate     ; 2006b5f
+  jmp near _card_dune_brood_nephilim     ; 2006b64
+  jmp near _card_fencers_magemark     ; 2006b69
+  jmp near _card_feral_animist     ; 2006b6e
+  jmp near _card_gatherer_of_graces     ; 2006b73
+  jmp near _card_gelectrode     ; 2006b78
+  jmp near _card_ghost_council_of_orzhova     ; 2006b7d
+  jmp near _card_ghostway     ; 2006b82
+  jmp near _card_gigadrowse     ; 2006b87
+  jmp near _card_glint_eye_nephilim     ; 2006b8c
+  jmp near _card_graven_dominator     ; 2006b91
+  jmp near _card_gristleback     ; 2006b96
+  jmp near _card_gruul_guildmage     ; 2006b9b
+  jmp near _card_gruul_war_plow     ; 2006ba0
+  jmp near _card_hatching_plans     ; 2006ba5
+  jmp near _card_hissing_miasma     ; 2006baa
+  jmp near _card_infiltrators_magemark     ; 2006baf
+  jmp near _card_invoke_the_firemind     ; 2006bb4
+  jmp near _card_izzet_guildmage     ; 2006bb9
+  jmp near _card_killer_instinct     ; 2006bbe
+  jmp near _card_leyline_of_lightning     ; 2006bc3
+  jmp near _card_leap_of_flame     ; 2006bc8
+  jmp near _card_leyline_of_singularity     ; 2006bcd
+  jmp near _card_leyline_of_the_meek     ; 2006bd2
+  jmp near _card_martyred_rusalka     ; 2006bd7
+  jmp near _card_mimeofacture     ; 2006bdc
+  jmp near _card_mizzium_transreliquat     ; 2006be1
+  jmp near _card_moratorium_stone     ; 2006be6
+  jmp near _card_mourning_thrull     ; 2006beb
+  jmp near _card_necromancers_magemark     ; 2006bf0
+  jmp near _card_order_of_the_stars     ; 2006bf5
+  jmp near _card_orzhov_guildmage     ; 2006bfa
+  jmp near _card_orzhov_pontiff     ; 2006bff
+  jmp near _card_orzhova_the_church_of_deals     ; 2006c04
+  jmp near _card_parallectric_feedback     ; 2006c09
+  jmp near _card_petrified_wood_kin     ; 2006c0e
+  jmp near _card_pillory_of_the_sleepless     ; 2006c13
+  jmp near _card_plagued_rusalka     ; 2006c18
+  jmp near _card_primeval_light     ; 2006c1d
+  jmp near _card_pyromatics     ; 2006c22
+  jmp near _card_revenant_patriarch     ; 2006c27
+  jmp near _card_sanguine_praetor     ; 2006c2c
+  jmp near _card_scab_clan_mauler     ; 2006c31
+  jmp near _card_schismotivate     ; 2006c36
+  jmp near _card_scorched_rusalka     ; 2006c3b
+  jmp near _card_seize_the_soul     ; 2006c40
+  jmp near _card_shadow_lance     ; 2006c45
+  jmp near _card_shattering_spree     ; 2006c4a
+  jmp near _card_silhana_ledgewalker     ; 2006c4f
+  jmp near _card_skarrg_the_rage_pit     ; 2006c54
+  jmp near _card_skarrgan_pit_skulk     ; 2006c59
+  jmp near _card_skeletal_vampire     ; 2006c5e
+  jmp near _card_smogsteed_rider     ; 2006c63
+  jmp near _card_souls_of_the_faultless     ; 2006c68
+  jmp near _card_spelltithe_enforcer     ; 2006c6d
+  jmp near _card_starved_rusalka     ; 2006c72
+  jmp near _card_stitch_in_time     ; 2006c77
+  jmp near _card_storm_herd     ; 2006c7c
+  jmp near _card_sword_of_the_paruns     ; 2006c81
+  jmp near _card_teysa_orzhov_scion     ; 2006c86
+  jmp near _card_tibor_and_lumia     ; 2006c8b
+  jmp near _card_tin_street_hooligan     ; 2006c90
+  jmp near _card_train_of_thoughts     ; 2006c95
+  jmp near _card_vedalken_plotter     ; 2006c9a
+  jmp near _card_vertigo_spawn     ; 2006c9f
+  jmp near _card_wee_dragonauts     ; 2006ca4
+  jmp near _card_wild_cantor     ; 2006ca9
+  jmp near _card_wildsize     ; 2006cae
+  jmp near _card_witch_maw_nephilim     ; 2006cb3
+  jmp near _card_wreak_havok     ; 2006cb8
+  jmp near _card_wurmweaver_coil     ; 2006cbd
+  jmp near _card_yore_tiller_nephilim     ; 2006cc2
+  jmp near _card_hydrosurge     ; 2006cc7
+  jmp near _card_aethermages_touch     ; 2006ccc
+  jmp near _card_anthem_of_rakdos     ; 2006cd1
+  jmp near _card_aquastrand_spider     ; 2006cd6
+  jmp near _card_azorius_guildmage     ; 2006cdb
+  jmp near _card_azorius_herald     ; 2006ce0
+  jmp near _card_azorius_ploy     ; 2006ce5
+  jmp near _card_beacon_hawk     ; 2006cea
+  jmp near _card_biomantic_mastery     ; 2006cef
+  jmp near _card_blessing_of_the_nephilim     ; 2006cf4
+  jmp near _card_bond_of_agony     ; 2006cf9
+  jmp near _card_bound_determined     ; 2006cfe
+  jmp near _card_brain_pry     ; 2006d03
+  jmp near _card_celestial_ancient     ; 2006d08
+  jmp near _card_crime_punishment     ; 2006d0d
+  jmp near _card_cytoplast_manipulator     ; 2006d12
+  jmp near _card_cytoshape     ; 2006d17
+  jmp near _card_cytospawn_shambler     ; 2006d1c
+  jmp near _card_delirium_skeins     ; 2006d21
+  jmp near _card_demonfire     ; 2006d26
+  jmp near _card_development_research     ; 2006d2b
+  jmp near _card_bird_token     ; 2006d30
+  jmp near _card_dovescape     ; 2006d35
+  jmp near _card_dread_slag     ; 2006d3a
+  jmp near _card_drekavac     ; 2006d3f
+  jmp near _card_elemental_resonance     ; 2006d44
+  jmp near _card_odds_ends     ; 2006d49
+  jmp near _card_enemy_of_the_guildpact     ; 2006d4e
+  jmp near _card_error_trial     ; 2006d53
+  jmp near _card_evolution_vat     ; 2006d58
+  jmp near _card_fall_rise     ; 2006d5d
+  jmp near _card_flame_kin_war_scout     ; 2006d62
+  jmp near _card_flaring_flame_kin     ; 2006d67
+  jmp near _card_freewind_equenaut     ; 2006d6c
+  jmp near _card_gobhobbler_rats     ; 2006d71
+  jmp near _card_guardian_of_the_guildpact     ; 2006d76
+  jmp near _card_haazda_shield_mate     ; 2006d7b
+  jmp near _card_helium_squirter     ; 2006d80
+  jmp near _card_hellhole_rats     ; 2006d85
+  jmp near _card_hide_seek     ; 2006d8a
+  jmp near _card_hit_run     ; 2006d8f
+  jmp near _card_isperia_the_inscrutable     ; 2006d94
+  jmp near _card_jagged_poppet     ; 2006d99
+  jmp near _card_loaming_shaman     ; 2006d9e
+  jmp near _card_lyzolda_the_blood_witch     ; 2006da3
+  jmp near _card_macabre_waltz     ; 2006da8
+  jmp near _card_nihilistic_glee     ; 2006dad
+  jmp near _card_novijen_sages     ; 2006db2
+  jmp near _card_novijen_heart_of_progress     ; 2006db7
+  jmp near _card_omnibian     ; 2006dbc
+  jmp near _card_overrule     ; 2006dc1
+  jmp near _card_pain_magnification     ; 2006dc6
+  jmp near _card_defender_of_chaos     ; 2006dcb
+  jmp near _card_might_of_the_nephilim     ; 2006dd0
+  jmp near _card_paladin_of_prahv     ; 2006dd5
+  jmp near _card_patagia_viper     ; 2006dda
+  jmp near _card_plumes_of_peace     ; 2006ddf
+  jmp near _card_prahv_spires_of_order     ; 2006de4
+  jmp near _card_pride_of_clouds     ; 2006de9
+  jmp near _card_proclamation_of_rebirth     ; 2006dee
+  jmp near _card_proper_burial     ; 2006df3
+  jmp near _card_psychic_possession     ; 2006df8
+  jmp near _card_psychotic_fury     ; 2006dfd
+  jmp near _card_pure_simple     ; 2006e02
+  jmp near _card_raggamuffyn     ; 2006e07
+  jmp near _card_rakdos_augermage     ; 2006e0c
+  jmp near _card_rakdos_guildmage     ; 2006e11
+  jmp near _card_goblin_token     ; 2006e16
+  jmp near _card_rakdos_ickspitter     ; 2006e1b
+  jmp near _card_rakdos_riteknife     ; 2006e20
+  jmp near _card_rakdos_the_defiler     ; 2006e25
+  jmp near _card_ratcatcher     ; 2006e2a
+  jmp near _card_riot_spikes     ; 2006e2f
+  jmp near _card_rix_maadi_dungeon_palace     ; 2006e34
+  jmp near _card_seal_of_doom     ; 2006e39
+  jmp near _card_simic_basilisk     ; 2006e3e
+  jmp near _card_simic_guildmage     ; 2006e43
+  jmp near _card_simic_initiate     ; 2006e48
+  jmp near _card_sky_hussar     ; 2006e4d
+  jmp near _card_skyscribing     ; 2006e52
+  jmp near _card_slithering_shade     ; 2006e57
+  jmp near _card_soulsworn_jury     ; 2006e5c
+  jmp near _card_sporeback_troll     ; 2006e61
+  jmp near _card_sprouting_phytohydra     ; 2006e66
+  jmp near _card_squealing_devil     ; 2006e6b
+  jmp near _card_stalking_vengeance     ; 2006e70
+  jmp near _card_stomp_and_howl     ; 2006e75
+  jmp near _card_stormscale_anarch     ; 2006e7a
+  jmp near _card_taste_for_mayhem     ; 2006e7f
+  jmp near _card_tidespout_tyrant     ; 2006e84
+  jmp near _card_twinstrike     ; 2006e89
+  jmp near _card_unliving_psychopath     ; 2006e8e
+  jmp near _card_vigean_graftmage     ; 2006e93
+  jmp near _card_vigean_hydropon     ; 2006e98
+  jmp near _card_vision_skeins     ; 2006e9d
+  jmp near _card_wakestone_gargoyle     ; 2006ea2
+  jmp near _card_windreaver     ; 2006ea7
+  jmp near _card_wrecking_ball     ; 2006eac
+  jmp near _card_aether_web     ; 2006eb1
+  jmp near _card_aetherflame_wall     ; 2006eb6
+  jmp near _card_vitalizing_cascade     ; 2006ebb
+  jmp near _card_amrou_seekers     ; 2006ec0
+  jmp near _card_angels_grace     ; 2006ec5
+  jmp near _card_aspect_of_the_mangoose     ; 2006eca
+  jmp near _card_basal_sliver     ; 2006ecf
+  jmp near _card_benalish_cavalry     ; 2006ed4
+  jmp near _card_arrogant_wurm     ; 2006ed9
+  jmp near _card_call_to_the_netherworld     ; 2006ede
+  jmp near _card_candles_of_leng     ; 2006ee3
+  jmp near _card_chameleon_blur     ; 2006ee8
+  jmp near _card_celestial_crusader     ; 2006eed
+  jmp near _card_children_of_korlis     ; 2006ef2
+  jmp near _card_chronatog     ; 2006ef7
+  jmp near _card_chronatog_totem     ; 2006efc
+  jmp near _card_chronosavant     ; 2006f01
+  jmp near _card_clockspinning     ; 2006f06
+  jmp near _card_clockwork_hydra     ; 2006f0b
+  jmp near _card_cloudchaser_kestrel     ; 2006f10
+  jmp near _card_coal_stoker     ; 2006f15
+  jmp near _card_conflagrate     ; 2006f1a
+  jmp near _card_coral_trickster     ; 2006f1f
+  jmp near _card_curse_of_the_cabal     ; 2006f24
+  jmp near _card_dark_withering     ; 2006f29
+  jmp near _card_deathspore_thallid     ; 2006f2e
+  jmp near _card_deep_sea_kraken     ; 2006f33
+  jmp near _card_draining_whelk     ; 2006f38
+  jmp near _card_dralnu_lich_lord     ; 2006f3d
+  jmp near _card_dream_stalker     ; 2006f42
+  jmp near _card_durkwood_baloth     ; 2006f47
+  jmp near _card_endrek_sahr_master_breeder     ; 2006f4c
+  jmp near _card_errant_doomsayer     ; 2006f51
+  jmp near _card_errant_ephemeron     ; 2006f56
+  jmp near _card_memory_crystal     ; 2006f5b
+  jmp near _card_evangelize     ; 2006f60
+  jmp near _card_fathom_seer     ; 2006f65
+  jmp near _card_firewake_sliver     ; 2006f6a
+  jmp near _card_fledgling_mawcor     ; 2006f6f
+  jmp near _card_flickering_spirit     ; 2006f74
+  jmp near _card_flowstone_channeler     ; 2006f79
+  jmp near _card_foriysian_totem     ; 2006f7e
+  jmp near _card_fortify     ; 2006f83
+  jmp near _card_fortune_thief     ; 2006f88
+  jmp near _card_fungus_sliver     ; 2006f8d
+  jmp near _card_gemstone_caverns     ; 2006f92
+  jmp near _card_goblin_skycutter     ; 2006f97
+  jmp near _card_gorgon_recluse     ; 2006f9c
+  jmp near _card_grapeshot     ; 2006fa1
+  jmp near _card_greenseeker     ; 2006fa6
+  jmp near _card_griffin_guide     ; 2006fab
+  jmp near _card_ground_rift     ; 2006fb0
+  jmp near _card_haunting_hymn     ; 2006fb5
+  jmp near _card_herd_gnarr     ; 2006fba
+  jmp near _card_hivestone     ; 2006fbf
+  jmp near _card_ib_halfheart_goblin_tactician     ; 2006fc4
+  jmp near _card_icatian_crier     ; 2006fc9
+  jmp near _card_ith_high_arcanist     ; 2006fce
+  jmp near _card_ivory_giant     ; 2006fd3
+  jmp near _card_ixidron     ; 2006fd8
+  jmp near _card_jediths_dragoons     ; 2006fdd
+  jmp near _card_jhoiras_timebug     ; 2006fe2
+  jmp near _card_kaervek_the_merciless     ; 2006fe7
+  jmp near _card_kher_keep     ; 2006fec
+  jmp near _card_knight_of_the_holy_nimbus     ; 2006ff1
+  jmp near _card_krosan_grip     ; 2006ff6
+  jmp near _card_liege_of_the_pit     ; 2006ffb
+  jmp near _card_lim_dul_the_necromancer     ; 2007000
+  jmp near _card_living_end     ; 2007005
+  jmp near _card_nevinyrrals_disk     ; 200700a
+  jmp near _card_magus_of_the_jar     ; 200700f
+  jmp near _card_mangara_of_corondor     ; 2007014
+  jmp near _card_might_of_old_krosa     ; 2007019
+  jmp near _card_mindlash_sliver     ; 200701e
+  jmp near _card_mishra_artificer_prodigy     ; 2007023
+  jmp near _card_mogg_war_marshal     ; 2007028
+  jmp near _card_molder2     ; 200702d
+  jmp near _card_nether_traitor     ; 2007032
+  jmp near _card_nightshade_assassin     ; 2007037
+  jmp near _card_norin_the_wary     ; 200703c
+  jmp near _card_lockets_of_yesterday     ; 2007041
+  jmp near _card_opaline_sliver     ; 2007046
+  jmp near _card_outrider_en_kor     ; 200704b
+  jmp near _card_paradise_plume     ; 2007050
+  jmp near _card_paradox_haze     ; 2007055
+  jmp near _card_pardic_dragon     ; 200705a
+  jmp near _card_pendelhaven_elder     ; 200705f
+  jmp near _card_pentarch_paladin     ; 2007064
+  jmp near _card_spider_token     ; 2007069
+  jmp near _card_penumbra_spider     ; 200706e
+  jmp near _card_phantom_wurm     ; 2007073
+  jmp near _card_phthisis     ; 2007078
+  jmp near _card_phyrexian_totem     ; 200707d
+  jmp near _card_pit_keeper     ; 2007082
+  jmp near _card_plated_pegasus     ; 2007087
+  jmp near _card_prismatic_lens     ; 200708c
+  jmp near _card_psychotic_episode     ; 2007091
+  jmp near _card_pull_from_eternity     ; 2007096
+  jmp near _card_pulmonic_sliver     ; 200709b
+  jmp near _card_quilled_sliver     ; 20070a0
+  jmp near _card_restore_balance     ; 20070a5
+  jmp near _card_return_to_dust     ; 20070aa
+  jmp near _card_rift_bolt     ; 20070af
+  jmp near _card_saffi_eriksdotter     ; 20070b4
+  jmp near _card_sangrophage     ; 20070b9
+  jmp near _card_sarpadian_empires_vol_vii     ; 20070be
+  jmp near _card_savage_thallid     ; 20070c3
+  jmp near _card_screeching_sliver     ; 20070c8
+  jmp near _card_sedge_sliver     ; 20070cd
+  jmp near _card_bat_token     ; 20070d2
+  jmp near _card_sengir_nosferatu     ; 20070d7
+  jmp near _card_shadow_sliver     ; 20070dc
+  jmp near _card_sidewinder_sliver     ; 20070e1
+  jmp near _card_snapback     ; 20070e6
+  jmp near _card_spiketail_drakeling     ; 20070eb
+  jmp near _card_sprite_noble     ; 20070f0
+  jmp near _card_stonebrow_krosan_hero     ; 20070f5
+  jmp near _card_strangling_soot     ; 20070fa
+  jmp near _card_strength_in_numbers     ; 20070ff
+  jmp near _card_subterranean_shambler     ; 2007104
+  jmp near _card_sudden_death     ; 2007109
+  jmp near _card_sudden_shock     ; 200710e
+  jmp near _card_sudden_spoiling     ; 2007113
+  jmp near _card_sulfurous_blast     ; 2007118
+  jmp near _card_swarmyard     ; 200711d
+  jmp near _card_thallid_germinator     ; 2007122
+  jmp near _after_damage     ; 2007127
+  jmp near _card_thelonite_hermit     ; 200712c
+  jmp near _card_thick_skinned_goblin     ; 2007131
+  jmp near _card_thunder_totem     ; 2007136
+  jmp near _card_tivadar_of_thorn     ; 200713b
+  jmp near _card_trump_the_domains     ; 2007140
+  jmp near _card_unyaro_bees     ; 2007145
+  jmp near _card_urborg_syphon_mage     ; 200714a
+  jmp near _card_urzas_factory     ; 200714f
+  jmp near _card_vampiric_sliver     ; 2007154
+  jmp near _card_verdant_embrace     ; 2007159
+  jmp near _card_volcanic_awakening     ; 200715e
+  jmp near _card_walk_the_aeons     ; 2007163
+  jmp near _card_weathered_bodyguards     ; 2007168
+  jmp near _card_weatherseed_totem     ; 200716d
+  jmp near _card_wheel_of_fate     ; 2007172
+  jmp near _card_wipe_away     ; 2007177
+  jmp near _card_word_of_seizing     ; 200717c
+  jmp near _card_wurmcalling     ; 2007181
+  jmp near _card_yavimaya_dryad     ; 2007186
+  jmp near _card_ana_battlemage     ; 200718b
+  jmp near _card_auramancers_guise     ; 2007190
+  jmp near _card_aven_riftwatcher     ; 2007195
+  jmp near _card_benalish_commander     ; 200719a
+  jmp near _card_big_game_hunter     ; 200719f
+  jmp near _card_goblin_shrine     ; 20071a4
+  jmp near _card_goblin_caves     ; 20071a9
+  jmp near _card_blightspeaker     ; 20071ae
+  jmp near _card_boom_bust     ; 20071b3
+  jmp near _card_braids_conjurer_adept     ; 20071b8
+  jmp near _card_cautery_sliver     ; 20071bd
+  jmp near _card_chronozoa     ; 20071c2
+  jmp near _card_circle_of_affliction     ; 20071c7
+  jmp near _card_darkheart_sliver     ; 20071cc
+  jmp near _card_dash_hopes     ; 20071d1
+  jmp near _card_dawn_charm     ; 20071d6
+  jmp near _card_detritivore     ; 20071db
+  jmp near _card_dichotomancy     ; 20071e0
+  jmp near _card_dormant_sliver     ; 20071e5
+  jmp near _card_dust_elemental     ; 20071ea
+  jmp near _card_fatal_frenzy     ; 20071ef
+  jmp near _card_frenetic_sliver     ; 20071f4
+  jmp near _card_fungal_behemoth     ; 20071f9
+  jmp near _card_fury_charm     ; 20071fe
+  jmp near _card_hedge_troll     ; 2007203
+  jmp near _card_heroes_remembered     ; 2007208
+  jmp near _card_jedit_ojanen_of_efrava     ; 200720d
+  jmp near _card_cat_token     ; 2007212
+  jmp near _card_jodahs_avenger     ; 2007217
+  jmp near _card_kor_dirge     ; 200721c
+  jmp near _card_magus_of_the_coffers     ; 2007221
+  jmp near _card_mirri_the_cursed     ; 2007226
+  jmp near _card_pestilence     ; 200722b
+  jmp near _card_ovinize     ; 2007230
+  jmp near _card_pallid_mycoderm     ; 2007235
+  jmp near _card_ape_token     ; 200723a
+  jmp near _card_pongify     ; 200723f
+  jmp near _card_psychotrope_thallid     ; 2007244
+  jmp near _card_rathi_trapper     ; 2007249
+  jmp near _card_rebuff_the_wicked     ; 200724e
+  jmp near _card_retether     ; 2007253
+  jmp near _card_riftmarked_knight     ; 2007258
+  jmp near _card_knight_token     ; 200725d
+  jmp near _card_roiling_horror     ; 2007262
+  jmp near _card_saltblast     ; 2007267
+  jmp near _card_shade_of_trokair     ; 200726c
+  jmp near _card_shaper_parasite     ; 2007271
+  jmp near _card_shivan_meteor     ; 2007276
+  jmp near _card_shrouded_lore     ; 200727b
+  jmp near _card_simian_spirit_guide     ; 2007280
+  jmp near _card_skirk_shaman     ; 2007285
+  jmp near _card_stonecloaker     ; 200728a
+  jmp near _card_sulfur_elemental     ; 200728f
+  jmp near _card_sunlance     ; 2007294
+  jmp near _card_temporal_extortion     ; 2007299
+  jmp near _card_torchling     ; 200729e
+  jmp near _card_treacherous_urge     ; 20072a3
+  jmp near _card_uktabi_drake     ; 20072a8
+  jmp near _card_urborg_tomb_of_yawgmoth     ; 20072ad
+  jmp near _card_vitaspore_thallid     ; 20072b2
+  jmp near _card_voidstone_gargoyle     ; 20072b7
+  jmp near _card_volcano_hellion     ; 20072bc
+  jmp near _card_whitemane_lion     ; 20072c1
+  jmp near _card_wild_pair     ; 20072c6
+  jmp near _card_wistful_thinking     ; 20072cb
+  jmp near _card_arcanum_wings     ; 20072d0
+  jmp near _card_augur_of_skulls     ; 20072d5
+  jmp near _card_aven_mindcensor     ; 20072da
+  jmp near _card_barren_glory     ; 20072df
+  jmp near _card_baru_fist_of_krosa     ; 20072e4
+  jmp near _card_bitter_ordeal     ; 20072e9
+  jmp near _card_bonded_fetch     ; 20072ee
+  jmp near _card_centaur_omenreader     ; 20072f3
+  jmp near _card_chronomantic_escape     ; 20072f8
+  jmp near _card_cloud_key     ; 20072fd
+  jmp near _card_cloudseeder     ; 2007302
+  jmp near _card_cryptic_anellid     ; 2007307
+  jmp near _card_dakmor_salvage     ; 200730c
+  jmp near _card_daybreak_coronet     ; 2007311
+  jmp near _card_death_rattle     ; 2007316
+  jmp near _card_delay     ; 200731b
+  jmp near _card_emberwilde_augur     ; 2007320
+  jmp near _card_emblem_of_the_warmind     ; 2007325
+  jmp near _card_festering_march     ; 200732a
+  jmp near _card_fleshwrither     ; 200732f
+  jmp near _card_frenzy_sliver     ; 2007334
+  jmp near _card_gathan_rider     ; 2007339
+  jmp near _card_gibbering_descend     ; 200733e
+  jmp near _card_glittering_wish     ; 2007343
+  jmp near _card_goldmeadow_lookout     ; 2007348
+  jmp near _card_grinning_ignus     ; 200734d
+  jmp near _card_homing_sliver     ; 2007352
+  jmp near _card_ichor_slick     ; 2007357
+  jmp near _card_intervention_pact     ; 200735c
+  jmp near _card_keldon_megaliths     ; 2007361
+  jmp near _card_knight_of_sursi     ; 2007366
+  jmp near _card_korlash_heir_to_blackblade     ; 200736b
+  jmp near _card_lynessa_zephyr_mage     ; 2007370
+  jmp near _card_llanowar_empath     ; 2007375
+  jmp near _card_llanowar_mentor     ; 200737a
+  jmp near _card_llanowar_reborn     ; 200737f
+  jmp near _card_logic_knot     ; 2007384
+  jmp near _card_lost_auramancers     ; 2007389
+  jmp near _card_lumithread_field     ; 200738e
+  jmp near _card_lymph_sliver     ; 2007393
+  jmp near _card_maelstrom_djinn     ; 2007398
+  jmp near _card_marshaling_cry     ; 200739d
+  jmp near _card_mesmeric_sliver     ; 20073a2
+  jmp near _card_minions_murmurs     ; 20073a7
+  jmp near _card_molten_disaster     ; 20073ac
+  jmp near _card_mystic_speculation     ; 20073b1
+  jmp near _card_new_benalia     ; 20073b6
+  jmp near _card_nihilith     ; 20073bb
+  jmp near _card_nimbus_maze     ; 20073c0
+  jmp near _card_oriss_samite_guardian     ; 20073c5
+  jmp near _card_pact_of_the_titan     ; 20073ca
+  jmp near _card_pyromancers_swath     ; 20073cf
+  jmp near _card_patricians_scorn     ; 20073d4
+  jmp near _card_ramosia_revivalist     ; 20073d9
+  jmp near _card_ravaging_riftwurm     ; 20073de
+  jmp near _card_reality_strobe     ; 20073e3
+  jmp near _card_riddle_of_lightning     ; 20073e8
+  jmp near _card_rift_elemental     ; 20073ed
+  jmp near _card_riftsweeper     ; 20073f2
+  jmp near _card_river_of_tears     ; 20073f7
+  jmp near _card_saltskitter     ; 20073fc
+  jmp near _card_scourge_of_kher_ridges     ; 2007401
+  jmp near _card_sehts_tiger     ; 2007406
+  jmp near _card_shah_of_naar_isle     ; 200740b
+  jmp near _card_shapeshifters_marrow     ; 2007410
+  jmp near _card_festering_goblin     ; 2007415
+  jmp near _card_skirk_ridge_exhumer     ; 200741a
+  jmp near _card_slaughter_pact     ; 200741f
+  jmp near _card_sliversmith     ; 2007424
+  jmp near _card_soultether_golem     ; 2007429
+  jmp near _card_sparkspitter     ; 200742e
+  jmp near _card_spellweaver_volute     ; 2007433
+  jmp near _card_spin_into_myth     ; 2007438
+  jmp near _card_spirit_en_dal     ; 200743d
+  jmp near _card_sporoloth_ancient     ; 2007442
+  jmp near _card_storm_entity     ; 2007447
+  jmp near _card_stronghold_rats     ; 200744c
+  jmp near _card_tarox_bladewing     ; 2007451
+  jmp near _card_sengir_bats     ; 2007456
+  jmp near _card_unblinking_bleb     ; 200745b
+  jmp near _card_utopia_mycon     ; 2007460
+  jmp near _card_vedalken_aethermage     ; 2007465
+  jmp near _card_veilstone_amulet     ; 200746a
+  jmp near _card_wrap_in_vigor     ; 200746f
+  jmp near _card_adder_staff_boggart     ; 2007474
+  jmp near _card_aethersnipe     ; 2007479
+  jmp near _card_amoeboid_changeling     ; 200747e
+  jmp near _card_ancient_amphitheater     ; 2007483
+  jmp near _card_aquitects_will     ; 2007488
+  jmp near _card_arbiter_of_knollridge     ; 200748d
+  jmp near _card_ashling_the_pilgrim     ; 2007492
+  jmp near _card_ashlings_prerogative     ; 2007497
+  jmp near _card_aunties_hovel     ; 200749c
+  jmp near _card_battle_mastery     ; 20074a1
+  jmp near _card_battlewand_oak     ; 20074a6
+  jmp near _card_blades_of_velis_vel     ; 20074ab
+  jmp near _card_boggart_birth_rite     ; 20074b0
+  jmp near _card_boggart_harbinger     ; 20074b5
+  jmp near _card_boggart_mob     ; 20074ba
+  jmp near _card_boggart_shenanigans     ; 20074bf
+  jmp near _card_boggart_sprite_chaser     ; 20074c4
+  jmp near _card_briarhorn     ; 20074c9
+  jmp near _card_brigid_hero_of_kinsbaile     ; 20074ce
+  jmp near _card_broken_ambitions     ; 20074d3
+  jmp near _card_angel_of_serenity     ; 20074d8
+  jmp near _card_armory_guard     ; 20074dd
+  jmp near _card_azorius_arrester     ; 20074e2
+  jmp near _card_azorius_justiciar     ; 20074e7
+  jmp near _card_bazaar_krovod     ; 20074ec
+  jmp near _card_ethereal_armor     ; 20074f1
+  jmp near _card_eyes_in_the_sky     ; 20074f6
+  jmp near _card_knightly_valor     ; 20074fb
+  jmp near _card_martial_law     ; 2007500
+  jmp near _card_palisade_giant     ; 2007505
+  jmp near _card_phantom_general     ; 200750a
+  jmp near _card_precint_captain     ; 200750f
+  jmp near _card_rest_in_peace     ; 2007514
+  jmp near _card_rootborn_defenses     ; 2007519
+  jmp near _card_security_blockade     ; 200751e
+  jmp near _card_selesnya_sentry     ; 2007523
+  jmp near _card_seller_of_songbirds     ; 2007528
+  jmp near _card_soul_tithe     ; 200752d
+  jmp near _card_swift_justice     ; 2007532
+  jmp near _card_trostanis_judgement     ; 2007537
+  jmp near _card_aquus_steed     ; 200753c
+  jmp near _card_chronic_flooding     ; 2007541
+  jmp near _card_cyclonic_rift     ; 2007546
+  jmp near _card_doorkeeper     ; 200754b
+  jmp near _card_crosstown_courier     ; 2007550
+  jmp near _card_downsize     ; 2007555
+  jmp near _card_faerie_impostor     ; 200755a
+  jmp near _card_inaction_injunction     ; 200755f
+  jmp near _card_jace_architect_of_thought     ; 2007564
+  jmp near _card_mizzium_skin     ; 2007569
+  jmp near _card_psychic_spiral     ; 200756e
+  jmp near _card_runewing     ; 2007573
+  jmp near _card_search_the_city     ; 2007578
+  jmp near _card_soulsworn_spirit     ; 200757d
+  jmp near _card_sphinx_of_the_chimes     ; 2007582
+  jmp near _card_stealer_of_secrets     ; 2007587
+  jmp near _card_syncopate     ; 200758c
+  jmp near _card_tower_drake     ; 2007591
+  jmp near _card_voidwielder     ; 2007596
+  jmp near _card_assassins_strike     ; 200759b
+  jmp near _card_dark_revenant     ; 20075a0
+  jmp near _card_dark_reveler     ; 20075a5
+  jmp near _card_desecration_demon     ; 20075aa
+  jmp near _card_destroy_the_evidence     ; 20075af
+  jmp near _card_deviant_glee     ; 20075b4
+  jmp near _card_drainpipe_vermin     ; 20075b9
+  jmp near _card_grave_betrayal     ; 20075be
+  jmp near _card_launch_party     ; 20075c3
+  jmp near _card_grim_roustabout     ; 20075c8
+  jmp near _card_necropolis_regent     ; 20075cd
+  jmp near _card_ogre_jailbreaker     ; 20075d2
+  jmp near _card_pack_rat     ; 20075d7
+  jmp near _card_perilous_shadow     ; 20075dc
+  jmp near _card_sewer_shambler     ; 20075e1
+  jmp near _card_shrieking_affliction     ; 20075e6
+  jmp near _card_tavern_swindler     ; 20075eb
+  jmp near _card_terrus_wurm     ; 20075f0
+  jmp near _card_thrill_kill_assassin     ; 20075f5
+  jmp near _card_ultimate_price     ; 20075fa
+  jmp near _card_zanikev_locust     ; 20075ff
+  jmp near _card_necromaster_dragon     ; 2007604
+  jmp near _card_batterhorn     ; 2007609
+  jmp near _card_bellows_lizard     ; 200760e
+  jmp near _card_chaos_imps     ; 2007613
+  jmp near _card_dynacharge     ; 2007618
+  jmp near _card_electrickery     ; 200761d
+  jmp near _card_goblin_rally     ; 2007622
+  jmp near _card_guild_feud     ; 2007627
+  jmp near _card_guttersnipe     ; 200762c
+  jmp near _card_lobber_crew     ; 2007631
+  jmp near _card_mizzium_mortars     ; 2007636
+  jmp near _card_pursuit_of_flight     ; 200763b
+  jmp near _card_pyroconvergence     ; 2007640
+  jmp near _card_racecourse_fury     ; 2007645
+  jmp near _card_street_spasm     ; 200764a
+  jmp near _card_survey_the_wreckage     ; 200764f
+  jmp near _card_traitorous_instinct     ; 2007654
+  jmp near _card_utvara_hellkite     ; 2007659
+  jmp near _card_vandalblast     ; 200765e
+  jmp near _card_viashino_racketeer     ; 2007663
+  jmp near _card_aerial_predation     ; 2007668
+  jmp near _card_axebane_guardian     ; 200766d
+  jmp near _card_centaurs_herald     ; 2007672
+  jmp near _card_chorus_of_might     ; 2007677
+  jmp near _card_deadbridge_goliath     ; 200767c
+  jmp near _card_deaths_presence     ; 2007681
+  jmp near _card_drudge_beetle     ; 2007686
+  jmp near _card_druids_deliverance     ; 200768b
+  jmp near _card_gatecreeper_vine     ; 2007690
+  jmp near _card_gobbling_ooze     ; 2007695
+  jmp near _card_golgari_decoy     ; 200769a
+  jmp near _card_horncallers_chant     ; 200769f
+  jmp near _card_rhino_token     ; 20076a4
+  jmp near _card_mana_bloom     ; 20076a9
+  jmp near _card_oak_street_innkeeper     ; 20076ae
+  jmp near _card_savage_surge     ; 20076b3
+  jmp near _card_slime_molding     ; 20076b8
+  jmp near _card_stonefare_crocodile     ; 20076bd
+  jmp near _card_urban_burgeoning     ; 20076c2
+  jmp near _card_wild_beastmaster     ; 20076c7
+  jmp near _card_worldspine_wurm     ; 20076cc
+  jmp near _card_abrupt_decay     ; 20076d1
+  jmp near _card_archon_of_the_triumvirate     ; 20076d6
+  jmp near _card_armada_wurm     ; 20076db
+  jmp near _card_auger_spree     ; 20076e0
+  jmp near _card_azorius_charm     ; 20076e5
+  jmp near _card_call_of_the_conclave     ; 20076ea
+  jmp near _card_carnival_hellsteed     ; 20076ef
+  jmp near _card_centaur_healer     ; 20076f4
+  jmp near _card_chemisters_trick     ; 20076f9
+  jmp near _card_common_bond     ; 20076fe
+  jmp near _card_detention_sphere     ; 2007703
+  jmp near _card_epic_experiment     ; 2007708
+  jmp near _card_dreg_mangler     ; 200770d
+  jmp near _card_dreadbore     ; 2007712
+  jmp near _card_dramatic_rescue     ; 2007717
+  jmp near _card_essence_backlash     ; 200771c
+  jmp near _card_fall_of_the_gavel     ; 2007721
+  jmp near _card_fireminds_foresight     ; 2007726
+  jmp near _card_goblin_electromancer     ; 200772b
+  jmp near _card_golgari_charm     ; 2007730
+  jmp near _card_grisly_salvage     ; 2007735
+  jmp near _card_havoc_festival     ; 200773a
+  jmp near _card_hellhole_flailer     ; 200773f
+  jmp near _card_heroes_reunion     ; 2007744
+  jmp near _card_hussar_patrol     ; 2007749
+  jmp near _card_hypersonic_dragon     ; 200774e
+  jmp near _card_isperia_supreme_judge     ; 2007753
+  jmp near _card_izzet_charm     ; 2007758
+  jmp near _card_izzet_staticaster     ; 200775d
+  jmp near _card_jarad_golgari_lich_lord     ; 2007762
+  jmp near _card_jarads_orders     ; 2007767
+  jmp near _card_korozda_guildmage     ; 200776c
+  jmp near _card_lotleth_troll     ; 2007771
+  jmp near _card_mercurial_chemister     ; 2007776
+  jmp near _card_new_prahv_guildmage     ; 200777b
+  jmp near _card_nivix_guildmage     ; 2007780
+  jmp near _card_niv_mizzet_dracogenius     ; 2007785
+  jmp near _card_rakdos_charm     ; 200778a
+  jmp near _card_rakdos_ragemutt     ; 200778f
+  jmp near _card_rakdos_ringleader     ; 2007794
+  jmp near _card_rakdos_lord_of_riots     ; 2007799
+  jmp near _card_rakdoss_return     ; 200779e
+  jmp near _card_righteous_autority     ; 20077a3
+  jmp near _card_rites_of_reaping     ; 20077a8
+  jmp near _card_rix_maadi_guildmage     ; 20077ad
+  jmp near _card_search_warrant     ; 20077b2
+  jmp near _card_selesnya_charm     ; 20077b7
+  jmp near _card_skull_rend     ; 20077bc
+  jmp near _card_skymark_roc     ; 20077c1
+  jmp near _card_slaughter_games     ; 20077c6
+  jmp near _card_sluiceway_scorpion     ; 20077cb
+  jmp near _card_sphynxs_revelation     ; 20077d0
+  jmp near _card_supreme_verdict     ; 20077d5
+  jmp near _card_teleportal     ; 20077da
+  jmp near _card_thoughtflare     ; 20077df
+  jmp near _card_treasured_find     ; 20077e4
+  jmp near _card_trestle_troll     ; 20077e9
+  jmp near _card_trostani_selesnyas_voice     ; 20077ee
+  jmp near _card_vitu_ghazi_guildmage     ; 20077f3
+  jmp near _card_vraska_the_unseen     ; 20077f8
+  jmp near _card_wayfaring_temple     ; 20077fd
+  jmp near _card_azors_elocutors     ; 2007802
+  jmp near _card_blistercoil_weird     ; 2007807
+  jmp near _card_cryptborn_horror     ; 200780c
+  jmp near _card_deathrite_shaman     ; 2007811
+  jmp near _card_dryad_militant     ; 2007816
+  jmp near _card_frostburn_weird     ; 200781b
+  jmp near _card_golgari_longlegs     ; 2007820
+  jmp near _card_growing_ranks     ; 2007825
+  jmp near _card_judges_familiar     ; 200782a
+  jmp near _card_nivmagus_elemental     ; 200782f
+  jmp near _card_rakdos_cackler     ; 2007834
+  jmp near _card_rakdos_shred_freak     ; 2007839
+  jmp near _card_slitherhead     ; 200783e
+  jmp near _card_sundering_growth     ; 2007843
+  jmp near _card_seal_of_fire     ; 2007848
+  jmp near _card_azorius_keyrune     ; 200784d
+  jmp near _card_chromatic_lantern     ; 2007852
+  jmp near _card_civic_saber     ; 2007857
+  jmp near _card_codex_shredder     ; 200785c
+  jmp near _card_golgari_keyrune     ; 2007861
+  jmp near _card_izzet_keyrune     ; 2007866
+  jmp near _card_rakdos_keyrune     ; 200786b
+  jmp near _card_selesnya_keyrune     ; 2007870
+  jmp near _card_street_sweeper     ; 2007875
+  jmp near _card_tablet_of_the_guilds     ; 200787a
+  jmp near _card_volatile_rig     ; 200787f
+  jmp near _card_azorius_guildgate     ; 2007884
+  jmp near _card_grove_of_the_guardian     ; 2007889
+  jmp near _card_rogues_passage     ; 200788e
+  jmp near _card_transguild_promenade     ; 2007893
+  jmp near _card_survivor_token     ; 2007898
+  jmp near _card_assassin_token     ; 200789d
+  jmp near _card_caterwauling_boggart     ; 20078a2
+  jmp near _card_cenns_heir     ; 20078a7
+  jmp near _card_changeling_berserker     ; 20078ac
+  jmp near _card_changeling_hero     ; 20078b1
+  jmp near _card_colfenors_urn     ; 20078b6
+  jmp near _card_crib_swap     ; 20078bb
+  jmp near _card_deathrender     ; 20078c0
+  jmp near _card_dolmen_gate     ; 20078c5
+  jmp near _card_dread     ; 20078ca
+  jmp near _card_ego_erasure     ; 20078cf
+  jmp near _card_elvish_branchbender     ; 20078d4
+  jmp near _card_elvish_harbinger     ; 20078d9
+  jmp near _card_elvish_promenade     ; 20078de
+  jmp near _card_epic_proportions     ; 20078e3
+  jmp near _card_eyeblights_ending     ; 20078e8
+  jmp near _card_facevaulter     ; 20078ed
+  jmp near _card_faerie_harbinger     ; 20078f2
+  jmp near _card_faerie_taunting     ; 20078f7
+  jmp near _card_fallowsage     ; 20078fc
+  jmp near _card_familiars_rouse     ; 2007901
+  jmp near _card_fathom_trawl     ; 2007906
+  jmp near _card_favor_of_the_mighty     ; 200790b
+  jmp near _card_flamekin_bladewhirl     ; 2007910
+  jmp near _card_flamekin_spitfire     ; 2007915
+  jmp near _card_fodder_launch     ; 200791a
+  jmp near _card_forced_fruition     ; 200791f
+  jmp near _card_galepowder_mage     ; 2007924
+  jmp near _card_ghostly_changeling     ; 2007929
+  jmp near _card_giant_harbinger     ; 200792e
+  jmp near _card_giants_ire     ; 2007933
+  jmp near _card_gilt_leaf_ambush     ; 2007938
+  jmp near _card_gilt_leaf_palace     ; 200793d
+  jmp near _card_gilt_leaf_seer     ; 2007942
+  jmp near _card_guile     ; 2007947
+  jmp near _card_heat_shimmer     ; 200794c
+  jmp near _card_hoarders_greed     ; 2007951
+  jmp near _card_hoofprints_of_the_stag     ; 2007956
+  jmp near _card_horde_of_notions     ; 200795b
+  jmp near _card_hostility     ; 2007960
+  jmp near _card_howltooth_hollow     ; 2007965
+  jmp near _card_immaculate_magistrate     ; 200796a
+  jmp near _card_incandescent_soulstoke     ; 200796f
+  jmp near _card_incendiary_command     ; 2007974
+  jmp near _card_kinsbaille_skirmisher     ; 2007979
+  jmp near _card_kithkin_greatheart     ; 200797e
+  jmp near _card_kithkin_harbinger     ; 2007983
+  jmp near _card_militias_pride     ; 2007988
+  jmp near _card_pollen_lullaby     ; 200798d
+  jmp near _card_purity     ; 2007992
+  jmp near _card_shields_of_velis_vel     ; 2007997
+  jmp near _card_summon_the_school     ; 200799c
+  jmp near _card_surge_of_thoughtweft     ; 20079a1
+  jmp near _card_thoughtweft_trio     ; 20079a6
+  jmp near _card_whispmare     ; 20079ab
+  jmp near _card_merrow_commerce     ; 20079b0
+  jmp near _card_merrow_harbinger     ; 20079b5
+  jmp near _card_mistbind_clique     ; 20079ba
+  jmp near _card_scattering_stroke     ; 20079bf
+  jmp near _card_shapesharer     ; 20079c4
+  jmp near _card_stonybrook_angler     ; 20079c9
+  jmp near _card_surgespanner     ; 20079ce
+  jmp near _card_wanderwine_prophet     ; 20079d3
+  jmp near _card_wings_of_velis_vel     ; 20079d8
+  jmp near _card_incremental_growth     ; 20079dd
+  jmp near _card_ingot_chewer     ; 20079e2
+  jmp near _card_inner_flame_acolyte     ; 20079e7
+  jmp near _card_inner_flame_igniter     ; 20079ec
+  jmp near _card_jagged_scar_archers     ; 20079f1
+  jmp near _card_judge_of_the_currents     ; 20079f6
+  jmp near _card_kithkin_mourncaller     ; 20079fb
+  jmp near _card_knucklebone_witch     ; 2007a00
+  jmp near _card_lash_out     ; 2007a05
+  jmp near _card_lignify     ; 2007a0a
+  jmp near _card_lys_alana_huntmaster     ; 2007a0f
+  jmp near _card_mad_auntie     ; 2007a14
+  jmp near _card_marsh_flitter     ; 2007a19
+  jmp near _card_masked_admirers     ; 2007a1e
+  jmp near _card_mosswort_bridge     ; 2007a23
+  jmp near _card_mournwhelk     ; 2007a28
+  jmp near _card_nameless_inversion     ; 2007a2d
+  jmp near _card_nath_of_the_gilt_leaf     ; 2007a32
+  jmp near _card_nightshade_stinger     ; 2007a37
+  jmp near _card_nova_chaser     ; 2007a3c
+  jmp near _card_peppersmoke     ; 2007a41
+  jmp near _card_prowess_of_the_fair     ; 2007a46
+  jmp near _card_rebellion_of_the_flamekin     ; 2007a4b
+  jmp near _card_rootgrapple     ; 2007a50
+  jmp near _card_runed_stalactite     ; 2007a55
+  jmp near _card_secluded_glen     ; 2007a5a
+  jmp near _card_seedguide_ash     ; 2007a5f
+  jmp near _card_silvergill_douser     ; 2007a64
+  jmp near _card_skeletal_changeling     ; 2007a69
+  jmp near _card_soulbright_flamekin     ; 2007a6e
+  jmp near _card_spinerock_knoll     ; 2007a73
+  jmp near _card_spring_cleaning     ; 2007a78
+  jmp near _card_squeaking_pie_sneak     ; 2007a7d
+  jmp near _card_stinkdrinker_daredevil     ; 2007a82
+  jmp near _card_sunrise_sovereign     ; 2007a87
+  jmp near _card_sygg_river_guide     ; 2007a8c
+  jmp near _card_thousand_year_elixir     ; 2007a91
+  jmp near _card_thundercloud_shaman     ; 2007a96
+  jmp near _card_vigor     ; 2007a9b
+  jmp near _card_wanderwine_hub     ; 2007aa0
+  jmp near _card_wort_boggart_auntie     ; 2007aa5
+  jmp near _card_ambassador_oak     ; 2007aaa
+  jmp near _card_aunties_snitch     ; 2007aaf
+  jmp near _card_bullyrush_banneret     ; 2007ab4
+  jmp near _card_battletide_alchemist     ; 2007ab9
+  jmp near _card_blightsoil_druid     ; 2007abe
+  jmp near _card_boldwyr_heavyweights     ; 2007ac3
+  jmp near _card_borderland_behemoth     ; 2007ac8
+  jmp near _card_brightheart_banneret     ; 2007acd
+  jmp near _card_cloak_and_dagger     ; 2007ad2
+  jmp near _card_curse_of_echoes     ; 2007ad7
+  jmp near _card_declaration_of_naught     ; 2007adc
+  jmp near _card_deglamer     ; 2007ae1
+  jmp near _card_distant_melody     ; 2007ae6
+  jmp near _card_diviners_wand     ; 2007aeb
+  jmp near _card_door_of_destinies     ; 2007af0
+  jmp near _card_earwig_squad     ; 2007af5
+  jmp near _card_fertilid     ; 2007afa
+  jmp near _card_festercreep     ; 2007aff
+  jmp near _card_feudkiller_verdict     ; 2007b04
+  jmp near _card_forfend     ; 2007b09
+  jmp near _card_frogtosser_banneret     ; 2007b0e
+  jmp near _card_gilt_leaf_archdruid     ; 2007b13
+  jmp near _card_graceful_reprieve     ; 2007b18
+  jmp near _card_greatbow_doyen     ; 2007b1d
+  jmp near _card_grimoire_thief     ; 2007b22
+  jmp near _card_hunting_triad     ; 2007b27
+  jmp near _card_ink_dissolver     ; 2007b2c
+  jmp near _card_inspired_sprite     ; 2007b31
+  jmp near _card_kinsbaile_borderguard     ; 2007b36
+  jmp near _card_kinsbaile_cavalier     ; 2007b3b
+  jmp near _card_kithkin_zephyrnaut     ; 2007b40
+  jmp near _card_knowledge_exploitation     ; 2007b45
+  jmp near _card_lightning_crafter     ; 2007b4a
+  jmp near _card_lys_alana_bowmaster     ; 2007b4f
+  jmp near _card_maralen_of_the_mornsong     ; 2007b54
+  jmp near _card_meadowboon     ; 2007b59
+  jmp near _card_merrow_witsniper     ; 2007b5e
+  jmp near _card_moonglove_changeling     ; 2007b63
+  jmp near _card_morsel_theft     ; 2007b68
+  jmp near _card_mosquito_guard     ; 2007b6d
+  jmp near _card_mothdust_changeling     ; 2007b72
+  jmp near _card_nevermaker     ; 2007b77
+  jmp near _card_noggin_whack     ; 2007b7c
+  jmp near _card_notorious_throng     ; 2007b81
+  jmp near _card_offalsnout     ; 2007b86
+  jmp near _card_orchard_warden     ; 2007b8b
+  jmp near _card_prickly_boggart     ; 2007b90
+  jmp near _card_pyroclast_consul     ; 2007b95
+  jmp near _card_rage_forger     ; 2007b9a
+  jmp near _card_reach_of_branches     ; 2007b9f
+  jmp near _card_redeem_the_lost     ; 2007ba4
+  jmp near _card_release_the_ants     ; 2007ba9
+  jmp near _card_research_the_deep     ; 2007bae
+  jmp near _card_revive_the_fallen     ; 2007bb3
+  jmp near _card_rhys_the_exiled     ; 2007bb8
+  jmp near _card_rustic_clachan     ; 2007bbd
+  jmp near _card_sage_of_fables     ; 2007bc2
+  jmp near _card_scarblade_elite     ; 2007bc7
+  jmp near _card_sensation_gorger     ; 2007bcc
+  jmp near _card_shard_volley     ; 2007bd1
+  jmp near _card_shared_animosity     ; 2007bd6
+  jmp near _card_shinewed     ; 2007bdb
+  jmp near _card_sigil_tracer     ; 2007be0
+  jmp near _card_slithermuse     ; 2007be5
+  jmp near _card_spitebellows     ; 2007bea
+  jmp near _card_squeaking_pie_grubfellows     ; 2007bef
+  jmp near _card_stenchskipper     ; 2007bf4
+  jmp near _card_stinkdrinker_bandit     ; 2007bf9
+  jmp near _card_stonehewer_giant     ; 2007bfe
+  jmp near _card_stonybrook_schoolmaster     ; 2007c03
+  jmp near _card_tauren_mauler     ; 2007c08
+  jmp near _card_thieves_fortune     ; 2007c0d
+  jmp near _card_thornbite_staff     ; 2007c12
+  jmp near _card_titans_revenge     ; 2007c17
+  jmp near _card_unstoppable_ash     ; 2007c1c
+  jmp near _card_vengeful_firebrand     ; 2007c21
+  jmp near _card_veterans_armaments     ; 2007c26
+  jmp near _card_wandering_graybeard     ; 2007c2b
+  jmp near _card_weirding_shaman     ; 2007c30
+  jmp near _card_wolf_skull_shaman     ; 2007c35
+  jmp near _card_advice_from_the_fae     ; 2007c3a
+  jmp near _card_aethertow     ; 2007c3f
+  jmp near _card_ashenmoor_liege     ; 2007c44
+  jmp near _card_barkshell_blessing     ; 2007c49
+  jmp near _card_blight_sickle     ; 2007c4e
+  jmp near _card_bloodmark_mentor     ; 2007c53
+  jmp near _card_blowfly_infestation     ; 2007c58
+  jmp near _card_boartusk_liege     ; 2007c5d
+  jmp near _card_cauldron_of_souls     ; 2007c62
+  jmp near _card_cemetery_puca     ; 2007c67
+  jmp near _card_chainbreaker     ; 2007c6c
+  jmp near _card_animate_dead     ; 2007c71
+  jmp near _card_cinderhaze_wretch     ; 2007c76
+  jmp near _card_corrosive_mentor     ; 2007c7b
+  jmp near _card_counterbore     ; 2007c80
+  jmp near _card_cragganwick_cremator     ; 2007c85
+  jmp near _card_crowd_of_cinders     ; 2007c8a
+  jmp near _card_dawnglove_infusion     ; 2007c8f
+  jmp near _card_deep_slumber_titan     ; 2007c94
+  jmp near _card_deus_of_calamity     ; 2007c99
+  jmp near _card_devoted_druid     ; 2007c9e
+  jmp near _card_din_of_the_fireherd     ; 2007ca3
+  jmp near _card_dire_undercurrents     ; 2007ca8
+  jmp near _card_disturbing_plot     ; 2007cad
+  jmp near _card_dramatic_entrance     ; 2007cb2
+  jmp near _card_dream_salvage     ; 2007cb7
+  jmp near _card_drove_of_elves     ; 2007cbc
+  jmp near _card_drowner_initiate     ; 2007cc1
+  jmp near _card_dusk_urchins     ; 2007cc6
+  jmp near _card_elemental_mastery     ; 2007ccb
+  jmp near _card_elvish_hexhunter     ; 2007cd0
+  jmp near _card_enchanted_evening     ; 2007cd5
+  jmp near _card_farie_macabre     ; 2007cda
+  jmp near _card_faerie_swarm     ; 2007cdf
+  jmp near _card_farhaven_elf     ; 2007ce4
+  jmp near _card_fate_transfer     ; 2007ce9
+  jmp near _card_firespout     ; 2007cee
+  jmp near _card_fists_of_the_demigod     ; 2007cf3
+  jmp near _card_fracturing_gust     ; 2007cf8
+  jmp near _card_furystoke_giant     ; 2007cfd
+  jmp near _card_ghastlord_of_fugue     ; 2007d02
+  jmp near _card_ghastly_discovery     ; 2007d07
+  jmp near _card_giantbaiting     ; 2007d0c
+  jmp near _card_glen_elendra_liege     ; 2007d11
+  jmp near _card_gnarled_effigy     ; 2007d16
+  jmp near _card_godhead_of_awe     ; 2007d1b
+  jmp near _card_greater_auramancy     ; 2007d20
+  jmp near _card_grief_tyrant     ; 2007d25
+  jmp near _card_grim_poppet     ; 2007d2a
+  jmp near _card_heap_doll     ; 2007d2f
+  jmp near _card_heartmender     ; 2007d34
+  jmp near _card_helm_of_the_ghastlord     ; 2007d39
+  jmp near _card_hollowborn_barghest     ; 2007d3e
+  jmp near _card_hollowsage     ; 2007d43
+  jmp near _card_horde_of_boggarts     ; 2007d48
+  jmp near _card_howl_of_the_night_pack     ; 2007d4d
+  jmp near _card_improptu_raid     ; 2007d52
+  jmp near _card_incremental_blight     ; 2007d57
+  jmp near _card_inkfathom_infiltrator     ; 2007d5c
+  jmp near _card_inkfathom_witch     ; 2007d61
+  jmp near _card_intimidator_initiate     ; 2007d66
+  jmp near _card_isleback_spawn     ; 2007d6b
+  jmp near _card_juvenile_gloomwidow     ; 2007d70
+  jmp near _card_kithkin_rabble     ; 2007d75
+  jmp near _card_knacksaw_clique     ; 2007d7a
+  jmp near _card_knollspine_dragon     ; 2007d7f
+  jmp near _card_knollspine_invocation     ; 2007d84
+  jmp near _card_kulrath_knight     ; 2007d89
+  jmp near _card_leech_bonder     ; 2007d8e
+  jmp near _card_leechridden_swamp     ; 2007d93
+  jmp near _card_lockjaw_snapper     ; 2007d98
+  jmp near _card_lurebound_scarecrow     ; 2007d9d
+  jmp near _card_madblind_mountain     ; 2007da2
+  jmp near _card_mana_reflection     ; 2007da7
+  jmp near _card_manaforge_cinder     ; 2007dac
+  jmp near _card_mass_calcify     ; 2007db1
+  jmp near _card_medicine_runner     ; 2007db6
+  jmp near _card_memory_plunder     ; 2007dbb
+  jmp near _card_mercy_killing     ; 2007dc0
+  jmp near _card_midnight_banshee     ; 2007dc5
+  jmp near _card_mine_excavation     ; 2007dca
+  jmp near _card_mistmeadow_witch     ; 2007dcf
+  jmp near _card_mistveil_plains     ; 2007dd4
+  jmp near _card_moonring_island     ; 2007dd9
+  jmp near _card_morselhoarder     ; 2007dde
+  jmp near _card_mossbridge_troll     ; 2007de3
+  jmp near _card_nurturer_initiate     ; 2007de8
+  jmp near _card_oracle_of_nectars     ; 2007ded
+  jmp near _card_order_of_whiteclay     ; 2007df2
+  jmp near _card_pili_pala     ; 2007df7
+  jmp near _card_plague_of_vermin     ; 2007dfc
+  jmp near _card_polluted_bonds     ; 2007e01
+  jmp near _card_pucas_mischief     ; 2007e06
+  jmp near _card_puncture_bolt     ; 2007e0b
+  jmp near _card_put_away     ; 2007e10
+  jmp near _card_rage_reflection     ; 2007e15
+  jmp near _card_raking_canopy     ; 2007e1a
+  jmp near _card_reaper_king     ; 2007e1f
+  jmp near _card_repel_intruders     ; 2007e24
+  jmp near _card_resplendant_mentor     ; 2007e29
+  jmp near _card_rhys_the_redeemed     ; 2007e2e
+  jmp near _card_rite_of_consumption     ; 2007e33
+  jmp near _card_rivers_grasp     ; 2007e38
+  jmp near _card_roughshod_mentor     ; 2007e3d
+  jmp near _card_runed_halo     ; 2007e42
+  jmp near _card_runes_of_the_deus     ; 2007e47
+  jmp near _card_safewright_quest     ; 2007e4c
+  jmp near _card_sapseep_forest     ; 2007e51
+  jmp near _card_savor_the_moment     ; 2007e56
+  jmp near _card_scarscale_ritual     ; 2007e5b
+  jmp near _card_scuzzback_marauders     ; 2007e60
+  jmp near _card_scuzzback_scrapper     ; 2007e65
+  jmp near _card_seedcradle_witch     ; 2007e6a
+  jmp near _card_shield_of_the_oversoul     ; 2007e6f
+  jmp near _card_leviathan     ; 2007e74
+  jmp near _card_smolder_initiate     ; 2007e79
+  jmp near _card_somnomancer     ; 2007e7e
+  jmp near _card_sootstoke_kindler     ; 2007e83
+  jmp near _card_spiteflame_witch     ; 2007e88
+  jmp near _card_spiteful_visions     ; 2007e8d
+  jmp near _card_steel_of_the_godhead     ; 2007e92
+  jmp near _card_swans_of_bryn_argoll     ; 2007e97
+  jmp near _card_sygg_river_cutthroat     ; 2007e9c
+  jmp near _card_tattermunge_witch     ; 2007ea1
+  jmp near _card_thistledown_liege     ; 2007ea6
+  jmp near _card_thought_reflection     ; 2007eab
+  jmp near _card_thoughtweft_gambit     ; 2007eb0
+  jmp near _card_torrent_of_souls     ; 2007eb5
+  jmp near _card_tower_above     ; 2007eba
+  jmp near _card_trip_noose     ; 2007ebf
+  jmp near _card_turn_to_mist     ; 2007ec4
+  jmp near _card_twilight_shepherd     ; 2007ec9
+  jmp near _card_tyrannize     ; 2007ece
+  jmp near _card_umbral_mantle     ; 2007ed3
+  jmp near _card_valleymaker     ; 2007ed8
+  jmp near _card_wheel_of_sun_and_moon     ; 2007edd
+  jmp near _card_windbrisk_raptor     ; 2007ee2
+  jmp near _card_witherscale_wurm     ; 2007ee7
+  jmp near _card_worldpurge     ; 2007eec
+  jmp near _card_worth_the_raidmother     ; 2007ef1
+  jmp near _card_wound_reflection     ; 2007ef6
+  jmp near _card_antler_skulkin     ; 2007efb
+  jmp near _card_ashling_the_extinguisher     ; 2007f00
+  jmp near _card_battlegate_mimic     ; 2007f05
+  jmp near _card_batwing_brume     ; 2007f0a
+  jmp near _card_beckon_apparition     ; 2007f0f
+  jmp near _card_belligerent_hatchling     ; 2007f14
+  jmp near _card_bloom_tender     ; 2007f19
+  jmp near _card_cache_riders     ; 2007f1e
+  jmp near _card_card_call_the_skybreaker     ; 2007f23
+  jmp near _card_canker_abomination     ; 2007f28
+  jmp near _card_cankerous_thirst     ; 2007f2d
+  jmp near _card_cauldron_haze     ; 2007f32
+  jmp near _card_cenns_enlistment     ; 2007f37
+  jmp near _card_clout_of_the_dominus     ; 2007f3c
+  jmp near _card_crackleburr     ; 2007f41
+  jmp near _card_deity_of_scars     ; 2007f46
+  jmp near _card_desecrator_hag     ; 2007f4b
+  jmp near _card_divinity_of_pride     ; 2007f50
+  jmp near _card_dominus_of_fealty     ; 2007f55
+  jmp near _card_doomgape     ; 2007f5a
+  jmp near _card_dream_fracture     ; 2007f5f
+  jmp near _card_dream_thief     ; 2007f64
+  jmp near _card_duergar_assailant     ; 2007f69
+  jmp near _card_duergar_hedge_mage     ; 2007f6e
+  jmp near _card_duergar_mine_captain     ; 2007f73
+  jmp near _card_edge_of_the_divinity     ; 2007f78
+  jmp near _card_endless_horizons     ; 2007f7d
+  jmp near _card_evershrike     ; 2007f82
+  jmp near _card_fable_of_the_wolf_and_owl     ; 2007f87
+  jmp near _card_fang_skulkin     ; 2007f8c
+  jmp near _card_favor_of_the_overbeing     ; 2007f91
+  jmp near _card_fiery_bombardment     ; 2007f96
+  jmp near _card_fire_at_will     ; 2007f9b
+  jmp near _card_flame_jab     ; 2007fa0
+  jmp near _card_flickerwhisp     ; 2007fa5
+  jmp near _card_gift_of_the_deity     ; 2007faa
+  jmp near _card_gwyllion_hedge_mage     ; 2007faf
+  jmp near _card_hag_hedge_mage     ; 2007fb4
+  jmp near _card_hateflayer     ; 2007fb9
+  jmp near _card_heartfire_goblin     ; 2007fbe
+  jmp near _card_helix_pinnacle     ; 2007fc3
+  jmp near _card_hoof_skulkin     ; 2007fc8
+  jmp near _card_hotheaded_giant     ; 2007fcd
+  jmp near _card_idle_thoughts     ; 2007fd2
+  jmp near _card_inundate     ; 2007fd7
+  jmp near _card_invert_the_skies     ; 2007fdc
+  jmp near _card_jawbone_skulkin     ; 2007fe1
+  jmp near _card_leering_emblem     ; 2007fe6
+  jmp near _card_light_from_within     ; 2007feb
+  jmp near _card_merrow_bonegnawer     ; 2007ff0
+  jmp near _card_merrow_levitator     ; 2007ff5
+  jmp near _card_mindwrack_liege     ; 2007ffa
+  jmp near _card_mirror_sheen     ; 2007fff
+  jmp near _card_monstrify     ; 2008004
+  jmp near _card_murkfiend_liege     ; 2008009
+  jmp near _card_necroskitter     ; 200800e
+  jmp near _card_needle_specter     ; 2008013
+  jmp near _card_nightmare_incursion     ; 2008018
+  jmp near _card_nightsky_mimic     ; 200801d
+  jmp near _card_nip_gwyllion     ; 2008022
+  jmp near _card_nobilis_of_war     ; 2008027
+  jmp near _card_noggle_hedge_mage     ; 200802c
+  jmp near _card_noxious_hatchling     ; 2008031
+  jmp near _card_nucklavee     ; 2008036
+  jmp near _card_oonas_grace     ; 200803b
+  jmp near _card_overbeing_of_myth     ; 2008040
+  jmp near _card_patrol_signaler     ; 2008045
+  jmp near _card_primalcrux     ; 200804a
+  jmp near _card_puncture_blast     ; 200804f
+  jmp near _card_phyrric_revival     ; 2008054
+  jmp near _card_quillspike     ; 2008059
+  jmp near _card_rekindle_the_flame     ; 200805e
+  jmp near _card_restless_apparition     ; 2008063
+  jmp near _card_rise_of_the_hobgoblins     ; 2008068
+  jmp near _card_riverfall_mimic     ; 200806d
+  jmp near _card_sanity_grinding     ; 2008072
+  jmp near _card_savage_conception     ; 2008077
+  jmp near _card_scarecrone     ; 200807c
+  jmp near _card_scourge_of_the_nobilis     ; 2008081
+  jmp near _card_selkie_hedge_mage     ; 2008086
+  jmp near _card_shell_skulkin     ; 200808b
+  jmp near _card_shorecrasher_mimic     ; 2008090
+  jmp near _card_shrewd_hatchling     ; 2008095
+  jmp near _card_snakeform     ; 200809a
+  jmp near _card_soot_imp     ; 200809f
+  jmp near _card_soul_snuffers     ; 20080a4
+  jmp near _card_sturdy_hatchling     ; 20080a9
+  jmp near _card_suture_spirit     ; 20080ae
+  jmp near _card_syphon_life     ; 20080b3
+  jmp near _card_talaras_battalion     ; 20080b8
+  jmp near _card_thunderblust     ; 20080bd
+  jmp near _card_tilling_treefolk     ; 20080c2
+  jmp near _card_umbra_stalker     ; 20080c7
+  jmp near _card_unmake     ; 20080cc
+  jmp near _card_unnerving_assault     ; 20080d1
+  jmp near _card_unwilling_recruit     ; 20080d6
+  jmp near _card_voracious_hatchling     ; 20080db
+  jmp near _card_wake_thrasher     ; 20080e0
+  jmp near _card_ward_of_bones     ; 20080e5
+  jmp near _card_woodlurker_mimic     ; 20080ea
+  jmp near _card_angelsong     ; 20080ef
+  jmp near _card_bant_battlemage     ; 20080f4
+  jmp near _card_bant_panorama     ; 20080f9
+  jmp near _card_blister_beetle     ; 20080fe
+  jmp near _card_blood_cultist     ; 2008103
+  jmp near _card_bloodthorn_taunter     ; 2008108
+  jmp near _card_bone_splinters     ; 200810d
+  jmp near _card_branching_bolt     ; 2008112
+  jmp near _card_brilliant_ultimatum     ; 2008117
+  jmp near _card_call_to_heel     ; 200811c
+  jmp near _card_clarion_ultimatum     ; 2008121
+  jmp near _card_corpse_conoisseur     ; 2008126
+  jmp near _card_crucible_of_fire     ; 200812b
+  jmp near _card_cunning_lethemancer     ; 2008130
+  jmp near _card_death_baron     ; 2008135
+  jmp near _card_dispeller_capsule     ; 200813a
+  jmp near _card_dregscape_zombie     ; 200813f
+  jmp near _card_oran_rief_hydra     ; 2008144
+  jmp near _card_drumhunter     ; 2008149
+  jmp near _card_empyrial_archangel     ; 200814e
+  jmp near _card_esper_battlemage     ; 2008153
+  jmp near _card_esper_panorama     ; 2008158
+  jmp near _card_executioners_capsule     ; 200815d
+  jmp near _card_exuberant_firestoker     ; 2008162
+  jmp near _card_filigree_sages     ; 2008167
+  jmp near _card_fire_field_ogre     ; 200816c
+  jmp near _card_fleshbag_marauder     ; 2008171
+  jmp near _card_gather_specimens     ; 2008176
+  jmp near _card_gift_of_the_gargantuan     ; 200817b
+  jmp near _card_glaze_fiend     ; 2008180
+  jmp near _card_goblin_assault     ; 2008185
+  jmp near _card_grixis_battlemage     ; 200818a
+  jmp near _card_grixis_panorama     ; 200818f
+  jmp near _card_hindering_light     ; 2008194
+  jmp near _card_hissing_iguanar     ; 2008199
+  jmp near _card_immortal_coil     ; 200819e
+  jmp near _card_invincible_hymn     ; 20081a3
+  jmp near _card_jund_battlemage     ; 20081a8
+  jmp near _card_jund_charm     ; 20081ad
+  jmp near _card_jund_panorama     ; 20081b2
+  jmp near _card_kederekt_creeper     ; 20081b7
+  jmp near _card_kederekt_leviathan     ; 20081bc
+  jmp near _card_keeper_of_progenitus     ; 20081c1
+  jmp near _card_knight_captain_of_eos     ; 20081c6
+  jmp near _card_kresh_the_bloodbraided     ; 20081cb
+  jmp near _card_magma_spray     ; 20081d0
+  jmp near _card_manaplasm     ; 20081d5
+  jmp near _card_marble_chalice     ; 20081da
+  jmp near _card_memory_erosion     ; 20081df
+  jmp near _card_mighty_emergence     ; 20081e4
+  jmp near _card_mindlock_orb     ; 20081e9
+  jmp near _card_minion_reflector     ; 20081ee
+  jmp near _card_mosstodon     ; 20081f3
+  jmp near _card_naya_battlemage     ; 20081f8
+  jmp near _card_naya_panorama     ; 20081fd
+  jmp near _card_necrogenesis     ; 2008202
+  jmp near _card_obelisk_of_bant     ; 2008207
+  jmp near _card_onyx_goblet     ; 200820c
+  jmp near _card_ooze_garden     ; 2008211
+  jmp near _card_predator_dragon     ; 2008216
+  jmp near _card_prince_of_thralls     ; 200821b
+  jmp near _card_qasali_ambusher     ; 2008220
+  jmp near _card_quietus_spike     ; 2008225
+  jmp near _card_realm_razer     ; 200822a
+  jmp near _card_relic_of_progenitus     ; 200822f
+  jmp near _card_resounding_roar     ; 2008234
+  jmp near _card_resounding_scream     ; 2008239
+  jmp near _card_resounding_silence     ; 200823e
+  jmp near _card_resounding_thunder     ; 2008243
+  jmp near _card_resounding_wave     ; 2008248
+  jmp near _card_sacellum_godspeaker     ; 200824d
+  jmp near _card_salvage_titan     ; 2008252
+  jmp near _card_scourglass     ; 2008257
+  jmp near _card_sharding_sphinx     ; 200825c
+  jmp near _card_sigil_blessing     ; 2008261
+  jmp near _card_sigil_of_distinction     ; 2008266
+  jmp near _card_skill_borrower     ; 200826b
+  jmp near _card_skullmulcher     ; 2008270
+  jmp near _card_souls_fire     ; 2008275
+  jmp near _card_spearbreaker_behemoth     ; 200827a
+  jmp near _card_sphinx_sovereign     ; 200827f
+  jmp near _card_thorn_thrash_viashino     ; 2008284
+  jmp near _card_thoughtcutter_agent     ; 2008289
+  jmp near _card_thunder_thrash_elder     ; 200828e
+  jmp near _card_titanic_ultimatum     ; 2008293
+  jmp near _card_vicious_shadows     ; 2008298
+  jmp near _card_where_ancients_tread     ; 200829d
+  jmp near _card_apocalypse_hydra     ; 20082a2
+  jmp near _card_armillary_sphere     ; 20082a7
+  jmp near _card_beacon_behemoth     ; 20082ac
+  jmp near _card_blood_tyrant     ; 20082b1
+  jmp near _card_bloodhall_ooze     ; 20082b6
+  jmp near _card_bone_saw     ; 20082bb
+  jmp near _card_charnelhoard_wurm     ; 20082c0
+  jmp near _card_cliffrunner_behemoth     ; 20082c5
+  jmp near _card_countersquall     ; 20082ca
+  jmp near _card_court_homunculus     ; 20082cf
+  jmp near _card_cumber_stone     ; 20082d4
+  jmp near _card_cylian_sunsinger     ; 20082d9
+  jmp near _card_drag_down     ; 20082de
+  jmp near _card_dragonsoul_knight     ; 20082e3
+  jmp near _card_dreadwing     ; 20082e8
+  jmp near _card_esperzoa     ; 20082ed
+  jmp near _card_faerie_mechanist     ; 20082f2
+  jmp near _card_fleshformer     ; 20082f7
+  jmp near _card_giltspire_avenger     ; 20082fc
+  jmp near _card_gluttonous_slime     ; 2008301
+  jmp near _card_goblin_razerunners     ; 2008306
+  jmp near _card_grixis_slavedriver     ; 200830b
+  jmp near _card_hellkite_hatchling     ; 2008310
+  jmp near _card_kaleidostone     ; 2008315
+  jmp near _card_kederekt_parasite     ; 200831a
+  jmp near _card_knotvine_mystic     ; 200831f
+  jmp near _card_malfegor     ; 2008324
+  jmp near _card_mark_of_asylum     ; 2008329
+  jmp near _card_meglonoth     ; 200832e
+  jmp near _card_mirror_sigil_sergeant     ; 2008333
+  jmp near _card_paleoloth     ; 2008338
+  jmp near _card_paragon_of_the_amesha     ; 200833d
+  jmp near _card_parasitic_strix     ; 2008342
+  jmp near _card_salvage_slasher     ; 2008347
+  jmp near _card_scarland_thrinax     ; 200834c
+  jmp near _card_scattershot_archer     ; 2008351
+  jmp near _card_scepter_of_dominance     ; 2008356
+  jmp near _card_scepter_of_insight     ; 200835b
+  jmp near _card_sedraxis_alchemist     ; 2008360
+  jmp near _card_shambling_remains     ; 2008365
+  jmp near _card_sludge_strider     ; 200836a
+  jmp near _card_souls_majesty     ; 200836f
+  jmp near _card_sphinx_summoner     ; 2008374
+  jmp near _card_spore_burst     ; 2008379
+  jmp near _card_telemin_performance     ; 200837e
+  jmp near _card_traumatic_visions     ; 2008383
+  jmp near _card_tukatongue_thallid     ; 2008388
+  jmp near _card_voices_from_the_void     ; 200838d
+  jmp near _card_voracious_dragon     ; 2008392
+  jmp near _card_worldheart_phoenix     ; 2008397
+  jmp near _card_worldly_counsel     ; 200839c
+  jmp near _card_ardent_plea     ; 20083a1
+  jmp near _card_arsenal_thresher     ; 20083a6
+  jmp near _card_bant_sureblade     ; 20083ab
+  jmp near _card_behemoth_sledge     ; 20083b0
+  jmp near _card_blitz_hellion     ; 20083b5
+  jmp near _card_captured_sunlight     ; 20083ba
+  jmp near _card_cerodon_yearling     ; 20083bf
+  jmp near _card_cloven_casting     ; 20083c4
+  jmp near _card_colossal_might     ; 20083c9
+  jmp near _card_dauntless_escort     ; 20083ce
+  jmp near _card_defiler_of_souls     ; 20083d3
+  jmp near _card_demonspine_whip     ; 20083d8
+  jmp near _card_deny_reality     ; 20083dd
+  jmp near _card_dragon_broodmother     ; 20083e2
+  jmp near _card_drastic_revelation     ; 20083e7
+  jmp near _card_enigma_sphinx     ; 20083ec
+  jmp near _card_esper_stormblade     ; 20083f1
+  jmp near _card_ethersworn_shieldmage     ; 20083f6
+  jmp near _card_etherwrought_page     ; 20083fb
+  jmp near _card_fieldmist_borderpost     ; 2008400
+  jmp near _card_filigree_angel     ; 2008405
+  jmp near _card_flurry_of_wings     ; 200840a
+  jmp near _card_glory_of_warfare     ; 200840f
+  jmp near _card_grixis_grimblade     ; 2008414
+  jmp near _card_identity_crisis     ; 2008419
+  jmp near _card_illusory_demon     ; 200841e
+  jmp near _card_intimidation_bolt     ; 2008423
+  jmp near _card_jund_hackblade     ; 2008428
+  jmp near _card_kathari_bomber     ; 200842d
+  jmp near _card_kathari_remnant     ; 2008432
+  jmp near _card_knight_of_new_alara     ; 2008437
+  jmp near _card_knotvine_paladin     ; 200843c
+  jmp near _card_lich_lord_of_unx     ; 2008441
+  jmp near _card_lightning_reaver     ; 2008446
+  jmp near _card_maelstrom_nexus     ; 200844b
+  jmp near _card_mage_slayer     ; 2008450
+  jmp near _card_mask_of_riddles     ; 2008455
+  jmp near _card_mayaels_aria     ; 200845a
+  jmp near _card_mycoid_shepherd     ; 200845f
+  jmp near _card_naya_hushblade     ; 2008464
+  jmp near _card_necromancers_covenant     ; 2008469
+  jmp near _card_nulltread_gargantuan     ; 200846e
+  jmp near _card_offering_to_asha     ; 2008473
+  jmp near _card_reborn_hope     ; 2008478
+  jmp near _card_retaliator_griffin     ; 200847d
+  jmp near _card_sages_of_the_anima     ; 2008482
+  jmp near _card_sigil_captain     ; 2008487
+  jmp near _card_slave_of_bolas     ; 200848c
+  jmp near _card_soulquake     ; 2008491
+  jmp near _card_spellbound_dragon     ; 2008496
+  jmp near _card_stun_sniper     ; 200849b
+  jmp near _card_tainted_sigil     ; 20084a0
+  jmp near _card_thought_hemorrhage     ; 20084a5
+  jmp near _card_thraximundar     ; 20084aa
+  jmp near _card_unbender_tine     ; 20084af
+  jmp near _card_unscythe_killer_of_kings     ; 20084b4
+  jmp near _card_uril_the_miststalker     ; 20084b9
+  jmp near _card_vedalken_heretic     ; 20084be
+  jmp near _card_vengeful_rebirth     ; 20084c3
+  jmp near _card_winged_coatl     ; 20084c8
+  jmp near _card_abyssal_persecutor     ; 20084cd
+  jmp near _card_aether_tradwinds     ; 20084d2
+  jmp near _card_agadeem_occultist     ; 20084d7
+  jmp near _card_bazaar_trader     ; 20084dc
+  jmp near _card_bloodhusk_ritualist     ; 20084e1
+  jmp near _card_bojuka_bog     ; 20084e6
+  jmp near _card_butcher_of_malakir     ; 20084eb
+  jmp near _card_comet_storm     ; 20084f0
+  jmp near _card_dread_statuary     ; 20084f5
+  jmp near _card_dread_statuary_animated     ; 20084fa
+  jmp near _card_halimar_excavator     ; 20084ff
+  jmp near _card_hammer_of_ruin     ; 2008504
+  jmp near _card_jwari_shapeshifter     ; 2008509
+  jmp near _card_kitesail_apprentice     ; 200850e
+  jmp near _card_mordant_dragon     ; 2008513
+  jmp near _card_natures_claim     ; 2008518
+  jmp near _card_nemesis_trap     ; 200851d
+  jmp near _card_perimeter_captain     ; 2008522
+  jmp near _card_permafrost_trap     ; 2008527
+  jmp near _card_pilgrims_eye     ; 200852c
+  jmp near _card_quest_for_renewal     ; 2008531
+  jmp near _card_quest_for_the_nihil_stone     ; 2008536
+  jmp near _card_quest_for_ulas_temple     ; 200853b
+  jmp near _card_rest_for_the_weary     ; 2008540
+  jmp near _card_ruin_ghost     ; 2008545
+  jmp near _card_ruthless_cullblade     ; 200854a
+  jmp near _card_seer_sundial     ; 200854f
+  jmp near _card_sejiri_merfolk     ; 2008554
+  jmp near _card_strength_of_the_tajuru     ; 2008559
+  jmp near _card_summit_apes     ; 200855e
+  jmp near _card_talus_paladin     ; 2008563
+  jmp near _card_terra_eternal     ; 2008568
+  jmp near _card_thada_adel_acquisitor     ; 200856d
+  jmp near _card_tideforce_elemental     ; 2008572
+  jmp near _card_tuktuk_scrapper     ; 2008577
+  jmp near _card_ancient_stirrings     ; 200857c
+  jmp near _card_baneful_omen     ; 2008581
+  jmp near _card_champions_drake     ; 2008586
+  jmp near _card_conquering_manticore     ; 200858b
+  jmp near _card_curse_of_wizardry     ; 2008590
+  jmp near _card_dawnglare_invoker     ; 2008595
+  jmp near _card_disaster_radius     ; 200859a
+  jmp near _card_dormant_gomazoa     ; 200859f
+  jmp near _card_drake_umbra     ; 20085a4
+  jmp near _card_dreamstone_hedron     ; 20085a9
+  jmp near _card_echo_mage     ; 20085ae
+  jmp near _card_explosive_revelation     ; 20085b3
+  jmp near _card_forked_bolt     ; 20085b8
+  jmp near _card_gravitational_shift     ; 20085bd
+  jmp near _card_guard_gomazoa     ; 20085c2
+  jmp near _card_guul_draz_assassin     ; 20085c7
+  jmp near _card_hand_of_emrakul     ; 20085cc
+  jmp near _card_hellcarver_demon     ; 20085d1
+  jmp near _card_it_that_betrays     ; 20085d6
+  jmp near _card_kazandu_tuskcaller     ; 20085db
+  jmp near _card_keening_stone     ; 20085e0
+  jmp near _card_lay_bare     ; 20085e5
+  jmp near _card_lighthouse_chronologist     ; 20085ea
+  jmp near _card_lightmine_field     ; 20085ef
+  jmp near _card_linvala_keeper_of_silence     ; 20085f4
+  jmp near _card_lord_of_shatterskull_pass     ; 20085f9
+  jmp near _card_magmaw     ; 20085fe
+  jmp near _card_mammoth_umbra     ; 2008603
+  jmp near _card_might_of_the_masses     ; 2008608
+  jmp near _card_momentous_fall     ; 200860d
+  jmp near _card_mortician_beetle     ; 2008612
+  jmp near _card_near_death_experience     ; 2008617
+  jmp near _card_ogres_cleaver     ; 200861c
+  jmp near _card_pathrazer_of_ulamog     ; 2008621
+  jmp near _card_pawn_of_ulamog     ; 2008626
+  jmp near _card_pennon_blade     ; 200862b
+  jmp near _card_prophetic_prism     ; 2008630
+  jmp near _card_puncturing_light     ; 2008635
+  jmp near _card_rage_nimbus     ; 200863a
+  jmp near _card_raid_bombardment     ; 200863f
+  jmp near _card_rapacious_one     ; 2008644
+  jmp near _card_recurring_insight     ; 2008649
+  jmp near _card_skittering_invasion     ; 200864e
+  jmp near _card_snake_umbra     ; 2008653
+  jmp near _card_spawnsire_of_ulamog     ; 2008658
+  jmp near _card_sphinx_bone_wand     ; 200865d
+  jmp near _card_surrakar_spellblade     ; 2008662
+  jmp near _card_surreal_memoir     ; 2008667
+  jmp near _card_thought_gorger     ; 200866c
+  jmp near _card_time_of_heroes     ; 2008671
+  jmp near _card_transcendent_master     ; 2008676
+  jmp near _card_tuktuk_the_explorer     ; 200867b
+  jmp near _card_tuktuk_the_returned     ; 2008680
+  jmp near _card_virulent_swipe     ; 2008685
+  jmp near _card_warmongers_chariot     ; 200868a
+  jmp near _card_aether_barrier     ; 200868f
+  jmp near _card_ancient_hydra     ; 2008694
+  jmp near _card_arc_mage     ; 2008699
+  jmp near _card_avenger_en_dal     ; 200869e
+  jmp near _card_belbes_armor     ; 20086a3
+  jmp near _card_belbes_portal     ; 20086a8
+  jmp near _card_bola_warrior     ; 20086ad
+  jmp near _card_chieftain_en_dal     ; 20086b2
+  jmp near _card_complex_automaton     ; 20086b7
+  jmp near _card_dark_triumph     ; 20086bc
+  jmp near _card_defender_en_vec     ; 20086c1
+  jmp near _card_defiant_vanguard     ; 20086c6
+  jmp near _card_dominate     ; 20086cb
+  jmp near _card_ensnare     ; 20086d0
+  jmp near _card_fanatical_devotion     ; 20086d5
+  jmp near _card_flowstone_overseer     ; 20086da
+  jmp near _card_flowstone_slide     ; 20086df
+  jmp near _card_flowstone_surge     ; 20086e4
+  jmp near _card_jolting_merfolk     ; 20086e9
+  jmp near _card_laccolith_grunt     ; 20086ee
+  jmp near _card_massacre2     ; 20086f3
+  jmp near _card_mogg_salvage     ; 20086f8
+  jmp near _card_moggcatcher     ; 20086fd
+  jmp near _card_netter_en_dal     ; 2008702
+  jmp near _card_overlaid_terrain     ; 2008707
+  jmp near _card_pack_hunt     ; 200870c
+  jmp near _card_parallax_inhibitor     ; 2008711
+  jmp near _card_parallax_nexus     ; 2008716
+  jmp near _card_parallax_tide     ; 200871b
+  jmp near _card_plague_witch     ; 2008720
+  jmp near _card_predator_flagship     ; 2008725
+  jmp near _card_raths_edge     ; 200872a
+  jmp near _card_rathi_assassin     ; 200872f
+  jmp near _card_rathi_fiend     ; 2008734
+  jmp near _card_rathi_intimidator     ; 2008739
+  jmp near _card_refreshing_rain     ; 200873e
+  jmp near _card_rising_waters     ; 2008743
+  jmp near _card_reverent_silence     ; 2008748
+  jmp near _card_rupture     ; 200874d
+  jmp near _card_seal_of_removal     ; 2008752
+  jmp near _card_seal_of_strength     ; 2008757
+  jmp near _card_sivvis_rouse     ; 200875c
+  jmp near _card_sivvis_valor     ; 2008761
+  jmp near _card_skyshroud_behemoth     ; 2008766
+  jmp near _card_skyshroud_poacher     ; 200876b
+  jmp near _card_skyshroud_ridgeback     ; 2008770
+  jmp near _card_spiritual_asylum     ; 2008775
+  jmp near _card_stampede_driver     ; 200877a
+  jmp near _card_stronghold_biologist     ; 200877f
+  jmp near _card_stronghold_machinist     ; 2008784
+  jmp near _card_trickster_mage     ; 2008789
+  jmp near _card_volrath_the_fallen     ; 200878e
+  jmp near _card_wild_mammoth     ; 2008793
+  jmp near _card_woodripper     ; 2008798
+  jmp near _card_abolish     ; 200879d
+  jmp near _card_alexi_zephyr_mage     ; 20087a2
+  jmp near _card_aura_fracture     ; 20087a7
+  jmp near _card_avatar_of_fury     ; 20087ac
+  jmp near _card_avatar_of_might     ; 20087b1
+  jmp near _card_avatar_of_will     ; 20087b6
+  jmp near _card_avatar_of_wOE     ; 20087bb
+  jmp near _card_blessed_wind     ; 20087c0
+  jmp near _card_branded_brawlers     ; 20087c5
+  jmp near _card_calming_verses     ; 20087ca
+  jmp near _card_chimeric_idol     ; 20087cf
+  jmp near _card_citadel_of_pain     ; 20087d4
+  jmp near _card_denying_wind     ; 20087d9
+  jmp near _card_foil     ; 20087de
+  jmp near _card_greel_mind_raker     ; 20087e3
+  jmp near _card_gulf_squid     ; 20087e8
+  jmp near _card_heightened_awareness     ; 20087ed
+  jmp near _card_keldon_firebombers     ; 20087f2
+  jmp near _card_latulla_keldon_overseer     ; 20087f7
+  jmp near _card_mageta_the_lion     ; 20087fc
+  jmp near _card_mungha_wurm     ; 2008801
+  jmp near _card_overburden     ; 2008806
+  jmp near _card_rethink     ; 200880b
+  jmp near _card_reveille_squad     ; 2008810
+  jmp near _card_rhystic_circle     ; 2008815
+  jmp near _card_rhystic_deluge     ; 200881a
+  jmp near _card_rhystic_study     ; 200881f
+  jmp near _card_searing_wind     ; 2008824
+  jmp near _card_shield_dancer     ; 2008829
+  jmp near _card_snag     ; 200882e
+  jmp near _card_spiketail_drake2     ; 2008833
+  jmp near _card_spore_frog     ; 2008838
+  jmp near _card_squirrel_wrangler     ; 200883d
+  jmp near _card_thrive     ; 2008842
+  jmp near _card_troublesome_spirit     ; 2008847
+  jmp near _card_vitalizing_wind     ; 200884c
+  jmp near _card_well_of_discovery     ; 2008851
+  jmp near _card_well_of_life     ; 2008856
+  jmp near _card_whip_sergeant     ; 200885b
+  jmp near _card_wild_might     ; 2008860
+  jmp near _card_withdraw     ; 2008865
+  jmp near _card_addle     ; 200886a
+  jmp near _card_aether_rift     ; 200886f
+  jmp near _card_angelic_shield     ; 2008874
+  jmp near _card_artifact_mutation     ; 2008879
+  jmp near _card_assault_battery     ; 200887e
+  jmp near _card_atalya_samite_master     ; 2008883
+  jmp near _card_aura_mutation     ; 2008888
+  jmp near _card_aura_shards     ; 200888d
+  jmp near _card_backlash     ; 2008892
+  jmp near _card_barrins_spite     ; 2008897
+  jmp near _card_benalish_heralds     ; 200889c
+  jmp near _card_blurred_mangoose     ; 20088a1
+  jmp near _card_breath_of_darigaaz     ; 20088a6
+  jmp near _card_canopy_surge     ; 20088ab
+  jmp near _card_cauldron_dance     ; 20088b0
+  jmp near _card_cinder_shade     ; 20088b5
+  jmp near _card_collapsing_borders     ; 20088ba
+  jmp near _card_crypt_angel     ; 20088bf
+  jmp near _card_death_or_glory     ; 20088c4
+  jmp near _card_desperate_research     ; 20088c9
+  jmp near _card_dismantling_blow     ; 20088ce
+  jmp near _card_devouring_strossus     ; 20088d3
+  jmp near _card_distorting_wake     ; 20088d8
+  jmp near _card_elfhame_sanctuary     ; 20088dd
+  jmp near _card_ghitu_fire     ; 20088e2
+  jmp near _card_global_ruin     ; 20088e7
+  jmp near _card_hanna_ships_navigator     ; 20088ec
+  jmp near _card_harsh_judgement     ; 20088f1
+  jmp near _card_jade_leech     ; 20088f6
+  jmp near _card_juntu_stakes     ; 20088fb
+  jmp near _card_kavu_chameleon     ; 2008900
+  jmp near _card_kavu_lair     ; 2008905
+  jmp near _card_kavu_monarch     ; 200890a
+  jmp near _card_kavu_titan     ; 200890f
+  jmp near _card_keldon_necropolis     ; 2008914
+  jmp near _card_liberate     ; 2008919
+  jmp near _card_malice_spite     ; 200891e
+  jmp near _card_metathran_aerostat     ; 2008923
+  jmp near _card_meteor_storm     ; 2008928
+  jmp near _card_UNUSED2     ; 200892d
+  jmp near _card_nightscape_master     ; 2008932
+  jmp near _card_opt     ; 2008937
+  jmp near _card_ordered_migration     ; 200893c
+  jmp near _card_overabundance     ; 2008941
+  jmp near _card_overload     ; 2008946
+  jmp near _card_phyrexian_altar     ; 200894b
+  jmp near _card_phyrexian_delver     ; 2008950
+  jmp near _card_phyrexian_infiltrator     ; 2008955
+  jmp near _card_phyrexian_lens     ; 200895a
+  jmp near _card_planar_portal     ; 200895f
+  jmp near _card_probe     ; 2008964
+  jmp near _card_prohibit     ; 2008969
+  jmp near _card_raging_kavu     ; 200896e
+  jmp near _card_reckless_assault     ; 2008973
+  jmp near _card_restock     ; 2008978
+  jmp near _card_reviving_vapors     ; 200897d
+  jmp near _card_reya_dawnbringer     ; 2008982
+  jmp near _card_saproling_infestation     ; 2008987
+  jmp near _card_saproling_symbiosis     ; 200898c
+  jmp near _card_shivan_harvest     ; 2008991
+  jmp near _card_skizzik     ; 2008996
+  jmp near _card_smoldering_tar     ; 200899b
+  jmp near _card_collective_blessing     ; 20089a0
+  jmp near _card_coursers_accord     ; 20089a5
+  jmp near _card_korozda_monitor     ; 20089aa
+  jmp near _card_loxodon_smither     ; 20089af
+  jmp near _card_stab_wound     ; 20089b4
+  jmp near _card_underworld_connections     ; 20089b9
+  jmp near _card_blustersquall     ; 20089be
+  jmp near _card_spirit_of_resistance     ; 20089c3
+  jmp near _card_stalking_assassin     ; 20089c8
+  jmp near _card_stormscape_master     ; 20089cd
+  jmp near _card_sunscape_master     ; 20089d2
+  jmp near _card_tangle2     ; 20089d7
+  jmp near _card_tectonic_instability     ; 20089dc
+  jmp near _card_tek     ; 20089e1
+  jmp near _card_thicket_elemental     ; 20089e6
+  jmp near _card_thornscape_master     ; 20089eb
+  jmp near _card_thunderscape_master     ; 20089f0
+  jmp near _card_tsabos_decree     ; 20089f5
+  jmp near _card_tsabos_web     ; 20089fa
+  jmp near _card_twilights_call     ; 20089ff
+  jmp near _card_urborg_emissary     ; 2008a04
+  jmp near _card_urzas_filter     ; 2008a09
+  jmp near _card_urzas_rage     ; 2008a0e
+  jmp near _card_utopia_tree     ; 2008a13
+  jmp near _card_verdeloth_the_ancient     ; 2008a18
+  jmp near _card_verduran_emissary     ; 2008a1d
+  jmp near _card_nessian_wilds_ravager     ; 2008a22
+  jmp near _card_vigorous_charge     ; 2008a27
+  jmp near _card_vile_consumption     ; 2008a2c
+  jmp near _card_wax_wane     ; 2008a31
+  jmp near _card_wash_out     ; 2008a36
+  jmp near _card_yawgmoths_agenda     ; 2008a3b
+  jmp near _card_arctic_merfolk     ; 2008a40
+  jmp near _card_cavern_harpy     ; 2008a45
+  jmp near _card_crosis_catacombs     ; 2008a4a
+  jmp near _card_crosis_charm     ; 2008a4f
+  jmp near _card_darigaaz_charm     ; 2008a54
+  jmp near _card_dark_suspicions     ; 2008a59
+  jmp near _card_deadapult     ; 2008a5e
+  jmp near _card_destructive_flow     ; 2008a63
+  jmp near _card_doomsday_specter     ; 2008a68
+  jmp near _card_dralnus_crusade     ; 2008a6d
+  jmp near _card_dralnus_pet     ; 2008a72
+  jmp near _card_dromar_charm     ; 2008a77
+  jmp near _card_ertai_the_corrupted     ; 2008a7c
+  jmp near _card_fleetfoot_panther     ; 2008a81
+  jmp near _card_gerrards_command     ; 2008a86
+  jmp near _card_horned_kavu     ; 2008a8b
+  jmp near _card_hull_breach     ; 2008a90
+  jmp near _card_lashknife_barrier     ; 2008a95
+  jmp near _card_lava_zombie     ; 2008a9a
+  jmp near _card_malicious_advice     ; 2008a9f
+  jmp near _card_marsh_crocodile     ; 2008aa4
+  jmp near _card_nemata_grove_guardian     ; 2008aa9
+  jmp near _card_nightscape_battlemage     ; 2008aae
+  jmp near _card_orims_chant     ; 2008ab3
+  jmp near _card_phyrexian_tyranny     ; 2008ab8
+  jmp near _card_questing_phelddagrif     ; 2008abd
+  jmp near _card_rith_charm     ; 2008ac2
+  jmp near _card_root_greevil     ; 2008ac7
+  jmp near _card_rushing_river     ; 2008acc
+  jmp near _card_sawtooth_loon     ; 2008ad1
+  jmp near _card_stormscape_battlemage     ; 2008ad6
+  jmp near _card_sunken_hope     ; 2008adb
+  jmp near _card_sunscape_battlemage     ; 2008ae0
+  jmp near _card_terminal_moraine     ; 2008ae5
+  jmp near _card_thunderscape_battlemage     ; 2008aea
+  jmp near _card_treva_charm     ; 2008aef
+  jmp near _card_urzas_guilt     ; 2008af4
+  jmp near _card_aether_mutation     ; 2008af9
+  jmp near _card_ana_disciple     ; 2008afe
+  jmp near _card_ana_sanctuary     ; 2008b03
+  jmp near _card_anavolver     ; 2008b08
+  jmp near _card_desecration_plague     ; 2008b0d
+  jmp near _card_bloodfire_colossus     ; 2008b12
+  jmp near _card_bloodfire_dwarf     ; 2008b17
+  jmp near _card_bloodfire_kavu     ; 2008b1c
+  jmp near _card_captains_maneuver     ; 2008b21
+  jmp near _card_goldenhide_ox     ; 2008b26
+  jmp near _card_ceta_disciple     ; 2008b2b
+  jmp near _card_cetavolver     ; 2008b30
+  jmp near _card_ceta_sanctuary     ; 2008b35
+  jmp near _card_order_chaos     ; 2008b3a
+  jmp near _card_consume_strength     ; 2008b3f
+  jmp near _card_cromat     ; 2008b44
+  jmp near _card_dega_disciple     ; 2008b49
+  jmp near _card_dega_sanctuary     ; 2008b4e
+  jmp near _card_degavolver     ; 2008b53
+  jmp near _card_desolation_giant     ; 2008b58
+  jmp near _card_ebony_treefolk     ; 2008b5d
+  jmp near _card_enlistment_officer     ; 2008b62
+  jmp near _card_evasive_action     ; 2008b67
+  jmp near _card_fervent_charge     ; 2008b6c
+  jmp near _card_flowstone_charger     ; 2008b71
+  jmp near _card_gerrard_capashen     ; 2008b76
+  jmp near _card_goblin_legionnaire     ; 2008b7b
+  jmp near _card_goblin_trenches     ; 2008b80
+  jmp near _card_grave_defiler     ; 2008b85
+  jmp near _card_guided_passage     ; 2008b8a
+  jmp near _card_jilt     ; 2008b8f
+  jmp near _card_kavu_howler     ; 2008b94
+  jmp near _card_kavu_mauler     ; 2008b99
+  jmp near _card_legacy_weapon     ; 2008b9e
+  jmp near _card_humbler_of_mortals     ; 2008ba3
+  jmp near _card_necra_sanctuary     ; 2008ba8
+  jmp near _card_necravolver     ; 2008bad
+  jmp near _card_orims_thunder     ; 2008bb2
+  jmp near _card_overgrown_estate     ; 2008bb7
+  jmp near _card_penumbra_bobcat     ; 2008bbc
+  jmp near _card_phyrexian_arena     ; 2008bc1
+  jmp near _card_phyrexian_gargantua     ; 2008bc6
+  jmp near _card_planar_despair     ; 2008bcb
+  jmp near _card_putrid_warrior     ; 2008bd0
+  jmp near _card_quicksilver_dagger     ; 2008bd5
+  jmp near _card_raka_sanctuary     ; 2008bda
+  jmp near _card_rakavolver     ; 2008bdf
+  jmp near _card_natures_panoply     ; 2008be4
+  jmp near _card_squees_embrace     ; 2008be9
+  jmp near _card_squees_revenge     ; 2008bee
+  jmp near _card_strength_of_night     ; 2008bf3
+  jmp near _card_suppress     ; 2008bf8
+  jmp near _card_sylvan_messenger     ; 2008bfd
+  jmp near _card_symbiotic_deployment     ; 2008c02
+  jmp near _card_temporal_spring     ; 2008c07
+  jmp near _card_tidal_courier     ; 2008c0c
+  jmp near _card_murasa_ranger     ; 2008c11
+  jmp near _card_wild_research     ; 2008c16
+  jmp near _card_nessian_game_warden     ; 2008c1b
+  jmp near _card_aboshan_cephalid_emperor     ; 2008c20
+  jmp near _card_aegis_of_honor     ; 2008c25
+  jmp near _card_ancestral_tribute     ; 2008c2a
+  jmp near _card_animal_boneyard     ; 2008c2f
+  jmp near _card_atogatog     ; 2008c34
+  jmp near _card_aven_shrine     ; 2008c39
+  jmp near _card_bash_to_bits     ; 2008c3e
+  jmp near _card_battle_strain     ; 2008c43
+  jmp near _card_bearscape     ; 2008c48
+  jmp near _card_beast_attack     ; 2008c4d
+  jmp near _card_beloved_chaplain     ; 2008c52
+  jmp near _card_bomb_squad     ; 2008c57
+  jmp near _card_braids_cabal_minion     ; 2008c5c
+  jmp near _card_cabal_patriarch     ; 2008c61
+  jmp near _card_cabal_pit     ; 2008c66
+  jmp near _card_cabal_shrine     ; 2008c6b
+  jmp near _card_cantivore     ; 2008c70
+  jmp near _card_caustic_tar     ; 2008c75
+  jmp near _card_centaur_garden     ; 2008c7a
+  jmp near _card_cephalid_broker     ; 2008c7f
+  jmp near _card_cephalid_looter     ; 2008c84
+  jmp near _card_cephalid_retainer     ; 2008c89
+  jmp near _card_cephalid_shrine     ; 2008c8e
+  jmp near _card_chamber_of_manipulation     ; 2008c93
+  jmp near _card_chance_encounter     ; 2008c98
+  jmp near _card_charmed_pendant     ; 2008c9d
+  jmp near _card_chatter_of_squirrel     ; 2008ca2
+  jmp near _card_childhood_horror     ; 2008ca7
+  jmp near _card_chlorophant     ; 2008cac
+  jmp near _card_coffin_purge     ; 2008cb1
+  jmp near _card_cognivore     ; 2008cb6
+  jmp near _card_confessor     ; 2008cbb
+  jmp near _card_crystal_quarry     ; 2008cc0
+  jmp near _card_cultural_exchanges     ; 2008cc5
+  jmp near _card_darkwater_catacombs     ; 2008cca
+  jmp near _card_darkwater_egg     ; 2008ccf
+  jmp near _card_decimate     ; 2008cd4
+  jmp near _card_dedicated_martyr     ; 2008cd9
+  jmp near _card_delaying_shield     ; 2008cde
+  jmp near _card_dematerialize     ; 2008ce3
+  jmp near _card_demoralize     ; 2008ce8
+  jmp near _card_diligent_farmhand     ; 2008ced
+  jmp near _card_dirty_wererat     ; 2008cf2
+  jmp near _card_divine_sacrament     ; 2008cf7
+  jmp near _card_dwarven_recruiter     ; 2008cfc
+  jmp near _card_dwarven_shrine     ; 2008d01
+  jmp near _card_earnest_fellowship     ; 2008d06
+  jmp near _card_earth_rift     ; 2008d0b
+  jmp near _card_elephants_ambush     ; 2008d10
+  jmp near _card_engulfing_flames     ; 2008d15
+  jmp near _card_entomb2     ; 2008d1a
+  jmp near _card_epicenter     ; 2008d1f
+  jmp near _card_escape_artist     ; 2008d24
+  jmp near _card_extract2     ; 2008d29
+  jmp near _card_firebolt     ; 2008d2e
+  jmp near _card_frightcrawler     ; 2008d33
+  jmp near _card_ghastly_demise     ; 2008d38
+  jmp near _card_gravestorm     ; 2008d3d
+  jmp near _card_hallowed_healer     ; 2008d42
+  jmp near _card_holistic_wisdom     ; 2008d47
+  jmp near _card_infected_vermin     ; 2008d4c
+  jmp near _card_kamahls_desire     ; 2008d51
+  jmp near _card_kamahl_pit_fighter     ; 2008d56
+  jmp near _card_kirtars_desire     ; 2008d5b
+  jmp near _card_kirtars_wrath     ; 2008d60
+  jmp near _card_krosan_avenger     ; 2008d65
+  jmp near _card_krosan_beast     ; 2008d6a
+  jmp near _card_laquatus_creativity     ; 2008d6f
+  jmp near _card_last_rites     ; 2008d74
+  jmp near _card_liutenant_kirtar     ; 2008d79
+  jmp near _card_life_burst     ; 2008d7e
+  jmp near _card_lithatog     ; 2008d83
+  jmp near _card_magma_vein     ; 2008d88
+  jmp near _card_malevolent_awakening     ; 2008d8d
+  jmp near _card_master_apothecary     ; 2008d92
+  jmp near _card_millikin     ; 2008d97
+  jmp near _card_mind_burst     ; 2008d9c
+  jmp near _card_minotaur_explorer     ; 2008da1
+  jmp near _card_molten_influence     ; 2008da6
+  jmp near _card_mortivore     ; 2008dab
+  jmp near _card_mossfire_egg     ; 2008db0
+  jmp near _card_mossfire_valley     ; 2008db5
+  jmp near _card_muscle_burst     ; 2008dba
+  jmp near _card_mystic_crusader     ; 2008dbf
+  jmp near _card_nantuko_disciple     ; 2008dc4
+  jmp near _card_nantuko_elder     ; 2008dc9
+  jmp near _card_nantuko_mentor     ; 2008dce
+  jmp near _card_nantuko_shrine     ; 2008dd3
+  jmp near _card_need_for_speed     ; 2008dd8
+  jmp near _card_nefarious_lich     ; 2008ddd
+  jmp near _card_nomad_decoy     ; 2008de2
+  jmp near _card_nomad_stadium     ; 2008de7
+  jmp near _card_nut_collector     ; 2008dec
+  jmp near _card_overeager_apprentice     ; 2008df1
+  jmp near _card_patrol_hound     ; 2008df6
+  jmp near _card_patron_wizard     ; 2008dfb
+  jmp near _card_peek     ; 2008e00
+  jmp near _card_phantatog     ; 2008e05
+  jmp near _card_pianna_nomad_captain     ; 2008e0a
+  jmp near _card_ray_of_distortion     ; 2008e0f
+  jmp near _card_recoup     ; 2008e14
+  jmp near _card_repentant_vampire     ; 2008e19
+  jmp near _card_rites_of_initiation     ; 2008e1e
+  jmp near _card_rites_of_refusal     ; 2008e23
+  jmp near _card_rites_of_spring     ; 2008e28
+  jmp near _card_rotting_giant     ; 2008e2d
+  jmp near _card_sacred_rites     ; 2008e32
+  jmp near _card_sadistic_hypnotist     ; 2008e37
+  jmp near _card_sarcatog     ; 2008e3c
+  jmp near _card_setons_desire     ; 2008e41
+  jmp near _card_seton_krosan_protector     ; 2008e46
+  jmp near _card_hellkite_charger     ; 2008e4b
+  jmp near _card_shadowblood_ridge     ; 2008e50
+  jmp near _card_shadowblood_egg     ; 2008e55
+  jmp near _card_shelter2     ; 2008e5a
+  jmp near _card_shifty_doppelganger     ; 2008e5f
+  jmp near _card_shower_of_coals     ; 2008e64
+  jmp near _card_skeletal_scrying     ; 2008e69
+  jmp near _card_skycloud_expanse     ; 2008e6e
+  jmp near _card_skycloud_eGG     ; 2008e73
+  jmp near _card_soulcatcher     ; 2008e78
+  jmp near _card_spark_mage     ; 2008e7d
+  jmp near _card_squirrel_mob     ; 2008e82
+  jmp near _card_stalking_bloodsucker     ; 2008e87
+  jmp near _card_lowland_basilisk     ; 2008e8c
+  jmp near _card_stone_tongue_basilisk     ; 2008e91
+  jmp near _card_sungrass_prairie     ; 2008e96
+  jmp near _card_sungrass_egg     ; 2008e9b
+  jmp near _card_sylvan_might     ; 2008ea0
+  jmp near _card_tainted_pact     ; 2008ea5
+  jmp near _card_thaumatog     ; 2008eaa
+  jmp near _card_think_tank     ; 2008eaf
+  jmp near _card_thought_devourer     ; 2008eb4
+  jmp near _card_thought_eater     ; 2008eb9
+  jmp near _card_thought_nibbler     ; 2008ebe
+  jmp near _card_tireless_tribe     ; 2008ec3
+  jmp near _card_unifying_theory     ; 2008ec8
+  jmp near _card_vampiric_dragon     ; 2008ecd
+  jmp near _card_verdant_succession     ; 2008ed2
+  jmp near _card_volley_of_boulders     ; 2008ed7
+  jmp near _card_wayward_angel     ; 2008edc
+  jmp near _card_words_of_wisdom     ; 2008ee1
+  jmp near _card_zoologist     ; 2008ee6
+  jmp near _card_acorn_harvest     ; 2008eeb
+  jmp near _card_ambassador_laquatus     ; 2008ef0
+  jmp near _card_anurid_scavenger     ; 2008ef5
+  jmp near _card_aquamoeba     ; 2008efa
+  jmp near _card_balthor_the_stout     ; 2008eff
+  jmp near _card_carrion_rats     ; 2008f04
+  jmp near _card_carrion_wurm     ; 2008f09
+  jmp near _card_cephalid_sage     ; 2008f0e
+  jmp near _card_cephalid_vandal     ; 2008f13
+  jmp near _card_chainer_dementia_master     ; 2008f18
+  jmp near _card_cleansing_meditation     ; 2008f1d
+  jmp near _card_compulsion     ; 2008f22
+  jmp near _card_crippling_fatigue     ; 2008f27
+  jmp near _card_dawn_of_the_dead     ; 2008f2c
+  jmp near _card_deep_analysis     ; 2008f31
+  jmp near _card_dwell_on_the_past     ; 2008f36
+  jmp near _card_false_memories     ; 2008f3b
+  jmp near _card_far_wanderings     ; 2008f40
+  jmp near _card_fiery_temper     ; 2008f45
+  jmp near _card_flaming_gambit     ; 2008f4a
+  jmp near _card_frantic_purification     ; 2008f4f
+  jmp near _card_gurzigost     ; 2008f54
+  jmp near _card_hell_bent_rider     ; 2008f59
+  jmp near _card_hypnox     ; 2008f5e
+  jmp near _card_hypochondria     ; 2008f63
+  jmp near _card_insidious_dreams     ; 2008f68
+  jmp near _card_krosan_restorer     ; 2008f6d
+  jmp near _card_laquatus_champion     ; 2008f72
+  jmp near _card_last_laugh     ; 2008f77
+  jmp near _card_liquify     ; 2008f7c
+  jmp near _card_mesmeric_fiend     ; 2008f81
+  jmp near _card_mind_sludge     ; 2008f86
+  jmp near _card_morningtide     ; 2008f8b
+  jmp near _card_lyev_skyknight     ; 2008f90
+  jmp near _card_mortal_combat     ; 2008f95
+  jmp near _card_mortiphobia     ; 2008f9a
+  jmp near _card_mystic_familiar     ; 2008f9f
+  jmp near _card_nantuko_cultivator     ; 2008fa4
+  jmp near _card_narcissism     ; 2008fa9
+  jmp near _card_obsessive_search     ; 2008fae
+  jmp near _card_organ_grinder     ; 2008fb3
+  jmp near _card_parallel_evolution     ; 2008fb8
+  jmp near _card_pardic_arsonist     ; 2008fbd
+  jmp near _card_plagiarize     ; 2008fc2
+  jmp near _card_possessed_aven     ; 2008fc7
+  jmp near _card_possessed_barbarian     ; 2008fcc
+  jmp near _card_possessed_centaur     ; 2008fd1
+  jmp near _card_possessed_nomad     ; 2008fd6
+  jmp near _card_pyromania     ; 2008fdb
+  jmp near _card_rancid_earth     ; 2008fe0
+  jmp near _card_restless_dreams     ; 2008fe5
+  jmp near _card_retraced_image     ; 2008fea
+  jmp near _card_sickening_dreams     ; 2008fef
+  jmp near _card_skullscorch     ; 2008ff4
+  jmp near _card_sonic_seizures     ; 2008ff9
+  jmp near _card_strength_of_isolation     ; 2008ffe
+  jmp near _card_strength_of_lunacy     ; 2009003
+  jmp near _card_stupefying_touch     ; 2009008
+  jmp near _card_tainted_field     ; 200900d
+  jmp near _card_tainted_isle     ; 2009012
+  jmp near _card_tainted_peak     ; 2009017
+  jmp near _card_tainted_wood     ; 200901c
+  jmp near _card_transcendence     ; 2009021
+  jmp near _card_turbulent_dreams     ; 2009026
+  jmp near _card_vengeful_dreams     ; 200902b
+  jmp near _card_violent_eruption     ; 2009030
+  jmp near _card_anurid_brushhopper     ; 2009035
+  jmp near _card_arcane_teachings     ; 200903a
+  jmp near _card_balthor_the_defiled     ; 200903f
+  jmp near _card_battle_screech     ; 2009044
+  jmp near _card_battlefield_scrounger     ; 2009049
+  jmp near _card_benevolent_bodyguard     ; 200904e
+  jmp near _card_book_burning     ; 2009053
+  jmp near _card_breaking_point     ; 2009058
+  jmp near _card_cephalid_constable     ; 200905d
+  jmp near _card_cephalid_inkshrouder     ; 2009062
+  jmp near _card_commander_eesha     ; 2009067
+  jmp near _card_crush_of_wurms     ; 200906c
+  jmp near _card_death_wish     ; 2009071
+  jmp near _card_dwarven_bloodboiler     ; 2009076
+  jmp near _card_dwarven_driller     ; 200907b
+  jmp near _card_elephant_guide     ; 2009080
+  jmp near _card_envelop     ; 2009085
+  jmp near _card_elemental_cat     ; 200908a
+  jmp near _card_firecat_blitz     ; 200908f
+  jmp near _card_flash_of_insight     ; 2009094
+  jmp near _card_forcemage_advocate     ; 2009099
+  jmp near _card_glory     ; 200909e
+  jmp near _card_grizzly_fate     ; 20090a3
+  jmp near _card_hapless_researcher     ; 20090a8
+  jmp near _card_hunting_grounds     ; 20090ad
+  jmp near _card_keep_watch     ; 20090b2
+  jmp near _card_krosan_reclamation     ; 20090b7
+  jmp near _card_krosan_verge     ; 20090bc
+  jmp near _card_lava_dart     ; 20090c1
+  jmp near _card_mist_of_stagnation     ; 20090c6
+  jmp near _card_morality_shift     ; 20090cb
+  jmp near _card_nantuko_monastery     ; 20090d0
+  jmp near _card_nantuko_monastery_animated     ; 20090d5
+  jmp near _card_nullmage_advocate     ; 20090da
+  jmp near _card_phantom_nantuko     ; 20090df
+  jmp near _card_prismatic_strands     ; 20090e4
+  jmp near _card_pulsemage_advocate     ; 20090e9
+  jmp near _card_quiet_speculation     ; 20090ee
+  jmp near _card_silver_seraph     ; 20090f3
+  jmp near _card_soulcatchers_aerie     ; 20090f8
+  jmp near _card_brine_elemental     ; 20090fd
+  jmp near _card_spirit_cairn     ; 2009102
+  jmp near _card_spurnmage_advocate     ; 2009107
+  jmp near _card_sylvan_safekeeper     ; 200910c
+  jmp near _card_test_of_endurance     ; 2009111
+  jmp near _card_thriss_nantuko_primus     ; 2009116
+  jmp near _card_vigilant_sentry     ; 200911b
+  jmp near _card_accursed_centaur     ; 2009120
+  jmp near _card_aether_charge     ; 2009125
+  jmp near _card_aggravated_assault     ; 200912a
+  jmp near _card_airborne_aid     ; 200912f
+  jmp near _card_akromas_blessing     ; 2009134
+  jmp near _card_akromas_vengeance     ; 2009139
+  jmp near _card_ancestors_prophet     ; 200913e
+  jmp near _card_aphetto_dredging     ; 2009143
+  jmp near _card_aphetto_grifter     ; 2009148
+  jmp near _card_aura_extraction     ; 200914d
+  jmp near _card_aurification     ; 2009152
+  jmp near _card_avarax     ; 2009157
+  jmp near _card_aven_brigadier     ; 200915c
+  jmp near _card_battlefield_medic     ; 2009161
+  jmp near _card_bloodline_shaman     ; 2009166
+  jmp near _card_boneknitter     ; 200916b
+  jmp near _card_brightstone_ritual     ; 2009170
+  jmp near _card_broodhatch_nantuko     ; 2009175
+  jmp near _card_cabal_archon     ; 200917a
+  jmp near _card_catapult_master     ; 200917f
+  jmp near _card_catapult_squad     ; 2009184
+  jmp near _card_choking_tethers     ; 2009189
+  jmp near _card_contested_cliffs     ; 200918e
+  jmp near _card_convalescent_care     ; 2009193
+  jmp near _card_crown_of_ascension     ; 2009198
+  jmp near _card_crown_of_awe     ; 200919d
+  jmp near _card_crown_of_fury     ; 20091a2
+  jmp near _card_crown_of_suspicion     ; 20091a7
+  jmp near _card_crown_of_vigor     ; 20091ac
+  jmp near _card_cruel_revival     ; 20091b1
+  jmp near _card_cryptic_gateway     ; 20091b6
+  jmp near _card_death_match     ; 20091bb
+  jmp near _card_death_pulse     ; 20091c0
+  jmp near _card_dirge_of_the_dread     ; 20091c5
+  jmp near _card_discombobulate     ; 20091ca
+  jmp near _card_dispersing_orb     ; 20091cf
+  jmp near _card_disruptive_pitmage     ; 20091d4
+  jmp near _card_doomed_necromancer     ; 20091d9
+  jmp near _card_doubtless_one     ; 20091de
+  jmp near _card_ebonblade_reaper     ; 20091e3
+  jmp near _card_elvish_vanguard     ; 20091e8
+  jmp near _card_entrails_feaster     ; 20091ed
+  jmp near _card_erratic_explosion     ; 20091f2
+  jmp near _card_gangrenous_goliath     ; 20091f7
+  jmp near _card_gigapede     ; 20091fc
+  jmp near _card_goblin_burrows     ; 2009201
+  jmp near _card_goblin_pyromancer     ; 2009206
+  jmp near _card_goblin_sledder     ; 200920b
+  jmp near _card_goblin_taskmaster     ; 2009210
+  jmp near _card_gratuitous_violence     ; 2009215
+  jmp near _card_gravespawn_sovereign     ; 200921a
+  jmp near _card_haunted_cadaver     ; 200921f
+  jmp near _card_head_games     ; 2009224
+  jmp near _card_heedless_one     ; 2009229
+  jmp near _card_hystrodon     ; 200922e
+  jmp near _card_information_dealer     ; 2009233
+  jmp near _card_invigorating_boon     ; 2009238
+  jmp near _card_ixidor_reality_sculptor     ; 200923d
+  jmp near _card_kamahl_fist_of_krosa     ; 2009242
+  jmp near _card_krosan_colossus     ; 2009247
+  jmp near _card_krosan_groundshaker     ; 200924c
+  jmp near _card_krosan_tusker     ; 2009251
+  jmp near _card_mobilization     ; 2009256
+  jmp near _card_mythic_proportions     ; 200925b
+  jmp near _card_nameless_one     ; 2009260
+  jmp near _card_nova_cleric     ; 2009265
+  jmp near _card_oblation     ; 200926a
+  jmp near _card_overwhelming_instinct     ; 200926f
+  jmp near _card_primal_boost     ; 2009274
+  jmp near _card_profane_prayers     ; 2009279
+  jmp near _card_read_the_runes     ; 200927e
+  jmp near _card_reckless_one     ; 2009283
+  jmp near _card_reminisce     ; 2009288
+  jmp near _card_riptide_laboratory     ; 200928d
+  jmp near _card_riptide_replicator     ; 2009292
+  jmp near _card_riptide_shapeshifter     ; 2009297
+  jmp near _card_seaside_haven     ; 200929c
+  jmp near _card_shared_triumph     ; 20092a1
+  jmp near _card_shepherd_of_rot     ; 20092a6
+  jmp near _card_sigil_of_the_new_dawn     ; 20092ab
+  jmp near _card_silent_specter     ; 20092b0
+  jmp near _card_skirk_fire_marshal     ; 20092b5
+  jmp near _card_slice_and_dice     ; 20092ba
+  jmp near _card_snarling_undorak     ; 20092bf
+  jmp near _card_solar_blast     ; 20092c4
+  jmp near _card_soulless_one     ; 20092c9
+  jmp near _card_sparksmith     ; 20092ce
+  jmp near _card_starlit_sanctum     ; 20092d3
+  jmp near _card_steely_resolve     ; 20092d8
+  jmp near _card_supreme_inquisitor     ; 20092dd
+  jmp near _card_symbiotic_beast     ; 20092e2
+  jmp near _card_symbiotic_elf     ; 20092e7
+  jmp near _card_tempting_wurm     ; 20092ec
+  jmp near _card_tephraderm     ; 20092f1
+  jmp near _card_tribal_unity     ; 20092f6
+  jmp near _card_undead_gladiator     ; 20092fb
+  jmp near _card_unholy_grotto     ; 2009300
+  jmp near _card_voice_of_the_woods     ; 2009305
+  jmp near _card_voidmage_prodigy     ; 200930a
+  jmp near _card_wall_of_mulch     ; 200930f
+  jmp near _card_weathered_wayfarer     ; 2009314
+  jmp near _card_wellwisher     ; 2009319
+  jmp near _card_wirewood_herald     ; 200931e
+  jmp near _card_wirewood_lodge     ; 2009323
+  jmp near _card_wirewood_pride     ; 2009328
+  jmp near _card_wirewood_savage     ; 200932d
+  jmp near _card_words_of_waste     ; 2009332
+  jmp near _card_words_of_wilding     ; 2009337
+  jmp near _card_words_of_wind     ; 200933c
+  jmp near _card_words_of_worship     ; 2009341
+  jmp near _card_akromas_devoted     ; 2009346
+  jmp near _card_aphetto_exterminator     ; 200934b
+  jmp near _card_bane_of_the_living     ; 2009350
+  jmp near _card_beacon_of_destiny     ; 2009355
+  jmp near _card_brontotherium     ; 200935a
+  jmp near _card_brood_sliver     ; 200935f
+  jmp near _card_canopy_crawler     ; 2009364
+  jmp near _card_chromeshell_crab     ; 2009369
+  jmp near _card_clickslither     ; 200936e
+  jmp near _card_corpse_harvester     ; 2009373
+  jmp near _card_crypt_sliver     ; 2009378
+  jmp near _card_dark_supplicant     ; 200937d
+  jmp near _card_daru_sanctifier     ; 2009382
+  jmp near _card_defender_of_the_order     ; 2009387
+  jmp near _card_deftblade_elite     ; 200938c
+  jmp near _card_dreamborn_muse     ; 2009391
+  jmp near _card_drinker_of_sorrow     ; 2009396
+  jmp near _card_echo_tracer     ; 200939b
+  jmp near _card_embalmed_brawler     ; 20093a0
+  jmp near _card_feral_throwback     ; 20093a5
+  jmp near _card_frenetic_raptor     ; 20093aa
+  jmp near _card_gempalm_avenger     ; 20093af
+  jmp near _card_gempalm_polluter     ; 20093b4
+  jmp near _card_gempalm_sorcerer     ; 20093b9
+  jmp near _card_gempalm_strider     ; 20093be
+  jmp near _card_ghastly_remains     ; 20093c3
+  jmp near _card_goblin_clearcutter     ; 20093c8
+  jmp near _card_goblin_goon     ; 20093cd
+  jmp near _card_goblin_lookout     ; 20093d2
+  jmp near _card_havok_demon     ; 20093d7
+  jmp near _card_hollow_specter     ; 20093dc
+  jmp near _card_hunter_sliver     ; 20093e1
+  jmp near _card_imperial_hellkite     ; 20093e6
+  jmp near _card_infernal_caretaker     ; 20093eb
+  jmp near _card_keeper_of_the_nine_gales     ; 20093f0
+  jmp near _card_kilnmouth_dragon     ; 20093f5
+  jmp near _card_krosan_cloudscrapper     ; 20093fa
+  jmp near _card_lavaborn_muse     ; 20093ff
+  jmp near _card_mistform_ultimus     ; 2009404
+  jmp near _card_nantuko_vigilante     ; 2009409
+  jmp near _card_noxious_ghoul     ; 200940e
+  jmp near _card_patron_of_the_wild     ; 2009413
+  jmp near _card_phage_the_untouchable     ; 2009418
+  jmp near _card_planar_guide     ; 200941d
+  jmp near _card_plated_sliver     ; 2009422
+  jmp near _card_riptide_director     ; 2009427
+  jmp near _card_riptide_mangler     ; 200942c
+  jmp near _card_scion_of_darkness     ; 2009431
+  jmp near _card_shifting_sliver     ; 2009436
+  jmp near _card_skinthinner     ; 200943b
+  jmp near _card_skirk_alarmist     ; 2009440
+  jmp near _card_skirk_marauder     ; 2009445
+  jmp near _card_skirk_outrider     ; 200944a
+  jmp near _card_spectral_sliver     ; 200944f
+  jmp near _card_whirling_dervish     ; 2009454
+  jmp near _card_timberwatch_elf     ; 2009459
+  jmp near _card_totem_speaker     ; 200945e
+  jmp near _card_tribal_forcemage     ; 2009463
+  jmp near _card_voidmage_apprentice     ; 2009468
+  jmp near _card_wall_of_deceit     ; 200946d
+  jmp near _card_warbreak_trumpeter     ; 2009472
+  jmp near _card_wirewood_channeler     ; 2009477
+  jmp near _card_wirewood_hivemaster     ; 200947c
+  jmp near _card_alpha_status     ; 2009481
+  jmp near _card_ambush_commander     ; 2009486
+  jmp near _card_ancient_ooze     ; 200948b
+  jmp near _card_ark_of_blight     ; 2009490
+  jmp near _card_astral_steel     ; 2009495
+  jmp near _card_bladewings_thrall     ; 200949a
+  jmp near _card_break_asunder     ; 200949f
+  jmp near _card_cabal_conditioning     ; 20094a4
+  jmp near _card_cabal_interrogator     ; 20094a9
+  jmp near _card_carbonize     ; 20094ae
+  jmp near _card_carrion_feeder     ; 20094b3
+  jmp near _card_chartooth_cougar     ; 20094b8
+  jmp near _card_consumptive_goo     ; 20094bd
+  jmp near _card_daru_spiritualist     ; 20094c2
+  jmp near _card_daru_warchief     ; 20094c7
+  jmp near _card_dawn_elemental     ; 20094cc
+  jmp near _card_day_of_the_dragons     ; 20094d1
+  jmp near _card_decree_of_annihilation     ; 20094d6
+  jmp near _card_decree_of_pain     ; 20094db
+  jmp near _card_decree_of_savagery     ; 20094e0
+  jmp near _card_decree_of_silence     ; 20094e5
+  jmp near _card_dimensional_breach     ; 20094ea
+  jmp near _card_dispersal_shield     ; 20094ef
+  jmp near _card_dragons_breath     ; 20094f4
+  jmp near _card_dragons_fangs     ; 20094f9
+  jmp near _card_dragon_mage     ; 20094fe
+  jmp near _card_dragons_scales     ; 2009503
+  jmp near _card_dragons_shadow     ; 2009508
+  jmp near _card_dragons_wings     ; 200950d
+  jmp near _card_edgewalker     ; 2009512
+  jmp near _card_elvish_aberration     ; 2009517
+  jmp near _card_fierce_empath     ; 200951c
+  jmp near _card_final_punishment     ; 2009521
+  jmp near _card_forgotten_ancient     ; 2009526
+  jmp near _card_form_of_the_dragon     ; 200952b
+  jmp near _card_frontline_strategist     ; 2009530
+  jmp near _card_gilded_light     ; 2009535
+  jmp near _card_goblin_war_strike     ; 200953a
+  jmp near _card_guilty_conscience     ; 200953f
+  jmp near _card_hindering_touch     ; 2009544
+  jmp near _card_hunting_pack     ; 2009549
+  jmp near _card_karona_false_god     ; 200954e
+  jmp near _card_krosan_drover     ; 2009553
+  jmp near _card_krosan_warchief     ; 2009558
+  jmp near _card_long_term_plans     ; 200955d
+  jmp near _card_mischievous_quanar     ; 2009562
+  jmp near _card_misguided_rage     ; 2009567
+  jmp near _card_nefashu     ; 200956c
+  jmp near _card_noble_templar     ; 2009571
+  jmp near _card_proteus_machine     ; 2009576
+  jmp near _card_putrid_raptor     ; 200957b
+  jmp near _card_pyrostatic_pillar     ; 2009580
+  jmp near _card_raven_guild_master     ; 2009585
+  jmp near _card_reaping_the_graves     ; 200958a
+  jmp near _card_riptide_survivor     ; 200958f
+  jmp near _card_root_elemental     ; 2009594
+  jmp near _card_rush_of_knowledge     ; 2009599
+  jmp near _card_shoreline_ranger     ; 200959e
+  jmp near _card_skulltap     ; 20095a3
+  jmp near _card_sprouting_vines     ; 20095a8
+  jmp near _card_twisted_abomination     ; 20095ad
+  jmp near _card_unburden     ; 20095b2
+  jmp near _card_unspeakable_symbol     ; 20095b7
+  jmp near _card_vengeful_dead     ; 20095bc
+  jmp near _card_wing_shards     ; 20095c1
+  jmp near _card_wirewood_guardian     ; 20095c6
+  jmp near _card_xantid_swarm     ; 20095cb
+  jmp near _card_zombie_cutthroat     ; 20095d0
+  jmp near _card_balance_of_power     ; 20095d5
+  jmp near _card_breath_of_life     ; 20095da
+  jmp near _card_command_of_unsummoning     ; 20095df
+  jmp near _card_cruel_fate     ; 20095e4
+  jmp near _card_deep_wood     ; 20095e9
+  jmp near _card_deja_vu     ; 20095ee
+  jmp near _card_devastation2     ; 20095f3
+  jmp near _card_dread_reaper     ; 20095f8
+  jmp near _card_ebon_dragon     ; 20095fd
+  jmp near _card_endless_cockroaches     ; 2009602
+  jmp near _card_final_strike     ; 2009607
+  jmp near _card_fire_dragon     ; 200960c
+  jmp near _card_gift_of_estates     ; 2009611
+  jmp near _card_harsh_justice     ; 2009616
+  jmp near _card_jungle_lion     ; 200961b
+  jmp near _card_kings_assassin     ; 2009620
+  jmp near _card_last_chance     ; 2009625
+  jmp near _card_needle_storm     ; 200962a
+  jmp near _card_omen2     ; 200962f
+  jmp near _card_plant_elemental     ; 2009634
+  jmp near _card_primeval_force     ; 2009639
+  jmp near _card_serpent_assassin     ; 200963e
+  jmp near _card_temporary_truce     ; 2009643
+  jmp near _card_thing_from_the_deep     ; 2009648
+  jmp near _card_wicked_pact     ; 200964d
+  jmp near _card_abyssal_nightstalker     ; 2009652
+  jmp near _card_alaborn_zealot     ; 2009657
+  jmp near _card_alluring_scent     ; 200965c
+  jmp near _card_ancient_craving     ; 2009661
+  jmp near _card_cruel_edict     ; 2009666
+  jmp near _card_dakmor_plague     ; 200966b
+  jmp near _card_dakmor_sorceress     ; 2009670
+  jmp near _card_denizen_of_the_deep     ; 2009675
+  jmp near _card_festival_of_trokin     ; 200967a
+  jmp near _card_foul_spirit     ; 200967f
+  jmp near _card_goblin_firestarter     ; 2009684
+  jmp near _card_goblin_general     ; 2009689
+  jmp near _card_lurking_nightstalker     ; 200968e
+  jmp near _card_mystic_denial     ; 2009693
+  jmp near _card_natures_lore     ; 2009698
+  jmp near _card_nightstalker_engine     ; 200969d
+  jmp near _card_norwood_priestess     ; 20096a2
+  jmp near _card_predatory_nightstalker     ; 20096a7
+  jmp near _card_prowling_nightstalker     ; 20096ac
+  jmp near _card_return_of_the_nightstalkers     ; 20096b1
+  jmp near _card_righteous_charge     ; 20096b6
+  jmp near _card_swarm_of_rats     ; 20096bb
+  jmp near _card_temple_acolyte     ; 20096c0
+  jmp near _card_vampiric_spirit     ; 20096c5
+  jmp near _card_borrowing_the_east_wind     ; 20096ca
+  jmp near _card_burning_of_xinye     ; 20096cf
+  jmp near _card_cao_ren_wei_commander     ; 20096d4
+  jmp near _card_diaochan_artful_beauty     ; 20096d9
+  jmp near _card_dong_zhou_the_tyrant     ; 20096de
+  jmp near _card_guan_yus_1000_li_march     ; 20096e3
+  jmp near _card_guan_yu_sainted_warrior     ; 20096e8
+  jmp near _card_hunting_cheetah     ; 20096ed
+  jmp near _card_kongmings_contraptions     ; 20096f2
+  jmp near _card_lady_sun     ; 20096f7
+  jmp near _card_lady_zhurong_warrior_queen     ; 20096fc
+  jmp near _card_liu_bei_lord_of_shu     ; 2009701
+  jmp near _card_lu_bu_master_at_arms     ; 2009706
+  jmp near _card_lu_xun_scholar_general     ; 200970b
+  jmp near _card_ma_chao_western_warrior     ; 2009710
+  jmp near _card_overwhelming_forces     ; 2009715
+  jmp near _card_pang_tong_young_phoenix     ; 200971a
+  jmp near _card_riding_red_hare     ; 200971f
+  jmp near _card_riding_the_dilu_horse     ; 2009724
+  jmp near _card_shu_cavalry     ; 2009729
+  jmp near _card_shu_general     ; 200972e
+  jmp near _card_sima_yi_wei_field_general     ; 2009733
+  jmp near _card_sun_ce_young_conquerer     ; 2009738
+  jmp near _card_sun_quan_lord_of_wu     ; 200973d
+  jmp near _card_wei_assassins     ; 2009742
+  jmp near _card_wei_night_riders     ; 2009747
+  jmp near _card_xun_yu_wei_advisor     ; 200974c
+  jmp near _card_zhang_fei_fierce_warrior     ; 2009751
+  jmp near _card_zhang_he_wei_general     ; 2009756
+  jmp near _card_zhang_liao_hero_of_hefei     ; 200975b
+  jmp near _card_zhuge_jin_wu_strategist     ; 2009760
+  jmp near _card_zodiac_dragon     ; 2009765
+  jmp near _card_dakmor_ghoul     ; 200976a
+  jmp near _card_devout_monk     ; 200976f
+  jmp near _card_thunder_dragon     ; 2009774
+  jmp near _card_acolythe_of_xathrid     ; 2009779
+  jmp near _card_burst_of_speed     ; 200977e
+  jmp near _card_capricious_efreet     ; 2009783
+  jmp near _card_wall_of_wonder     ; 2009788
+  jmp near _card_gorgon_flail     ; 200978d
+  jmp near _card_guardian_seraph     ; 2009792
+  jmp near _card_harms_way     ; 2009797
+  jmp near _card_hive_mind     ; 200979c
+  jmp near _card_lurking_predators     ; 20097a1
+  jmp near _card_magebane_armor     ; 20097a6
+  jmp near _card_mirror_of_fate     ; 20097ab
+  jmp near _card_planar_cleansing     ; 20097b0
+  jmp near _card_rhox_pikemaster     ; 20097b5
+  jmp near _card_sphinx_ambassador     ; 20097ba
+  jmp near _card_xathrid_demon     ; 20097bf
+  jmp near _card_aerial_maneuver     ; 20097c4
+  jmp near _card_angelic_edict     ; 20097c9
+  jmp near _card_angelic_skirmisher     ; 20097ce
+  jmp near _card_time_vault     ; 20097d3
+  jmp near _card_blind_obedience     ; 20097d8
+  jmp near _card_boros_elite     ; 20097dd
+  jmp near _card_court_street_denizen     ; 20097e2
+  jmp near _card_daring_skyjak     ; 20097e7
+  jmp near _card_debtors_pulpit     ; 20097ec
+  jmp near _card_dutiful_thrull     ; 20097f1
+  jmp near _card_frontline_medic     ; 20097f6
+  jmp near _card_gideon_champion_of_justice     ; 20097fb
+  jmp near _card_gideon_champion_animated     ; 2009800
+  jmp near _card_guildscorn_ward     ; 2009805
+  jmp near _card_hold_the_gates     ; 200980a
+  jmp near _card_holy_mantle     ; 200980f
+  jmp near _card_knight_of_obligation     ; 2009814
+  jmp near _card_knight_watch     ; 2009819
+  jmp near _card_luminate_primordial     ; 200981e
+  jmp near _card_murder_investigation     ; 2009823
+  jmp near _card_nav_squad_commandos     ; 2009828
+  jmp near _card_shielded_passage     ; 200982d
+  jmp near _card_syndic_of_tithes     ; 2009832
+  jmp near _card_urbis_protector     ; 2009837
+  jmp near _card_zarichi_tiger     ; 200983c
+  jmp near _card_aetherize     ; 2009841
+  jmp near _card_intruder_alarm     ; 2009846
+  jmp near _card_cloudfin_raptor     ; 200984b
+  jmp near _card_diluvian_primordial     ; 2009850
+  jmp near _card_enter_the_infinite     ; 2009855
+  jmp near _card_gridlock     ; 200985a
+  jmp near _card_hands_of_binding     ; 200985f
+  jmp near _card_incursion_specialist     ; 2009864
+  jmp near _card_keymaster_rogue     ; 2009869
+  jmp near _card_last_thoughts     ; 200986e
+  jmp near _card_leyline_phantom     ; 2009873
+  jmp near _card_metropolis_sprite     ; 2009878
+  jmp near _card_mindeye_drake     ; 200987d
+  jmp near _card_rapid_hybridization     ; 2009882
+  jmp near _card_realmwright     ; 2009887
+  jmp near _card_sages_row_denizen     ; 200988c
+  jmp near _card_simic_manipulator     ; 2009891
+  jmp near _card_skygames     ; 2009896
+  jmp near _card_spell_rupture     ; 200989b
+  jmp near _card_stolen_identity     ; 20098a0
+  jmp near _card_totally_lost     ; 20098a5
+  jmp near _card_voidwalk     ; 20098aa
+  jmp near _card_way_of_the_thief     ; 20098af
+  jmp near _card_balustrade_spy     ; 20098b4
+  jmp near _card_contaminated_ground     ; 20098b9
+  jmp near _card_corpse_blockade     ; 20098be
+  jmp near _card_crypt_ghast     ; 20098c3
+  jmp near _card_deaths_approach     ; 20098c8
+  jmp near _card_devour_flesh     ; 20098cd
+  jmp near _card_dying_wish     ; 20098d2
+  jmp near _card_gateway_shadow     ; 20098d7
+  jmp near _card_grisly_spectacle     ; 20098dc
+  jmp near _card_horror_of_the_dim     ; 20098e1
+  jmp near _card_illness_in_the_ranks     ; 20098e6
+  jmp near _card_killing_glare     ; 20098eb
+  jmp near _card_lord_of_the_void     ; 20098f0
+  jmp near _card_mental_vapors     ; 20098f5
+  jmp near _card_midnight_recovery     ; 20098fa
+  jmp near _card_ogre_slumlord     ; 20098ff
+  jmp near _card_sepulchral_primordial     ; 2009904
+  jmp near _card_smog_elemental     ; 2009909
+  jmp near _card_thrull_parasite     ; 200990e
+  jmp near _card_undercity_informer     ; 2009913
+  jmp near _card_undercity_plague     ; 2009918
+  jmp near _card_bomber_corps     ; 200991d
+  jmp near _card_cinder_elemental     ; 2009922
+  jmp near _card_crackling_perimeter     ; 2009927
+  jmp near _card_firefist_striker     ; 200992c
+  jmp near _card_five_alarm_fire     ; 2009931
+  jmp near _card_foundry_street_denizen     ; 2009936
+  jmp near _card_shadow_alley_denizen     ; 200993b
+  jmp near _card_shadow_slice     ; 2009940
+  jmp near _card_furious_resistance     ; 2009945
+  jmp near _card_hellkite_tyrant     ; 200994a
+  jmp near _card_hellraiser_goblin     ; 200994f
+  jmp near _card_homing_lightning     ; 2009954
+  jmp near _card_legion_loyalist     ; 2009959
+  jmp near _card_madcap_skills     ; 200995e
+  jmp near _card_mark_for_death     ; 2009963
+  jmp near _card_massive_raid     ; 2009968
+  jmp near _card_molten_primordial     ; 200996d
+  jmp near _card_mugging     ; 2009972
+  jmp near _card_ripscale_predators     ; 2009977
+  jmp near _card_scorchwalker     ; 200997c
+  jmp near _card_skinbrand_goblin     ; 2009981
+  jmp near _card_skullcrack     ; 2009986
+  jmp near _card_structural_colapse     ; 200998b
+  jmp near _card_tin_street_market     ; 2009990
+  jmp near _card_towering_thunderfist     ; 2009995
+  jmp near _card_viashino_shanktail     ; 200999a
+  jmp near _card_warmind_infantry     ; 200999f
+  jmp near _card_wrecking_ogre     ; 20099a4
+  jmp near _card_alpha_autority     ; 20099a9
+  jmp near _card_burst_of_strength     ; 20099ae
+  jmp near _card_crowned_ceratok     ; 20099b3
+  jmp near _card_disciple_of_the_old_ways     ; 20099b8
+  jmp near _card_experiment_one     ; 20099bd
+  jmp near _card_forced_adaption     ; 20099c2
+  jmp near _card_giant_adephage     ; 20099c7
+  jmp near _card_greenside_watcher     ; 20099cc
+  jmp near _card_gyre_sage     ; 20099d1
+  jmp near _card_hindervines     ; 20099d6
+  jmp near _card_ivy_lane_denizen     ; 20099db
+  jmp near _card_miming_slime     ; 20099e0
+  jmp near _card_ooze_flux     ; 20099e5
+  jmp near _card_predators_rapport     ; 20099ea
+  jmp near _card_rust_scarab     ; 20099ef
+  jmp near _card_scab_clan_charger     ; 20099f4
+  jmp near _card_serene_remembrance     ; 20099f9
+  jmp near _card_skarrg_goliath     ; 20099fe
+  jmp near _card_slaughterhorn     ; 2009a03
+  jmp near _card_sylvan_primordial     ; 2009a08
+  jmp near _card_tower_defence     ; 2009a0d
+  jmp near _card_verdant_haven     ; 2009a12
+  jmp near _card_wasteland_viper     ; 2009a17
+  jmp near _card_raise_dead     ; 2009a1c
+  jmp near _card_alms_beast     ; 2009a21
+  jmp near _card_assemble_the_legion     ; 2009a26
+  jmp near _card_aurelia_the_warleader     ; 2009a2b
+  jmp near _card_aurelias_fury     ; 2009a30
+  jmp near _card_bane_alley_broker     ; 2009a35
+  jmp near _card_biovisionary     ; 2009a3a
+  jmp near _card_borborygmos_enraged     ; 2009a3f
+  jmp near _card_boros_charm     ; 2009a44
+  jmp near _card_call_of_the_nightwing     ; 2009a49
+  jmp near _card_cartel_aristocrat     ; 2009a4e
+  jmp near _card_clan_defiance     ; 2009a53
+  jmp near _card_consuming_aberration     ; 2009a58
+  jmp near _card_cleric_token     ; 2009a5d
+  jmp near _card_deathpact_angel     ; 2009a62
+  jmp near _card_dimir_charm     ; 2009a67
+  jmp near _card_dinrova_horror     ; 2009a6c
+  jmp near _card_domri_rade     ; 2009a71
+  jmp near _card_domri_rades_emblem     ; 2009a76
+  jmp near _card_duskmantle_guildmage     ; 2009a7b
+  jmp near _card_duskmantle_seer     ; 2009a80
+  jmp near _card_elusive_krasis     ; 2009a85
+  jmp near _card_firemane_avenger     ; 2009a8a
+  jmp near _card_fortress_cyclops     ; 2009a8f
+  jmp near _card_foundry_champion     ; 2009a94
+  jmp near _card_frenzied_tilling     ; 2009a99
+  jmp near _card_ghor_clan_rampager     ; 2009a9e
+  jmp near _card_ground_assault     ; 2009aa3
+  jmp near _card_gruul_charm     ; 2009aa8
+  jmp near _card_gruul_ragebeast     ; 2009aad
+  jmp near _card_high_priest_of_penance     ; 2009ab2
+  jmp near _card_lazav_dimir_mastermind     ; 2009ab7
+  jmp near _card_martial_glory     ; 2009abc
+  jmp near _card_master_biomancer     ; 2009ac1
+  jmp near _card_merciless_eviction     ; 2009ac6
+  jmp near _card_mind_grind     ; 2009acb
+  jmp near _card_mystic_genesis     ; 2009ad0
+  jmp near _card_ozbedat_ghost_council     ; 2009ad5
+  jmp near _card_one_thousand_lashes     ; 2009ada
+  jmp near _card_orzhov_charm     ; 2009adf
+  jmp near _card_paranoid_delusion     ; 2009ae4
+  jmp near _card_primal_visitation     ; 2009ae9
+  jmp near _card_prime_speaker_zegana     ; 2009aee
+  jmp near _card_psychic_strike     ; 2009af3
+  jmp near _card_purge_the_profane     ; 2009af8
+  jmp near _card_rubblehulk     ; 2009afd
+  jmp near _card_shambleshark     ; 2009b02
+  jmp near _card_signal_the_clans     ; 2009b07
+  jmp near _card_simic_charm     ; 2009b0c
+  jmp near _card_skarrg_guildmage     ; 2009b11
+  jmp near _card_spark_trooper     ; 2009b16
+  jmp near _card_sunhome_guildmage     ; 2009b1b
+  jmp near _card_treasury_thrull     ; 2009b20
+  jmp near _card_truefire_paladine     ; 2009b25
+  jmp near _card_unexpected_results     ; 2009b2a
+  jmp near _card_urban_evolution     ; 2009b2f
+  jmp near _card_vizkopa_confessor     ; 2009b34
+  jmp near _card_ordruun_veteran     ; 2009b39
+  jmp near _card_vizkopa_guildmage     ; 2009b3e
+  jmp near _card_whispering_madness     ; 2009b43
+  jmp near _card_wojek_halberdier     ; 2009b48
+  jmp near _card_zameck_guildmage     ; 2009b4d
+  jmp near _card_zhur_taa_swine     ; 2009b52
+  jmp near _card_bioshift     ; 2009b57
+  jmp near _card_arrows_of_justice     ; 2009b5c
+  jmp near _card_biomass_mutation     ; 2009b61
+  jmp near _card_boros_reckoner     ; 2009b66
+  jmp near _card_burning_tree_emissary     ; 2009b6b
+  jmp near _card_coerced_confession     ; 2009b70
+  jmp near _card_deathcult_rogue     ; 2009b75
+  jmp near _card_gift_of_orzhova     ; 2009b7a
+  jmp near _card_immortal_servitude     ; 2009b7f
+  jmp near _card_merfolk_of_the_depths     ; 2009b84
+  jmp near _card_nightveil_specter     ; 2009b89
+  jmp near _card_pit_fight     ; 2009b8e
+  jmp near _card_shattering_blow     ; 2009b93
+  jmp near _card_armored_transport     ; 2009b98
+  jmp near _card_boros_keyrune     ; 2009b9d
+  jmp near _card_dimir_keyrune     ; 2009ba2
+  jmp near _card_glaring_spotlight     ; 2009ba7
+  jmp near _card_gruul_keyrune     ; 2009bac
+  jmp near _card_orzhov_keyrune     ; 2009bb1
+  jmp near _card_razortip_whip     ; 2009bb6
+  jmp near _card_riot_gear     ; 2009bbb
+  jmp near _card_simic_keyrune     ; 2009bc0
+  jmp near _card_skyblinder_staff     ; 2009bc5
+  jmp near _card_icatian_town     ; 2009bca
+  jmp near _card_blood_of_the_martyr     ; 2009bcf
+  jmp near _card_season_of_the_witch     ; 2009bd4
+  jmp near _card_cleansing2     ; 2009bd9
+  jmp near _card_city_in_a_bottle     ; 2009bde
+  jmp near _card_golgothian_sylex     ; 2009be3
+  jmp near _card_cocoon     ; 2009be8
+  jmp near _card_demonic_torment     ; 2009bed
+  jmp near _card_disharmony     ; 2009bf2
+  jmp near _card_dream_coat     ; 2009bf7
+  jmp near _card_dwarven_song     ; 2009bfc
+  jmp near _card_enchanted_being     ; 2009c01
+  jmp near _card_evil_eye_of_orms_by_gore     ; 2009c06
+  jmp near _card_field_of_dreams     ; 2009c0b
+  jmp near _card_forethought_amulet     ; 2009c10
+  jmp near _card_giant_slug     ; 2009c15
+  jmp near _card_glyph_of_delusion     ; 2009c1a
+  jmp near _card_glyph_of_destruction     ; 2009c1f
+  jmp near _card_glyph_of_doom     ; 2009c24
+  jmp near _card_glyph_of_life     ; 2009c29
+  jmp near _card_glyph_of_reincarnation     ; 2009c2e
+  jmp near _card_hold_at_bay     ; 2009c33
+  jmp near _card_infinite_autority     ; 2009c38
+  jmp near _card_knowledge_vault     ; 2009c3d
+  jmp near _card_kry_shield     ; 2009c42
+  jmp near _card_life_matrix     ; 2009c47
+  jmp near _card_marble_priest     ; 2009c4c
+  jmp near _card_part_water     ; 2009c51
+  jmp near _card_psychic_purge     ; 2009c56
+  jmp near _card_rapid_fire     ; 2009c5b
+  jmp near _card_sea_kings_blessing     ; 2009c60
+  jmp near _card_sentinel     ; 2009c65
+  jmp near _card_spectral_cloak     ; 2009c6a
+  jmp near _card_subdue     ; 2009c6f
+  jmp near _card_sylvan_paradise     ; 2009c74
+  jmp near _card_teleport2     ; 2009c79
+  jmp near _card_touch_of_darkness     ; 2009c7e
+  jmp near _card_wall_of_putrid_flesh     ; 2009c83
+  jmp near _card_wall_of_vapor     ; 2009c88
+  jmp near _card_wood_elemental     ; 2009c8d
+  jmp near _card_venarian_gold     ; 2009c92
+  jmp near _card_brine_shaman     ; 2009c97
+  jmp near _card_energy_storm     ; 2009c9c
+  jmp near _card_freyalise_supplicant     ; 2009ca1
+  jmp near _card_iceberg     ; 2009ca6
+  jmp near _card_krovikan_elementalist     ; 2009cab
+  jmp near _card_krovikan_vampire     ; 2009cb0
+  jmp near _card_meteor_shower     ; 2009cb5
+  jmp near _card_mudslide     ; 2009cba
+  jmp near _card_musician     ; 2009cbf
+  jmp near _card_pestilence_rats     ; 2009cc4
+  jmp near _card_portent     ; 2009cc9
+  jmp near _card_runed_arch     ; 2009cce
+  jmp near _card_skeleton_ship     ; 2009cd3
+  jmp near _card_skull_catapult     ; 2009cd8
+  jmp near _card_vibrating_sphere     ; 2009cdd
+  jmp near _card_aegis_of_the_meek     ; 2009ce2
+  jmp near _card_baton_of_morale     ; 2009ce7
+  jmp near _card_celestial_sword     ; 2009cec
+  jmp near _card_fyndhorn_bow     ; 2009cf1
+  jmp near _card_whalebone_glider     ; 2009cf6
+  jmp near _card_wiitigo     ; 2009cfb
+  jmp near _card_zurs_weirding     ; 2009d00
+  jmp near _card_ashnods_cylix     ; 2009d05
+  jmp near _card_balduvian_trading_post     ; 2009d0a
+  jmp near _card_bestial_fury     ; 2009d0f
+  jmp near _card_diseased_vermin     ; 2009d14
+  jmp near _card_energy_arc     ; 2009d19
+  jmp near _card_fatal_lore     ; 2009d1e
+  jmp near _card_gorilla_chieftain     ; 2009d23
+  jmp near _card_gorilla_war_cry     ; 2009d28
+  jmp near _card_heart_of_yavimaya     ; 2009d2d
+  jmp near _card_library_of_lat_nam     ; 2009d32
+  jmp near _card_keeper_of_tresserhorn     ; 2009d37
+  jmp near _card_lim_duls_paladin     ; 2009d3c
+  jmp near _card_misfortune     ; 2009d41
+  jmp near _card_natures_chosen     ; 2009d46
+  jmp near _card_noble_steeds     ; 2009d4b
+  jmp near _card_phyrexian_war_beast     ; 2009d50
+  jmp near _card_reprisal     ; 2009d55
+  jmp near _card_rogue_skycaptain     ; 2009d5a
+  jmp near _card_sheltered_valley     ; 2009d5f
+  jmp near _card_sol_grail     ; 2009d64
+  jmp near _card_soldier_of_fortune     ; 2009d69
+  jmp near _card_splinter_token     ; 2009d6e
+  jmp near _card_splintering_wind     ; 2009d73
+  jmp near _card_surge_of_strength     ; 2009d78
+  jmp near _card_sustaining_spirit     ; 2009d7d
+  jmp near _card_taste_of_paradise     ; 2009d82
+  jmp near _card_tornado     ; 2009d87
+  jmp near _card_unlikely_alliance     ; 2009d8c
+  jmp near _card_whip_vine     ; 2009d91
+  jmp near _card_whirling_catapult     ; 2009d96
+  jmp near _card_abyssal_hunter     ; 2009d9b
+  jmp near _card_acidic_dagger     ; 2009da0
+  jmp near _card_afiya_grove     ; 2009da5
+  jmp near _card_amber_prison     ; 2009daa
+  jmp near _card_amulet_of_unmaking     ; 2009daf
+  jmp near _card_armorer_guildmage     ; 2009db4
+  jmp near _card_ashen_powder     ; 2009db9
+  jmp near _card_bad_river     ; 2009dbe
+  jmp near _card_basalt_golem     ; 2009dc3
+  jmp near _card_bazaar_of_wonders     ; 2009dc8
+  jmp near _card_bone_mask     ; 2009dcd
+  jmp near _card_burning_palm_efreet     ; 2009dd2
+  jmp near _card_chaosphere     ; 2009dd7
+  jmp near _card_chariot_of_the_sun     ; 2009ddc
+  jmp near _card_choking_sands     ; 2009de1
+  jmp near _card_civic_guildmage     ; 2009de6
+  jmp near _card_divine_retribution     ; 2009deb
+  jmp near _card_dream_fighter     ; 2009df0
+  jmp near _card_elixir_of_vitality     ; 2009df5
+  jmp near _card_emberwilde_djinn     ; 2009dfa
+  jmp near _card_femeref_archers     ; 2009dff
+  jmp near _card_femeref_knight     ; 2009e04
+  jmp near _card_flood_plain     ; 2009e09
+  jmp near _card_forbidden_crypt     ; 2009e0e
+  jmp near _card_goblin_elite_infantry     ; 2009e13
+  jmp near _card_goblin_scouts     ; 2009e18
+  jmp near _card_grasslands     ; 2009e1d
+  jmp near _card_hakim_loreweaver     ; 2009e22
+  jmp near _card_harmattan_efreet     ; 2009e27
+  jmp near _card_jungle_wurm     ; 2009e2c
+  jmp near _card_locust_swarm     ; 2009e31
+  jmp near _card_malignant_growth     ; 2009e36
+  jmp near _card_mindbender_spores     ; 2009e3b
+  jmp near _card_misers_cage     ; 2009e40
+  jmp near _card_mountain_valley     ; 2009e45
+  jmp near _card_mtenda_griffin     ; 2009e4a
+  jmp near _card_null_chamber     ; 2009e4f
+  jmp near _card_paupers_cage     ; 2009e54
+  jmp near _card_phyrexian_tribute     ; 2009e59
+  jmp near _card_political_trickery     ; 2009e5e
+  jmp near _card_psychic_transfer     ; 2009e63
+  jmp near _card_quirion_elves     ; 2009e68
+  jmp near _card_rocky_tar_pit     ; 2009e6d
+  jmp near _card_sandbar_crocodile     ; 2009e72
+  jmp near _card_shaper_guildmage     ; 2009e77
+  jmp near _card_sidar_jabari     ; 2009e7c
+  jmp near _card_soulshriek     ; 2009e81
+  jmp near _card_spatial_binding     ; 2009e86
+  jmp near _card_subterranean_spirit     ; 2009e8b
+  jmp near _card_sunweb     ; 2009e90
+  jmp near _card_tainted_specter     ; 2009e95
+  jmp near _card_telim_tor     ; 2009e9a
+  jmp near _card_telim_tors_darts     ; 2009e9f
+  jmp near _card_uktabi_faeries     ; 2009ea4
+  jmp near _card_uktabi_wildcats     ; 2009ea9
+  jmp near _card_unerring_sling     ; 2009eae
+  jmp near _card_vaporous_djinn     ; 2009eb3
+  jmp near _card_vigilant_martyr     ; 2009eb8
+  jmp near _card_village_elder     ; 2009ebd
+  jmp near _card_wall_of_corpses     ; 2009ec2
+  jmp near _card_wall_of_resistance     ; 2009ec7
+  jmp near _card_warping_wurm     ; 2009ecc
+  jmp near _card_agoraphobia     ; 2009ed1
+  jmp near _card_sapphire_drake     ; 2009ed6
+  jmp near _card_scatter_arc     ; 2009edb
+  jmp near _card_blanket_of_night     ; 2009ee0
+  jmp near _card_bogardan_phoenix     ; 2009ee5
+  jmp near _card_brass_talon_chimera     ; 2009eea
+  jmp near _card_coral_atoll     ; 2009eef
+  jmp near _card_dormant_volcano     ; 2009ef4
+  jmp near _card_dragons_mask     ; 2009ef9
+  jmp near _card_dream_tides     ; 2009efe
+  jmp near _card_emerald_charm     ; 2009f03
+  jmp near _card_eye_of_singularity     ; 2009f08
+  jmp near _card_forbidden_ritual     ; 2009f0d
+  jmp near _card_goblin_recruiter     ; 2009f12
+  jmp near _card_heart_charm     ; 2009f17
+  jmp near _card_ivory_charm     ; 2009f1c
+  jmp near _card_iron_heart_chimera     ; 2009f21
+  jmp near _card_jamuraa_lion     ; 2009f26
+  jmp near _card_jungle_basin     ; 2009f2b
+  jmp near _card_karoo     ; 2009f30
+  jmp near _card_katabatic_winds     ; 2009f35
+  jmp near _card_lead_belly_chimera     ; 2009f3a
+  jmp near _card_magma_mine     ; 2009f3f
+  jmp near _card_parapet     ; 2009f44
+  jmp near _card_pillar_tombs_of_aku     ; 2009f49
+  jmp near _card_resistance_fighter     ; 2009f4e
+  jmp near _card_righteous_aura     ; 2009f53
+  jmp near _card_sands_of_time     ; 2009f58
+  jmp near _card_simoon     ; 2009f5d
+  jmp near _card_teferis_realm     ; 2009f62
+  jmp near _card_three_wishes     ; 2009f67
+  jmp near _card_tin_wing_chimera     ; 2009f6c
+  jmp near _card_waterspout_djinn     ; 2009f71
+  jmp near _card_wind_shear     ; 2009f76
+  jmp near _card_aboroth     ; 2009f7b
+  jmp near _card_agonizing_memories     ; 2009f80
+  jmp near _card_alms2     ; 2009f85
+  jmp near _card_blossoming_wreath     ; 2009f8a
+  jmp near _card_bosium_strip     ; 2009f8f
+  jmp near _card_buried_alive     ; 2009f94
+  jmp near _card_call_of_the_wild     ; 2009f99
+  jmp near _card_festering_evil     ; 2009f9e
+  jmp near _card_infernal_tribute     ; 2009fa3
+  jmp near _card_jabaris_banner     ; 2009fa8
+  jmp near _card_scorched_ruins     ; 2009fad
+  jmp near _card_sylvan_hierophant     ; 2009fb2
+  jmp near _card_tariff     ; 2009fb7
+  jmp near _card_thran_tome     ; 2009fbc
+  jmp near _card_tolarian_entrancer     ; 2009fc1
+  jmp near _card_tolarian_serpent     ; 2009fc6
+  jmp near _card_touchstone     ; 2009fcb
+  jmp near _card_uktabi_efreet     ; 2009fd0
+  jmp near _card_urborg_stalker     ; 2009fd5
+  jmp near _card_vitalize     ; 2009fda
+  jmp near _card_volounteer_reserves     ; 2009fdf
+  jmp near _card_abandon_hope     ; 2009fe4
+  jmp near _card_anoint     ; 2009fe9
+  jmp near _card_armord_sliver     ; 2009fee
+  jmp near _card_barbed_sliver     ; 2009ff3
+  jmp near _card_blood_frenzy     ; 2009ff8
+  jmp near _card_magus_of_the_arena     ; 2009ffd
+  jmp near _card_broken_fall     ; 200a002
+  jmp near _card_clot_sliver     ; 200a007
+  jmp near _card_crazed_armodon     ; 200a00c
+  jmp near _card_darkling_stalker     ; 200a011
+  jmp near _card_dauthi_ghoul     ; 200a016
+  jmp near _card_dirtcowl_wurm     ; 200a01b
+  jmp near _card_disturbed_burial     ; 200a020
+  jmp near _card_elven_warhounds     ; 200a025
+  jmp near _card_elvish_fury     ; 200a02a
+  jmp near _card_emessi_tome     ; 200a02f
+  jmp near _card_essence_bottle     ; 200a034
+  jmp near _card_evincars_justice     ; 200a039
+  jmp near _card_extinction     ; 200a03e
+  jmp near _card_fools_tome     ; 200a043
+  jmp near _card_heartwood_giant     ; 200a048
+  jmp near _card_humility     ; 200a04d
+  jmp near _card_kezzerdrix     ; 200a052
+  jmp near _card_mindwhip_sliver     ; 200a057
+  jmp near _card_mnemonic_sliver     ; 200a05c
+  jmp near _card_mogg_raider     ; 200a061
+  jmp near _card_puppet_strings     ; 200a066
+  jmp near _card_reckless_spite     ; 200a06b
+  jmp near _card_repentance     ; 200a070
+  jmp near _card_scorched_earth     ; 200a075
+  jmp near _card_seeker_of_skybreak     ; 200a07a
+  jmp near _card_selenia_dark_angel     ; 200a07f
+  jmp near _card_serene_offering     ; 200a084
+  jmp near _card_shadow_rift     ; 200a089
+  jmp near _card_skyshroud_vampire     ; 200a08e
+  jmp near _card_soltari_lancer     ; 200a093
+  jmp near _card_starke_of_rath     ; 200a098
+  jmp near _card_thalakos_seer     ; 200a09d
+  jmp near _card_tooth_and_claw     ; 200a0a2
+  jmp near _card_wild_wurm     ; 200a0a7
+  jmp near _card_brush_with_death     ; 200a0ac
+  jmp near _card_bullwhip     ; 200a0b1
+  jmp near _card_cannibalize     ; 200a0b6
+  jmp near _card_whispers_of_the_muse     ; 200a0bb
+  jmp near _card_searing_touch     ; 200a0c0
+  jmp near _card_elven_rite     ; 200a0c5
+  jmp near _card_fanning_the_flames     ; 200a0ca
+  jmp near _card_flame_wave     ; 200a0cf
+  jmp near _card_flowstone_mauler     ; 200a0d4
+  jmp near _card_grave_pact     ; 200a0d9
+  jmp near _card_wight_of_precint_six     ; 200a0de
+  jmp near _card_pyre_charger     ; 200a0e3
+  jmp near _card_hesitation     ; 200a0e8
+  jmp near _card_jinxed_ring     ; 200a0ed
+  jmp near _card_lab_rats     ; 200a0f2
+  jmp near _card_mask_of_the_mimic     ; 200a0f7
+  jmp near _card_mind_peel     ; 200a0fc
+  jmp near _card_mindwarper     ; 200a101
+  jmp near _card_mob_justice     ; 200a106
+  jmp near _card_mortuary     ; 200a10b
+  jmp near _card_overgrowth     ; 200a110
+  jmp near _card_pursuit_of_knowledge     ; 200a115
+  jmp near _card_rabid_rats     ; 200a11a
+  jmp near _card_ransack     ; 200a11f
+  jmp near _card_reins_of_power     ; 200a124
+  jmp near _card_scapegoat     ; 200a129
+  jmp near _card_seething_anger     ; 200a12e
+  jmp near _card_skyshroud_archer     ; 200a133
+  jmp near _card_spike_breeder     ; 200a138
+  jmp near _card_spitting_hydra     ; 200a13d
+  jmp near _card_sword_of_the_chosen     ; 200a142
+  jmp near _card_volraths_gardens     ; 200a147
+  jmp near _card_volraths_laboratory     ; 200a14c
+  jmp near _card_allay     ; 200a151
+  jmp near _card_dauthi_jackal     ; 200a156
+  jmp near _card_deaths_duet     ; 200a15b
+  jmp near _card_ephemeron     ; 200a160
+  jmp near _card_exalted_dragon     ; 200a165
+  jmp near _card_flowstone_flood     ; 200a16a
+  jmp near _card_jackalope_herd     ; 200a16f
+  jmp near _card_mana_breach     ; 200a174
+  jmp near _card_pegasus_stampede     ; 200a179
+  jmp near _card_reaping_the_rewards     ; 200a17e
+  jmp near _card_rootwater_mystic     ; 200a183
+  jmp near _card_scalding_salamander     ; 200a188
+  jmp near _card_scare_tactics     ; 200a18d
+  jmp near _card_seismic_assault     ; 200a192
+  jmp near _card_shackles     ; 200a197
+  jmp near _card_shattering_pulse     ; 200a19c
+  jmp near _card_skyshaper     ; 200a1a1
+  jmp near _card_slaughter2     ; 200a1a6
+  jmp near _card_spike_hatcher     ; 200a1ab
+  jmp near _card_spike_rogue     ; 200a1b0
+  jmp near _card_theft_of_dreams     ; 200a1b5
+  jmp near _card_volraths_dungeon     ; 200a1ba
+  jmp near _card_welkin_hawk     ; 200a1bf
+  jmp near _card_abyssal_horror     ; 200a1c4
+  jmp near _card_arc_lightning     ; 200a1c9
+  jmp near _card_argothian_elder     ; 200a1ce
+  jmp near _card_bedlam     ; 200a1d3
+  jmp near _card_blanchwood_armor     ; 200a1d8
+  jmp near _card_blasted_landscape     ; 200a1dd
+  jmp near _card_blood_vassal     ; 200a1e2
+  jmp near _card_brilliant_halo     ; 200a1e7
+  jmp near _card_bulwark     ; 200a1ec
+  jmp near _card_carrion_beetles     ; 200a1f1
+  jmp near _card_copper_gnomes     ; 200a1f6
+  jmp near _card_crosswinds     ; 200a1fb
+  jmp near _card_crystal_chimes     ; 200a200
+  jmp near _card_curfew     ; 200a205
+  jmp near _card_dark_hatchling     ; 200a20a
+  jmp near _card_darkest_hour     ; 200a20f
+  jmp near _card_despondency     ; 200a214
+  jmp near _card_destructive_urge     ; 200a219
+  jmp near _card_drifting_meadow     ; 200a21e
+  jmp near _card_elvish_lyrist     ; 200a223
+  jmp near _card_expunge     ; 200a228
+  jmp near _card_fiery_mantle     ; 200a22d
+  jmp near _card_gaeas_bounty     ; 200a232
+  jmp near _card_great_whale     ; 200a237
+  jmp near _card_greener_pastures     ; 200a23c
+  jmp near _card_hidden_ancients     ; 200a241
+  jmp near _card_hidden_herd     ; 200a246
+  jmp near _card_hidden_predators     ; 200a24b
+  jmp near _card_hidden_spider     ; 200a250
+  jmp near _card_hidden_stag     ; 200a255
+  jmp near _card_hidden_stag_animated     ; 200a25a
+  jmp near _card_humble     ; 200a25f
+  jmp near _card_intrepid_hero     ; 200a264
+  jmp near _card_lilting_refrain     ; 200a269
+  jmp near _card_lull     ; 200a26e
+  jmp near _card_morphling     ; 200a273
+  jmp near _card_order_of_yawgmoth     ; 200a278
+  jmp near _card_pariah     ; 200a27d
+  jmp near _card_planar_void     ; 200a282
+  jmp near _card_rejuvenate     ; 200a287
+  jmp near _card_rescind     ; 200a28c
+  jmp near _card_sanctum_guardian     ; 200a291
+  jmp near _card_scoria_wurm     ; 200a296
+  jmp near _card_scrap2     ; 200a29b
+  jmp near _card_shivan_raptor     ; 200a2a0
+  jmp near _card_songstitcher     ; 200a2a5
+  jmp near _card_titanias_boon     ; 200a2aa
+  jmp near _card_titanias_chosen     ; 200a2af
+  jmp near _card_torch_song     ; 200a2b4
+  jmp near _card_vebulid     ; 200a2b9
+  jmp near _card_hidden_gibbons     ; 200a2be
+  jmp near _card_opal_gargoyle     ; 200a2c3
+  jmp near _card_opal_archangel     ; 200a2c8
+  jmp near _card_veiled_sentry     ; 200a2cd
+  jmp near _card_veiled_sentry_animated     ; 200a2d2
+  jmp near _card_war_dance     ; 200a2d7
+  jmp near _card_whetstone     ; 200a2dc
+  jmp near _card_whirlwind2     ; 200a2e1
+  jmp near _card_wildfire     ; 200a2e6
+  jmp near _card_witch_engine     ; 200a2eb
+  jmp near _card_angels_trumpet     ; 200a2f0
+  jmp near _card_archivist     ; 200a2f5
+  jmp near _card_aura_flux     ; 200a2fa
+  jmp near _card_brink_of_madness     ; 200a2ff
+  jmp near _card_devout_harpist     ; 200a304
+  jmp near _card_eviscerator     ; 200a309
+  jmp near _card_expendable_troops     ; 200a30e
+  jmp near _card_fleeting_image     ; 200a313
+  jmp near _card_harmonic_convergence     ; 200a318
+  jmp near _card_iron_maiden     ; 200a31d
+  jmp near _card_lurking_skirge     ; 200a322
+  jmp near _card_opal_champion     ; 200a327
+  jmp near _card_opal_avenger     ; 200a32c
+  jmp near _card_ostracize     ; 200a331
+  jmp near _card_phyrexian_plaguelord     ; 200a336
+  jmp near _card_radiants_judgement     ; 200a33b
+  jmp near _card_rebuild     ; 200a340
+  jmp near _card_repopulate     ; 200a345
+  jmp near _card_subversion     ; 200a34a
+  jmp near _card_swat     ; 200a34f
+  jmp near _card_thran_war_machine     ; 200a354
+  jmp near _card_viashino_cutthroath     ; 200a359
+  jmp near _card_walking_sponge     ; 200a35e
+  jmp near _card_wheel_of_torture     ; 200a363
+  jmp near _card_aether_sting     ; 200a368
+  jmp near _card_aura_thief     ; 200a36d
+  jmp near _card_bloodshot_cyclops     ; 200a372
+  jmp near _card_fend_off     ; 200a377
+  jmp near _card_flame_jet     ; 200a37c
+  jmp near _card_flicker2     ; 200a381
+  jmp near _card_impatience     ; 200a386
+  jmp near _card_keldon_vandals     ; 200a38b
+  jmp near _card_master_healer     ; 200a390
+  jmp near _card_masticore     ; 200a395
+  jmp near _card_mental_discipline     ; 200a39a
+  jmp near _card_multanis_decree     ; 200a39f
+  jmp near _card_pattern_of_rebirth     ; 200a3a4
+  jmp near _card_plow_under     ; 200a3a9
+  jmp near _card_rapid_decay     ; 200a3ae
+  jmp near _card_rofellos_gift     ; 200a3b3
+  jmp near _card_scent_of_brine     ; 200a3b8
+  jmp near _card_scent_of_cinder     ; 200a3bd
+  jmp near _card_scent_of_ivy     ; 200a3c2
+  jmp near _card_scent_of_jasmine     ; 200a3c7
+  jmp near _card_scent_of_nightshade     ; 200a3cc
+  jmp near _card_temporal_adept     ; 200a3d1
+  jmp near _card_urzas_incubator     ; 200a3d6
+  jmp near _card_an_zerrin_ruins     ; 200a3db
+  jmp near _card_anaba_ancestor     ; 200a3e0
+  jmp near _card_anaba_shaman     ; 200a3e5
+  jmp near _card_aysen_bureaucrats     ; 200a3ea
+  jmp near _card_aysen_crusader     ; 200a3ef
+  jmp near _card_black_carriage     ; 200a3f4
+  jmp near _card_broken_visage     ; 200a3f9
+  jmp near _card_chandler     ; 200a3fe
+  jmp near _card_clockwork_steed     ; 200a403
+  jmp near _card_clockwork_swarm     ; 200a408
+  jmp near _card_clockwork_beast     ; 200a40d
+  jmp near _card_dry_spell     ; 200a412
+  jmp near _card_eron_the_relentless     ; 200a417
+  jmp near _card_faerie_noble     ; 200a41c
+  jmp near _card_feast_of_the_unicorn     ; 200a421
+  jmp near _card_ferozs_ban     ; 200a426
+  jmp near _card_forget     ; 200a42b
+  jmp near _card_giant_oyster     ; 200a430
+  jmp near _card_hungry_mist     ; 200a435
+  jmp near _card_joven     ; 200a43a
+  jmp near _card_jovens_ferrets     ; 200a43f
+  jmp near _card_jovens_tools     ; 200a444
+  jmp near _card_koskun_falls     ; 200a449
+  jmp near _card_alibans_tower     ; 200a44e
+  jmp near _card_leeches     ; 200a453
+  jmp near _card_mystic_decree     ; 200a458
+  jmp near _card_reveka_wizard_savant     ; 200a45d
+  jmp near _card_roots     ; 200a462
+  jmp near _card_roterothopter     ; 200a467
+  jmp near _card_rysorian_badger     ; 200a46c
+  jmp near _card_serra_aviary     ; 200a471
+  jmp near _card_serra_paladin     ; 200a476
+  jmp near _card_petra_sphinx     ; 200a47b
+  jmp near _card_spectral_bears     ; 200a480
+  jmp near _card_trade_caravan     ; 200a485
+  jmp near _card_allosaurus_rider     ; 200a48a
+  jmp near _card_aurochs_herd     ; 200a48f
+  jmp near _card_balduvian_fallen     ; 200a494
+  jmp near _card_balduvian_rage     ; 200a499
+  jmp near _card_bull_aurochs     ; 200a49e
+  jmp near _card_cover_of_winter     ; 200a4a3
+  jmp near _card_deepfire_elemental     ; 200a4a8
+  jmp near _card_diamond_faerie     ; 200a4ad
+  jmp near _card_disciple_of_tevesh_szat     ; 200a4b2
+  jmp near _card_feast_of_flesh     ; 200a4b7
+  jmp near _card_frostweb_spider     ; 200a4bc
+  jmp near _card_frozen_solid     ; 200a4c1
+  jmp near _card_garzas_assassin     ; 200a4c6
+  jmp near _card_controvert     ; 200a4cb
+  jmp near _card_gelid_shackles     ; 200a4d0
+  jmp near _card_grim_harvest     ; 200a4d5
+  jmp near _card_gutless_ghoul     ; 200a4da
+  jmp near _card_heidar_rimewind_master     ; 200a4df
+  jmp near _card_icefall     ; 200a4e4
+  jmp near _card_jokulmorder     ; 200a4e9
+  jmp near _card_karplusan_minotaur     ; 200a4ee
+  jmp near _card_karplusan_wolverine     ; 200a4f3
+  jmp near _card_kjeldoran_war_cry     ; 200a4f8
+  jmp near _card_krovikan_rot     ; 200a4fd
+  jmp near _card_krovikan_whispers     ; 200a502
+  jmp near _card_magmatic_core     ; 200a507
+  jmp near _card_martyr_of_bones     ; 200a50c
+  jmp near _card_martyr_of_frost     ; 200a511
+  jmp near _card_martyr_of_spores     ; 200a516
+  jmp near _card_phyrexian_soulgorger     ; 200a51b
+  jmp near _card_rimebound_dead     ; 200a520
+  jmp near _card_rimefeather_owl     ; 200a525
+  jmp near _card_rimescale_dragon     ; 200a52a
+  jmp near _card_rimewind_taskmage     ; 200a52f
+  jmp near _card_shape_of_the_wiitigo     ; 200a534
+  jmp near _card_soul_spike     ; 200a539
+  jmp near _card_sound_the_call     ; 200a53e
+  jmp near _card_squall_drifter     ; 200a543
+  jmp near _card_suns_bounty     ; 200a548
+  jmp near _card_sunscour     ; 200a54d
+  jmp near _card_surging_aether     ; 200a552
+  jmp near _card_surging_dementia     ; 200a557
+  jmp near _card_surging_flame     ; 200a55c
+  jmp near _card_surging_might     ; 200a561
+  jmp near _card_surging_sentinels     ; 200a566
+  jmp near _card_thermopod     ; 200a56b
+  jmp near _card_thrummingstone     ; 200a570
+  jmp near _card_vanish_into_memory     ; 200a575
+  jmp near _card_void_maw     ; 200a57a
+  jmp near _card_wilderness_elemental     ; 200a57f
+  jmp near _card_woolly_razorback     ; 200a584
+  jmp near _card_renounce_the_guilds     ; 200a589
+  jmp near _card_maze_sentinel     ; 200a58e
+  jmp near _card_sunspire_gatekeeper     ; 200a593
+  jmp near _card_maze_glider     ; 200a598
+  jmp near _card_opal_lake_gatekeeper     ; 200a59d
+  jmp near _card_uncovered_clues     ; 200a5a2
+  jmp near _card_blood_scrivener     ; 200a5a7
+  jmp near _card_maze_abomination     ; 200a5ac
+  jmp near _card_ubal_sar_gatekeeper     ; 200a5b1
+  jmp near _card_maze_rusher     ; 200a5b6
+  jmp near _card_possibility_storm     ; 200a5bb
+  jmp near _card_smelt_ward_gatekeeper     ; 200a5c0
+  jmp near _card_maze_behemoth     ; 200a5c5
+  jmp near _card_renegade_krasis     ; 200a5ca
+  jmp near _card_surali_gatekeeper     ; 200a5cf
+  jmp near _card_advent_of_the_wurm     ; 200a5d4
+  jmp near _card_blood_baron_of_vizkopa     ; 200a5d9
+  jmp near _card_bred_for_the_hunt     ; 200a5de
+  jmp near _card_council_of_the_absolute     ; 200a5e3
+  jmp near _card_deadbridge_chant     ; 200a5e8
+  jmp near _card_deputy_of_acquittals     ; 200a5ed
+  jmp near _card_exava_rakdos_blood_witch     ; 200a5f2
+  jmp near _card_goblin_test_pilot     ; 200a5f7
+  jmp near _card_lavinia_of_the_tenth     ; 200a5fc
+  jmp near _card_legions_initiative     ; 200a601
+  jmp near _card_master_of_cruelties     ; 200a606
+  jmp near _card_melek_izzet_paragon     ; 200a60b
+  jmp near _card_mirko_vosk_mind_drinker     ; 200a610
+  jmp near _card_nivix_cyclops     ; 200a615
+  jmp near _card_notion_thief     ; 200a61a
+  jmp near _card_obzedats_aid     ; 200a61f
+  jmp near _card_progenitor_mimic     ; 200a624
+  jmp near _card_ral_zarek     ; 200a629
+  jmp near _card_render_silent     ; 200a62e
+  jmp near _card_rot_farm_skeleton     ; 200a633
+  jmp near _card_ruric_thar_the_unbowed     ; 200a638
+  jmp near _card_savageborn_hydra     ; 200a63d
+  jmp near _card_showstopper     ; 200a642
+  jmp near _card_sin_collector     ; 200a647
+  jmp near _card_sire_of_insanity     ; 200a64c
+  jmp near _card_tajic_blade_of_the_legion     ; 200a651
+  jmp near _card_teysa_envoy_of_ghosts     ; 200a656
+  jmp near _card_trostanis_summoner     ; 200a65b
+  jmp near _card_varolz_the_scar_striped     ; 200a660
+  jmp near _card_viashino_firstblade     ; 200a665
+  jmp near _card_voice_of_resurgence     ; 200a66a
+  jmp near _card_vorel_of_the_hull_clade     ; 200a66f
+  jmp near _card_warleaders_helix     ; 200a674
+  jmp near _card_warped_physique     ; 200a679
+  jmp near _card_reap_intellect     ; 200a67e
+  jmp near _card_alive_well     ; 200a683
+  jmp near _card_armed_dangerous     ; 200a688
+  jmp near _card_beck_call     ; 200a68d
+  jmp near _card_breaking_entering     ; 200a692
+  jmp near _card_catch_release     ; 200a697
+  jmp near _card_down_dirty     ; 200a69c
+  jmp near _card_far_away     ; 200a6a1
+  jmp near _card_flesh_blood     ; 200a6a6
+  jmp near _card_give_take     ; 200a6ab
+  jmp near _card_profit_loss     ; 200a6b0
+  jmp near _card_protect_serve     ; 200a6b5
+  jmp near _card_ready_willing     ; 200a6ba
+  jmp near _card_toil_trouble     ; 200a6bf
+  jmp near _card_turn_burn     ; 200a6c4
+  jmp near _card_wear_tear     ; 200a6c9
+  jmp near _card_azorius_cluestone     ; 200a6ce
+  jmp near _card_mazes_end     ; 200a6d3
+  jmp near _card_wake_the_reflections     ; 200a6d8
+  jmp near _card_hidden_strings     ; 200a6dd
+  jmp near _card_aetherling     ; 200a6e2
+  jmp near _card_crypt_incursion     ; 200a6e7
+  jmp near _card_pontiff_of_blight     ; 200a6ec
+  jmp near _card_pyrewild_shaman     ; 200a6f1
+  jmp near _card_skylasher     ; 200a6f6
+  jmp near _card_beetleform_mage     ; 200a6fb
+  jmp near _card_blast_of_genius     ; 200a700
+  jmp near _card_dragonshift     ; 200a705
+  jmp near _card_drown_in_filth     ; 200a70a
+  jmp near _card_emmara_tandris     ; 200a70f
+  jmp near _card_gaze_of_granite     ; 200a714
+  jmp near _card_gleam_of_battle     ; 200a719
+  jmp near _card_gruul_war_chant     ; 200a71e
+  jmp near _card_haunter_of_nightveil     ; 200a723
+  jmp near _card_jelenn_sphinx     ; 200a728
+  jmp near _card_korozda_gorgon     ; 200a72d
+  jmp near _card_pilfered_plans     ; 200a732
+  jmp near _card_species_gorger     ; 200a737
+  jmp near _card_tithe_drinker     ; 200a73c
+  jmp near _card_boros_mastiff     ; 200a741
+  jmp near _card_haazda_snare_squad     ; 200a746
+  jmp near _card_lyev_decree     ; 200a74b
+  jmp near _card_riot_control     ; 200a750
+  jmp near _card_mindstatic     ; 200a755
+  jmp near _card_crypt_rats     ; 200a75a
+  jmp near _card_runners_bane     ; 200a75f
+  jmp near _card_fatal_fumes     ; 200a764
+  jmp near _card_hired_torturer     ; 200a769
+  jmp near _card_sinister_possession     ; 200a76e
+  jmp near _card_awe_for_the_guilds     ; 200a773
+  jmp near _card_clear_a_path     ; 200a778
+  jmp near _card_punish_the_enemy     ; 200a77d
+  jmp near _card_astral_cornucopia     ; 200a782
+  jmp near _card_weapon_surge     ; 200a787
+  jmp near _card_rubblebelt_maaka     ; 200a78c
+  jmp near _card_kraul_warrior     ; 200a791
+  jmp near _card_mending_touch     ; 200a796
+  jmp near _card_mutants_prey     ; 200a79b
+  jmp near _card_phytoburst     ; 200a7a0
+  jmp near _card_thrashing_mossdog     ; 200a7a5
+  jmp near _card_blaze_commando     ; 200a7aa
+  jmp near _card_bronzebeak_moa     ; 200a7af
+  jmp near _card_carnage_gladiator     ; 200a7b4
+  jmp near _card_debt_to_the_deathless     ; 200a7b9
+  jmp near _card_krasis_incubation     ; 200a7be
+  jmp near _card_maw_of_obzedat     ; 200a7c3
+  jmp near _card_morgue_burst     ; 200a7c8
+  jmp near _card_scab_clan_giant     ; 200a7cd
+  jmp near _card_zhur_taa_druid     ; 200a7d2
+  jmp near _card_back_to_95     ; 200a7d7
+  jmp near _card_academy_at_tolaria_west     ; 200a7dc
+  jmp near _card_agyrem     ; 200a7e1
+  jmp near _card_bant     ; 200a7e6
+  jmp near _card_cliffside_market     ; 200a7eb
+  jmp near _card_eloren_wilds     ; 200a7f0
+  jmp near _card_feeding_grounds     ; 200a7f5
+  jmp near _card_fields_of_summer     ; 200a7fa
+  jmp near _card_goldmeadow2     ; 200a7ff
+  jmp near _card_grixis     ; 200a804
+  jmp near _card_immersturm     ; 200a809
+  jmp near _card_isle_of_vesuva     ; 200a80e
+  jmp near _card_izzet_steam_maze     ; 200a813
+  jmp near _card_krosa2     ; 200a818
+  jmp near _card_lethe_lake     ; 200a81d
+  jmp near _card_llanowar2     ; 200a822
+  jmp near _card_naar_isle     ; 200a827
+  jmp near _card_naya2     ; 200a82c
+  jmp near _card_panopticon     ; 200a831
+  jmp near _card_pools_of_becoming     ; 200a836
+  jmp near _card_ravens_run     ; 200a83b
+  jmp near _card_sanctum_of_serra     ; 200a840
+  jmp near _card_sea_of_sand     ; 200a845
+  jmp near _card_shiv2     ; 200a84a
+  jmp near _card_skybreen     ; 200a84f
+  jmp near _card_sokenzan     ; 200a854
+  jmp near _card_stronghold_furnace     ; 200a859
+  jmp near _card_tazeem     ; 200a85e
+  jmp near _card_the_aether_flues     ; 200a863
+  jmp near _card_the_eon_fog     ; 200a868
+  jmp near _card_the_fourth_sphere     ; 200a86d
+  jmp near _card_the_great_forest     ; 200a872
+  jmp near _card_the_hippodrome     ; 200a877
+  jmp near _card_the_maelstrom     ; 200a87c
+  jmp near _card_turri_island     ; 200a881
+  jmp near _card_undercity_reaches     ; 200a886
+  jmp near _card_velis_vel     ; 200a88b
+  jmp near _card_minamo2     ; 200a890
+  jmp near _card_otaria     ; 200a895
+  jmp near _card_ground_seal     ; 200a89a
+  jmp near _card_aretopolis     ; 200a89f
+  jmp near _card_bloodhill_bastion     ; 200a8a4
+  jmp near _card_edge_of_malacol     ; 200a8a9
+  jmp near _card_furnace_layer     ; 200a8ae
+  jmp near _card_gavony     ; 200a8b3
+  jmp near _card_grand_ossuary     ; 200a8b8
+  jmp near _card_grove_of_the_dreampods     ; 200a8bd
+  jmp near _card_hedron_fields_of_agadeem     ; 200a8c2
+  jmp near _card_jund2     ; 200a8c7
+  jmp near _card_kessig2     ; 200a8cc
+  jmp near _card_kharasha_foothills     ; 200a8d1
+  jmp near _card_kilnspire_district     ; 200a8d6
+  jmp near _card_lair_of_the_ashen_idol     ; 200a8db
+  jmp near _card_mount_keralia     ; 200a8e0
+  jmp near _card_nephalia2     ; 200a8e5
+  jmp near _card_norns_dominion     ; 200a8ea
+  jmp near _card_onakke_catacomb     ; 200a8ef
+  jmp near _card_orochi_colony     ; 200a8f4
+  jmp near _card_orzhova2     ; 200a8f9
+  jmp near _card_prahv     ; 200a8fe
+  jmp near _card_quicksilver_sea     ; 200a903
+  jmp near _card_selesnya_loft_gardens     ; 200a908
+  jmp near _card_stensia     ; 200a90d
+  jmp near _card_takenuma2     ; 200a912
+  jmp near _card_talon_gates     ; 200a917
+  jmp near _card_the_zephyr_maze     ; 200a91c
+  jmp near _card_truga_jungle     ; 200a921
+  jmp near _card_windriddle_palaces     ; 200a926
+  jmp near _card_drop_of_honey     ; 200a92b
+  jmp near _card_tranquillity     ; 200a930
+  jmp near _card_rubblebelt_raiders     ; 200a935
+  jmp near _card_simic_fluxmage     ; 200a93a
+  jmp near _card_bloodstone_cameo     ; 200a93f
+  jmp near _card_nantuko_shade     ; 200a944
+  jmp near _card_phantom_nomad     ; 200a949
+  jmp near _card_zuberi_golden_feather     ; 200a94e
+  jmp near _card_scion_of_vitu_ghazi     ; 200a953
+  jmp near _card_gleam_of_resistence     ; 200a958
+  jmp near _card_saltfield_recluse     ; 200a95d
+  jmp near _card_sandsower     ; 200a962
+  jmp near _card_stir_the_pride     ; 200a967
+  jmp near _card_erratic_mutation     ; 200a96c
+  jmp near _card_latchkey_faerie     ; 200a971
+  jmp near _card_petals_of_insight     ; 200a976
+  jmp near _card_take_possession     ; 200a97b
+  jmp near _card_vedalken_dismisser     ; 200a980
+  jmp near _card_absorb_vis     ; 200a985
+  jmp near _card_deepcavern_imp     ; 200a98a
+  jmp near _card_dreamspoil_witches     ; 200a98f
+  jmp near _card_thieving_sprites     ; 200a994
+  jmp near _card_warren_pilfeners     ; 200a999
+  jmp near _card_blind_spot_giant     ; 200a99e
+  jmp near _card_crush_underfoot     ; 200a9a3
+  jmp near _card_fiery_fall     ; 200a9a8
+  jmp near _card_hammerheim_deadeye     ; 200a9ad
+  jmp near _card_tar_pitcher     ; 200a9b2
+  jmp near _card_warspike_changeling     ; 200a9b7
+  jmp near _card_citanul_woodreaders     ; 200a9bc
+  jmp near _card_giant_dustwasp     ; 200a9c1
+  jmp near _card_nantuko_shaman     ; 200a9c6
+  jmp near _card_sylvan_bounty     ; 200a9cb
+  jmp near _card_walker_of_the_grove     ; 200a9d0
+  jmp near _card_duh     ; 200a9d5
+  jmp near _card_phyrexian_revoker     ; 200a9da
+  jmp near _card_desert2     ; 200a9df
+  jmp near _fetch_ability_tooltip_name     ; 200a9e4
+  jmp near _initialize_ability_tooltip_names     ; 200a9e9
+  jmp near _real_target_available     ; 200a9ee
+  jmp near _real_select_target     ; 200a9f3
+  jmp near _real_validate_target     ; 200a9f8
+  jmp near _is_displayed_as_attached@8     ; 200a9fd
+  jmp near _legacy_name     ; 200aa02
+  jmp near _check_timer_for_ai_speculation     ; 200aa07
+  jmp near _after_load_game     ; 200aa0c
+  jmp near _human_autotap_for_mana     ; 200aa11
+  jmp near _card_generic_animated_land     ; 200aa16
+  jmp near _card_plasm_capture     ; 200aa1b
+  jmp near _card_shambling_swarm     ; 200aa20
+  jmp near _card_hydroform     ; 200aa25
+  jmp near _card_jolrael_empress_of_beasts     ; 200aa2a
+  jmp near _card_life_death     ; 200aa2f
+  jmp near _card_living_plane     ; 200aa34
+  jmp near _card_natural_affinity     ; 200aa39
+  jmp near _card_natures_revolt     ; 200aa3e
+  jmp near _card_rude_awakening     ; 200aa43
+  jmp near _card_ajanis_chosen     ; 200aa48
+  jmp near _card_ayesha_tanaka     ; 200aa4d
+  jmp near _card_not_of_this_world     ; 200aa52
+  jmp near _card_teferis_response     ; 200aa57
+  jmp near _card_angelic_accord     ; 200aa5c
+  jmp near _card_banisher_priest     ; 200aa61
+  jmp near _card_bonescythe_sliver     ; 200aa66
+  jmp near _card_capashen_knight     ; 200aa6b
+  jmp near _card_celestial_flare     ; 200aa70
+  jmp near _card_dawnstrike_paladin     ; 200aa75
+  jmp near _card_devout_invocation     ; 200aa7a
+  jmp near _card_hive_stirrings     ; 200aa7f
+  jmp near _card_imposing_sovereign     ; 200aa84
+  jmp near _card_indestructibility     ; 200aa89
+  jmp near _card_master_of_diversion     ; 200aa8e
+  jmp near _card_path_of_bravery     ; 200aa93
+  jmp near _card_pay_no_heed     ; 200aa98
+  jmp near _card_sentinel_sliver     ; 200aa9d
+  jmp near _card_seraph_of_the_sword     ; 200aaa2
+  jmp near _card_soulmender     ; 200aaa7
+  jmp near _card_colossal_whale     ; 200aaac
+  jmp near _card_dismiss_into_dream     ; 200aab1
+  jmp near _card_domestication     ; 200aab6
+  jmp near _card_elite_arcanist     ; 200aabb
+  jmp near _card_galerider_sliver     ; 200aac0
+  jmp near _card_glimpse_the_future     ; 200aac5
+  jmp near _card_illusionary_armor     ; 200aaca
+  jmp near _card_jaces_mindseeker     ; 200aacf
+  jmp near _card_kobold_taskmaster     ; 200aad4
+  jmp near _card_assembly_worker     ; 200aad9
+  jmp near _card_tidebinder_mage     ; 200aade
+  jmp near _card_time_ebb     ; 200aae3
+  jmp near _card_trained_condor     ; 200aae8
+  jmp near _card_warden_of_evos_isle     ; 200aaed
+  jmp near _card_windreader_sphinx     ; 200aaf2
+  jmp near _card_zephyr_charge     ; 200aaf7
+  jmp near _card_arteficers_hex     ; 200aafc
+  jmp near _card_blightcaster     ; 200ab01
+  jmp near _card_blood_bairn     ; 200ab06
+  jmp near _card_bogbrew_witch     ; 200ab0b
+  jmp near _card_corpse_hauler     ; 200ab10
+  jmp near _card_dark_prophecy     ; 200ab15
+  jmp near _card_festering_newt     ; 200ab1a
+  jmp near _card_gnawing_zombie     ; 200ab1f
+  jmp near _card_grim_return     ; 200ab24
+  jmp near _card_lifebane_zombie     ; 200ab29
+  jmp near _card_lilianas_reaver     ; 200ab2e
+  jmp near _card_liturgy_of_blood     ; 200ab33
+  jmp near _card_nightmare2     ; 200ab38
+  jmp near _card_rise_of_the_dark_realms     ; 200ab3d
+  jmp near _card_shadowborn_apostle     ; 200ab42
+  jmp near _card_shadowborn_demon     ; 200ab47
+  jmp near _card_syphon_sliver     ; 200ab4c
+  jmp near _card_tenacious_dead     ; 200ab51
+  jmp near _card_vampire_warlord     ; 200ab56
+  jmp near _card_xathrid_necromancer     ; 200ab5b
+  jmp near _card_academy_rider     ; 200ab60
+  jmp near _card_awaken_the_ancient     ; 200ab65
+  jmp near _card_barrage_of_expendables     ; 200ab6a
+  jmp near _card_battle_sliver     ; 200ab6f
+  jmp near _card_blur_sliver     ; 200ab74
+  jmp near _card_burning_earth     ; 200ab79
+  jmp near _card_contamination     ; 200ab7e
+  jmp near _card_chandra_pyromaster     ; 200ab83
+  jmp near _card_cyclops_tyrant     ; 200ab88
+  jmp near _card_dragon_egg     ; 200ab8d
+  jmp near _card_fleshpulper_giant     ; 200ab92
+  jmp near _card_goblin_diplomats     ; 200ab97
+  jmp near _card_marauding_maulhorn     ; 200ab9c
+  jmp near _card_mindsparker     ; 200aba1
+  jmp near _card_molten_birth     ; 200aba6
+  jmp near _card_ogre_battledriver     ; 200abab
+  jmp near _card_scourge_of_valkas     ; 200abb0
+  jmp near _card_striking_sliver     ; 200abb5
+  jmp near _card_thorncaster_sliver     ; 200abba
+  jmp near _card_young_pyromancer     ; 200abbf
+  jmp near _card_advocate_of_the_beast     ; 200abc4
+  jmp near _card_elvish_mystic     ; 200abc9
+  jmp near _card_enlarge     ; 200abce
+  jmp near _card_garruk_caller_of_beasts     ; 200abd3
+  jmp near _card_groundshaker_sliver     ; 200abd8
+  jmp near _card_hunt_the_weak     ; 200abdd
+  jmp near _card_into_the_wilds     ; 200abe2
+  jmp near _card_kalonian_hydra     ; 200abe7
+  jmp near _card_manaweft_sliver     ; 200abec
+  jmp near _card_megantic_sliver     ; 200abf1
+  jmp near _card_oath_of_the_ancient_wood     ; 200abf6
+  jmp near _card_predatory_sliver     ; 200abfb
+  jmp near _card_primeval_bounty     ; 200ac00
+  jmp near _card_sporemound     ; 200ac05
+  jmp near _card_vastwood_hydra     ; 200ac0a
+  jmp near _card_voracious_wurm     ; 200ac0f
+  jmp near _card_witchstalker     ; 200ac14
+  jmp near _card_woodborn_behemoth     ; 200ac19
+  jmp near _card_guardian_of_the_ages     ; 200ac1e
+  jmp near _card_haunted_plate_mail     ; 200ac23
+  jmp near _card_pyromancers_gauntlet     ; 200ac28
+  jmp near _card_ring_of_three_wishes     ; 200ac2d
+  jmp near _card_staff_of_the_death_magus     ; 200ac32
+  jmp near _card_staff_of_the_flame_magus     ; 200ac37
+  jmp near _card_staff_of_the_mind_magus     ; 200ac3c
+  jmp near _card_staff_of_the_sun_magus     ; 200ac41
+  jmp near _card_vial_of_poison     ; 200ac46
+  jmp near _card_encroaching_wastes     ; 200ac4b
+  jmp near _card_dense_foliage     ; 200ac50
+  jmp near _card_fellwar_stone     ; 200ac55
+  jmp near _card_ivory_mask     ; 200ac5a
+  jmp near _card_true_believer     ; 200ac5f
+  jmp near _card_imperial_mask     ; 200ac64
+  jmp near _card_spirit_of_the_hearth     ; 200ac69
+  jmp near _card_spellbreaker_behemoth     ; 200ac6e
+  jmp near _card_finest_hour     ; 200ac73
+  jmp near _card_world_at_war     ; 200ac78
+  jmp near _card_waves_of_aggression     ; 200ac7d
+  jmp near _card_izzet_signet     ; 200ac82
+  jmp near _card_opalescence     ; 200ac87
+  jmp near _card_garruk_caller_emblem     ; 200ac8c
+  jmp near _card_bubbling_cauldron     ; 200ac91
+  jmp near _card_fiendslayer_paladin     ; 200ac96
+  jmp near _card_lightning_talons     ; 200ac9b
+  jmp near _card_steelform_sliver     ; 200aca0
+  jmp near _card_stonehorn_chanter     ; 200aca5
+  jmp near _card_staff_of_the_wild_magus     ; 200acaa
+  jmp near _card_divination     ; 200acaf
+  jmp near _card_heartstone     ; 200acb4
+  jmp near _card_suppression_field     ; 200acb9
+  jmp near _card_training_grounds     ; 200acbe
+  jmp near _card_power_artifact     ; 200acc3
+  jmp near _card_voltaic_key     ; 200acc8
+  jmp near _card_ihsans_shade     ; 200accd
+  jmp near _card_autumn_willow     ; 200acd2
+  jmp near _card_apprentice_wizard     ; 200acd7
+  jmp near _card_black_lotus     ; 200acdc
+  jmp near _card_gilded_lotus     ; 200ace1
+  jmp near _card_mana_flare     ; 200ace6
+  jmp near _card_mishras_workshop     ; 200aceb
+  jmp near _card_orzhov_basilica     ; 200acf0
+  jmp near _card_palladium_myr     ; 200acf5
+  jmp near _card_sol_ring     ; 200acfa
+  jmp near _card_urzas_mine_card_urzas_power_plant     ; 200acff
+  jmp near _card_urzas_tower     ; 200ad04
+  jmp near _card_adun_oakenshield     ; 200ad09
+  jmp near _card_arcades_sabboth     ; 200ad0e
+  jmp near _card_barktooth_warbeard     ; 200ad13
+  jmp near _card_bartel_runeaxe     ; 200ad18
+  jmp near _card_boris_devilboon     ; 200ad1d
+  jmp near _card_chromium     ; 200ad22
+  jmp near _card_dakkon_blackblade     ; 200ad27
+  jmp near _card_gwendlyn_di_corci     ; 200ad2c
+  jmp near _card_hammerheim     ; 200ad31
+  jmp near _card_hunding_gjornersen     ; 200ad36
+  jmp near _card_kei_takahashi     ; 200ad3b
+  jmp near _card_lady_caleria     ; 200ad40
+  jmp near _card_nicol_bolas2     ; 200ad45
+  jmp near _card_palladia_mors     ; 200ad4a
+  jmp near _card_pendelhaven     ; 200ad4f
+  jmp near _card_princess_lucrezia     ; 200ad54
+  jmp near _card_ragnar     ; 200ad59
+  jmp near _card_ramses_overdark     ; 200ad5e
+  jmp near _card_riven_turnbull     ; 200ad63
+  jmp near _card_rubinia_soulsinger     ; 200ad68
+  jmp near _card_sunastian_falconer     ; 200ad6d
+  jmp near _card_tetsuo_umezawa     ; 200ad72
+  jmp near _card_the_tabernacle_at_pendrell_vale     ; 200ad77
+  jmp near _card_tolaria     ; 200ad7c
+  jmp near _card_tor_wauki     ; 200ad81
+  jmp near _card_tuknir_deathlock     ; 200ad86
+  jmp near _card_urborg     ; 200ad8b
+  jmp near _card_vaevictis_asmadi     ; 200ad90
+  jmp near _card_xira_arien     ; 200ad95
+  jmp near _card_battlewise_valor     ; 200ad9a
+  jmp near _card_cavalry_pegasus     ; 200ad9f
+  jmp near _card_celestial_archon     ; 200ada4
+  jmp near _card_chained_to_the_rocks     ; 200ada9
+  jmp near _card_chosen_by_heliod     ; 200adae
+  jmp near _card_dauntless_onslaught     ; 200adb3
+  jmp near _card_decorated_griffin     ; 200adb8
+  jmp near _card_elspeth_suns_champion     ; 200adbd
+  jmp near _card_evangel_of_heliod     ; 200adc2
+  jmp near _card_fabled_hero     ; 200adc7
+  jmp near _card_gift_of_immortality     ; 200adcc
+  jmp near _card_glare_of_heresy     ; 200add1
+  jmp near _card_gods_willing     ; 200add6
+  jmp near _card_heliod_god_of_the_sun     ; 200addb
+  jmp near _card_heliods_emissary     ; 200ade0
+  jmp near _card_hopeful_eidolon     ; 200ade5
+  jmp near _card_hundred_handed_one     ; 200adea
+  jmp near _card_lagonna_band_elder     ; 200adef
+  jmp near _card_last_breath     ; 200adf4
+  jmp near _card_leonin_snarecaster     ; 200adf9
+  jmp near _card_observant_alseid     ; 200adfe
+  jmp near _card_ordeal_of_heliod     ; 200ae03
+  jmp near _card_phalanx_leader     ; 200ae08
+  jmp near _card_ray_of_dissolution     ; 200ae0d
+  jmp near _card_scholar_of_athreos     ; 200ae12
+  jmp near _card_setessan_battle_priest     ; 200ae17
+  jmp near _card_setessan_griffin     ; 200ae1c
+  jmp near _card_spear_of_heliod     ; 200ae21
+  jmp near _card_vanquish_the_foul     ; 200ae26
+  jmp near _card_aqueous_form     ; 200ae2b
+  jmp near _card_artisan_of_forms     ; 200ae30
+  jmp near _card_bident_of_thassa     ; 200ae35
+  jmp near _card_breaching_hippocamp     ; 200ae3a
+  jmp near _card_crackling_triton     ; 200ae3f
+  jmp near _card_curse_of_the_swine     ; 200ae44
+  jmp near _card_dissolve     ; 200ae49
+  jmp near _card_fate_foretold     ; 200ae4e
+  jmp near _card_gainsay     ; 200ae53
+  jmp near _card_horizon_scholar     ; 200ae58
+  jmp near _card_lost_in_a_labyrinth     ; 200ae5d
+  jmp near _card_master_of_waves     ; 200ae62
+  jmp near _card_meletis_charlatan     ; 200ae67
+  jmp near _card_nimbus_naiad     ; 200ae6c
+  jmp near _card_ordeal_of_thassa     ; 200ae71
+  jmp near _card_prescient_chimera     ; 200ae76
+  jmp near _card_prognostic_sphinx     ; 200ae7b
+  jmp near _card_sealock_monster     ; 200ae80
+  jmp near _card_sea_gods_revenge     ; 200ae85
+  jmp near _card_shipbreaker_kraken     ; 200ae8a
+  jmp near _card_stymied_hopes     ; 200ae8f
+  jmp near _card_swan_song     ; 200ae94
+  jmp near _card_thassa_god_of_the_sea     ; 200ae99
+  jmp near _card_thassas_bounty     ; 200ae9e
+  jmp near _card_thassas_emissary     ; 200aea3
+  jmp near _card_triton_fortune_hunter     ; 200aea8
+  jmp near _card_triton_tactics     ; 200aead
+  jmp near _card_voyages_end     ; 200aeb2
+  jmp near _card_wavecrash_triton     ; 200aeb7
+  jmp near _card_abhorrent_overlord     ; 200aebc
+  jmp near _card_agent_of_the_fates     ; 200aec1
+  jmp near _card_asphodel_wanderer     ; 200aec6
+  jmp near _card_baleful_eidolon     ; 200aecb
+  jmp near _card_blood_toll_harpy     ; 200aed0
+  jmp near _card_boon_of_erebos     ; 200aed5
+  jmp near _card_cavern_lampad     ; 200aeda
+  jmp near _card_cutthroat_maneuver     ; 200aedf
+  jmp near _card_dark_betrayal     ; 200aee4
+  jmp near _card_disciple_of_phenax     ; 200aee9
+  jmp near _card_erebos_god_of_the_dead     ; 200aeee
+  jmp near _card_ereboss_emissary     ; 200aef3
+  jmp near _card_fleshmad_steed     ; 200aef8
+  jmp near _card_gray_merchant_of_asphodel     ; 200aefd
+  jmp near _card_hythonia_the_cruel     ; 200af02
+  jmp near _card_keepsake_gorgon     ; 200af07
+  jmp near _card_lash_of_the_whip     ; 200af0c
+  jmp near _card_loathsome_catoblepas     ; 200af11
+  jmp near _card_mogiss_marauder     ; 200af16
+  jmp near _card_nighthowler     ; 200af1b
+  jmp near _card_ordeal_of_erebos     ; 200af20
+  jmp near _card_read_the_bones     ; 200af25
+  jmp near _card_rescue_from_the_underworld     ; 200af2a
+  jmp near _card_returned_centaur     ; 200af2f
+  jmp near _card_returned_phalanx     ; 200af34
+  jmp near _card_scourgemark     ; 200af39
+  jmp near _card_sip_of_hemlock     ; 200af3e
+  jmp near _card_tormented_hero     ; 200af43
+  jmp near _card_vipers_kiss     ; 200af48
+  jmp near _card_whip_of_erebos     ; 200af4d
+  jmp near _card_akroan_crusader     ; 200af52
+  jmp near _card_anger_of_the_gods     ; 200af57
+  jmp near _card_arena_athlete     ; 200af5c
+  jmp near _card_boulderfall     ; 200af61
+  jmp near _card_coordinated_assault     ; 200af66
+  jmp near _card_deathbellow_raider     ; 200af6b
+  jmp near _card_dragon_mantle     ; 200af70
+  jmp near _card_ember_swallower     ; 200af75
+  jmp near _card_fanatic_of_mogis     ; 200af7a
+  jmp near _card_firedrinker_satyr     ; 200af7f
+  jmp near _card_flamespeaker_adept     ; 200af84
+  jmp near _card_hammer_of_purphoros     ; 200af89
+  jmp near _card_ill_tempered_cyclops     ; 200af8e
+  jmp near _card_labyrinth_champion     ; 200af93
+  jmp near _card_messengers_speed     ; 200af98
+  jmp near _card_minotaur_skullcleaver     ; 200af9d
+  jmp near _card_peak_eruption     ; 200afa2
+  jmp near _card_portent_of_betrayal     ; 200afa7
+  jmp near _card_priest_of_iroas     ; 200afac
+  jmp near _card_purphoros_god_of_the_forge     ; 200afb1
+  jmp near _card_purphoross_emissary     ; 200afb6
+  jmp near _card_rage_of_purphoros     ; 200afbb
+  jmp near _card_rageblood_shaman     ; 200afc0
+  jmp near _card_spearpoint_oread     ; 200afc5
+  jmp near _card_spark_jolt     ; 200afca
+  jmp near _card_stoneshock_giant     ; 200afcf
+  jmp near _card_stormbreath_dragon     ; 200afd4
+  jmp near _card_titan_of_eternal_fire     ; 200afd9
+  jmp near _card_titans_strength     ; 200afde
+  jmp near _card_agent_of_horizons     ; 200afe3
+  jmp near _card_anthousa_setessan_hero     ; 200afe8
+  jmp near _card_arbor_colossus     ; 200afed
+  jmp near _card_artisans_sorrow     ; 200aff2
+  jmp near _card_boon_satyr     ; 200aff7
+  jmp near _card_centaur_battlemaster     ; 200affc
+  jmp near _card_commune_with_the_gods     ; 200b001
+  jmp near _card_defend_the_hearth     ; 200b006
+  jmp near _card_fade_into_antiquity     ; 200b00b
+  jmp near _card_feral_invocation     ; 200b010
+  jmp near _card_hunt_the_hunter     ; 200b015
+  jmp near _card_karametras_acolyte     ; 200b01a
+  jmp near _card_leafcrown_dryad     ; 200b01f
+  jmp near _card_mistcutter_hydra     ; 200b024
+  jmp near _card_nemesis_of_mortals     ; 200b029
+  jmp near _card_nylea_god_of_the_hunt     ; 200b02e
+  jmp near _card_nyleas_disciple     ; 200b033
+  jmp near _card_nyleas_emissary     ; 200b038
+  jmp near _card_nyleas_presence     ; 200b03d
+  jmp near _card_ordeal_of_nylea     ; 200b042
+  jmp near _card_nessian_asp     ; 200b047
+  jmp near _card_polukranos_world_eater     ; 200b04c
+  jmp near _card_reverent_hunter     ; 200b051
+  jmp near _card_satyr_hedonist     ; 200b056
+  jmp near _card_satyr_piper     ; 200b05b
+  jmp near _card_shredding_winds     ; 200b060
+  jmp near _card_staunch_hearted_warrior     ; 200b065
+  jmp near _card_sylvan_caryatid     ; 200b06a
+  jmp near _card_time_to_feed     ; 200b06f
+  jmp near _card_warriors_lesson     ; 200b074
+  jmp near _card_akroan_hoplite     ; 200b079
+  jmp near _card_anax_and_cymede     ; 200b07e
+  jmp near _card_ashen_rider     ; 200b083
+  jmp near _card_ashiok_nightmare_weaver     ; 200b088
+  jmp near _card_battlewise_hoplite     ; 200b08d
+  jmp near _card_chronicler_of_heroes     ; 200b092
+  jmp near _card_electrolyze     ; 200b097
+  jmp near _card_daxos_of_meletis     ; 200b09c
+  jmp near _card_destructive_revelry     ; 200b0a1
+  jmp near _card_fleecemane_lion     ; 200b0a6
+  jmp near _card_horizon_chimera     ; 200b0ab
+  jmp near _card_kragma_warcaller     ; 200b0b0
+  jmp near _card_medomai_the_ageless     ; 200b0b5
+  jmp near _card_pharikas_mender     ; 200b0ba
+  jmp near _card_polis_crusher     ; 200b0bf
+  jmp near _card_prophet_of_kruphix     ; 200b0c4
+  jmp near _card_psychic_intrusion     ; 200b0c9
+  jmp near _card_reaper_of_the_wilds     ; 200b0ce
+  jmp near _card_sentry_of_the_underworld     ; 200b0d3
+  jmp near _card_shipwreck_singer     ; 200b0d8
+  jmp near _card_spellheart_chimera     ; 200b0dd
+  jmp near _card_triad_of_fates     ; 200b0e2
+  jmp near _card_tymaret_the_murder_king     ; 200b0e7
+  jmp near _card_underworld_cerberus     ; 200b0ec
+  jmp near _card_xenagos_the_reveler     ; 200b0f1
+  jmp near _card_akroan_horse     ; 200b0f6
+  jmp near _card_burnished_hart     ; 200b0fb
+  jmp near _card_colossus_of_akros     ; 200b100
+  jmp near _card_flamecast_wheel     ; 200b105
+  jmp near _card_thrashing_wumpus     ; 200b10a
+  jmp near _card_prowlers_helm     ; 200b10f
+  jmp near _card_pyxis_of_pandemonium     ; 200b114
+  jmp near _card_witches_eye     ; 200b119
+  jmp near _card_nykthos_shrine_to_nix     ; 200b11e
+  jmp near _card_order_of_the_ebon_hand     ; 200b123
+  jmp near _card_order_of_leitbur     ; 200b128
+  jmp near _card_steam_augury     ; 200b12d
+  jmp near _card_elspeth_suns_champion_emblem     ; 200b132
+  jmp near _card_font_of_mythos     ; 200b137
+  jmp near _card_dragon_engine     ; 200b13c
+  jmp near _card_hydra_head     ; 200b141
+  jmp near _card_ravenous_brute_head     ; 200b146
+  jmp near _card_snapping_fang_head     ; 200b14b
+  jmp near _card_shrieking_titan_head     ; 200b150
+  jmp near _card_savage_vigor_head     ; 200b155
+  jmp near _card_strike_the_weak_spot     ; 200b15a
+  jmp near _card_city_of_brass     ; 200b15f
+  jmp near _card_generic_noncombat_1_mana_producing_creature     ; 200b164
+  jmp near _card_spirit_shackle     ; 200b169
+  jmp near _card_bazaar_of_baghdad     ; 200b16e
+  jmp near _card_elephant_graveyard     ; 200b173
+  jmp near _card_island_of_wak_wak     ; 200b178
+  jmp near _card_oasis     ; 200b17d
+  jmp near _card_arena     ; 200b182
+  jmp near _card_disorienting_glower     ; 200b187
+  jmp near _card_distract_the_hydra     ; 200b18c
+  jmp near _card_grown_from_the_stump     ; 200b191
+  jmp near _card_hydra_impenetrable_hide     ; 200b196
+  jmp near _card_neck_tangle     ; 200b19b
+  jmp near _card_noxious_hydra_breath     ; 200b1a0
+  jmp near _card_swallow_the_hero_whole     ; 200b1a5
+  jmp near _card_torn_between_the_heads     ; 200b1aa
+  jmp near _card_unified_lunge     ; 200b1af
+  jmp near _card_the_philosopher     ; 200b1b4
+  jmp near _card_the_avenger     ; 200b1b9
+  jmp near _card_the_warrior     ; 200b1be
+  jmp near _card_the_hunter     ; 200b1c3
+  jmp near _card_the_slayer     ; 200b1c8
+  jmp near _dispatch_trigger     ; 200b1cd
+  jmp near _card_kitsune_mystic     ; 200b1d2
+  jmp near _card_autumn_tail_kitsune_sage     ; 200b1d7
+  jmp near _card_enraging_licid     ; 200b1dc
+  jmp near _card_leeching_licid     ; 200b1e1
+  jmp near _card_nurturing_licid     ; 200b1e6
+  jmp near _card_quickening_licid     ; 200b1eb
+  jmp near _card_stinging_licid     ; 200b1f0
+  jmp near _card_calming_licid     ; 200b1f5
+  jmp near _card_convulsing_licid     ; 200b1fa
+  jmp near _card_corrupting_licid     ; 200b1ff
+  jmp near _card_gliding_licid     ; 200b204
+  jmp near _card_tempting_licid     ; 200b209
+  jmp near _card_dominating_licid     ; 200b20e
+  jmp near _card_trasmogrifying_licid     ; 200b213
+  jmp near _card_unflinching_courage     ; 200b218
+  jmp near _card_el_hajjaj     ; 200b21d
+  jmp near _destroy_attached_auras_and_obliterate_card     ; 200b222
+  jmp near _card_bow_of_nylea     ; 200b227
+  jmp near _card_epharas_warden     ; 200b22c
+  jmp near _card_favored_hoplite     ; 200b231
+  jmp near _card_fleetfeather_sandals     ; 200b236
+  jmp near _card_soldier_of_the_pantheon     ; 200b23b
+  jmp near _untap_phase     ; 200b240
+  jmp near _process_multiblock     ; 200b245
+  jmp near _card_multiblocker_hook     ; 200b24a
+  jmp near _recalculate_all_cards_in_play     ; 200b24f
+  jmp near _card_sylvan_yeti     ; 200b254
+  jmp near _card_avatar_of_hope     ; 200b259
+  jmp near _card_palace_guard     ; 200b25e
+  jmp near _card_two_headed_giant_of_foriys     ; 200b263
+  jmp near _card_imperial_edict     ; 200b268
+  jmp near _card_meng_huo_barbarian_king     ; 200b26d
+  jmp near _create_card_instance     ; 200b272
+  jmp near _legacy_effect_activated     ; 200b277
+  jmp near _card_mystic_penitent     ; 200b27c
+  jmp near _get_protections_from     ; 200b281
+  jmp near _resolve_trigger     ; 200b286
+  jmp near _card_force_spike     ; 200b28b
+  jmp near _card_amulet_of_vigor     ; 200b290
+  jmp near _card_spiketail_hatchling     ; 200b295
+  jmp near _card_ivy_elemental     ; 200b29a
+  jmp near _card_hypnotic_specter     ; 200b29f
+  jmp near _card_abyssal_specter     ; 200b2a4
+  jmp near _card_library_of_leng     ; 200b2a9
+  jmp near _card_tempt_with_immortality     ; 200b2ae
+  jmp near _card_price_of_knowledge     ; 200b2b3
+  jmp near _card_fell_shepherd     ; 200b2b8
+  jmp near _card_hooded_horror     ; 200b2bd
+  jmp near _card_ophiomancer     ; 200b2c2
+  jmp near _card_toxic_deluge     ; 200b2c7
+  jmp near _card_curse_of_inertia     ; 200b2cc
+  jmp near _card_diviner_spirit     ; 200b2d1
+  jmp near _card_djinn_of_infinite_deceits     ; 200b2d6
+  jmp near _card_order_of_succession     ; 200b2db
+  jmp near _card_true_name_nemesis     ; 200b2e0
+  jmp near _card_tempt_with_reflections     ; 200b2e5
+  jmp near _card_tidal_force     ; 200b2ea
+  jmp near _card_bane_of_progress     ; 200b2ef
+  jmp near _card_curse_of_predation     ; 200b2f4
+  jmp near _card_naya_soulbeast     ; 200b2f9
+  jmp near _card_restore2     ; 200b2fe
+  jmp near _card_spawning_grounds     ; 200b303
+  jmp near _card_tempt_with_discovery     ; 200b308
+  jmp near _card_curse_of_chaos     ; 200b30d
+  jmp near _card_from_the_ashes     ; 200b312
+  jmp near _card_sudden_demise     ; 200b317
+  jmp near _card_tempt_with_vengeance     ; 200b31c
+  jmp near _card_terra_ravager     ; 200b321
+  jmp near _card_witch_hunt     ; 200b326
+  jmp near _card_act_of_authority     ; 200b32b
+  jmp near _card_angel_of_finality     ; 200b330
+  jmp near _card_curse_of_the_forsaken     ; 200b335
+  jmp near _card_darksteel_mutation_insect     ; 200b33a
+  jmp near _card_darksteel_mutation     ; 200b33f
+  jmp near _card_serene_master     ; 200b344
+  jmp near _card_tempt_with_glory     ; 200b349
+  jmp near _card_unexpectedly_absent     ; 200b34e
+  jmp near _card_derevi_empyrial_tactician     ; 200b353
+  jmp near _card_gahiji_honored_one     ; 200b358
+  jmp near _card_jeleva_nephalias_scourge     ; 200b35d
+  jmp near _card_marath_will_of_the_wild     ; 200b362
+  jmp near _card_nekusar_the_mindrazer     ; 200b367
+  jmp near _card_oloro_ageless_ascetic     ; 200b36c
+  jmp near _card_prossh_skyraider_of_kher     ; 200b371
+  jmp near _card_roon_of_the_hidden_realm     ; 200b376
+  jmp near _card_sydri_galvanic_genius     ; 200b37b
+  jmp near _card_shattergang_brothers     ; 200b380
+  jmp near _card_eye_of_doom     ; 200b385
+  jmp near _card_surveyors_scope     ; 200b38a
+  jmp near _card_opal_palace     ; 200b38f
+  jmp near _is_legal_block     ; 200b394
+  jmp near _is_legal_block_impl     ; 200b399
+  jmp near _count_colors_of_lands_in_play     ; 200b39e
+  jmp near _card_mox_emerald     ; 200b3a3
+  jmp near _card_lotus_petal     ; 200b3a8
+  jmp near _card_darksteel_ingot     ; 200b3ad
+  jmp near _card_bogardan_hellkite     ; 200b3b2
+  jmp near _card_bruna_light_of_alabaster     ; 200b3b7
+  jmp near _card_auratouched_mage     ; 200b3bc
+  jmp near _card_blazing_specter     ; 200b3c1
+  jmp near _card_fear     ; 200b3c6
+  jmp near _card_barls_cage     ; 200b3cb
+  jmp near _card_goblin_rock_sled     ; 200b3d0
+  jmp near _card_goblin_polka_band     ; 200b3d5
+  jmp near _backup_data_for_ai     ; 200b3da
+  jmp near _restore_data_for_ai     ; 200b3df
+  jmp near _backup_data_for_ai_0     ; 200b3e4
+  jmp near _restore_data_for_ai_0     ; 200b3e9
+  jmp near _copy_to_display_supplement     ; 200b3ee
+  jmp near _card_rolling_stones     ; 200b3f3
+  jmp near _card_dehydration     ; 200b3f8
+  jmp near _card_tangle_kelp     ; 200b3fd
+  jmp near _card_animate_wall     ; 200b402
+  jmp near _card_bog_rats     ; 200b407
+  jmp near _card_invisibility     ; 200b40c
+  jmp near _card_fortified_area     ; 200b411
+  jmp near _card_paralyze     ; 200b416
+  jmp near _card_elven_riders     ; 200b41b
+  jmp near _card_island_sanctuary     ; 200b420
+  jmp near _card_sirens_call     ; 200b425
+  jmp near _card_primal_clay     ; 200b42a
+  jmp near _can_attack     ; 200b42f
+  jmp near _card_erhnam_djinn     ; 200b434
+  jmp near _card_thicket_basilisk     ; 200b439
+  jmp near _card_infernal_medusa     ; 200b43e
+  jmp near _card_venom     ; 200b443
+  jmp near _card_nettling_imp     ; 200b448
+  jmp near _effect_asterisk     ; 200b44d
+  jmp near _phase_changed     ; 200b452
+  jmp near _card_time_elemental     ; 200b457
+  jmp near _card_moat     ; 200b45c
+  jmp near _card_land_tax     ; 200b461
+  jmp near _card_scion_of_the_wild     ; 200b466
+  jmp near _card_instill_energy     ; 200b46b
+  jmp near _check_destroys_if_blocked     ; 200b470
+  jmp near _card_deathgazer     ; 200b475
+  jmp near _card_abu_jafar     ; 200b47a
+  jmp near _card_abomination     ; 200b47f
+  jmp near _ante_top_card_of_library     ; 200b484
+  jmp near _dlgproc_do_dialog_hook@16     ; 200b489
+  jmp near _card_forgestoker_dragon     ; 200b48e
+  jmp near _card_pharagax_giant     ; 200b493
+  jmp near _card_insist     ; 200b498
+  jmp near _card_overmaster     ; 200b49d
+  jmp near _card_leyline_of_lifeforce     ; 200b4a2
+  jmp near _card_root_sliver     ; 200b4a7
+  jmp near _card_savage_summoning     ; 200b4ac
+  jmp near _card_vexing_shusher     ; 200b4b1
+  jmp near _card_banefire     ; 200b4b6
+  jmp near _card_excruciator     ; 200b4bb
+  jmp near _card_flaring_pain     ; 200b4c0
+  jmp near _card_lava_burst     ; 200b4c5
+  jmp near _card_death_ward     ; 200b4ca
+  jmp near _card_jade_statue     ; 200b4cf
+  jmp near _card_serpent_generator     ; 200b4d4
+  jmp near _card_the_hive     ; 200b4d9
+  jmp near _card_mycosynth_lattice     ; 200b4de
+  jmp near _card_phantasmal_fiend     ; 200b4e3
+  jmp near _card_mannichi_the_fevered_dream     ; 200b4e8
+  jmp near _card_kiora_the_crashing_wave     ; 200b4ed
+  jmp near _card_kioras_emblem     ; 200b4f2
+  jmp near _card_strange_inversion     ; 200b4f7
+  jmp near _card_valor_made_real     ; 200b4fc
+  jmp near _card_fluxcharger     ; 200b501
+  jmp near _card_crag_puca     ; 200b506
+  jmp near _card_inside_out     ; 200b50b
+  jmp near _card_high_ground     ; 200b510
+  jmp near _card_myr_quadropod     ; 200b515
+  jmp near _card_guardian_of_the_gateless     ; 200b51a
+  jmp near _card_dwarven_pony     ; 200b51f
+  jmp near _card_heart_wolf     ; 200b524
+  jmp near _card_reef_pirates     ; 200b529
+  jmp near _card_torture     ; 200b52e
+  jmp near _card_adarkar_sentinel     ; 200b533
+  jmp near _card_aggression     ; 200b538
+  jmp near _card_amulet_of_quoz     ; 200b53d
+  jmp near _card_anarchy     ; 200b542
+  jmp near _card_arctic_foxes     ; 200b547
+  jmp near _card_arcums_whistle     ; 200b54c
+  jmp near _card_armor_of_faith     ; 200b551
+  jmp near _card_arnjlots_ascent     ; 200b556
+  jmp near _card_thassas_rebuff     ; 200b55b
+  jmp near _card_avalanche     ; 200b560
+  jmp near _card_balduvian_conjurer     ; 200b565
+  jmp near _card_balduvian_hydra     ; 200b56a
+  jmp near _card_barbarian_guides     ; 200b56f
+  jmp near _card_barbed_sextant     ; 200b574
+  jmp near _card_battle_cry     ; 200b579
+  jmp near _card_black_scarab     ; 200b57e
+  jmp near _card_blessed_wine     ; 200b583
+  jmp near _card_blizzard     ; 200b588
+  jmp near _card_blue_scarab     ; 200b58d
+  jmp near _card_bone_shaman     ; 200b592
+  jmp near _card_brand_of_ill_omen     ; 200b597
+  jmp near _card_brown_ouphe     ; 200b59c
+  jmp near _card_burnt_offering     ; 200b5a1
+  jmp near _card_chub_toad     ; 200b5a6
+  jmp near _card_clairvoyance     ; 200b5ab
+  jmp near _card_cold_snap     ; 200b5b0
+  jmp near _card_cooperation     ; 200b5b5
+  jmp near _card_curse_of_marit_lage     ; 200b5ba
+  jmp near _card_dire_wolves     ; 200b5bf
+  jmp near _card_forgotten_lore     ; 200b5c4
+  jmp near _card_green_scarab     ; 200b5c9
+  jmp near _card_red_scarab     ; 200b5ce
+  jmp near _card_white_scarab     ; 200b5d3
+  jmp near _card_anurid_swarmsnapper     ; 200b5d8
+  jmp near _card_transmutation     ; 200b5dd
+  jmp near _card_cenns_tactician     ; 200b5e2
+  jmp near _card_lairwatch_giant     ; 200b5e7
+  jmp near _card_turtleshell_changeling     ; 200b5ec
+  jmp near _card_divine_verdict     ; 200b5f1
+  jmp near _card_thirst     ; 200b5f6
+  jmp near _card_yare     ; 200b5fb
+  jmp near _card_kembas_legion     ; 200b600
+  jmp near _card_cephalid_coliseum     ; 200b605
+  jmp near _card_luminous_guardian     ; 200b60a
+  jmp near _card_headhunter     ; 200b60f
+  jmp near _card_ironfist_crusher     ; 200b614
+  jmp near _card_bog_serpent     ; 200b619
+  jmp near _card_melancholy     ; 200b61e
+  jmp near _card_molten_firebird     ; 200b623
+  jmp near _card_piracy_charm     ; 200b628
+  jmp near _card_pyrohemia     ; 200b62d
+  jmp near _card_reality_acid     ; 200b632
+  jmp near _card_reckless_wurm     ; 200b637
+  jmp near _card_revered_dead     ; 200b63c
+  jmp near _card_riptide_pilferer     ; 200b641
+  jmp near _card_strafe     ; 200b646
+  jmp near _card_entangler     ; 200b64b
+  jmp near _card_valakut_fireboar     ; 200b650
+  jmp near _card_twisted_image     ; 200b655
+  jmp near _card_mounted_archers     ; 200b65a
+  jmp near _card_coastline_chimera     ; 200b65f
+  jmp near _card_crookclaw_transmuter     ; 200b664
+  jmp near _card_foriysian_interceptor     ; 200b669
+  jmp near _card_dwarven_thaumaturgist     ; 200b66e
+  jmp near _card_calcite_snapper     ; 200b673
+  jmp near _card_fated_retribution     ; 200b678
+  jmp near _card_hero_of_iroas     ; 200b67d
+  jmp near _card_nyxborn_shieldmate     ; 200b682
+  jmp near _card_oreskos_sun_guide     ; 200b687
+  jmp near _card_silent_sentinel     ; 200b68c
+  jmp near _card_arbiter_of_the_ideal     ; 200b691
+  jmp near _card_ashioks_adept     ; 200b696
+  jmp near _card_eater_of_hope     ; 200b69b
+  jmp near _card_pain_seer     ; 200b6a0
+  jmp near _card_god_favored_general     ; 200b6a5
+  jmp near _card_aerie_worshippers     ; 200b6aa
+  jmp near _card_forlorn_pseudamma     ; 200b6af
+  jmp near _card_satyr_nyx_smith     ; 200b6b4
+  jmp near _card_pheres_band_raiders     ; 200b6b9
+  jmp near _card_champion_of_stray_souls     ; 200b6be
+  jmp near _card_drown_in_sorrow     ; 200b6c3
+  jmp near _card_epiphany_storm     ; 200b6c8
+  jmp near _card_everflame_eidolon     ; 200b6cd
+  jmp near _card_fated_conflagration     ; 200b6d2
+  jmp near _card_akromas_memorial     ; 200b6d7
+  jmp near _card_skyreaping     ; 200b6dc
+  jmp near _card_searing_blood     ; 200b6e1
+  jmp near _card_ephara_god_of_the_polis     ; 200b6e6
+  jmp near _card_fated_infatuation     ; 200b6eb
+  jmp near _card_bile_blight     ; 200b6f0
+  jmp near _card_fate_unraveler     ; 200b6f5
+  jmp near _card_herald_of_torment     ; 200b6fa
+  jmp near _card_raised_by_wolves     ; 200b6ff
+  jmp near _card_worship     ; 200b704
+  jmp near _card_epharas_enlightenment     ; 200b709
+  jmp near _card_fanatic_of_xenagos     ; 200b70e
+  jmp near _card_karametra_god_of_harvests     ; 200b713
+  jmp near _card_kioras_follower     ; 200b718
+  jmp near _card_mogis_god_of_slaughter     ; 200b71d
+  jmp near _card_reap_what_is_sown     ; 200b722
+  jmp near _card_xenagos_god_of_revels     ; 200b727
+  jmp near _card_felhide_spiritbinder     ; 200b72c
+  jmp near _card_ragemonger     ; 200b731
+  jmp near _card_chromanticore     ; 200b736
+  jmp near _card_glimpse_the_sun_god     ; 200b73b
+  jmp near _card_spirit_of_the_labyrinth     ; 200b740
+  jmp near _card_heroes_podium     ; 200b745
+  jmp near _card_candelabra_of_tawnos     ; 200b74a
+  jmp near _card_magus_of_the_candelabra     ; 200b74f
+  jmp near _card_jandors_saddlebags     ; 200b754
+  jmp near _card_whelming_wave     ; 200b759
+  jmp near _card_hero_of_leina_tower     ; 200b75e
+  jmp near _card_vanguard_of_brimaz     ; 200b763
+  jmp near _card_phenax_god_of_deception     ; 200b768
+  jmp near _untap_card     ; 200b76d
+  jmp near _card_ebony_horse     ; 200b772
+  jmp near _card_spiteful_returned     ; 200b777
+  jmp near _get_internal_card_id_from_csv_id     ; 200b77c
+  jmp near _card_ifh_biff_efreet     ; 200b781
+  jmp near _card_lands_edge     ; 200b786
+  jmp near _card_mana_vault     ; 200b78b
+  jmp near _card_hyperion_blacksmith     ; 200b790
+  jmp near _card_puppeteer     ; 200b795
+  jmp near _card_nyxborn_triton     ; 200b79a
+  jmp near _card_nyxborn_eidolon     ; 200b79f
+  jmp near _card_nyxborn_rollicker     ; 200b7a4
+  jmp near _card_nyxborn_wolf     ; 200b7a9
+  jmp near _card_hunters_prowess     ; 200b7ae
+  jmp near _card_oracle_of_bones     ; 200b7b3
+  jmp near _card_eidolon_of_countless_battles     ; 200b7b8
+  jmp near _card_plea_for_guidance     ; 200b7bd
+  jmp near _card_sunbond     ; 200b7c2
+  jmp near _card_kraken_of_the_straits     ; 200b7c7
+  jmp near _card_sudden_storm     ; 200b7cc
+  jmp near _card_black_oak_of_odunos     ; 200b7d1
+  jmp near _card_pillar_of_war     ; 200b7d6
+  jmp near _card_siren_of_the_silent_song     ; 200b7db
+  jmp near _card_peregrination     ; 200b7e0
+  jmp near _card_graverobber_spider     ; 200b7e5
+  jmp near _card_culling_mark     ; 200b7ea
+  jmp near _card_dawn_to_dusk     ; 200b7ef
+  jmp near _damage_creature     ; 200b7f4
+  jmp near _card_acolytes_reward     ; 200b7f9
+  jmp near _card_akroan_phalanx     ; 200b7fe
+  jmp near _card_excoriate     ; 200b803
+  jmp near _card_ghostblade_eidolon     ; 200b808
+  jmp near _card_mortals_ardor     ; 200b80d
+  jmp near _card_ornitharch     ; 200b812
+  jmp near _card_eternity_snare     ; 200b817
+  jmp near _card_flitterstep_eidolon     ; 200b81c
+  jmp near _card_siren_of_the_fanged_coast     ; 200b821
+  jmp near _card_sphinxs_disciple     ; 200b826
+  jmp near _card_asphyxiate     ; 200b82b
+  jmp near _card_eye_gouge     ; 200b830
+  jmp near _card_forsaken_drifters     ; 200b835
+  jmp near _card_gild     ; 200b83a
+  jmp near _card_gold     ; 200b83f
+  jmp near _card_grisly_transformation     ; 200b844
+  jmp near _card_sanguimancy     ; 200b849
+  jmp near _card_servant_of_tymaret     ; 200b84e
+  jmp near _card_shrike_harpy     ; 200b853
+  jmp near _card_warchanter_of_mogis     ; 200b858
+  jmp near _card_weight_of_the_underworld     ; 200b85d
+  jmp near _card_akroan_conscriptor     ; 200b862
+  jmp near _card_bolt_of_keranos     ; 200b867
+  jmp near _card_fall_of_the_hammer     ; 200b86c
+  jmp near _card_pinnacle_of_rage     ; 200b871
+  jmp near _card_scouring_sands     ; 200b876
+  jmp near _card_stormcaller_of_keranos     ; 200b87b
+  jmp near _card_thunderous_might     ; 200b880
+  jmp near _card_aspect_of_hydra     ; 200b885
+  jmp near _card_mischief_and_mayhem     ; 200b88a
+  jmp near _card_mortals_resolve     ; 200b88f
+  jmp near _card_pheres_band_tromper     ; 200b894
+  jmp near _card_lethal_vapors     ; 200b899
+  jmp near _card_oonas_prowler     ; 200b89e
+  jmp near _card_saproling_cluster     ; 200b8a3
+  jmp near _card_satyr_wayfinder     ; 200b8a8
+  jmp near _card_meletis_astronomer     ; 200b8ad
+  jmp near _card_setessan_starbreaker     ; 200b8b2
+  jmp near _card_snake_of_the_golden_grove     ; 200b8b7
+  jmp near _card_gorgons_head     ; 200b8bc
+  jmp near _card_elite_skirmisher     ; 200b8c1
+  jmp near _card_chorus_of_the_tides     ; 200b8c6
+  jmp near _card_nullify     ; 200b8cb
+  jmp near _card_stratus_walk     ; 200b8d0
+  jmp near _card_fated_return     ; 200b8d5
+  jmp near _card_felhide_brawler     ; 200b8da
+  jmp near _card_deepwater_hypnotist     ; 200b8df
+  jmp near _card_odunos_river_trawler     ; 200b8e4
+  jmp near _card_scourge_of_skola_vale     ; 200b8e9
+  jmp near _card_reverse_polarity     ; 200b8ee
+  jmp near _effect_damage     ; 200b8f3
+  jmp near _card_baleful_force     ; 200b8f8
+  jmp near _card_island_fish_jasconius     ; 200b8fd
+  jmp near _card_archetype_of_aggression     ; 200b902
+  jmp near _card_archetype_of_courage     ; 200b907
+  jmp near _card_archetype_of_endurance     ; 200b90c
+  jmp near _card_archetype_of_finality     ; 200b911
+  jmp near _card_archetype_of_imagination     ; 200b916
+  jmp near _human_assign_blockers     ; 200b91b
+  jmp near _tap_card     ; 200b920
+  jmp near _card_thunderstaff     ; 200b925
+  jmp near _card_rabble_rouser     ; 200b92a
+  jmp near _card_souls_attendant     ; 200b92f
+  jmp near _card_chaos_harlequin     ; 200b934
+  jmp near _card_sakura_tribe_scout     ; 200b939
+  jmp near _mana_burn     ; 200b93e
+  jmp near _card_omnath_locus_of_mana     ; 200b943
+  jmp near _card_springjack_pasture     ; 200b948
+  jmp near _card_lightkeeper_of_emeria     ; 200b94d
+  jmp near _card_clergy_of_the_holy_nimbus     ; 200b952
+  jmp near _card_aleatory     ; 200b957
+  jmp near _card_slippery_bogle     ; 200b95c
+  jmp near _card_crystal_vein     ; 200b961
+  jmp near _card_wall_of_shadows     ; 200b966
+  jmp near _card_flamebreak     ; 200b96b
+  jmp near _card_puppets_verdict     ; 200b970
+  jmp near _card_torrent_of_stone     ; 200b975
+  jmp near _get_special_counters_name     ; 200b97a
+  jmp near _card_fungusaur     ; 200b97f
+  jmp near _card_citanul_druid     ; 200b984
+  jmp near _card_dwarven_weaponsmith     ; 200b989
+  jmp near _card_unstable_mutation     ; 200b98e
+  jmp near _card_faerie_dragon     ; 200b993
+  jmp near _card_armageddon_clock     ; 200b998
+  jmp near _card_cyclone     ; 200b99d
+  jmp near _card_osai_vultures     ; 200b9a2
+  jmp near _card_scavenging_ghoul     ; 200b9a7
+  jmp near _card_necropolis_of_azar     ; 200b9ac
+  jmp near _card_black_mana_battery     ; 200b9b1
+  jmp near _card_blue_mana_battery     ; 200b9b6
+  jmp near _card_green_mana_battery     ; 200b9bb
+  jmp near _card_red_mana_battery     ; 200b9c0
+  jmp near _card_white_mana_battery     ; 200b9c5
+  jmp near _card_clockwork_avian     ; 200b9ca
+  jmp near _get_counter_type_by_instance     ; 200b9cf
+  jmp near _card_venerated_teacher     ; 200b9d4
+  jmp near _card_duskrider_peregrine     ; 200b9d9
+  jmp near _card_fertile_ground     ; 200b9de
+  jmp near _card_lightning_axe     ; 200b9e3
+  jmp near _card_crooked_scales     ; 200b9e8
+  jmp near _card_undead_slayer     ; 200b9ed
+  jmp near _card_arcbound_crusher     ; 200b9f2
+  jmp near _card_bronze_bombshell     ; 200b9f7
+  jmp near _card_deadshot_minotaur     ; 200b9fc
+  jmp near _card_curse_of_shallow_graves     ; 200ba01
+  jmp near _card_spitemare     ; 200ba06
+  jmp near _card_part_the_veil     ; 200ba0b
+  jmp near _card_scatter_the_seeds     ; 200ba10
+  jmp near _card_soul_link     ; 200ba15
+  jmp near _upkeep_phase     ; 200ba1a
+  jmp near _ai_decision_phase     ; 200ba1f
+  jmp near _card_mass_mutiny     ; 200ba24
+  jmp near _card_time_warp     ; 200ba29
+  jmp near _card_time_stretch     ; 200ba2e
+  jmp near _card_stormscape_familiar     ; 200ba33
+  jmp near _card_sunscape_familiar     ; 200ba38
+  jmp near _card_thornscape_familiar     ; 200ba3d
+  jmp near _card_thunderscape_familiar     ; 200ba42
+  jmp near _card_breaking_wave     ; 200ba47
+  jmp near _card_winding_canyons     ; 200ba4c
+  jmp near _put_card_or_activation_onto_stack     ; 200ba51
+  jmp near _recopy_card_onto_stack     ; 200ba56
+  jmp near _finalize_activation     ; 200ba5b
+  jmp near _card_alchemists_refuge     ; 200ba60
+  jmp near _is_a_tappable_mana_source     ; 200ba65
+  jmp near _tap_card_for_mana     ; 200ba6a
+  jmp near _card_bog_down     ; 200ba6f
+  jmp near _card_seahunter     ; 200ba74
+  jmp near _card_werewolf_ransacker     ; 200ba79
+  jmp near _card_ravager_of_the_fells     ; 200ba7e
+  jmp near _card_akroma_angel_of_wrath     ; 200ba83
+  jmp near _card_jacques_le_vert     ; 200ba88
+  jmp near _card_jeska_warrior_adept     ; 200ba8d
+  jmp near _card_kaysa     ; 200ba92
+  jmp near _card_kongming_sleeping_dragon     ; 200ba97
+  jmp near _card_mirri_cat_warrior     ; 200ba9c
+  jmp near _card_night_of_souls_betrayal     ; 200baa1
+  jmp near _card_pavel_maliki     ; 200baa6
+  jmp near _card_rorix_bladewing     ; 200baab
+  jmp near _card_silvos_rogue_elemental     ; 200bab0
+  jmp near _card_visara_the_dreadful     ; 200bab5
+  jmp near _card_holy_armor     ; 200baba
+  jmp near _card_blessing     ; 200babf
+  jmp near _card_copy_artifact     ; 200bac4
+  jmp near _card_sculpting_steel     ; 200bac9
+  jmp near _card_vesuvan_doppelganger     ; 200bace
+  jmp near _put_card_on_stack3     ; 200bad3
+  jmp near _card_titanias_song     ; 200bad8
+  jmp near _card_kismet     ; 200badd
+  jmp near _card_jokulhaups     ; 200bae2
+  jmp near _card_meditate     ; 200bae7
+  jmp near _card_thoughtcast     ; 200baec
+  jmp near _card_charging_troll     ; 200baf1
+  jmp near _card_darksteel_citadel     ; 200baf6
+  jmp near _card_wild_aesthir     ; 200bafb
+  jmp near _card_malach_of_the_dawn     ; 200bb00
+  jmp near _card_merfolk_looter     ; 200bb05
+  jmp near _card_wildfire_emissary     ; 200bb0a
+  jmp near _card_fists_of_the_anvil     ; 200bb0f
+  jmp near _compute_and_check_casting_cost     ; 200bb14
+  jmp near _card_instances_should_be_displayed_identically     ; 200bb19
+  jmp near _card_urborg_uprising     ; 200bb1e
+  jmp near _card_decompose     ; 200bb23
+  jmp near _raw_put_card_in_graveyard     ; 200bb28
+  jmp near _remove_card_from_grave     ; 200bb2d
+  jmp near _save_or_load_supplement     ; 200bb32
+  jmp near _current_trigger_or_event_is_forced     ; 200bb37
+  jmp near _card_noble_vestige     ; 200bb3c
+  jmp near _card_fastbond     ; 200bb41
+  jmp near _card_ambush_party     ; 200bb46
+  jmp near _card_twilight_drover     ; 200bb4b
+  jmp near _wndproc_CardClass_hook@16     ; 200bb50
+  jmp near _card_raze     ; 200bb55
+  jmp near _card_predatory_focus     ; 200bb5a
+  jmp near _card_haunting_misery     ; 200bb5f
+  jmp near _card_angel_of_salvation     ; 200bb64
+  jmp near _kill_card_exe     ; 200bb69
+  jmp near _card_northern_paladin     ; 200bb6e
+  jmp near _card_southern_paladin     ; 200bb73
+  jmp near _card_kangee_aerie_keeper     ; 200bb78
+  jmp near _card_epic_struggle     ; 200bb7d
+  jmp near _card_sigiled_starfish     ; 200bb82
+  jmp near _card_whitewater_naiads     ; 200bb87
+  jmp near _card_extinguish_all_hope     ; 200bb8c
+  jmp near _card_gnarled_scarhide     ; 200bb91
+  jmp near _card_cyclops_of_eternal_fury     ; 200bb96
+  jmp near _card_eidolon_of_blossoms     ; 200bb9b
+  jmp near _card_ravenous_leucrocota     ; 200bba0
+  jmp near _card_hall_of_triumph     ; 200bba5
+  jmp near _card_dawnbringer_charioteers     ; 200bbaa
+  jmp near _card_dictate_of_kruphix     ; 200bbaf
+  jmp near _card_scourge_of_fleets     ; 200bbb4
+  jmp near _card_doomwake_giant     ; 200bbb9
+  jmp near _card_dictate_of_the_twin_gods     ; 200bbbe
+  jmp near _card_spawn_of_thraxes     ; 200bbc3
+  jmp near _card_heroes_bane     ; 200bbc8
+  jmp near _card_iroas_god_of_victory     ; 200bbcd
+  jmp near _card_underworld_coinsmith     ; 200bbd2
+  jmp near _card_keranos_god_of_storms     ; 200bbd7
+  jmp near _card_godsend     ; 200bbdc
+  jmp near _card_sage_of_hours     ; 200bbe1
+  jmp near _card_sightless_brawler     ; 200bbe6
+  jmp near _card_crystalline_nautilus     ; 200bbeb
+  jmp near _card_interpret_the_signs     ; 200bbf0
+  jmp near _card_eidolon_of_the_great_revel     ; 200bbf5
+  jmp near _card_silence_the_believers     ; 200bbfa
+  jmp near _card_mogiss_warhound     ; 200bbff
+  jmp near _card_spite_of_mogis     ; 200bc04
+  jmp near _card_spirespine     ; 200bc09
+  jmp near _card_ajani_mentor_of_heroes     ; 200bc0e
+  jmp near _card_kruphix_god_of_horizons     ; 200bc13
+  jmp near _card_flickerform     ; 200bc18
+  jmp near _card_launch_the_fleet     ; 200bc1d
+  jmp near _card_hypnotic_siren     ; 200bc22
+  jmp near _card_kioras_dismissal     ; 200bc27
+  jmp near _card_dictate_of_karametra     ; 200bc2c
+  jmp near _card_kruphixs_insight     ; 200bc31
+  jmp near _card_mana_confluence     ; 200bc36
+  jmp near _card_polymorphous_rush     ; 200bc3b
+  jmp near _card_king_macar_the_gold_cursed     ; 200bc40
+  jmp near _card_forgeborn_oreads     ; 200bc45
+  jmp near _card_hydra_broodmaster     ; 200bc4a
+  jmp near _card_athreos_god_of_passage     ; 200bc4f
+  jmp near _card_master_of_the_feast     ; 200bc54
+  jmp near _card_prophetic_flamespeaker     ; 200bc59
+  jmp near _card_twinflame     ; 200bc5e
+  jmp near _card_pharika_god_of_affliction     ; 200bc63
+  jmp near _card_battlefield_thaumaturge     ; 200bc68
+  jmp near _card_daring_thief     ; 200bc6d
+  jmp near _card_riptide_chimera     ; 200bc72
+  jmp near _card_bearer_of_the_heavens     ; 200bc77
+  jmp near _card_oubliette     ; 200bc7c
+  jmp near _card_tawnoss_coffin     ; 200bc81
+  jmp near _card_banishing_light     ; 200bc86
+  jmp near _card_deicide     ; 200bc8b
+  jmp near _card_dictate_of_heliod     ; 200bc90
+  jmp near _card_font_of_vigor     ; 200bc95
+  jmp near _card_font_of_fortune     ; 200bc9a
+  jmp near _card_godhunter_octopus     ; 200bc9f
+  jmp near _card_brain_maggot     ; 200bca4
+  jmp near _card_dictate_of_erebos     ; 200bca9
+  jmp near _card_font_of_return     ; 200bcae
+  jmp near _card_font_of_ire     ; 200bcb3
+  jmp near _card_font_of_fertility     ; 200bcb8
+  jmp near _card_renowned_weaver     ; 200bcbd
+  jmp near _card_strength_from_the_fallen     ; 200bcc2
+  jmp near _card_desperate_stand     ; 200bcc7
+  jmp near _card_disciple_of_deceit     ; 200bccc
+  jmp near _card_nyx_weaver     ; 200bcd1
+  jmp near _card_armament_of_nyx     ; 200bcd6
+  jmp near _card_harvestguard_alseids     ; 200bcdb
+  jmp near _card_leonin_iconoclast     ; 200bce0
+  jmp near _card_mortal_obstinacy     ; 200bce5
+  jmp near _card_oppressive_rays     ; 200bcea
+  jmp near _card_phalanx_formation     ; 200bcef
+  jmp near _card_quarry_colossus     ; 200bcf4
+  jmp near _card_skybind     ; 200bcf9
+  jmp near _card_stonewise_fortifier     ; 200bcfe
+  jmp near _card_tethmos_high_priest     ; 200bd03
+  jmp near _card_oakheart_dryads     ; 200bd08
+  jmp near _card_solidarity_of_heroes     ; 200bd0d
+  jmp near _card_swarmborn_giant     ; 200bd12
+  jmp near _card_reviving_melody     ; 200bd17
+  jmp near _card_akroan_line_breaker     ; 200bd1c
+  jmp near _card_blinding_flare     ; 200bd21
+  jmp near _card_flamespeakers_will     ; 200bd26
+  jmp near _card_flurry_of_horns     ; 200bd2b
+  jmp near _card_gluttonous_cyclops     ; 200bd30
+  jmp near _card_harness_by_force     ; 200bd35
+  jmp near _card_knowledge_and_power     ; 200bd3a
+  jmp near _card_lightning_diadem     ; 200bd3f
+  jmp near _empty     ; 200bd44
+  jmp near _empty     ; 200bd49
+  jmp near _empty     ; 200bd4e
+  jmp near _empty     ; 200bd53
+  jmp near _empty     ; 200bd58
+  jmp near _empty     ; 200bd5d
+  jmp near _empty     ; 200bd62
+  jmp near _empty     ; 200bd67
+  jmp near _empty     ; 200bd6c
+  jmp near _empty     ; 200bd71
+  jmp near _card_word_of_undoing     ; 200bd76
+  jmp near _card_aerial_formation     ; 200bd7b
+  jmp near _card_countermand     ; 200bd80
+  jmp near _card_hour_of_need     ; 200bd85
+  jmp near _card_hubris     ; 200bd8a
+  jmp near _card_pin_to_the_earth     ; 200bd8f
+  jmp near _card_pull_from_the_deep     ; 200bd94
+  jmp near _card_rise_of_eagles     ; 200bd99
+  jmp near _card_thassas_devourer     ; 200bd9e
+  jmp near _card_thassas_ire     ; 200bda3
+  jmp near _card_triton_cavalry     ; 200bda8
+  jmp near _card_serras_boon     ; 200bdad
+  jmp near _card_agent_of_erebos     ; 200bdb2
+  jmp near _card_aspect_of_gorgon     ; 200bdb7
+  jmp near _card_cast_into_darkness     ; 200bdbc
+  jmp near _card_cruel_feeding     ; 200bdc1
+  jmp near _card_dreadbringer_lampads     ; 200bdc6
+  jmp near _card_feast_of_dreams     ; 200bdcb
+  jmp near _card_felhide_petrifier     ; 200bdd0
+  jmp near _card_grim_guardian     ; 200bdd5
+  jmp near _card_nyx_infusion     ; 200bdda
+  jmp near _card_returned_reveler     ; 200bddf
+  jmp near _card_spiteful_blow     ; 200bde4
+  jmp near _card_thoughtrender_lamia     ; 200bde9
+  jmp near _card_fleetfeather_cockatrice     ; 200bdee
+  jmp near _card_revel_of_the_fallen_god     ; 200bdf3
+  jmp near _card_stormchaser_chimera     ; 200bdf8
+  jmp near _card_armory_of_iroas     ; 200bdfd
+  jmp near _card_chariot_of_victory     ; 200be02
+  jmp near _card_deserters_quarters     ; 200be07
+  jmp near _card_nightmarish_end     ; 200be0c
+  jmp near _card_rollick_of_abandon     ; 200be11
+  jmp near _card_rouse_the_mob     ; 200be16
+  jmp near _card_sigiled_skink     ; 200be1b
+  jmp near _card_starfall     ; 200be20
+  jmp near _card_wildfire_cerberus     ; 200be25
+  jmp near _card_blood_moon     ; 200be2a
+  jmp near _card_igneous_pouncer     ; 200be2f
+  jmp near _card_jhessian_zombies     ; 200be34
+  jmp near _card_pale_recluse     ; 200be39
+  jmp near _card_sanctum_plowbeast     ; 200be3e
+  jmp near _card_valley_rannet     ; 200be43
+  jmp near _card_dack_fayden     ; 200be48
+  jmp near _card_dack_faydens_emblem     ; 200be4d
+  jmp near _card_pyramids     ; 200be52
+  jmp near _card_aswan_jaguar     ; 200be57
+  jmp near _card_waiting_in_the_weeds     ; 200be5c
+  jmp near _card_new_frontiers     ; 200be61
+  jmp near _card_piety_charm     ; 200be66
+  jmp near _card_magister_of_worth     ; 200be6b
+  jmp near _card_nyx_fleece_ram     ; 200be70
+  jmp near _card_ritual_of_the_returned     ; 200be75
+  jmp near _card_tormented_thoughts     ; 200be7a
+  jmp near _card_stupor     ; 200be7f
+  jmp near _card_hymn_to_tourach     ; 200be84
+  jmp near _card_mind_rot     ; 200be89
+  jmp near _card_blightning     ; 200be8e
+  jmp near _card_lava_axe     ; 200be93
+  jmp near _card_storm_seeker     ; 200be98
+  jmp near _card_gaze_of_adamaro     ; 200be9d
+  jmp near _card_ancestral_recall     ; 200bea2
+  jmp near _card_animate_artifact     ; 200bea7
+  jmp near _card_ankh_of_mishra     ; 200beac
+  jmp near _card_aspect_of_the_wolf     ; 200beb1
+  jmp near _card_bad_moon     ; 200beb6
+  jmp near _card_black_vise     ; 200bebb
+  jmp near _card_black_ward     ; 200bec0
+  jmp near _card_blue_elemental_blast     ; 200bec5
+  jmp near _card_blue_ward     ; 200beca
+  jmp near _card_braingeyser     ; 200becf
+  jmp near _card_burrowing     ; 200bed4
+  jmp near _card_balance     ; 200bed9
+  jmp near _card_berserk     ; 200bede
+  jmp near _card_armageddon     ; 200bee3
+  jmp near _card_disrupting_scepter     ; 200bee8
+  jmp near _card_wand_of_ith     ; 200beed
+  jmp near _card_fumarole     ; 200bef2
+  jmp near _card_plague_spores     ; 200bef7
+  jmp near _card_reign_of_chaos     ; 200befc
+  jmp near _card_churning_eddy     ; 200bf01
+  jmp near _card_castle     ; 200bf06
+  jmp near _card_channel     ; 200bf0b
+  jmp near _card_chaoslace     ; 200bf10
+  jmp near _card_circle_of_protection_black     ; 200bf15
+  jmp near _card_circle_of_protection_blue     ; 200bf1a
+  jmp near _card_circle_of_protection_green     ; 200bf1f
+  jmp near _card_circle_of_protection_red     ; 200bf24
+  jmp near _card_circle_of_protection_white     ; 200bf29
+  jmp near _card_consecrated_land     ; 200bf2e
+  jmp near _card_conservator     ; 200bf33
+  jmp near _card_control_magic     ; 200bf38
+  jmp near _card_conversion2     ; 200bf3d
+  jmp near _card_copper_tablet     ; 200bf42
+  jmp near _card_creature_bond     ; 200bf47
+  jmp near _card_counterspell     ; 200bf4c
+  jmp near _card_crusade     ; 200bf51
+  jmp near _card_cursed_land     ; 200bf56
+  jmp near _card_cyclopean_tomb     ; 200bf5b
+  jmp near _card_aerathi_berserker     ; 200bf60
+  jmp near _card_craw_giant     ; 200bf65
+  jmp near _card_balduvian_war_makers     ; 200bf6a
+  jmp near _card_dark_ritual     ; 200bf6f
+  jmp near _card_deathgrip     ; 200bf74
+  jmp near _card_deathlace     ; 200bf79
+  jmp near _card_dingus_egg     ; 200bf7e
+  jmp near _card_disenchant     ; 200bf83
+  jmp near _card_dragon_whelp     ; 200bf88
+  jmp near _card_drain_power     ; 200bf8d
+  jmp near _card_drudge_skeletons     ; 200bf92
+  jmp near _card_dwarven_demolition_team     ; 200bf97
+  jmp near _card_dwarven_warriors     ; 200bf9c
+  jmp near _card_caravan_escort     ; 200bfa1
+  jmp near _card_hedron_field_purists     ; 200bfa6
+  jmp near _card_ikiral_outrider     ; 200bfab
+  jmp near _card_kabira_vindicator     ; 200bfb0
+  jmp near _card_knight_of_cliffhaven     ; 200bfb5
+  jmp near _card_hada_spy_patrol     ; 200bfba
+  jmp near _card_halimar_wavewatch     ; 200bfbf
+  jmp near _card_skywatcher_adept     ; 200bfc4
+  jmp near _card_nirkana_cutthroat     ; 200bfc9
+  jmp near _card_null_champion     ; 200bfce
+  jmp near _card_zulaport_enforcer     ; 200bfd3
+  jmp near _card_brimstone_mage     ; 200bfd8
+  jmp near _card_false_orders     ; 200bfdd
+  jmp near _card_feedback     ; 200bfe2
+  jmp near _card_firebreathing     ; 200bfe7
+  jmp near _card_flashfires     ; 200bfec
+  jmp near _card_flight2     ; 200bff1
+  jmp near _card_force_of_nature     ; 200bff6
+  jmp near _card_forcefield     ; 200bffb
+  jmp near _card_gaeas_liege     ; 200c000
+  jmp near _card_gauntlet_of_might     ; 200c005
+  jmp near _card_giant_growth     ; 200c00a
+  jmp near _card_glasses_of_urza     ; 200c00f
+  jmp near _card_gloom2     ; 200c014
+  jmp near _card_goblin_balloon_brigade     ; 200c019
+  jmp near _card_granite_gargoyle     ; 200c01e
+  jmp near _card_green_ward     ; 200c023
+  jmp near _card_helm_of_chatzuk     ; 200c028
+  jmp near _card_holy_strenght     ; 200c02d
+  jmp near _card_howling_mine     ; 200c032
+  jmp near _card_ice_storm     ; 200c037
+  jmp near _card_icy_manipulator     ; 200c03c
+  jmp near _card_ironclaw_orcs     ; 200c041
+  jmp near _card_jade_monolith     ; 200c046
+  jmp near _card_jayemdae_tome     ; 200c04b
+  jmp near _card_jump     ; 200c050
+  jmp near _card_karma     ; 200c055
+  jmp near _card_keldon_warlord     ; 200c05a
+  jmp near _card_kormus_bell     ; 200c05f
+  jmp near _card_kudzu     ; 200c064
+  jmp near _card_lance     ; 200c069
+  jmp near _card_lifeforce     ; 200c06e
+  jmp near _card_lifelace     ; 200c073
+  jmp near _card_lightning_bolt     ; 200c078
+  jmp near _card_lord_of_the_pit     ; 200c07d
+  jmp near _card_mana_short     ; 200c082
+  jmp near _card_manabarbs     ; 200c087
+  jmp near _card_meekstone     ; 200c08c
+  jmp near _card_natural_selection     ; 200c091
+  jmp near _card_orcish_artillery     ; 200c096
+  jmp near _card_orcish_oriflamme     ; 200c09b
+  jmp near _card_personal_incarnation     ; 200c0a0
+  jmp near _card_phantasmal_forces     ; 200c0a5
+  jmp near _card_phantasmal_terrain     ; 200c0aa
+  jmp near _card_pirate_ship     ; 200c0af
+  jmp near _card_plague_rats     ; 200c0b4
+  jmp near _card_power_leak     ; 200c0b9
+  jmp near _card_power_surge     ; 200c0be
+  jmp near _card_prodigal_sorcerer     ; 200c0c3
+  jmp near _card_psionic_blast     ; 200c0c8
+  jmp near _card_psychic_venom     ; 200c0cd
+  jmp near _card_purelace     ; 200c0d2
+  jmp near _card_red_elemental_blast     ; 200c0d7
+  jmp near _card_red_ward     ; 200c0dc
+  jmp near _card_regeneration     ; 200c0e1
+  jmp near _card_regrowth     ; 200c0e6
+  jmp near _empty     ; 200c0eb
+  jmp near _card_righteousness     ; 200c0f0
+  jmp near _card_rod_of_ruin     ; 200c0f5
+  jmp near _card_royal_assassin     ; 200c0fa
+  jmp near _card_gravedigger     ; 200c0ff
+  jmp near _card_eternal_witness     ; 200c104
+  jmp near _card_sacrifice     ; 200c109
+  jmp near _card_samite_healer     ; 200c10e
+  jmp near _card_sea_serpent     ; 200c113
+  jmp near _card_sedge_troll     ; 200c118
+  jmp near _card_sengir_vampire     ; 200c11d
+  jmp near _card_serra_angel     ; 200c122
+  jmp near _card_shatter     ; 200c127
+  jmp near _empty     ; 200c12c
+  jmp near _card_smoke     ; 200c131
+  jmp near _card_stasis     ; 200c136
+  jmp near _card_steal_artifact     ; 200c13b
+  jmp near _card_stone_giant     ; 200c140
+  jmp near _card_terror     ; 200c145
+  jmp near _card_thoughtlace     ; 200c14a
+  jmp near _card_tsunami     ; 200c14f
+  jmp near _card_tunnel     ; 200c154
+  jmp near _card_unholy_strenght     ; 200c159
+  jmp near _card_unsummon     ; 200c15e
+  jmp near _card_uthden_troll     ; 200c163
+  jmp near _card_verduran_enchantress     ; 200c168
+  jmp near _card_veteran_bodyguard     ; 200c16d
+  jmp near _empty     ; 200c172
+  jmp near _empty     ; 200c177
+  jmp near _card_wall_of_brambles     ; 200c17c
+  jmp near _empty     ; 200c181
+  jmp near _card_wall_of_water     ; 200c186
+  jmp near _card_wanderlust     ; 200c18b
+  jmp near _card_warp_artifact     ; 200c190
+  jmp near _card_weakness     ; 200c195
+  jmp near _card_web     ; 200c19a
+  jmp near _card_wheel_of_fortune     ; 200c19f
+  jmp near _card_white_ward     ; 200c1a4
+  jmp near _card_wild_growth     ; 200c1a9
+  jmp near _card_winter_orb     ; 200c1ae
+  jmp near _card_wrath_of_god     ; 200c1b3
+  jmp near _card_aladdin     ; 200c1b8
+  jmp near _card_aladdins_lamp     ; 200c1bd
+  jmp near _card_aladdins_ring     ; 200c1c2
+  jmp near _card_ali_baba     ; 200c1c7
+  jmp near _card_bottle_of_suleiman     ; 200c1cc
+  jmp near _card_brass_man     ; 200c1d1
+  jmp near _card_cuombajj_witches     ; 200c1d6
+  jmp near _card_dandan     ; 200c1db
+  jmp near _card_desert_nomads     ; 200c1e0
+  jmp near _card_desert_twister     ; 200c1e5
+  jmp near _card_erg_raiders     ; 200c1ea
+  jmp near _card_eye_for_an_eye     ; 200c1ef
+  jmp near _card_fishliver_oil     ; 200c1f4
+  jmp near _card_flying_carpet     ; 200c1f9
+  jmp near _card_giant_tortoise     ; 200c1fe
+  jmp near _card_guardian_beast     ; 200c203
+  jmp near _card_hasran_ogress     ; 200c208
+  jmp near _card_hurr_jackal     ; 200c20d
+  jmp near _card_jandors_ring     ; 200c212
+  jmp near _card_jihad     ; 200c217
+  jmp near _card_junun_efreet     ; 200c21c
+  jmp near _card_juzam_djinn     ; 200c221
+  jmp near _card_khabal_ghoul     ; 200c226
+  jmp near _card_king_suleiman     ; 200c22b
+  jmp near _card_library_of_alexandria     ; 200c230
+  jmp near _card_magnetic_mountain     ; 200c235
+  jmp near _card_mijae_djinn     ; 200c23a
+  jmp near _card_nafs_asp     ; 200c23f
+  jmp near _card_old_man_of_the_sea     ; 200c244
+  jmp near _card_piety2     ; 200c249
+  jmp near _card_ring_of_ma_ruf     ; 200c24e
+  jmp near _card_rukh_egg     ; 200c253
+  jmp near _card_sandals_of_abdallah     ; 200c258
+  jmp near _card_sandstorm     ; 200c25d
+  jmp near _card_serendib_djinn     ; 200c262
+  jmp near _card_sindbad     ; 200c267
+  jmp near _card_singing_tree     ; 200c26c
+  jmp near _card_wyluli_wolf     ; 200c271
+  jmp near _card_ydwen_efreet     ; 200c276
+  jmp near _card_amulet_of_kroog     ; 200c27b
+  jmp near _card_argivian_archaeologist     ; 200c280
+  jmp near _card_argivian_blacksmith     ; 200c285
+  jmp near _card_argothian_pixies     ; 200c28a
+  jmp near _card_argothian_treefolk     ; 200c28f
+  jmp near _card_artifact_blast     ; 200c294
+  jmp near _card_artifact_possession     ; 200c299
+  jmp near _card_artifact_ward     ; 200c29e
+  jmp near _card_ashnods_battle_gear     ; 200c2a3
+  jmp near _card_atog2     ; 200c2a8
+  jmp near _card_circle_of_protection_artifacts     ; 200c2ad
+  jmp near _card_clay_statue     ; 200c2b2
+  jmp near _card_colossus_of_sardia     ; 200c2b7
+  jmp near _card_coral_helm     ; 200c2bc
+  jmp near _card_cursed_rack     ; 200c2c1
+  jmp near _card_damping_field     ; 200c2c6
+  jmp near _card_energy_flux     ; 200c2cb
+  jmp near _card_gaeas_avenger     ; 200c2d0
+  jmp near _card_gate_to_phyrexia     ; 200c2d5
+  jmp near _card_grapeshot_catapult     ; 200c2da
+  jmp near _card_haunting_wind     ; 200c2df
+  jmp near _card_hurkyls_recall     ; 200c2e4
+  jmp near _card_jalum_tome     ; 200c2e9
+  jmp near _card_mightstone     ; 200c2ee
+  jmp near _card_mishras_factory     ; 200c2f3
+  jmp near _card_mishras_war_machine     ; 200c2f8
+  jmp near _card_obelisk_of_undoing     ; 200c2fd
+  jmp near _card_orcish_mechanic     ; 200c302
+  jmp near _card_priest_of_yawgmoth     ; 200c307
+  jmp near _card_rakalite     ; 200c30c
+  jmp near _card_reconstruction     ; 200c311
+  jmp near _card_rocket_launcher     ; 200c316
+  jmp near _card_sage_of_lat_nam     ; 200c31b
+  jmp near _card_shapeshifter2     ; 200c320
+  jmp near _card_shatterstorm     ; 200c325
+  jmp near _card_staff_of_zegon     ; 200c32a
+  jmp near _card_strip_mine     ; 200c32f
+  jmp near _card_su_chi     ; 200c334
+  jmp near _card_tawnos_wand     ; 200c339
+  jmp near _card_tawnos_weaponry     ; 200c33e
+  jmp near _card_the_rack     ; 200c343
+  jmp near _card_transmute_artifact     ; 200c348
+  jmp near _card_urzas_avenger     ; 200c34d
+  jmp near _card_weakstone     ; 200c352
+  jmp near _card_xenic_poltergeist     ; 200c357
+  jmp near _card_yawgmoths_demon     ; 200c35c
+  jmp near _card_acid_rain     ; 200c361
+  jmp near _card_active_volcano     ; 200c366
+  jmp near _card_aisling_leprechaun     ; 200c36b
+  jmp near _card_akron_legionnaire     ; 200c370
+  jmp near _card_alchors_tomb     ; 200c375
+  jmp near _card_amrou_kithkin     ; 200c37a
+  jmp near _card_angelic_voices     ; 200c37f
+  jmp near _card_anti_magic_aura     ; 200c384
+  jmp near _card_arena_of_the_ancients     ; 200c389
+  jmp near _card_concordant_crossroads     ; 200c38e
+  jmp near _card_gravity_sphere     ; 200c393
+  jmp near _card_magus_of_the_abyss     ; 200c398
+  jmp near _card_storm_world     ; 200c39d
+  jmp near _card_the_abyss     ; 200c3a2
+  jmp near _card_backdraft     ; 200c3a7
+  jmp near _card_backfire     ; 200c3ac
+  jmp near _card_beasts_of_bogardan     ; 200c3b1
+  jmp near _card_blazing_effigy     ; 200c3b6
+  jmp near _card_blight2     ; 200c3bb
+  jmp near _card_blood_lust     ; 200c3c0
+  jmp near _card_boomerang     ; 200c3c5
+  jmp near _card_bronze_horse     ; 200c3ca
+  jmp near _card_carrion_ants     ; 200c3cf
+  jmp near _card_caverns_of_despair     ; 200c3d4
+  jmp near _card_chain_lightning     ; 200c3d9
+  jmp near _card_cleanse     ; 200c3de
+  jmp near _card_cosmic_horror     ; 200c3e3
+  jmp near _card_crimson_manticore     ; 200c3e8
+  jmp near _card_cyclopean_mummy     ; 200c3ed
+  jmp near _card_davenant_archer     ; 200c3f2
+  jmp near _card_divine_transformation     ; 200c3f7
+  jmp near _card_elder_land_wurm     ; 200c3fc
+  jmp near _card_elder_spawn     ; 200c401
+  jmp near _card_emerald_dragonfly     ; 200c406
+  jmp near _card_enchantment_alteration     ; 200c40b
+  jmp near _card_energy_tap     ; 200c410
+  jmp near _card_equinox     ; 200c415
+  jmp near _card_eternal_warrior     ; 200c41a
+  jmp near _card_fallen_angel     ; 200c41f
+  jmp near _card_fallen_star     ; 200c424
+  jmp near _card_feint     ; 200c429
+  jmp near _card_fire_sprites     ; 200c42e
+  jmp near _card_firestorm_phoenix     ; 200c433
+  jmp near _card_flash_counter     ; 200c438
+  jmp near _card_flash_flood     ; 200c43d
+  jmp near _card_gaseous_form     ; 200c442
+  jmp near _card_ghosts_of_the_damned     ; 200c447
+  jmp near _card_giant_strenght     ; 200c44c
+  jmp near _card_giant_turtle     ; 200c451
+  jmp near _card_great_defender     ; 200c456
+  jmp near _card_greater_realm_of_protection     ; 200c45b
+  jmp near _card_greed     ; 200c460
+  jmp near _card_heavens_gate     ; 200c465
+  jmp near _card_hell_swarm     ; 200c46a
+  jmp near _card_immolation     ; 200c46f
+  jmp near _card_imprison     ; 200c474
+  jmp near _card_indestructible_aura     ; 200c479
+  jmp near _card_jovial_evil     ; 200c47e
+  jmp near _card_killer_bees     ; 200c483
+  jmp near _card_kobold_overlord     ; 200c488
+  jmp near _card_land_equilibrium     ; 200c48d
+  jmp near _card_mana_matrix     ; 200c492
+  jmp near _card_mold_demon     ; 200c497
+  jmp near _card_pit_scorpion     ; 200c49c
+  jmp near _card_pixie_queen     ; 200c4a1
+  jmp near _card_planar_gate     ; 200c4a6
+  jmp near _card_pradesh_gypsies     ; 200c4ab
+  jmp near _card_psionic_entity     ; 200c4b0
+  jmp near _card_puppet_master     ; 200c4b5
+  jmp near _card_quarum_trench_gnomes     ; 200c4ba
+  jmp near _card_radjan_spirit     ; 200c4bf
+  jmp near _card_relic_barrier     ; 200c4c4
+  jmp near _card_remove_enchantments     ; 200c4c9
+  jmp near _card_remove_soul     ; 200c4ce
+  jmp near _card_reverberation     ; 200c4d3
+  jmp near _card_rust2     ; 200c4d8
+  jmp near _card_seeker2     ; 200c4dd
+  jmp near _card_shelkin_brownie     ; 200c4e2
+  jmp near _card_shield_wall     ; 200c4e7
+  jmp near _card_silhouette     ; 200c4ec
+  jmp near _card_spinal_villain     ; 200c4f1
+  jmp near _card_sylvan_library     ; 200c4f6
+  jmp near _card_the_brute     ; 200c4fb
+  jmp near _card_typhoon     ; 200c500
+  jmp near _card_underworld_dreams     ; 200c505
+  jmp near _card_untamed_wilds     ; 200c50a
+  jmp near _card_vampiric_bats     ; 200c50f
+  jmp near _card_visions2     ; 200c514
+  jmp near _card_wall_of_opposition     ; 200c519
+  jmp near _card_wall_of_tombstones     ; 200c51e
+  jmp near _card_winds_of_change     ; 200c523
+  jmp near _card_crevasse     ; 200c528
+  jmp near _card_deadfall     ; 200c52d
+  jmp near _card_great_wall     ; 200c532
+  jmp near _card_quagmire     ; 200c537
+  jmp near _card_undertow     ; 200c53c
+  jmp near _card_staff_of_the_ages     ; 200c541
+  jmp near _card_urzas_armor     ; 200c546
+  jmp near _card_face_the_horde     ; 200c54b
+  jmp near _card_hidden_agenda     ; 200c550
+  jmp near _card_bragos_favor     ; 200c555
+  jmp near _card_double_stroke     ; 200c55a
+  jmp near _card_immediate_action     ; 200c55f
+  jmp near _card_iterative_analysis     ; 200c564
+  jmp near _card_muzzios_preparations     ; 200c569
+  jmp near _card_secret_summoning     ; 200c56e
+  jmp near _card_secret_of_paradise     ; 200c573
+  jmp near _card_unexpected_potential     ; 200c578
+  jmp near _card_apex_hawks     ; 200c57d
+  jmp near _card_councils_judgement     ; 200c582
+  jmp near _card_council_guardian     ; 200c587
+  jmp near _card_custodi_soulbinders     ; 200c58c
+  jmp near _card_custodi_squire     ; 200c591
+  jmp near _card_guardian_zendikon     ; 200c596
+  jmp near _card_rousing_of_souls     ; 200c59b
+  jmp near _card_unquestioned_authority     ; 200c5a0
+  jmp near _card_academy_elite     ; 200c5a5
+  jmp near _card_grixis_illusionist     ; 200c5aa
+  jmp near _card_enclave_elite     ; 200c5af
+  jmp near _card_jetting_glasskite     ; 200c5b4
+  jmp near _card_minamo_scrollkeeper     ; 200c5b9
+  jmp near _card_marchesas_emissary     ; 200c5be
+  jmp near _card_marchesas_infiltrator     ; 200c5c3
+  jmp near _card_muzzio_visionary_architect     ; 200c5c8
+  jmp near _card_plea_for_power     ; 200c5cd
+  jmp near _card_screaming_seahawk     ; 200c5d2
+  jmp near _card_split_decision     ; 200c5d7
+  jmp near _card_stasis_cell     ; 200c5dc
+  jmp near _card_travellers_cloak     ; 200c5e1
+  jmp near _card_wind_dancer     ; 200c5e6
+  jmp near _card_bite_of_the_black_rose     ; 200c5eb
+  jmp near _card_drakestown_forgotten     ; 200c5f0
+  jmp near _card_infectious_horror     ; 200c5f5
+  jmp near _card_necromantic_thirst     ; 200c5fa
+  jmp near _card_quag_vampires     ; 200c5ff
+  jmp near _card_reign_of_the_pit     ; 200c604
+  jmp near _card_stronghold_discipline     ; 200c609
+  jmp near _card_tyrants_choice     ; 200c60e
+  jmp near _card_boldwyr_intimidator     ; 200c613
+  jmp near _card_deathforge_shaman     ; 200c618
+  jmp near _card_enraged_evolutionary     ; 200c61d
+  jmp near _card_flowstone_blade     ; 200c622
+  jmp near _card_grenzos_rebuttal     ; 200c627
+  jmp near _card_ignition_team     ; 200c62c
+  jmp near _card_mana_geyser     ; 200c631
+  jmp near _card_orcish_cannonade     ; 200c636
+  jmp near _card_scourge_of_the_throne     ; 200c63b
+  jmp near _card_skitter_of_the_lizard     ; 200c640
+  jmp near _card_treasonous_ogre     ; 200c645
+  jmp near _card_uncontrollable_anger     ; 200c64a
+  jmp near _card_vent_sentinel     ; 200c64f
+  jmp near _card_wrap_in_flames     ; 200c654
+  jmp near _card_predators_howl     ; 200c659
+  jmp near _card_realm_seeker     ; 200c65e
+  jmp near _card_selvalas_charge     ; 200c663
+  jmp near _card_selvalas_enforcer     ; 200c668
+  jmp near _card_charging_rhino     ; 200c66d
+  jmp near _card_gnarlid_pack     ; 200c672
+  jmp near _card_provoke     ; 200c677
+  jmp near _card_brago_king_eternal     ; 200c67c
+  jmp near _card_dacks_duplicant     ; 200c681
+  jmp near _card_deathreap_ritual     ; 200c686
+  jmp near _card_extract_from_darkness     ; 200c68b
+  jmp near _card_flamewright     ; 200c690
+  jmp near _card_grenzo_dungeon_warden     ; 200c695
+  jmp near _card_marchesa_the_black_rose     ; 200c69a
+  jmp near _card_marchesas_smuggler     ; 200c69f
+  jmp near _card_selvala_explorer_returned     ; 200c6a4
+  jmp near _card_wood_sage     ; 200c6a9
+  jmp near _card_reito_lantern     ; 200c6ae
+  jmp near _card_runed_servitor     ; 200c6b3
+  jmp near _card_silent_arbiter     ; 200c6b8
+  jmp near _card_spectral_searchlight     ; 200c6bd
+  jmp near _card_vedalken_orrery     ; 200c6c2
+  jmp near _card_battle_the_horde     ; 200c6c7
+  jmp near _card_vitality_salve     ; 200c6cc
+  jmp near _card_plundered_statue     ; 200c6d1
+  jmp near _card_massacre_totem     ; 200c6d6
+  jmp near _card_altar_of_mogis     ; 200c6db
+  jmp near _card_unquenchable_fury     ; 200c6e0
+  jmp near _card_touch_of_the_horned_god     ; 200c6e5
+  jmp near _card_intervention_of_keranos     ; 200c6ea
+  jmp near _card_descend_of_the_prey     ; 200c6ef
+  jmp near _card_consuming_rage     ; 200c6f4
+  jmp near _card_reckless_minotaur     ; 200c6f9
+  jmp near _card_phoberos_reaver     ; 200c6fe
+  jmp near _card_mogis_chosen     ; 200c703
+  jmp near _card_lash_of_the_tyrant     ; 200c708
+  jmp near _card_cloak_of_the_philospher     ; 200c70d
+  jmp near _card_spear_of_the_general     ; 200c712
+  jmp near _card_axe_of_the_warmonger     ; 200c717
+  jmp near _card_bow_of_the_hunter     ; 200c71c
+  jmp near _card_ur_drago     ; 200c721
+  jmp near _card_gosta_dirk     ; 200c726
+  jmp near _card_amnesia     ; 200c72b
+  jmp near _card_angry_mob     ; 200c730
+  jmp near _card_ashes_ot_ashes     ; 200c735
+  jmp near _card_ball_lightning     ; 200c73a
+  jmp near _card_banshee2     ; 200c73f
+  jmp near _card_bone_flute     ; 200c744
+  jmp near _card_book_of_rass     ; 200c749
+  jmp near _card_brainwash     ; 200c74e
+  jmp near _card_brothers_of_fire     ; 200c753
+  jmp near _card_cave_people     ; 200c758
+  jmp near _card_coal_golem     ; 200c75d
+  jmp near _card_curse_artifact     ; 200c762
+  jmp near _card_deep_water     ; 200c767
+  jmp near _card_diabolic_machine     ; 200c76c
+  jmp near _card_elves_of_the_deep_shadow     ; 200c771
+  jmp near _card_erosion     ; 200c776
+  jmp near _card_eternal_flame     ; 200c77b
+  jmp near _card_exorcist     ; 200c780
+  jmp near _card_fire_drake     ; 200c785
+  jmp near _card_fissure     ; 200c78a
+  jmp near _card_flood2     ; 200c78f
+  jmp near _card_ghost_ship     ; 200c794
+  jmp near _card_goblin_digging_team     ; 200c799
+  jmp near _card_hidden_path     ; 200c79e
+  jmp near _card_holy_light     ; 200c7a3
+  jmp near _card_inferno2     ; 200c7a8
+  jmp near _card_inquisition2     ; 200c7ad
+  jmp near _card_mana_clash     ; 200c7b2
+  jmp near _card_marsh_gas     ; 200c7b7
+  jmp near _card_marsh_viper     ; 200c7bc
+  jmp near _card_martyrs_cry     ; 200c7c1
+  jmp near _card_mind_bomb     ; 200c7c6
+  jmp near _card_miracle_worker     ; 200c7cb
+  jmp near _card_morale     ; 200c7d0
+  jmp near _card_murk_dwellers     ; 200c7d5
+  jmp near _card_niall_silvain     ; 200c7da
+  jmp near _card_people_of_the_woods     ; 200c7df
+  jmp near _card_rag_man     ; 200c7e4
+  jmp near _card_riptide2     ; 200c7e9
+  jmp near _card_savaen_elves     ; 200c7ee
+  jmp near _card_scavenger_folk     ; 200c7f3
+  jmp near _card_stone_calendar     ; 200c7f8
+  jmp near _card_sunken_city     ; 200c7fd
+  jmp near _card_tivadars_crusade     ; 200c802
+  jmp near _card_tracker2     ; 200c807
+  jmp near _card_uncle_istvan     ; 200c80c
+  jmp near _card_war_barge     ; 200c811
+  jmp near _card_water_wurm     ; 200c816
+  jmp near _card_witch_hunter     ; 200c81b
+  jmp near _card_worms_of_the_earth     ; 200c820
+  jmp near _card_wormwood_treefolk     ; 200c825
+  jmp near _card_defeat_a_god     ; 200c82a
+  jmp near _card_xenagos_ascended     ; 200c82f
+  jmp near _card_rollicking_throng     ; 200c834
+  jmp near _card_impulsive_charge     ; 200c839
+  jmp near _card_xenagos_strike     ; 200c83e
+  jmp near _card_ecstatic_piper     ; 200c843
+  jmp near _card_wild_maenads     ; 200c848
+  jmp near _card_pheres_band_revelers     ; 200c84d
+  jmp near _card_impulsive_return     ; 200c852
+  jmp near _card_xenagos_scorn     ; 200c857
+  jmp near _card_impulsive_destruction     ; 200c85c
+  jmp near _card_maddened_oread     ; 200c861
+  jmp near _card_rip_to_pieces     ; 200c866
+  jmp near _card_dance_of_panic     ; 200c86b
+  jmp near _card_dance_of_flame     ; 200c870
+  jmp near _card_ajani_steadfast     ; 200c875
+  jmp near _card_avacyn_guardian_angel     ; 200c87a
+  jmp near _card_dauntless_river_marshal     ; 200c87f
+  jmp near _card_heliod_pilgrim     ; 200c884
+  jmp near _card_marked_for_honour     ; 200c889
+  jmp near _card_meditation_puzzle     ; 200c88e
+  jmp near _card_paragon_of_new_dawns     ; 200c893
+  jmp near _card_return_to_the_ranks     ; 200c898
+  jmp near _card_resolute_archangel     ; 200c89d
+  jmp near _card_soul_of_theros     ; 200c8a2
+  jmp near _card_spirit_bond     ; 200c8a7
+  jmp near _card_warden_of_the_beyond     ; 200c8ac
+  jmp near _card_ajani_steadfast_emblem     ; 200c8b1
+  jmp near _card_chasm_skulker     ; 200c8b6
+  jmp near _card_coral_barrier     ; 200c8bb
+  jmp near _card_frost_lynx     ; 200c8c0
+  jmp near _card_jalira_master_polymorphogist     ; 200c8c5
+  jmp near _card_jorubai_murk_lurker     ; 200c8ca
+  jmp near _card_master_of_predicaments     ; 200c8cf
+  jmp near _card_mercurial_pretender     ; 200c8d4
+  jmp near _card_military_intelligence     ; 200c8d9
+  jmp near _card_paragon_of_gathering_mists     ; 200c8de
+  jmp near _card_quickling     ; 200c8e3
+  jmp near _card_soul_of_ravnica     ; 200c8e8
+  jmp near _card_void_snare     ; 200c8ed
+  jmp near _card_seraph_of_the_masses     ; 200c8f2
+  jmp near _card_triplicated_spirit     ; 200c8f7
+  jmp near _card_covenant_of_blood     ; 200c8fc
+  jmp near _card_cruel_sadist     ; 200c901
+  jmp near _card_endless_obedience     ; 200c906
+  jmp near _card_flesh_to_dust     ; 200c90b
+  jmp near _card_in_garruks_wake     ; 200c910
+  jmp near _card_indulgent_tormenter     ; 200c915
+  jmp near _card_nightfire_giant     ; 200c91a
+  jmp near _card_ob_nixilis_unshackled     ; 200c91f
+  jmp near _card_paragon_of_open_graves     ; 200c924
+  jmp near _card_rotfeaster_maggot     ; 200c929
+  jmp near _card_shadowcloak_vampire     ; 200c92e
+  jmp near _card_soul_of_innistrad     ; 200c933
+  jmp near _card_ulcerate     ; 200c938
+  jmp near _card_zof_shade     ; 200c93d
+  jmp near _card_xathrid_slyblade     ; 200c942
+  jmp near _card_aggressive_mining     ; 200c947
+  jmp near _card_brood_keeper     ; 200c94c
+  jmp near _card_burning_anger     ; 200c951
+  jmp near _card_cone_of_flame     ; 200c956
+  jmp near _card_land_mine     ; 200c95b
+  jmp near _card_goblin_kaboomist     ; 200c960
+  jmp near _card_goblin_rabblemaster     ; 200c965
+  jmp near _card_heat_ray     ; 200c96a
+  jmp near _card_inferno_fist     ; 200c96f
+  jmp near _card_kird_chieftain     ; 200c974
+  jmp near _card_mights_tyranny     ; 200c979
+  jmp near _card_miners_bane     ; 200c97e
+  jmp near _card_paragon_of_fierce_defiance     ; 200c983
+  jmp near _card_siege_dragon     ; 200c988
+  jmp near _card_soul_of_shandalar     ; 200c98d
+  jmp near _card_seismic_strike     ; 200c992
+  jmp near _card_tanglesap     ; 200c997
+  jmp near _card_hunters_ambush     ; 200c99c
+  jmp near _card_invasive_species     ; 200c9a1
+  jmp near _card_nissa_worldwaker     ; 200c9a6
+  jmp near _card_paragon_of_eternal_wilds     ; 200c9ab
+  jmp near _card_phytotitan     ; 200c9b0
+  jmp near _card_reclamation_sage     ; 200c9b5
+  jmp near _card_siege_wurm     ; 200c9ba
+  jmp near _card_soul_of_zendikar     ; 200c9bf
+  jmp near _card_sunblade_elf     ; 200c9c4
+  jmp near _card_yisan_the_wanderer_bard     ; 200c9c9
+  jmp near _card_avarice_amulet     ; 200c9ce
+  jmp near _card_brawlers_plate     ; 200c9d3
+  jmp near _card_hot_soup     ; 200c9d8
+  jmp near _card_obelisk_of_urd     ; 200c9dd
+  jmp near _card_perilous_vault     ; 200c9e2
+  jmp near _card_shield_of_the_avatar     ; 200c9e7
+  jmp near _card_soul_of_new_phyrexia     ; 200c9ec
+  jmp near _card_sliver_hive     ; 200c9f1
+  jmp near _card_boonweaver_giant     ; 200c9f6
+  jmp near _card_aether_whirlwind     ; 200c9fb
+  jmp near _card_chief_engineer     ; 200ca00
+  jmp near _card_chronostutter     ; 200ca05
+  jmp near _card_jace_the_living_guildpact     ; 200ca0a
+  jmp near _card_kapsho_kitefin     ; 200ca0f
+  jmp near _card_research_assistant     ; 200ca14
+  jmp near _card_festergloom     ; 200ca19
+  jmp near _card_necromancers_stockpile     ; 200ca1e
+  jmp near _card_generator_servant     ; 200ca23
+  jmp near _card_stoke_the_flames     ; 200ca28
+  jmp near _card_lifes_legacy     ; 200ca2d
+  jmp near _card_garruk_predator_emblem     ; 200ca32
+  jmp near _card_garruk_apex_predator     ; 200ca37
+  jmp near _card_sliver_hivelord     ; 200ca3c
+  jmp near _card_stain_the_mind     ; 200ca41
+  jmp near _card_act_on_impulse     ; 200ca46
+  jmp near _card_the_chain_veil     ; 200ca4b
+  jmp near _card_ensoul_artifact     ; 200ca50
+  jmp near _card_leeching_sliver     ; 200ca55
+  jmp near _card_hornet_nest     ; 200ca5a
+  jmp near _card_kalonian_twingrove     ; 200ca5f
+  jmp near _card_treefolk_warrior     ; 200ca64
+  jmp near _card_scuttling_doom_engine     ; 200ca69
+  jmp near _card_constricting_sliver     ; 200ca6e
+  jmp near _card_ephemeral_shield     ; 200ca73
+  jmp near _card_first_response     ; 200ca78
+  jmp near _card_pillar_of_light     ; 200ca7d
+  jmp near _card_sanctified_charge     ; 200ca82
+  jmp near _card_spectral_ward     ; 200ca87
+  jmp near _card_aeronaut_tinkerer     ; 200ca8c
+  jmp near _card_amphin_pathmage     ; 200ca91
+  jmp near _card_diffusion_sliver     ; 200ca96
+  jmp near _card_glacial_crasher     ; 200ca9b
+  jmp near _card_statute_of_denial     ; 200caa0
+  jmp near _card_blood_host     ; 200caa5
+  jmp near _card_carrion_crow     ; 200caaa
+  jmp near _card_eternal_thirst     ; 200caaf
+  jmp near _card_feast_on_the_fallen     ; 200cab4
+  jmp near _card_unmake_the_graves     ; 200cab9
+  jmp near _card_wall_of_limbs     ; 200cabe
+  jmp near _card_altac_bloodseeker     ; 200cac3
+  jmp near _card_belligerent_sliver     ; 200cac8
+  jmp near _card_blastfire_bolt     ; 200cacd
+  jmp near _card_crowds_favor     ; 200cad2
+  jmp near _card_hammerhand     ; 200cad7
+  jmp near _card_scrapyard_mongrel     ; 200cadc
+  jmp near _card_carnivorous_moss_beast     ; 200cae1
+  jmp near _card_feral_incarnation     ; 200cae6
+  jmp near _card_living_totem     ; 200caeb
+  jmp near _card_netcaster_spider     ; 200caf0
+  jmp near _card_nissas_expedition     ; 200caf5
+  jmp near _card_undergrowth_scavenger     ; 200cafa
+  jmp near _card_venom_sliver     ; 200caff
+  jmp near _card_vineweft     ; 200cb04
+  jmp near _card_meteorite     ; 200cb09
+  jmp near _card_profane_memento     ; 200cb0e
+  jmp near _card_rogues_glove     ; 200cb13
+  jmp near _card_sacred_armory     ; 200cb18
+  jmp near _card_tyrants_machine     ; 200cb1d
+  jmp near _card_radiant_fountain     ; 200cb22
+  jmp near _card_mana_crypt     ; 200cb27
+  jmp near _card_sewers_of_estark     ; 200cb2c
+  jmp near _card_rainbow_knights     ; 200cb31
+  jmp near _card_call_from_the_grave     ; 200cb36
+  jmp near _card_prismatic_dragon     ; 200cb3b
+  jmp near _card_pandoras_box     ; 200cb40
+  jmp near _card_gem_bazaar     ; 200cb45
+  jmp near _card_power_struggle     ; 200cb4a
+  jmp near _card_irini_sengir     ; 200cb4f
+  jmp near _card_angel_of_despair     ; 200cb54
+  jmp near _card_angelic_page     ; 200cb59
+  jmp near _card_conquer     ; 200cb5e
+  jmp near _card_ashcoat_bear     ; 200cb63
+  jmp near _card_ashnods_altar     ; 200cb68
+  jmp near _card_assassinate     ; 200cb6d
+  jmp near _card_auratog     ; 200cb72
+  jmp near _card_cloudchaser_eagle     ; 200cb77
+  jmp near _card_aven_fisher     ; 200cb7c
+  jmp near _card_aven_flock     ; 200cb81
+  jmp near _card_beast_of_burden     ; 200cb86
+  jmp near _card_shock2     ; 200cb8b
+  jmp near _card_black_knight     ; 200cb90
+  jmp near _card_blinking_spirit     ; 200cb95
+  jmp near _card_white_knight     ; 200cb9a
+  jmp near _card_bull_cerodon     ; 200cb9f
+  jmp near _card_careful_study     ; 200cba4
+  jmp near _card_catalog     ; 200cba9
+  jmp near _card_cathodion     ; 200cbae
+  jmp near _card_channel_the_suns     ; 200cbb3
+  jmp near _card_choke     ; 200cbb8
+  jmp near _card_cinder_wall     ; 200cbbd
+  jmp near _card_coastal_hornclaw     ; 200cbc2
+  jmp near _card_coercion     ; 200cbc7
+  jmp near _card_collective_unconscious     ; 200cbcc
+  jmp near _card_concentrate     ; 200cbd1
+  jmp near _card_confiscate     ; 200cbd6
+  jmp near _card_ravenous_rats     ; 200cbdb
+  jmp near _card_creeping_mold     ; 200cbe0
+  jmp near _card_cunning_sparkmage     ; 200cbe5
+  jmp near _card_daring_apprentice     ; 200cbea
+  jmp near _card_dark_banishing     ; 200cbef
+  jmp near _card_death_pit_offering     ; 200cbf4
+  jmp near _card_death_pits_of_rath     ; 200cbf9
+  jmp near _card_deepwood_ghoul     ; 200cbfe
+  jmp near _card_defense_grid     ; 200cc03
+  jmp near _card_demolish     ; 200cc08
+  jmp near _card_demystify     ; 200cc0d
+  jmp near _card_diplomatic_immunity     ; 200cc12
+  jmp near _card_dismiss2     ; 200cc17
+  jmp near _card_distorting_lens     ; 200cc1c
+  jmp near _card_earthbind     ; 200cc21
+  jmp near _card_eastern_paladin     ; 200cc26
+  jmp near _card_eladamris_call     ; 200cc2b
+  jmp near _card_elite_archers     ; 200cc30
+  jmp near _card_elite_javelineers     ; 200cc35
+  jmp near _card_elvish_pioneer     ; 200cc3a
+  jmp near _card_emperor_crocodile     ; 200cc3f
+  jmp near _card_ensnaring_bridge     ; 200cc44
+  jmp near _card_evacuation     ; 200cc49
+  jmp near _card_evil_presence     ; 200cc4e
+  jmp near _card_exclude     ; 200cc53
+  jmp near _card_execute     ; 200cc58
+  jmp near _card_fecundity     ; 200cc5d
+  jmp near _card_final_judgment     ; 200cc62
+  jmp near _card_flame_rift     ; 200cc67
+  jmp near _card_fodder_cannon     ; 200cc6c
+  jmp near _card_foratog     ; 200cc71
+  jmp near _card_frogmite     ; 200cc76
+  jmp near _card_gaeas_anthem     ; 200cc7b
+  jmp near _card_galinas_knight     ; 200cc80
+  jmp near _card_giant_badger     ; 200cc85
+  jmp near _card_glimmering_angel     ; 200cc8a
+  jmp near _card_warriors_honor     ; 200cc8f
+  jmp near _card_goblin_artisans     ; 200cc94
+  jmp near _card_goblin_settler     ; 200cc99
+  jmp near _card_heavy_ballista     ; 200cc9e
+  jmp near _card_hibernation2     ; 200cca3
+  jmp near _card_hunted_wumpus     ; 200cca8
+  jmp near _card_index2     ; 200ccad
+  jmp near _card_indrik_stomphowler     ; 200ccb2
+  jmp near _card_infest     ; 200ccb7
+  jmp near _card_spire_owl     ; 200ccbc
+  jmp near _card_inspiration     ; 200ccc1
+  jmp near _card_memory_lapse     ; 200ccc6
+  jmp near _card_last_gasp     ; 200cccb
+  jmp near _card_lava_hounds     ; 200ccd0
+  jmp near _card_lay_of_the_land     ; 200ccd5
+  jmp near _card_lesser_gargadon     ; 200ccda
+  jmp near _card_lhurgoyf     ; 200ccdf
+  jmp near _card_lightning_blast     ; 200cce4
+  jmp near _card_megrim     ; 200cce9
+  jmp near _card_lilianas_specter     ; 200ccee
+  jmp near _card_living_lands     ; 200ccf3
+  jmp near _card_living_wall     ; 200ccf8
+  jmp near _card_maggot_carrier     ; 200ccfd
+  jmp near _card_mana_leak     ; 200cd02
+  jmp near _card_matca_rioters     ; 200cd07
+  jmp near _card_might_of_oaks     ; 200cd0c
+  jmp near _card_mogg_fanatic     ; 200cd11
+  jmp near _card_mogg_sentry     ; 200cd16
+  jmp near _card_monstrous_growth     ; 200cd1b
+  jmp near _card_moonglove_extract     ; 200cd20
+  jmp near _card_mortify     ; 200cd25
+  jmp near _card_murderous_betrayal     ; 200cd2a
+  jmp near _card_nausea     ; 200cd2f
+  jmp near _card_nekrataal     ; 200cd34
+  jmp near _card_nights_whispers     ; 200cd39
+  jmp near _card_nightscape_apprentice     ; 200cd3e
+  jmp near _card_stormscape_apprentice     ; 200cd43
+  jmp near _card_sunscape_apprentice     ; 200cd48
+  jmp near _card_thornscape_apprentice     ; 200cd4d
+  jmp near _card_thunderscape_apprentice     ; 200cd52
+  jmp near _card_noble_panther     ; 200cd57
+  jmp near _card_okk     ; 200cd5c
+  jmp near _card_opportunity     ; 200cd61
+  jmp near _card_oxidize     ; 200cd66
+  jmp near _card_paladin_en_vec     ; 200cd6b
+  jmp near _card_panic_attack     ; 200cd70
+  jmp near _card_patagia_golem     ; 200cd75
+  jmp near _card_pillage     ; 200cd7a
+  jmp near _card_plague_wind     ; 200cd7f
+  jmp near _card_wing_snare     ; 200cd84
+  jmp near _card_ponder     ; 200cd89
+  jmp near _card_primal_frenzy     ; 200cd8e
+  jmp near _card_putrefy     ; 200cd93
+  jmp near _card_pyroclasm     ; 200cd98
+  jmp near _card_rabid_wombat     ; 200cd9d
+  jmp near _card_pyrotechnics     ; 200cda2
+  jmp near _card_rain_of_salt     ; 200cda7
+  jmp near _card_rampant_growth     ; 200cdac
+  jmp near _card_reflexes     ; 200cdb1
+  jmp near _card_remand     ; 200cdb6
+  jmp near _card_sakura_tribe_elder     ; 200cdbb
+  jmp near _card_seething_song     ; 200cdc0
+  jmp near _card_tremor     ; 200cdc5
+  jmp near _card_serra_advocate     ; 200cdca
+  jmp near _card_serras_blessing     ; 200cdcf
+  jmp near _card_serras_embrace     ; 200cdd4
+  jmp near _card_shifting_sky     ; 200cdd9
+  jmp near _card_shrapnel_blast     ; 200cdde
+  jmp near _card_slay2     ; 200cde3
+  jmp near _card_sneaky_homunculus     ; 200cde8
+  jmp near _card_solidarity2     ; 200cded
+  jmp near _card_spellbook     ; 200cdf2
+  jmp near _card_spitting_spider     ; 200cdf7
+  jmp near _card_star_compass     ; 200cdfc
+  jmp near _card_stoic_angel     ; 200ce01
+  jmp near _card_sword_dancer     ; 200ce06
+  jmp near _card_sylvan_scrying     ; 200ce0b
+  jmp near _card_terminate     ; 200ce10
+  jmp near _card_tidings     ; 200ce15
+  jmp near _card_trade_routes     ; 200ce1a
+  jmp near _card_treasure_trove     ; 200ce1f
+  jmp near _card_undermine     ; 200ce24
+  jmp near _card_urzas_miter     ; 200ce29
+  jmp near _card_veteran_armorer     ; 200ce2e
+  jmp near _card_warped_devotion     ; 200ce33
+  jmp near _card_western_paladin     ; 200ce38
+  jmp near _card_windfall     ; 200ce3d
+  jmp near _card_wizened_cenn     ; 200ce42
+  jmp near _card_wood_elves     ; 200ce47
+  jmp near _card_wrath_of_marit_lage     ; 200ce4c
+  jmp near _card_fiend_hunter     ; 200ce51
+  jmp near _card_polymorphists_jest     ; 200ce56
+  jmp near _card_ainok_bon_kin     ; 200ce5b
+  jmp near _card_end_hostilities     ; 200ce60
+  jmp near _card_herald_of_anafenza     ; 200ce65
+  jmp near _card_wingmate_roc     ; 200ce6a
+  jmp near _card_jeskai_elder     ; 200ce6f
+  jmp near _card_jeskai_windscout     ; 200ce74
+  jmp near _card_thousand_winds     ; 200ce79
+  jmp near _card_bitter_revelation     ; 200ce7e
+  jmp near _card_mardu_skullhunter     ; 200ce83
+  jmp near _card_necropolis_fiend     ; 200ce88
+  jmp near _card_shambling_attendants     ; 200ce8d
+  jmp near _card_craters_claw     ; 200ce92
+  jmp near _card_horde_ambusher     ; 200ce97
+  jmp near _card_howl_of_the_horde     ; 200ce9c
+  jmp near _card_mocking_instigator     ; 200cea1
+  jmp near _card_mardu_heart_piercer     ; 200cea6
+  jmp near _card_mardu_warshrieker     ; 200ceab
+  jmp near _card_sarkhan_the_dragonspeaker     ; 200ceb0
+  jmp near _card_sarkhan_the_dragonspeaker_animated     ; 200ceb5
+  jmp near _card_war_name_aspirant     ; 200ceba
+  jmp near _card_heir_of_wilds     ; 200cebf
+  jmp near _card_see_the_unwritten     ; 200cec4
+  jmp near _card_temur_charger     ; 200cec9
+  jmp near _card_abzan_ascendancy     ; 200cece
+  jmp near _card_abzan_guide     ; 200ced3
+  jmp near _card_anafenza_the_foremost     ; 200ced8
+  jmp near _card_ankle_shanker     ; 200cedd
+  jmp near _card_avalanche_tusker     ; 200cee2
+  jmp near _card_crackling_doom     ; 200cee7
+  jmp near _card_duneblast     ; 200ceec
+  jmp near _card_flying_crane_technique     ; 200cef1
+  jmp near _card_icefeather_aven     ; 200cef6
+  jmp near _card_ivorytusk_fortress     ; 200cefb
+  jmp near _card_mardu_ascendancy     ; 200cf00
+  jmp near _card_mindswipe     ; 200cf05
+  jmp near _card_narset_enlightened_master     ; 200cf0a
+  jmp near _card_sage_of_the_inward_eye     ; 200cf0f
+  jmp near _card_sagu_mauler     ; 200cf14
+  jmp near _card_savage_knucklebone     ; 200cf19
+  jmp near _card_sidisi_brood_tyrant     ; 200cf1e
+  jmp near _card_sorin_solemn_visitor     ; 200cf23
+  jmp near _card_sultai_ascendancy     ; 200cf28
+  jmp near _card_sultai_charm     ; 200cf2d
+  jmp near _card_temur_ascendancy     ; 200cf32
+  jmp near _card_utter_end     ; 200cf37
+  jmp near _card_zurgo_helmsmasher     ; 200cf3c
+  jmp near _card_abzan_battle_priest     ; 200cf41
+  jmp near _card_abzan_falconer     ; 200cf46
+  jmp near _card_brave_the_sands     ; 200cf4b
+  jmp near _card_dazzling_ramparts     ; 200cf50
+  jmp near _card_defiant_strike     ; 200cf55
+  jmp near _card_oran_rief_invoker     ; 200cf5a
+  jmp near _card_retreat_to_kazandu     ; 200cf5f
+  jmp near _card_avatar2     ; 200cf64
+  jmp near _card_feat_of_resistance     ; 200cf69
+  jmp near _card_firehoof_cavalry     ; 200cf6e
+  jmp near _card_high_sentinel_of_arashin     ; 200cf73
+  jmp near _card_mardu_hordechief     ; 200cf78
+  jmp near _card_master_of_pearls     ; 200cf7d
+  jmp near _card_rush_of_battle     ; 200cf82
+  jmp near _card_sage_eye_harrier     ; 200cf87
+  jmp near _card_salt_road_patrol     ; 200cf8c
+  jmp near _card_seeker_of_the_way     ; 200cf91
+  jmp near _card_siegecraft     ; 200cf96
+  jmp near _card_suspension_field     ; 200cf9b
+  jmp near _card_take_up_arms     ; 200cfa0
+  jmp near _card_timely_hordemate     ; 200cfa5
+  jmp near _card_war_behemoth     ; 200cfaa
+  jmp near _card_watcher_of_the_roost     ; 200cfaf
+  jmp near _card_blinding_spray     ; 200cfb4
+  jmp near _card_clever_impersonator     ; 200cfb9
+  jmp near _card_dig_through_time     ; 200cfbe
+  jmp near _card_disdainful_stroke     ; 200cfc3
+  jmp near _card_dragons_eye_savants     ; 200cfc8
+  jmp near _card_embodiment_of_spring     ; 200cfcd
+  jmp near _card_force_away     ; 200cfd2
+  jmp near _card_glacial_stalker     ; 200cfd7
+  jmp near _card_icy_blast     ; 200cfdc
+  jmp near _card_khero_spellsnatcher     ; 200cfe1
+  jmp near _card_mistfire_weaver     ; 200cfe6
+  jmp near _card_monastery_flock     ; 200cfeb
+  jmp near _card_mystic_of_the_hidden_way     ; 200cff0
+  jmp near _card_pearl_lake_ancient     ; 200cff5
+  jmp near _card_quiet_contemplation     ; 200cffa
+  jmp near _card_set_adrift     ; 200cfff
+  jmp near _card_singing_bell_strike     ; 200d004
+  jmp near _card_stubborn_denial     ; 200d009
+  jmp near _card_taigams_scheming     ; 200d00e
+  jmp near _card_treasure_cruise     ; 200d013
+  jmp near _card_waterwhirl     ; 200d018
+  jmp near _card_whirlwind_adept     ; 200d01d
+  jmp near _card_bellowing_saddlebrute     ; 200d022
+  jmp near _card_bloodsoaked_champion     ; 200d027
+  jmp near _card_dead_drop     ; 200d02c
+  jmp near _card_disowned_ancestor     ; 200d031
+  jmp near _card_empty_the_pits     ; 200d036
+  jmp near _card_grim_haruspex     ; 200d03b
+  jmp near _card_kheru_bloodsucker     ; 200d040
+  jmp near _card_kheru_dreadmaw     ; 200d045
+  jmp near _card_krumar_bond_kin     ; 200d04a
+  jmp near _card_mer_ek_nightblade     ; 200d04f
+  jmp near _card_molting_snakeskin     ; 200d054
+  jmp near _card_murderous_cut     ; 200d059
+  jmp near _card_raiders_spoil     ; 200d05e
+  jmp near _card_rakshasas_secret     ; 200d063
+  jmp near _card_retribution_of_the_ancients     ; 200d068
+  jmp near _card_ruthless_ripper     ; 200d06d
+  jmp near _card_rite_of_the_serpent     ; 200d072
+  jmp near _card_sidisis_pet     ; 200d077
+  jmp near _card_swarm_of_bloodflies     ; 200d07c
+  jmp near _card_unyielding_krumar     ; 200d081
+  jmp near _card_ainok_tracker     ; 200d086
+  jmp near _card_arrow_storm     ; 200d08b
+  jmp near _card_ashcloud_phoenix     ; 200d090
+  jmp near _card_barrage_of_boulders     ; 200d095
+  jmp near _card_bloodfire_mentor     ; 200d09a
+  jmp near _card_bring_low     ; 200d09f
+  jmp near _card_burn_away     ; 200d0a4
+  jmp near _card_canyon_lurker     ; 200d0a9
+  jmp near _card_dragon_grip     ; 200d0ae
+  jmp near _card_goblinslide     ; 200d0b3
+  jmp near _card_leaping_master     ; 200d0b8
+  jmp near _card_monastery_swiftspear     ; 200d0bd
+  jmp near _card_swift_kick     ; 200d0c2
+  jmp near _card_tormenting_voice     ; 200d0c7
+  jmp near _card_archers_parapet     ; 200d0cc
+  jmp near _card_become_immense     ; 200d0d1
+  jmp near _card_dragonscale_boon     ; 200d0d6
+  jmp near _card_feed_the_clan     ; 200d0db
+  jmp near _card_hooded_hydra     ; 200d0e0
+  jmp near _card_kin_tree_warden     ; 200d0e5
+  jmp near _card_longshot_squad     ; 200d0ea
+  jmp near _card_meandering_towershell     ; 200d0ef
+  jmp near _card_pine_walker     ; 200d0f4
+  jmp near _card_roar_of_challenge     ; 200d0f9
+  jmp near _card_savage_punch     ; 200d0fe
+  jmp near _card_smoke_teller     ; 200d103
+  jmp near _card_sultay_flayer     ; 200d108
+  jmp near _card_trail_of_mystery     ; 200d10d
+  jmp near _card_tuskguard_captain     ; 200d112
+  jmp near _card_windstorm     ; 200d117
+  jmp near _card_wolly_loxodon     ; 200d11c
+  jmp near _card_abomination_of_gudul     ; 200d121
+  jmp near _card_abzan_charm     ; 200d126
+  jmp near _card_armament_corps     ; 200d12b
+  jmp near _card_bears_companion     ; 200d130
+  jmp near _card_butcher_of_the_horde     ; 200d135
+  jmp near _card_chief_of_the_edge     ; 200d13a
+  jmp near _card_chief_of_the_scale     ; 200d13f
+  jmp near _card_death_frenzy     ; 200d144
+  jmp near _card_deflecting_palm     ; 200d149
+  jmp near _card_efreet_weaponmaster     ; 200d14e
+  jmp near _card_jeskai_ascendancy     ; 200d153
+  jmp near _card_jeskai_charm     ; 200d158
+  jmp near _card_kheru_lich_lord     ; 200d15d
+  jmp near _card_kin_tree_invocation     ; 200d162
+  jmp near _card_mardu_charm     ; 200d167
+  jmp near _card_mardu_roughrider     ; 200d16c
+  jmp near _card_master_the_way     ; 200d171
+  jmp near _card_ponyback_brigade     ; 200d176
+  jmp near _card_rakshasa_deathdealer     ; 200d17b
+  jmp near _card_ride_down     ; 200d180
+  jmp near _card_secret_plan     ; 200d185
+  jmp near _card_siege_rhino     ; 200d18a
+  jmp near _card_snowhorn_rider     ; 200d18f
+  jmp near _card_trap_essence     ; 200d194
+  jmp near _card_villainous_wealth     ; 200d199
+  jmp near _card_warden_of_the_eye     ; 200d19e
+  jmp near _card_winterflame     ; 200d1a3
+  jmp near _card_tomb_of_the_spirit_dragon     ; 200d1a8
+  jmp near _card_altar_of_the_brood     ; 200d1ad
+  jmp near _card_bribers_purse     ; 200d1b2
+  jmp near _card_cranial_archive     ; 200d1b7
+  jmp near _card_dragon_throne_of_tarkir     ; 200d1bc
+  jmp near _card_ghostfire_blade     ; 200d1c1
+  jmp near _card_heart_piercer_bow     ; 200d1c6
+  jmp near _card_lens_of_clarity     ; 200d1cb
+  jmp near _card_ugins_nexus     ; 200d1d0
+  jmp near _card_witness_of_the_ages     ; 200d1d5
+  jmp near _card_hordeling_outburst     ; 200d1da
+  jmp near _card_rattleclaw_mystic     ; 200d1df
+  jmp near _card_sultai_soothsayer     ; 200d1e4
+  jmp near _card_surrak_dragonclaw     ; 200d1e9
+  jmp near _card_temur_charm     ; 200d1ee
+  jmp near _card_barbed_shocker     ; 200d1f3
+  jmp near _card_sorin_solemn_visitor_emblem     ; 200d1f8
+  jmp near _card_sarkhan_the_dragonspeaker_emblem     ; 200d1fd
+  jmp near _card_angel_of_the_dire_hour     ; 200d202
+  jmp near _card_angelic_field_marshal     ; 200d207
+  jmp near _card_benevolent_offering     ; 200d20c
+  jmp near _card_comeuppance     ; 200d211
+  jmp near _card_containment_priest     ; 200d216
+  jmp near _card_deploy_to_the_front     ; 200d21b
+  jmp near _card_fell_the_mighty     ; 200d220
+  jmp near _card_hallowed_spiritkeeper     ; 200d225
+  jmp near _card_jazal_goldmane     ; 200d22a
+  jmp near _card_nahiri_the_lithomancer     ; 200d22f
+  jmp near _card_stoneforged_blade     ; 200d234
+  jmp near _card_aether_gale     ; 200d239
+  jmp near _card_breaching_leaviathan     ; 200d23e
+  jmp near _card_domineering_will     ; 200d243
+  jmp near _card_dulcet_siren     ; 200d248
+  jmp near _card_intellectual_offering     ; 200d24d
+  jmp near _card_whale_token     ; 200d252
+  jmp near _card_fish_token     ; 200d257
+  jmp near _card_reef_worm     ; 200d25c
+  jmp near _card_stitcher_geralf     ; 200d261
+  jmp near _card_stormsurge_kraken     ; 200d266
+  jmp near _card_teferis_emblem     ; 200d26b
+  jmp near _card_teferi_temporal_archmage     ; 200d270
+  jmp near _card_well_of_ideas     ; 200d275
+  jmp near _card_demone_of_wailing_agonies     ; 200d27a
+  jmp near _card_flesh_carver     ; 200d27f
+  jmp near _card_ghoulcaller_gisa     ; 200d284
+  jmp near _card_infernal_offering     ; 200d289
+  jmp near _card_malicious_affliction     ; 200d28e
+  jmp near _card_necromantic_selection     ; 200d293
+  jmp near _card_ob_nilixis_of_the_black_oath     ; 200d298
+  jmp near _card_ob_nilixis_emblem     ; 200d29d
+  jmp near _card_overseer_of_the_damned     ; 200d2a2
+  jmp near _card_raving_dead     ; 200d2a7
+  jmp near _card_spoils_of_blood     ; 200d2ac
+  jmp near _card_wake_the_dead     ; 200d2b1
+  jmp near _card_daretti_scrap_savant     ; 200d2b6
+  jmp near _card_daretti_emblem     ; 200d2bb
+  jmp near _card_dualcaster_mage     ; 200d2c0
+  jmp near _card_feldon_of_the_third_path     ; 200d2c5
+  jmp near _card_impact_resonance     ; 200d2ca
+  jmp near _card_incite_rebellion     ; 200d2cf
+  jmp near _card_scrap_mastery     ; 200d2d4
+  jmp near _card_tyrants_familiar     ; 200d2d9
+  jmp near _card_volcanic_offering     ; 200d2de
+  jmp near _card_warmonge_hellkite     ; 200d2e3
+  jmp near _card_creeperhulk     ; 200d2e8
+  jmp near _card_elf_druid     ; 200d2ed
+  jmp near _card_freyalise_llanowars_fury     ; 200d2f2
+  jmp near _card_gravesifter     ; 200d2f7
+  jmp near _card_lifeblood_hydra     ; 200d2fc
+  jmp near _card_siege_behemoth     ; 200d301
+  jmp near _card_song_of_the_dryads     ; 200d306
+  jmp near _card_sylvan_offering     ; 200d30b
+  jmp near _card_thunderfoot_baloth     ; 200d310
+  jmp near _card_titania_protector_of_argoth     ; 200d315
+  jmp near _card_wave_of_vitriol     ; 200d31a
+  jmp near _card_wolfcallers_howl     ; 200d31f
+  jmp near _card_arcane_lighthouse     ; 200d324
+  jmp near _card_flamekin_village     ; 200d329
+  jmp near _card_myriad_landscape     ; 200d32e
+  jmp near _card_assault_suit     ; 200d333
+  jmp near _card_commanders_sphere     ; 200d338
+  jmp near _card_crown_of_doom     ; 200d33d
+  jmp near _card_loreseekers_stone     ; 200d342
+  jmp near _card_masterwork_of_ingenuity     ; 200d347
+  jmp near _card_unstable_obelisk     ; 200d34c
+  jmp near _card_armistice     ; 200d351
+  jmp near _card_annihilate     ; 200d356
+  jmp near _card_syphon_mind     ; 200d35b
+  jmp near _card_fools_demise     ; 200d360
+  jmp near _card_zoetic_cavern     ; 200d365
+  jmp near _card_hush     ; 200d36a
+  jmp near _card_lay_waste     ; 200d36f
+  jmp near _card_veil_of_birds     ; 200d374
+  jmp near _card_wizard_mentor     ; 200d379
+  jmp near _card_crux_of_fate     ; 200d37e
+  jmp near _card_yasova_dragonclaw     ; 200d383
+  jmp near _card_valorous_stance     ; 200d388
+  jmp near _card_sandsteppe_mastodon     ; 200d38d
+  jmp near _card_ugin_the_spirit_dragon     ; 200d392
+  jmp near _card_daghatar_the_adamant     ; 200d397
+  jmp near _card_dragonscale_general     ; 200d39c
+  jmp near _card_honors_reward     ; 200d3a1
+  jmp near _card_lightform     ; 200d3a6
+  jmp near _card_monastery_mentor     ; 200d3ab
+  jmp near _card_soul_summons     ; 200d3b0
+  jmp near _card_wandering_champion     ; 200d3b5
+  jmp near _card_abzan_advantage     ; 200d3ba
+  jmp near _card_abzan_runemark     ; 200d3bf
+  jmp near _card_abzan_skycaptain     ; 200d3c4
+  jmp near _card_channel_harm     ; 200d3c9
+  jmp near _card_citadel_siege     ; 200d3ce
+  jmp near _card_elite_scaleguard     ; 200d3d3
+  jmp near _card_jeskai_barricade     ; 200d3d8
+  jmp near _card_mardu_woe_reaper     ; 200d3dd
+  jmp near _card_mastery_of_the_unseen     ; 200d3e2
+  jmp near _card_pressure_point     ; 200d3e7
+  jmp near _card_sages_reverie     ; 200d3ec
+  jmp near _card_sandblast     ; 200d3f1
+  jmp near _card_sandsteppe_outcast     ; 200d3f6
+  jmp near _card_wardscale_dragon     ; 200d3fb
+  jmp near _card_lotus_eye_mystics     ; 200d400
+  jmp near _card_aven_surveyor     ; 200d405
+  jmp near _card_cloudform     ; 200d40a
+  jmp near _card_enchanted_awareness     ; 200d40f
+  jmp near _card_fascination     ; 200d414
+  jmp near _card_jeskai_infiltrator     ; 200d419
+  jmp near _card_jeskai_runemark     ; 200d41e
+  jmp near _card_jeskai_sage     ; 200d423
+  jmp near _card_marang_river_prowler     ; 200d428
+  jmp near _card_mindscour_dragon     ; 200d42d
+  jmp near _card_mistfire_adept     ; 200d432
+  jmp near _card_neutralizing_blast     ; 200d437
+  jmp near _card_rakshasas_disdain     ; 200d43c
+  jmp near _card_reality_shift     ; 200d441
+  jmp near _card_refocus     ; 200d446
+  jmp near _card_renowned_weaponsmith     ; 200d44b
+  jmp near _card_rite_of_undoing     ; 200d450
+  jmp near _card_sage_eye_avengers     ; 200d455
+  jmp near _card_shifting_loyalties     ; 200d45a
+  jmp near _card_shun_yun_the_silent_tempest     ; 200d45f
+  jmp near _card_supplant_form     ; 200d464
+  jmp near _card_torrent_elemental     ; 200d469
+  jmp near _card_whisk_away     ; 200d46e
+  jmp near _card_will_of_the_naga     ; 200d473
+  jmp near _card_write_into_being     ; 200d478
+  jmp near _card_aleshas_vanguard     ; 200d47d
+  jmp near _card_ancestral_vengeance     ; 200d482
+  jmp near _card_archfiend_of_depravity     ; 200d487
+  jmp near _card_battle_brawler     ; 200d48c
+  jmp near _card_brutal_hordechief     ; 200d491
+  jmp near _card_dark_deal     ; 200d496
+  jmp near _card_diplomacy_of_the_wastes     ; 200d49b
+  jmp near _card_fearsome_awakening     ; 200d4a0
+  jmp near _card_ghastly_conscripts     ; 200d4a5
+  jmp near _card_grave_strenght     ; 200d4aa
+  jmp near _card_hooded_assasin     ; 200d4af
+  jmp near _card_mardu_shadowspear     ; 200d4b4
+  jmp near _card_mardu_strike_leader     ; 200d4b9
+  jmp near _card_noxious_dragon     ; 200d4be
+  jmp near _card_orc_sureshot     ; 200d4c3
+  jmp near _card_palace_siege     ; 200d4c8
+  jmp near _card_qarsi_high_priest     ; 200d4cd
+  jmp near _card_reach_of_shadows     ; 200d4d2
+  jmp near _card_sibsig_host     ; 200d4d7
+  jmp near _card_sibsig_muckdraggers     ; 200d4dc
+  jmp near _card_soulflayer     ; 200d4e1
+  jmp near _card_sultai_emissary     ; 200d4e6
+  jmp near _card_sultai_runemark     ; 200d4eb
+  jmp near _card_tasigur_the_golden_fang     ; 200d4f0
+  jmp near _card_tasigur_cruelty     ; 200d4f5
+  jmp near _card_alesha_who_smileas_at_death     ; 200d4fa
+  jmp near _card_arcbond     ; 200d4ff
+  jmp near _card_bloodfire_enforcer     ; 200d504
+  jmp near _card_break_through_the_line     ; 200d509
+  jmp near _card_collateral_damage     ; 200d50e
+  jmp near _card_defiant_ogre     ; 200d513
+  jmp near _card_dragonrage     ; 200d518
+  jmp near _card_fierce_invocation     ; 200d51d
+  jmp near _card_extruder     ; 200d522
+  jmp near _card_flamerush_rider     ; 200d527
+  jmp near _card_friendly_fire     ; 200d52c
+  jmp near _card_goblin_heelcutter     ; 200d531
+  jmp near _card_humble_defector     ; 200d536
+  jmp near _card_hungering_yeti     ; 200d53b
+  jmp near _card_lightning_shrieker     ; 200d540
+  jmp near _card_mardu_runemark     ; 200d545
+  jmp near _card_mardu_scout     ; 200d54a
+  jmp near _card_mob_rule     ; 200d54f
+  jmp near _card_outpost_siege     ; 200d554
+  jmp near _card_rageform     ; 200d559
+  jmp near _card_shaman_of_the_great_hunt     ; 200d55e
+  jmp near _card_shockmaw_dragon     ; 200d563
+  jmp near _card_smoldering_efreet     ; 200d568
+  jmp near _card_temur_battle_rage     ; 200d56d
+  jmp near _card_vaultbreaker     ; 200d572
+  jmp near _card_wild_slash     ; 200d577
+  jmp near _card_abzan_beastmaster     ; 200d57c
+  jmp near _card_abzan_kin_guard     ; 200d581
+  jmp near _card_ainok_guide     ; 200d586
+  jmp near _card_ambush_krotiq     ; 200d58b
+  jmp near _card_arashin_war_beast     ; 200d590
+  jmp near _card_battlefront_krushok     ; 200d595
+  jmp near _card_cached_defenses     ; 200d59a
+  jmp near _card_destructor_dragon     ; 200d59f
+  jmp near _card_formless_nurturing     ; 200d5a4
+  jmp near _card_frontier_mastodon     ; 200d5a9
+  jmp near _card_frontier_siege     ; 200d5ae
+  jmp near _card_fruit_of_the_first_tree     ; 200d5b3
+  jmp near _card_map_the_wastes     ; 200d5b8
+  jmp near _card_return_to_the_earth     ; 200d5bd
+  jmp near _card_ruthless_instincts     ; 200d5c2
+  jmp near _card_ash_zealot     ; 200d5c7
+  jmp near _card_flayer_of_the_hatebound     ; 200d5cc
+  jmp near _card_shamanic_revelation     ; 200d5d1
+  jmp near _card_sudden_reclamation     ; 200d5d6
+  jmp near _card_temur_runemark     ; 200d5db
+  jmp near _card_temur_sabretooth     ; 200d5e0
+  jmp near _card_temur_war_shaman     ; 200d5e5
+  jmp near _card_warden_of_the_first_tree     ; 200d5ea
+  jmp near _card_whisperer_of_the_wilds     ; 200d5ef
+  jmp near _card_whisperwood_elemental     ; 200d5f4
+  jmp near _card_wildcall     ; 200d5f9
+  jmp near _card_winds_of_qal_sisma     ; 200d5fe
+  jmp near _card_atarka_world_render     ; 200d603
+  jmp near _card_cunning_strike     ; 200d608
+  jmp near _card_dromoka_the_eternal     ; 200d60d
+  jmp near _card_ethereal_ambush     ; 200d612
+  jmp near _card_grim_contest     ; 200d617
+  jmp near _card_harsh_sustenance     ; 200d61c
+  jmp near _card_kologhan_the_storms_fury     ; 200d621
+  jmp near _card_ojutai_soul_of_winter     ; 200d626
+  jmp near _card_silumgar_the_drifting_death     ; 200d62b
+  jmp near _card_war_flare     ; 200d630
+  jmp near _card_goblin_boom_keg     ; 200d635
+  jmp near _card_heros_blade     ; 200d63a
+  jmp near _card_hewer_stone_retainer     ; 200d63f
+  jmp near _card_scroll_of_the_masters     ; 200d644
+  jmp near _card_ugins_contruct     ; 200d649
+  jmp near _card_dragon_bell_monk     ; 200d64e
+  jmp near _card_rally_the_ancestors     ; 200d653
+  jmp near _card_soulfire_grand_master     ; 200d658
+  jmp near _card_temporal_trespass     ; 200d65d
+  jmp near _card_mystic_visionary     ; 200d662
+  jmp near _card_divine_intervention     ; 200d667
+  jmp near _card_lord_magnus     ; 200d66c
+  jmp near _card_ambush     ; 200d671
+  jmp near _card_an_havva_constable     ; 200d676
+  jmp near _card_an_havva_inn     ; 200d67b
+  jmp near _card_an_havva_township     ; 200d680
+  jmp near _card_aysen_abbey     ; 200d685
+  jmp near _card_castle_sengir     ; 200d68a
+  jmp near _card_koskun_keep     ; 200d68f
+  jmp near _card_wizards_school     ; 200d694
+  jmp near _card_abbey_matron     ; 200d699
+  jmp near _card_apocalypse_chime     ; 200d69e
+  jmp near _card_aysen_highway     ; 200d6a3
+  jmp near _card_bakis_curse     ; 200d6a8
+  jmp near _card_beast_walkers     ; 200d6ad
+  jmp near _card_carapace     ; 200d6b2
+  jmp near _card_clockwork_gnomes     ; 200d6b7
+  jmp near _card_coral_reef     ; 200d6bc
+  jmp near _card_dark_maze     ; 200d6c1
+  jmp near _card_dwarven_sea_clan     ; 200d6c6
+  jmp near _card_evaporate     ; 200d6cb
+  jmp near _card_folk_of_an_havva     ; 200d6d0
+  jmp near _card_root_spider     ; 200d6d5
+  jmp near _card_funeral_march     ; 200d6da
+  jmp near _card_ghost_hounds     ; 200d6df
+  jmp near _card_headstone     ; 200d6e4
+  jmp near _card_ironclaw_curse     ; 200d6e9
+  jmp near _card_jinx     ; 200d6ee
+  jmp near _card_leaping_lizard     ; 200d6f3
+  jmp near _card_mammoth_harness     ; 200d6f8
+  jmp near _card_orcish_mine     ; 200d6fd
+  jmp near _card_prophecy     ; 200d702
+  jmp near _card_rashka_the_slayer     ; 200d707
+  jmp near _card_renewal     ; 200d70c
+  jmp near _card_serra_inquisitors     ; 200d711
+  jmp near _card_veldrane_of_sengir     ; 200d716
+  jmp near _card_sea_troll     ; 200d71b
+  jmp near _card_winter_sky     ; 200d720
+  jmp near _card_call_to_arms     ; 200d725
+  jmp near _card_chaos_lord     ; 200d72a
+  jmp near _card_drift_of_the_dead     ; 200d72f
+  jmp near _card_burning_sands     ; 200d734
+  jmp near _card_earthlink     ; 200d739
+  jmp near _card_thunder_wall     ; 200d73e
+  jmp near _card_wall_of_lava     ; 200d743
+  jmp near _card_glaciers     ; 200d748
+  jmp near _card_elder_druid     ; 200d74d
+  jmp near _card_gorilla_pack     ; 200d752
+  jmp near _card_krovikan_fetish     ; 200d757
+  jmp near _card_leshracs_rite     ; 200d75c
+  jmp near _card_sibilant_spirit     ; 200d761
+  jmp near _card_stone_spirit     ; 200d766
+  jmp near _card_stonehands     ; 200d76b
+  jmp near _card_essence_flare     ; 200d770
+  jmp near _card_maddening_wind     ; 200d775
+  jmp near _card_snow_devil     ; 200d77a
+  jmp near _card_wings_of_aesthir     ; 200d77f
+  jmp near _card_pyknite     ; 200d784
+  jmp near _card_fyndhorn_brownie     ; 200d789
+  jmp near _card_formation     ; 200d78e
+  jmp near _card_lightning_blow     ; 200d793
+  jmp near _card_updraft     ; 200d798
+  jmp near _card_land_cap     ; 200d79d
+  jmp near _card_storm_spirit     ; 200d7a2
+  jmp near _card_fanatical_fever     ; 200d7a7
+  jmp near _card_flare     ; 200d7ac
+  jmp near _card_flow_of_maggots     ; 200d7b1
+  jmp near _card_rally     ; 200d7b6
+  jmp near _card_folk_of_the_pines     ; 200d7bb
+  jmp near _card_hyalopterous_lemure     ; 200d7c0
+  jmp near _card_trailblazer     ; 200d7c5
+  jmp near _card_touch_of_death     ; 200d7ca
+  jmp near _card_enervate     ; 200d7cf
+  jmp near _card_infuse     ; 200d7d4
+  jmp near _card_tarpan     ; 200d7d9
+  jmp near _card_snowblind     ; 200d7de
+  jmp near _card_karplusan_yeti     ; 200d7e3
+  jmp near _card_kelsinko_ranger     ; 200d7e8
+  jmp near _card_mind_ravel     ; 200d7ed
+  jmp near _card_essence_filter     ; 200d7f2
+  jmp near _card_force_void     ; 200d7f7
+  jmp near _card_foul_familiar     ; 200d7fc
+  jmp near _card_warning     ; 200d801
+  jmp near _card_kjeldoran_knight     ; 200d806
+  jmp near _card_errant_minion     ; 200d80b
+  jmp near _card_zuran_enchanter     ; 200d810
+  jmp near _card_shambling_strider     ; 200d815
+  jmp near _card_war_chariot     ; 200d81a
+  jmp near _card_mole_worms     ; 200d81f
+  jmp near _card_snow_hound     ; 200d824
+  jmp near _card_monsoon     ; 200d829
+  jmp near _card_ray_of_erasure     ; 200d82e
+  jmp near _card_errantry     ; 200d833
+  jmp near _card_snow_fortress     ; 200d838
+  jmp near _card_word_of_blasting     ; 200d83d
+  jmp near _card_imposing_visage     ; 200d842
+  jmp near _card_heal     ; 200d847
+  jmp near _card_sacred_boon     ; 200d84c
+  jmp near _card_withering_wisps     ; 200d851
+  jmp near _card_gravebind     ; 200d856
+  jmp near _card_vertigo     ; 200d85b
+  jmp near _card_goblin_lyre     ; 200d860
+  jmp near _card_mind_warp     ; 200d865
+  jmp near _card_hydroblast     ; 200d86a
+  jmp near _card_pyroblast     ; 200d86f
+  jmp near _card_foxfire     ; 200d874
+  jmp near _card_walking_wall     ; 200d879
+  jmp near _card_panic     ; 200d87e
+  jmp near _card_hematite_talisman     ; 200d883
+  jmp near _card_lapis_lazuli_talisman     ; 200d888
+  jmp near _card_malachite_talisman     ; 200d88d
+  jmp near _card_nacre_talisman     ; 200d892
+  jmp near _card_onyx_talisman     ; 200d897
+  jmp near _card_freyalises_charm     ; 200d89c
+  jmp near _card_mountain_titan     ; 200d8a1
+  jmp near _card_ice_floe     ; 200d8a6
+  jmp near _card_illusionary_terrain     ; 200d8ab
+  jmp near _card_johtull_wurm     ; 200d8b0
+  jmp near _effect_card_text_replace_pipe_n     ; 200d8b5
+  jmp near _card_mesmeric_trance     ; 200d8ba
+  jmp near _card_aven_sunstriker     ; 200d8bf
+  jmp near _card_misthoof_kirin     ; 200d8c4
+  jmp near _card_dirgur_nemesis     ; 200d8c9
+  jmp near _card_gudul_lurker     ; 200d8ce
+  jmp near _card_ojutai_interceptor     ; 200d8d3
+  jmp near _card_marang_river_skeleton     ; 200d8d8
+  jmp near _card_marsh_hulk     ; 200d8dd
+  jmp near _card_stormcrag_elemental     ; 200d8e2
+  jmp near _card_aerie_bowmasters     ; 200d8e7
+  jmp near _card_segmented_krotiq     ; 200d8ec
+  jmp near _card_pitiless_horde     ; 200d8f1
+  jmp near _card_reckless_imp     ; 200d8f6
+  jmp near _card_kolaghan_forerunners     ; 200d8fb
+  jmp near _card_lightning_berserker     ; 200d900
+  jmp near _card_sprinting_warbrute     ; 200d905
+  jmp near _card_zurgo_bellstriker     ; 200d90a
+  jmp near _card_atarka_pummeler     ; 200d90f
+  jmp near _card_dragon_whisperer     ; 200d914
+  jmp near _card_sabertooth_outrider     ; 200d919
+  jmp near _card_sarkhans_rage     ; 200d91e
+  jmp near _card_sarkhans_triumph     ; 200d923
+  jmp near _card_atarka_beastbreaker     ; 200d928
+  jmp near _card_circle_of_elders     ; 200d92d
+  jmp near _card_dragon_scarred_bear     ; 200d932
+  jmp near _card_glade_watcher     ; 200d937
+  jmp near _card_stampeding_elk_herd     ; 200d93c
+  jmp near _card_roast     ; 200d941
+  jmp near _card_anafenza_kin_tree_spirit     ; 200d946
+  jmp near _card_arashin_foremost     ; 200d94b
+  jmp near _card_artful_maneuver     ; 200d950
+  jmp near _card_aven_tactician     ; 200d955
+  jmp near _card_dromoka_captain     ; 200d95a
+  jmp near _card_dromoka_dunecaster     ; 200d95f
+  jmp near _card_echoes_of_the_kin_tree     ; 200d964
+  jmp near _card_enduring_victory     ; 200d969
+  jmp near _card_glaring_aegis     ; 200d96e
+  jmp near _card_graceblade_artisan     ; 200d973
+  jmp near _card_great_teachers_decree     ; 200d978
+  jmp near _card_herald_of_dromoka     ; 200d97d
+  jmp near _card_hidden_dragonslayer     ; 200d982
+  jmp near _card_lightwalker     ; 200d987
+  jmp near _card_myth_realized     ; 200d98c
+  jmp near _card_gleam_of_authority     ; 200d991
+  jmp near _card_monk_token     ; 200d996
+  jmp near _card_ojutai_exemplars     ; 200d99b
+  jmp near _card_resupply     ; 200d9a0
+  jmp near _card_orator_of_ojutai     ; 200d9a5
+  jmp near _card_dragonlords_prerogative     ; 200d9aa
+  jmp near _card_silumgars_scorn     ; 200d9af
+  jmp near _card_foul_tongue_invocation     ; 200d9b4
+  jmp near _card_draconic_roar     ; 200d9b9
+  jmp near _card_scaleguard_sentinels     ; 200d9be
+  jmp near _card_profound_journey     ; 200d9c3
+  jmp near _card_radiant_purge     ; 200d9c8
+  jmp near _card_scale_blessing     ; 200d9cd
+  jmp near _card_secure_the_wastes     ; 200d9d2
+  jmp near _card_shieldhide_dragon     ; 200d9d7
+  jmp near _card_belltoll_dragon     ; 200d9dc
+  jmp near _card_acid_spewer_dragon     ; 200d9e1
+  jmp near _card_stormwing_dragon     ; 200d9e6
+  jmp near _card_herdchaser_dragon     ; 200d9eb
+  jmp near _card_silkwrap     ; 200d9f0
+  jmp near _card_strongarm_monk     ; 200d9f5
+  jmp near _card_student_of_ojutai     ; 200d9fa
+  jmp near _card_sunscorch_regent     ; 200d9ff
+  jmp near _card_surge_of_righteousness     ; 200da04
+  jmp near _card_anticipate     ; 200da09
+  jmp near _card_blessed_reincarnation     ; 200da0e
+  jmp near _card_clone_legion     ; 200da13
+  jmp near _card_dance_of_the_skywise     ; 200da18
+  jmp near _card_elusive_spellfist     ; 200da1d
+  jmp near _card_encase_in_ice     ; 200da22
+  jmp near _card_glint     ; 200da27
+  jmp near _card_gurmag_drowner     ; 200da2c
+  jmp near _card_illusory_gains     ; 200da31
+  jmp near _card_learn_from_the_past     ; 200da36
+  jmp near _card_mirror_mockery     ; 200da3b
+  jmp near _card_monastery_loremaster     ; 200da40
+  jmp near _card_mystic_meditation     ; 200da45
+  jmp near _card_ojutais_breath     ; 200da4a
+  jmp near _card_ojutais_summons     ; 200da4f
+  jmp near _card_profaner_of_the_dead     ; 200da54
+  jmp near _card_reduce_in_stature     ; 200da59
+  jmp near _card_shorecrasher_elemental     ; 200da5e
+  jmp near _card_sidisis_faithful     ; 200da63
+  jmp near _card_sight_beyond_sight     ; 200da68
+  jmp near _card_silumgar_sorcerer     ; 200da6d
+  jmp near _card_skywise_teachings     ; 200da72
+  jmp near _card_taigams_strike     ; 200da77
+  jmp near _card_void_squall     ; 200da7c
+  jmp near _card_youthful_scholar     ; 200da81
+  jmp near _card_zephyr_scribe     ; 200da86
+  jmp near _card_ambuscade_shaman     ; 200da8b
+  jmp near _card_blood_chin_fanatic     ; 200da90
+  jmp near _card_blood_chin_rager     ; 200da95
+  jmp near _card_butchers_glee     ; 200da9a
+  jmp near _card_coat_with_venom     ; 200da9f
+  jmp near _card_damnable_pact     ; 200daa4
+  jmp near _card_deadly_wanderings     ; 200daa9
+  jmp near _card_deathbringer_regent     ; 200daae
+  jmp near _card_defeat     ; 200dab3
+  jmp near _card_dutiful_attendant     ; 200dab8
+  jmp near _card_foul_renewal     ; 200dabd
+  jmp near _card_foul_tongue_shriek     ; 200dac2
+  jmp near _card_minister_of_pain     ; 200dac7
+  jmp near _card_qarsi_sadist     ; 200dacc
+  jmp near _card_rakshasa_gravecaller     ; 200dad1
+  jmp near _card_self_inflicted_wound     ; 200dad6
+  jmp near _card_shambling_goblin     ; 200dadb
+  jmp near _card_sibsig_icebreakers     ; 200dae0
+  jmp near _card_sidisi_undead_vizier     ; 200dae5
+  jmp near _card_silumgar_assassin     ; 200daea
+  jmp near _card_silumgar_butcher     ; 200daef
+  jmp near _card_virulent_plague     ; 200daf4
+  jmp near _card_vulturous_aven     ; 200daf9
+  jmp near _card_atarka_efreet     ; 200dafe
+  jmp near _card_berserkes_onslaught     ; 200db03
+  jmp near _card_crater_elemental     ; 200db08
+  jmp near _card_dragon_tempest     ; 200db0d
+  jmp near _card_dragonlords_servant     ; 200db12
+  jmp near _card_impact_tremors     ; 200db17
+  jmp near _card_kolaghan_stormsinger     ; 200db1c
+  jmp near _card_lose_calm     ; 200db21
+  jmp near _card_rending_volley     ; 200db26
+  jmp near _card_seismic_rupture     ; 200db2b
+  jmp near _card_tail_slash     ; 200db30
+  jmp near _card_vandalize     ; 200db35
+  jmp near _card_volcanic_rush     ; 200db3a
+  jmp near _card_volcanic_vision     ; 200db3f
+  jmp near _card_warbringer     ; 200db44
+  jmp near _card_sandsteppe_scavenger     ; 200db49
+  jmp near _card_servant_of_the_scale     ; 200db4e
+  jmp near _card_shape_the_sands     ; 200db53
+  jmp near _card_sheltered_aerie     ; 200db58
+  jmp near _card_sight_of_the_scalelords     ; 200db5d
+  jmp near _card_sunbringers_touch     ; 200db62
+  jmp near _card_surrak_the_hunt_caller     ; 200db67
+  jmp near _card_tread_upon     ; 200db6c
+  jmp near _card_arashin_sovereign     ; 200db71
+  jmp near _card_atarkas_command     ; 200db76
+  jmp near _card_boltwing_marauder     ; 200db7b
+  jmp near _card_cunning_breezedancer     ; 200db80
+  jmp near _card_dragonlord_atarka     ; 200db85
+  jmp near _card_dragonlord_dromoka     ; 200db8a
+  jmp near _card_dragonlord_kolaghan     ; 200db8f
+  jmp near _card_dragonlord_ojutai     ; 200db94
+  jmp near _card_dragonlord_silumgar     ; 200db99
+  jmp near _card_dromokas_command     ; 200db9e
+  jmp near _card_fathom_mage     ; 200dba3
+  jmp near _card_bloodcrazed_hoplite     ; 200dba8
+  jmp near _card_enduring_scalelord     ; 200dbad
+  jmp near _card_harbinger_of_the_hunt     ; 200dbb2
+  jmp near _card_kolaghans_command     ; 200dbb7
+  jmp near _card_ojutais_command     ; 200dbbc
+  jmp near _card_pristine_skywise     ; 200dbc1
+  jmp near _card_ruthless_deathfang     ; 200dbc6
+  jmp near _card_sarkhan_unbroken     ; 200dbcb
+  jmp near _card_mark_of_sakiko     ; 200dbd0
+  jmp near _card_sakura_tribe_springcaller     ; 200dbd5
+  jmp near _card_shizuko_caller_of_autumn     ; 200dbda
+  jmp near _card_savage_ventmaw     ; 200dbdf
+  jmp near _card_silumgars_command     ; 200dbe4
+  jmp near _card_atarka_monument     ; 200dbe9
+  jmp near _card_dromoka_monument     ; 200dbee
+  jmp near _card_kolaghan_monument     ; 200dbf3
+  jmp near _card_ojutai_monument     ; 200dbf8
+  jmp near _card_silumgar_monument     ; 200dbfd
+  jmp near _card_ancestral_statue     ; 200dc02
+  jmp near _card_dragonloft_idol     ; 200dc07
+  jmp near _card_gate_smasher     ; 200dc0c
+  jmp near _card_vial_of_dragonfire     ; 200dc11
+  jmp near _card_akroan_jailer     ; 200dc16
+  jmp near _card_ampryn_tactician     ; 200dc1b
+  jmp near _card_blessed_spirits     ; 200dc20
+  jmp near _card_cleric_of_the_forward_order     ; 200dc25
+  jmp near _card_consuls_lieutenant     ; 200dc2a
+  jmp near _card_enshrouding_mist     ; 200dc2f
+  jmp near _card_gideons_phalanx     ; 200dc34
+  jmp near _card_grasp_of_the_hieromancer     ; 200dc39
+  jmp near _card_healing_hands     ; 200dc3e
+  jmp near _card_heavy_infantry     ; 200dc43
+  jmp near _card_knight_of_the_pilgrims_road     ; 200dc48
+  jmp near _card_kytheons_irregulars     ; 200dc4d
+  jmp near _card_kytheons_tactics     ; 200dc52
+  jmp near _card_patron_of_the_valiant     ; 200dc57
+  jmp near _card_relic_seeker     ; 200dc5c
+  jmp near _card_sentinel_of_the_eternal_watch     ; 200dc61
+  jmp near _card_suppression_bonds     ; 200dc66
+  jmp near _card_topan_freeblade     ; 200dc6b
+  jmp near _card_totem_guide_hartebeest     ; 200dc70
+  jmp near _card_valor_in_akros     ; 200dc75
+  jmp near _card_war_oracle     ; 200dc7a
+  jmp near _card_anchor_to_the_aether     ; 200dc7f
+  jmp near _card_artificers_epiphany     ; 200dc84
+  jmp near _card_aspiring_aeronaut     ; 200dc89
+  jmp near _card_calculated_dismissal     ; 200dc8e
+  jmp near _card_clash_of_wills     ; 200dc93
+  jmp near _card_deep_sea_terror     ; 200dc98
+  jmp near _card_displacement_wave     ; 200dc9d
+  jmp near _card_faerie_miscreant     ; 200dca2
+  jmp near _card_hydrolash     ; 200dca7
+  jmp near _card_jaces_sanctum     ; 200dcac
+  jmp near _card_jhessian_thief     ; 200dcb1
+  jmp near _card_nivix_barrier     ; 200dcb6
+  jmp near _card_send_to_sleep     ; 200dcbb
+  jmp near _card_dark_petition     ; 200dcc0
+  jmp near _card_deadbridge_shaman     ; 200dcc5
+  jmp near _card_demonic_pact     ; 200dcca
+  jmp near _card_eyeblight_assassin     ; 200dccf
+  jmp near _card_eyeblight_massacre     ; 200dcd4
+  jmp near _card_gilt_leaf_winnower     ; 200dcd9
+  jmp near _card_graveblade_marauder     ; 200dcde
+  jmp near _card_kothophed_soul_hoarder     ; 200dce3
+  jmp near _card_languish     ; 200dce8
+  jmp near _card_malakir_cullblade     ; 200dced
+  jmp near _card_necromantic_summons     ; 200dcf2
+  jmp near _card_priest_of_the_blood_rite     ; 200dcf7
+  jmp near _card_rabid_bloodsucker     ; 200dcfc
+  jmp near _card_reave_soul     ; 200dd01
+  jmp near _card_shadows_of_the_past     ; 200dd06
+  jmp near _card_tainted_remedy     ; 200dd0b
+  jmp near _card_thornbow_archer     ; 200dd10
+  jmp near _card_undead_servant     ; 200dd15
+  jmp near _card_unholy_hunger     ; 200dd1a
+  jmp near _card_whirler_rogue     ; 200dd1f
+  jmp near _card_acolyte_of_the_inferno     ; 200dd24
+  jmp near _card_chandras_ignition     ; 200dd29
+  jmp near _card_enthralling_victor     ; 200dd2e
+  jmp near _card_exquisite_firecraft     ; 200dd33
+  jmp near _card_fiery_conclusion     ; 200dd38
+  jmp near _card_fiery_impulse     ; 200dd3d
+  jmp near _card_firefiend_elemental     ; 200dd42
+  jmp near _card_flameshadow_conjuring     ; 200dd47
+  jmp near _card_ghirapur_aether_grid     ; 200dd4c
+  jmp near _card_goblin_glory_chaser     ; 200dd51
+  jmp near _card_infectious_bloodlust     ; 200dd56
+  jmp near _card_mage_ring_bully     ; 200dd5b
+  jmp near _card_magmatic_insight     ; 200dd60
+  jmp near _card_molten_vortex     ; 200dd65
+  jmp near _card_pia_and_kiran_nalaar     ; 200dd6a
+  jmp near _card_prickleboar     ; 200dd6f
+  jmp near _card_ravaging_blaze     ; 200dd74
+  jmp near _card_scab_clan_berserker     ; 200dd79
+  jmp near _card_seismic_elemental     ; 200dd7e
+  jmp near _card_subterranean_scout     ; 200dd83
+  jmp near _card_thopter_engineer     ; 200dd88
+  jmp near _card_aerial_volley     ; 200dd8d
+  jmp near _card_dwynen_gilt_leaf_daen     ; 200dd92
+  jmp near _card_dwynens_elite     ; 200dd97
+  jmp near _card_elemental_bond     ; 200dd9c
+  jmp near _card_evolutionary_leap     ; 200dda1
+  jmp near _card_herald_of_the_pantheon     ; 200dda6
+  jmp near _card_honored_hierarch     ; 200ddab
+  jmp near _card_joraga_invocation     ; 200ddb0
+  jmp near _card_managorger_hydra     ; 200ddb5
+  jmp near _card_mantle_of_webs     ; 200ddba
+  jmp near _card_nissas_pilgrimage     ; 200ddbf
+  jmp near _card_nissas_revelation     ; 200ddc4
+  jmp near _card_somberwald_alpha     ; 200ddc9
+  jmp near _card_pharikas_disciple     ; 200ddce
+  jmp near _card_rhox_maulers     ; 200ddd3
+  jmp near _card_undercity_troll     ; 200ddd8
+  jmp near _card_valeron_wardens     ; 200dddd
+  jmp near _card_vine_snare     ; 200dde2
+  jmp near _card_wild_instincts     ; 200dde7
+  jmp near _card_woodland_bellower     ; 200ddec
+  jmp near _card_zendikars_roil     ; 200ddf1
+  jmp near _card_blazing_hellhound     ; 200ddf6
+  jmp near _card_blood_cursed_knight     ; 200ddfb
+  jmp near _card_bounding_krasis     ; 200de00
+  jmp near _card_citadel_castellan     ; 200de05
+  jmp near _card_possessed_skaab     ; 200de0a
+  jmp near _card_reclusive_artificer     ; 200de0f
+  jmp near _card_shaman_of_the_pack     ; 200de14
+  jmp near _card_thunderclap_wyvern     ; 200de19
+  jmp near _card_zendikar_incarnate     ; 200de1e
+  jmp near _card_alchemists_vial     ; 200de23
+  jmp near _card_chief_of_the_foundry     ; 200de28
+  jmp near _card_guardian_automaton     ; 200de2d
+  jmp near _card_hangarback_walker     ; 200de32
+  jmp near _card_helm_of_the_gods     ; 200de37
+  jmp near _card_mage_ring_responder     ; 200de3c
+  jmp near _card_orbs_of_warding     ; 200de41
+  jmp near _card_prism_ring     ; 200de46
+  jmp near _card_ramroller     ; 200de4b
+  jmp near _card_sigil_of_valor     ; 200de50
+  jmp near _card_sword_of_the_animist     ; 200de55
+  jmp near _card_throwing_knife     ; 200de5a
+  jmp near _card_foundry_of_the_consuls     ; 200de5f
+  jmp near _card_bane_of_bala_ged     ; 200de64
+  jmp near _card_blight_herder     ; 200de69
+  jmp near _card_desolation_twin     ; 200de6e
+  jmp near _card_endless_one     ; 200de73
+  jmp near _card_oblivion_sower     ; 200de78
+  jmp near _card_ruin_processor     ; 200de7d
+  jmp near _card_scour_from_existence     ; 200de82
+  jmp near _card_ulamog_the_ceaseless_hunger     ; 200de87
+  jmp near _card_ulamogs_despoiler     ; 200de8c
+  jmp near _card_void_winnower     ; 200de91
+  jmp near _card_angel_of_renewal     ; 200de96
+  jmp near _card_angelic_gift     ; 200de9b
+  jmp near _card_cliffside_lookout     ; 200dea0
+  jmp near _card_emeria_shepherd     ; 200dea5
+  jmp near _card_encircling_fissure     ; 200deaa
+  jmp near _card_gideon_ally_of_zendikar     ; 200deaf
+  jmp near _card_gideons_reproach     ; 200deb4
+  jmp near _card_hero_of_goma_fada     ; 200deb9
+  jmp near _card_kor_bladewhirl     ; 200debe
+  jmp near _card_kor_castigator     ; 200dec3
+  jmp near _card_kor_entanglers     ; 200dec8
+  jmp near _card_lantern_scout     ; 200decd
+  jmp near _card_lithomancers_focus     ; 200ded2
+  jmp near _card_makindi_patrol     ; 200ded7
+  jmp near _card_ondu_rising     ; 200dedc
+  jmp near _card_planar_outburst     ; 200dee1
+  jmp near _card_quarantine_field     ; 200dee6
+  jmp near _card_retreat_to_emeria     ; 200deeb
+  jmp near _card_roils_retribution     ; 200def0
+  jmp near _card_serene_steward     ; 200def5
+  jmp near _card_sheer_drop     ; 200defa
+  jmp near _card_stone_haven_medic     ; 200deff
+  jmp near _card_tandem_tactics     ; 200df04
+  jmp near _card_unified_front     ; 200df09
+  jmp near _card_adverse_conditions     ; 200df0e
+  jmp near _card_benthic_infiltrator     ; 200df13
+  jmp near _card_cryptic_cruiser     ; 200df18
+  jmp near _card_drowner_of_hope     ; 200df1d
+  jmp near _card_eldrazi_skyspawner     ; 200df22
+  jmp near _card_horribly_awry     ; 200df27
+  jmp near _card_mist_intruder     ; 200df2c
+  jmp near _card_murk_strider     ; 200df31
+  jmp near _card_oracle_of_dust     ; 200df36
+  jmp near _card_ruination_guide     ; 200df3b
+  jmp near _card_salvage_drone     ; 200df40
+  jmp near _card_spell_shrivel     ; 200df45
+  jmp near _card_tide_drifter     ; 200df4a
+  jmp near _card_ulamogs_reclaimer     ; 200df4f
+  jmp near _card_brilliant_spectrum     ; 200df54
+  jmp near _card_clutch_of_currents     ; 200df59
+  jmp near _card_coastal_discovery     ; 200df5e
+  jmp near _card_coralhelm_guide     ; 200df63
+  jmp near _card_exert_influence     ; 200df68
+  jmp near _card_guardian_of_tazeem     ; 200df6d
+  jmp near _card_halimar_tidecaller     ; 200df72
+  jmp near _card_part_the_waterveil     ; 200df77
+  jmp near _card_prism_array     ; 200df7c
+  jmp near _card_retreat_to_coralhelm     ; 200df81
+  jmp near _card_roilmages_trick     ; 200df86
+  jmp near _card_rush_of_ice     ; 200df8b
+  jmp near _card_tightening_coils     ; 200df90
+  jmp near _card_ugins_insight     ; 200df95
+  jmp near _card_windrider_patrol     ; 200df9a
+  jmp near _card_complete_disregard     ; 200df9f
+  jmp near _card_dominator_drone     ; 200dfa4
+  jmp near _card_grave_birthing     ; 200dfa9
+  jmp near _card_grip_of_desolation     ; 200dfae
+  jmp near _card_mind_raker     ; 200dfb3
+  jmp near _card_silent_skimmer     ; 200dfb8
+  jmp near _card_skitterskin     ; 200dfbd
+  jmp near _card_sludge_crawler     ; 200dfc2
+  jmp near _card_smothering_abomination     ; 200dfc7
+  jmp near _card_swarm_surge     ; 200dfcc
+  jmp near _card_transgress_the_mind     ; 200dfd1
+  jmp near _card_wasteland_strangler     ; 200dfd6
+  jmp near _card_bloodbond_vampire     ; 200dfdb
+  jmp near _card_carrier_thrall     ; 200dfe0
+  jmp near _card_demons_grasp     ; 200dfe5
+  jmp near _card_drana_liberator_of_malakir     ; 200dfea
+  jmp near _card_geyserfield_stalker     ; 200dfef
+  jmp near _card_guul_draz_overseer     ; 200dff4
+  jmp near _card_hagra_sharpshooter     ; 200dff9
+  jmp near _card_kalastria_healer     ; 200dffe
+  jmp near _card_kalastria_nightwatch     ; 200e003
+  jmp near _card_malakir_familiar     ; 200e008
+  jmp near _card_mires_malice     ; 200e00d
+  jmp near _card_nirkana_assassin     ; 200e012
+  jmp near _card_ob_nixilis_reignited     ; 200e017
+  jmp near _card_ob_nixilis_reignited_emblem     ; 200e01c
+  jmp near _card_painful_truths     ; 200e021
+  jmp near _card_retreat_to_hagra     ; 200e026
+  jmp near _card_rising_miasma     ; 200e02b
+  jmp near _card_ruinous_path     ; 200e030
+  jmp near _card_vampiric_rites     ; 200e035
+  jmp near _card_voracious_null     ; 200e03a
+  jmp near _card_zulaport_cutthroat     ; 200e03f
+  jmp near _card_barrage_tyrant     ; 200e044
+  jmp near _card_crumble_to_dust     ; 200e049
+  jmp near _card_kozileks_sentinel     ; 200e04e
+  jmp near _card_molten_nursery     ; 200e053
+  jmp near _card_nettle_drone     ; 200e058
+  jmp near _card_processor_assault     ; 200e05d
+  jmp near _card_serpentine_spike     ; 200e062
+  jmp near _card_vile_aggregate     ; 200e067
+  jmp near _card_akoum_firebird     ; 200e06c
+  jmp near _card_akoum_hellkite     ; 200e071
+  jmp near _card_akoum_stonewaker     ; 200e076
+  jmp near _card_belligerent_whiptail     ; 200e07b
+  jmp near _card_boiling_earth     ; 200e080
+  jmp near _card_chasm_guide     ; 200e085
+  jmp near _card_firemantle_mage     ; 200e08a
+  jmp near _card_lavastep_raider     ; 200e08f
+  jmp near _card_ondu_champion     ; 200e094
+  jmp near _card_outnumber     ; 200e099
+  jmp near _card_radiant_flames     ; 200e09e
+  jmp near _card_reckless_cohort     ; 200e0a3
+  jmp near _card_retreat_to_valakut     ; 200e0a8
+  jmp near _card_tunneling_geopede     ; 200e0ad
+  jmp near _card_valakut_invoker     ; 200e0b2
+  jmp near _card_tangoland     ; 200e0b7
+  jmp near _card_brood_monitor     ; 200e0bc
+  jmp near _card_call_the_scions     ; 200e0c1
+  jmp near _card_eyeless_watcher     ; 200e0c6
+  jmp near _card_unnatural_aggression     ; 200e0cb
+  jmp near _card_void_attendant     ; 200e0d0
+  jmp near _card_earthen_arms     ; 200e0d5
+  jmp near _card_greenwarden_of_murasa     ; 200e0da
+  jmp near _card_infuse_with_the_elements     ; 200e0df
+  jmp near _card_from_beyond     ; 200e0e4
+  jmp near _card_jaddi_offshoot     ; 200e0e9
+  jmp near _card_generic_combat_1_mana_producing_creature     ; 200e0ee
+  jmp near _card_seek_the_wilds     ; 200e0f3
+  jmp near _card_swell_of_growth     ; 200e0f8
+  jmp near _card_tajuru_beastmaster     ; 200e0fd
+  jmp near _card_tajuru_stalwart     ; 200e102
+  jmp near _card_tajuru_warcaller     ; 200e107
+  jmp near _card_undergrowth_champion     ; 200e10c
+  jmp near _card_woodland_wanderer     ; 200e111
+  jmp near _card_brood_butcher     ; 200e116
+  jmp near _card_brutal_expulsion     ; 200e11b
+  jmp near _card_catacomb_sifter     ; 200e120
+  jmp near _card_dust_stalker     ; 200e125
+  jmp near _card_fathom_feeder     ; 200e12a
+  jmp near _card_forerunner_of_slaughter     ; 200e12f
+  jmp near _card_herald_of_kozilek     ; 200e134
+  jmp near _card_sire_of_stagnation     ; 200e139
+  jmp near _card_ulamogs_nullifier     ; 200e13e
+  jmp near _card_angelic_captain     ; 200e143
+  jmp near _card_dranas_emissary     ; 200e148
+  jmp near _card_grovetender_druids     ; 200e14d
+  jmp near _card_march_from_the_tomb     ; 200e152
+  jmp near _card_munda_ambush_leader     ; 200e157
+  jmp near _card_noyan_dar_roil_shaper     ; 200e15c
+  jmp near _card_omnath_locus_of_rage     ; 200e161
+  jmp near _card_resolute_blademaster     ; 200e166
+  jmp near _card_roil_spout     ; 200e16b
+  jmp near _card_skyrider_elf     ; 200e170
+  jmp near _card_veteran_warleader     ; 200e175
+  jmp near _card_aligned_hedron_network     ; 200e17a
+  jmp near _card_hedron_archive     ; 200e17f
+  jmp near _card_hedron_blade     ; 200e184
+  jmp near _card_pathway_arrows     ; 200e189
+  jmp near _card_slab_hammer     ; 200e18e
+  jmp near _card_blighted_cataract     ; 200e193
+  jmp near _card_blighted_fen     ; 200e198
+  jmp near _card_blighted_gorge     ; 200e19d
+  jmp near _card_blighted_steppe     ; 200e1a2
+  jmp near _card_blighted_woodland     ; 200e1a7
+  jmp near _card_spawning_bed     ; 200e1ac
+  jmp near _card_fertile_thicket     ; 200e1b1
+  jmp near _card_looming_spires     ; 200e1b6
+  jmp near _card_mortuary_mire     ; 200e1bb
+  jmp near _card_sanctum_of_ugin     ; 200e1c0
+  jmp near _card_sandstone_bridge     ; 200e1c5
+  jmp near _card_skyline_cascade     ; 200e1ca
+  jmp near _card_lumbering_falls     ; 200e1cf
+  jmp near _card_shambling_vent     ; 200e1d4
+  jmp near _card_archangel_of_tithes     ; 200e1d9
+  jmp near _card_kytheon_hero_of_akros     ; 200e1de
+  jmp near _card_gideon_battle_forged     ; 200e1e3
+  jmp near _card_hixus_prison_warden     ; 200e1e8
+  jmp near _card_swift_reckoning     ; 200e1ed
+  jmp near _card_tragic_arrogance     ; 200e1f2
+  jmp near _card_silumgar_spell_eater     ; 200e1f7
+  jmp near _card_stratus_dancer     ; 200e1fc
+  jmp near _card_corpseweft     ; 200e201
+  jmp near _card_descent_of_the_dragons     ; 200e206
+  jmp near _card_collected_company     ; 200e20b
+  jmp near _card_tapestry_of_the_ages     ; 200e210
+  jmp near _card_salt_road_ambushers     ; 200e215
+  jmp near _card_deathmist_raptor     ; 200e21a
+  jmp near _card_harbinger_of_the_tides     ; 200e21f
+  jmp near _card_alhammarret_high_arbiter     ; 200e224
+  jmp near _card_psychic_rebuttal     ; 200e229
+  jmp near _card_sphinxs_tutelage     ; 200e22e
+  jmp near _card_thopter_spy_network     ; 200e233
+  jmp near _card_dark_dabbling     ; 200e238
+  jmp near _card_infinite_obliteration     ; 200e23d
+  jmp near _play_sound_effect     ; 200e242
+  jmp near _set_smallcard_size     ; 200e247
+  jmp near _update_hand_window     ; 200e24c
+  jmp near _card_infernal_scarring     ; 200e251
+  jmp near _card_liliana_heretical_healer     ; 200e256
+  jmp near _card_liliana_defiant_necromancer     ; 200e25b
+  jmp near _card_liliana_defiant_necromancer_emblem     ; 200e260
+  jmp near _card_call_of_the_full_moon     ; 200e265
+  jmp near _card_chandra_fire_of_kaladesh     ; 200e26a
+  jmp near _card_chandra_roaring_flame     ; 200e26f
+  jmp near _card_chandra_roaring_flame_emblem     ; 200e274
+  jmp near _card_commune_with_lava     ; 200e279
+  jmp near _card_ire_shaman     ; 200e27e
+  jmp near _card_abbot_of_keral_keep     ; 200e283
+  jmp near _card_bring_to_light     ; 200e288
+  jmp near _card_embermaw_hellion     ; 200e28d
+  jmp near _card_animists_awakening     ; 200e292
+  jmp near _card_gather_the_pack     ; 200e297
+  jmp near _card_kiora_master_of_the_depths     ; 200e29c
+  jmp near _card_kiora_master_of_the_depths_emblem     ; 200e2a1
+  jmp near _card_the_great_aurora     ; 200e2a6
+  jmp near _card_nissa_vastwood_seer     ; 200e2ab
+  jmp near _card_nissa_sage_animist     ; 200e2b0
+  jmp near _card_conduit_of_ruin     ; 200e2b5
+  jmp near _card_scatter_to_the_winds     ; 200e2ba
+  jmp near _card_titans_presence     ; 200e2bf
+  align 32

@@ -1,0 +1,65 @@
+;-*- conf-windows -*-
+;Overrides for fronts of double-faced modern frames (8th edition and later).
+;See Duel.dat for documentation.
+;
+[SmallCard]
+TitleSourceTop = 7
+TitleSourceHeight = 283
+TitleDestHeight = 1095
+FrameSourceTop = 480
+FrameSourceHeight = 33
+FrameDestTop = 1095
+;
+TitleOwnedColorR = 47
+TitleOwnedColorG = 47
+TitleOwnedColorB = 47
+TitleOwnedShadowColorR = -1
+;
+TitleUnownedColorR = 47
+TitleUnownedColorG = 47
+TitleUnownedColorB = 47
+TitleUnownedShadowColorR = -1
+;
+DfcVisible = 1
+;
+TitleLeft = 104
+TitleWidth = 664
+;
+;
+[FullCard]
+TitleColorR = 47
+TitleColorG = 47
+TitleColorB = 47
+TitleShadowColorR = -1
+;
+PowertoughnessColorR = 47
+PowertoughnessColorG = 47
+PowertoughnessColorB = 47
+PowertoughnessShadowColorR = -1
+;
+TypeColorR = 47
+TypeColorG = 47
+TypeColorB = 47
+TypeShadowColorR = -1
+;
+WatermarkTop = 755
+;
+DfcVisible = 1
+TitleLeft = 124
+TitleWidth = 611
+;
+;
+[Frames]
+FrameBaseDir=moderndfcfront
+;
+CardOv_ColorlessLand=CardOv_Colorless.png
+;
+CardOv_ArtifactNyx=..\modern\CardOv_ArtifactNyx.png
+CardOv_ColorlessNyx=..\modern\CardOv_ArtifactNyx.png
+CardOv_GoldNyx=..\modern\CardOv_WNyx.png
+CardOv_LandNyx=..\modern\CardOv_ArtifactNyx.png
+CardOv_WNyx=..\modern\CardOv_WNyx.png
+CardOv_UNyx=..\modern\CardOv_UNyx.png
+CardOv_BNyx=..\modern\CardOv_BNyx.png
+CardOv_RNyx=..\modern\CardOv_RNyx.png
+CardOv_GNyx=..\modern\CardOv_GNyx.png

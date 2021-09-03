@@ -1,0 +1,1251 @@
+ID,Card Name,Type Description,Artist Name,Rule Text,Quote
+0000,Air Elemental ,Summon Elemental,Richard Thomas,Flying,"These spirits of the air are winsome and wild and cannot be truly contained. Only marginally intelligent, they often substitute whimsy for strategy, delighting in mischief and mayhem."
+0001,Ancestral Recall,Instant,Mark Poole,Target player draws 3 cards.,
+0002,Animate Artifact,Enchant Artifact,Douglas Shuler,Target artifact becomes an artifact creature with power and toughness each equal to its casting cost; target retains all its original abilities.  Animate Artifact does not affect artifact creatures.,
+0003,Animate Dead ,Enchant Dead Creature,Anson Maddocks,"Take target creature from any graveyard and put it directly into play under your control with -1/-0.  Treat this creature as though it were just summoned.  If Animate Dead is removed, bury the creature in its owner's graveyard.",
+0004,Animate Wall,Enchant Wall,Dan Frazier,Target wall can now attack.,
+0005,Ankh of Mishra,Artifact,Amy Weber,"Each time a player puts a land into play, Ankh of Mishra deals 2 damage to that player.",
+0006,Armageddon,Sorcery,Jesper Myrfors,Destroys all lands.,
+0007,Aspect of Wolf,Enchant Creature,Jeff A. Menges,"Increase target creature's power and toughness by half the number of forests you control, rounding down for power and up for toughness.",
+0008,Bad Moon,Enchantment,Jesper Myrfors,All black creatures get +1/+1.,
+0009,Badlands,Land,Rob Alexander,|T: add |R or |B to your mana pool. Counts as both a swamp and a mountain and is affected by spells which affect either.,
+0010,Balance,Sorcery,Mark Poole,Each player sacrifices enough lands to equalize the number of lands all players control.  The player who controls the fewest lands cannot sacrifice any in this way.  All players then equalize cards in hand and then creatures in play in the same way.,
+0011,Basalt Monolith,Artifact,Jesper Myrfors,|T: add 3 colorless mana to your mana pool. Does not untap as normal during untap phase. ,
+0012,Bayou,Land,Jesper Myrfors,|T: add |G or |B to your mana pool. Counts as both a swamp and a forest and is affected by spells which affect either.,
+0013,Benalish Hero,Summon Hero,Douglas Shuler,Banding,"Benalia has a complex caste system that changes with the lunar year. No matter what the season, the only caste that cannot be attained by either heredity or money is that of the Hero."
+0014,Berserk,Instant,Dan Frazier,"Target creature's power doubles and it gains trample ability until end of turn, if it attacks if is then destroyed",
+0015,Birds of Paradise,Summon Mana Birds,Mark Poole,"Flying, |T: Add one mana of any color to your mana pool.  Play this ability as an interrupt.",
+0016,Black Knight,Summon Knight,Jeff A. Menges,"Protection from white, first strike",Battle doesn't need a purpose; the battle is its own purpose. You don't ask why a plague spreads or a field burns. Don't ask why I fight.
+0017,Black Lotus,Artifact,Christopher Rush,"Adds 3 mana of any single color to pool, lotus is then discarded - Interrupt",
+0018,Black Vise,Artifact,Richard Thomas,"At the end of target opponent's upkeep, Black Vise deals that player 1 damage for each card in his or her hand in excess of four.",
+0019,Black Ward,Enchant Creature,Dan Frazier,Target creature gains protection from black.  The protection granted by Black Ward does not destroy Black Ward.,
+0020,Blaze of Glory,Instant,Richard Thomas,Target defending creature can and must block all attacking creatures it can legally block,
+0021,Blessing,Enchant Creature,Julie Baroh,|W: Target creature Blessing enchants gets +1/+1 until end of turn.,
+0022,Blue Element Blast,Interrupt,Richard Thomas,Counter target red spell or destroy target red permanent.,
+0023,Blue Ward,Enchant Creature,Dan Frazier,Target creature gains protection from blue.  The protection granted by Blue Ward does not destroy Blue Ward.,
+0024,Bog Wraith,Summon Wraith,Jeff A. Menges,Swampwalk,Twas in the bogs of Cannelbrae / My mate did meet an early grave  / 'Twas nothing left for us to save / In the peat-filled bogs of Cannelbrae.
+0025,Braingeyser,Sorcery,Mark Tedin,Draw x cards or force opponent to draw x cards,
+0026,Burrowing,Enchant Creature,Mark Poole,Target creature gains mountainwalk.,
+0027,Camouflage,Instant,Jesper Myrfors,Rearrange your attacking creatures and place them face down revealing them only after defense is chosen,
+0028,Castle,Enchantment,Dameon Willich,Untapped creatures you control get +0/+2 when not attacking.,
+0029,Celestial Prism,Artifact,Amy Weber,"|2 , |T : Add one mana of any color to your mana pool.  Play this ability as an interrupt.",
+0030,Channel,Sorcery,Richard Thomas,"Until end of turn, you may add colorless mana to your mana pool at a cost of 1 life per one mana.  Play these additions as interrupts.  Effects that prevent or redirect damage cannot be used to counter this loss of life.",
+0031,Chaos Orb,Artifact,Mark Tedin,|1: orb may randomly destroy a number of cards in play
+0032,Chaoslace ,Interrupt,Dameon Willich,"Change the color of target spell or target permanent to red.  Costs to cast, tap, maintain, or use a special ability of target remain unchanged."
+0033,Black Circle,Enchantment,Jesper Myrfors,"|1: Prevents all damage against you from one black source.  If a source deals damage to you rmore than once in a turn, you may pay |1 each time to prevent the damage."
+0034,Blue Circle,Enchantment,Dameon Willich,"|1: Prevent all damage against you from one blue source.  If a source deals damage to you more than once in a turn, you may pay |1 each time to prevent the damage."
+0035,Green Circle,Enchantment,Sandra Everingham,"|1: Prevents all damage against you from one green source.  If a source deals damage to you rmore than once in a turn, you may pay |1 each time to prevent the damage."
+0036,Red Circle,Enchantment,Mark Tedin,"|1: Prevents all damage against you from one red source.  If a source deals damage to you rmore than once in a turn, you may pay |1 each time to prevent the damage."
+0037,White Circle,Enchantment,Douglas Shuler,"|1: Prevents all damage against you from one white source.  If a source deals damage to you rmore than once in a turn, you may pay |1 each time to prevent the damage."
+0038,Clockwork Beast,Artifact Creature,Drew Tucker,"When Clockwork Beast comes into play, put seven +1/+0 counters on it.  At the end of any combat in which Clockwork Beast is assigned to attack or block, remove a counter.  |X, |T: Put X +1/+0 counters on Blockwork Beast.  You may have..."
+0039,Clone,Summon Clone,Julie Baroh,"Upon summoning, clone acquires all normal characteristics of any one creature in play"
+0040,Cockatrice,Summon Cockatrice,Dan Frazier,"Flying, At the end of combat, destroy all non-wall creatures blocking or blocked by Cockatrice."
+0041,Consecrate Land,Enchant Land,Jeff A. Menges,"All enchantments on target land are destroyed, no further enchantments can be played on this land while consecrated"
+0042,Conservator,Artifact,Amy Weber,"|3, |T: Prevent up to 2 damage to you."
+0043,Contract from Below,Sorcery,Douglas Shuler,Discard current hand drawing 8 new cards and add the first card to your ante
+0044,Control Magic ,Enchant Creature,Dameon Willich,Gain control of target creature.
+0045,Conversion,Enchantment,Jesper Myrfors,"All mountains become basic plains.  During your upkeep, pay |W|W or destroy Conversion."
+0046,Copper Tablet,Artifact,Amy Weber,Does 1 damage to each player during his or her upkeep
+0047,Copy Artifact,Enchantment,Amy Weber,Acts as a duplicate of any artifact in play,
+0048,Counterspell,Interrupt,Mark Poole,Counter target spell.,
+0049,Craw Wurm,Summon Wurm,Daniel Gelon,,The most terrifying thing about the Craw Wurm is probably the horrible crashing sound it makes as it speeds through the forest. This noise is so loud it echoes through the trees and seems to come from all directions at once.
+0050,Creature Bond,Enchant Creature,Anson Maddocks,"If target creature is put into the graveyard, Creature Bond deals damage equal to the creature's toughness to that creature's controller.",
+0051,Crusade,Enchantment,Mark Poole,All white creatures get +1/+1.,
+0052,Crystal Rod,Artifact,Amy Weber,|1: Gain 1 life for a successfully cast blue spell.  Use this effect either when the spell is cast or later in the turn but only once for each blue spell cast.,
+0053,Cursed Land,Enchant Land,Jesper Myrfors,Cursed Land deals 1 damage to target land's controller during his or her upkeep.,
+0054,Cyclopean Tomb,Artifact,Anson Maddocks,"Turn any land into a swamp during upkeep for 2 grey mana, if Tomb is destroyed lands revert 1 per upkeep",
+0055,Dark Ritual,Interrupt,Sandra Everingham,Add |B|B|B to your mana pool.,
+0056,Darkpact,Sorcery,Quinton Hoover,Swap the top card of your library with either card of the ante,
+0057,Death Ward,Instant,Mark Poole,Regenerate target creature.,
+0058,Deathgrip,Enchantment,Anson Maddocks,|B|B: Counter target green spell.  Play this ability as an interrupt.,
+0059,Deathlace,Interrupt,Sandra Everingham,"Change the color of target spell or target permanent to black.  Costs to cast, tap, maintain, or use a special ability of target remain unchanged.",
+0060,Demonic Attorney,Sorcery,Daniel Gelon,Opponent must concede game or each player ante's an additional card immediately,"Created to destroy Dominia, Demons can sometimes be bent to a more focused purpose."
+0061,Demonic Hordes,Summon Demon,Jesper Myrfors,"|T: to destroy a land, pay 3 black each turn or Hordes become tapped and you lose land of opponents choice",
+0062,Demonic Tutor,Sorcery,Douglas Shuler,"You may search your library for one card and take it into your hand, reshuffling your library afterwards",
+0063,Dingus Egg,Artifact,Dan Frazier,"Each time a player puts a land into the graveyard from play, Dingus Egg deals 2 damage to that land's controller.",
+0064,Disenchant,Instant,Amy Weber,Destroy target enchantment or artifact.,
+0065,Disintegrate,Sorcery,Anson Maddocks,"Disintegrate deals X damage to target creature or player.  The target cannot regenerate until end of turn.  If the target receives lethal damage this turn, remove it from the game entirely.",
+0066,Disrupting Sceptre,Artifact,Dan Frazier,"|3, |T: Target player chooses and discards one card from his or her hand.  Use the ability only during your turn.",
+0067,Dragon Whelp,Summon Dragon,Amy Weber,"Flying, |R: +1/+0 until end of turn.  If you spend more than |R |R |R in this way during one turn, destroy Dragon Whelp at end of turn.","``O to be a dragon dots of silkworm size or immense dots'' ---Marianne Moore, ``O to Be a Dragon''"
+0068,Drain Life,Sorcery,Douglas Shuler,Drain Life deals 1 damage to a target creature or player for each |B you pay in addition to the casting cost.  You then gain 1 life for each 1 damage dealt.  You cannot gain more life than the toughness of the creature or the total life of...,
+0069,Drain Power,Sorcery,Douglas Shuler,"Target player must draw all mana from his or her available lands; then, all mana in target player's mana pool drains into your mana pool.",
+0070,Drudge Skeletons,Summon Skeletons,Sandra Everingham,|B: Regenerate,"Bones scattered around us joined to form misshapen bodies. We struck at the repeatedly --- they fell, but soon formed again, with the same mocking look on their faceless skulls."
+0071,Dwarven Sappers,Summon Dwarves,Kev Brockschmidt,|T: to destroy a wall,"Foolishly, Najib retreated to his castle at El-Abar; the next morning, he was dead. In just one night, the dwarven forces had reduced the mighty walls to mere rubble."
+0072,Dwarven Warriors,Summon Dwarves,Douglas Shuler,|T:  Target creature with power no greater than 2 becomes unblockable until end of turn.  Other effects may later be used to increase the creature's power beyond 2.,
+0073,Earth Elemental,Summon Elemental,Dan Frazier,,"Earth Elementals have the eternal strength of stone and the endurance of mountains. Primordially connected to the land they inhabit, they take a long-term view of things, scorning the impetuous haste of short-lived mortal creatures."
+0074,Earthbind,Enchant Creature,Quinton Hoover,Does 2 damage to target flying creature which loses ability to fly,
+0075,Earthquake,Sorcery,Dan Frazier,Earthquake deals X damage to each player and each creature without flying.,
+0076,Elvish Archers,Summon Elves,Anson Maddocks,First strike,"I tell you, there was so many arrows flying about you couldn't hardly see the sun. So I says to young Angus, ``Well, at least now we're fighting in the shade!''"
+0077,Evil Presence,Enchant Land,Sandra Everingham,Target land becomes a basic swamp.,
+0078,False Orders,Instant,Anson Maddocks,You decide whether and how one defending creature blocks,
+0079,Farmstead,Enchant Land,Mark Poole,Target land's controller gains 1 life each upkeep if |W |W are spent,
+0080,Fastbond,Enchantment,Mark Poole,"Put as many lands as you wish into play each turn,  but take 1 damage for every land above 1 per turn",
+0081,Fear ,Enchant Creature,Mark Poole,Target creature cannot be blocked except by black creatures and artifact creatures.,
+0082,Feedback,Enchant Enchant,Quinton Hoover,Feedback deals 1 damage to target enchantment's controller during that player's upkeep.,
+0083,Fire Elemental ,Summon Elemental,Melissa Benson,,"Fire Elementals are ruthless infernos, annihilating and consuming their foes in a frenzied holocaust. Crackling and blazing, they sear swift, terrible paths, leaving the land charred and scorched in their wake."
+0084,Fireball,Sorcery,Mark Tedin,"Fireball deals X damage, divided evenly (round down) among any number of target creatures and/or players.  Pay an additional |1 for each target beyond the first.",
+0085,Firebreathing,Enchant Creature,Dan Frazier,|R: Target creature Firebreathing enchants gets +1/+0 until end of turn.,"``And topples round the dreary west / A looming bastion fringed with fire.'' ---Alfred, Lord Tennyson, ``In Memoriam''"
+0086,Flashfires,Sorcery,Dameon Willich,Destroy all plains.,
+0087,Flight,Enchant Creature,Anson Maddocks,Target creature gains flying.,
+0088,Fog,Instant,Jesper Myrfors,No creatures deal damage in combat this turn.,
+0089,Force of Nature,Summon Force,Douglas Shuler,"Trample, During your upkeep, pay |G|G|G|G or Force of Nature deals 8 damage to you.",
+0090,Forcefield,Artifact,Dan Frazier,Lose only 1 life to an unblocked creature for |1 per creature,
+0091,Forest,Land,Christopher Rush, ,
+0092,Fork,Interrupt,Amy Weber,"Any sorcery or instant spell just cast is doubled, treat fork as exact duplicate of spell except it is red",
+0093,Frozen Shade,Summon Shade,Douglas Shuler,|B: +1/+1 until end of turn,"""There are some qualities, some incorporate things, / That have a double life, which thus is made / A type of twin entity which springs / From matter and light, evinced in solid and shade."" --- Edgar Allen Poe, ""Silence"""
+0094,Fungusaur,Summon Fungusaur,Daniel Gelon,"At the end of any turn in which Fungusaur receives damage but does not leave play, put a +1/+1 counter on it.","Rather than sheltering her young, the female Fungusaur often injures her own offspring, thereby ensuring their rapid growth."
+0095,Gaea's Liege,Summon Liege,Dameon Willich,"Gaea's Liege has power and toughness each equal to the number of forests you control; when Gaea's Liege attacks, these are instead equal to the number of forests defending player controls. |T: Target land becomes a basic forest...",
+0096,Gauntlet of Might,Artifact,Christopher Rush,All red creatures gain +1/+1 and all mountains provide an extra red mana ,
+0097,Giant Growth,Instant,Sandra Everingham,Target creature gets +3/+3 until end of turn.,
+0098,Giant Spider ,Summon Spider,Sandra Everingham,Can block creatures with flying.,"While it possesses potent venom, the Giant Spider often chooses notto paralyze its victims. Perhaps the creature enjoys the gentle rockingmotion caused by its captives' struggles to escape its web."
+0099,Glasses of Urza,Artifact,Douglas Shuler,|T: Look at target player's hand.,
+0100,Gloom,Enchantment,Dan Frazier,White spells cost an extra |3 to cast and white enchantments with activation costs such as circles of protection cost an extra |3 to use,
+0101,Goblin Balloons,Summon Goblins,Andi Rusu,|R: Flying until end of turn,"``From up here we can drop rocks and arrows and more rocks!''  / ``Uh, yeah boss, but how do we get down?''"
+0102,Goblin King,Summon Lord,Jesper Myrfors,All goblins gain mountainwalk and get +1/+1.,"To become king of the Goblins, one must assassinate the previous king. Thus, only the most foolish seek positions of leadership."
+0103,Granite Gargoyle,Summon Gargoyle,Christopher Rush,"Gains +1 tough per red mana spent, until end of turn","""While most overworlders fortunately don't realize this, Gargoyles can be most delicious, providing you have the appropriate tools to carve them."" --- The Underworld Cookbook, by Asmoranomardicadaistinaculdacar"
+0104,Gray Ogre,Summon Ogre,Dan Frazier,,"The Ogre philosopher Gnerdel believed the purpose of life was to live as high on the food chain as possible. She refused to eat vegetarians, preferring to live entirely on creatures that preyed on sentient beings."
+0105,Green Ward,Enchant Creature,Dan Frazier,Target creature gains protection from green.  The protection granted by Green Ward does not destroy Green Ward.,
+0106,Grizzly Bears,Summon Bears,Jeff A. Menges,,"Don't try to outrun one of Dominia's Grizzlies; it'll catch you, knock you down, and eat you. Of course, you could run up a tree. In that case, you'll get a nice view before it knocks the tree down and eats you."
+0107,Guardian Angel,Instant,Anson Maddocks,"Prevents x damage to any target, further damage may be prevented this turn for |1 each ",
+0108,Healing Salve ,Instant,Dan Frazier,"Give target player 3 life, or prevent up to 3 damage to any creature or player.",
+0109,Helm of Chatzuk,Artifact,Mark Tedin,"|1, |T:  Target creature gains banding until end of turn.",
+0110,Hill Giant,Summon Giant,Dan Frazier,,"Fortunately, Hill Giants have large blind spots in which a human can easily hide. Unfortunately, these blind spots are beneath the bottoms of their feet."
+0111,Holy Armor,Enchant Creature,Melissa Benson,Target creature gets +0/+2.    |W: Target creature Holy Armor enchants gets +0/+1 until end of turn.,
+0112,Holy Strength,Enchant Creature,Anson Maddocks,Target creature gets +1/+2.,
+0113,Howl from Beyond,Instant,Mark Poole,Target creature gets +X/+0 until end of turn.,
+0114,Howling Mine,Artifact,Nene Thomas,Each player draws 1 extra card during his/her upkeep,
+0115,Hurloon Minotaur,Summon Minotaur,Anson Maddocks,,"The Minotaurs of the Hurloon Mountains are known for their love of battle. They are also known for their hymns to the dead, sung for friend and foe alike. These hymns can last for days, filling the mountain valleys with their low, haunting sounds."
+0116,Hurricane,Sorcery,Dameon Willich,Hurricane deals X damage to each player and each creature with flying.,
+0117,Hypnotic Spectre,Summon Spectre,Douglas Shuler,"Flying, An opponent damaged by Specter discards a card at random from his or her hand.  Ignore this effect if opponent has no cards in hand.","``... There was no trace / Of aught on that illumined face ...'' ---Samuel Coleridge, ``Phantom''"
+0118,Ice Storm,Sorcery,Dan Frazier,Destroys any one land,
+0119,Icy Manipulator,Artifact,Douglas Shuler,"For a cost of |1 , controller may tap any land, creature or artifact in play",
+0120,Illusionary Mask,Artifact,Amy Weber,"You may summon creatures face down, remaining so until it is used in any way, additional mana may be spent to cast the summons to hide what the creature is ",
+0121,Instill Energy,Enchant Creature,Dameon Willich,"Target creature can attack the turn it comes into play on your side. |0 : During your turn, untap target creature Instill Energy enchants.  Use this ability only once each turn.",
+0122,Invisibility,Enchant Creature,Anson Maddocks,Target creature can be blocked only by walls,
+0123,Iron Star,Artifact,Dan Frazier,|1: Gain 1 life for a successfully cast red spell.  Use this effect either when the spell is cast or later in the turn but only once for each red spell cast.,
+0124,Ironclaw Orcs,Summon Orcs,Anson Maddocks,Cannot be assigned to block any creature with power greater than 1.,"Generations of genetic weeding have given rise to the deviously cowardly Ironclaw clan. To say that Orcs in general are vicious, depraved, and ignoble does not do justice to the Ironclaw."
+0125,Ironroot Treefolk,Summon Treefolk,Jesper Myrfors,,"The mating habits of Treefolk, particularly the stalwart Ironroot Treefolk, are truly absurd. Molasses comes to mind. It's amazing the species can survive at all given such protracted periods of mate selection, conjugation, and gestation."
+0126,Island,Land,Mark Poole,,
+0127,Island Sanctuary,Enchantment,Mark Poole,"During your draw phase, you may draw one less card from your library.  If you do so, until the start of your next turn the only creatures that can attack you are those with flying or islandwalk.",
+0128,Ivory Cup,Artifact,Anson Maddocks,|1: Gain 1 life for a successfully cast white spell.  Use this effect either when the spell is cast or later in the turn but only once for each white spell cast.,
+0129,Jade Monolith,Artifact,Anson Maddocks,|1: Redirect to yourself all damage done to any creature.  The source of the damage does not change.,
+0130,Jade Statue,Artifact,Dan Frazier,Becomes a 3/6 creature for |2 during current attack exchange only,"""Some of the other guys dared me to touch it, but I knew it weren't no ordinary hunk o' rock."" --- Norin the Wary"
+0131,Jayemdae Tome,Artifact,Mark Tedin,"|4 , |T: Draw one card.",
+0132,Juggernaut,Artifact Creature,Dan Frazier,"Must attack each turn if possible, cannot be blocked by walls","We had taked refuge in a small cave, thinking the entrance was too narrow for it to follow. To our horror, its gigantic head smashed into the mountainside, ripping itself a new entrance."
+0133,Jump,Instant,Mark Poole,Target creature gains flying until end of turn.,
+0134,Karma,Enchantment,Richard Thomas,"During each player's upkeep, Karma deals 1 damage to that player for each swamp he or she controls.",
+0135,Keldon Warlord,Summon Lord,Kev Brockschmidt,"Keldon Warlord has power and toughness each equal to the number of non-wall creatures you control, including Warlord.  For example, if you control two other non-wall creatures, Warlord is 3/3.  If one of those creatures leaves play...",
+0136,Kormus Bell,Artifact,Christopher Rush,All swamps in play become 1/1 black creatures.  The swamps still count as lands but cannot be tapped for mana the turn they come into play.,
+0137,Kudzu,Enchant Land,Mark Poole,"When target land is tapped it is destroyed, kudzu is then placed on another land of the tapping player's choice",
+0138,Lance ,Enchant Creature,Rob Alexander,Target creature gains first strike,
+0139,Ley Druid,Summon Cleric,Sandra Everingham,|T: Untap target land.  Play this ability as an interrupt.,"After years of training, the Druid becomes one with nature, drawing power from the land and returning it when needed."
+0140,Library of Leng,Artifact,Daniel Gelon,"Skip the discard phase of your turn.  If a spell or effect forces you to discard, you may discard to the top of your library rather than to your graveyard.  If the discard is random, you may look at the card before choosing where to discard it.",
+0141,Lich,Enchantment,Daniel Gelon,"You lose all life, if you gain life draw a card, you must sacrifice a card in play that you control for each point of damage suffered(***)",
+0142,Lifeforce,Enchantment,Dameon Willich,|G|G: Counter target black spell.  Play this ability as an interrupt.,
+0143,Lifelace,Interrupt,Amy Weber,"Change the color of target spell or target permanent to green.  Costs to cast, tap, maintain or use a special ability of target remain unchanged.",
+0144,Lifetap,Enchantment,Anson Maddocks,Gain 1 life each time a forest controlled by target opponent becomes tapped.,
+0145,Lightning Bolt,Instant,Christopher Rush,Lightning Bolt deals 3 damage to target creature or player.,
+0146,Living Artifact,Enchant Artifact,Anson Maddocks,"Put a vitality counter on Living Artifact for each damage dealt to you.|0 : During your upkeep, remove a vitality counter to gain 1 life.  Remove only one vitality counter during each of your upkeeps.",
+0147,Living Lands,Enchantment,Jesper Myrfors,All forests become 1/1 creatures.  The forests still count as lands but cannot be tapped for mana the turn they come into play.,
+0148,Living Wall,Artifact Creature,Anson Maddocks,|1: May regenerate,"Some fiendish mage had created a horrifying wall of living flesh, patched together from a jumble of still-recognizable body parts. As we sought to hew our way through it, some unknown power healed the gaping wounds we cut, denying us passage."
+0149,Llanowar Elves,Summon Elves,Anson Maddocks,|T: Add |G to your mana pool.  Play this ability as an interrupt.,"Hardened by their life in the haunted Llanowar Forest, these fierce beings are outcasts among elvenkind."
+0150,Lord of Atlantis,Summon Lord,Melissa Benson,All Merfolk gain islandwalk and get +1/+1.,"A master of tactics, the Lord of Atlantis makes his people bold in battle merely by arriving to lead them."
+0151,Lord of the Pit,Summon Demon,Mark Tedin,"Flying, trample, During your upkeep, sacrifice a creature.  If you cannot sacrifice a creature, Lord of the Pit deals 7 damage to you.  You cannot sacrifice Lord of the Pit to itself.",
+0152,Lure,Enchant Creature,Anson Maddocks,"All creatures able to block target creature must do so.  Lure does not prevent a creature from blocking more than one creature if blocker has that ability.  If blocker is forced to block more creatures than it is allowed to, defender chooses which...",
+0153,Magical Hack,Interrupt,Julie Baroh,"Change the text of target spell or target permanent by replacing all occurrences of one basic land type with another.  For example, you may change ""swampwalk"" to ""plainswalk"".",
+0154,Mahamoti Djinn,Summon Djinn,Dan Frazier,Flying,"Of royal blood among the spirits of the air, the Mahamoti Djinn rides on the wings of the winds. As dangerous in the gambling hall as he is in battle, he is a master of trickery and misdirection."
+0155,Mana Flare,Enchantment,Christopher Rush,"Whenever a player taps a land for mana, it produces one additional mana of the same type.",
+0156,Mana Short,Instant,Dameon Willich,Mana Short empties target player's mana pool and taps that player's lands.,
+0157,Mana Vault,Artifact,Mark Tedin,"Mana Vault does not untap during your untap phase.  If it remains tapped during your upkeep, Mana Vault deals 1 damage to you.  |4: Untap Mana Vault.  Use this ability only during your upkeep.  |T: Add |3 to your...",
+0158,Manabarbs,Enchantment,Christopher Rush,"Each time any land is tapped for mana, Manabarbs deals 1 damage to that land's controller.",
+0159,Meekstone,Artifact,Quinton Hoover,No creatures with power greater than 2 untap during their controller's untap phase.,
+0160,Merfolk,Summon Merfolk,Jeff A. Menges,,"Most human scholars believe that Merfolk are the survivors of sunken Atlantis, humans adapted to the water. Merfolk, however, believe that humans sprang forth from Merfolk who adapted themselves in order to explore their last frontier."
+0161,Mesa Pegasus,Summon Pegasus,Melissa Benson,"Flying, banding","Before a woman marries in the village of Sursi, she must visit the land of the Mesa Pegasus. Legend has it that if the woman is pure of heart and her love is true, a Mesa Pegasus will appear, blessing her family with long life and good fortune."
+0162,Mind Twist,Sorcery,Julie Baroh,"Target player discards X cards at random from his or her hand.  If that player does not have enough cards, his or her entire hand is discarded.",
+0163,Goblin Raiders,Summon Goblins,Jeff A. Menges,,"The intricate dynamics of Rundvelt Goblin affairs are often confused with anarchy. The chaos, however, is the chaos of a thundercloud, and direction will sporadically and violently appear. Pashalik Mons and his Raiders are the thunderhead that leads in th"
+0164,Mountain,Land,Douglas Shuler,,
+0165,Mox Emerald,Artifact,Dan Frazier,|T: to add 1 green mana to pool - Interrupt,
+0166,Mox Jet,Artifact,Dan Frazier,|T: to add 1 black mana to pool - Interrupt,
+0167,Mox Pearl,Artifact,Dan Frazier,|T: to add 1 white mana to pool - Interrupt,
+0168,Mox Ruby ,Artifact,Dan Frazier,|T: to add 1 red mana to pool - Interrupt,
+0169,Mox Sapphire,Artifact,Dan Frazier,|T: to add 1 blue mana to pool - Interrupt,
+0170,Natural Selection,Instant,Mark Poole,"Look at top 3 cards of any player's library, you may rearrange those cards or shuffle the library",
+0171,Nether Shadow,Summon Shadow,Christopher Rush,"At the end of your upkeep, if Shadow is in your graveyard with at least three creature cards above it, you may return it to play.  Shadow can attack the turn it comes into play.",
+0172,Nettling Imp,Summon Imp,Quinton Hoover,"|T: during opponents turn to force a target creature to attack, if it cannot it is destroyed at end of turn ",
+0173,Nevinyrral's Disk,Artifact,Mark Tedin,"Comes into play tapped.  |1, |T: Destroy all creatures, enchantments, and artifacts, including Nevinyrral's Disk itself.",
+0174,Nightmare,Summon Nightmare,Melissa Benson,"Flying,  Nightmare has power and toughness each equal to the number of swamps its controller controls.","The Nightmare arises from its lair in the swamps. As the poisoned land spreads, so does the Nightmare's rage and terrifying strength."
+0175,Northern Paladin,Summon Paladin,Douglas Shuler,"|W|W, |T: Destroy target black permanent.",``Look to the north; there you will find aid and comfort.'' ---The Book of Tal
+0176,Obsianus Golem,Artifact Creature,Jesper Myrfors,,"``The foot stone is connected to the ankle stone, the ankle stone is connected to the leg stone ... “ ---Song of the Artificer"
+0177,Orcish Artillery,Summon Orcs,Anson Maddocks,|T: Orcish Artillery deals 2 damage to target creature or player and 3 damage to you.,"In a rare display of ingenuity, the Orcs invented an incredibly destructive weapon. Most Orcish artillerists are those who dared criticize its effectiveness."
+0178,Orcish Oriflamme,Enchantment,Dan Frazier,All attacking creatures you control get +1/+0.,
+0179,Paralyze,Enchant Creature,Anson Maddocks,Target creature does not untap during its controller's untap phase.  That player may pay an additional  |4 during his or her upkeep to untap it.  |T: target creature when Paralyze comes into play.,
+0180,Pearled Unicorn,Summon Unicorn,Cornelius Brudi,," ‘Do you know, I always thought Unicorns were fabulous monsters, too? I never saw one alive before!' `Well, now that we have seen each other,' said the Unicorn, `if you'll believe in me, I'll believe in you.’  ---Lewis Carroll"
+0181,Personal Avatar,Summon Avatar,Kev Brockschmidt,"Owner may redirect any or all damage done to Personal Incarnation to self instead.  If Personal Incarnation is put into the graveyard from play, owner loses of his or her remaining life, rounding up the loss.  Effects that redirect or prevent...",
+0182,Pestilence,Enchantment,Jesper Myrfors,"At the end of any turn, if there are no creatures in play, bury Pestilence.    |B: Pestilence deals 1 damage to all creatures and players.",
+0183,Phantasmal Forces,Summon Phantasm,Mark Poole,"Flying  During your upkeep, pay |U or destroy Phantasmal Forces","These beings embody the essence of true heroes long dead. Summoned from the dreamrealms, they rise to meet their enemies."
+0184,Phantasmal Terrain,Enchant Land,Dameon Willich,Target land becomes any basic land type of your choice.,
+0185,Phantom Monster,Summon Phantasm,Jesper Myrfors,Flying,"``While, like a ghastly rapid river, /  Through the pale door,  / A hideous throng rush out forever, / And laugh---but smile no more.''  ---Edgar Allan Poe, ``The Haunted Palace''"
+0186,Pirate Ship,Summon Ship,Tom Wanerstrand,"Cannot attack if defending player controls no islands.  If at any time you control no islands, bury Pirate Ship.  |T: Pirate Ship deals 1 damage to target creature or player.",
+0187,Plague Rats,Summon Rats,Anson Maddocks,"Plague Rats has power and toughness each equal to the number of Plague Rats in play, no matter who controls them.  For example, if there are two Plague Rats in play, each has power and toughness 2/2.","During the dark times, the rats seemed to grow ever stronger."
+0188,Plains,Land,Jesper Myrfors,,
+0189,Plateau,Land,Drew Tucker,,
+0190,Power Leak,Enchant Enchant,Drew Tucker,"During the upkeep of target enchantment's controller, Power Leak deals 2 damage to him or her.  That player may pay |1 for each damage he or she wishes to prevent from Power Leak.",
+0191,Power Sink,Interrupt,Richard Thomas,Counters a target spell if its caster does not pay  mana{X}.  Target spell's caster must draw and pay all available mana from lands and mana pool until  mana{X} is paid; he or she may also pay mana from other sources if desired.,
+0192,Power Surge,Enchantment,Douglas Shuler,"During each player's upkeep, Power Surge deals that player 1 damage for each land he or she controls that was untapped at the beginning of the turn, before the untap phase.",
+0193,Prodigal Sorcerer,Summon Sorcerer,Douglas Shuler,|T: Prodigal Sorcerer deals 1 damage to target creature or player.,Occasionally a member of the Institute of Arcane Study acquires a taste for worldly pleasures. Seldom do they have trouble finding employment.
+0194,Psionic Blast,Instant,Douglas Shuler,"Does 4 damage to any target, but also does 2 damage to caster",
+0195,Psychic Venom,Enchant Land,Brian Snoddy,"Whenever target land becomes tapped, Psychic Venom deals 2 damage to that land's controller.",
+0196,Purelace,Interrupt,Sandra Everingham,"Change the color of target spell or target permanent to white.  Costs to cast, tap, maintain, or use a special ability of target remain unchanged.",
+0197,Raging River,Enchantment,Sandra Everingham,"Opponent must divide non-flying defenders between to sides of river, you choose which side to attack on",
+0198,Raise Dead,Sorcery,Jeff A. Menges,Take target creature from your graveyard and put it into your hand.,
+0199,Red Element Blast ,Interrupt,Richard Thomas,Counter target blue spell destroy target blue permanent.,
+0200,Red Ward,Enchant Creature,Dan Frazier,Target creature gains protection from red  The protection granted by Red Ward does not destroy Red Ward.,
+0201,Regeneration,Enchant Creature,Quinton Hoover,|G: Regenerate target creature Regeneration enchants.,
+0202,Regrowth,Sorcery,Dameon Willich,Return any card from your graveyard to your hand,
+0203,Ressurection,Sorcery,Dan Frazier,Take a creature from your graveyard and put it directly into play,
+0204,Reverse Damage,Instant,Dameon Willich,All damage dealt to you so far this turn by one source is retroactively added to your life total instead of subtracted.  Further damage this turn is treated normally.,
+0205,Righteousness,Instant,Douglas Shuler,Target blocking creature gets +7/+7 until end of turn.,
+0206,Roc of Kher Ridges,Summon Roc,Andi Rusu,,"We encountered a valley topped with immense boulders and eerie rock formations. Suddenly one of these boulders toppled from its perch and sprouted gargantuan wings , casting a shadow of darkness and sending us fleeing in terror."
+0207,Rock Hydra ,Summon Hydra,Jeff A. Menges,"Gets +1/+1 head per |1 spent upon casting, each dam. point kills a head which regrow/grow  for |R |R |R",
+0208,Rod of Ruin,Artifact,Christopher Rush,"|3 , |T: Rod of Ruin deals 1 damage to target creature or player.",
+0209,Royal Assassin,Summon Assassin,Tom Wanerstrand,|T: Destroy target tapped creature.,"Trained in the arts of stealth, the Royal Assassins choose their victims carefully, relying on timing and precision rather than brute force."
+0210,Sacrifice,Interrupt,Dan Frazier,Destroy a creature and add black mana equal to creatures casting cost to you mana pool,
+0211,Samite Healer,Summon Cleric,Tom Wanerstrand,|T: Prevent 1 damage to any creature or player.,Healers ultimately acquire the divine gifts of spiritual and physical wholeness. The most devout are also granted the ability to pass physical wholeness on to others.
+0212,Savannah,Land,Rob Alexander,,
+0213,Savannah Lions,Summon Lions,Daniel Gelon,,"The traditional kings of the jungle command a healthy respect in other climates as well. Relying mainly on their stealth and speed, Savannah Lions can take a victim by surprise, even in the endless, flat plains of their homeland."
+0214,Scathe Zombies,Summon Zombies,Jesper Myrfors,,"""The groaned, they stirred, they all uprose, / Nor spake, nor moved their eyes; / It had been strange, even in a dream, / To have seen those dead men rise. "" --- Samuel Coleridge, ""The Rime of the Ancient Mariner"""
+0215,Scavenging Ghoul,Summon Ghoul,Jeff A. Menges,"At the end of each turn, put a corpse counter on Scavenging Ghoul for each creature put into the graveyard during that turn.   |0 : Remove a corpse counter from Scavenging Ghoul to regenerate it.",
+0216,Scrubland,Land,Jesper Myrfors,,
+0217,Scryb Sprites,Summon Faeries,Amy Weber,Flying,The only sound was the gentle clicking of the Faeries' wings. Then those intruders who were still standing turned and fled. One thing was certain: They didn't think the Scryb were very funny anymore.
+0218,Sea Serpent,Summon Serpent,Jeff A. Menges,"Cannot attack if defending player controls no islands.  If at any time you control no islands, bury Sea Serpent.","Legend has it that Serpents used to be bigger, but how could that be?"
+0219,Sedge Troll ,Summon Troll,Dan Frazier,"Regenerates for cost of |b , gains +1/+1 if controller has swamps in play","The stench in the hovel was overpowering; something loathsome was cooking. Occasionally something surfaced in the thick paste, but my host would casually push it down before I could make out what it was."
+0220,Sengir Vampire,Summon Vampire,Anson Maddocks,Flying  Put a +1/+1 counter on Sengir Vampire each time a creature is put into the graveyard the same turn Sengir Vampire damaged it.,
+0221,Serra Angel,Summon Angel,Douglas Shuler,Flying  Attacking does not cause Serra Angel to tap.,"Born with wings of light and a sword of faith, this heavenly incarnation embodies both fury and purity."
+0222,Shanodin Dryads,Summon Nymphs,Anson Maddocks,Forestwalk,"Moving without sound, swift figures pass through branches and undergrowth completely unhindered. One with the trees around them, the Dryads of Shanodin Forest are seen only when they wish to be."
+0223,Shatter ,Instant,Amy Weber,Destroy target artifact.,
+0224,Shivan Dragon,Summon Dragon,Melissa Benson,Flying  |R: :+1/+0 until end of turn,"While it's true most Dragons are cruel, the Shivan Dragon seems to take particular glee in the misery of others, often tormenting its victims much like a cat plays with a mouse before delivering the final blow."
+0225,Simulacrum,Instant,Mark Poole,All damage done to you so far this turn is instead retroactively applied to a target creature you control.  Further damage this turn is treated normally.,
+0226,Sinkhole,Sorcery,Sandra Everingham,Destroys any one land,
+0227,Siren's Call,Instant,Anson Maddocks,"All of target opponent's creatures that can attack must do so.  At end of turn, destroy any non-wall creatures that did not attack.  Play only during opponent's turn, before opponent's attack.  Siren's Call does not affect creatures brought under...",
+0228,Sleight of Mind,Interrupt,Mark Poole,"Change the text of target spell or target permanent by replacing all occurrences of one color word with another. For example, you may change ""Counters black spells"" to ""Counters blue spells"".  Sleight of Mind cannot change mana symbols.",
+0229,Smoke,Enchantment,Jesper Myrfors,No player may untap more than one creature during his or her untap phase.,
+0230,Sol Ring,Artifact,Mark Tedin,|T: to add |2 to pool - Interrupt,
+0231,Soul Net,Artifact,Dameon Willich,|1: Gain 1 life when a creature is put into the graveyard from play.  Use this effect only once each time a creature is put into the graveyard.,
+0232,Spell Blast,Interrupt,Brian Snoddy,Counter target spell.  X is the casting cost of the target spell.,
+0233,Stasis,Enchantment,Fay Jones,"Players do not get an untap phase.  During your upkeep, pay |U or destroy Stasis.",
+0234,Steal Artifact,Enchant Artifact,Amy Weber,Gain control of target artifact.,
+0235,Stone Giant,Summon Giant,Dameon Willich,"|T: Target creature you control, which must have toughness less than Stone Giant's power, gains flying until end of turn.  Destroy that creature at end of turn.  Other effects may later be used to increase the creature's toughness beyond...","What goes up, must come down."
+0236,Stone Rain,Sorcery,Daniel Gelon,Destroy target land.,
+0237,Stream of Life ,Sorcery,Mark Poole,Target player gains X life.,
+0238,Sunglasses of Urza,Artifact,Dan Frazier,You may use white mana in your mana pool as either white or red mana.,
+0239,Swamp,Land,Dan Frazier,,
+0240,Sword to Plowshare,Instant,Jeff A. Menges,Remove target creature from the game.  The creature's controller gains life equal to its power.,
+0241,Taiga,Land,Rob Alexander,,
+0242,Terror,Instant,Ron Spencer,"Bury target non-black, non-artifact creature.",
+0243,The Hive,Artifact,Sandra Everingham,"|5, |T: Put a Wasp token into play.  Treat this token as a 1/1 artifact creature with flying.",
+0244,Thicket Basilisk,Summon Basilisk,Dan Frazier,"At the end of combat, destroy all non-wall creatures blocking or blocked by Basilisk.","Moss-covered statues littered the area, a macabre monument to the Basilisk's power."
+0245,Thoughtlace,Interrupt,Mark Poole,"Change the color of target spell or target permanent to blue.  Costs to cast, tap, maintain, or use a special ability of target remain unchanged.",
+0246,Throne of Bone,Artifact,Anson Maddocks,|1: Gain 1 life for a successfully cast black spell.  Use this effect either when the spell is cast or later in the turn but only once for each black spell cast.,
+0247,Timber Wolves,Summon Wolves,Melissa Benson,Banding,"Though many think of Wolves as solitary predators, they are actually extremely social animals. During a hunt they often call to each other, which can be quite unsettling for their prey."
+0248,Time Vault,Artifact,Mark Tedin,"|T: to gain an additional turn, untapping gives opponent extra turn, begins tapped",
+0249,Time Walk,Sorcery,Amy Weber,Take an extra turn after this one,
+0250,Timetwister,Sorcery,Mark Tedin,"Both players must shuffle hand, library and graveyard together and draw 7 new cards, discard timetwister",
+0251,Tranquility,Sorcery,Douglas Shuler,Destroy all enchantments.,
+0252,Tropical Island,Land,Jesper Myrfors,,
+0253,Tsunami,Sorcery,Richard Thomas,Destroy all islands.,
+0254,Tundra,Land,Jesper Myrfors,,
+0255,Tunnel,Instant,Dan Frazier,Bury target wall.,
+0256,Twiddle,Instant,Rob Alexander,"|T: or untap target land, artifact, or creature.",
+0257,Two Headed Giant,Summon Giant,Anson Maddocks,"May block two attacking creatures, controller choose how to divide damage",
+0258,Underground Sea,Land,Rob Alexander,,
+0259,Unholy Strength,Enchant Creature,Douglas Shuler,Target creature gets +2/+1.,
+0260,Unsummon,Instant,Douglas Shuler,Return target creature to owner's hand.,
+0261,Uthden Troll,Summon Troll,Douglas Shuler,|R: Regenerate,"``Oi oi oi, me gotta hurt in 'ere, / Oi oi oi, me smell a ting is near, / Gonna bosh 'n gonna nosh 'n da hurt'll disappear.'' ---Troll chant"
+0262,Enchantress ,Summon Enchantress,Kev Brockschmidt, |0 : Draw a card when you successfully cast an enchantment.  Use this effect only once for each enchantment cast.,"Some say magic was first practiced by women, who have always felt strong ties to the land."
+0263,Doppleganger,Summon Doppleganger,Quinton Hoover," Doppleganger acquires normal characteristics of any creature in play, during upkeep a new creature may be mimicked",
+0264,Veteran Bodyguard,Summon Bodyguard,Douglas Shuler,"If untapped, any damage done to controller by unblocked creatures must be done to bodyguard instead","Good bodyguards are hard to find, mainly because they don't live long."
+0265,Volcanic Eruption,Sorcery,Douglas Shuler,Destroy X target mountains.  Volcanic Eruption deals 1 damage to each creature and player for each mountain put into the graveyard in this way.,
+0266,Volcanic Island,Land,Brian Snoddy,,
+0267,Wall of Air,Summon Wall,Richard Thomas,Flying,"``This `standing windstorm' can hold us off indefinitely? Ridiculous!'' Saying nothing, she put a pinch of salt on the table. With a bang she clapped her hands, and the salt disappeared, blown away."
+0268,Wall of Bone,Summon Wall,Anson Maddocks,|B: Regenerate,"The Wall of Bone is said to be an aspect of the Great Wall in Hel, where the bones of all sinners wait for Ragnarok, when Hela will call them forth for the final battle."
+0269,Wall of Brambles,Summon Wall,Anson Maddocks,|G: Regenerate,"``What else, when chaos draws all forces inward to shape a single leaf.'' ---Conrad Aiken"
+0270,Wall of Fire,Summon Wall,Richard Thomas,|R: +1/+0 until end of turn,"Conjured from the bowels of hell, the fiery wall forms an impassable barrier, searing the soul of any creature attempting to pass through its terrible bursts of flame."
+0271,Wall of Ice,Summon Wall ,Richard Thomas,,"``And through the drifts the snowy cliffs / Did send a dismal sheen: / Nor shapes of men nor beasts we ken--- / The ice was all between.''  ---Samuel Coleridge, ``The Rime of the Ancient Mariner''"
+0272,Wall of Stone,Summon Wall,Dan Frazier,,"The Earth herself lends her strength to these walls of living stone, which possess the stability of ancient mountains. These mighty bulwarks thwart ground-based troops, providing welcome relief for weary warriors who defend the land."
+0273,Wall of Swords,Summon Wall,Mark Tedin,Flying,"Just as the evil ones approached to slay Justina, she cast a great spell, imbuing her weapons with her own life force. Thus she fulfilled the prophecy: ``In the death of your savior will you find salvation.''"
+0274,Wall of Water,Summon Wall,Richard Thomas,|U: +1/+0 until end of turn,"A deafening roar arose as the fury of an enormous vertical river supplanted our serenity. Eddies turned into whirling geysers, leveling everything in their path."
+0275,Wall of Wood,Summon Wall,Mark Tedin,,"Everybody knows that to ward off trouble, you knock on wood. But usually it's better to make a wall out of the wood and let trouble do the knocking."
+0276,Wanderlust,Enchant Creature,Cornelius Brudi,Wanderlust deals 1 damage to target creature's controller during that player's upkeep.,
+0277,War Mammoth,Summon Mammoth,Jeff A. Menges,Trample,I didn't think Mammoths could ever hold a candle to a well-trained battle horse. Then one day I turned my back on a drunken soldier. His blow never landed; MI'cha flung the brute over ten meters.
+0278,Warp Artifact,Enchant Artifact,Amy Weber,Warp Artifact deals 1 damage to target artifact's controller during his or her upkeep.,
+0279,Water Elemental ,Summon Elemental,Jeff A. Menges,,"Unpredictable as the sea itself, Water Elementals shift without warning from tranquility to tempest. Capricious and fickle, they flow restlessly from one shape to another, expressing their moods with their physical forms."
+0280,Weakness ,Enchant Creature,Douglas Shuler,Target creature gets -2/-1.,
+0281,Web,Enchant Creature,Rob Alexander,Target creature gets +0/+2 and can block creatures with flying.,
+0282,Wheel of Fortune,Sorcery,Daniel Gelon,Both players must discard their hands and draw seven new cards,
+0283,White Knight,Summon Knight,Daniel Gelon,"Protection from black, first strike",Out of the blackness and stench of the engulfing swamp emerged a shimmering figure. Only the splattered armor and ichor-stained sword hinted at the unfathomable evil the Knight had just laid waste.}0
+0284,White Ward,Enchant Creature,Dan Frazier,Target creature gains protection from white.  The protection granted by White Ward does not destroy White Ward.,
+0285,Wild Growth,Enchant Land,Mark Poole,Wild Growth adds |G to your mana pool each time target land is tapped for mana.,
+0286,Will-O-The-Wisp,Summon Wisp,Jesper Myrfors,Flying  |B: Regenerate,"``About, about in reel and rout / The death-fires danced at night; / The water, like a witch's oils, / Burnt green, and blue and white.'' ---Samuel Coleridge, ``The Rime of the Ancient Mariner''"
+0287,Winter Orb,Artifact,Mark Tedin,No player may untap more than one land during his or her untap phase.,
+0288,Wooden Sphere,Artifact,Mark Tedin,|1: Gain 1 life for a successfully cast green spell.  Use this effect either when the spell is cast or later in the turn but only once for each green spell cast.,
+0289,Word of Command,Instant,Jesper Myrfors,You may choose to cast any card opponent can legally cast from his hand,
+0290,Wrath of God,Sorcery,Quinton Hoover,Bury all creatures.,
+0291,Zombie Master,Summon Lord,Jeff A. Menges,"All zombies gain swampwalk and ""|B: Regenerate.""","They say the Zombie Master controlled these foul creatures even before his own death, but now that he is one of them, nothing can make them betray him."
+0292,Amnesia,Sorcery,Mark Poole,Look at target players hand forcing him to discard all non-land cards,"""When one has witnessed the unspeakable, 'tis sometimes better to forget."" --- Vervamon the Elder"
+0293,Angry Mob,Summon Mob,Drew Tucker,"Trample  During your turn, Angry Mob has power and toughness each equal to 2 plus the total number of swamps opponents control.  During other turns, Angry Mob has power and toughness 2/2.",
+0294,Ashes to Ashes,Sorcery,Drew Tucker,Ashes to Ashes removes two target non-artifact creatures from the game and deals 5 damage to you.,"``All rivers eventually run to the sea. My job is to sort out who goes first.'' ---Maeveen O'Donagh, Memoirs of a Soldier"
+0295,Ball Lightning,Summon Ball Lightning,Quinton Hoover,"Trample  Ball Lightning can attack the turn it comes into play.  At the end of any turn, bury Ball Lightning.",
+0296,Banshee,Summon Banshee,Jesper Myrfors,|T: and pay |X to do 1/2X rounded up to controller and 1/2X rounded down to target,"Some say Banshees are the hounds of Death, baying to herd their prey into the arms of their master."
+0297,Barl's Cage,Artifact,Tom Wanerstrand,Pay |3 to keep target creature from untapping during controller's next untap phase.,"For a dozen years the Cage had held Lord Ith, but as the Pretender Mairsil's power weakened, so did the bars."
+0298,Wood's Dark Heart,Enchantment,Christopher Rush,You may sacrifice a forest to gain 3 life.,"Even the Goblins shun this haunted place, where the tree limbs twist in agony and the ground seems to scuttle under your feet."
+0299,Blood Moon,Enchantment,Tom Wanerstrand,All non-basic lands are now basic mountains.,"Heavy light flooded across the landscape, cloaking everything in deep crimson."
+0300,Apprentice Wizard,Summon Wizard,Dan Frazier,"|U, |T: Add  |3  to your mana pool.  Play this ability as an interrupt.",
+0301,Blood of the Martyr,Instant,Christopher Rush,Until end of turn you may redirect damage done to any number of creatures to yourself instead.,The willow knows what the storm does not: that the power to endure harm outlives the power to inflict it.
+0302,Bone Flute,Artifact,Christopher Rush,Pay |2 and tap to give all creatures -1 pow for one turn,"After the Battle of Pitdown, Lady Ursnell fashioned the first such instrument out of Lord Ursnell's left leg."
+0303,Brainwash,Enchant Creature,Pete Venters,Target creature cannot attack unless its controller pays an addition  |3.,``They're not your friends; they despise you. I'm the only one you can count on. Trust me.''
+0304,Brothers of Fire,Summon Brothers,Mark Tedin,|1|R|R: Brothers of Fire deals 1 damage to target creature or player and 1 damage to you.,Fire is never a gentle master.
+0305,Carnivorous Plant,Summon Wall,Quinton Hoover,,"""It had a mouth like that of a great beast, and gnashed its teeth as it strained to reach us. I am thankful it possessed no means of locomotion."" --- Vervamon the Elder"
+0306,Cave People,Summon Cave People,Drew Tucker,"When attacking, Cave People gets +1/-2 until end of turn.  |1|R|R: Target creature gains mountainwalk until end of turn.",
+0307,City of Shadows,Land,Tom Wanerstrand,"Move any of your creatures under City card, removing them from play, tap to produce |x, x = number of creatures under City",
+0308,Coal Man,Artifact Creature,Christopher Rush,Pay |3 and sacrifice Golem to gain |3.,"""Three such creatures stood burning at the crest of the hill.  Only seconds later, the Fireball struck our front lines."" --- Lydia, Countess Brellis"
+0309,Dance of Many,Enchantment,Sandra Everingham,"Duplicates any creature in play, pay |U|U in upkeep each turn or it is discarded",
+0310,Deep Water,Enchantment,Jeff A. Menges,Pay |U to make all mana producing lands you control produce |U until EOT,
+0311,Dust to Dust,Sorcery,Drew Tucker,Removes 2 target artifacts from the game.,"Tervish never noticed that the amulet had vanished. It had disappeared not only from his possession, but from his memory as well."
+0312,Eater of the Dead,Summon Eater,Jesper Myrfors,Pay |0 to remove a creature from any graveyard and untap Eater of the Dead,Even the putrid muscled of the dead can provide strength to those loathsome enough to consume them.
+0313,Deep Shadow Elves,Summon Elves,Jesper Myrfors,|T: gain |B but loose one life as well. Plays as interrupt.,"""They are aberrations who have turned on everything we hold sacred. Let them be cast out."" --- Ailheen, Speaker of the Council"
+0314,Erosion,Enchant Land,Pete Venters,"During his or her upkeep, target land's controller pays |1 or 1 life, or target land is destroyed.  Effects that prevent or redirect damage cannot be used to counter this loss of life.",
+0315,Eternal Flame,Sorcery,Mark Poole,"|T: to do number of mountains caster has in damage to opponent, caster takes half this amount",
+0316,Exorcist,Summon Exorcist,Drew Tucker,|W |1 |T:  destroy any black creature.,"Though they often bore little greater charm than the demons they battled, exorcists were always welcome in Scarwood."
+0317,Fasting,Enchantment,Douglas Shuler,"For each turn caster does not draw a card, he gains 2 life for a max of 5 turns, when card is drawn fasting is discarded",
+0318,Fellwar Stone,Artifact,Quinton Hoover,|T: to provide 1 mana of any color of any land opponent has in play,"``What do you have that I cannot obtain?'' ---Mairsil, called the Pretender"
+0319,Fire and Brimstone,Instant,Jeff A. Menges,Does 4 damage to target player and to controller. Only used during turn target player has attacked.,
+0320,Fire Drake,Summon Drake,Christopher Rush,"|R: Gains +1 pow, may only spend one mana this way",
+0321,Fissure,Instant,Douglas Shuler,Bury target land or creature.,``Must not all things at the last be swallowed up in death?'' ---Plato
+0322,Scarwood Hag,Summon Hag,Anson Maddocks,|G|G|G|G |T:give target creature forestwalk till EOT; |T: take forestwalk from target,
+0323,People of the Wood,Summon People,Drew Tucker,toughness equals x where x = number of forests controller has in play,"""Their rain of arrows left only myself alive, cowering within a tree hollow. They did not even come out to loot the bodies."" --- Vervamon the Elder"
+0324,Fountain of Youth,Artifact,Daniel Gelon,Pay |2 and tap to gain 1 life,"The Fountain had stood in the town square for centuries, but only the pigeons knew its secret."
+0325,Frankenstein,Summon Monster,Anson Maddocks,"Build monster from x creatures taken from graveyard, each creature gives monster 2 pts. for pow or tuf. If x creatures are not used, spell is countered",
+0326,Ghost Ship,Summon Ship,Tom Wanerstrand,Flying  |U|U|U: Regenerate,"``That phantom prow split the storm as lightning cast its long shadow on the battlefield below.'' ---Mireille Gaetane, The Valeriad"
+0327,Giant Shark,Summon Shark,Tom Wanerstrand,"Opponent must have islands in play to attack, gains +2 pow and trample when attacking an injured creature until EOT. Controller must have 1 island in play",
+0328,Spitting Slug,Summon Slug,Anson Maddocks,"Pay |G and |1 to gain first strike, if mana is not paid opponent gets first strike",
+0329,Goblin Caves,Enchant Land,Drew Tucker,"When played on any mountain, all goblins in play gain +2 tough",The stench of countless generations of unspeakable activities was enough to loosen both our footing and our stomachs.
+0330,Goblin Hero,Summon Goblin,Mark Tedin,,"They attacked in an orgy of rage and madness, but only one seemed as focused on killing us as on the sheer joy of battle."
+0331,Goblin Wizard,Summon Goblin,Daniel Gelon,|T: to summon any gobling from your hand into play ; |R: give target goblin White Ward EOT,
+0332,Goblins of the Flarg,Summon Goblins,Tom Wanerstrand,Goblins of the Flarg are buried if controller has any dwarves,
+0333,Grave Robbers,Summon Robbers,Quinton Hoover,"|B |T: take 1 artifact from any graveyard and remove from game, gain 2 life.","""If you don't have your health, you don't have anything."" --- Proverb"
+0334,Gaea's Touch,Enchantment,Mark Poole,Allows caster to put and extra land in play each turn as long as it is a basic forest. Sacrifice to gain 2 green mana.,
+0335,Hidden Path,Enchantment,Rob Alexander,Gives all green creatures forestwalk,"""Where moments before we were lost beyond hope, the strange floating lights showed us the way and restored our morale."" --- Vervamon the Elder"
+0336,Bog Imp,Summon Imp,Ron Spencer,Flying,"On guard for larger dangers, we underestimated the power and speed of the Imp's muck-crusted claws."
+0337,Inferno,Instant,Randy Asplund-Faith,Inferno deals 6 damage to all players and all creatures.," ``Any scrap of compassion that still existed in my soul was permanently snuffed out when they cast me out into the flames.''  ---Mairsil, called the Pretender"
+0338,Knights of Thorn,Summon Knights,Christopher Rush,,"""With a great cry, the Goblin host broke and ran as the first wave of Knights penetrated its ranks."" --- Tivador of Thorn, Histoy of the Goblin Wars"
+0339,Land Leeches,Summon Leeches,Quinton Hoover,First strike,"""The standard cure for leeches requires the application of burning embers. Alternative methods must be devised should an ember of sufficient size prove more harmful than the leech."" --- Vervamon the Elder"
+0340,Leviathan,Summon Leviathan,Mark Tedin,"Trample  Comes into play tapped and does not untap during your untap phase.  During your upkeep, you may sacrifice two islands to untap Leviathan.  Leviathan cannot attack unless you sacrifice two islands during your attack.",
+0341,Living Armor,Artifact,Anson Maddocks,"|T: sacrifice living armor to give target creature +x tough, where x equals creatures castcost","Though it affords excellent protection, few don this armor. The process is uncomfortable and not easily reversed."
+0342,Lurker,Summon Lurker,Anson Maddocks,Can only have spells cast upon it during a turn it has attacked or blocked,"""Each night we felt it watching us from the darkness beyond our fire. We only had one pack horse left."" --- Maeveen O'Donagh, Memoirs of a Soldier"
+0343,Mana Clash,Sorcery,Mark Tedin,You and target opponent each flip a coin.  Mana Clash deals 1 damage to any player whose coin comes up tails.  Repeat this process until both players' coins come up heads at the same time.,
+0344,Mana Vortex,Enchantment,Douglas Shuler,At start of their turn players must discard one land of their choice until all lands are gone or vortex is destroyed. Caster must sacrifice a land when cast.,
+0345,Martyr's Cry,Sorcery,Jeff A. Menges,"All white creatures in play are removed from the game, each player draws one card for each creature he lost","""It is only fitting that one such as I should die in pursuit of knowledge."" --- Vervamon the Elder"
+0346,Mind Bomb,Sorcery,Mark Tedin,Mind bomb does 3 damage to each player.  All players may discard up to three cards of their choice from their hands.  Each card a player discards in this manner prevents 1 damage to that player from Mind Bomb.,
+0347,Morale,Instant,Mark Poole,All attacking creatures get +1/+1 until end of turn.,"``After Lacjsi's speech, the Knights grew determined to crush their ancient enemies clan by clan.'' ---Tivadar of Thorn,  History of the Goblin Wars"
+0348,Necropolis,Artifact Creature,NeNe Thomas,Pay |0 to take a creature from your graveyard and remove it from the game. Necropolis gains +x tough equal to removed creatures castcost.,
+0349,Orc General,Summon,Jesper Myrfors,May sacrifice 1 orc or goblin to give all orcs +1/+1 until end of turn.,"""Your army must fear you more than the enemy. Only then will you triumph."" --- Malga Phlegmtooth"
+0350,Bog Rats,Summon Rats,Ron Spencer,Cannot be blocked by walls.,"Their stench was vile and strong enough, but not nearly as powerful as their hunger."
+0351,Preacher,Summon Preacher,Quinton Hoover,|T: to gain control of any creature of opponent's choice,
+0352,Psychic Allergy,Enchantment,Mark Tedin,"Opponent is allergic to 1 color of casters choice, takes 1 damage each upkeep for each card of that color he has in play. Sacrifice 2 islands to upkeep allergy.",
+0353,Book of Rass,Artifact,Sandra Everingham," |2 , 2 life : draw 1 card.",
+0354,Reflecting Mirror,Artifact,Mark Poole,Pay x to change spell which targets you to another player. x is 2x castcost of target spell,
+0355,Riptide,Instant,Randy Asplund-Faith,|T: all blue creatures in play,
+0356,Runesword,Artifact,Christopher Rush,"Pay |3 and tap to give target attacking creature +2 pow. Targets damaged may not be regenerated and are removed from game if buried. If holder of sword is destroyed, bury sword.",
+0357,Safe Haven,Land,Christopher Rush,"|T |2: Any creature in play may be put in haven as interrupt. During upkeep, sacrifice haven to return all creatures there to play, as if just summoned.",
+0358,ScareCrow,Artifact Creature,Anson Maddocks,|6 |T:  reduce all damage done to controller by flying creatures to 0.,There was more malice in its button eyes than should have been possible in something that had never known life.
+0359,Season of the Witch,Enchantment,Jesper Myrfors,At the end of each players turn destroy all untapped creatures that could have attacked but did not. Pay 2 life to upkeep Season of the Witch. Upkeep damage is unblockable.,
+0360,Sisters of the Flame,Summon Sisters,Jesper Myrfors,|T: Add  |R to your mana pool.  Play this ability as an interrupt.,We are many wicks sharing a common tallow; we feed the skies with the ashes of our prey.
+0361,Skull of Orm,Artifact,Tom Wanerstrand,|5 |T: bring one enchantment from graveyard into your hand.,"Though lifeless, the Skull still possessed a strange power of the flow of magic."
+0362,Standing Stones,Artifact,Sandra Everingham,"|1 , 1 life : add 1 mana of any color to your mana pool",
+0363,Stone Calender,Artifact,Amy Weber,All of controllers spell costs are reduced by |1/,The Pretender Mairsil ordered a great Calender drawn up to shown when the paths to the Dark Lands were strongest.
+0364,Sunken City,Enchantment,Jesper Myrfors,"All blue creatures get +1/+1.  During your upkeep, pay |U|U or destroy Sunken City.",
+0365,Marsh Gas,Instant,Douglas Shuler,All creatures get -2/-0 until end of turn.,"""Comes right outta th' ground. If ya can smell it, it's too late."" --- Keevy Bogsbury"
+0366,Marsh Goblins,Summon Goblins,Quinton Hoover,,"Even the other Goblin races shun the Marsh Goblins, thanks to certain unwholesome custom they practice."
+0367,Cleansing,Sorcery,Pete Venters,"All lands are destroyed, may save lands for 1 life each",
+0368,Tormod's Crypt,Artifact,Christopher Rush,|T and sacrifice :remove all cards from target players graveyard from the game.,"The dark opening seemed to breathe the cold, damp air of the dead earth in a steady rhythm."
+0369,Dark Sphere,Artifact,Mark Tedin,|T and sacrifice: prevent 1/2 of damage done to you by a single source rounded down.,"``I was struck senseless for a moment, but revived when the strange curiosity I carried fell to the ground, screaming like a dying animal.'' ---Barl, Lord Ith"
+0370,The Drowned,Summon Zombies,Quinton Hoover,|U: regenerate,"We asked Captain Soll what became of the Serafina, but all he said was, ""Ships that go down shouldn't come back up."""
+0371,Murk Dwellers,Summon Dwellers,Drew Tucker,"When attacking and not blocked, Murk Dwellers gets +2/+0 until end of turn.","When Raganorn unsealed the catacombs, he found more than the dead and their treasures."
+0372,The Fallen,Summon Fallen,Jesper Myrfors,"During upkeep, the fallen do one damage to each opponent they have previously damaged.",Magic often masters those who cannot master it.
+0373,Niall Silvain,Summon Niall Silvain,Christopher Rush,|G|G|G|G |T: regenerate target creature.,"This is his domain, and while you remain here you must value all life as you value your own."
+0374,Inquisition,Sorcery,Anson Maddocks,"Caster may look at opponents hand, every white card in his hand does 1 damage to opponent",Many of those entrusted to Primata Delphine's care tended to express themselves with screams.
+0375,Holy Light,Instant,Drew Tucker,All non white creatures are at -1/-1 for 1 turn,"""Bathed in hallowed light, the infidels looked upon the impurities of their souls and despaired."" --- The Book of Tal"
+0376,Diabolic Machine,Artifact Creature,Anson Maddocks,|3: regenerate,"``The bolts of our ballistae smashed into the monstrous thing, but our hopes died in our chests as its gears continued turning.''  ---Sevti Mukul, The Fall of Alsoor"
+0377,Maze of Ith,Land,Anson Maddocks,"|T: to untap any of opponents attacking creatures, played as interrupt. Creature neither deals or recieves damage from combat",
+0378,Nameless Race,Summon Nameless,Quinton Hoover,"Nameless has x pow/tuff, x = number of life points spent by caster upon summoning. x may not exceed number of white cards of opponents in play or in graveyard.",
+0379,Tower of Coireall,Artifact,Dan Frazier,|T: to make any creature unblockable by walls,
+0380,Tracker,Summon Tracker,Jeff A. Menges,|2 |T:  damage target creature by tracker's power,
+0381,Sorrow's Path,Land,Randy Asplund-Faith,"|T: to rearrange up to 2 of opponents blocking creatures, does 2 damage to controller and all his creatures when tapped",
+0382,Uncle Istvan,Summon Istvan,Daniel Gelon,All damage done to Uncle Istvan by creatures is reduced to 0.,Solitude drove the old hermit insane. Now he only keeps company with those he can catch.
+0383,Venom,Enchant Creature,Tom Wanerstrand,"At the end of combat, destroy all non-wall creatures blocking or blocked by target creature.",""" I told him it was just a flesh wound, but the next time I looked at him, poor Tadhg was dead and gone."" --- Maeveen O'Donogh, Memoirs of a Soldier"
+0384,Wand of Ith,Artifact,Quinton Hoover,"|3 |t: draw one card from opponents hand at random, discard spells unless opponent decides to take castcost in damage, the castcost for lands are considered 1 here.",
+0385,War Barge,Artifact,Tom Wanerstrand,|3: give any creature islandwalk until end of turn. Bury creature if Barge is destroyed,
+0386,Whippoorwill,Summon Whippoorwill,Douglas Shuler,"|G|G |T : Target creature cannot be regenerated, and damage to it can't be redirected. If buried, remove from game.","If the Whippoorwill remains silent, the soul has not reached its reward."
+0387,Witch Hunter,Summon Hunter,Jesper Myrfors,|T: to do 1 damage to target creature;|1 |W |W |T: return target creature opponent controls to owner's hand.,
+0388,Word of Binding,Sorcery,Ron Spencer,|T: X target creatures are tapped,"""That was the worst experience of my days: standing there helpless as they killled my whole troop."" --- Maeveen O'Donagh, Memoirs of a Soldier"
+0389,WormWood Treefolk,Summon Treefolk,Jesper Myrfors,|G|G: forestwalk and controller takes 2 damage; |B|B: swampwalk and controller takes 2 damage,
+0390,Worms of the Earth,Enchantment,Anson Maddocks,Prevents opponent from playing any land until worms are destroyed. Any player may destroy worms during his upkeep by sacrificing two lands or taking 5 damage.,"The ground collapsed, leaving nothing but the great Worms' mucous residues."
+0391,Abu Jafar,Summon Abu Jafar,Ken Meyer Jr.,"If Abu dies while in combat, all creatures blocked or blocking him die also and may not regenerate",
+0392,Aladdin,Summon Aladdin,Julie Baroh,"|R|R |1 |T: take control of an artifact, artifact is returned when Aladdin is removed from play",
+0393,Aladdin's Lamp,Artifact,Mark Tedin," |X, |T: Instead of drawing a card from the top of your library, draw X cards but choose onloy one to put into your hand.  Shuffle the leftover cards and put them at the bottom of your library.  X cannot be 0.",
+0394,Ali Baba,Summon Ali Baba,Julie Baroh,|R: taps target wall.,"``When he reached the entrance of the cavern, he pronounced the words, `Open, Sesame!' “---The Arabian Nights,  Junior Classics trans."
+0395,Ali from Cairo,Summon Ali,Mark Poole,"As long as Ali from Cairo is in play, any damage that would reduce you below 1 life is prevented instead.",
+0396,Aladdin's Ring,Artifact,Dan Frazier," |8, |T: Aladdin's Ring deals 4 damage to target creature or player.","``After these words the magician drew a ring off his finger, and put it on one of Aladdin's, saying: `It is a talisman against all evil, so long as you obey me."" --- The Arabian Nights, Junior Classics trans."
+0397,Army of Allah,Instant,Brian Snoddy,All attacking creatures gets +2/+0 until end of turn.,"On the day of victory, no one is tired. --- Arab proverb"
+0398,Bazaar of Baghdad,Land,Jeff A. Menges,"|T:  Draw two cards, then discard three cards.  If you do not have enough cards, your entire hand is discarded.",
+0399,Bird Maiden,Summon Bird Maid,Kaja Foglio,Flying,"Four things that never meet do here unite / To shed my blood and to ravage my heart, / A radiant brow and tresses that beguile / And rosy cheeks and a glittering smile.'' ---The Arabian Nights, { trans. Haddawy}"
+0400,Bottle of Suleiman,Artifact,Jesper Myrfors,"|1, Sacrifice Bottle of Suleiman: Flip a coin; target opponent calls heads or tails while coin is in the air.  If the flip ends up in opponent's favor, Bottle of Suleiman deals 5 damage to you.  Otherwise, put a Djinn token into play...",
+0401,Camel,Summon Camel,Sandra Everingham,"Banding,  All damage done to Camel and creatures attacking in a band with Camel is reduced to 0.","Everyone knows Walid was a pious man, for he had been blessed with many sons, many jewels, and a great many camels."
+0402,City in a Bottle,Artifact,Drew Tucker,,
+0403,City of Brass,Land,Mark Tedin,"|T: produces one mana of any color, does 1 point of damage to controller each time it is tapped",
+0404,Cuombajj Witches,Summon Witches,Kaja Foglio,"|T: do 1 damage to any target, opponent may do 1 damage to any target, you choose first,damage is simultaneous",
+0405,Cyclone,Enchantment,Mark Tedin,"Cyclone does 1damage to both players and all creatures for each turn it exists, pay |G per turn or it is discarded",
+0406,Dandan,Summon Dandan,Drew Tucker,"Cannot attack unless opponent has islands in play, is destroyed if controller has no islands in play",
+0407,Desert,Land,Jesper Myrfors,|T: Add 1 colorless mana to your mana pool.;  |T: Desert deals 1 damage to target attacking creature at end of combat.,
+0408,Desert Nomads,Summon Nomads,Christopher Rush,Desertwalk  All damage done to Desert Nomads by Deserts is reduced to 0.,
+0409,Desert Twister,Sorcery,Susan Van Camp,Destroy target permanent.,
+0410,Diamond Valley,Land,Brian Snoddy,"|T, Sacrifice a creature : gain life equal to that creature's toughness.",
+0411,Drop of Honey,Enchantment,Anson Maddocks,During your upkeep the creature with the lowest power is destroyed and cannot be regenerated,
+0412,Ebony Horse,Artifact,Dameon Willich," |2, |T: Untap target attacking creature you control.  That creature neither receives nor deals damage during combat this turn.",
+0413,El-hajjaj,Summon El-hajjaj,Dameon Willich,You gain 1 life for every point of damage El-Hajjaj deals.  You cannot gain more life in this way than the toughness of the creature or the total life of the player that El-Hajjaj damages.,
+0414,Elephant Graveyard,Land,Rob Alexander,|T:  Add |1 to your mana pool. ; |T: Regenerate target Elephant or Mammoth.,
+0415,Erg Raiders,Summon Raiders,Dameon Willich,"If you do not attack with Erg Raiders during your turn, it deals 2 damage to you at end of turn.  Erg Raiders deals no damage to you the turn it comes into play on your side.",
+0416,Erhnam Djinn,Summon Djinn,Ken Meyer Jr.,"During your upkeep, choose one of your opponent's non-wall creatures which gains forestwalk until end of turn",
+0417,Eye for an Eye,Instant,Mark Poole,"You may cast Eye for an Eye only when a creature, spell, or effect deals damage to you.  Eye for an Eye deals an equal amount of damage to the controller of that creature, spell, or effect.  If another spell or effect reduces the amount...",
+0418,Fishliver Oil,Enchant Creature,Anson Maddocks,Target creature gains islandwalk,"Then the maiden bade him cast off his robes and cover his body with fishliver oil, that he might safely follow her into the sea."
+0419,Flying Carpet,Artifact,Mark Tedin," |2, |T: Target creature gains flying until end of turn.  If that creature is put into the graveyard before end of turn, destroy Flying Carpet.",
+0420,Flying Men,Summon Flying Men,Christopher Rush,Flying,"Saffiyah clapped her hands and twenty flying men appeared at her side, each well trained in the art of combat."
+0421,Ghazban Ogre,Summon Ogre,Jesper Myrfors,"During its current controller's upkeep, the player with the most life points takes control of the Ogre",
+0422,Giant Tortoise ,Summon Tortoise,Kaja Foglio,Giant Tortoise gets +0/+3 while untapped.,
+0423,Guardian Beast,Summon Guardian,Ken Meyer Jr.,"As long as Guardian Beast is untapped, your artifacts may not be stolen, enchanted, or put in the graveyard unless sacrificed.  If Guardian Beast would be put in the graveyard at the same time as an artifact, only Guardian Beast is...",
+0424,Hasran Ogress ,Summon Ogre,Dan Frazier,Pay |2 each time Ogress attacks or she does 3 damage to you,
+0425,Hurr Jackal,Summon Jackal,Drew Tucker,|T: Target creature cannot regenerate this turn.,
+0426,Ifh-Biff Efreet,Summon Efreet,Jesper Myrfors,Flying  Any player may pay |G for Ifh-Biff Efreet to deal 1 damage to each players and each creature with flying.,
+0427,Island Fish,Summon Island Fish,Jesper Myrfors,"Does not untap during your untap phase.  Cannot attack if defending player controls no islands.  If at any time you control no islands, bury Island Fish Jasconius.  |U|U|U: Untap Island Fish.  Use this ability only during your upkeep.",
+0428,Island of Wak-Wak,Land,Douglas Shuler,"|T: Target flying creature gets -X/-0 until end of turn, where X is that creature's power.","The Isle of Wak-Wak, home to a tribe of winged folk is named for a peculiar fruit that grows there. The fruit looks like a woman's head, and when ripe speaks the word ""Wak."""
+0429,Jandor's Ring,Artifact,Dan Frazier,"|2 , |T:  Discard a card you just drew from your library to draw a card.",
+0430,Jandor's Saddlebags,Artifact,Dameon Willich,"|3, |T: Untap target creature.","Each day of their journey, Jandor opened the saddlebags and found them full of mutton, quinces, cheese, date rolls, wine, and all manner of delicious and satisfying foods."
+0431,Jeweled Bird,Artifact,Amy Weber,"Your ante goes to graveyard, jeweled bird becomes ante and you draw another card for |1",
+0432,Jihad,Enchantment,Brian Snoddy,"All white creatures get +2/+1.  Choose a color when you play Jihad.  If at any time opponent controls no c
+0433,Junun Efreet,Summon Efreet,Christopher Rush,"Flying  During your upkeep, pay |B|B or bury Junun Efreet.",
+0434,Juzam Djinn,Summon Djinn,Mark Tedin,Juzam Djinn deals 1 damage to you during your upkeep.,"""Expect my visit when the darkness comes. The night I think is best for hiding all."" --- Ouallada"
+0435,Khabal Ghoul,Summon Ghoul,Douglas Shuler,"At the end of any turn, put a +1/+1 counter on Khabal Ghoul for each creature put in the graveyard from play during the turn.",
+0436,King Suleiman,Summon King,Mark Poole,|T: Destroy target Efreet or Djinn.,"""We made tempestuous winds obedient to Soloman ... And many of the devils We also made obedient to him."" --- The Qur'an, 21:81"
+0437,Kird Ape,Summon Ape,Ken Meyer Jr.,"As long as you control any forests, Kird Ape gets +1/+2.",
+0438,Alexandrian Library,Land,Mark Poole,|T: Add |1 to your mana pool.;  |T: Draw a card.  Use this ability only if you have seven cards in your hand.,
+0439,Magnetic Mountain,Enchantment,Susan Van Camp,"Blue creatures do not untap during their controllers' untap phase.  During his or her upkeep, a player may pay an additional |R to untap a blue creature he or she controls.",
+0440,Merchant Ship,Summon Ship,Tom Wanerstrand,"If Merchant Ship attacks and is not blocked, you gain 2 life.  Cannot attack if defending player controls no islands.  If at any time you control no islands, bury Merchant Ship.",
+0441,Metamorphosis,Sorcery,Christopher Rush,"Sacrifice a creature of yours in play for mana of any color equal to casting cost plus 1, use mana to summon another creature",
+0442,Mijae Djinn,Summon Djinn,Susan Van Camp,"If Mijae Djinn is declared as an attacker, flip a coin immediately after attack is announced; target opponent calls heads or tails while coin is in the air.  If the flip ends up in your favor, Djinn attacks normally.  Otherwise, Djinn becomes tapped...",
+0443,Moorish Cavalry,Summon Cavalry,Dameon Willich,Trample,"Members of the elite Moorish Cavalry are very particular about their mounts, choosing only those whose bloodlines have been pure for generations."
+0444,Naf's Asp,Summon Asp,Christopher Rush,"If Nafs Asp damages a player, it also deals 1 damage to that player during his or her next draw phase.  Before then, the player may pay |1 to prevent this damage.",
+0445,Oasis,Land,Brian Snoddy,|T: Prevent 1 damage to any creature.,
+0446,Old Man of the Sea,Summon Marid,Susan Van Camp,"You may choose not to untap Old Man of the Sea during your untap phase.  |T: Gain control of target creature with power no greater than Old Man's.  You lose control of this permanent if Old Man becomes untapped, if Old Man leaves play, or...",
+0447,Oubliette,Enchantment,Douglas Shuler,"Target creature is considered out of play until Oubliette leaves play.  This creature keeps all counters, enchantments, and permanent changes, but these are considered out of play as well.  When Oubliette leaves play, creature returns to play tapped.",
+0448,Piety,Instant,Mark Poole,All blocking creatures get +0/+3 until end of turn.,"""Whoever obeys God and His Prophet, fears God and does his duty to Him, will surely find success.'' ---The Qur'an, 24:52"
+0449,Pyramids,Artifact,Amy Weber, |2 : Prevent target land from being put in the graveyard. ;  |2 : Destroy target enchant land.,
+0450,Blacksmith,Summon Smith,Drew Tucker,,"``For my confession they burned me with fire / And found that I was for endurance made.''  ---The Arabian Nights,  trans. Haddawy"
+0451,Ring of Maruf,Artifact,Dan Frazier,"Instead of drawing a card, you may select one of your cards from outside the game to add to your hand for |5 , Ring of Maruf is then removed from play",
+0452,Rukh Egg,Summon Egg,Christopher Rush,"If Rukh Egg is put into the graveyard from play, put a Rukh token into play at end of turn.  Treat this token as a 4/4 red creature with flying.",
+0453,Sandals of Abdallah,Artifact,Dan Frazier," |2, |T: Target creature gains islandwalk until end of turn.  If that creature is put into the graveyard before end of turn, destroy Sandals of Abdallah.",
+0454,Sandstorm,Instant,Brian Snoddy,Sandstorm deals 1 damage to all attacking creatures.,"Even the landscape turned against Sarsour, first rising up and pelting him, then rearranging itself so he could no longer find his way."
+0455,Serendib Djinn,Summon Djinn,Anson Maddocks,"During upkeep you must destroy one land, if it is an island take 3 damage, Djinn is destroyed if you have no islands",
+0456,Serendib Efreet,Summon Efreet,Anson Maddocks,Serendib Efreet deals 1 damage to you during your upkeep.,
+0457,Shahrazad,Sorcery,Kaja Foglio,"Players use cards left in library to play mini-game of magic, loser loses 1/2 of remaining life points",
+0458,Sindbad,Summon Sindbad,Julie Baroh,"|T: Draw a card.  If it is not a land, discard it.",
+0459,Singing Tree,Summon Singing Tree,Rob Alexander,"|T: Target attacking creature gets -X/-0 until end of turn, where X is that creature's pow
+0460,Sorceress Queen,Summon Sorceress,Kaja Foglio,|T: Target creature other than Sorceress Queen becomes 0/2 until end of turn.,
+0461,Stone Devils,Summon Devils,Ken Meyer Jr.,First strike,Sometimes those with the most sin cast the first stones.
+0462,Unstable Mutation,Enchant Creature,Douglas Shuler,"Target creature gets +3/+3.  During each of its controller's upkeeps, put a -1/-1 counter on the creature.  These counters remain even if Unstable Mutation is removed.",
+0463,War Elephant,Summon Elephant,Kristen Bishop,,``When elephants fight it is the grass that suffers.'' ---Kikuyu Proverb
+0464,Wyluli Wolf,Summon Wolves,Susan Van Camp,|T: Target creature gets +1/+1 until end of turn.,"""When one wolf calls, others follow. Who wants to fight creatures that eat scorpions?"" --- Maimun al-Wyuli, Diary"
+0465,Ydwen Efreet,Summon Efreet,Drew Tucker,"If Ydwen Efreet is declared as an blocker, flip a coin immediately after defense is chosen; target opponent calls heads or tails while coin is in the air.  If the flip ends up in your favor, Efreet attacks normally.  Otherwise, Efreet becomes tapped...",
+0466,Amulet of Kroog,Artifact,Margaret Organ-Keen,"|2, |T: Prevent 1 damage to any creature or player.","Among the first allies Urza gained were the people of Kroog. As a sign of friendship, Urza gave the healers of the city potent amulets; afterwards, thousands journeyed to Kroog in hope of healing."
+0467,Archaeoligist,Summon Archaeoligist,Amy Weber,"|W|W, |T: Take target artifact from your graveyard and put it into your hand.","Fascinated by the lore of ancient struggles, the Archaeologist searches incessantly for remnants of an earlier more powerful era."
+0468,Argivian Blacksmith,Summon Smith,Kerstin Kaman,|T: Prevent up to 2 damage to any artifact creature.,"Through years of study and training, the Blacksmiths of Argive became adept at reassembling the mangle remains of the strange, mechanical creatures abounding in their native land."
+0469,Argothian Pixies,Summon Pixies,Amy Weber,"Cannot be blocked by artifact creatures, may not be damaged by artifacts","After the rape of Argoth Forest during the rule of the artificers, the Pixies of Argoth bent their magic to more practical ends."
+0470,Argothian Treefolk,Summon Treefolk,Amy Weber,Any damage done to Argothian Treefolk by artifact sources is reduced to 0.,"Haunting cries we hear in our dreams / As the fores dies, a death from machines."
+0471,Armageddon Clock,Artifact,Amy Weber,"During your upkeep, put one doom counter on Armageddon Clock.  At the end of your upkeep, Armageddon Clock deals X damage to each player, where X is the number of doom counters on Armageddon Clock.  During any upkeep. ...",
+0472,Artifact Blast,Interrupt,Mark Poole,Counter target artifact spell.,"The first line of defense against Urza and Mushra, the Artifact Blast achieved widespread fame until an unlucky mage discovered it was useless on the devices the brothers had already created."
+0473,Artifact Ward,Enchant Creature,Douglas Shuler,"Target creature cannot be blocked by artifacts, takes no damage from them, and is immune to artifact effects targeting it",
+0474,Ashnod's Alter,Artifact,Anson Maddocks,"Sacrifice one of your creatures: gain |2, playable as an interrupt",
+0475,Ashnod's Battlegear,Artifact,Mark Poole,"|2, |T: Target creature you control gets +2/-2 as long as Ashnod's Battle gear remains tapped.  You may choose not to untap Ashnod's Battle Gear during your untap phase.",This invention shows why Ashnod was feared by her troops as well as her foes.
+0476,Transmogrant,Artifact,Mark Tedin,"Target non-artifact creature gains +1/+1 and is now considered an artifact creature, discard Replicant when used",Ashnod found few willing to trade their humanity for the power she offered them.
+0477,Atog,Summon Atog,Jesper Myrfors,|0: Sacrifice an artifact to give Atog +2/+2 until end of turn.,"The bane of all artificers, the legendary Atogs devoured intricate tools to further their own twisted growth."
+0478,Battering Ram,Artifact Creature,Jeff A. Menges,"Banding when attacking  At the end of combat, destroy all walls blocking Battering Ram.","By the time Mishra was defeated, no mage was foolish enough to rely heavily on walls."
+0479,Bronze Tablet,Artifact,Tom Wanerstrand,Comes into play tapped...,
+0480,Tawnos' Candelabra ,Artifact,Douglas Shuler,"|X, |T: Untap X target lands.","Tawnos learned quickly from Urza that utter simplicity often led to wondrous, yet subtle utility."
+0481,Artifact Circle,Enchantment,Pete Venters,"|2: Prevent all damage against you from one artifact source.  If a source deals damage to you more than once in a turn, you may pay  |2 each time to prevent the damage.",
+0482,Citanul Druid,Summon Druid,Jeff A. Menges,Put a +1/+1 counter on Citanul Druid when target opponent successfully casts an artifact.,"Driven mad by the fall of Argoth, the Citanul Druids found peace only in battle."
+0483,Clay Statue,Artifact Creature,Jesper Myrfors, |2 : Regenerate,"Tawnos won fame as Urza's greatest assistant. After he created these warriors, Urza ended his apprenticeship, promoting him directly to the rank of master."
+0484,Clockwork Avian,Artifact Creature,Randy Asplund-Faith,"Flying  When Clockwork Avian comes into play, put four +1/+0 counters on it.  At the end of any combat in which Clockwork Avian is assigned to attack or block, remove a counter.   |X, |T: Put X +1/+0 counters on Clockwork Avian...",
+0485,Colossus of Sardia,Artifact Creature,Jesper Myrfors,Trample  Colossus does not untap during your untap phase. |9: Untap Colossus.  Use this ability only during your upkeep.,From the Sardian mountains wakes ancient doom: Warrior born from a rocky womb.
+0486,Coral Helm,Artifact,Amy Weber,|3 : Discard a card at random from your hand to give target creature +2/+2 until end of turn.,
+0487,Crumble,Instant,Jesper Myrfors,Bury target artifact.  Artifact's controller gains life equal to the artifact's casting cost.,The spirits of Argoth grant new life to those who repent the folly of enslaving their labors to devices.
+0488,Cursed Rack,Artifact,Richard Thomas,Target opponent discards down to four cards during his or her discard phase.,Ashnod invented several torture techniques that could make victims even miles away beg for mercy as if the End had come.
+0489,Damping Field,Enchantment,Justin Hampton,No player may untap more than one artifact during his or her untap phase.,"Eventually, mages learned to harness the power of natural damping fields and use it for their own ends."
+0490,Detonate,Sorcery,Randy Asplund-Faith,"Bury target artifact.  Detonate deals X damage to the artifact's controller, where X is the casting cost of the artifact.",
+0491,Drafnas Restoration,Sorcery,Amy Weber,,"Drafna, founder of the College of Lat-Nam, could create a working model from even the smallest remnants of a newly unearthed artifact."
+0492,Dragon Engine,Artifact Creature,Anson Maddocks,|2 : +1/+0 until end of turn,Those who believed the city of Kroog would never fall to Mishra's forces severely underestimated the might of his war machines.
+0493,Dwarven Smith,Summon Dwarves,Mark Poole,"Sacrifice an artifact , |T: give target creature a +1/+1 counter.  Use this ability only during your upkeep.","""Work with zeal as hammers peal! / Melt, anneal, and pound the steel!"" --- Old Dwarvish forge-chant"
+0494,Energy Flux,Enchantment,Kaja Foglio,"During each player's upkeep, destroy all artifacts that player controls.  The player may pay an addition  |2 for each artifact he or she wishes to prevent Energy Flux from destroying.",
+0495,Feldon's Cane,Artifact,Mark Tedin,Reshuffle your graveyard into your library and remove cane from game,Feldon found the first of these canes frozen in the Ronom Glacier.
+0496,Gaea's Avenger,Summon Avenger,Pete Venters,Gaea's Avenger has power and toughness each equal to 1 plus the number of artifacts target opponent controls.,"After the destruction of Argoth, Gaea was willing to instill a portion of her own powers into some of her more vengeful followers."
+0497,Gate to Phyrexia,Enchantment,Sandra Everingham,Sacrifice a creature: destroy target artifact.  Use this ability only during your upkeep.,"""The warm rain of grease on my face immediately made it clear I had entered Phyrexia."" --- Jarsyl, Diary"
+0498,Goblin Artisans,Summon Goblins,Julie Baroh,"You may tap goblins if you cast artifact, there is an equal chance that the artifact is destroyed or you draw another card",
+0499,Golgothian Sylex,Artifact,Kerstin Kaman,|1: force all Antiquities cards in play to be discarded,"From their earliest educations, the brothers had known that no human contrivance could stand against the true masters of Dominia."
+0500,Grapeshot Catapult,Artifact Creature,Dan Frazier,|T: Grapeshot Catapult deals 1 damage to target creature with flying.,"Recent research suggests these creatures were invented by Urza's and Mishra's original master, Tocasia, and that both brothers used them."
+0501,Haunting Wind,Enchantment,Jeff A. Menges,"Whenever an artifact's activation cost is paid, or an artifact otherwise becomes tapped, Haunting Wind deals 1 damage to the artifact's controller.",These devices lured so many spirits that sometimes entire battlefields would become haunted at once.
+0502,Hurkyl's Recall,Instant,Nene Thomas,All artifacts in play owned by target player are returned to that player's hand.,"This spell, like many attributed to Drafna, was actually the work of his wife and former student, Hurkyl."
+0503,Ivory Tower,Artifact,Margaret Organ-Keen,"At the beginning of your upkeep, gain 1 life for each card in your hand in excess of four.","Valuing scholarship above all else, the inhabitants of the Ivory Tower reward those who sacrifice power for knowledge."
+0504,Jalum Tome,Artifact,Tom Wanerstrand,|2: draw a card from your library but you must discard one immediately afterward,"This timeworn relic was responsible for many of Urza's victories, though he never fully comprehended its mystic runes."
+0505,Martyrs of Korlis,Summon Bodyguard,Margaret Organ-Keen,"As long as Martyrs of Korlis is untapped, any damage done to you by artifacts is redirected to Martyrs of Korlis.  You may prevent this damage first if possible.  No more than one Bodyguard of your choice can take damage for you in this way each turn.",
+0506,Mightstone,Artifact,Pete Venters,All attacking creatures get +1/+0.,"While exploring the sacred cave of Koilos with his brother Mishra and their master Tocasia, Urza fell behind in the Hall of Tagsin, where he discovered the remarkable Mightstone."
+0507,Millstone,Artifact,Kaja Foglio,"|2, |T: Take the top two cards from target player's library and put them into that player's graveyard.",More than one mage was driven insane by the sound of the Millstone relentlessly grinding away.
+0508,Mishra's Factory,Land,Kaja & Phil Foglio,"|T: Add |1 to your mana pool. ; |1: Mishra's Factory becomes an Assembly Worker, a 2/2 artifact creature, until end of turn.  Assembly Worker still counts as a land but cannot be tapped for mana the turn it comes into play...",
+0509,War Machine,Artifact Creature,Amy Weber,"Banding  During your upkeep, choose and discard one card from your hand, or Mishra's War Machine deals 3 damage to you.  If Mishra's War Machine deals damage to you in this way, tap it.",
+0510,Mishra's Workshop,Land,Kaja Foglio,|T: Add |3 to your mana pool.  This mana may only be used to cast artifacts.,"Though he eventually came to despise Tocasia, Mishra listened well to her lessons on clarity of purpose. Unlike his brother, he focused his mind on a single goal."
+0511,Obelisk of Undoing,Artifact,Tom Wanerstrand,"|6: return any of your permanents in play to your hand, enchants on that card are discarded",The Battle of Tomakul taught Urza not to rely on fickle reinforcements.
+0512,Onulet,Artifact Creature,Anson Maddocks,"If Onulet is put into the graveyard from play, you gain 2 life.","An early inspiration for Urza, Tocasia's Onulets contained magical essences that could be cannibalized after they stopped functioning."
+ 0513,Orcish Mechanics,Summon Orcs,Pete Venters,Sacrifice an artifact.  |T: Orcish Mechanics deals 2 damage to target creature or player.,
+0514,Ornithopter,Artifact Creature,Amy Weber,Flying,"Many scholars believe that these creatures were the result of Urza's first attempt at mechanical life, perhaps created in his early days as an apprentice to Tocasia."
+0515,Phyrexian Gremlins,Summon Gremlins,Amy Weber,You may choose not to untap Phyrexian Gremlins during your untap phase.  |T: taps target artifact.  This permanent does not untap during its controller's untap phase until Phyrexian Gremlins become untapped or leave play.,
+0516,Artifact Possession,Enchant Artifact,Christopher Rush,"Whenever target artifact's activation cost is paid, or it otherwise becomes tapped, Artifact Possession deals 2 damage to this artifact's controller.",Any black mage could coax a Thraxodemon to inhabit a magical device.
+0517,Power Artifact,Enchant Artifact,Douglas Shuler,"All activation costs of target artifact which require grey mana are reduced by  |2, to a minimum of |1.",
+0518,Powerleech,Enchantment,Christopher Rush,"Whenever the activation cost of an artifact controlled by target opponent is paid, or such an artifact otherwise becomes tapped, you gain 1 life.",The Forest of Argoth has developed a resistance to mechanical intrusion.
+0519,Primal Clay,Artifact Creature,Kaja Foglio,"When Primal Clay comes into play, choose whether to make it a 1/6 wall, a 2/2 creature with flying, or a 3/3 creature.",
+0520,Rakalite,Artifact,Christopher Rush,"Prevents 1 damage to any target per |2 spent, if used Rakalite is returned to controllers hand","Urza was the first to understand that the war would not be lost for lack of power, but for lack of troops."
+0521,Reconstruction,Sorcery,Anson Maddocks,Take target artifact from your graveyard and put it into your hand.,Tedious research made the Sages of the College of Lat-Nam adept in repairing broken artifacts.
+0522,Reverse Polarity,Instant,Justin Hampton,All damage dealt to you so far this turn by artifacts is retroactively added to your life total instead of subtracted.  Further damage this turn is treated normally.,
+0523,Rocket Launcher,Artifact,Pete Venters,Rocket Launcher may not be used until it begins a turn in play under your control.  Destroy Rocket Launcher at end of turn if it was used during the turn.   |2 : Rocket Launcher deals 1 damage to target creature or player.,"What these devices lacked in subtlety, they made up in strength."
+0524,Sage of Lat-Nam,Summon Sage,Pete Venters,Sacrifice an artifact |T: draw a card.,
+0525,Shapeshifter,Artifact Creature,Dan Frazier,"Shapeshift has power and toughness that add up to seven, but neither may be more than seven.  Set them when Shapeshift comes into play; you may change them during your upkeep.",
+0526,Shatterstorm,Sorcery,Mark Poole,Bury all artifacts.,"Chains of leaping fire and sizzling lightining laid waste the artificers' handiwork, sparing not a single device."
+0527,Staff of Zegon,Artifact,Mark Poole," |3, |T: Target creature gets -2/-0 until end of turn.","Though Mishra was impressed by the staves Ashnod had created for Zegon's defense, he understood they only hinted at her full potential."
+0528,Strip Mine,Land,Daniel Gelon,"|T: Add |1 to your mana pool. ; Sacrifice Strip Mine , |T: destroy target land.","Unlike previous conflicts, the war between Urza and Mishra made Dominia itself a casualty of war. "
+0529,Su-Chi,Artifact Creature,Christopher Rush,"If Su-Chi is put into the graveyard from play, add |4 to your mana pool.","Flawed copies of relics from the Thran Empire, the Su-Chi were inherently unstable but provided useful knowledge for Tocasia's students."
+0530,Tablets of Epityr,Artifact,Christopher Rush,|1: Gain 1 life when an artifact you control is put into the graveyard from play.  Use this effect only once each time an artifact is put into the graveyard.,"Originally considered the work of Urza, this tablet was created by forgers seeking to imitate Urza's masterpieces."
+0531,Tawnos' Coffin,Artifact,Christopher Rush,see Oubliette,
+0532,Tawnos' Wand,Artifact,Douglas Shuler,"|2, |T: Target creature with power no greater than 2 becomes unblockable until end of turn.  Other effects may later be used to increase the creature's power beyond 2.",
+0533,Tawnos' Weaponry,Artifact,Dan Frazier,"|2, |T: Target creature gets +1/+1 as long as Tawnos's Weaponry remains tapped.  You may choose not to untap Tawnos's Weaponry during your untap phase.","When war machines became too costly, Tawnos's Weaponry replaced them."
+0534,Tetravus,Artifact Creature,Mark Tedin,"Flying  When Tetravus comes into play, put three +1/+1 counters on it.  During your upkeep, you may move each of these counters on or off of Tetravus, regardless of who controls them.  Counters that are removed become Tetravite tokens...",
+0535,The Rack,Artifact,Richard Thomas,"At the end of target opponent's upkeep, The Rack deals that player 1 damage for each card in his or her hand fewer than three.","Invented in Mishra's earlier days, the Rack was once his most feared creation."
+0536,Titania's Song,Enchantment,Kirsten Kaman,"All non-creature artifacts lose all their usual abilities and become artifact creatures with toughness and power each equal to their casting costs.  If Titania's Song leaves play, artifacts return to normal just before the untap phase of the next turn.",
+0537,Transmute Artifact,Sorcery,Anson Maddocks,"Sacrifice an artifact : search through your library and put an artifact directly into play.  If that artifact's casting cost is more than the casting cost of the sacrificed artifact, pay the difference or put the artifact in your graveyard instead of...",
+0538,Triskelion,Artifact Creature,Douglas Shuler,"When Triskelion comes into play, put three +1/+1 counters on it.   |0 : Remove one of these counters from Triskelion to have Triskelion deal 1 damage to target creature or player.","A brainchild of Tawnos, the Triskelion later proved both versatile and useful."
+0539,Urza's Avenger,Artifact Creature,Amy Weber,"|0: Urza's Avenger gets -1/-1 until end of turn and your choice of flying, banding, first strike, or trample until end of turn.","Unable to settle on just one design, Urza decided to create one versatile being."
+0540,Urza's Chalice,Artifact,Jeff A. Menges,|1: Gain 1 life for a successfully cast artifact spell.  Use this effect either when the spell is cast or later in the turn but only once for each artifact spell cast.,"When sorely wounded or tired, Urza would often retreat to the workshops of his apprentices. They were greatly amazed at how much better he looked each time he took a sip of wine."
+0541,Urza's Mine,Land,Anson Maddocks,"If you have Urza's Mine, Tower and Powerplant in play,|T: add |2 to your mana pool. otherwise, |T add |1 to you mana pool",Mines became common as cities during the days of the artificers.
+0542,Urza's Miter,Artifact,Randy Asplund-Faith,"|3: Draw a card when an artifact you control is put into the graveyard from play.  Use this eff
+0543,Urza's Powerplant,Land,Mark Tedin,"If you have Urza's Mine, Tower and Powerplant in play,|T: add |2 to your mana pool. otherwise, |T add |1 to you mana pool",Artifact construction required immense resources.
+0544,Urza's Tower,Land,Mark Poole,"If you have Urza's Mine, Tower and Powerplant in play,|T: add |3 to your mana pool. otherwise, |T add |1 to you mana pool",Urza always put Tocasia's lessons on resource-gathering to effective use.
+0545,Wall of Spears,Artifact Creature,Sandra Everingham,"First strike, counts as a wall","Even the most conservative generals revised their tactics after the Battle of Sarinth, during which a handful of peasant-pikemen held off a trio of rampaging Craw Wurms."
+0546,Weakstone,Artifact,Justin Hampton,All attacking creatures get -1/-0.,"During the brothers' childhood, Tocasia took them to explore the sacred cave of Koilos. There, in the Hall of Tagsin, Mishra descovered the mysterious weakstone."
+0547,Xenic Poltergeist,Summon Poltergeist,Dan Frazier,|T: Target non-creature artifact becomes an artifact creature with power and toughness each equal to its casting cost.  Target retains all original abilities.  This change lasts until your next upkeep.,
+0548,Yawgmoth Demon,Summon Demon,Sandra Everingham,Sacrifice an artifact each turn or demon becomes tapped and does 2 damage to you,
+0549,Priest of Yawgmoth,Summon Priest,Mark Tedin,|T: Sacrifice any artifact you own to add an amount of |B to your mana pool equal to the artifact's casting cost.  Play this ability as an interrupt.,
+0550,Yotian Soldiers,Artifact Creature,Christopher Rush,Attacking does not cause Yotian Soldier to tap.,"After Kroog was destroyed while most of its defenders were at his side, Urza vowed that none of his allies would ever need to fear for their own defense again, even while laying siege to a city far from their homes."
+0551,Abomination,Summon Abomination,Mark Tedin,"At the end of combat, destroy all green and white creatures blocking or blocked by Abomination.",
+0552,Acid Rain,Sorcery,Nene Thomas,Destroys all forests.,
+0553,Active Volcano,Instant,Brian Snoddy,Destroy target blue permanent or return target island to owner's hand.,
+0554,Adun Oakenshield,Summon Legend,Jeff A. Menges,"|G|R|B, |T: Take target creature from your graveyard and put it into your hand.",""" ... And at his passing, the bodies of the world's great warriors shall rise from their graves and follow him to battle."" --- The Anvilonian Grimoire"
+0555,Adventurer's Guild,Land,Tom Wanerstrand,All your green legends gain bands with other legends.,
+0556,Aerathi Berserker,Summon Berserker,Melissa Benson,Rampage 3,Aerathi children who show promise are left to survive for a year in the wilderness. Those who return are shown the way of the Berserker
+0557,Aisling Leprechaun,Summon Faerie,Quinton Hoover,"Change the color of all creatures blocking or blocked by Leprechaun to green.  This change is permanent.  Costs to cast, tap, maintain, or use a special ability of a permanent remain unchanged.",
+0558,Akron Legionnaire,Summon Legionnaire,Mark Poole,None of your other non-artifact creatures may attack except for other legionnaires while card is in play,
+0559,Al-abara's Carpet,Artifact,Kaja Foglio," |5, |T: Prevent all damage dealt to you by attacking creatures without flying.","Al-abara simply laughed and lifted one finger, and the carpet carried her high out of our reach."
+0560,Alabaster Potion,Instant,Harold McNeil,"Give target player X life, or prevent X damage to any creature or player.","``Healing is a matter of time, but it is sometimes also a matter of opportunity.''  ---D'Avenant proverb"
+0561,Alchor's Tomb,Artifact,Jesper Myrfors," |2, |T: Change the color of target permanent you control to the color of your choice.  This change is permanent.  Costs to cast, tap, maintain, or use a special ability of target remain unchanged.",
+0562,All Hallows Eve,Enchantment,Christopher Rush,"Put two haunting counters on All Hallow's Eve.  During your upkeep, remove one haunting counter.  When the last haunting counter is removed, take all creatures from all graveyards and put them directly into play.  You choose the order in which they...",
+0563,Amrou Kithkin,Summon Kithkin,Quinton Hoover,No creature with power greater than 2 may be assigned to block Kithkin.,"Quick and agile, Amrou Kithkin can usually escape from even the most fearsome opponents."
+0564,Angelic Voices,Enchantment,Julie Baroh,"As long as you only have white or artifact creatures in play, all your creatures gain +1/+1 ",
+0565,Angus Mackenzie,Summon Legend,Bryon Wackwitz,"|W|U|G, |T: No creatures deal damage in combat this turn.  Use this ability only before attack damage is dealt.","""Battles no longer served a purpose in Karakas."" --- Angus Mackenzie, Diary"
+0566,Anti-Magic Aura,Enchant Creature,Douglas Shuler,"Destroy all enchantments on target creature, except Anti-Magic Aura.  Target creature cannot be further targeted by instants, sorceries, or enchantments.",
+0567,Arboria,Enchant World,Daniel Gelon,If a player doesn't cast a spell or put a card into play no creature may attack that player till next turn.,
+0568,Arcades Sabboth,Summon ElderDragon,Edward Beard Jr.,"|W: +0/+1 ; Your untapped creatures gain +0/+2, but attacking creatures lose this bonus. Pay |W|U|G during upkeep or bury Arcades.",
+0569,Ancients' Arena,Artifact,Tom Wanerstrand,All legends in play are tapped and may not be untapped as normal during untap phase,
+0570,Avoid Fate,Interrupt,Phil Foglio,"Counter target interrupt or enchantment, which must target a permanent you control.",
+0571,Axelrod,Summon Legend,Scott Kirschner,Each time a creature dies during a turn in which Axelrod damaged it you gain 1 life and your opponent loses 1 life unless it is regenerated,
+0572,Ayesha Tanaka,Summon Legend,Bryon Wackwitz,|T:  add |W to the activation cost of target artifact. Interrupt which only affects artifacts that have an activation cost,
+0573,Azure Drake,Summon Drake,Dan Frazier,,The Azure Drake would be more powerful were it not so easily distracted.
+0574,Backdraft,Instant,Brian Snoddy,"Choose a sorcery cast during the turn.  Backdraft deals half the damage dealt by this sorcery, rounded down, to the caster of the sorcery.",
+0575,Backfire,Enchant Creature,Brian Snoddy,Backfire deals 1 damage to target creature's controller for each 1 damage dealt to you by that creature.,
+0576,Barbary Apes,Summon Apes,Bryon Wackwitz,,"Unpredictable in the extreme, these carniverous apes will prey even upon their own kind."
+0577,Barktooth Warbeard,Summon Legend,Andi Rusu,,"He is devious and cunning, in both appearance and deed. Beware the Warbeard, for this brute bites as well as he barks!"
+0578,Bartel Runeaxe,Summon Legend,Andi Rusu,Bartel Runeaxe cannot be the target of enchant creature spells.  Attacking does not cause Bartel Runeaxe to tap.,"Thundering down from Hammerheim, no foe could slow Barte's charge."
+0579,Beasts of Bogardan,Summon Beasts,Daniel Gelon,Gains +1/+1 if opponent controls any white cards,Bogardan is a land as volatile as the creatures who live there.
+0580,Black Mana Battery,Artifact,Anson Maddocks,"|2, |T: Put one charge counter on Black Mana Battery.  |T: Add |B to your mana pool and rmove as many charge counters as you wish.  For each charge counter remove from Black Mana Battery, add |B...",
+0581,Blazing Effigy,Summon Effigy,Susan Van Camp,"If Blazing Effigy is put into the graveyard from play, Effigy deals 3 damage to target creature.  If Effigy had been damaged in this way during the turn, all of the damage dealt to it in this way is added to the normal 3 damage.",
+0582,Blight,Enchant Land,Pete Venters,"If target land is tapped, destroy it at end of turn.",
+0583,Blood Lust,Instant,Anson Maddocks,"Target creature gets +4/-4 until end of turn.  If this reduces creature's toughness to less than 1, creature's toughness becomes 1.",
+0584,Blue Mana Battery,Artifact,Amy Weber,"|2, |T: Put one charge counter on Blue Mana Battery.  |T: Add |U to your mana pool and rmove as many charge counters as you wish.  For each charge counter remove from Blue Mana Battery, add |U...",
+0585,Boomerang,Instant,Brian Snoddy,Return any card in play to owners hand discarding enchants on it,"``O! call back yesterday, bid time return.'' ---William Shakespeare, King Richard the Second"
+0586,Boris Devilboon,Summon Legend,Jesper Myrfors,"|2 |B|R, |T: Put a Minor Demon token into play.  Treat this token as a 1/1 red and black creature.",
+0587,Brine Hag,Summon Hag,Quinton Hoover,"If Brine Hag is put into the graveyard, all creatures which damaged Hag this turn become 0/2.  This change is permanent.",
+0588,Bronze Horse,Artifact Creature,Mark Poole,Damage done to Bronze horse by spells targeting it is reduced to 0 if you have another creature.,
+0589,Carrion Ants,Summon Ants,Richard Thomas,|1: +1/+1 until end of turn,"``War is no picnic,'' my father liked to say. But the Ants seemed to disagree."
+0590,Cat Warriors,Summon Cat Warriors,Melissa Benson,,These stealthy felines have survived so many battles that some believe they must possess many lives.
+0591,Cathedral of Serra,Land,Mark Poole,All your white legends gain bands with other legends.,
+0592,Caverns of Despair,Enchant World,Harold McNeil,No player may attack or block with more than two creatures during combat.,
+0593,Chain Lightning,Sorcery,Sandra Everingham,"Chain Lightning deals 3 damage to target creature or player.    Each time Chain Lightning deals damage, the target or the target's controller may pay |R|R for Chain Lightning to deal 3 damage to target creature or player of that player's...",
+0594,Chains of Mephisto,Enchantment,Heather Hudson,All players must first discard a card for each card they draw per turn beyond the first,
+0595,Chromium,Summon ElderDragon,Edward Beard Jr.,Pay |B|U|W during your upkeep or Chromium is buried.,
+0596,Cleanse,Sorcery,Phil Foglio,Destroy all black creatures.,"The clouds broke and the sun's rays burst forth; each foul beast in its turn faltered, and was gone."
+0597,Holy Nimbus Clerics,Summon Priest,Daniel Gelon,"When clergy are destroyed, opponent must pay |1 or clergy are regenerated",
+0598,Cocoon,Enchant Creature,Mark Tedin,Target creature is tapped and cannot attack block or untap for 3 turns after the 3rd upkeep it gains +1/+1 and flying,
+0599,Concordant Roads,Enchant World,Amy Weber,Creatures may attack or use tap abilities the turn they are brought into play.,
+0600,Cosmic Horror,Summon Horror,Jesper Myrfors,"First strike  During your upkeep, pay  |3|B|B|B or destroy Cosmic Horror. If you destroy Cosmic Horror in this way, it deals 7 damage to you.","``Screams of horror rend th' affrighted skies.'' ---Alexander Pope, The Rape of the Lock"
+0601,Craw Giant,Summon Giant,Christopher Rush,,Harthag gave a jolly laugh as he surveyed the army before him. ``Ho ho ho! Midgets! You think you can stand in my way?''
+0602,Crevasse,Enchantment,Rob Alexander,Creatures with mountainwalk may be blocked as if they did not have this ability.,
+0603,Crimson Kobolds,Summon Kobolds,Anson Maddocks,,"""Kobolds are harmless."" --- Bearand the Bold, epitaph"
+0604,Crimson Manticore,Summon Manticore,Daniel Gelon,"Flying , |R, |T: Manticore deals 1 damage to target attacking or blocking creature.","Noted neither for their good looks nor their charm,  Manticores can be fearsome allies. As dinner companions, however, they are best left alone."
+0605,Crookshank Kobolds,Summon Kobolds,Christopher Rush,,"The Crookshank military boasts a standing army of nearly twenty-four million, give or take twenty-two million."
+0606,Cyclopian Mummy,Summon Mummy,Edward Beard Jr.,"If Mummy is put into the graveyard from play, remove it from the game.",The ritual of plucking out an eye to gain future sight is but a curse that enables the living to see their own deaths.
+0607,D'Avenant Archer,Summon Archer,Douglas Shuler,|T:  do 1 damage to target attacking or blocking creature,
+0608,Dakkon Blackblade,Summon Legend,Richard Kane-Ferguson,Pow/tuff are = to the number of lands his controller has in play.,"``My power is as vast as the plains; my strength is that of mountains. Each wave that crashes upon the shore thunders like blood in my veins.'' ---Dakkon Blackblade, Memoirs"
+0609,Darkness,Instant,Harold McNeil,No creatures deal damage in combat this turn.,"""If I must die, I will encounter darkness as a bride, / And hug it in my arms."" --- William Shakespeare, Measure for Measure"
+0610,Deadfall,Enchantment,Nene Thomas,Creatures with forestwalk may be blocked as if they did not have this ability.,
+0611,Demonic Torment,Enchant Creature,Anson Maddocks,Target creature deals no damage in combat.  This creature cannot attack.,
+0612,Devouring Deep,Summon Devourer,Liz Danforth,Islandwalk,"""Full fathom five the father lies; / Of his bones are coral made; / Nothing of him that doth fade, / But doth suffer a sea-change . Into something rich and strange."" --- William Shakespeare, The Tempest"
+0613,Disharmony,Instant,Phil Foglio,"Gain control of target attacking creature until end of turn.  If this creature is tapped, untap it.  This creature is not considered to have attacked.  Play before defense is chosen.",
+0614,Divine Intervention,Enchantment,Amy Weber,"Put two internvention counters on Divine Intervention.  During your upkeep, remove one intervention counter.  When the last intervention counter is removed, the game ends in a draw.",
+0615,Divine Offering,Instant,Jeff A. Menges,"Destroy target artifact, you gain life equal to casting cost of artifact",D'Haren stared at the twisted lump of metal that had been a prized artifact. The fight was getting ugly.
+0616,Transformation,Enchant Creature,Nene Thomas,Target creature gets +3/+3.,Glory surged through her and radiance surrounded her. All things were possible with the blessing of the Divine.
+0617,Dream Coat,Enchant Creature,Anthony Waters,"Change the color of target creature Dream Coat enchants to the color of your choice.  This change lasts until end of turn.  Costs to cast, tap, maintain, or use a special ability of this creature remain unchanged.  Use this ability only once per turn.","""Adopt the character of the twisting octopus, which takes on the appearance of the nearby rock. Now follow in this direction, now turn a different hue."" --- Theognis, Elegies 1, 215"
+0618,Durkwood Boars,Summon Boars,Mike Kimble,,"""And the unclean spirits went out, and entered the swine: and the herd ran violently ... "" --- Mark 5:13"
+0619,Dwarven Song,Instant,Dan Frazier,"Change the color of one or more target creatures to red.  This change lasts until end of turn.  Costs to cast, tap, maintain, or use a special ability of targets remain unchanged.",
+0620,Elder Land Wurm,Summon Wurm,Quinton Hoover,Trample  Cannot attack until assigned as a blocker.,Sometimes it's best to let sleeping dragons lie.
+0621,Elder Spawn,Summon Spawn,Jesper Myrfors,"Cannot be blocked by red creatures.  During your upkeep, sacrifice an island or bury Elder Spawn.  If you bury Elder Spawn in this way, it deals 6 damage to you.",
+0622,Elven Riders,Summon Elves,Melissa Benson,Cannot be blocked except by walls and by creatures with flying.,``Sometimes it is better to be swift of foot than strong of swordarm.'' ---Elven proverb
+0623,Emerald Dragonfly,Summon Dragonfly,Quinton Hoover,|G|G : gain First Strike until EOT,"``Flittering, wheeling,/ darting in to strike, and then/ gone just as you blink.'' ---``Dragonfly Haiku,'' poet unknown"
+0624,Enchanted Being,Summon Being,Douglas Shuler,Any damage done to Enchanted Being during combat by creatures with one or more enchantments played on them is reduced to 0.,
+0625,Enchant Alteration,Instant,Brian Snoddy,Switch enchant from one target creature or land to another of the same type. New target must be valid as if the spell were just being cast,
+0626,Energy Tap,Sorcery,Daniel Gelon,|T: target creature you control.  Add |X  to your mana pool. where X is equal to that creature's casting cost ,
+0627,Equinox,Enchant Land,Susan Van Camp,|T: land to counter a spell that destroys one or more of your lands. Interrupt,
+0628,Eternal Warrior,Enchant Creature,Anson Maddocks,Attacking does not cause target creature to tap.,Warriors of the Tsunami-nito School spend years in training to master the way of effortless effort.
+0629,Eureka,Sorcery,Kaja Foglio,All valid permanets may be played with no cost. Each player places one card at a time alternating with caster going first. None of these placements may be countered and any x casting cost is 0,
+0630,Evil Eye,Summon Evil Eye,Jesper Myrfors,"Cannot be blocked except by walls.  Except for Evil Eyes, creatures you control cannot attack.","""The highway of fear is the shortest route to defeat."""
+0631,Fallen Angel,Summon Angel,Anson Maddocks,Sacrifice a creatures: Fallen Angel gains +2/+1 until end of turn,
+0632,Falling Star,Sorcery,Douglas Shuler,Flip onto play surface from at least 1' above table if star lands on any creatures they take 3 damage and become tapped if still alive,
+0633,Feint,Instant,Brian Snoddy,|T: all creatures blocking target attacking creature.  This creature and all creatures blocking it do not deal damage in combat this turn.,
+0634,Field of Dreams,Enchant World,Kaja Foglio,All players play with the top card of their library face up.,"Some people say that the world is round, and if you travel far enough you'll come to the other side where everything is upside down."
+0635,Fire Sprites,Summon Faeries,Julie Baroh,"Flying; |G, |T: Add |R to your mana pool.  Play this ability as an interrupt.",
+0636,Firestorm Phoenix,Summon Phoenix,Jeff A. Menges,"Flying ; If Phoenix is put into the graveyard from play, return it to its owner's hand.  If Phoenix returns to its owner's hand in this way, it may not be cast until its owner's next turn.","""The bird of wonder dies, the maiden phoenix, / Her ashed new-create another heir / As great in admiration as herself. "" --- William Shakespeare, King Henry the Eigth"
+0637,Flash Counter,Interrupt,Harold McNeil,Counter target instant or interrupt spell.,"""She grinned at me --- a wicked grin. 'I hope you weren't relying too heavily on that, my dear.;"" --- Medryn Silverwand, Diary"
+0638,Flash Flood,Instant,Tom Wanerstrand,Destroy target red permanent or return target mountain to controller's hand.,Many people say that no power can bring the mountains low. Many people are fools.
+0639,Floral Spuzzem,Summon Spuzzem,Rob Alexander,"If Floral Spuzzem attacks and is not blocked, you may choose to have it destroy target artifact defending player controls.  If you do so, it deals no damage to opponent this turn.",
+0640,Force Spike,Interrupt,Bryon Wackwitz,Counter target spell.  The spell's controller may pay |1 to prevent this effect.,
+0641,Forethought Amulet,Artifact,Melissa Benson,"Whenever an instant or sorcery deals more than 2 damage to you, the damage is reduced to 2.  During your upkeep, pay  |3 or destroy Forethought Amulet.",
+0642,Fortified Area,Enchantment,Randy Asplund-Faith,All walls you control gain banding and get +1/+0.,
+0643,Frost Giant,Summon Giant,Daniel Gelon,Rampage 2,"The Frost Giants have been out in the cold a long, long time, bute they have their rage to keep them warm."
+0644,Gabriel Angelfire,Summon Legend,Daniel Gelon,Each turn Gabriel gains one of the following abilities which lasts until the end of the turn. Flying-first strike-trample or rampage 3. Declare which during your upkeep,
+0645,Gaseous Form,Enchant Creature,Phil Foglio,Target creature neither deals nor receives damage during combat.,"``... And gives to airy nothing / A local habitation and a name.'' ---William Shakespeare, A Midsummer-Night's Dream"
+0646,Gauntlets of Chaos,Artifact,Dan Frazier,"|5 |T: trade a land, artifact or creature in play with a like card in play on opponents side. Enchants on traded cards are discarded and cards are returned after duel",
+0647,Damned Spirits,Summon Ghosts,Edward Beard Jr.,|T: Target creature gets -1/-0 until end of turn.,The voices of the dead ring in the heart long after they have faded from the ears.
+0648,Giant Slug,Summon Slug,Anson Maddocks,|5: gain any walk during upkeep for the slug which lasts until end of turn,
+0649,Giant Strength,Enchant Creature,Justin Hampton,Target creatures gets +2/+2.,"{``O! it is excellent / To have a giant's strength, but it is tyrannous / To use it like a giant.'' ---William Shakespeare, Measure for Measure"
+0650,Giant Turtle,Summon Turtle,Jeff A. Menges,Giant Turtle cannot attack if it attacked during your last turn.,"""The turtle lives 'twixt plated decks / Which practically conceal its sex. / I think it clever of the turtle / In such a fix to be fertile."" --- Ogden Nash, ""The Turtle"""
+0651,Glyph of Delusion,Instant,Susan Van Camp,"Put X delusion counters on target creature blocked by target wall this turn.  As long as this creature has any delusion counters on it, it does not untap as normal during the untap phase.  During its controller's upkeep, remove one delusion counter.",
+0652,Glyph of Destruction,Instant,Susan Van Camp,"Target blocking wall you control gets +10/+0 until end of turn.  Until end of turn, all damage dealt to the wall is reduced to 0.  At the end of the turn, destroy the wall.",
+0653,Glyph of Doom,Instant,Susan Van Camp,"At the end of combat, destroy all creatures blocked by target wall.",
+0654,Glyph of Life,Instant,Susan Van Camp,All damage dealt to target wall by attacking creatures is added to your life total.,
+0655,Reincarnation Glyph,Instant,Susan Van Camp,All surviving creatures blocked by wall this turn are buried and remove an equal number of creatures from attackers graveyard and put them in play.,
+0656,Gosta Dirk,Summon Legend,Richard Thomas,First strike  Creatures with islandwalk may be blocked as if they did not have this ability.,
+0657,Gravity Sphere,Enchant World,Brian Snoddy,All creatures lose flying.,"Gal-Shan, the Sorcerer's cry rang out: ""Let no bird fly, let no creature take wing, let all the battle join as one."""
+0658,Great Defender,Instant,Mark Poole,"Target creature gets +0/+X until end of turn, where X is the creature's casting cost.",
+0659,Great Wall,Enchantment,Sandra Everingham,Creatures with plainswalk may be blocked as if they did not have this ability.,
+0660,Greater Realm,Enchantment,Nene Thomas,"|1|W: Prevent all damage against you from one black or red source.  If a source deals damage to you more than once in a turn, you may pay  |1|W each time to prevent the damage.",
+0661,Greed,Enchantment,Phil Foglio,"|B, 2 life : draw a card.  Effects that prevent or redirect damage cannot be used to counter this loss of life.",``There is no calamity greater than lavish desires. And there is no greater disaster than greed.'' ---Tao Te Ching 46
+0662,Green Mana Battery,Artifact,Christopher Rush,"|2 |T: Put one charge counter on Green Mana Battery. ; |T: Add |G to your mana pool and rmove as many charge counters as you wish.  For each charge counter remove from Green Mana Battery, add |G...",
+0663,Gwendlyn Di Corsi,Summon Legend,Julie Baroh,|T: Target player discards one card from his or her hand at random.  Use this ability only during your turn.,"Urbord became the final resting place of many swordsmen reknown, their steel outmatched by the wiles of Gwendlyn"
+0664,Halfdane,Summon Legend,Melissa Benson,Halfdane is able to change into any creature in play acquiring their power and toughness only. He may only change creatures during your upkeep,Hail from Tolaria the ever changing 'Dane.
+0665,Hammerheim,Land,Bryon Wackwitz,|T: Add |R to your mana pool. ; |T: Target creature loses all landwalk abilities until end of turn.,""" 'Tis Distance lends enchantment to the view, / And robes the mountain in its azure hue."" --- Thomas Campbell, ""Pleasures of Hope"""
+0666,Hazezon Tamar,Summon Legend,Richard Kane-Ferguson,"On your next upkeep after Hazezon comes into play, put a Sand Warrior token into play for each land you control.  Treat these tokens as 1/1 white, green, and red creatures.  If Hazezon Tamar leaves play, remove all Sand Warriors from the game.",
+0667,Headless Horseman,Summon Horseman,Quinton Hoover,,""" ... [T]he ghost rides forth to the scene of battle in nightly quest of his head ... he sometimes passes along the Hollow, like a midnight blast ... "" --- Washington Irving, The Legend of Sleepy Hollow"
+0668,Heavens Gate,Instant,Douglas Shuler,"Change the color of one or more target creatures to white  This change lasts until end of turn.  Costs to cast, tap, maintain, or use a special ability of targets remain unchanged.",
+0669,Hell Swarm,Instant,Christopher Rush,All creatures get -1/-0 until end of turn.,The brightness of day turned in an instant to dusk as the swarm descended upon the battlefield.
+0670,Hell's Caretaker,Summon Caretaker,Sandra Everingham,|T: during upkeep to trade one of your creatures in play with a creature from your graveyard,"You might leave here, Chenndra, should another take your place ..."
+0671,Hellfire,Sorcery,Pete Venters,"Destroy all non-black creatures.  Hellfire then deals X+3 damage to you, where X is the number of creatures put into the graveyard in this way.","""High on a throne of royal state ... insatiate to pursue vain war with heav'n."" --- John Milton, Paradise Lost"
+0672,Holy Day,Instant,Justin Hampton,No creatures deal damage in combat this turn.,"""The day of spirits; my soul's calm retreat / Which none disturb!"" --- Henry Vaughan, ""Silex Scintillans"""
+0673,Horn of Deafening,Artifact,Dan Frazier,|2 |T: make target creature deal no damage this turn,"``A blast, an echo ... then silence.''"
+0674,Hornet Cobra,Summon Cobra,Sandra Everingham,First strike,"""Then inch by inch out of the grass rose up the head and spread hood of Nag, the big black cobra, and he was five feet long from tongue to tail."" --- Rudyard Kipling, The Jungle Books"
+0675,Horror of Horrors,Enchantment,Mark Tedin, |0: Sacrifice a swamp to regenerate target black creature.,"""And a horror of outer darkness after, / And dust returneth to dust again."" --- Adam Lindsay Gordon, The Swimmer"
+0676,Hunding Gjornersen,Summon Legend,Richard Thomas,Rampage 1,"""You would never guess, at the terrifying sight of the man, that Hunding was as charming a companion as one could wish for."""
+0677,Hyperion Blacksmith,Summon Smith,Dan Frazier,|T: tap or untap target artifact an opponent controls.,"""The smith a mighty man is he / With large and sinewy hands. / And the muscles of his brawny arms  / Are strong as iron bands."" --- Henry Wadsworth Longfellow, The Village Blacksmith"
+0678,Ichnemon Druid,Summon Druid,Melissa Benson,"Whenever an opponent successfully casts an instant, Ichneumon Druid deals 4 damage to that opponent.  This does not apply to the first instant a player casts during a turn.",
+0679,Immolation,Enchant Creature,Scott Kirschner,Target creature gets +2/-2.,
+0680,Imprison,Enchant Creature,Christopher Rush,"Whenever target creature attempts to attack, block, or use an ability with |T in the cost, pay |1 to prevent this action, or destroy Imprison.",
+0681,The Eye of Chaos,Enchant World,Brian Snoddy,"All instants and interrupts are countered.  The caster of a spell may spend  |X to prevent this effect, where X is the spell's casting cost.",
+0682,Indestructable Aura,Instant,Mark Poole,Any damage done by target source is reduced to 0 for remainder of turn,"Theodar strode the battle lines, snatching swords with his bare hands and casting them aside until all cowered before him."
+0683,Infernal Medusa,Summon Medusa,Anson Maddocks,"At the end of combat, destroy all non-wall creatures blocking or blocked by Basilisk.",
+0684,Infinite Authority,Enchant Creature,Douglas Shuler,Creatures of 3 or less tough blocked or blocked by target are destroyed and give target +1/+1,
+0685,Invoke Prejudice,Enchantment,Harold McNeill,"All summon spells controlled by target opponent are countered.  Ignore this effect if the spell matches the color of any creature you control.  The opponent may spend  |X to prevent this effect, where X is the casting cost of the summon spell.",
+0686,Ivory Guardians,Summon Guardians,Melissa Benson,Gains +1/+1 if opponent controls any red cards.,"The elite guard of the Mesa High Priests, the Ivory Guardians were created to protect the innocent and faithful. Some say their actions are above the law."
+0687,Jacques le Vert,Summon Legend,Andi Rusu,All your green creatures get +0/+2.,"Abandoning his sword to return to the lush forest of Pendlhaven, Jacques le Vert devoted his life to protecting the creatures of his homeland."
+0688,Jasmine Boreal,Summon Legend,Richard Kane-Ferguson,,"""Peace must prevail, even if the wicked must die."""
+0689,Jedit Ojanen,Summon Legend,Mark Poole,,"Mightiest of the Cat Warriors, Jedit Ojanen forsook the forests of his tribe and took service with the RObaran Mercenaries, rising through their ranks to lead them in the battle for Efrava."
+0690,Jerrard,Summon Legend,Andi Rusu,,"Once, the order of the Closed Fist reached throughout th Kb'Briann Highlands. Now, Jerrard alone remains to uphold their standard."
+0691,Johan,Summon Legend,Mark Tedin,As long as Johan is not tapped and doesn't attack your other creatures are not tapped when attacking,
+0692,Jovial Evil,Sorcery,Christopher Rush,Jovial Evil deals 2 damage to target player for each white creature he or she controls.,"""Today, for a lark, let's visit the plains,. I'm sure we'll find something to entertain us."""
+0693,Juxtapose,Sorcery,Justin Hampton,Players exchange two highest casting cost creatures and artifacts in play. Owner chooses in case of ties. Return at game end,
+0694,Karakas,Land,Nicola Leonard,|T: Add |W to your mana pool. ; |T: Return target legend to its owner's hand.,"""To make a prairie it takes a clover and one bee, / One clover and a bee, / And revery."" --- Emily Dickenson"
+0695,Kasimer Lone Wolf,Summon Legend,Richard Kane-Ferguson,,Popular indeed is the tale of how Kasimir was once a Holy man who renounced his order to take up the sword. But this tale is no more likely than any other.
+0696,Keepers of Faith,Summon Keepers,Daniel Gelon,,"And then the Archangel Anthius spoke to them, saying, ``Fear shall be vanquished by the Sword of Faith.''"
+0697,Kei Takahashi,Summon Legend,Scott Kirschner,|T: to prevent 2 damage to any target creature,
+0698,Killer Bees,Summon Bees,Phil Foglio,|G: +1/+1 until end of turn,"The communal mind produces a savage strategy, yet no one could predict that this vicious crossbreed would unravel the secret of steel."
+0699,Kismet,Enchantment,Kaja Foglio,"All of target player's creatures, lands, and artifact come into play tapped.",
+0700,Knowledge Vault,Artifact,Amy Weber,,
+0701,Kobold Drill Sergent,Summon Sergent,Julie Baroh,All Kobolds you control get +0/+1 and gain trample.,"""Joining this army is easy, boy. Just survive your first battle."""
+0702,Kobold Overlord,Summon Lord,Julie Baroh,First strike ; All Kobolds you control gain first strike.,"""One for all and all for one; we strike first and then you're don!"" --- Oath of the Kobold Musketeers"
+0703,Kobold Taskmaster,Summon Taskmaster,Randy Asplund-Faith,All Kobolds you control get +1/+0.,The Taskmaster knows that there is no cure for the common Kobold.
+0704,Kher Keep Kobolds,Summon Kobolds,Julie Baroh,,Kher Keep is unique among fortresses: impervious to aerial assault but defenseless from the ground.
+0705,Kry Shield,Artifact,Richard Thomas,"|2 |T:  Target creature you control gets +0/+X until end of turn, where X is the creature's casting cost.  This creature deals no damage in combat this turn.",
+0706,Lady Caladria,Summon Legend,Bryon Wackwitz,|T: Lady Caleria deals 3 damage to target attacking or blocking creature.,
+0707,Lady Evangela,Summon Legend,Mark Poole,|B|W |T: Target creature deals no damage in combat this turn.,"""When milady was young, the sight of a rainbow would fill her soul with peace. As she grew, she learnedto share her rapture with others."" --- Lady Gabriella"
+0708,Lady Orca,Summon Legend,Sandra Everingham,,"""I do not remember what he said to her. I remember her fiery eyes, fixed upon him for an instant. I remember a flash, and the hot breath of sudden flames made me turn away. When I looked again, Angus was gone."" --- A Wayfarer, on meeting Lady Orca"
+0709,Land Equilibrium,Enchantment,Jesper Myrfors,,
+0710,Land Tax,Enchantment,Brian Snoddy,"During your upkeep, if an opponent controls more land than you, you may search your library and remove up to three basic land cards and put them into your hand.  Reshuffle your library afterwards.",
+0711,Land's Edge,Enchant World,Brian Snoddy,Any player may discard a card from hand at any time. Lands do 2 damage to target player of discarding player.,
+0712,Lesser Werewolf,Summon Lycanthrope,Quinton Hoover,|B and give werewolf -1 pow until EOT: give creature blocked or blocking wolf -1 tough perm.,
+0713,Life Chisel,Artifact,Anthony Waters,Sacrifice a creature: gain life equal to the creature's toughness.  Use this ability only during your upkeep.,
+0714,Life Matrix,Artifact,Amy Weber, |4 |T: Put a counter on target creature.  You may remove this counter later to regenerate the creature.  Use this ability only during your upkeep.,
+0715,Lifeblood,Enchant na ,Mark Tedin,Gain 1 life each time a mountain controlled by target opponent becomes tapped.,"""Foolish wizard! As you tap the power of your lofty keep, so grows my strength."" --- Malvern Xelionos, Letters"
+0716,Living Plane,Enchant World,Bryon Wackwitz,All lands become 1/1 creatures but still count as lands.  Lands may not be tapped for mana the turn they come into play.,
+0717,Livonya Silone,Summon Legend,Richard Kane-Feguson,"First strike, legendary land-walk","Livonya's own nature is a matter of mystery. Nothing is known for sure, merely rumors of unearthly stealth and unholy alliances."
+0718,Lord Magnus,Summon Legend,Mark Tedin,First strike  Creatures with plainswalk or forestwalk may be blocked as if they did not have either ability.,
+0719,Lost Soul,Summon Lost Soul,Randy Asplund-Faith,Swampwalk,"Her hand gently beckons, she whispers your name --- But those who go with her are never the same."
+0720,Mana Drain,Interrupt,Mark Tedin,"Counter target spell.  At the beginning of your next main phase, add  |X to your mana pool, where X is the casting cost of the spell.",
+0721,Mana Matrix,Artifact,Mark Tedin,,
+0722,Marble Priest,Artifact Creature,Melissa Benson,,
+0723,Marhault Elsdragon,Summon Legend,Mark Poole,,"Marhault Elsdragon follows a strict philosophy, never letting emotions cloud his thoughts. No chance observer could imagine the rage in his heart."
+0724,Master of the Hunt,Summon Master,Jeff A. Menges,|2|G|G: Put a Wolves of the Hunt token into play.  Treat this token as a 1/1 creature with bands with other Wolves of the Hunt.,
+0725,Mirror Universe,Artifact,Phil Foglio,|T: Sacrifice Mirror Universe during your upkeep to trade life point totals with target opponent.  Effects that prevent or redirect damage may not be used to prevent life lost in this way.,
+0726,Moat,Enchantment,Jeff A. Menges,Only creatures with flying can attack.,"The purpose of any moat is to impede attack. Some are filled with water, some with thistles. Some are filled with things best left unseen."
+0727,Mold Demon,Summon Demon,Jesper Myrfors,"When Mold Demon comes into play, sacrifice two swamps or bury Mold Demon.",
+0728,Moss Monster,Summon MossMonster,Jesper Myrfors,,"After the battle, an eerie silence gripped the forest. The loser's remains were lightly dusted with green."
+0729,Mountain Hold,Land,Tom Wanerstrand,All your red legends gain bands with other legends.,
+0730,Mountain Yeti,Summon Yeti,Dan Frazier,"Mountainwalk, protection from white",The Yeti's single greatest asset is its unnerving ability to blend in with its surroundings.
+0731,Nebuchadnezzar,Summon Legend,Richard Kane-Ferguson,|X |T: Name a card. Opponent reveals x cards from hand and discards all those matching named card. Only during controller's turn,
+0732,Nether Void,Enchant World,Harold McNeill,All spells are countered.  The caster of a spell may pay |3 to prevent this effect.,"These days, some wizards are finding that they have a little too musc spell left at the end of their mana."
+0733,Nicol Bolas,Summon ElderDragon,Edward Beard Jr.,An opponenet damaged by Nicol Bolas must discard entire hand. Pay|U|B|R during Upkeep or Nicol Bolas is buried.,
+0734,North Star,Artifact,Kaja Foglio,"|4, |T: One spell you cast this turn may be paid for with any type of mana.  The spell retains its normal color.  Play this ability as an interrupt.",
+0735,Nova Pentacle,Artifact,Richard Thomas,|3 |T: All damage dealt to you is redirect to target creature of opponent's choice.,
+0736,Osai Vultures,Summon Vultures,Dan Frazier,"Flying  At the end of any turn in which a creature is put into the graveyard, put a carrion counter on Vultures.   |0: Remove two carrion counters to give Vultures +1/+1 until end of turn.","A sign of battle, the Vultures circle and wait for the victorious to depart."
+0737,Palladia-Mors,Summon ElderDragon,Edward Beard Jr.,Pay |W|G|R during your upkeep or Palladia is buried.,
+0738,Part Water,Sorcery,NeNe Thomas,X target creatures gain islandwalk until end of turn.,""" ... and the waters were a wall unto them on their right hand and on their left."" --- exodus, 14:22"
+0739,Pavel Maliki,Summon Legend,Andi Rusu,|B|R: +1/+0 until end of turn,"We all know the legend: Pavel wanders the realms, helping those in greatest need. But is this a measure of his generosity, or of his obligation to atone?"
+0740,Pendlehaven,Land,Bryon Wackwitz,|T: Add |G to your mana pool. ; |T: Target 1/1 creature gets +1/+2 until end of turn.,"""This is the forest primeval. The murmuring pines and the hemlocks... / Stand lik Druids of old."" --- Henry Wadsworth Longfellow, ""Evangeline"""
+0741,Petra Sphinx,Summon Sphinx,Sandra Everingham,|T:  make target player guess the name of the next card of their library. Player then draws card and if correct it goes in hand otherwise it is discarded,"What walks on four legs in the morning, two legs in the afternoon, and three legs in the evening?"
+0742,Pit Scorpian,Summon Scorpion,Scott Kirschner,"If Pit Scorpion damages a player, he or she gets a poison counter.  If a player has ten or more poison counters, he or she loses the game.",Sometimes the smallest nuisance can be the greatest pain.
+0743,Pixie Queen,Summon Pixie,Quinton Hoover,Flying ; |G|G|G |T: Target creature gains flying until end of turn.,
+0744,Planar Gate,Artifact,Melissa Benson,,"Nireya reached through the Gate, sensing the energies trapped beyond."
+0745,Pradesh Gypsies,Summon Gypsies,Quinton Hoover,|1|G |T: Target creature gets -2/-0 until end of turn.,
+0746,Master's Presence,Enchantment,Phil Foglio,All enchantments are countered.,
+0747,Primordial Ooze,Summon Ooze,Sandra Everingham,Gains +1/+1 each upkeep but must attack each turn. Pay one mana per combined points of power/tuff that the Ooze has gained or it does power in damage to you and is tapped,"The thick, moving mass from the beginning of evolution swallows and digests the animate and inanimate as it unthinkingly strives to continue existence."
+0748,Princess Lucrezia,Summon Legend,Edward Beard Jr.,|T: Add |U to your mana pool.,
+0749,Psionic Entity,Summon Entity,Susan Van Camp,|T: Psionic entity deals 2 damage to target creature or player and 3 damage to itself.,Creatures of the Aether are notorious for neglecting their own well-being.
+0750,Psychic Purge,Sorcery,Susan Van Camp,"Psychic Purge deals 1 damage to target creature or player.  If an effect controlled by an opponent causes Psychic Purge to be discarded, that opponent loses 5 life.  Effects which prevent or redirect damage may not be used to counter this loss of life.",
+0751,Puppet Master,Enchant Creature,Sandra Everingham,"If target creature is sent to the graveyard, you may instead put creature in your hand. Pay |U|U|U to also put Puppet Master in hand or it is discarded",
+0752,Pyrotechnics,Sorcery,Anson Maddocks,Pyrotechnics deals 4 damage divided any way you choose among any number of target creatures and/or players.,"``Hi! ni! ya! Behold the man of flint, that's me! Four lightnings zigzag from me, strike and return.'' ---Navajo war chant"
+0753,Quagmire,Enchantment,Dan Frazier,Creatures with swampwalk may be blocked as if they did not have this ability.,
+0754,Trench Gnomes,Summon Gnomes,Dan Frazier,|T: to make target plains produce |1 until end of game.,"""O Great Captain, all is lost. They tunneled, they burrowed, they trenched. They sapped the strength of our defenses."" --- Sorgus, Chronicles of the Quarum Plains"
+0755,Rabid Wombat,Summon Wombat,Kaja Foglio,Gains +2/+2 for each enchant in play and does not tap when attacking,
+0756,Radjan Spirit,Summon Spirit,Christopher Rush,|T: Target creature loses flying until end of turn.,
+0757,Raging Bull,Summon Bull,Randy Asplund-Faith,,"""Sometimes the bulls win, and sometimes the bears win. But the bulls have more fun."" --- Anonymous"
+0758,Ragnar,Summon Legend,Melissa Benson,|U|W|G |T: Regenerate target creature.,"""On the field of honor, a soldier need have no fear."""
+0759,Ramirez DePietro,Summon Legend,Phil Foglio,First strike,"Ramirez DePietro is a most flamboyant pirate. Be careful not to believe his tall tales, especially when you ask his age."
+0760,Ramses Overdark,Summon Legend,Richard Kane-Ferguson,|T: Destroy target creature with an enchantment played on it.,
+0761,Rapid Fire,Instant,Justin Hampton,"Target creature gains first strike until end of turn.  If the creature does not have rampage, it also gains rampage 2 until end of turn.  Play before defense is chosen.",
+0762,Rasputin,Summon Legend,Andi Rusu,,
+0763,Rebirth,Sorcery,Mark Tedin,Each player may be healed to 20 life.  Any player choosing to be healed antes an additional card from the top of his or her library.  Remove Rebirth from your deck before playing if not playing for ante.,
+0764,Recall,Sorcery,Brian Snoddy,Discard x/2 cards to graveyard and take x/2 cards from graveyard into hand,
+0765,Red Mana Battery,Artifact,Mark Tedin,"|2 |T: Put one charge counter on Red Mana Battery.  |T: Add |R to your mana pool and rmove as many charge counters as you wish.  For each charge counter remove from Red Mana Battery, add |R...",
+0766,Reincarnation,Instant,Edward Beard Jr.,Exchange one of your creatures which went to the graveyard this turn with any from your graveyard.,
+0767,Relic Barrier,Artifact,Harold McNeill,|T: taps target artifact.,
+0768,Relic Bind,Enchant Artifact,Christopher Rush,"When target artifact opponent controls becomes tapped, you may give 1 life or have Relic Bind deal 1 damage to target player.",
+0769,Remove Enchantment,Instant,Brian Snoddy,"Remove all enchantments you control, all enchantments played on permanents you control, and all enchantments on all attacking creatures.  Enchantments removed in this way are returned to your hand if you own them; otherwise they are destroyed.",
+0770,Remove Soul,Interrupt,Brian Snoddy,Counters target summon spell.,"Nethya stiffened suddenly, head cocked as if straining to hear some distant sound, then fell lifeless to the ground."
+0771,Reset,Interrupt,Nicola Leonard,Untap all your lands.  Play only during an opponent's turn after his or her upkeep phase.,
+0772,Revelation,Enchant World,Kaja Foglio,All players place hands face up on playing surface at all times.,"``Many are in high place, and of renown: but mysteries are revealed unto the meek.'' ---Ecclesiasticus 3:19"
+0773,Reverberation,Instant,Justin Hampton,Redirect all damage from a sorcery to its caster.,
+0774,Righteous Avengers,Summon Avengers,Heather Hudson,Plainswalk,Few can withstand the wrath of the righteous.
+0775,Ring of Immortals,Artifact,Melissa Benson,"|3 |T: Counter target interrupt or enchantment, which must target a permanent you control.",
+0776,Riven Turnbull,Summon Legend,Richard Kane-Ferguson,|T: Add |B to your mana pool.,"""Political violence is a perfectly legitimate answer to the persecution handed down by dignitaries of the state."""
+0777,Rohgahh,Summon Legend,Edward Beard Jr.,,
+0778,Rust,Interrupt,Liz Danforth,"Counter target artifact effect, which must require an activation cost.","""How dull it is to pause, to make an end, / To rust unburnished, not to shine in use, / As though to breathe were life!"" --- Alfred, Lord Tennyson, ""Ulysses"""
+0779,Sea Kings' Blessing,Instant,Randy Asplund-Faith,"Change the color of one or more target creatures to blue.  This change lasts until end of turn.  Costs to cast, tap, maintain, or use a special ability of targets remain unchanged.",
+0780,Seafarer's Quay,Land,Tom Wanerstrand,All your blue legends gain bands with other legends.,
+0781,Seeker,Enchant Creature,Mark Poole,Target creature cannot be blocked except by white creatures and artifact creatures.,
+0782,Segovian Leviathan,Summon Leviathan,Melissa Benson,Islandwalk,"``Leviathan, too!  Can you catch him with a fish-hook or run a line round his tongue?'' ---Job 40:25"
+0783,Sentinel,Artifact Creature,Randy Asplund-Faith,You may choose to change sentinal's tough to 1+ the power of any creature it blocks or is blocked by at the time of that combat.,
+0784,Serpent Generator,Artifact,Mark Tedin,|4 |T: create a 1/1 poison snake. ,
+0785,Shelkin Brownie,Summon Faerie,Douglas Shuler,|T: Target creature loses bands with other until end of turn.,Leave a bowl of milk on your doorstep each night for the brownies or they'll cause you no end of mischief.
+0786,Shield Wall,Instant,Douglas Shuler,All your creatures gain +0/+2 until end of turn,
+0787,Night Stalker,Summon Stalker,Jesper Myrfors,|B |T: make stalker take all damage done to you by an attacking creature,"`Tis now the very witching time of night,/ When churchyards yawn and hell itself breathes out/ Contagion to this world.'' ---William Shakespeare, Hamlet"
+0788,Silhouette,Instant,Kaja Foglio,"Until end of turn, all damage dealt to target creature by spells or effects that target it is reduced to 0.",
+0789,Sir Shandlar,Summon Legend,Andi Rusu,,"""Remember Sir Shandlar! Remember and stand firm!"" --- rallying cry of the Eberyn militia"
+0790,Sivitri Scarzam,Summon Legend,NeNe Thomas,,Even the brave have cause to tremble at the sight of Sivitri Scarzam. Who else has tamed Scarzam's Dragon?
+0791,Sol'kanar,Summon Legend,Richard Kane-Ferguson,Any black spell cast by any player gives you one life while Sol'kanar is in play,
+0792,Spectral Cloak,Enchant Creature,Rob Alexander,"As long as target creature is untapped, it cannot be the target of fast effects, sorceries, or enchantments.  This effect does not cause enchantments on the creature to be destroyed.",
+0793,Spinal Villain,Summon Villain,Anson Maddocks,|T: Destroy target blue creature.,"""Striking silent as a dream, / Cutting short the strangled scream ..."" --- Tobrian, ""Watchdragon"""
+0794,Spirit Link,Enchant Creature,Kaja Foglio,Gain 1 life for every 1 damage target creature deals.  You may gain more life than the toughness or the total life of the creature or player damaged by the creature Spirit Link enchants.,
+0795,Spirit Shackle,Enchant Creature,Edward Beard Jr.,Put a -0/-2 counter on target creature every time it becomes tapped.  These counters remain even if Spirit Shackle is removed.,
+0796,Spiritual Sanctuary,Enchantment,Amy Weber,"During each player's upkeep, that player gains 1 life if he or she controls any plains.",
+0797,Stangg,Summon Legend,Mark Poole,"When Stangg comes into play a Stangg twin also comes into play. If either leaves play, the other also leaves play.",
+0798,Storm Seeker,Instant,Mark Poole,Opponent loses 1 life for each card in their hand,
+0799,Strorm World,Enchant World,Christopher Rush,"At the end of each player's upkeep, Storm World deals that player 1 damage for each card in his or her hand fewer than four.",
+0800,Subdue,Instant,Brian Snoddy,"Target creature gets +0/+X until end of turn, where X is target creature's casting cost.  That creature deals no damage during combat this turn.",
+0801,Sunastian,Summon Legend,Christopher Rush,|T: Add 2 colorless mana to your mana pool.  Play this ability as an interrupt.,Sunastian has roots in both sorcery and swordplay; he has learned never to depend too heavily on the latter.
+0802,Sword of the Ages ,Artifact,Dan Frazier,Sword of the Ages comes into play tapped.  |T: Sacrifice Sword of the Ages and any number of creatures.  Remove these creatures and Sword of the Ages from the game instead of putting them in the graveyard.  Sword of the Ages deals damage...,
+0803,Sylvan Library,Enchantment,Harold McNeill,"You may draw two extra cards during your draw phase.  If you do so, put two of the cards drawn this turn back on top of your library (in any order) or pay 4 life per card not replaced.  Effects that prevent or redirect damage cannot be...",
+0804,Sylvan Paradise,Instant,Randy Asplund-Faith,"Change the color of one or more target creatures to green.  This change lasts until end of turn.  Costs to cast, tap, maintain, or use a special ability of targets remain unchanged.",
+0805,Syphon Soul,Sorcery,Melissa Benson,Syphon Soul deals 2 damage to all players other than you.  You then gain 1 life for each 1 damage dealt.,"""Her lips suck forth; see where it flies!"" --- Christopher Marlowe, The Tragical History of Doctor Faustus"
+0806,Pendrell Tabernacle,Land,Nicola Leonard,All players must pay one mana during thier upkeep for each of their creatures in play discarding those creatures not paid for,
+0807,Takklemaggot,Enchant Creature,Daniel Gelon,Target loses 1 tough during each of your upkeep phases until dead. You must then move enchant to another creature of your choice until all creatures are gone. Maggot then becomes regular enchant and does 1 damage to you each turn,
+0808,Telekinesis,Instant,Daniel Gelon,"Target creature deals no damage in combat this turn.  If that creature is not already tapped, tap it.  That permanent does not untap as normal during its controller's next two untap phases.",
+0809,Teleport,Instant,Douglas Shuler,Target creature cannot be blocked until end of turn. Play after attack is declared and before block are chosen,
+0810,Tempest Efreet,Summon Efreet,NeNe Thomas,|T:  Choose a card at random...,
+0811,Tetsuo Umezawa,Summon Legend,Julie Baroh,Tetsuo Umezawa cannot be the target of enchant creature spells.  |R|B|B|U: Destroy target tapped or blocking creature.,
+0812,The Abyss,Enchant World,Pete Venters,"During each player's upkeep, that player buries target non-artifact creature he or she controls.","""An immense river of oblivion is sweeping us away into a nameless abyss."" --- Ernest Reman, Souvenirs d'Enfance et de Jeunesse"
+0813,The Brute,Enchant Creature,Mark Poole,Target creature gets +1/+0.  |R|R|R: Regenerate target creature The Brute enchants.,"""Union may be strength, but it is mere blind brute strength unless wisely directed.'' ---Samuel Butler"
+0814,Lady of the Mount,Summon Legend,Richard Kane-Ferguson,,"Her given name has been lost in the mists of time. Legend says that her silent vigil will one day be ended by the one who, pure of heart and spirit, calls out that name again."
+0815,The Wretched,Summon Wretched,Christopher Rush,Any creature blocking the wretched comes under your control for the rest of the duel or until the Wretched that it blocked leaves play,
+0816,Thunder Spirit,Summon Spirit,Randy Asplund-Faith,"First strike, flying","""It was full of fire and smoke and light and ... it drove between us and the Efrafans like a thousand thunderstorms with lightning"" --- Richard Adams, Watership Down"
+0817,Time Elemental,Summon Elemental,Amy Weber,"|U|U, |T: Return target permanent to owner's hand.  You cannot use this ability on permanents with enchantment cards played on them.  If Time Elemental blocks or attacks, destroy it at end of combat.  In this case...",
+0818,Tobias Andrion,Summon Legend,Andi Rusu,,"Administrator of the military state of Sheoltun, Tobias Andrion is the military right arm of the empire and the figurehead of its freedom."
+0819,Tolaria,Land,Nicola Leonard,|T: Add |U to your mana pool.  |T: Target creature loses banding and all bands with other abilities until end of turn.  Use this ability only during upkeep.,"""Fairest Isle, all isles excelling, / Seat of Pleasures, and of loves ... "" --- Johny Dryden"
+0820,Tor Wauki,Summon Legend,Randy Asplund-Faith,|T: during attack to do 2 damage to any attacking or blocking creature,
+0821,Torsten,Summon Legend,Mark Poole,,"""How can you accuse me of evil? Though these deeds be unsavory, no one will argue: good shall follow from them."""
+0822,Touch of Darkness,Instant,Pete Venters,"Change the color of one or more target creatures to black.  This change lasts until end of turn.  Costs to cast, tap, maintain, or use a special ability of targets remain unchanged.","""Black, spirits and white, red spirits and gray, / Mingle, mingle, mingle, you that mingle may."" --- Thomas Middleton, The Witch"
+0823,Transmutation,Instant,Susan Van Camp,Target creatures power is switched with toughness until end of turn killing creatures whose tuff drops below 1,"``You know what I was,/ You see what I am: change me, change me!'' ---Randall Jarrell, The Woman at the Washington Zoo"
+0824,Triassic Egg,Artifact,Dan Frazier,"|3, |T: during 2 upkeeps to summon any creature from your hand or graveyard at no casting cost. Discarded after use.",
+0825,Tuknir Deathlock,Summon Legend,Liz Danforth,"Flying  |G|R, |T: Target creature gets +2/+2 until end of turn.","An explorer of the Aether, Tuknir often discovers himself in the most unusual physical realms."
+0826,Tundra Wolves,Summon Wolves,Quinton Hoover,First strike,"I heard their eerie howling, the wolves calling their kindred across the frozen plains."
+0827,Typhoon,Sorcery,Anson Maddocks,Typhoon deals 1 damage to each opponent for each island he or she controls.,Fierce winds ripped across the tropical landscape. What they did not destroy with their fiery breath was washed away by torrential rain.
+0828,Undertow,Enchantment,Randy Asplund-Faith,Creatures with islandwalk may be blocked as if they did not have this ability.,
+0829,Underworld Dreams,Enchantment,Julie Baroh,Underworld Dreams deals 1 damage to target opponent for each card he or she draws.,"""In the drowsy dark cave of the mind dreams build their nest with fragments dropped from the day's caravan. --- Rabindranath Tagore"
+0830,Unholy Citadel,Land,Mark Poole,All your black legends gain bands with other legends.,
+0831,Untamed Wilds,Sorcery,NeNe Thomas,Serach your library for any one basic land and put it directly into play.  This does not counter towards your one land per turn limit.  Reshuffle your library afterwards.,
+0832,Ur-Drago,Summon Legend,Christopher Rush,First strike  Creatures with swampwalk may be blocked as if they did not have this ability.,
+0833,Urborg,Land,Bryon Wackwitz,|T: Add |B to your mana pool.  |T: Target creature loses swampwalk or first strike until end of turn.,"""Resignedly beneath the sky / The melancholy waters lie. / So blend the turrets and shadows there / That all seem pendulous in air, / While from a proud tower in town / Death looks gigantically down."" --- Edgar Allen Poe, ""The City in the Sea"""
+0834,Vaevictis Asmadi,Summon ElderDragon,Andi Rusu,"Upkeep |B,|R,|G. PowerUp |B, |R or |G to gain +1/+0 until end of turn.",
+0835,Vampire Bats,Summon Bats,Anson Maddocks,Flying  |B: +1/+0 until end of turn.  You cannot spend more than |B|B in this way each turn.,"""For something is amiss or out of place / When mice with wings can wear a human face."" --- Theodore Roethke, ""The Bat"""
+0836,Venarian Gold,Enchant Creature,Daniel Gelon,,
+0837,Visions,Sorcery,NeNe Thomas,Look at the top five cards of any library.  You may then shuffle that library.,"``Visions of glory, spare my aching sight, / Ye unborn ages, crowd not on my soul!'' ---Thomas Gray, ``The Bard''"
+0838,Voodoo Doll,Artifact,Sandra Everingham,|T: and pay 2x colorless mana to do x damage to any target. 1st turn x is equal to 1 and it increases by one on each of your upkeeps. Doll must be tapped on each of your turns or it goes to graveyard and you suffer x as determined above.,
+0839,Walking Dead,Summon Dead,Dan Frazier,|B: Regenerates,The Walking Dead are the remains of freakish experiments by the Necromantic Lords.
+0840,Wall of Caltrops,Summon Wall,Brian Snoddy,"If Wall of Caltrops and one or more other walls join to block an attacker, and no non-wall creatures block that attacker, Wall of Caltrops gains banding until end of turn.","""Ow! Ow ow ow! Oooh, ow, OW!"""
+0841,Wall of Dust,Summon Wall,Richard Thomas,No creature blocked by Wall of Dust may attack during its controller's next turn.,An ever-moving swarm of dust engulfs and disorients anything that comes near.
+0842,Wall of Earth,Summon Wall,Richard Thomas,,"The ground shuddered violently and the earth seemed to come to life. The elemental force contained in the vast wall of earth was trapped, bent to its controller's will."
+0843,Wall of Heat,Summon Wall,Richard Thomas,,"At a distance, we mistook the sound for a waterfall ..."
+0844,Wall of Light,Summon Wall,Richard Thomas,Protection from black,As many attackers were dazzles by the wall's beauty as were halted by its force.
+0845,Wall of Opposition,Summon Wall,Harold McNeill,|1: Gain +1/+0 until end of turn,"Like so many obstacles in life, the Wall of Opposition is but an illusion, held fast by the focus and belief of the one who creates it."
+0846,Wall of Putrid Flesh,Summon Wall,Richard Thomas,Protection from white  All damage dealt to Wall of Putrid Flesh by creatures with enchantment cards played on them is reduced to 0.,
+0847,Wall of Shadows,Summon Wall,Pete Venters,Damage done to wall by creatures it blocks is reduced to 0 and effects which only target walls may not target Wall of Shadows,
+0848,Wall of Tombstones,Summon Wall,Dan Frazier,,
+0849,Wall of Vapor,Summon Wall,Richard Thomas,Damage done to wall by creatures it blocks is reduced to 0.,"``Walls of a castle are made out of stone,/ Walls of a house out of bricks or of wood./ My walls are made out of magic alone,/ Stronger than any that ever have stood.'' ---Chrysoberyl Earthsdaughter, Incantations"
+0850,Wall of Wonder,Summon Wall,Richard Thomas,|U|U|2: to make wall +4/-4 and allow it to attack this turn,So confusing is the wall's appearance that few of its victims even see it move.
+0851,Whirling Dervish,Summon Dervish,Susan Van Camp,Protection from black.  Whirling Dervish gets +1/+1 at the end of each turn in which it damages opponent.,
+0852,White Mana Battery,Artifact,Anthony Waters," |2, |T: Puts one charge counter on White Mana Battery.  |T: Add |W to your mana pool and use as many charge counters as you wish.  For each charge counter removed from White Mana Battery, add |W.",
+0853,Willow Satyr,Summon Satyr,Jeff A. Menges,|T: Satyr to control target legend until Satyr or legend is destroyed. You loose control of legend if Satry leaves play or becomes untapped. You may choose not to untap Satyr during untap.,
+0854,Winds of Change,Sorcery,Justin Hampton,All players shuffle their hands into their libraries and then draw the same number of cards they originally held.,"‘Tis the set of sails, and not the gales, / Which tells us the way to go.'' ---Ella Wheeler Wilcox"
+0855,Winter Blast,Sorcery,Kaja Foglio,T| X target creatures.  Winter Blast deals 2 damage to each of these target creatures with flying.,"``Blow, winds, and crack your cheeks! rage! blow!” ---William Shakespeare,  King Lear"
+0856,Wolverine Pack,Summon Wolverines,Jeff A. Menges,Rampage: 2,"""Give them great meals of beef and iron and steel, they will eat like wolves and fight like devils."" --- William Shakespeare, King Henry V"
+0857,Wood Elemental,Summon Elemental,Brian Snoddy,Wood Elemental's power and toughness are each equal to the number of untapped forests you sacrifice when Wood Elemental enters play.,
+0858,Xira Arien,Summon Legend,Melissa Benson,"|B|G|R, T|: to draw one card","A regular guest at the Royal Masquerade, Arien is the envy of the Court. She appears in a new costume every hour."
+0859,Zephyr Falcon,Summon Falcon,Heather Hudson,Flying.  Attacking does not cause Zephyr Falcon to tap.,"Although greatly prized among falconers, the Zephyr Falcon is capricious and not easily tamed."
+0860,Call from the Grave,Sorcery,Vlad the Impaler,A creature is randomly selected from either player's graveyard an put directly into play under your control. You must pay X life equal to the target's castcost. Life lost in this manner may not be redirected or prevented.,
+0861,Prismatic Dragon,Summon Dragon,Vlad the Impaler,Flying. |1: Prismatic dragon randomly changes colors. Each player may pay this cost once per turn.,
+0862,Rainbow Knights,Summon Knights,Vlad the Impaler,Protection from color. Rainbow Knights randomly select a color which they are warded against when they are placed into play.,
+0863,Pandora's Box,Artifact,Vlad the Impaler,"|3: Brings a token creature randomly selected from either players deck into play under the contro
+0864,Whimsy,Sorcery,Vlad the Impaler,Randomly generates and targets X fast effects upon randomly selected creatures in play.
+0865,Faerie Dragon,Summon Dragon,Vlad the Impaler,"Flying.  |4, |T: Target creature becomes the target of a randomly selected fast effect which lasts until the end of the turn."
+0866,Goblin Polka Band,Summon Goblins,Vlad the Impaler,"|X, |T: X randomly selected creatures in play become tapped. Goblins tapped in this manner do not untap as normal during their next untap phase."
+0867,Power Junction,Enchantment,Vlad the Impaler,Two permanents of the same type are randomly selected and swapped between both players. These cards are returned to their respective owners at the end of the duel. 
+0868,Aswan Jaguar,Summon Jaguar,Vlad the Impaler,None
+0869,Orcish Catapult,Instant,Vlad the Impaler,None
+0870,Gem Bazaar,Land,Vlad the Impaler,None
+0871,Necropolis of Azaar,Enchantment,Vlad the Impaler,None
+0872,Red Guild,Land,Vlad the Impaler,None
+0873,Blue Guild,Land,Vlad the Impaler,None
+0874,White Guild,Land,Vlad the Impaler,None
+0875,Green Guild,Land,Vlad the Impaler,None
+0876,Black Guild,Land,Vlad the Impaler,None
+0877,Artificer's Guild,Land,Vlad the Impaler,None
+0878,Bright Society,Land,Vlad the Impaler,None
+0879,Grey Society,Land,Vlad the Impaler,None
+0880,Dark Society,Land,Vlad the Impaler,None
+0881,Gladiator,Artifact Creature,Vlad the Impaler,None
+0882,Master,Enchant Creature,Vlad the Impaler,None
+0883,Royalty,Enchantment,Vlad the Impaler,None
+0884,Veteran,Summon Veteran,Vlad the Impaler,None
+0885,Giant Wasp,Token Giant Wasp,Vlad the Impaler,Flying. 
+0886,Wolves of the Hunt,Token Wolves,Vlad the Impaler,Bands with Wolves of the Hunt.
+0887,Poison Snake,Token Snake,Vlad the Impaler,Poison: 1.
+0888,Minor Demon,Token Demon,Vlad the Impaler,None
+0889,Sand Warrior,Token Sand Warrior,Vlad the Impaler,None
+0890,Djinn of the Bottle,Token Djinn,Vlad the Impaler,Flying.
+0891,Tetravii,Token Tetravii,Vlad the Impaler,"Flying. |0: Tetravii recombines with the Tetravus which created it, giving it +1/+1."
+0892,Ruhk,Token Ruhk,Vlad the Impaler,Flying.
+0893,Arena,Land,Rob Alexander,"|3,|T: Choose one of your creatures and your opponent chooses one of his/her creatures. Both target creatures become tapped and do their power in damage to each other."
+0894,Mana Crypt,Artifact,Mark Tedin,|T: Add two colorless mana to your mana pool. Mana Crypt has a 50% chance of doing 3 damage to it's controller during their upkeep each turn.
+0895,Nalathni Dragon,Summon Dragon,Michael Whelan,"Flying, Bands. |R: +1 /+0 until end of turn. If more than |R|R|R is spent in this manner during one turn, Nalathni Dragon is buried at the end of that turn.",These small but intelligent Dragon and their Olesian allies held back the tide of Pashalik Mon's horde of Goblin Raiders.
+0896,Sewers of Estark,Instant,Melissa Benson,"Targets a creature in play. If target is attacking, it may not be blocked until end of turn. If target creature is blocking, it and all creatures it blocks do no damage during combat this turn.",
+0897,Windseeker Centaur,Summon Centaur,Anson Maddocks,Attacking does not cause Windseeker Centaur to tap.,"Loyal and passionate in battle, the Windseeker tribe roams the Green Lands near the Honeyed Sea."
+0898,Giant Badger,Summon Badger,Liz Danforth,"If assigned as a blocker, Giant Badger gains +2 Power and +2 Toughness until end of the turn.",The wizard Greensleeves called a Giant Badger to her aid in a battle with the desert mage Karli.
+0899,Damage Effect,Game Effect,Sid,"Represents (n) points of damage pending.",
+0900,Power Up,Game Effect,Sid,"Represents extra power and/or toughness.",
+0901,Unblockable,Game Effect,Sid,"Creature cannon be blocked.",
+0902,Add Ability,Game Effect,Sid,"Creature has been given extra abilities.",
+0903,Sleighted,Game Effect,Sid,"Card has been Sleight of Minded.",
+0904,Hacked,Game Effect,Sid,"Card has been Magical Hacked.",
+0905,Stoning,Game Effect,Sid,"Creature has been stoned.",
+0906,Take Ability,Game Effect,Sid,"Creature has lost abilities.",
+0907,No Attack,Game Effect,Sid,"Creature cannot attack next turn.",
+0908,Blank Slot 13,Summon Demon,Vlad the Impaler,None,
+0909,Blank Slot 13,Summon Demon,Vlad the Impaler,None,
+0910,Assembly Worker,Token Giant Wasp,Vlad the Impaler,"Artifact Creature/Land" 
+0911,Ifh-Biff Effect,Token Giant Wasp,Vlad the Impaler,"" 
+0912,Spawn of Azar,Token Giant Wasp,Vlad the Impaler,"" 
+0913,Undo Cyclopean,Token Giant Wasp,Vlad the Impaler,"" 
+0914,Nether Link,Token Giant Wasp,Vlad the Impaler,"" 
+0915,Tetravite,Token Giant Wasp,Vlad the Impaler,"" 
+0916,Blank Slot 13,Summon Demon,Vlad the Impaler,None
+0917,Blank Slot 13,Summon Demon,Vlad the Impaler,None
+0918,Blank Slot 13,Summon Demon,Vlad the Impaler,None
+0919,Blank Slot 13,Summon Demon,Vlad the Impaler,None
+0920,Blank Slot 13,Summon Demon,Vlad the Impaler,None
+0921,Blank Slot 13,Summon Demon,Vlad the Impaler,None
+0922,Blank Slot 13,Summon Demon,Vlad the Impaler,None
+0923,Blank Slot 13,Summon Demon,Vlad the Impaler,None
+0924,Blank Slot 13,Summon Demon,Vlad the Impaler,None
+0925,Blank Slot 13,Summon Demon,Vlad the Impaler,None
+0926,Blank Slot 13,Summon Demon,Vlad the Impaler,None
+0927,Blank Slot 13,Summon Demon,Vlad the Impaler,None,
+0928,Blank Slot 13,Summon Demon,Vlad the Impaler,None,
+0929,Blank Slot 13,Summon Demon,Vlad the Impaler,None,
+0930,Brass Man,Artifact Creature,Vlad the Impaler,Brass Man does not untap during your untap phase.  |1: Untap Brass Man.  Use this ability only during your upkeep.,
+0931,Dancing Scimitar,Artifact Creature,Vlad the Impaler,Flying,"Bobbing merrily from opponent to opponent, the scimitar began adding playful little flourishes to its strokes; it even turned a couple of somersaults."
+0932,Curse Artifact,Enchant Artifact,Vlad the Impaler,Causes 2 damage to artifact's controller unless they choose to bury artifact.,Voska feared the artifact had come too easily.
+0933,Electric Eel,Summon Eel,Vlad the Impaler,|R|R: +2/+0 and controller takes 1 damage. Causes 1 damage when put in play.,
+0934,Festival,Instant,Vlad the Impaler,Opponent may not declare an attack this turn. Play during opponents upkeep.,Only after the townsfolk had drawn us into their merry celebration did we discover that their holiday rituals held a deeper purpose.
+0935,Flood,Enchantment,Vlad the Impaler,|U|U: |T: target creature without flying.,"``A dash of cool water does wonders to clear a cluttered battlefield.'' ---Vibekke Ragnild, Witches and War "
+0936,Goblin Digging Team,Summon Goblins,Vlad the Impaler,|T: and sacrifice self to destroy target wall.,"``From down here we can make the whole wall collapse!'' ``Uh, yeah, boss, but how do we get out?''"
+0937,Goblin Rock Sled,Summon Rock Sled,Vlad the Impaler,Trample.  Cannot attack if defending player controls no mountains.  Rock Sled does not untap during your untap phase if it attacked during your last turn.,
+0938,Goblin Shrine,Enchant Land,Vlad the Impaler,"If target land is a basic mountain, all goblins gain +1/+0. Does 1 damage to all goblins if buried.",``I knew it weren't no ordinary pile of---you know.'' ---Norin the Wary
+0939,Marsh Viper,Summon Viper,Vlad the Impaler,"If Marsh Viper damages a player, he or she gets two poison counters.  If a player has ten or more poison counters, he or she loses the game.","""All we had left were their black and bloated bodies."" --- Maeveen O'Donogh, Memoirs of a Soldier"
+0940,Merfolk Assassin,Summon Merfolk,Vlad the Impaler,|T: to destroy target creature that has islandwalk.,
+0941,Miracle Worker,Summon Savant,Vlad the Impaler,|T: to destroy target enchantment on a creature you control.,"""Those blessed hands could bring surcease to even the most tainted soul."" --- Sister Betje, Miracles of the Saints"
+0942,Pikemen,Summon Pikemen,Vlad the Impaler,"Banding, first strike","``As the cavalry bore down, we faced them with swords drawn and pikes hidden in the grass at our feet. `Don't lift your pikes 'til I give the word,' I said.''  ---Maeveen O'Donagh, Memoirs of a Soldier"
+0943,Ragman,Summon Ragman,Vlad the Impaler,"|B|B|B, |T: Look at target opponent's hand.  If that player has any creature cards in hand, he or she discards one of them at random.  Use this ability only during your turn.","""Aw, he's just a silly, dirty little man. What's to be afraid of?"""
+0944,Savaen Elves,Summon Elves,Vlad the Impaler,"|G|G, |T: Destroy target enchant land.","""purity of magic can only come from purity of the land, How can a meal nourish if the ingredients are spoiled?"" --- Sidaine of Savaen"
+0945,Scarwood Bandits,Summon Bandits,Vlad the Impaler,"|G|2, |T: Take control of target artifact. Opponent can counter by paying |2.",
+0946,Scarwood Goblins,Summon Goblins,Vlad the Impaler,,"Larger and more cunning than most Goblins, Scarwood GOblins are thankfully found only in isolated pockets."
+0947,Scavenger Folk,Summon Scavengers,Vlad the Impaler,|G and sacrifice to destroy target artifact.,"String, weapons, wax, or jewels---it makes no difference. Leave nothing unguarded in Scarwood."
+0948,Squire,Summon Squire,Vlad the Impaler,,"""Of twenty years of age he was, I gesse. Of his Stature he was of even lengthe, And wonderly did deliver, and greete of strengthe."" --- Geoffrey Chaucer, The Canterbury Tales"
+0949,Tangle Kelp,Enchant Creature,Vlad the Impaler,Target creature doesn't untap if it attacked last turn. Kelp taps target creature.,
+0950,Tivandar's Crusade,Sorcery,Vlad the Impaler,Destroys all goblins in play.,
+0951,Water Wurm,Summon Wurm,Vlad the Impaler,Gains +0/+1 if opponent controls at least 1 island.,
+0952,Rubinia Soulsinger,Summon Legend,Rob Alexander,None,
+0953,MPS Logo,Artifact,Vlad the Impaler,None,
+0954,Blank Slot 46,Summon Demon,Vlad the Impaler,None,
+0955,Blank Slot 47,Summon Demon,Vlad the Impaler,None,
+0956,Blank Slot 48,Summon Demon,Vlad the Impaler,None,
+0957,Blank Slot 49,Summon Demon,Vlad the Impaler,None,
+0958,Blank Slot 50,Summon Demon,Vlad the Impaler,None,
+0959,Blank Slot 51,Summon Demon,Vlad the Impaler,None,
+0960,Across the Rhine,Enchantment,Vlad the Impaler,None,
+0961,CivNet,Land,Vlad the Impaler,None,
+0962,Terror from the Deep,Summon Terror,Vlad the Impaler,"May not be summoned unless you own the hit PC game, X-Com: Terror from the Deep by MicroProse.","""I didn't think it were all that big...until it ate our island. Then I figured it was pretty big after all."" ---some old sailor who smelled pretty bad"
+0963,World Card,World,Vlad the Impaler,None,
+0964,Blank Slot 53,Summon Demon,Vlad the Impaler,None,
+0965,Blank Slot 54,Summon Demon,Vlad the Impaler,None,
+0966,Blank Slot 55,Summon Demon,Vlad the Impaler,None,
+0967,Blank Slot 56,Summon Demon,Vlad the Impaler,None,
+0968,Blank Slot 57,Summon Demon,Vlad the Impaler,None,
+0969,Blank Slot 58,Summon Demon,Vlad the Impaler,None,
+0970,Blank Slot 59,Summon Demon,Vlad the Impaler,None,
+0971,Blank Slot 60,Summon Demon,Vlad the Impaler,None,
+0972,Blank Slot 61,Summon Demon,Vlad the Impaler,None,
+0973,Blank Slot 62,Summon Demon,Vlad the Impaler,None,
+0974,Blank Slot 63,Summon Demon,Vlad the Impaler,None,
+0975,Blank Slot 64,Summon Demon,Vlad the Impaler,None
+0976,Blank Slot 65,Summon Demon,Vlad the Impaler,None
+0977,Blank Slot 66,Summon Demon,Vlad the Impaler,None
+0978,Blank Slot 67,Summon Demon,Vlad the Impaler,None
+0979,Blank Slot 68,Summon Demon,Vlad the Impaler,None
+0980,Blank Slot 69,Summon Demon,Vlad the Impaler,None
+0981,Blank Slot 70,Summon Demon,Vlad the Impaler,None
+0982,Blank Slot 71,Summon Demon,Vlad the Impaler,None
+0983,Blank Slot 72,Summon Demon,Vlad the Impaler,None
+0984,Blank Slot 73,Summon Demon,Vlad the Impaler,None
+0985,Blank Slot 74,Summon Demon,Vlad the Impaler,None
+0986,Blank Slot 75,Summon Demon,Vlad the Impaler,None
+0987,Blank Slot 76,Summon Demon,Vlad the Impaler,None
+0988,Blank Slot 77,Summon Demon,Vlad the Impaler,None
+0989,Blank Slot 78,Summon Demon,Vlad the Impaler,None
+0990,Blank Slot 79,Summon Demon,Vlad the Impaler,None
+0991,Blank Slot 80,Summon Demon,Vlad the Impaler,None
+0992,Blank Slot 81,Summon Demon,Vlad the Impaler,None
+0993,Blank Slot 82,Summon Demon,Vlad the Impaler,None
+0994,Blank Slot 83,Summon Demon,Vlad the Impaler,None
+0995,Blank Slot 84,Summon Demon,Vlad the Impaler,None
+0996,Blank Slot 85,Summon Demon,Vlad the Impaler,None
+0997,Blank Slot 86,Summon Demon,Vlad the Impaler,None
+0998,Damage,Damage,Vlad the Impaler,None
+0999,Player Card,Player,Vlad the Impaler,None
+1000,Basalt Untap,Instant Effect,Vlad the Impaler,None
+1001,Blessing PowerUp,Instant Effect,Vlad the Impaler,None
+1002,Silly Orb Thing,Instant Effect,Vlad the Impaler,None
+1003,Black Protection,Instant Effect,Vlad the Impaler,None
+1004,Blue Protection,Instant Effect,Vlad the Impaler,None
+1005,Green Protection,Instant Effect,Vlad the Impaler,None
+1006,Red Protection,Instant Effect,Vlad the Impaler,None
+1007,White Protection,Instant Effect,Vlad the Impaler,None
+1008,Rewind Beast,Instant Effect,Vlad the Impaler,None
+1009,Conserve Life,Instant Effect,Vlad the Impaler,None
+1010,Blue Lucky Charm,Instant Effect,Vlad the Impaler,None
+1011,Creative Irrigation,Instant Effect,Vlad the Impaler,None
+1012,Cancel Green,Interrupt Effect,Vlad the Impaler,None
+1013,Consume Land,Instant Effect,Vlad the Impaler,None
+1014,Discard Therapy,Instant Effect,Vlad the Impaler,None
+1015,Whelp Up,Instant Effect,Vlad the Impaler,None
+1016,Urban Renewal,Instant Effect,Vlad the Impaler,None
+1017,Thanks Drive Thru,Instant Effect,Vlad the Impaler,None
+1018,Bumper Crop,Instant Effect,Vlad the Impaler,None
+1019,Now Thats a Fire,Instant Effect,Vlad the Impaler,None
+1020,Stay Away,Instant Effect,Vlad the Impaler,None
+1021,Shade PowerUp,Instant Effect,Vlad the Impaler,None
+1022,Rural Renewal,Instant Effect,Vlad the Impaler,None
+1023,Peekaboo,Instant Effect,Vlad the Impaler,None
+1024,Up Up and Away,Instant Effect,Vlad the Impaler,None
+1025,Stone Skin,Instant Effect,Vlad the Impaler,None
+1026,Empty Slot 1,Instant Effect,Vlad the Impaler,None
+1027,Band Together,Instant Effect,Vlad the Impaler,None
+1028,ArmorUp,Instant Effect,Vlad the Impaler,None
+1029,Empty Slot 2,Instant Effect,Vlad the Impaler,None
+1030,Icy Touch,Instant Effect,Vlad the Impaler,None
+1031,Good Drugs,Instant Effect,Vlad the Impaler,None
+1032,Untap Once,Instant Effect,Vlad the Impaler,None
+1033,Red Lucky Charm,Instant Effect,Vlad the Impaler,None
+1034,White Lucky Charm,Instant Effect,Vlad the Impaler,None
+1035,Monolith Redirect,Instant Effect,Vlad the Impaler,None
+1036,Dont Touch The Idol,Instant Effect,Vlad the Impaler,None
+1037,Musty Tome,Instant Effect,Vlad the Impaler,None
+1038,Pay The Shark,Instant Effect,Vlad the Impaler,None
+1039,Red Rover Red Rover,Instant Effect,Vlad the Impaler,None
+1040,History Eraser Button,Instant Effect,Vlad the Impaler,None
+1041,Dudley DoRight,Instant Effect,Vlad the Impaler,None
+1042,Dangerous Artillery,Instant Effect,Vlad the Impaler,None
+1043,OnTheChin,Instant Effect,Vlad the Impaler,None
+1044,Germ Warfare,Instant Effect,Vlad the Impaler,None
+1045,Tim on a Boat,Instant Effect,Vlad the Impaler,None
+1046,Tims Poke,Instant Effect,Vlad the Impaler,None
+1047,Hes Not Dead Yet,Instant Effect,Vlad the Impaler,None
+1048,Save A Head,Instant Effect,Vlad the Impaler,None
+1049,Tim on a Stick,Instant Effect,Vlad the Impaler,None
+1050,Royal Stab,Instant Effect,Vlad the Impaler,None
+1051,Shivan PowerUp,Instant Effect,Vlad the Impaler,None
+1052,Fastball Special,Instant Effect,Vlad the Impaler,None
+1053,Bzzzz,Instant Effect,Vlad the Impaler,None
+1054,Black Lucky Charm,Instant Effect,Vlad the Impaler,None
+1055,Buddha Flame,Instant Effect,Vlad the Impaler,None
+1056,Waterbreathing,Instant Effect,Vlad the Impaler,None
+1057,Green Lucky Charm,Instant Effect,Vlad the Impaler,None
+1058,Restore Land,Interrupt Effect,Vlad the Impaler,None
+1059,Cancel Black,Interrupt Effect,Vlad the Impaler,None
+1060,Banshee Scream,Instant Effect,Vlad the Impaler,None
+1061,In the Slammer,Instant Effect,Vlad the Impaler,None
+1062,Tree Killers,Instant Effect,Vlad the Impaler,None
+1063,Haunting Tune,Instant Effect,Vlad the Impaler,None
+1064,Work Hazard,Instant Effect,Vlad the Impaler,None
+1065,Secret Path,Instant Effect,Vlad the Impaler,None
+1066,Bring Out Yer Dead,Instant Effect,Vlad the Impaler,None
+1067,Get Thee Gone Evil,Instant Effect,Vlad the Impaler,None
+1068,Bunsen Burner,Instant Effect,Vlad the Impaler,None
+1069,Map of Scarwood,Instant Effect,Vlad the Impaler,None
+1070,Tree Barricade,Instant Effect,Vlad the Impaler,None
+1071,Get a Life You Bum,Instant Effect,Vlad the Impaler,None
+1072,Hawk a Loogie,Instant Effect,Vlad the Impaler,None
+1073,Pull Goblin out of Hat,Instant Effect,Vlad the Impaler,None
+1074,WizWard,Instant Effect,Vlad the Impaler,None
+1075,Throw Me The Idol,Instant Effect,Vlad the Impaler,None
+1076,We Have the Tech...,Instant Effect,Vlad the Impaler,None
+1077,Pushin' Up Daisies,Instant Effect,Vlad the Impaler,None
+1078,Let's Set an Example,Instant Effect,Vlad the Impaler,None
+1079,Drink This Kool-Aid,Instant Effect,Vlad the Impaler,None
+1080,Library Card,Instant Effect,Vlad the Impaler,None
+1081,RuneSword Effect,Instant Effect,Vlad the Impaler,None
+1082,Safe Haven Effect,Instant Effect,Vlad the Impaler,None
+1083,Safe Haven Sacrifice,Instant Effect,Vlad the Impaler,None
+1084,Regrow Enchant,Instant Effect,Vlad the Impaler,None
+1085,Cryptage,Instant Effect,Vlad the Impaler,None
+1086,Dark Sphere Effect,Instant Effect,Vlad the Impaler,None
+1087,The Green Man,Instant Effect,Vlad the Impaler,None
+1088,Maze Effect,Instant Effect,Vlad the Impaler,None
+1089,Over the Walls!,Instant Effect,Vlad the Impaler,None
+1090,I Will Find You,Instant Effect,Vlad the Impaler,None
+1091,What Have We Here?,Instant Effect,Vlad the Impaler,None
+1092,The Love Barge...,Instant Effect,Vlad the Impaler,None
+1093,That Bird Don't Fly,Instant Effect,Vlad the Impaler,None
+1094,Take That You Fiend!,Instant Effect,Vlad the Impaler,None
+1095,Shh. Be Vewy Qwiet...,Instant Effect,Vlad the Impaler,None
+1096,Stroll in the Forest,Instant Effect,Vlad the Impaler,None
+1097,Trip to the Swamp,Instant Effect,Vlad the Impaler,None
+1098,Aladdin Effect,Instant Effect,Vlad the Impaler,None
+1099,Lamp Effect,Instant Effect,Vlad the Impaler,None
+1100,Open Sesame,Instant Effect,Vlad the Impaler,None
+1101,Tim's Revenge,Instant Effect,Vlad the Impaler,None
+1102,Wizard's Market,Instant Effect,Vlad the Impaler,None
+1103,Abraca-pocus,Instant Effect,Vlad the Impaler,None
+1104,Mrs. King,Instant Effect,Vlad the Impaler,None
+1105,Kuumbaya My Lord,Instant Effect,Vlad the Impaler,None
+1106,Oh water boy...,Instant Effect,Vlad the Impaler,None
+1107,A girl's best friend.,Instant Effect,Vlad the Impaler,None
+1108,Elephant Revival,Instant Effect,Vlad the Impaler,None
+1109,Mi foresta y su foresta,Instant Effect,Vlad the Impaler,None
+1110,Don't look down,Instant Effect,Vlad the Impaler,None
+1111,Hizz Jackal,Instant Effect,Vlad the Impaler,None
+1112,Hurricane Biff,Instant Effect,Vlad the Impaler,None
+1113,Waka-waka,Instant Effect,Vlad the Impaler,None
+1114,Saddlebaggage,Instant Effect,Vlad the Impaler,None
+1115,Back in Bottle,Instant Effect,Vlad the Impaler,None
+1116,Get A Card,Instant Effect,Vlad the Impaler,None
+1117,Asp Problem,Instant Effect,Vlad the Impaler,None
+1118,Vacation Resort,Instant Effect,Vlad the Impaler,None
+1119,Monkey on Your Back,Instant Effect,Vlad the Impaler,None
+1120,Protect Land,Instant Effect,Vlad the Impaler,None
+1121,Blow Enchant,Instant Effect,Vlad the Impaler,None
+1122,Walk a mile in my...,Instant Effect,Vlad the Impaler,None
+1123,The trees are alive...,Instant Effect,Vlad the Impaler,None
+1124,Here little piggy...,Instant Effect,Vlad the Impaler,None
+1125,Wolf's howl,Instant Effect,Vlad the Impaler,None
+1126,Salve of Kroog,Instant Effect,Vlad the Impaler,None
+1127,Throw Me the Whip,Instant Effect,Vlad the Impaler,None
+1128,Argivian Bodyshop,Instant Effect,Vlad the Impaler,None
+1129,Get the Point?,Instant Effect,Vlad the Impaler,None
+1130,Can Opener Bait,Instant Effect,Vlad the Impaler,None
+1131,Eat em up Yum,Instant Effect,Vlad the Impaler,None
+1132,Remove Counter,Instant Effect,Vlad the Impaler,None
+1133,Happy Chemistry,Instant Effect,Vlad the Impaler,None
+1134,Tablet Effect,Instant Effect,Vlad the Impaler,None
+1135,Mana Recycling,Instant Effect,Vlad the Impaler,None
+1136,Artifact Protection,Instant Effect,Vlad the Impaler,None
+1137,Rewind Avian,Instant Effect,Vlad the Impaler,None
+1138,Take the Helm,Instant Effect,Vlad the Impaler,None
+1139,Steambreathing,Instant Effect,Vlad the Impaler,None
+1140,Wartoys R Us,Instant Effect,Vlad the Impaler,None
+1141,Recycle Graveyard,Instant Effect,Vlad the Impaler,None
+1142,Watch for Customs,Instant Effect,Vlad the Impaler,None
+1143,What Manual?,Instant Effect,Vlad the Impaler,None
+1144,Pull!,Instant Effect,Vlad the Impaler,None
+1145,Self Help Tome,Instant Effect,Vlad the Impaler,None
+1146,Grind Away,Instant Effect,Vlad the Impaler,None
+1147,Become Worker,Instant Effect,Vlad the Impaler,None
+1148,Boost Worker,Instant Effect,Vlad the Impaler,None
+1149,Obelisk of Undoing,Instant Effect,Vlad the Impaler,None
+1150,INCOMING!,Instant Effect,Vlad the Impaler,None
+1151,Gremlins in th' Works,Instant Effect,Vlad the Impaler,None
+1152,Rakalite Effect,Instant Effect,Vlad the Impaler,None
+1153,I'll be back...,Instant Effect,Vlad the Impaler,None
+1154,Fee: One Artifact,Instant Effect,Vlad the Impaler,None
+1155,Rap their Knuckles,Instant Effect,Vlad the Impaler,None
+1156,Landscape Artist,Instant Effect,Vlad the Impaler,None
+1157,Coffin Effect,Instant Effect,Vlad the Impaler,None
+1158,Dwarves on a Stick,Instant Effect,Vlad the Impaler,None
+1159,Call to Arms,Instant Effect,Vlad the Impaler,None
+1160,Create Drone,Instant Effect,Vlad the Impaler,None
+1161,Absorb Drone,Instant Effect,Vlad the Impaler,None
+1162,Modular Avenger,Instant Effect,Vlad the Impaler,None
+1163,True Possession,Instant Effect,Vlad the Impaler,None
+1164,Adun's Passing,Instant Effect,Vlad the Impaler,None
+1165,Up Where it's Safe,Instant Effect,Vlad the Impaler,None
+1166,Shades of Grey,Instant Effect,Vlad the Impaler,None
+1167,Sabboth Threat,Instant Effect,Vlad the Impaler,None
+1168,Fog on a Stick,Instant Effect,Vlad the Impaler,None
+1169,Rust on a Stick,Instant Effect,Vlad the Impaler,None
+1170,Charge Black Battery,Instant Effect,Vlad the Impaler,None
+1171,Charge Blue Battery,Instant Effect,Vlad the Impaler,None
+1172,Plop goes a Devil,Instant Effect,Vlad the Impaler,None
+1173,Ant Swarm,Instant Effect,Vlad the Impaler,None
+1174,Ugly Mug,Instant Effect,Vlad the Impaler,None
+1175,Apple? What Apple?,Instant Effect,Vlad the Impaler,None
+1176,New Coat of Paint,Instant Effect,Vlad the Impaler,None
+1177,Dragonfly Bite,Instant Effect,Vlad the Impaler,None
+1178,Artifact Compost,Instant Effect,Vlad the Impaler,None
+1179,Modular Angelfire,Instant Effect,Vlad the Impaler,None
+1180,Chaotic Effect,Instant Effect,Vlad the Impaler,None
+1181,Damned Ghosts,Instant Effect,Vlad the Impaler,None
+1182,Sluggish Slug,Instant Effect,Vlad the Impaler,None
+1183,Greater Protection,Instant Effect,Vlad the Impaler,None
+1184,Gimme gimme!,Instant Effect,Vlad the Impaler,None
+1185,Charge Green Battery,Instant Effect,Vlad the Impaler,None
+1186,Sugar for Mommy,Instant Effect,Vlad the Impaler,None
+1187,Half anyone he wants,Instant Effect,Vlad the Impaler,None
+1188,Wrong Turn,Instant Effect,Vlad the Impaler,None
+1189,Body Snatchers,Instant Effect,Vlad the Impaler,None
+1190,Tuba Blues,Instant Effect,Vlad the Impaler,None
+1191,Swampy Remedy,Instant Effect,Vlad the Impaler,None
+1192,Hyperion Twiddle,Instant Effect,Vlad the Impaler,None
+1193,Back in Bowl,Instant Effect,Vlad the Impaler,None
+1194,Herbal Remedy,Instant Effect,Vlad the Impaler,None
+1195,Bee Stings,Instant Effect,Vlad the Impaler,None
+1196,Stop Fighting!,Instant Effect,Vlad the Impaler,None
+1197,The Krying Game,Instant Effect,Vlad the Impaler,None
+1198,Land's Edge Effect,Instant Effect,Vlad the Impaler,None
+1199,There Wolf!,Instant Effect,Vlad the Impaler,None
+1200,Open Wide,Instant Effect,Vlad the Impaler,None
+1201,Wolves of the Hunt,Instant Effect,Vlad the Impaler,None
+1202,Dark Mirror,Instant Effect,Vlad the Impaler,None
+1203,Nebbiecasneezer,Instant Effect,Vlad the Impaler,None
+1204,North Star Effect,Instant Effect,Vlad the Impaler,None
+1205,Pentacle Redirect,Instant Effect,Vlad the Impaler,None
+1206,Carrion Cud,Instant Effect,Vlad the Impaler,None
+1207,Pavel PowerUp,Instant Effect,Vlad the Impaler,None
+1208,Girlieman Pump Up,Instant Effect,Vlad the Impaler,None
+1209,Fly and be Free!,Instant Effect,Vlad the Impaler,None
+1210,Gypsy Curse,Instant Effect,Vlad the Impaler,None
+1211,Psuicide is Painful,Instant Effect,Vlad the Impaler,None
+1212,Earthbind on a Stick,Instant Effect,Vlad the Impaler,None
+1213,Field of Honor,Instant Effect,Vlad the Impaler,None
+1214,Bad Enchantment,Instant Effect,Vlad the Impaler,None
+1215,Rasputin Effect,Instant Effect,Vlad the Impaler,None
+1216,Charge Red Battery,Instant Effect,Vlad the Impaler,None
+1217,Slap that Relic,Instant Effect,Vlad the Impaler,None
+1218,Avoid Fate on a Stick,Instant Effect,Vlad the Impaler,None
+1219,Adjust Sentinel,Instant Effect,Vlad the Impaler,None
+1220,Snake Factory,Instant Effect,Vlad the Impaler,None
+1221,Fuzzy BandsWith,Instant Effect,Vlad the Impaler,None
+1222,Night Martyr,Instant Effect,Vlad the Impaler,None
+1223,Gurgle Spurt,Instant Effect,Vlad the Impaler,None
+1224,Sword of Wrath,Instant Effect,Vlad the Impaler,None
+1225,Back in Time,Instant Effect,Vlad the Impaler,None
+1226,Parties Over,Instant Effect,Vlad the Impaler,None
+1227,Bullseye!,Instant Effect,Vlad the Impaler,None
+1228,Three Minute Egg,Instant Effect,Vlad the Impaler,None
+1229,Dinosaur Head,Instant Effect,Vlad the Impaler,None
+1230,Urborg's Revenge,Instant Effect,Vlad the Impaler,None
+1231,Guess a Gator got em,Instant Effect,Vlad the Impaler,None
+1232,Nasty Dragon Thingie,Instant Effect,Vlad the Impaler,None
+1233,Mad Mice with Wings,Instant Effect,Vlad the Impaler,None
+1234,Voodoo Lady,Instant Effect,Vlad the Impaler,None
+1235,Wall of Pumps,Instant Effect,Vlad the Impaler,None
+1236,Stuffy doll?,Instant Effect,Vlad the Impaler,None
+1237,Charge White Battery,Instant Effect,Vlad the Impaler,None
+1238,Satyr's Pipes,Instant Effect,Vlad the Impaler,None
+1239,Nice Costume!,Instant Effect,Vlad the Impaler,None
+1240,Ohm! That Hertz!,Instant Effect,Vlad the Impaler,None
+1241,Treading Water,Instant Effect,Vlad the Impaler,None
+1242,Dig-dug,Instant Effect,Vlad the Impaler,None
+1243,Boating Accident,Instant Effect,Vlad the Impaler,None
+1244,Workin' Wonders,Instant Effect,Vlad the Impaler,None
+1245,Riches to Rags,Instant Effect,Vlad the Impaler,None
+1246,Purify Land,Instant Effect,Vlad the Impaler,None
+1247,Bandit Effect,Instant Effect,Vlad the Impaler,None
+1248,Me Precioussss!,Instant Effect,Vlad the Impaler,None
+1249,Soulsinger Swing,Instant Effect,Vlad the Impaler,None

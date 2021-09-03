@@ -1,0 +1,54 @@
+;-*- conf-windows -*-
+;Overrides for Modern frames (8th edition and later).
+;See Duel.dat for documentation.
+;
+[SmallCard]
+ArtLeft = 46
+ArtTop = 183
+ArtWidth = 922
+ArtHeight = 784
+;
+TitleSourceTop = 7
+TitleSourceHeight = 195
+TitleDestHeight = 1074
+FrameSourceTop = 449
+FrameSourceHeight = 17
+FrameDestTop = 1074
+;
+ExpansionLeft = 600
+ExpansionTop = 26
+ExpansionWidth = 171
+ExpansionHeight = 122
+;
+;
+[FullCard]
+TitleColorR = 47
+TitleColorG = 47
+TitleColorB = 47
+TitleShadowColorR = -1
+;
+PowertoughnessColorR = 47
+PowertoughnessColorG = 47
+PowertoughnessColorB = 47
+PowertoughnessShadowColorR = -1
+;
+TypeColorR = 47
+TypeColorG = 47
+TypeColorB = 47
+TypeShadowColorR = -1
+;
+;
+[Frames]
+FrameBaseDir=Modern
+;
+CardOv_ColorlessLand=CardOv_Colorless.png
+;
+CardOv_ArtifactNyx=CardOv_ArtifactNyx.png
+CardOv_ColorlessNyx=CardOv_ArtifactNyx.png
+CardOv_GoldNyx=CardOv_GoldNyx.png
+CardOv_LandNyx=CardOv_ArtifactNyx.png
+CardOv_WNyx=CardOv_WNyx.png
+CardOv_UNyx=CardOv_UNyx.png
+CardOv_BNyx=CardOv_BNyx.png
+CardOv_RNyx=CardOv_RNyx.png
+CardOv_GNyx=CardOv_GNyx.png

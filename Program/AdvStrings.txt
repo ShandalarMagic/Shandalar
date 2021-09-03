@@ -1,0 +1,951 @@
+@STARTUP
+3
+Shandalar Materializing...
+Will you ...\n   Save\n   Load\n   Quit\n   See/Edit Deck(F1)\n   See Map(F2)\n   See City List(F3)\n   See Dungeon Clues(F4)\n   See Stats(F5)\n   See Wiz Stats(F6)\n
+Enter Your Name
+
+@SHUTDOWN
+1
+Ready to Quit?\n No.\n Yes.\n
+
+@DIRECTIONS
+4
+North
+East
+South
+West
+
+@WORLDMAGIC
+1
+WORLDMAGIC:\n
+
+@WORLDMAGIC_NAMES
+12
+Sleight of Hand
+Haggler's Coin
+Conjurer's Will
+Amulet of Swampwalk
+Leap of Fate
+Tome of Enlightenment
+Quickening
+Fruit of Sustenance
+Staff of Thunder
+Dwarven Pick
+Sword of Resistance
+Ring of the Guardian
+
+@WORLDMAGIC_EXPLAINS
+12
+(A clever duelist can switch\nantes. An ethical one won't.)
+(Each village and city\noffers more cards for sale.)
+(Risk one black amulet to\nadjust your deck outdoors.)
+(The Dragonfly provides a way\nto fly through swamps unslowed.)
+(Risk one blue amulet to\ninstantly cross any distance.)
+(The limit on duplicate spells\nin your deck is eased by one.)
+(Risk one green amulet for a\ntemporary burst of speed.)
+(In the forests, you gain\nmore food than you can eat.)
+(Risk one red amulet to\ndestroy the nearest creature.)
+(Ancient power in this pick\nhastens mountain travels.)
+(Risk one white amulet to\nreach a city under siege.)
+(The wizards now need\n5 mana taps to cast Dominion.)
+
+@DUNGEON_NAMES
+17
+Castle Necris
+Mysthold
+Wildwood Steading
+Dragon Mount
+Citadel of the Sun
+The Paths of Chronus
+Ruins of Su-Chan
+Mound of the Warrior Kings
+Azar's Crypt
+Soulchant Monastery
+Cave of the Ice Worm
+Dungeons of Graaz Keep
+Tower of Whim
+Arjonot's Tomb
+Altar of the Cyclops
+Vault of the Maker
+Lost Mines of Suret
+
+@LAIR_NAMES
+19
+Restless Graveyard
+Hallowed Ground
+Active Volcano
+Faerie Glade
+Hidden Lagoon
+Ruined Tower
+Loremaster's Tower
+Thieves Hideout
+Nomad's Bazaar
+Abandoned Shrine
+Dragon's Lair
+Hall of the Sultan
+Gemcutter's Guild
+Spectral Arena
+Pyramids of Aska-tet
+Lost City of El'Akram
+Guardian's Ghost
+Oasis of Muldoon
+Diamond Mine
+
+@CITYNAMES_FORMAT
+2
+%1 %2
+%1 Village
+
+@CITYNAMES_FIRSTHALF
+16
+Amanaxis
+Andor's
+Bloodsand
+Celestine
+Coldsnap
+Eloren
+Hornwall
+Kraag
+Mardrake
+Nevermoor
+Pyrenian
+Sahrmal's
+Shalecliff
+Unicorn's
+Windlass
+Zephyr
+
+@CITYNAMES_SECONDHALF
+16
+Tower
+Keep
+Glade
+Forge
+Tavern
+Steading
+Temple
+Mill
+Spire
+Hall
+Bazaar
+Oasis
+Shrine
+Haven
+Hold
+Sanctum
+
+@CITYNAME_VILLAGE
+1
+Village
+
+@CITYNAME_CASTLE
+1
+Castle
+
+@CITYNAME_MANACASTLE
+5
+Black Castle
+Blue Castle
+Green Castle
+Red Castle
+White Castle
+
+@WIZARDNAMES
+5
+Black Wizard
+Blue Wizardess
+Green Wizard
+Red Wizardess
+White Wizard
+
+@CREATURENAMES
+57
+Lair
+Witch
+Undead Knight
+Warlock
+VampireLord
+Nether Fiend
+Necromancer
+Greater Lich
+Cleric
+Priestess
+Crusader
+Paladin
+Arch Angel
+High Priest
+Sainted One
+Seer
+Merfolk Shaman
+Conjurer
+Sea Dragon
+Shapeshifter
+Thought Invoker
+Astral Visionary
+Druid
+Elvish Magi
+Enchantress
+Forest Dragon
+Beastmaster
+Summoner
+Great Druid
+Sorceress
+Sorcerer
+Troll Shaman
+Goblin Lord
+Hydra
+War Mage
+Dragon Lord
+Tusk Guardian
+Sedge Beast
+Ape Lord
+Centaur Shaman
+Winged Stallion
+Fungus Master
+Centaur Warchief
+Mind Stealer
+Lord of Fate
+Elementalist
+Aga Galneer
+Alt-A-Kesh
+Queltosh
+Saltrem Tor
+Mandurang
+Whim
+Prismat
+Dracur
+Kiska-Ra
+Arzakon
+Arzakon
+
+@CREATURENAME_ARTICLES
+57
+a 
+a 
+an 
+a 
+a 
+a 
+a 
+a 
+a 
+a 
+a 
+a 
+an 
+a 
+a 
+a 
+a 
+a 
+a 
+a 
+a 
+an 
+a 
+an 
+an 
+a 
+a 
+a 
+a 
+a 
+a 
+a 
+a 
+a 
+a 
+a 
+a 
+a 
+an 
+a 
+a 
+a 
+a 
+a 
+a 
+an 
+an 
+an 
+a 
+a 
+a 
+a 
+a 
+a 
+a 
+an 
+an 
+
+@CREATURENAMES_PLURAL
+57
+Lairs
+Witches
+Undead Knights
+Warlocks
+VampireLords
+Nether Fiends
+Necromancers
+Greater Liches
+Clerics
+Priestesses
+Crusaders
+Paladins
+Arch Angels
+High Priests
+Sainted Ones
+Seers
+Merfolk Shamen
+Conjurers
+Sea Dragons
+Shapeshifters
+Thought Invokers
+Astral Visionaries
+Druids
+Elvish Maguses
+Enchantresses
+Forest Dragons
+Beastmasters
+Summoners
+Great Druids
+Sorceresses
+Sorcerers
+Troll Shamen
+Goblin Lords
+Hydrae
+War Mages
+Dragon Lords
+Tusk Guardians
+Sedge Beasts
+Ape Lords
+Centaur Shamen
+Winged Stallions
+Fungus Masters
+Centaur Warchiefs
+Mind Stealers
+Lords of Fate
+Elementalists
+Aga Galneers
+Alt-A-Keshes
+Queltoshes
+Saltrem Tors
+Mandurangs
+Whims
+Prismats
+Dracurs
+Kiska-Rae
+Arzakon
+Arzakon
+
+@AMULETNAMES
+6
+amulet
+black amulet
+blue amulet
+green amulet
+red amulet
+white amulet
+
+@AMULETNAMES_PLURAL
+6
+amulets
+black amulets
+blue amulets
+green amulets
+red amulets
+white amulets
+
+@SPELLNAMES
+7
+%1\n%2 spell
+black
+blue
+green
+red
+white
+colorless
+
+@COLORCARDS
+6
+Colorless cards
+Black cards
+Blue cards
+Green cards
+Red cards
+White cards
+
+@CARDCLASSNAMES
+9
+Land
+Creature
+Enchantment
+Sorcery
+Instant
+Interrupt
+Artifact
+A.creature
+Game effect
+
+@CARDCLASSNAMES_PLURAL
+9
+Lands
+Creatures
+Enchantments
+Sorceries
+Instants
+Interrupts
+Artifacts
+A.creatures
+Game effects
+
+@CITYCARDTEXT
+49
+Colorless cards
+Colorless land
+Colorless creatures
+Colorless enchantments
+Colorless sorceries
+Colorless instants
+Colorless artifacts
+Black cards
+Black land
+Black creatures
+Black enchantments
+Black sorceries
+Black instants
+Black artifacts
+Blue cards
+Blue land
+Blue creatures
+Blue enchantments
+Blue sorceries
+Blue instants
+Blue artifacts
+Green cards
+Green land
+Green creatures
+Green enchantments
+Green sorceries
+Green instants
+Green artifacts
+Red cards
+Red land
+Red creatures
+Red enchantments
+Red sorceries
+Red instants
+Red artifacts
+White cards
+White land
+White creatures
+White enchantments
+White sorceries
+White instants
+White artifacts
+Any cards
+Any land
+Any creatures
+Any enchantments
+Any sorceries
+Any instants
+Any artifacts
+
+@MANANAMES
+5
+black
+blue
+green
+red
+white
+
+@LANDWALKS
+5
+Swampwalk
+Islandwalk
+Forestwalk
+Mountainwalk
+Plainswalk
+
+@CITYSCREEN_BUTTONS
+8
+Edit deck/Sell cards
+Buy 10 food for %d gold
+Leave the village
+Buy Cards/Card Hints
+Buy Cards
+Trade %1 for %2
+Begin a Quest
+Speak to Wise Man
+
+@DUNGEON
+20
+You get %s\nin the next duel!\n
++%d (%d) Life
+First Move
+Found This Card
+Found %d Gold\n
+Found %d Gold\nand a bag with Jewels:\n%s
+%d black\n
+%d blue\n
+%d green\n
+%d red\n
+%d white\n
+You are unceremoniously booted from\nthe stronghold of the Mighty %s!\n
+You are unceremoniously booted from\nthe stronghold of the Mighty %s!\n
+Exit
+%s in effect.
+Exploring the Castle...\nyou encounter %s!\n
+Exploring the Dungeon...\nyou encounter %s!\n
+\n%1 has the spell %2!s!!\n
+(%s starts in play!)\n
+Lost this card
+
+@MONSTERLAIR
+6
+You encounter %s \nGenie guarding a hoard\nof valuable spells.\n
+You encounter %s \nSpectre guarding a hoard\nof valuable spells.\n
+You encounter %s \nDragon guarding a hoard\nof valuable spells.\n
+You encounter %s \nwarily guarding a hoard\nof valuable spells.\n
+Will you...\n Leave quietly.\n Duel the creature.\n
+Won These Cards\n
+
+@LAIR
+19
+You happen upon a\n%s!\n
+You get 500 gold!\n
+Thieves take half your gold!\n
+You may buy amulets\nfor 200 gold pieces. (You have %d.)\n
+ No thanks.\n
+ Buy a %s. (You have %d.)\n
+You find an amulet of each color!\n
+Thieves take half your amulets!\n
+For one %1\nI will reveal the deck\nof any %2.\n
+black creature
+blue creature
+green creature
+red creature
+white creature
+ Never mind.\n See a deck.\n
+You may trade your\n%s for five\nextra life in the next duel.\n
+ Never mind.\n Trade for life.\n
+Whose deck would you like to see?\n
+Found this card
+
+@CAVELIST
+1
+%1 (%2)
+
+@CAVE_SHOWCLUES
+23
+Creatures:
+-Contains %s.
+large black creatures
+large blue creatures
+large green creatures
+large red creatures
+large white creatures
+small black creatures
+small blue creatures
+small green creatures
+small red creatures
+small white creatures
+Dungeon Rules:
+-No %s allowed.
+-One deck for all duels.
+-No artifacts allowed.
+-No instants or interrupts allowed.
+-Life losses carried over.
+-Remaining life added to next duel.
+-%s permanently in effect.
+-No special rules.
+Location:
+-%1 of %2.
+
+@WISEMAN
+19
+If you seek the %1,\ntravel %2 to %3.\n
+If you seek the mana link,\ntravel %1 to %2.\n
+I see that the people of\n%1 have asked for\na %2.\n
+You should travel %1\nto %2\nto claim your reward!\n
+I see that the people of\n%1 have asked you\nto defeat %2.\n
+The wise man says:\n典he people applaud your brave\nstruggle to free Shandalar from\nthe tyranny of the Five Wizards.\n\n
+To assist you I shall tell you\na tale of long long ago能n
+To assist you I shall tell you of the\ndungeons which hold valuable spells.能n
+To assist you I shall strengthen you\nwith two extra life in your next duel.能n
+To assist you I shall fortify you\nwith extra food for you journeys.能n
+To assist you I shall reveal to you\nthe secret deck of any %s.能n
+black creature
+blue creature
+green creature
+red creature
+white creature
+To assist you I shall provide you a\n%s companion in your next duel.能n
+To assist you I shall fashion 3 %s\ninto a duplicate of any spell you possess.能n
+Pick a spell
+
+@CITYWISEMAN
+13
+You failed to complete your\nlast quest for this village.\n\nThe people have no new quest for you.\n
+Take this message %1 to\nmy brother, the keeper of\n%2.
+  He will reward\nyou with a mana link.
+  He will reward\nyou with a %s.
+Take a %1 %2\nto the keeper of %3.\n
+He will give you a mana link\nand 1 %s.
+Defeat the %s Dragon\nwhich has been menacing\nour village.
+Defeat the %s\nwhich has been menacing\nour village.
+  Return here\nand I will reward you\nwith 1 %s.
+  Return here\nand I will reward you\nwith %1!d! %2.
+  Return here\nand I will reward you\nwith: %s.
+\n Accept the Quest.\n Never mind.\n
+You have %d days\nto complete the quest.\n
+
+@VISIT
+35
+Your ANTE
+Wizard's ANTE
+This place is ruled\nby the %s.\n
+This place is ruled\nby the %s.\n
+To free the city you must duel this %s\n
+To free the city you must duel this %s\n
+ Never mind.\n Duel the creature.\n
+ Never mind.\n Duel the creature.\n
+%s is freed! The people rejoice.\n
+Lost this card
+Who dares to challenge the Mighty\n%s? Are you brave\nenough to enter my castle?\n
+Who dares to challenge the Mighty\n%s? Are you brave\nenough to enter my castle?\n
+ Well... No.\n Yes, enter the castle.\n
+The Mighty\n%s was crushed in \nepic combat by your aegis!\n
+The Mighty\n%s was crushed in \nepic combat by your aegis!\n
+The people of Shandalar\nsing praises in your name!\n
+The keeper is pleased to\nreceive his brother's letter.\n
+You create a mana link here.\n
+You are rewarded with\na fine %s.\n
+The people are pleased to\nreceive the %s spell.\n
+You are rewarded with\na fine %s\nand a mana link.\n
+The people are glad\nto be rid of the\npesky %s.\n
+The people are glad\nto be rid of the\npesky %s.\n
+You are rewarded with \n%s of your choice.\n
+Which card do you seek?
+Will you take this card...\n    Yes\n    No\n
+The village is glad\nto be rid of the\npesky %s.\n
+The village is glad\nto be rid of the\npesky %s.\n
+You are rewarded with\n%1!d! fine %2.\n
+WORLDMAGIC:\n
+costs %d gold pieces.
+Travel %1 to %2.
+To release the WORLDMAGIC\nspell '%1' from \n%2, you must\npay %3!d! gold pieces.\n
+Will you...\n Never mind\n Pay the gold.\n
+Insufficient Funds
+
+@BUYANYCARD
+6
+I'll trade you\n%1!d! %2\nfor 1 %3.\n
+I'll trade you\n%1!d! %2\nfor %3!d! %4.\n
+I'll trade you\n%1!d! %2\nfor %3!d! gold pieces.\n
+Do you wish to trade?\n Yes, I'll trade.\n No Thanks\n
+Hmmm... you can't\nafford this card yet.\n
+Which card do you seek?
+
+@VISIT_CITYBUY
+4
+Cards for Sale
+%d gold
+Buy for %d gold?   (Y/N)
+yY
+
+@HINTTEXT
+2
+The card seller\nsuggests:\n\n的f you combine this\n%1\nwith the\n%2\nyou already have, you can:\n\n
+The card seller\nnotes:\n\n的f you buy this %s, you can:\n\n
+
+@ENCOUNTER_PREDUEL
+48
+Opponent Ante
+Your Ante
+%s ANTE
+Those who near the stronghold\nof the Mighty %s\nwill be met with the firmest resistance.\nYou must...\n
+Those who near the stronghold\nof the Mighty %s\nwill be met with the firmest resistance.\nYou must...\n
+Those who would challenge the\nGreat %1 for\nSupremacy of %2 must...\n
+Those who would challenge the\nGreat %1 for\nSupremacy of %2 must...\n
+Those who enter the domain\nof the Mighty %s\nmust pay for the privilege.\nWill you...\n
+Those who enter the domain\nof the Mighty %s\nmust pay for the privilege.\nWill you...\n
+The %1 who inhabit the\ndomain of the Mighty %2\ntremble in fear of your visage.\nWill you...\n
+The %1 who inhabit the\ndomain of the Mighty %2\ntremble in fear of your visage.\nWill you...\n
+ Duel this %s.\n
+ Accept tribute for your mercy?\n
+ Pay %d gold.\n
+ Pay 1 %s.\n
+ Answer a riddle.\n
+ Change ante card.\n
+I thank you for your mercy granted.\nWould you like...\n
+ A spell from my deck?\n
+ The location of WORLDMAGIC cards?\n
+ Secrets from the %s?\n
+ %d Gold\n
+ 40 Food\n
+ %d %s\n
+black jewel
+blue jewel
+green jewel
+red jewel
+white jewel
+black jewels
+blue jewels
+green jewels
+red jewels
+white jewels
+ Duel Anyway\n
+Pick a spell
+Which WM spell do you seek...\n
+You have already gathered all of the\nWORLDMAGIC SPELLS!\n
+%1 may be\nfound in %2.\n
+You have already destroyed the %s\n
+Lost this card
+The Evil %s\nhas sent her\nmost trusted servant to\ntest your strength.\nYou must...\n
+The Evil %s\nhas sent his\nmost trusted servant to\ntest your strength.\nYou must...\n
+Why don't you try this deck!\n
+%1 summons %2!s!!\n
+%s has Mind Control!\n
+%s has First Strike!\n
+%1 has card: %2!s!!\n
+
+@ENCOUNTER_POSTDUEL
+32
+(first clue)
+(second clue)
+(third clue)
+You have defeated the\nslimy %s.\nWill you...\n
+You have defeated the\nslimy %s.\nWill you...\n
+ Take the cards.\n Take the dungeon clue.\n
+Won these cards.
+Won this Amulet.
+You are an Adequate Apprentice\nsays the %s:\n
+You are an Adequate Apprentice\nsays the %s:\n
+You are a Skillful Magician\nsays the %s:\n
+You are a Skillful Magician\nsays the %s:\n
+You are a Mighty Sorceress\nsays the %s:\n
+You are a Mighty Sorceror\nsays the %s:\n
+You are a Fearsome Wizardess\nsays the %s:\n
+You are a Fearsome Wizard\nsays the %s:\n
+You get your life (%d)\ncarried over to the next duel.
+You get +%d life in next duel.
+TELEPORTED!
+You won card: %s
+You get first move\nin the next duel.
+You get %s in the next duel.
+You get Extra FOOD!
+You get any card of your choice!\n
+You get a duplicate card\nof your choice!\n
+Pick a card
+You get Extra GOLD!
+Lost this card
+The people are disappointed\nyou could manage no better than a draw\nagainst the slimy %s.
+The people are disappointed\nyou could manage no better than a draw\nagainst the slimy %s.
+Better Luck Next Time!\n
+Note:\nYour magic bag only holds 500 spells\nand you currently have %d\n
+
+@CASTLEWIN
+11
+You have defeated the dreaded\n%s.  No longer shall\nher evil creatures oppress\nthe good people of Shandalar.\n
+You have defeated the dreaded\n%s.  No longer shall\nhis evil creatures oppress\nthe good people of Shandalar.\n
+ freed!\n
+You may take any three\ndifferent %s.\n
+Pick a card - %d left
+Will you take this card...\n    Yes\n    No\n
+You have defeated all five wizards!\nShandalar is free!\nPrepare to face the final challenge.\n
+Your battles so far will banish the evil\nPlaneswalker Arzakon for %d years.\n
+Each life it loses in the Final Battle\nwill banish it for 10 additional years.\nGood Luck!\n
+You have protected the\nplane of Shandalar for\nthe next %d years.\n
+The people rejoice!\n\nLife is good!\n
+
+@QUESTSTATUS
+26
+%1 attacking\n%2!s!!\n\n
+Next Duel: 
++%d life 
+-%d life 
+First Move
+black amulet
+blue amulet
+green amulet
+red amulet
+white amulet
+Mana link
+Return to\n%s
+Take letter to\n%s
+Take card to\n%s
+Go north to\n%s
+Go east to\n%s
+Go south to\n%s
+Go west to\n%s
+Find a %1\n%2 spell\n
+black
+blue
+green
+red
+white
+Defeat %s
+The people of %s\nare sorry their quest\nwas not completed.\n
+
+@QUESTFAILED
+6
+You have no power for even an Ante!\n\n
+Your Righteous Quest has Failed\n\n
+The Evil Planeswalker Arzakon\nand his Minion the\nEvil %s\nhave attained Dominion over the plane of Shandalar\n\n
+The Evil Planeswalker Arzakon\nand his Minion the\nEvil %s\nhave attained Dominion over the plane of Shandalar\n\n
+The Evil Planeswalker Arzakon\nand his Gruesome Minions\nhave worn you down\n\n
+The people will suffer\na thousand more years of their oppression\nbefore another Savior shall rise up from amongst them\nto challenge the great Arzakon and his Slimy Minions\n
+
+@NEWSFLASH
+11
+--- NEWS FLASH ---\n\n
+%1 sends %2\nto attack %3!s!!\n
+In retaliation for your effrontery\nthe Great %1 sends %2\nto attack %3!s!!\n
+In retaliation for your effrontery\nthe Great %1 sends %2\nto attack %3!s!!\n
+The Evil %1\ntaps %2!s!!\n
+The Evil %1\ntaps %2!s!!\n
+She needs %d more\nmana taps to cast\nthe Spell of Dominion!\n
+He needs %d more\nmana taps to cast\nthe Spell of Dominion!\n
+She casts the spell of Dominion\n
+He casts the spell of Dominion\n
+Your mana tap here is lost.\n
+
+@LOGSTRINGS
+16
+Completed quest at %s
+Visited %s
+Freed %s
+Saved %s
+Defeated %s
+Lost to %s
+Explored %s
+Defeated %1 (%2)
+Entered %1 (%2)
+Discovered a %s
+Bought WM: %s
+Acquired spell: %s
+JUMP!
+SPEED!
+THUNDERED on: %s!
+Went to aid of\n%s
+
+@RIDDLE
+17
+What is the power rating of\n%s
+What is the toughness of\n%s
+What is the total casting cost\nof %s
+What special ability does\n%s have?\n
+ Swampwalk\n Islandwalk\n Forestwalk\n Mountainwalk\n Plainswalk\n Flying\n Banding\n Trample\n First Strike\n Regeneration\n
+Correct!
+WRONG
+Which of these spells\nhas a power of %d?\n
+Which of these spells\nhas a toughness of %d?\n
+Which of these spells\nrequires %1!d! %2 and %3!d! colorless mana to cast?\n
+Which of these spells\nhas flying ability?\n
+Which of these spells\nhas %s ability?\n
+Which of these spells\nhas regeneration ability?\n
+Which of these spells\nhas banding ability?\n
+Which of these spells\nhas first strike ability?\n
+Which of these spells\nhas trample ability?\n
+WRONG.  Correct is:
+
+@STATS
+9
+Wizard's\nCastles\nConquered
+World\nMagics
+Cities Saved
+Cities Recovered
+Quest Record
+Overall Won/Loss
+Attempts at\nEach Castle
+Dungeon Treasures
+Record vs the Creatures of Shandalar
+
+@SHOWDECK
+3
+F1: all cards, F2: active cards, F3: inactive cards, F5: ANALYZE
+Sell %1 for %2!d! gold? (Y/N)
+yY
+
+@SHOWLIST
+2
+Take this card?  (Y/N)
+yY
+
+@SHOWLIBRARY
+2
+Your library
+Opponent library
+
+@ANALYZE
+17
+(%d cards)
+Total
+Black
+Blue
+Green
+Red
+White
+Land
+Fast creatures
+Large creatures
+Enchantments
+Sorceries
+Instants
+Artifacts
+Common:
+Uncommon:
+Rare:
+
+@BROWSE
+19
+Colorless
+Black
+Blue
+Green
+Red
+White
+Land
+Creature
+Enchantment
+Sorcery
+Instant
+Interrupt
+Artifact
+Common
+Uncommon
+Rare
+Mythic Rare
+Non-Artifact
+Pwalker/Artifact
+
+@LOADSAVE
+3
+Save Game Files\n
+Load Game Files\n
+(Empty)
+
+@PLAYERNAMES
+14
+Melody Whisp
+Sir Van Popple
+Muriallisa
+Goya
+Lady Dragetta
+Ali of Willoshire
+Snow Blight
+Baba Bue
+Dina bin-Barq
+Inniscor
+Gauldron
+Agnosia
+Wu Wei
+Keleena
+
+@DIFFICULTYLEVELS
+4
+Apprentice
+Magician
+Sorcerer
+Wizard

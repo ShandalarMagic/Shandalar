@@ -1,0 +1,95 @@
+BG v3.0a
+
+BG.EXE is a tool for print text color in cmd.exe. It accepts regular expressions for print ascii characters. It also have useful functions.
+
+::::: Parameters :::::
+
+Kbd
+::Wait until you press any key, and returns the ascii code.
+::If an extended key was pressed, returns the second code plus 256. Example. If you pressed the up arrow (224, 72) returns 328 (72+256).
+
+LastKbd
+::If any key was pressed, returns the ascii code, else return 0.
+::If the key pressed is extended, it returns the second code plus 256. Example. If you pressed the up arrow (224, 72) returns 328 (72+256).
+
+Mouse
+::Wait until you press primary button into console area.
+::When you press a valid button of mouse print:
+:: rowNumber colNumber
+
+Time
+::Print eight numbers, separated by a space, that corresponds to the current:
+::DayOfWeek Year Month Day Hour Minute Second Milliseconds
+::
+::DayOfWeek value is from 0 to 6. 0 is Sunday, 1 is Monday, ..., 6 is Saturday
+::Year value is from 1601 to 30827
+::Month value is from 1 to 12
+::Day value is from 1 to 31
+::Hour value is from 0 to 23
+::Minute value is from 0 to 59
+::Second value is from 0 to 59
+::Milliseconds value is from 0 to 999
+
+Cursor 0 | 1 | 25 | 50 | 100
+::hide or show cursor of keyboard or change the size.
+::0 hide
+::1 show
+::25 small size
+::50 medium size
+::100 large size
+
+Font 0 | 1| 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+::change the size of font
+
+Maximize
+::maximize the console window.
+
+Sleep milliseconds
+::do a wait or sleep in milliseconds.
+
+Locate row column
+::locate the position of cursor in row and column specified, zero index based.
+
+Play fileName.wav [number]
+::play a wav file synchronously, if you specify the number, the sound is played it number times.
+
+Color [background]foreground
+::Set default text color attribute. Affects all subsequent writes to console.
+
+Print text
+::print text without new line to end. The text is interpreted how regular expression.
+::please see the regular expressions in down.
+
+Print [background]foreground text ...
+::print text in color without new line to end. You can repeat arguments.
+::the text recognize the next Regular Expressions:
+\n print a newline
+\\ print \
+\Number  A hexadecimal ascii number code from 00 to FF else the character printed is undefined.
+Example: \1 is face character
+Example: \41 is A
+Note 2: You can repeat arguments.
+Example: BG.exe Print A "Text in color A" B "Text in color B"
+
+::::: Colours :::::
+[background]foreground
+
+colours values is a one hexadecimal (0123456789ABCDEF) digit for each concept.
+
+0 = Black
+1 = Blue
+2 = Green
+3 = Aqua
+4 = Red
+5 = Purple
+6 = Yellow
+7 = White
+8 = Gray
+9 = Light Blue
+A = Light Green
+B = Light Aqua
+C = Light Red
+D = Light Purple
+E = Light Yellow
+F = Bright White
+

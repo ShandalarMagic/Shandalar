@@ -1,0 +1,135 @@
+Manalink PlayDeck Analyser Sample CardList
+------------------------------------------
+
+;Lines beginning with a semi-colon and blank lines are ignored
+;as are all lines appearing before the Activation Key
+;The 1st non-comment line must be "Something = Key$"
+;Key$ = "yes", "true", or "1", otherwise list is inactive
+
+ListActive = Yes
+
+;All files in the "Lists" folder are searched for usable
+;content. If neither the ActivateKey nor any lines adhering
+;to the following formats are found, that file is ignored.
+;Additional CardLists can be created, and then seperately
+;activated or deactivated as you need them.
+;Restricted and Substitute CardLists can also be seperately
+;activated or deactivated by using the Main GUI.
+
+
+;   *Scan Restricted CardLists*
+;    -------------------------
+;All lines must be in the format:
+;Max# Allowed;Banned\Restricted CardName
+
+;That means 0 = Banned and 1 = Restricted
+;Any lines matching this format will be included
+;in a Restricted CardList Scan if the list is active.
+
+;Vintage Banned
+;--------------
+0;Contract from Below
+0;Darkpact
+0;Demonic Attorney
+0;Timmerian Fiends
+0;Falling Star
+0;Tempest Efreet
+0;Rebirth
+0;Shahrazad
+0;Amulet of Quoz
+0;Bronze Tablet
+0;Chaos Orb
+0;Jeweled Bird
+;-------------
+
+;Vintage Restricted
+;------------------
+1;Ancestral Recall
+1;Brainstorm
+1;Flash
+1;Gifts Ungiven
+1;Merchant Scroll
+1;Mind's Desire
+1;Mystical Tutor
+1;Ponder
+1;Thirst for Knowledge
+1;Time Walk
+1;Timetwister
+1;Tinker
+1;Windfall
+1;Demonic Consultation
+1;Demonic Tutor
+1;Imperial Seal
+1;Necropotence
+1;Vampiric Tutor
+1;Yawgmoth's Bargain
+1;Yawgmoth's Will
+1;Burning Wish
+1;Wheel of Fortune
+1;Channel
+1;Fastbond
+1;Regrowth
+1;Balance
+1;Black Lotus
+1;Lion's Eye Diamond
+1;Lotus Petal
+1;Mana Crypt
+1;Mana Vault
+1;Memory Jar
+1;Mox Emerald
+1;Mox Jet
+1;Mox Pearl
+1;Mox Ruby
+1;Mox Sapphire
+1;Sol Ring
+1;Time Vault
+1;Trinisphere
+1;Library of Alexandria
+1;Strip Mine
+1;Tolarian Academy
+;-----------------
+
+;   *Scan Substitute CardLists*
+;    -------------------------
+;All lines must be in the format:
+;Max# to Sub;CardName in PlayDeck;CardName to Substitute
+
+;Max# is limited to 4, exept for BasicLands & Relentless Rats
+;Any lines matching this format will be included
+;in a Substitute CardList Scan if the list is active.
+
+; Eraticate all Moxen!
+;---------------------
+50;Mox Emerald;Forest
+50;Mox Sapphire;Island
+50;Mox Ruby;Mountain
+50;Mox Pearl;Plains
+50;Mox Jet;Swamp
+;---------------------
+
+; Everyone gets a Mox!
+;---------------------
+1;Forest;Mox Emerald
+1;Island;Mox Sapphire
+1;Mountain;Mox Ruby
+1;Plains;Mox Pearl
+1;Swamp;Mox Jet
+;---------------------
+
+; Replace Lucky Charms
+;----------------------------
+4;Crystal Rod;Kraken's Eye
+4;Iron Star;Dragon's Claw
+4;Ivory Cup;Angel's Feather
+4;Throne of Bone;Demon's Horn
+4;Wooden Sphere;Wurm's Tooth
+;----------------------------
+
+; ...and some other crappy commons
+;------------------------------------------
+4;Merfolk of the Pearl Trident;Cursecatcher
+4;Aspect of Wolf;Blanchwood Armor
+4;Scathe Zombies;Wakedancer
+4;Mesa Pegasus;Kor Skyfisher
+4;Mons's Goblin Raiders;Goblin Fireslinger
+;------------------------------------------

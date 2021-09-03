@@ -1,0 +1,87 @@
+;-*- conf-windows -*-
+;Overrides for classic frames (Master's Edition I-IV and pre-8th edition).
+;See Duel.dat for documentation.
+;
+[SmallCard]
+ArtLeft = 79
+ArtTop = 173
+ArtWidth = 857
+ArtHeight = 751
+;
+TitleSourceTop = 2
+TitleSourceHeight = 23
+TitleDestHeight = 168
+FrameSourceTop = 26
+FrameSourceHeight = 264
+FrameDestTop = 168
+;
+ExpansionLeft = 610
+ExpansionTop = 23
+ExpansionWidth = 171
+ExpansionHeight = 122
+;
+;
+[FullCard]
+ExpandTop = 6033
+ExpandHeight = 3180
+;
+TitleLeft = 68
+TitleTop = 26
+TitleWidth = 664
+;
+ManaLeft = 40
+ManaTop = 32
+ManaWidth = 712
+ManaHeight = 48
+;
+ArtLeft = 76
+ArtTop = 93
+ArtWidth = 646
+ArtHeight = 562
+;
+TypeLeft = 68
+TypeTop = 663
+TypeWidth = 570
+;
+RulestextLeft = 92
+RulestextTop = 737
+RulestextWidth = 616
+RulestextHeight = 328
+;
+RulesboxLeft = 65
+RulesboxTop = 710
+RulesboxWidth = 669
+RulesboxHeight = 374
+;
+WatermarkLeft = 230
+WatermarkTop = 730
+WatermarkWidth = 340
+WatermarkHeight = 340
+;
+PowertoughnessLeft = 44
+PowertoughnessTop = 1093
+PowertoughnessWidth = 704
+;
+PowertoughnessCenter = 0
+PowertoughnessBoxVisible = 0
+;
+ExpansionLeft = 643
+ExpansionTop = 668
+ExpansionWidth = 90
+ExpansionHeight = 45
+;
+TombstoneVisible = 1
+;
+;
+[Frames]
+TwoColorAsGold = 1
+;
+FrameBaseDir=Classic
+;
+CardOv_GoldLand=CardOv_GoldLand.png
+CardOv_GoldBar=..\blank.png
+CardOv_LandBar=..\blank.png
+;
+CardOv_LandNyx=CardOv_LandNyx.png
+;
+Tombstone=..\classic\Tombstone.png

@@ -1,0 +1,165 @@
+;legacy_aww_BattleOfWits
+;
+;#oldgames
+;
+;10/09/2010
+;1
+;4th Edition
+;
+
+.5486	4	Battle of Wits
+.10399	4	Clone
+.3489	4	Ertai, Wizard Adept
+.1613	4	Man-o'-War
+.1695	4	Mulldrifter
+.446	4	Old Man of the Sea
+.9264	4	Sower of Temptation
+.3318	4	Tradewind Rider
+.263	4	Vesuvan Doppelganger
+.1021	1	Eastern Paladin
+.11127	2	Grave Titan
+.6396	4	Graveborn Muse
+.1051	4	Gravedigger
+.1313	1	Magus of the Abyss
+.1286	1	Magus of the Mirror
+.1098	4	Nekrataal
+.10623	1	Ob Nixilis, the Fallen
+.209	4	Royal Assassin
+.9258	4	Shriekmaw
+.10701	1	Vampire Hexmage
+.1189	1	Western Paladin
+.4291	1	Xiahou Dun, the One-Eyed
+.392	1	Aladdin
+.395	4	Ali from Cairo
+.5900	1	Anger
+.10755	4	Dragonmaster Outcast
+.71	1	Dwarven Demolition Team
+.11119	4	Ember Hauler
+.2881	4	Fire Imp
+.5232	4	Flametongue Kavu
+.5816	4	Grim Lavamancer
+.4311	4	Imperial Recruiter
+.7276	1	Kiki-Jiki, Mirror Breaker
+.4619	4	Squee, Goblin Nabob
+.15	4	Birds of Paradise
+.1223	4	Eternal Witness
+.11120	4	Fauna Shaman
+.5948	1	Genesis
+.10425	4	Great Sable Stag
+.8797	4	Kavu Predator
+.10597	4	Lotus Cobra
+.10444	4	Master of the Wild Hunt
+.11155	4	Obstinate Baloth
+.1745	4	Ohran Viper
+.10626	4	Oracle of Mul Daya
+.11162	2	Primeval Titan
+.6433	4	Seedborn Muse
+.3570	4	Spike Weaver
+.3572	4	Survival of the Fittest
+.4091	4	Academy Rector
+.10386	4	Baneslayer Angel
+.10534	4	Emeria Angel
+.1062	1	Intrepid Hero
+.10571	1	Iona, Shield of Emeria
+.1239	1	Isamaru, Hound of Konda
+.4013	4	Karmic Guide
+.436	1	King Suleiman
+.10790	4	Kor Firewalker
+.1283	1	Magus of the Disk
+.1314	1	Magus of the Moat
+.1287	1	Magus of the Tabernacle
+.175	1	Northern Paladin
+.11172	4	Serra Ascendant
+.1316	4	Shrieking Grotesque
+.1557	4	Soul Warden
+.11174	4	Squadron Hawk
+.11179	2	Sun Titan
+.10230	1	Wall of Reverence
+.565	1	Angus Mackenzie
+.9473	4	Augury Adept
+.9736	4	Balefire Liege
+.10246	4	Bloodbraid Elf
+.9488	4	Boggart Ram-Gang
+.8186	4	Coiling Oracle
+.9755	4	Cold-Eyed Selkie
+.9759	4	Creakwood Liege
+.9511	4	Demigod of Revenge
+.10266	4	Enlisted Wurm
+.9785	4	Figure of Destiny
+.9539	4	Fulminator Mage
+.1370	4	Fusion Elemental
+.9579	4	Kitchen Finks
+.10166	4	Maelstrom Archangel
+.10167	1	Magister Sphinx
+.5259	4	Meddling Mage
+.9613	4	Murderous Redcap
+.8828	1	Radha, Heir to Keld
+.1357	4	Rhox War Monk
+.952	1	Rubinia Soulsinger
+.1220	4	Shadowmage Infiltrator
+.1437	1	Sliver Queen
+.791	1	Sol'kanar the Swamp King
+.5435	4	Spiritmonger
+.10078	4	Sprouting Thrinax
+.10088	4	Tidehollow Sculler
+.1362	4	Tidehollow Strix
+.1482	1	Tolsimir Wolfblood
+.8307	1	Trygon Predator
+.9720	4	Wilt-Leaf Liege
+.1369	4	Woolly Thoctar
+.165	1	Mox Emerald
+.166	1	Mox Jet
+.167	1	Mox Pearl
+.168	1	Mox Ruby
+.169	1	Mox Sapphire
+.1308	4	Platinum Angel
+.1206	4	Arcane Sanctum
+.10496	4	Arid Mesa
+.9	4	Badlands
+.12	4	Bayou
+.1714	4	Blood Crypt
+.1488	4	Bloodstained Mire
+.1715	4	Breeding Pool
+.10740	2	Celestial Colonnade
+.403	4	City of Brass
+.10747	2	Creeping Tar Pit
+.1202	4	Crumbling Necropolis
+.1614	4	Exotic Orchard
+.1487	4	Flooded Strand
+.1513	1	Gaea's Cradle
+.1711	4	Godless Shrine
+.1713	4	Hallowed Fountain
+.1203	4	Jungle Shrine
+.10791	2	Lavaclaw Reaches
+.10606	4	Marsh Flats
+.10612	4	Misty Rainforest
+.1707	4	Overgrown Tomb
+.740	1	Pendelhaven
+.189	4	Plateau
+.1486	4	Polluted Delta
+.10815	2	Raging Ravine
+.3244	4	Reflecting Pool
+.1708	4	Sacred Foundry
+.1204	4	Savage Lands
+.212	4	Savannah
+.10654	4	Scalding Tarn
+.216	4	Scrubland
+.1205	4	Seaside Citadel
+.1712	4	Steam Vents
+.10838	2	Stirring Wildwood
+.1710	4	Stomping Ground
+.241	4	Taiga
+.1498	4	Temple Garden
+.4076	2	Treetop Village
+.252	4	Tropical Island
+.254	4	Tundra
+.258	4	Underground Sea
+.10706	4	Verdant Catacombs
+.8004	1	Vitu-Ghazi, the City-Tree
+.266	4	Volcanic Island
+.3452	1	Volrath's Stronghold
+.3329	4	Wasteland
+.1709	4	Watery Grave
+.1472	4	Windswept Heath
+.1473	4	Wooded Foothills
+.91	11	Forest

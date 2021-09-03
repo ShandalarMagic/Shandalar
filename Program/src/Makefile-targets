@@ -1,0 +1,29 @@
+# -*- makefile -*-
+
+# Targets
+
+all: $(OUTPUT)
+
+%.dll: %.def $(ALLOBJFILES) $(LOCAL_LIBFILES)
+	$(CXX) $(LFLAGS) -o $@ $(ALLOBJFILES) $< -L. $(LIBFLAGS) $(LOCAL_LIBFLAGS)
+	$(OBJCOPY) --only-keep-debug $@ $(patsubst %.dll,%.dbg,$@)
+	$(OBJCOPY) --strip-debug $@
+
+lib%.a: %.def
+	$(DLLTOOL) -k -d $< -l $@
+
+$(OBJDIR)%.ao: %.asm
+	$(ASM) $(AFLAGS) -o $@ $<
+
+$(OBJDIR)%.o: %.c manalink.h defs.h subtypes.h card_id.h
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+$(OBJDIR)%.obj: %.cpp
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+clean::
+	-$(RM) $(WILDOBJFILES) $(OUTPUT) $(LOCAL_LIBFILES)
+
+.PHONY: all clean
+
+.PRECIOUS: $(ALLOBJFILES) $(LOCAL_LIBFILES)

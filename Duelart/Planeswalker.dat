@@ -1,0 +1,110 @@
+;-*- conf-windows -*-
+;Overrides for Planeswalker frames.
+;See Duel.dat for documentation.
+;
+[SmallCard]
+ArtLeft = 36
+ArtTop = 140
+ArtWidth = 939
+ArtHeight = 847
+;
+TitleSourceTop = 0
+TitleSourceHeight = 13
+TitleDestHeight = 100
+FrameSourceTop = 14
+FrameSourceHeight = 177
+FrameDestTop = 100
+;
+TitleOwnedColorR = 47
+TitleOwnedColorG = 47
+TitleOwnedColorB = 47
+TitleOwnedShadowColorR = -1
+;
+TitleUnownedColorR = 47
+TitleUnownedColorG = 47
+TitleUnownedColorB = 47
+TitleUnownedShadowColorR = -1
+;
+ShowLoyaltyCurr = 1
+;
+ExpansionLeft = 638
+ExpansionTop = 26
+ExpansionWidth = 133
+ExpansionHeight = 95
+;
+;
+[FullCard]
+ExpandTop = 6417
+ExpandHeight = 2600
+;
+TitleLeft = 60
+TitleTop = 32
+TitleWidth = 692
+;
+ManaLeft = 60
+ManaTop = 38
+ManaWidth = 690
+;
+ArtLeft = 46
+ArtTop = 105
+ArtWidth = 704
+ArtHeight = 583
+;
+TypeLeft = 60
+TypeTop = 696
+TypeWidth = 605
+;
+ShowLoyaltyBase = 1
+ShowLoyaltyCost = 1
+;
+RulestextLeft = 130
+RulestextTop = 770
+RulestextWidth = 600
+RulestextHeight = 318
+;
+RulesboxLeft = 85
+RulesboxTop = 760
+RulesboxWidth = 670
+RulesboxHeight = 322
+;
+ExpansionLeft = 665
+ExpansionTop = 704
+ExpansionWidth = 88
+ExpansionHeight = 44
+;
+BorderColorR = 0
+BorderColorG = 0
+BorderColorB = 0
+;
+TitleColorR = 47
+TitleColorG = 47
+TitleColorB = 47
+TitleShadowColorR = -1
+;
+TypeColorR = 47
+TypeColorG = 47
+TypeColorB = 47
+TypeShadowColorR = -1
+;
+;
+[Frames]
+;Only non-artifact non-land planeswalkers have been printed (in particular,
+;Karn Liberated is colorless, not an artifact); so, strictly speaking, setting
+;artwork for lands and artifacts is redundant.  If a planeswalker becomes an
+;artifact or land during play, however, the settings here will be honored.
+;
+FrameBaseDir=planeswalker
+;
+CardBk_Artifact=CardBk_Colorless.png
+CardBk_Land=CardBk_Colorless.png
+CardOv_Artifact=CardOv_Colorless.png
+CardOv_ColorlessLand=CardOv_Colorless.png
+CardOv_LandBar=..\blank.png
+;
+CardOv_WLand=CardOv_W.png
+CardOv_ULand=CardOv_U.png
+CardOv_BLand=CardOv_B.png
+CardOv_RLand=CardOv_R.png
+CardOv_GLand=CardOv_G.png
+;
+Powertoughness=..\modern\Powertoughness.png

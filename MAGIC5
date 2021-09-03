@@ -1,0 +1,33 @@
+; Importing Magic.exe.Cards.csv
+; Loading MAGIC5.SVE data...
+; Zeal's Deck 1 of 41 cards
+; .IID   Qty CardName
+.0      5 Swamp
+.3      3 Mountain
+.4      9 Plains
+.734    1 Avacyn, Angel of Hope
+.762    1 Aven Squire
+.1107   1 Blood Crypt
+.1937   1 Contract from Below
+.1969   1 Corpse Cur
+.2433   1 Demonic Taskmaster
+.4035   1 Goblin Replica
+.4135   1 Grafted Wargear
+.4214   2 Grief Tyrant
+.4312   1 Guma
+.4364   1 Hand of Cruelty
+.4748   1 Icatian Crier
+.6538   1 Needlebug
+.6925   1 Oubliette
+.8049   1 Ronin Houndmaster
+.8780   1 Sinkhole
+.9107   1 Spectral Rider
+.9338   1 Steel Wall
+.9542   1 Sunspire Griffin
+.10054  1 Tivadar of Thorn
+.10343  1 Undertaker
+.10655  1 Voice of Law
+.11288  1 Goblin Boom Keg
+
+; 26 unique cards, 41 cards total.
+

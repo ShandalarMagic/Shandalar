@@ -1,0 +1,67 @@
+;-*- conf-windows -*-
+;Overrides for Planar Chaos timeshifted frames.
+;See Duel.dat for documentation.
+;
+[SmallCard]
+;(unchanged from default)
+;
+;
+[FullCard]
+TitleLeft = 65
+TitleTop = 46
+TitleWidth = 670
+;
+ManaLeft = 65
+ManaTop = 57
+ManaWidth = 678
+;
+TypeLeft = 65
+TypeTop = 675
+TypeWidth = 590
+;
+PowertoughnessLeft = 614
+PowertoughnessTop = 1081
+PowertoughnessWidth = 148
+;
+PowertoughnessBoxLeft = 573
+PowertoughnessBoxTop = 1084
+PowertoughnessBoxWidth = 201
+PowertoughnessBoxHeight = 105
+;
+TitleShadowOffsetX = -6
+TitleShadowOffsetY = 4
+;
+PowertoughnessShadowOffsetX = -6
+PowertoughnessShadowOffsetY = 4
+;
+TypeShadowOffsetX = -6
+TypeShadowOffsetY = 4
+;
+;
+[Frames]
+;Only monocolor non-artifact non-land spells and creatures were printed; so,
+;strictly speaking, setting artwork for lands, artifacts, multicolor spells,
+;and colorless spells is redundant.  If a timeshifted card becomes
+;multicolored, an artifact, etc. during play, however, the settings here will
+;be honored.
+;
+FrameBaseDir=timeshift
+;
+CardOv_GoldBar=..\blank.png
+CardOv_LandBar=..\blank.png
+;
+CardOv_WLand=CardOv_W.png
+CardOv_ULand=CardOv_U.png
+CardOv_BLand=CardOv_B.png
+CardOv_RLand=CardOv_R.png
+CardOv_GLand=CardOv_G.png
+;
+CardOv_ArtifactNyx=..\modern\CardOv_ArtifactNyx.png
+CardOv_ColorlessNyx=..\modern\CardOv_ArtifactNyx.png
+CardOv_LandNyx=..\modern\CardOv_ArtifactNyx.png
+CardOv_GoldNyx=..\modern\CardOv_WNyx.png
+CardOv_WNyx=..\modern\CardOv_WNyx.png
+CardOv_UNyx=..\modern\CardOv_UNyx.png
+CardOv_BNyx=..\modern\CardOv_BNyx.png
+CardOv_RNyx=..\modern\CardOv_RNyx.png
+CardOv_GNyx=..\modern\CardOv_GNyx.png

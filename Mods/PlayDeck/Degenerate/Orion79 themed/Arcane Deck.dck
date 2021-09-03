@@ -1,0 +1,27 @@
+;Arcane Deck
+;G-R 1.5 Ability
+;Mattia Loy // Orion79
+;orpheananger@hotmail.com
+;13/11/2009
+;1
+;4th Edition
+;The Arcane Deck uses a nice effect that stacks only when Desperate Ritual is in hand. Whenever Kodama's Reach or Lava Spike are played and D.R.'s cost is paid, it still grants mana without being effectively played. This mana, then, can be spent with drawing cards or X-damage spells.
+
+.7193	4	Desperate Ritual
+.65	2	Disintegrate
+.75	3	Earthquake
+.1290	4	Lava Spike
+.145	4	Lightning Bolt
+.1269	1	Rorix Bladewing
+.224	1	Shivan Dragon
+.1243	4	Harmonize
+.1531	4	Kodama's Reach
+.10647	2	Relic Crush
+.8117	4	Rumbling Slum
+.11118	1	Elixir of Immortality
+.131	1	Jayemdae Tome
+.7127	1	Staff of Domination
+.1276	4	Ghostfire
+.241	4	Taiga
+.91	8	Forest
+.164	8	Mountain

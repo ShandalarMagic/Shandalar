@@ -1,0 +1,8 @@
+LIBRARY Drawcardlib.dll
+
+EXPORTS
+  DrawCardBack
+  DrawSmallCard
+  DrawSmallCardTitle
+  draw_special_counters
+  draw_standard_counters

@@ -1,0 +1,69 @@
+;-*- conf-windows -*-
+;Overrides for Conspiracy frames.
+;See Duel.dat for documentation.
+;
+[SmallCard]
+TitleSourceTop = 7
+TitleSourceHeight = 283
+TitleDestHeight = 1095
+FrameSourceTop = 480
+FrameSourceHeight = 33
+FrameDestTop = 1095
+;
+ExpansionLeft = 624
+ExpansionTop = 23
+ExpansionWidth = 136
+ExpansionHeight = 97
+;
+TitleOwnedColorR = 47
+TitleOwnedColorG = 47
+TitleOwnedColorB = 47
+TitleOwnedShadowColorR = -1
+;
+TitleUnownedColorR = 47
+TitleUnownedColorG = 47
+TitleUnownedColorB = 47
+TitleUnownedShadowColorR = -1
+;
+TitleLeft = 32
+TitleWidth = 712
+;
+;
+[FullCard]
+ExpandTop = 6280
+ExpandHeight = 3005
+;
+TitleWidth = 660
+;
+TitleColorR = 47
+TitleColorG = 47
+TitleColorB = 47
+TitleShadowColorR = -1
+;
+ExpansionLeft = 625
+ExpansionTop = 685
+ExpansionWidth = 106
+ExpansionHeight = 53
+;
+PowertoughnessColorR = 47
+PowertoughnessColorG = 47
+PowertoughnessColorB = 47
+PowertoughnessShadowColorR = -1
+;
+TypeColorR = 47
+TypeColorG = 47
+TypeColorB = 47
+TypeShadowColorR = -1
+;
+;
+[Frames]
+TranslucentColorless = 1
+ColorlessAlpha = 255
+ForceColorless = 2
+;
+FrameBaseDir=conspiracy
+;
+DefaultImage=..\blank.png
+;
+CardBk_Colorless=..\blank.png
+CardOv_Colorless=CardOv_Colorless.png

@@ -1,0 +1,43 @@
+.5334	1	Battlefield Forge
+.8752	4	Brute Force
+.403	1	City of Brass
+.11906	2	Clifftop Retreat
+.11236	1	Darksteel Axe
+.11118	1	Elixir of Immortality
+.1254	4	Incinerate
+.126	1	Island
+.1225	1	Lightning Angel
+.145	4	Lightning Bolt
+.1328	3	Lightning Helix
+.14313	2	Mantis Rider
+.14332	3	Monastery Swiftspear
+.164	10	Mountain
+.14334	3	Mystic Monastery
+.188	1	Plains
+.11761	1	Ruhan of the Fomori
+.5432	1	Shivan Reef
+.13559	3	Spellheart Chimera
+.13814	1	Stormcaller of Keranos
+.15692	3	Stormchaser Mage
+.12094	2	Sulfur Falls
+.13579	4	Titan's Strength
+.14650	3	Wandering Champion
+
+.vBlack
+.1873	1	Black Scarab
+.1052	1	Guerrilla Tactics
+.11480	1	Mirran Crusader
+.vBlue
+.1876	1	Blue Scarab
+.199	2	Red Elemental Blast
+.vGreen
+.9498	1	Consign to Dream
+.1960	1	Green Scarab
+.11480	1	Mirran Crusader
+.vRed
+.22	2	Blue Elemental Blast
+.2079	1	Red Scarab
+.vWhite
+.64	1	Disenchant
+.13449	1	Glare of Heresy
+.2154	1	White Scarab

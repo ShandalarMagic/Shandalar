@@ -1,0 +1,28 @@
+;Blue Mishra Machine
+;Blue/Artifact
+;Brian Thomas
+;brianlthomas@yahoo.com
+;December 19, 1998
+;1
+;4th Edition
+;Similar to Green Mishra Machine, but using lots of Apprentices for mana, Ancestral Recall to draw cards.  If things are stacked against you use the Disks.  Use the Canes when running out of cards or bring cards back.
+
+.17	1	Black Lotus
+.230	1	Sol Ring
+.485	2	Colossus of Sardia
+.90	1	Forcefield
+.509	2	Mishra's War Machine
+.541	2	Urza's Mine
+.543	2	Urza's Power Plant
+.544	2	Urza's Tower
+.508	4	Mishra's Factory
+.510	2	Mishra's Workshop
+.495	2	Feldon's Cane
+.169	1	Mox Sapphire
+.126	8	Island
+.300	4	Apprentice Wizard
+.173	2	Nevinyrral's Disk
+.1	4	Ancestral Recall
+.194	2	Psionic Blast
+.114	2	Howling Mine
+.131	1	Jayemdae Tome

@@ -1,0 +1,108 @@
+;-*- conf-windows -*-
+;Overrides for the Modern Token frames.
+;See Duel.dat for documentation.
+;
+[SmallCard]
+ArtLeft = 46
+ArtTop = 179
+ArtWidth = 926
+ArtHeight = 811
+;
+TitleSourceTop = 8
+TitleSourceHeight = 28
+TitleDestHeight = 175
+FrameSourceTop = 36
+FrameSourceHeight = 289
+FrameDestTop = 175
+;
+ExpansionLeft = 600
+ExpansionTop = 27
+ExpansionWidth = 171
+ExpansionHeight = 122
+;
+;
+[FullCard]
+ExpandTop = 7433
+ExpandHeight = 1821
+;
+TitleLeft = 55
+TitleTop = 44
+TitleWidth = 690
+;
+TitleCenter = 1
+;
+ManaLeft = 38
+ManaTop = 52
+ManaWidth = 712
+;
+ArtLeft = 52
+ArtTop = 124
+ArtWidth = 700
+ArtHeight = 660
+;
+TypeLeft = 65
+TypeTop = 800
+TypeWidth = 576
+;
+RulestextLeft = 68
+RulestextTop = 884
+RulestextWidth = 650
+RulestextHeight = 193
+;
+RulesboxLeft = 44
+RulesboxTop = 860
+RulesboxWidth = 706
+RulesboxHeight = 228
+;
+WatermarkLeft = 298
+WatermarkTop = 876
+WatermarkWidth = 204
+WatermarkHeight = 204
+;
+PowertoughnessLeft = 589
+PowertoughnessTop = 1085
+PowertoughnessWidth = 148
+;
+PowertoughnessBoxLeft = 549
+PowertoughnessBoxTop = 1074
+PowertoughnessBoxWidth = 215
+PowertoughnessBoxHeight = 101
+;
+ExpansionLeft = 655
+ExpansionTop = 805
+ExpansionWidth = 90
+ExpansionHeight = 46
+;
+PowertoughnessColorR = 47
+PowertoughnessColorG = 47
+PowertoughnessColorB = 47
+PowertoughnessShadowColorR = -1
+;
+TypeColorR = 47
+TypeColorG = 47
+TypeColorB = 47
+TypeShadowColorR = -1
+;
+;
+[Frames]
+FrameBaseDir=Token
+;
+CardOv_ColorlessLand=CardOv_Colorless.png
+;
+CardOv_WLand=CardOv_W.png
+CardOv_ULand=CardOv_U.png
+CardOv_BLand=CardOv_B.png
+CardOv_RLand=CardOv_R.png
+CardOv_GLand=CardOv_G.png
+;
+Powertoughness=..\modern\Powertoughness.png
+;
+CardOv_ArtifactNyx=CardOv_ArtifactNyx.png
+CardOv_ColorlessNyx=CardOv_ArtifactNyx.png
+CardOv_GoldNyx=CardOv_GoldNyx.png
+CardOv_LandNyx=CardOv_ArtifactNyx.png
+CardOv_WNyx=CardOv_WNyx.png
+CardOv_UNyx=CardOv_UNyx.png
+CardOv_BNyx=CardOv_BNyx.png
+CardOv_RNyx=CardOv_RNyx.png
+CardOv_GNyx=CardOv_GNyx.png

@@ -1,0 +1,108 @@
+[headers]
+languages:5
+openingMenu:5
+diffCaption:1
+diffs:4
+colorCaption:1
+colorMenuColors:5
+colorMenuFlavor:5
+visageCaption:1
+done:1
+cityInfo:6
+mapButtons:5
+dunClues:2
+statText:3
+
+[languages]
+english
+spanish
+french
+italian
+german
+
+
+; first screen
+
+[openingMenu]
+Start New Game
+Load Saved Game
+Resume Game
+Set Options
+Exit
+
+
+; second screen
+
+[diffCaption]
+Select Difficulty Level
+
+[diffs]
+Apprentice
+Magician
+Sorceror
+Wizard
+
+
+; third screen
+
+[colorCaption]
+Select Your Color
+
+[colorMenuColors]
+Red
+White
+Black
+Green
+Blue
+
+[colorMenuFlavor]
+Red Magicians specialize in the violence of\nChaos and Combat
+The focus of white magic is on Healing, Protection\nand the Chivalrous arts of war
+Black magic's power comes from death and decay
+Like nature, Green magic can bring both soothing\nserenity and thunderous destrucion
+Blue magic thrives on mental energy, artifice\nand illusion
+
+
+; screen 4
+
+[visageCaption]
+Select Your Visage
+
+
+;
+;  text for done button
+;
+
+[done]
+Done
+
+
+[cityInfo]
+Your Mana Stones
+City Name
+Mana Stones
+Cards for Trade
+World Magics
+Mana Links
+
+
+[mapButtons]
+Main Map
+Plain Map
+Info Map
+City Info
+Done
+
+
+[dunClues]
+Dungeon & Castle Clues
+Done
+
+
+[statText]
+Wiz Stats
+Journal
+Done
+
+
+[end]

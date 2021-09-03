@@ -1,0 +1,110 @@
+;EDH_Nex_Sedris
+;U-B-R Undead Balls
+;Nexhro
+;User E-Mail
+;28/07/2014
+;1
+;4th Edition
+;
+
+.4095	1	Aura Thief
+.3703	1	Barrin, Master Wizard
+.12695	1	Cyclonic Rift
+.4996	1	Fact or Fiction
+.3177	1	Intuition
+.10780	1	Jace, the Mind Sculptor
+.8420	1	Perilous Research
+.6231	1	Read the Runes
+.3048	1	Teferi's Veil
+.3	1	Animate Dead
+.4092	1	Apprentice Necromancer
+.4094	1	Attrition
+.10736	1	Butcher of Malakir
+.1275	1	Damnation
+.62	1	Demonic Tutor
+.13871	1	Dictate of Erebos
+.6122	1	Doomed Necromancer
+.1050	1	Grave Pact
+.14277	1	Grim Haruspex
+.5824	1	Ichorid
+.1518	1	Imperial Seal
+.1562	1	Kokusho, the Evening Star
+.9201	1	Liliana Vess
+.12232	1	Mikaeus, the Unhallowed
+.11014	1	Pawn of Ulamog
+.3240	1	Reanimate
+.11677	1	Sheoldred, Whispering One
+.13650	1	Toxic Deluge
+.11090	1	Arc Runner
+.295	1	Ball Lightning
+.13850	1	Bearer of the Heavens
+.6069	1	Blistering Firecat
+.982	1	Bloodshot Cyclops
+.11739	1	Chaos Warp
+.9985	1	Hell's Thunder
+.10156	1	Hellspark Elemental
+.7276	1	Kiki-Jiki, Mirror Breaker
+.8404	1	Lightning Serpent
+.8810	1	Molten Firebird
+.5118	1	Skizzik
+.3910	1	Sneak Attack
+.1263	1	Spark Elemental
+.8295	1	Stalking Vengeance
+.1184	1	Viashino Sandstalker
+.10095	1	Vicious Shadows
+.14675	1	* Elder Dragon Highlander
+.10058	5	Sedris, the Traitor King
+.12681	1	Chromatic Lantern
+.8906	1	Coalition Relic
+.1719	1	Dimir Signet
+.1336	1	Gilded Lotus
+.12206	1	Helvault
+.1550	1	Izzet Signet
+.3816	1	Lifeline
+.10016	1	Minion Reflector
+.173	1	Nevinyrral's Disk
+.6749	1	Oblivion Stone
+.3405	1	Portcullis
+.1723	1	Rakdos Signet
+.230	1	Sol Ring
+.11413	1	Wurmcoil Engine
+.8474	1	Academy Ruins
+.3078	1	Ancient Tomb
+.2401	1	Bad River
+.9	1	Badlands
+.11209	1	Blackcleave Cliffs
+.1714	1	Blood Crypt
+.1488	1	Bloodstained Mire
+.9749	1	Cascade Bluffs
+.403	1	City of Brass
+.11769	1	Command Tower
+.1202	1	Crumbling Necropolis
+.11235	1	Darkslick Shores
+.10409	1	Dragonskull Summit
+.10411	1	Drowned Catacomb
+.8938	1	Graven Cairns
+.13929	1	Mana Confluence
+.1486	1	Polluted Delta
+.3244	1	Reflecting Pool
+.2587	1	Rocky Tar Pit
+.357	1	Safe Haven
+.10654	1	Scalding Tarn
+.5432	1	Shivan Reef
+.1712	1	Steam Vents
+.528	1	Strip Mine
+.12094	1	Sulfur Falls
+.2126	1	Sulfurous Springs
+.9688	1	Sunken Ruins
+.13568	1	Temple of Deceit
+.13992	1	Temple of Epiphany
+.13820	1	Temple of Malice
+.258	1	Underground Sea
+.2140	1	Underground River
+.8870	1	Urborg, Tomb of Yawgmoth
+.266	1	Volcanic Island
+.3452	1	Volrath's Stronghold
+.3329	1	Wasteland
+.1709	1	Watery Grave
+.126	1	Island
+.164	1	Mountain
+.239	1	Swamp

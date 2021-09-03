@@ -1,0 +1,5 @@
+LIBRARY "ManalinkEh.dll" BASE=0x02000000
+
+EXPORTS
+CodeSectionEx
+DllEntry

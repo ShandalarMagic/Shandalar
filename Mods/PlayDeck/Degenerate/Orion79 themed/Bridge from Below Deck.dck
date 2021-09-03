@@ -1,0 +1,35 @@
+;Bridge from Below Deck
+;W-B 1.5
+;Mattia Loy // Orion79
+;orpheananger@hotmail.com
+;06/11/2009
+;1
+;4th Edition
+;The Bridge from Below deck uses Aurathog to send Bridge from Below to Graveyard and activate it. Then, it uses the Bridge and other token-generators to create creatures to sacrifice to Fallen Angel. Also, note that White spells remove opponent's creatures from the game, preventing the disruption of the Bridge.
+
+.8900	3	Bridge from Below
+.631	2	Fallen Angel
+.1562	1	Kokusho, the Evening Star
+.11165	2	Reassembling Skeleton
+.3546	2	Recurring Nightmare
+.1373	2	Scavenger Drake
+.4091	3	Academy Rector
+.1426	1	Allay
+.1345	3	Auratog
+.10589	3	Kor Sanctifiers
+.1559	2	Path to Exile
+.240	2	Swords to Plowshares
+.7432	1	Yosei, the Morning Star
+.11101	2	Brittle Effigy
+.131	1	Jayemdae Tome
+.1331	2	Nuisance Engine
+.361	1	Skull of Orm
+.6957	2	Skullclamp
+.1207	4	Solemn Simulacrum
+.410	1	Diamond Valley
+.1711	2	Godless Shrine
+.694	1	Karakas
+.216	4	Scrubland
+.3452	1	Volrath's Stronghold
+.188	5	Plains
+.239	7	Swamp

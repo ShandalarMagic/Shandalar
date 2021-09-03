@@ -1,0 +1,165 @@
+@WHITE
+2
+White cards are in the list
+White cards are filtered out
+
+@GREEN
+2
+Green cards are in the list
+Green cards are filtered out
+
+@BLUE
+2
+Blue cards are in the list
+Blue cards are filtered out
+
+@RED
+2
+Red cards are in the list
+Red cards are filtered out
+
+@BLACK
+2
+Black cards are in the list
+Black cards are filtered out
+
+@GOLD
+2
+Multicolored cards are in the list
+Multicolored cards are filtered out
+
+@FOURTH
+2
+Fourth Edition cards are in the list
+Fourth Edition cards are filtered out
+
+@ASTRAL
+2
+Astral cards are in the list
+Astral cards are filtered out
+
+@UNLIMITED
+2
+Unlimited cards are in the list
+Unlimited cards are filtered out
+
+@ARABIAN
+2
+Arabian Nights cards are in the list
+Arabian Nights cards are filtered out
+
+@ANTIQUITIES
+2
+Antiquities cards are in the list
+Antiquities cards are filtered out
+
+@LEGENDS
+2
+Legends cards are in the list
+Legends cards are filtered out
+
+@DARK
+2
+The Dark cards are in the list
+The Dark cards are filtered out
+
+@FALLEN
+2
+Fallen Empires cards are in the list
+Fallen Empires cards are filtered out
+
+@CHRONICLES
+2
+Chronicles cards are in the list
+Chronicles cards are filtered out
+
+@PROMO
+2
+Promotional cards are in the list
+Promotional cards are filtered out
+
+@RESTRICTED
+2
+Restricted cards are in the list
+Restricted cards are filtered out
+
+@EIGHT
+2
+Other cards are in the list
+Other cards are filtered out
+
+@UTILITY
+2
+Utility cards are in the list
+Utility cards are filtered out
+
+@LAND
+2
+Land cards are in the list
+Land cards are filtered out
+
+@ARTIFACT
+2
+Artifact cards are in the list
+Artifact cards are filtered out
+
+@CREATURE
+2
+Creature cards are in the list
+Creature cards are filtered out
+
+@ENCHANTMENT
+2
+Enchantment cards are in the list
+Enchantment cards are filtered out
+
+@INSTANT
+2
+Instant cards are in the list
+Instant cards are filtered out
+
+@INTERRUPT
+2
+Interrupt cards are in the list
+Interrupt cards are filtered out
+
+@SORCERY
+2
+Sorcery cards are in the list
+Sorcery cards are filtered out
+
+@CASTCOST
+2
+Cards are filtered by cast cost
+Cards are not filtered by cast cost
+
+@POWER
+2
+Cards are filtered by power
+Cards are not filtered by power
+
+@TOUGHNESS
+2
+Cards are filtered by toughness
+Cards are not filtered by toughness
+
+@ABILITY
+2
+Cards are filtered by ability
+Cards are not filtered by ability
+
+@RARITY
+2
+Cards are filtered by rarity
+Cards are not filtered by rarity
+
+@ARTIST
+2
+Cards are filtered by artist
+Cards are not filtered by artist
+
+@EIGHT
+2
+Eight Edition cards are in the list
+Eight Edition cards are filtered out
+

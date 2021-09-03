@@ -1,0 +1,109 @@
+;-*- conf-windows -*-
+;Overrides for the Vanguard card frame.
+;See Duel.dat for documentation.
+;
+[SmallCard]
+ArtLeft = 79
+ArtTop = 120
+ArtWidth = 851
+ArtHeight = 870
+;
+TitleSourceTop = 3
+TitleSourceHeight = 37
+TitleDestHeight = 160
+FrameSourceTop = 37
+FrameSourceHeight = 252
+FrameDestTop = 160
+;
+TitleOwnedColorR = 47
+TitleOwnedColorG = 47
+TitleOwnedColorB = 47
+TitleOwnedShadowColorR = -1
+;
+TitleUnownedColorR = 47
+TitleUnownedColorG = 47
+TitleUnownedColorB = 47
+TitleUnownedShadowColorR = -1
+;
+TitleCenter = 1
+TitleLeft = 125
+TitleTop = -12
+TitleWidth = 550
+;
+;
+[FullCard]
+ExpandTop = 6298
+ExpandHeight = 2962
+;
+TitleLeft = 140
+TitleTop = 36
+TitleWidth = 520
+TitleHeight = 64
+;
+TitleCenter = 1
+;
+ArtLeft = 76
+ArtTop = 93
+ArtWidth = 646
+ArtHeight = 597
+;
+TypeLeft = 140
+TypeTop = 692
+TypeWidth = 520
+TypeHeight = 60
+;
+TypeCenter = 1
+;
+RulestextLeft = 165
+RulestextTop = 762
+RulestextWidth = 480
+RulestextHeight = 310
+;
+RulesboxLeft = 72
+RulesboxTop = 740
+RulesboxWidth = 655
+RulesboxHeight = 350
+;
+ExpansionLeft = 610
+ExpansionTop = 787
+ExpansionWidth = 70
+ExpansionHeight = 35
+;
+RoundingX = 55
+RoundingY = 55
+;
+TitleColorR = 47
+TitleColorG = 47
+TitleColorB = 47
+TitleShadowColorR = -1
+;
+TypeColorR = 47
+TypeColorG = 47
+TypeColorB = 47
+TypeShadowColorR = -1
+;
+VanguardColorR = 47
+VanguardColorG = 47
+VanguardColorB = 47
+;
+VanguardHandLeft = 78
+VanguardHandTop = 1022
+VanguardHandWidth = 55
+VanguardHandHeight = 50
+;
+VanguardLifeLeft = 669
+VanguardLifeTop = 1022
+VanguardLifeWidth = 55
+VanguardLifeHeight = 50
+;
+[Frames]
+TranslucentColorless = -1
+ColorlessAlpha = 255
+ForceColorless = 2
+;
+FrameBaseDir=Vanguard
+;
+DefaultImage=..\blank.png
+;
+CardBk_Colorless=CardBk_Colorless.png
+CardOv_Colorless=CardOv_Colorless.png

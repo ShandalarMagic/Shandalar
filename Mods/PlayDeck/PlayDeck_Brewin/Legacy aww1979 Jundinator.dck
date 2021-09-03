@@ -1,0 +1,28 @@
+;Legacy aww1979 Jundinator
+;Black/Red/Green
+;#oldgames
+;
+;01/06/2010
+;1
+;4th Edition
+;-typical unimaginative Jund, which the AI plays very well.  Certain often-played jund cards were left out because the AI sucks with them.  I also wanted to use Lavalanche, but cascading into it sucks.
+
+.1483	4	Diabolic Edict
+.145	4	Lightning Bolt
+.9038	4	Tarmogoyf
+.10244	2	Bituminous Blast
+.1337	4	Blightning
+.10246	4	Bloodbraid Elf
+.1442	2	Broodmate Dragon
+.10309	4	Maelstrom Pulse
+.10078	4	Sprouting Thrinax
+.1471	4	Terminate
+.165	1	Mox Emerald
+.166	1	Mox Jet
+.168	1	Mox Ruby
+.9	4	Badlands
+.12	4	Bayou
+.241	4	Taiga
+.91	3	Forest
+.164	3	Mountain
+.239	3	Swamp

@@ -1,0 +1,1 @@
+LIBRARY "ManalinkEx.dll" BASE=0x1000000

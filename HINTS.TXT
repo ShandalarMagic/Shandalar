@@ -1,0 +1,979 @@
+.51     -1	A    	(Crusade) ... Singles: "With this card you can..."
+
+give all your white creatures extra power and toughness.
+
+.145    -1	A    	(Lightning)
+
+deal 3 damage to any creature or your opponent.
+
+.94     193	AB    (Fungusaur/Prodigal) ... Combos: "With these cards you can..."
+
+damage your own Fungusaur to make it grow each turn!
+
+.121    209	AB   	(Instill Energy/Royal Assassin)
+
+kill two tapped creatures each turn instead of just one!
+
+.121    193	AB   	(Instill Energy/Prodigal Sorcerer)
+
+use the Sorcerer to deal 2 damage each turn instead of just 1!
+
+.121    186	AB   	(Instill Energy/Pirate Ship)
+
+use the Pirate Ship to deal 2 damage each turn instead of just 1!
+
+.121    149	AB   	(Instill Energy/Llanowar Elves)
+
+use the Elves to produce two green mana each turn instead of just one!
+
+.261    235	BC   	(Uthden Troll/Stone Giant)
+
+throw the troll at your opponent over...and over...and over...
+
+.89     35	CD   	(ForceofNature/COP Green)
+
+avoid paying upkeep on the Force of Nature and instead use the Circle to prevent the Force's upkeep damage!
+
+.122	132	B	(Invisibility/Juggernaut)
+
+make the Juggernaut completely unblockable!
+
+.152	40	BC	(Lure/Cockatrice)
+
+destroy all of your opponent's untapped flying creatures by attacking with the Cockatrice!
+
+.201	40	BC	(Regeneration/Cockatrice)
+
+destroy your opponent's creatures and allow the Cockatrice to survive any lethal damage dealt to it!
+
+.152	244	BC	(Lure/Thicket Basilisk)
+
+destroy all of your opponent's untapped creatures by attacking with the Basilisk!
+
+.152	391	BC	(Lure/Abu Jafar)
+
+destroy all of your opponent's untapped creatures by attacking with Abu Jafar!
+
+.413	259	A	(El-Hajjaj/Unholy Strength)
+
+get even more life when you attack or block with El-Hajjaj!
+
+.413	462	AB	(El-Hajjaj/Unstable Mutation)
+
+get even more life when you attack or block with El-Hajjaj!
+
+.413	112	A	(El-Hajjaj/Holy Strength)
+
+get even more life when you attack or block with El-Hajjaj!
+
+.133	125	BC	(Jump/Ironroot Treefolk)
+
+"bush-whack" your opponent's flying creatures as they attack...or maybe that's "tree-whack".
+
+.452	145	AB	(Rukh Egg/Lightning Bolt)
+
+destroy your own Rukh Egg and get a Rukh into the game faster.
+
+.452	210	BC	(Rukh Egg/Sacrifice)
+
+get four black mana for another spell and a Rukh at the same time!
+
+.3	485	A	(Animate Dead/Colossus of Sardia)
+
+discard your Colossus into the graveyard and animate an 8/9 creature with trample for a casting cost of only two mana!
+
+.395	471	CD	(Ali from Cairo/Armageddon Clock)
+
+just let time go by as your opponent's life goes down and you don't go below one life!
+
+.161	205	AB	(Mesa Pegasus/Righteousness)
+
+swiftly pummel even the likes of a Lord of the Pit out of the sky!
+
+.228	175	BC	(SleightofMind/Northern Paladin)
+
+destroy any color of cards in play, which makes your Paladin even more feared by your opponents!
+
+.152	551	AB	(Lure/Abomination)
+
+destroy all of your opponent's untapped Green and White creatures by attacking with your Abomination.
+
+.551	228	BC	(Abomination/Sleight of Mind)
+
+destroy creatures of any color blocking or blocked by Abomination!
+
+.563	021	AB	(Amrou Kithkin/Blessing)
+
+have an inflatable creature that cannot be blocked by creatures with power greater than 2!
+
+.563	614	A	(Amrou/Divine Transformation)
+
+have a 4/4 creature only blockable by creatures with a power of 2 or less!
+
+.563	113	BC	(Amrou/Howl from Beyond)
+
+surprise your opponent with your little 1/1 creature suddenly howling more damage to them than they originally expected!
+
+.293	153	C	(Angry Mob/Magical Hack)
+
+change the Mob to grow larger when your opponents have land other than Swamps.
+
+.2	396	CD	(Animate Artifact/Aladdin's Ring)
+
+have an 8/8 attacking artifact creature that can also choose to deal 4 damage to any target for the cost of 8 mana.
+
+.2	393	A	(Animate Artifact/Aladdins Lamp)
+
+have a 10/10 artifact creature that can also help you draw cards.
+
+.2	208	AB	(Animate Artifact/Rod of Ruin)
+
+have a 4/4 artifact "Prodigal Sorcerer" that cannot be quickly killed with a Lightning Bolt.
+
+.393	803	CD	(Aladin's Lamp/Sylvan Library)
+
+have a wider selection of cards at your draw phase and choose to keep more than one card for the cost of 4 life per card!
+
+.3	295 	CD	(Animate dead/Ball lightning)
+
+animate a 5/1 non-summon sick creature with trample into play till the end of turn!
+
+.3	242	AB	(Animate dead/Terror)
+
+bury one of your opponent's nonblack or nonartifact creatures, then animate it into play on your side.
+
+.3	409	AC	(Animate Dead/Desert Twister)
+
+choose your opponent's coolest creature in play, destroy it, then animate it to your side to use against him.
+
+.3	321	BC	(Animate Dead/Fissure)
+
+bury a target creature of your opponent's, then animate it to your side!
+
+.4	642 	CD	(Animate Wall/Fortified Area)
+
+not only allow a wall to attack and deal an extra point of damage, but also band with other creatures!
+
+.3	66	BC	(Animate Dead/Disrupting Scepter)
+
+make your opponents discard creatures, then animate them before their eyes.
+
+.3	117	BC	(Animate Dead/Hypnotic Spector)
+
+make your opponents discard creatures, then animate them.
+
+.3	943	BC	(Animate Dead/Rag Man)
+
+make your opponents discard creatures, then animate them on your side.
+
+.5	6	AB	(Ankh of Mishra/Armagedon)
+
+destroy all lands in play (when you have an advantage), then make your opponent take 2 damage for putting new land into play.
+
+.300	208	AB	(Apprentice Wizard/Rod of Ruin)
+
+create a "Prodigal Apprentice" by tapping the apprentice for the 3 mana to activate the Rod and dealing 1 damage to any target.
+
+.300	42	A	(Apprentice Wizard/Conservator)
+
+tap the apprentice for the 3 mana to activate your Conservator and prevent the loss of up to 2 life, just like that.
+
+.300	66	BC	(Apprentice Wizard/Disrupting Scepter)
+
+tap the apprentice for the 3 mana to activate your Scepter (during your turn) and make your opponent discard a card of their choice.
+
+.6      63	AB	(Armagedon/Dingus Egg)
+
+destroy all land in play, and the Dingus Egg will deal 2 damage per land lost to its owner. 
+
+.6      852	AB	(Armagedon/White Mana Battery)
+
+destroy all land in play and still have white mana available to you through the battery.
+
+.6      765	CD	(Armagedon/RED Mana Battery)
+
+destroy all land in play and still have red mana available to you through the battery.
+
+.6      584	CD	(Armagedon/Blue Mana Battery)
+
+destroy all land in play and still have blue mana available to you using the battery.
+
+.6      580	CD	(Armagedon/Black Mana Battery)
+
+destroy all land in play and still have black mana available to you via the battery.
+
+.6      662	CD	(Armagedon/Green Mana Battery)
+
+destroy all land in play and still have green mana available to you through the battery.
+
+.294	33	C	(Ashes to Ashes/COP: Black)
+
+remove 2 target non-artifact creatures from the game and prevent the ashes from burning you for 5 damage.
+
+.457	112	CD	(Ashnod's Battle Gear/Holy Strenght)
+
+give any of your creatures a +3 power with no net effect on its toughness.
+
+.457	111	C	(Ashnod's Battle Gear/Holy Armor)
+
+give +2 power to any of your creatures and inflate its toughness using white mana.
+
+.575	794	CD	(Backfire/Spirit Link)
+
+have your opponent's creatures deal damage to their owner and give you life as they do.
+
+.8	228	AB	(Bad Moon/Sleight)
+
+give +1/+1 to creatures of any color you choose!
+
+.10	710	AB	(Balance/Land Tax)
+
+get your bonus lands from Land Tax, Balance to reduce your opponents lands, then place yours to get the advantage!
+
+.10	63	BC	(Balance/Dingus Egg)
+
+force your opponents to sacrifice land down to the number you have in play and take two damage for each!
+
+.295	198	AB	(Ball Lightning/Raise Dead)
+
+trample your opponents for 6 damage several turns in a row.
+
+.478	152	CD	(Battering Ram/Lure)
+
+destroy all your opponent's walls by attacking with Battering Ram!
+
+.72	589	AB	(Dwarven Warriors/Carrion Ants)
+
+make a 0/1 creature (inflatable with generic mana) unblockable until the end of turn!
+
+.532	589	AB	(Tawnos's Wand/Carrion Ants)
+
+make a 0/1 creature (inflatable with generic mana) unblockable until the end of turn!
+
+.72	698	AB	(Dwarven Warriors/Killer Bees)
+
+make a 0/1 creature (inflatable with green mana) unblockable until the end of turn!
+
+.532	698	AB	(Tawnos's Wand/Killer Bees)
+
+make a 0/1 creature (inflatable with green mana) unblockable until the end of turn!
+
+.72	93	AB	(Dwarven Warriors/Frozen Shade)
+
+make a 0/1 creature (inflatable with black mana) unblockable until the end of turn!
+
+.532	93	AB	(Tawnos's Wand/Frozen Shade)
+
+make a 0/1 creature (inflatable with black mana) unblockable until the end of turn!
+
+.49	72	AB	(Dragon Engine/Dwarven Warriors)
+
+make a 1/3 creature (inflatable with generic mana) unblockable until the end of turn!
+
+.532	492	AB	(Tawnos's Wand/Dragon Engine)
+
+make a 1/3 creature (inflatable with generic mana) unblockable until the end of turn!
+
+.67	72	AB	(Dragon Whelp/Dwarven Warriors)
+
+make a 2/3 creature (inflatable with red mana) unblockable until the end of turn!
+
+.532	67	AB	(Tawnos's Wand/Dragon Whelp)
+
+make a 2/3 creature (inflatable with red mana) unblockable until the end of turn!
+
+.371	72	CD	(Murk Dwellers/Dwarven Warriors)
+
+allow the Murk Dwellers to attack unblocked and gain a +2/+0 until the end of turn.
+
+.532	371	CD	(Tawnos's Wand/Murk Dwellers)
+
+allow the Murk Dwellers to attack unblocked and gain a +2/+0 until the end of turn.
+
+.939	72	CD	(Marsh Viper/Dwarven Warriors)
+
+allow the Marsh Viper to attack unblocked and give your opponent 2 poison counters.
+
+.532	939	CD	(Tawnos's Wand/Marsh Viper)
+
+allow the Marsh Viper to attack unblocked and give your opponent 2 poison counters.
+
+.72	742	CD	(Dwarven Warriors/Pit Scorpion)
+
+allow the Pit Scorpion to attack unblocked and give your opponent 1 poison counter.
+
+.742	532	CD	(Pit Scorpion/Tawnos's Wand)
+
+allow the Pit Scorpion to attack unblocked and give your opponent 1 poison counter.
+
+.72	444	CD	(Dwarven Warriors/Nafs Asp)
+
+allow the Naf's Asp to attack unblocked and make your opponents pay or take extra damage.
+
+.532	444	CD	(Tawnos's Weaponry/Nafs Asp)
+
+allow the Naf's Asp to attack unblocked and make your opponents pay or take extra damage.
+
+.72	415	AB	(Dwarven Warriors/Erg Raiders)
+
+allow the Erg Raiders to attack unblocked, thus preventing you from taking 2 damage by not attacking with them.
+
+.532	415	AB	(Tawnos's Wand/Erg Raiders)
+
+allow the Erg Raiders to attack unblocked, thus preventing you from taking 2 damage by not attacking with them.
+
+.72	117	AB	(Dwarven Warriors/Hypnotic Specter)
+
+allow the Hypnotic Specter to safely attack unblocked, forcing your opponent to discard a card at random.
+
+.117	532	C	(Hypnotic Specter/Tawnos's Wand)
+
+allow the Hypnotic Specter to safely attack unblocked, forcing your opponent to discard a card at random.
+
+.399	85	A	(Bird Maiden/Fire Breathing)
+
+have the maiden fly over blockers and breathe extra fire damage at your opponents.
+
+.15	201	BC	(Bird O Paridise/Regeneration)
+
+keep a valued mana source alive, considering that your opponents would like to put it on the endangered species list.
+
+.15	121	B	(Bird O Paridise/instill energy)
+
+produce 2 mana of any color in one turn. If you have 2 Instill Energies on the Bird, it's better than a Black Lotus.
+
+.16	259	A	(Black Knight/Unholy Strength)
+
+kill virtually any creature with a toughness of 4 or below without even a scratch on the Knight (because of its first strike ability)!
+
+.18	535	BC	(Black Vise/The Rack)
+
+force your opponent to keep exactly 3 or 4 cards in hand or take damage!
+
+.535	162	BC	(The Rack/Mind Twist)
+
+not only get rid of your opponent's cards, but also make them take damage for every card fewer than 3 in their hand.
+
+.21	72	C	(Blessing/Dwarven Warrior)
+
+make creatures with power of 2 or less unblockable and inflatable. That can be a scary thought!
+
+.21	181	AB	(Blessing/Personal Incarnation)
+
+keep your Personal Incarnation from going to the graveyard and taking half your remaining life by making it harder to kill!
+
+.21	192	C	(Blessing/Power Surge)
+
+prevent yourself from taking damage from Power Surge by tapping your lands before upkeep and pumping up your Blessing!
+
+.582	63	AB	(Blight/dingus Egg)
+
+destroy your opponents' land and make them take 2 points of damage for losing it!
+
+.63	236	AB	(Dingus Egg/Stone Rain)
+
+destroy your opponents' land and make them take 2 points of damage for losing it!
+
+.63	321	C	(Dingus Egg/Fissure)
+
+destroy your opponents' land and make them take 2 points of damage for losing it!
+
+.583	295	CD	(Blood lust/Ball Lightning)
+
+have a 10/1 creature with trample that can attack the turn it comes into play.
+
+.583	145	BC	(Blood lust/Lightning Bolt)
+
+kill a creature with up to 7 toughness for just 2 red and one generic mana.
+
+.583	14	CD	(Blood lust/Berserk)
+
+just imagine a blood-lusty, berserk, trampling, 10/1 Scrib Sprites! Who cares if it dies at the end of the turn?
+
+.97	14	AB	(Giant Growth/Berserk)
+
+add +3/+3 to a creature, then double its strength and give it trample until the end of turn for just 2 green mana.
+
+.23	749	CD	(Blue Ward/Psionic Entity)
+
+protect Psionic Entity from damaging itself and freely deal 2 damage to other targets without the worry of killing it.
+
+.583	336	A	(Blood lust/Bog Imp)
+
+have a 5/1 flying creature until end of turn for just an extra 2 mana.
+
+.24	77	A	(Bog Wraith/Evil Presence)
+
+turn your opponents' lands into swamps, allowing your Bog Wraith to attack unblockable!
+
+.719	77	AB	(Lost Soul/Evil Presence)
+
+turn your opponents' lands to swamps, allowing your Lost Soul to attack unblockable!
+
+.400	481	BC	(Bottle of Suleiman/COP: Artifact)
+
+prevent the 5 damage from the Bottle if the coin flip does not go your way.
+
+.303	179	BC	(Brainwash/Paralyze)
+
+make your opponent pay a total of 7 generic mana to untap and attack with a creature.
+
+.930	121	A	(Brass Man/Instill Energy)
+
+untap Brass Man without paying the upkeep cost.
+
+.304	36	AB	(Brothers of Fire/Cop:Red)
+
+protect yourself from receiving damage from Brothers of Fire while you deal damage to your targets.
+
+.26   153	AB	(Burrowing/Magical Hack)
+
+give a creature any landwalk you choose.
+
+.306	153	CD	(Cave People/Magical Hack)
+
+give your creatures any landwalk you choose, through the Cave People effect.
+
+.30	84	AB	(Channel/Fireball)
+
+kill your opponents off early by channeling your life into generic mana to power up your fireball.
+
+.30	65	AB	(Channel/Disintegrate)
+
+live on the edge of death by channeling your life into generic mana to power up your Disintegrate and blow your opponent away.
+
+.36	32	CD	(COP Red/Chaoslace)
+
+turn one of your opponents' creatures or spells into a red source and prevent all damage from it with your circle!
+
+.36	75	AB	(COP Red/Earthquake)
+
+prevent damage done to you by Earthquake with your circle and watch your opponent and all non-flying creatures take damage!
+
+.34	245	AB	(COP Blue/Thoughtlace)
+
+turn one of your opponent's creatures or spells into a blue source and prevent all damage from it with your circle!
+
+.33	59	AB	(COP Black/Deathlace)
+
+turn one of your opponent's creatures or spells into a black source and prevent all damage from it with your circle!
+
+.37	196	AB	(COP White/Purelace)
+
+turn one of your opponent's creatures or spells into a white source and prevent all damage from it with your circle!
+
+.35	143	AB	(COP Green/Lifelace)
+
+turn one of your opponent's creatures or spells into a green source and prevent all damage from it with your circle!
+
+.35	116	CD	(COP Green/Hurracane)
+
+prevent damage done to you by the Hurricane with your circle and watch your opponent and all flying creatures take damage!
+
+.481	471	CD	(COP Artifacts/Armageddon Clock)
+
+prevent damage done to you by Armageddon Clock with your circle and watch your opponents life tick away each turn!
+
+.484	121	CD	(Clockwork Avian/Instill Energy)
+
+untap your avian right after you buy back any lost counters on it and still use it that turn.
+
+.38	121	CD	(Clockwork Beast/Instill Energy)
+
+untap your beast right after you buy back any lost counters on it and still use it that turn.
+
+.645	40	BC	(Gaseous Form/Cockatrice)
+
+destroy your opponent's creatures by blocking with the Cockatrice and keeping it from taking damage during combat!
+
+.485	121	AB	(Colossus of Sardia/Instill Energy)
+
+untap the Colossus for free!
+
+.485	628	CD	(Colossus of Sardia/Eternal Warrior)
+
+attack with the Colossus without tapping it!
+
+.45	153	AB	(Conversion/Hack)
+ 
+make all of any one land type into plains or all mountains into another type of land.
+
+.486	72	CD	(Coral Helm/Dwarven Warriors)
+
+make a small creature unblockable, then give it +2/+2 for every activation of the Coral Helm.
+
+.486	3	BC	(Coral Helm/Animate Dead)
+
+use the Coral Helm to make a creature +2/+2, then animate any creature card you discard.
+
+.486	114	AB	(Coral Helm/Howling Mine)
+
+use the Howling Mine to keep your hand full of cards to use with the Coral Helm.
+
+.486	1	BC	(Coral Helm/Ancestral Recall)
+
+use the Ancestral Recall to fill your hand with three cards to use with the Coral Helm.
+
+.486	25	ABC	(Coral Helm/Brain Geiser)
+
+use the Braingeyser to refill your hand with cards to use with the Coral Helm!
+
+.50	242	AB	(Creature Bond/Terror)
+
+use Terror to kill your opponent's largest non-black creature, and the bond to make him take damage, too.
+
+.604	121	AB	(Crimson Manicore/Instill Energy)
+
+deal 2 damage to a flying creature involved in combat.
+ 
+.487	512	CD	(Crumble/Onulet)
+
+gain 5 life by using Crumble on your Onulet.
+
+.51	228	AB	(Crusade/Slight)
+
+give all creatures of any color you choose +1/+1.
+
+.52	228	AB	(Crystal Rod/Slight)
+
+gain life from spells of any color you choose.
+
+.57	244	ABC	(Death Ward/Thicket Baskalisk)
+
+save the Thicket Basilisk from the graveyard even as it sends your opponent's creatures there.
+
+.69	195	CD	(Drain Power/Psychic Venum)
+
+gain all of your opponent's mana with the Drain Power and cause 2 damage, too.
+
+.70	152	AB	(Drudge Skeletons/Lure)
+
+Lure all of your opponent's creatures to block the Skeletons and then regenerate it.
+
+.75	123	A	(Earthquake/Iron Star)
+
+deal damage to all non-flying creatures, but take 1 less damage by gaining a life with the star.
+
+.75	101	AB	(Earthquake/Goblin Ballon Brigade)
+
+deal damage to all non-flying creatures, but not to the Goblin Balloon Brigade, which can be made to fly.
+
+.413	794	CD	(El-hajjaj/Spirit Link)
+
+gain twice as much life as El-Hajjaj deals damage.
+
+.413	113	AB	(El-hajjij/Howl from Beyond)
+
+use the howl on El-Hajjaj to make him act like a Fireball and a Stream of Life combined.
+
+.620	281	AB	(Elder Land Wurm/Web)
+
+make the Elder Land Wurm able to block both creatures with and without flying so you can attack with it sooner.
+
+.622	7	BC	(Elven Riders/Aspect Of  Wolf)
+
+make Elven Riders bigger than most flyers that can block them with the Aspect of Wolf.
+
+.628	930	A	(Eternal Warrior/Brass Man)
+
+use Eternal Warrior on the Brass Man so that it can attack without you having to pay to untap it.
+
+.628	159	AB	(Eternal Warrior/Meekstone)
+
+attack with any large creature and not have to worry about the Meekstone's effect.
+ 
+.417	204	CD	(Eye For an Eye/Reverse Damage)
+
+make your opponent take damage from his own attack and reverse the damage so that you also gain life.
+
+.86	228	BC	(Flashfire/Slight)
+
+use Sleight of Mind on the Flashfire to destroy any type of land you choose.
+
+.935	756	CD	(Flood/Rajan Spirit)
+
+use the Radjan Spirit to make any flying creature subject to being tapped by the Flood.
+
+.88	40	CD	(Fog/Cockatrice)
+
+use the Fog to prevent the Cockatrice from taking damage as it destroys everything it blocks.
+
+.93	81	AB	(Frozen Shade/Fear)
+
+attack for a lot of damage and make blocking unlikely.
+
+.645	462	CD	(Gaseous Form/Unstable Mutation)
+
+watch any creature slowly die and not be able to damage you in response.
+
+.649	159	AB	(Giant Strength/Meekstone)
+
+cast Giant Strength on a tapped creature to keep it tapped with the Meekstone.
+
+.100	228	AB	(Gloom/Slight of Mind)
+
+make players of any single color pay 3 more mana to cast and use their cards.
+
+.102	101	AB	(Goblin King/Goblin Balloon Brigade)
+
+make the Goblin Balloon Brigade +1/+1 and give it mountainwalk.
+
+.102	163	A	(Goblin King/Mons Goblin Raiders)
+
+give the Mons Goblin Raiders +1/+1 and mountainwalk.
+
+.937	153	CD	(Goblin Rock Sled/Magical Hack)
+
+make the Goblin Rock Sled trample though any terrain using the Magical Hack.
+
+.114	18	A	(Howling Mine/Black Vice)
+
+put more cards in your opponent's hand and make them take damage from the Black Vise.
+
+.114	503	BC	(Howling Mine/Ivory Tower)
+
+put more cards in your hand with the Howling Mine and gain life from the Ivory Tower.
+
+.113	794	AB	(Howl From Beyond/Spirit Link)
+
+make a creature act like a Fireball and a Stream of Life combined.
+
+.502	157	CD	(Hurkyl's Recall/Mana Vault)
+
+get mana from the Mana Vault, then put it back in your hand (to avoid paying to untap it).
+
+.117	81	A	(Hypnotic Spectre/Fear)
+
+make the Spectre virtually unblockable.
+
+.117	488	AB	(Hypnotic Spectre/Cursed Rack)
+
+make your opponentS discard down to four cards in hand, then force them to discard the more with the Spectre.
+
+.117	66	BC	(Hypnotic Spectre/Disrupting Scepter)
+
+make your opponent discard two cards each turn.
+
+.177	36	C	(Orcish Artillery/COP:Red)
+
+deal 2 points of damage to a creature or player and use the circle to prevent damage to yourself.
+
+.514	85	A	(Ornithopter/Firebreathing)
+
+have a flying, inflatable artifact creature for 1 red mana.
+
+.514	113	A	(Ornithopter/Howl From Beyond)
+
+deal surprise damage after your opponent doesn't block the Ornithopter.
+
+.179	209	AB	(Paralyze/Royal Assassin)
+
+tap your Royal Assassin's intended victim with Paralyze.
+
+.181	240	CD	(Personal Incarnation/Swords To Plowshares)
+
+prevent your Personal Incarnation from going to the graveyard and gain 6 life.
+
+.182	19	AB	(Pestilence/Black Ward)
+
+keep your Pestilence in play by using the Black Ward on one of your creatures.
+
+.33	182	AB	(COP Black/Pestilence)
+
+prevent the damage to yourself from Pestilence with your circle!
+
+.742	81	AB	(Pit Scorpion/Fear)
+
+make your Pit Scorpion difficult to block.
+
+.742	781	AB	(Pit Scorpion/Seeker)
+
+make your Pit Scorpion difficult to block.
+
+.191	582	AB	(Power Sink/Blight)
+
+use Power Sink to make your opponent lose the spell he was casting and the land with Blight on it too!
+
+.191	195	AB	(Power Sink/Psychic Venum)
+
+use Power Sink to make your opponent lose the spell he was casting and take 2 damage, too!
+
+.192	698	AB	(Power Surge/Killer Bees)
+
+use the surge to force your opponent to use all his mana, but you have a reserve for green mana in the bees.
+
+.192	589	AB	(Power Surge/Carrion Ants)
+
+use the surge to force your opponent to use all his mana, but you can safely dump your mana into the ants
+
+.192	270	AB	(Power Surge/Wall of Fire)
+
+use the surge to force your opponent to use all his mana, but you can dump your red mana into the wall.
+
+.192	224	AB	(Power Surge/Shivan Dragon)
+
+use the surge to force your opponent to use all his mana, but you can dump your red mana into the dragon.
+
+.943	66	CD	(Rag Man/Disrupting Scepter)
+
+look at your opponent's hand, make him discard a creature, then use your scepter to make him discard again, all in one turn.
+
+.749	111	A	(Psionic Entity/Holy Armor)
+
+safely deal 2 damage to any target without Psionic Entity killing itself off in the process.
+
+.749	112	A	(Psionic Entity/Holy Srtength)
+
+safely deal 2 damage to any target without Psionic Entity killing itself off in the process.
+
+.195	69	AB	(Psychic Venum/Drain Power)
+
+tap all your opponent's lands and make him take damage from the Psychic Venom -- plus you can use the mana to boot!
+
+.209	935	C	(Royal Assassin/Flood)
+
+tap a creature with Flood, then quickly destroy it with your assassin.
+
+.209	699	AB	(Royal Assassin/Kismet)
+
+tap your opponent's creatures as they come into play, then quickly destroy them with your assassin.
+
+.214	291	A	(Scathe Zombies/Zombie Master)
+
+give your Scathe Zombies swampwalk and regeneration.
+
+.218	184	A	(Sea Serpent/Phantasmal Terrain)
+
+allow your serpent to attack by changing one of your opponent's lands to an Island.
+
+.220	460	BC	(Sengir Vampire/Sorceress Queen)
+
+prime your opponent's creatures for feeding by making them 0/2 when they block or are blocked by your Sengir Vampire.
+
+.220	152	BC	(Sengir Vampire/Lure)
+
+make your opponent's creatures block your vampire and watch it get a +1/+1 for every creature it kills.
+
+.221	159	AB	(Serra Angel/Meekstone)
+
+attack with the Serra Angel and not worry about the Meekstone, while your opponent worries.
+
+.221	28	AB	(Serra Angel/Castle)
+
+have a Serra Angel that can block bigger creatures, even if it attacked the turn before.
+
+.221	233	AB	(Serra Angel/Statsis)
+
+attack with the Serra Angel during every turn the Stasis is in force.
+
+.221	229	AB	(Serra Angel/Smoke)
+
+attack with the Serra Angel as much as you like and not worry about having to untap it.
+
+.222	153	AB	(Shanodin Dryads/Hack)
+
+make the Shanodin Dryads have any landwalk you choose.
+
+.525	462	AB	(Shape Shifter/Unstable Mutation)
+
+make the Shapeshifter a 10/3 creature, then use its ability to alter its power and toughness to keep itself alive.
+
+.525	112	AB	(Shape Shifter/Holy Strength)
+
+make the Shapeshifter an 8/2 creature.
+
+.525	259	AB	(Shape Shifter/Unholy Strength)
+
+make the Shapeshifter a 9/1 creature.
+
+.525	7	AB	(Shape Shifter/Aspect of Wolf)
+
+use all of the Shapeshifter's 7 points for power.
+
+.525	649	AB	(Shape Shifter/Giant Strength)
+
+make the Shapeshifter a 9/2 creature.
+
+.225	201	AB	(Simulacrum/Regeneration)
+
+allow any one of your creatures to regenerate, then use the Simulacrum to transfer damage to that creature.
+
+.458	803	AB	(Sinbad/Sylvan Library)
+
+always arrange for a land to be at the top of you library, so Sinbad can give it to you.
+
+.227	227	AB	(Siren's Call/Piety)
+
+force your opponent to attack, knowing that Piety makes you blockers tougher; then you counterattack!
+
+.227	227	AB	(Siren's Call/Righteousness)
+
+force your opponent to attack and use Righteousness to kill off his biggest creature with one of your smallest.
+
+.227	227	AB	(Siren's Call/Smoke)
+
+force your opponent to attack, then keep all but one of these creatures from untapping next turn.
+
+.227	159	AB	(Siren's Call/Meekstone)
+
+force your opponent to attack and keep all of his largest creatures tapped using the Meekstone.
+
+.231	290	AB	(Soul Net/Wraith of God)
+
+kill all the creatures in play and gain life for each creature going to the graveyard.
+
+.233	710	AB	(Statsis/Land Tax)
+
+use Land Tax to put land into your hand so that you have land to put into play to pay the Stasis.
+
+.235	583	AB	(Stone Giant/Bloodlust)
+
+make the Stone Giant throw creatures that are usually too tough to throw, and they deal more damage in the bargain.
+
+.63	528	AB	(Dingus Egg/Strip Mine)
+
+get rid of one of your opponent's most important lands, and each of you take 2 points of damage.
+
+.238	45	AB	(Sunglasses of Urza/Conversion)
+
+stop your opponent from using his mountains for red mana, while you can now use your plains for red or white mana.
+
+.803	507	AB	(Syvan Library/Millstone)
+
+use the Sylvan Library to see which cards are coming up and remove any two cards you don't want.
+
+.810	99	AB	(Tempest Efreet/Glasses of Urza)
+
+use Urza's Glasses to see if you want to use the Tempest Efreet to take a card.
+
+.534	3	AB	(Tetravus/Animate Dead)
+
+make several flyers by removing all of the Tetravus's counters, letting the parent die and animating it back into play!
+
+.244	201	AB	(Thicket Baskalisk/Regeneration)
+
+keep the Thicket Basilisk in play even if a creature that blocks it could kill it as it dies.
+
+.244	645	AB	(Thicket Baskalisk/Gaseous Form)
+
+block with the basilisk and destroy any creature without the basilisk being damaged.
+
+.538	3	AB	(Triskelion/Animate Dead)
+
+use the Triskelion's counters before it dies, then use the Animate Dead to bring it back with its counters restored.
+
+.253	153	AB	(Tsunami/Hack)
+
+destroy all of any single type of land you choose.
+
+.256	195	AB	(Twittle/Psychic Venum)
+
+make your opponent take 2 points of damage by tapping the venomed land.
+
+.382	152	AB	(Uncle Istavan/Lure)
+
+force all of your opponent's creatures to block Uncle Istvan, since they can't hurt him.
+
+.831	7	AB	(Untaimed Wilds/Aspect of Wolf)
+
+make the Aspect of Wolf more powerful by using the Untamed Wilds to play an additional forest.
+
+.383	371	AB	(Venum/Murk Dwellers)
+
+attack with the Murk Dwellers and force your opponent to lose a creature if he wants to block them.
+
+.267	4	AB	(Wall of Air/Animate Wall)
+
+use the Wall of Air as a 1/5 flying attacker.
+
+.841	4	AB	(Wall of Dust/Animate Wall)
+
+use the Wall of Dust as a 1/4 attacker.
+
+.270	4	AB	(Wall of Fire/Animate Wall)
+
+use the Wall of Fire as an inflatable 0/5 attacker, like a weaker Shivan Dragon.
+
+.273	4	AB	(Wall of Swords/Animate Wall)
+
+use the Wall of Swords as a 3/5 flying attacker.
+
+.274	4	AB	(Wall of Water/Animate Wall)
+
+use the Wall of Water as an inflatable 0/5 attacker.
+
+.272	281	AB	(Wall of Stone/Web)
+
+have a 0/10 wall that can block creatures with flying.
+
+.276	645	AB	(Wanderlust/Gaseous Form)
+
+make your opponent take damage from Wanderlust, but not be able to get the creature killed in combat.
+
+.281	244	AB	(Web/Thicket Basilisk)
+
+destroy any one creature that attacks you, even if it has flying; also, you give a +0/+2 to your basilisk.
+
+.851	228	AB	(Whirling Dervish/Slight)
+
+give the Whirling Dervish protection from at least one of the colors your opponent is playing.
+
+.283	228	AB	(White Knight/Slight)
+
+give the White Knight protection from at least one of the colors your opponent is playing.
+
+.16	228	AB	(Black Knight/Slight)
+
+give the Black Knight protection from at least one of the colors your opponent is playing.
+
+.286	225	AB	(Will-O-Wisp/Simulacrum)
+
+make the Will-o-Wisp take all of the damage you have taken this turn and then regenerate it.
+
+.287	69	AB	(Winter Orb/Drain Power)
+
+tap all of your opponent's lands, keep them tapped, and gain all of his mana in the bargain.
+
+.388	159	AB	(Word of Binding/Meekstone)
+
+tap all of your opponent's creatures with power greater than 2 and keep them tapped.
+
+.547	393	AB	(Xenic Poltergeist/Aladdin's Lamp)
+
+use the Xenic Poltergeist to make the Aladdin's Lamp a 10/10 creature.
+
+.547	396	AB	(Xenic Poltergeist/Aladdin's Ring)
+
+use the Xenic Poltergeist to make the Aladdin's Ring an 8/8 creature.
+
+.547	227	AB	(Xenic Poltergeist/Siren's Call)
+
+make an opponent's artifact a creature and force it to attack so you can kill it.
+
+.550	28	AB	(Yotian Solider/Castle)
+
+have a Yotian Solider that can block bigger creatures, even if it attacked the turn before.
+
+.550	233	AB	(Yotian Solider/Statsis)
+
+attack with the Yotian Solider as much as you like and it remains untapped and unaffected by Stasis.
+
+.550	229	AB	(Yotian Solider/Smoke)
+
+attack with the Yotian Solider as much as you like and it remains untapped and unaffected by Smoke.
+
+.859	28	AB	(Zephur Falcon/Castle)
+
+have a Zephyr Falcon that block bigger creatures, even if it attacked the turn before.
+
+.859	233	AB	(Zephur Falcon/Statsis)
+
+attack with the Zephyr Falcon as much as you like and not worry about the Stasis affecting it.
+
+.859	229	AB	(Zephur Falcon/Smoke)
+
+attack with the Zephyr Falcon as much as you like and not worry about the Smoke affecting it.
+
+.291	214	AB	(Zombie Master/Scathe Zombie)
+
+give the Scathe Zombie swampwalk and regeneration.

@@ -1,0 +1,172 @@
+@PROMPT_TURNSEQUENCE
+4
+Pay for blocker
+end draw
+end main
+end discard
+
+@ALCHORS_TOMB
+2
+Select target permanent.
+Select a color.
+
+@AMNESIA
+2
+Select target player.
+Target Player's Hand.
+
+@BANSHEE
+1
+Select target creature or player.
+
+@BARLS_CAGE
+1
+Select target creature.
+
+@BOOMERANG
+1
+Select target permanent.
+
+@DAVENANT_ARCHER
+1
+Select target attacking or blocking creature.
+
+@DIVINE_OFFERING
+1
+Select target artifact.
+
+@ETERNAL_FLAME
+1
+Select target player.
+
+@EXORCIST
+1
+Select target creature.
+
+@FALLEN_ANGEL
+1
+Select creature to sacrifice.
+
+@GHOSTS_OF_THE_DAMNED
+1
+Select target creature.
+
+@GOBLIN_DIGGING_TEAM
+1
+Select target wall.
+
+@GREAT_DEFENDER
+1
+Select target creature.
+
+@GREATER_REALM_OF_PRESERVATION
+1
+Select damage card.
+
+@HYPERION_BLACKSMITH
+3
+Select target artifact.
+Tap.
+Untap.
+
+@INQUISITION
+2
+Select target player.
+Target Player's Hand.
+
+@JOVIAL_EVIL
+1
+Select target player.
+
+@LIFE_CHISEL
+1
+Select creature to sacrifice.
+
+@MERFOLK_ASSASSIN
+1
+Select target creature.
+
+@MIRACLE_WORKER
+2
+Select creature enchanting enchantment.
+Illegal target (not enchanting a creature).
+Illegal target (not enchanting controller's creature).
+
+@MOLD_DEMON
+6
+Bury Mold Demon.
+Sacifice 2 Swamps
+Sacifice 2 Islands
+Sacifice 2 Forests
+Sacifice 2 Mountains
+Sacifice 2 Plains
+
+@PANDORAS_BOX
+2
+Your flip
+Opponent flip
+
+@PIXIE_QUEEN
+1
+Select target creature.
+
+@RELIC_BARRIER
+1
+Select target artifact.
+
+@SACRIFICE_X_BASICLAND
+5
+Select swamp to sacrifice.
+Select island to sacrifice.
+Select forest to sacrifice.
+Select mountain to sacrifice.
+Select plains to sacrifice.
+
+@SACRIFICE_LANDS
+5
+Select swamp to sacrifice.
+Select island to sacrifice.
+Select forest to sacrifice.
+Select mountain to sacrifice.
+Select plains to sacrifice.
+
+@SAVAEN_ELVES
+2
+Select an enchant land.
+Illegal target (not enchanting a land).
+
+@SCAVENGER_FOLK
+1
+Select target artifact.
+
+@SPINAL_VILLIAN
+1
+Select target creature.
+
+@STORM_SEEKER
+1
+Select target player.
+
+@TRACKER
+1
+Select target creature.
+
+@TRANSMUTATION
+1
+Select target creature.
+
+@WAR_BARGE
+1
+Select target creature.
+
+@WITCH_HUNTER
+4
+Deal damage to target player.
+Return creature to hand.
+Select target player.
+Select target creature.
+
+@WORMWOOD_TREEFOLK
+2
+Pay green mana.
+Pay black mana.

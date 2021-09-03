@@ -1,0 +1,1392 @@
+;-*- conf-windows -*-
+[fonts]
+;Fonts settings.  These are used both by drawcardlib and magic.exe proper.
+;None of these can currently be overridden in individual frame files.
+;
+fontShellText = "CentSchbook BT"
+sizeShellText = 21
+boldShellText = 1
+;
+fontShellButtons = "Verdana"
+sizeShellButtons = 34
+boldShellButtons = 1
+;
+fontShellExplains = "Verdana"
+sizeShellExplains = 38
+boldShellExplains = 1
+;
+fontShellDialogLabel = "Trebuchet MS"
+sizeShellDialogLabel = 38
+boldShellDialogLabel = 1
+;
+fontShellDialog = "Verdana"
+sizeShellDialog = 44
+boldShellDialog = 0
+;
+fontShellDialog_lores = "MPZurich Cn BT"
+sizeShellDialog_lores = 42
+boldShellDialog_lores = 0
+;
+fontShellPackLabel = "MPZurich Cn BT"
+sizeShellPackLabel = 14
+boldShellPackLabel = 0
+;
+fontBigCardTitle = "Benguiat BkCn Bt"
+sizeBigCardTitle = 14
+boldBigCardTitle = 0
+;
+fontBigCardSubtitle = "Benguiat BkCn Bt"
+sizeBigCardSubtitle = 13
+boldBigCardSubtitle = 0
+;
+;Font for power/toughness on fullcards.
+fontBigCardPT = "CentSchbook BT"
+sizeBigCardPT = 16
+boldBigCardPT = 0
+;
+;Font for base loyalty in the lower right of planeswalker fullcards.
+fontBigCardLoyaltyBase = "Arial"
+sizeBigCardLoyaltyBase = 14
+boldBigCardLoyaltyBase = 1
+;
+;Font for loyalty costs on the left of planeswalker fullcards.
+fontBigCardLoyaltyCost = "Arial"
+sizeBigCardLoyaltyCost = 10
+boldBigCardLoyaltyCost = 1
+;
+fontBigCardText = "MPZurich Cn BT"
+sizeBigCardText = 14
+boldBigCardText = 0
+;
+fontBigCardText2 = "MPZurich Cn BT"
+sizeBigCardText2 = 13
+boldBigCardText2 = 0
+;
+fontSmallCardPT = "CentSchbook BT"
+sizeSmallCardPT = 70
+boldSmallCardPT = 0
+;
+fontSmallCardTitle = "MPZurich Cn BT"
+sizeSmallCardTitle = 37
+boldSmallCardTitle = 1
+;
+;Font for current loyalty in the lower right of planeswalker smallcards.
+fontSmallCardLoyaltyCurr = "Arial"
+sizeSmallCardLoyaltyCurr = 32
+boldSmallCardLoyaltyCurr = 1
+;
+fontDamage = "CentSchbook BT"
+sizeDamage = 20
+boldDamage = 0
+;
+fontTellUser = "MPZurich Cn BT"
+sizeTellUser = 16
+boldTellUser = 1
+;
+fontLife = "CentSchbook BT"
+sizeLife = 80
+boldLife = 0
+;
+fontFace = "Benguiat BkCn Bt"
+sizeFace = 16
+boldFace = 0
+;
+fontChat = "Benguiat Bk BT"
+sizeChat = 20
+boldChat = 0
+;
+fontCueCard = "Arial"
+sizeCueCard = 12
+boldCueCard = 0
+;
+fontHand = "Benguiat Bk BT"
+sizeHand = 18
+boldHand = 0
+;
+fontManaPool = "CentSchbook BT"
+sizeManaPool = 40
+boldManaPool = 0
+;
+fontIDTag = "Zurich Cn BT"
+sizeIDTag = 20
+boldIDTag = 0
+;
+;
+[Expansions]
+;Settings to determine which expansion symbol and frame to use.  (These can't
+;be overridden for specific frame types, because they determine which frame
+;type to use.)
+;
+;
+;If non-zero, then if a card has been printed in multiple expansions of the
+;same priority (according to the Priority* options below), then the latest of
+;those expansion/rarity symbols is used, instead of the earliest.  The ordering
+;used is the same as in the column headings in the first line of Manalink.csv.
+;Defaults LatestPrinting=0.
+LatestPrinting = 0
+;Priority given to core sets (Alpha, Beta, Unlimited, Revised, Fourth through
+;Tenth Edition, Magic 2010 through 2014) when choosing which expansion/rarity
+;to use for cards with multiple printings.  The expansion/rarity with the
+;highest priority number is used.
+;Defaults PriorityCore=10.
+PriorityCore = 10
+;Priority given to expert-level sets (Arabian Nights, Antiquities, Legends, The
+;Dark, Fallen Empires, Homelands, and the three-set blocks).
+;Defaults PriorityExpert=10.
+PriorityExpert = 10
+;Priority given to portal/starter sets (Portal, Portal Second Age, Portal Three
+;Kingdoms, Starter 1999, Start 2000).
+;Defaults PriorityPortal=7.
+PriorityPortal = 7
+;Priority given to reprint sets (Chronicles, Masters Edition I-IV, Modern
+;Masters).
+;Defaults PriorityReprint=6.
+PriorityReprint = 6
+;Priority given to casual-format sets (Planechase, Archenemy, Commander,
+;Planechase 2012, Commander's Arsenal).
+;Defaults PriorityCasual=4.
+PriorityCasual = 4
+;Priority given to the astral cards and the promotional pseudo-set (used, e.g.,
+;for book inserts like Mana Crypt).
+;Defaults PriorityPromo=3.
+PriorityPromo = 3
+;Priority given to box sets (Battle Royale, Beatdown, and the From the Vault
+;series).
+;Defaults PriorityBox=2.
+PriorityBox = 2
+;Priority given to prebuilt decks (the Duel Decks: X vs. Y series and Premium
+;Decks series).
+;Defaults PriorityDecks=1.
+PriorityDecks = 1
+;If non-empty, all cards are drawn with the given frame type.  This is
+;primarily intended for testing purposes, but can also be used if you only want
+;classic frames, for example.  (Pointing the various configuration files below
+;to Classic.dat is more flexible.)  Valid values are the same as the config
+;file options below (currently Modern, Classic, Timeshift, Futureshift,
+;Planeswalker, Token, Scheme, Plane, and Vanguard), optionally with Nyx added
+;at the start (for example, ForceFrame=NyxClassic); or just Nyx by itself to
+;force the Nyx overlays to display on the normally-chosen frame types.
+;Defaults ForceFrame=
+ForceFrame=
+;Which configuration files to use for each frame type.
+;They're searched for relative to the DuelArt\ directory.
+;
+;Most settings in this configuration file can be overridden in these subfiles.
+;The exceptions are this [Expansions] section (which determines which frame
+;type to use), the entire [fonts] section, text color and placement in the
+;[SmallCard] section, and the RereadConfigOnRedraw setting in the [FullCard]
+;section.
+;
+;Modern frames - normal cards from 8th edition and later.
+;Defaults Modern=Modern.dat
+Modern=Sonic.dat
+;Classic frames - normal cards from earlier than 8th edition, as well as
+;Master's Edition I-IV.
+;Defaults Classic=Classic.dat
+Classic=Sonic.dat
+;Timeshifted frames from the Planar Chaos set.  Which cards are drawn as
+;timeshifted is determined by .\watermarks.csv, using "Timeshifted" as the
+;watermark name (see the documentation for [FullCard]WatermarkLeft below for
+;that file's format) and only if they're drawn with the Planar Chaos expansion
+;symbol (or, if expansion symbols are disabled, would have been drawn with it).
+;Defaults Timeshift=Timeshift.dat
+Timeshift=Sonic.dat
+;Futureshifted frames from the Future Sight set.  Which cards are drawn as
+;futureshifted is determined by .\watermarks.csv, using "Timeshifted" (sic) as
+;the watermark name (see the documentation for [FullCard]WatermarkLeft below
+;for that file's format) and only if they're drawn with the Future Sight
+;expansion symbol (or, if expansion symbols are disabled, would have been drawn
+;with it).
+;Defaults Futureshift=Futureshift.dat
+Futureshift=Sonic.dat
+;Planeswalker frames.  Either New Types 1 or New Types 2 in Manalink.csv must
+;be 1006h (SUBTYPE_PLANESWALKER).
+;Defaults Planeswalker=Planeswalker.dat
+Planeswalker=Sonic.dat
+;Token cards' frames.  All non-effect "cards" that would be represented by a
+;token instead of a physical card in a a physical game of MtG.
+;Defaults Token=Token.dat
+Token=Sonic.dat
+;Scheme cards from the Archenemy casual set.  Either New Types 1 or New Types 2
+;in Manalink.csv must be 1007h (SUBTYPE_SCHEME).
+;Defaults Scheme=Scheme.dat
+Scheme=Sonic.dat
+;Plane cards from the Planechase casual sets.  Either New Types 1 or
+;New Types 2 in Manalink.csv must be 1006h (SUBTYPE_PLANE).
+;Defaults Plane=Plane.dat
+Plane=Sonic.dat
+;Vanguard avatar cards from the Vanguard casual set.  Either New Types 1 or
+;New Types 2 in Manalink.csv must be 100Ah (SUBTYPE_VANGUARD).
+;Defaults Vanguard=Vanguard.dat
+Vanguard=Sonic.dat
+;Internal effects, emblems, data cards, the Rules Engine and Deadbox, etc.
+;Either New Types 1 or New Types 2 in Manalink.csv must be 1FFFh
+;(SUBTYPE_PRIVATE).
+;Defaults Internal=Internal.dat
+Internal=Sonic.dat
+;
+;
+[Counters]
+;Settings for counter display.  (Counters that are put onto a card, not
+;counterspells.)  Can't be overridden for specific frame types.
+;
+;The canonical list of counter types is in src/Manalink.h as enum counter_t.
+;Their tooltip text is in Text.res in order under the heading
+;CUECARD_COUNTERS_SPECIAL.
+;
+;
+;Number of rows in the counter image.
+;Defaults NumRows=12.
+NumRows = 12
+;Number of columns in the counter image.
+;Defaults NumColumns=12.
+NumColumns = 12
+;Filename of the image file containing the individual counter images, relative
+;to CardArt\.  Individual images are taken in column-major and numbered
+;starting from 0: for a 12-by-12 source image, counter #0 (+1/+1 counters) is
+;the one in the upper left, #1 is the one below that, #2 the one third from the
+;top in the leftmost column, #11 is the bottom left, #12 is the topmost in the
+;second column from the left, etc.
+;Defaults Cardcounters=Cardcounters.pic
+Cardcounters=Cardcounters.png
+;If set to 1, render counters through the GDI+ api, which is appallingly slow.
+;
+;If 0, render through GDI, which is appallingly low quality, though noticeably
+;better than before since we let GDI do the alpha blending instead of using a
+;one-bit mask.  Still, as with ability icons, it helps to resize the counters
+;image so that it's the exact size as displayed on screen.  For full-screen
+;1920x1080 (without window borders), it works out to 51x64 pixels per cell; at
+;12x12 cells, that's 612x768.
+;
+;Other values are reserved for future use.
+;
+;Defaults Renderer=0
+Renderer=1
+;
+;
+[CardBack]
+;Settings for drawing the card back.  Can't be overridden for specific frame
+;types.
+;
+;
+;If set to 1, render the card back image through the GDI+ api, which is
+;appallingly slow; it's particularly noticeable while shuffling large decks.
+;If 0, render through GDI, which is appallingly low quality.  Other values are
+;reserved for future use.
+;Defaults CardBackRenderer=1
+Renderer=1
+;
+;
+[SmallCard]
+;Overall settings for smallcards.  Except for variables relating to the color
+;and positioning of title text, the variables here may be overridden in
+;specific frame types' files.
+;
+;Other than the unoverrideable title text variables, none of the settings here
+;are used directly; instead they become the defaults for the more specific
+;settings in the individual frame types' files.
+;
+;
+;If non-zero, draw the artwork behind the frames (which, obviously, will need
+;transparent holes cut into them) on smallcards, rather than on top of them.
+;Defaults ArtFirst=0.
+ArtFirst = 1
+;Position of the card art, expressed as thousandths of total width or height.
+;Defaults ArtLeft=79, ArtTop=161, ArtWidth=860, ArtHeight=786.
+ArtLeft = 46
+ArtTop = 184
+ArtWidth = 917
+ArtHeight = 782
+;Color of outline around edge of artwork.  Not drawn if any value is below 0 or
+;above 255.
+;Defaults ArtOutlineColorR=-1, ArtOutlineColorG=-1, ArtOutlineColorB=-1.
+ArtOutlineColorR = -1
+ArtOutlineColorG = -1
+ArtOutlineColorB = -1
+;Small card frames are drawn in two chunks, so that there's enough vertical
+;height for the comparatibly larger title at the top.  The top of the frame
+;image, coords (0, TitleSourceTop)-(width, TitleSourceTop+TitleSourceHeight),
+;is stretched to (0, 0)-(800, TitleDestHeight); then the upper-central area
+;at (0, FrameSourceTop)-(width, FrameSourceTop+FrameSourceHeight) is stretched
+;to (0, FrameDestTop)-(800, 1120).  The final 800x1120 image is eventually
+;stretched back into a square before being drawn on screen.
+;Defaults TitleSourceTop=4, TitleSourceHeight=15, TitleDestHeight=200,
+;         FrameSourceTop=14, FrameSourceHeight=175, FrameDestStop=144.
+TitleSourceTop = 7
+TitleSourceHeight = 195
+TitleDestHeight = 1074
+FrameSourceTop = 449
+FrameSourceHeight = 17
+FrameDestTop = 1074
+;Color of outline around edge of smallcard.  Not drawn if any value is below 0
+;or above 255.
+;Defaults OutlineColorR=147, OutlineColorG=147, OutlineColorB=147.
+OutlineColorR = 147
+OutlineColorG = 147
+OutlineColorB = 147
+;Bounding box of title text, based on a logical size of 800x1120.
+;Cannot be overriden in a frametype-specific section.
+;Defaults TitleLeft=8, TitleTop=-8, TitleWidth=800, TitleHeight=1120.
+TitleLeft = 30
+TitleTop = 2
+TitleWidth = 730
+TitleHeight = 1120
+;Color of card title text for cards owned by their controller.
+;Cannot be overriden in a frametype-specific section.
+;Defaults TitleOwnedColorR=255, TitleOwnedColorG=255, TitleOwnedColorB=255.
+TitleOwnedColorR = 255
+TitleOwnedColorG = 255
+TitleOwnedColorB = 255
+;Color of card title text shadow for cards owned by their controller.  Not
+;drawn if any value is below 0 or above 255.  Otherwise, it is *always* drawn,
+;even if one or more of the other categories (not owned, can activate, must
+;activate) also applies.
+;Cannot be overriden in a frametype-specific section.
+;Defaults TitleOwnedShadowColorR=47, TitleOwnedShadowColorG=47,
+;         TitleOwnedShadowColorB=47.
+TitleOwnedShadowColorR = 47
+TitleOwnedShadowColorG = 47
+TitleOwnedShadowColorB = 47
+;Offset of card title text shadow relative to card title text for cards owned
+;by their controller.
+;Cannot be overriden in a frametype-specific section.
+;Defaults TitleOwnedShadowOffsetX=12, TitleOwnedShadowOffsetY=12.
+TitleOwnedShadowOffsetX = 8
+TitleOwnedShadowOffsetY = 12
+;Color of card title text for cards owned by their controller that can
+;currently be activated.
+;Cannot be overriden in a frametype-specific section.
+;Defaults TitleOwnedCanActivateColorR=241, TitleOwnedCanActivateColorG=217,
+;         TitleOwnedCanActivateColorB=39.
+TitleOwnedCanActivateColorR = 241
+TitleOwnedCanActivateColorG = 217
+TitleOwnedCanActivateColorB = 39
+;Color of card title text shadow for cards owned by their controller that can
+;currently be activated.  Not drawn if any value is below 0 or above 255.
+;Cannot be overriden in a frametype-specific section.
+;Defaults to TitleOwnedShadowColor{R,G,B}.
+TitleOwnedCanActivateShadowColorR = 47
+TitleOwnedCanActivateShadowColorG = 47
+TitleOwnedCanActivateShadowColorB = 47
+;Offset of card title text shadow relative to card title text for cards owned
+;by their controller that can currently be activated.
+;Cannot be overriden in a frametype-specific section.
+;Defaults to TitleOwnedShadowOffset{X,Y}.
+TitleOwnedCanActivateShadowOffsetX = 8
+TitleOwnedCanActivateShadowOffsetY = 12
+;Color of card title text for cards owned by their controller that must
+;currently be activated.
+;Cannot be overriden in a frametype-specific section.
+;Defaults TitleOwnedMustActivateColorR=255, TitleOwnedMustActivateColorG=148,
+;         TitleOwnedMustActivateColorB=17.
+TitleOwnedMustActivateColorR = 255
+TitleOwnedMustActivateColorG = 148
+TitleOwnedMustActivateColorB = 17
+;Color of card title text shadow for cards owned by their controller that must
+;currently be activated.  Not drawn if any value is below 0 or above 255.
+;Cannot be overriden in a frametype-specific section.
+;Defaults to TitleOwnedShadowColor{R,G,B}.
+TitleOwnedMustActivateShadowColorR = 47
+TitleOwnedMustActivateShadowColorG = 47
+TitleOwnedMustActivateShadowColorB = 47
+;Offset of card title text shadow relative to card title text for cards owned
+;by their controller that must currently be activated.
+;Cannot be overriden in a frametype-specific section.
+;Defaults to TitleOwnedShadowOffset{X,Y}.
+TitleOwnedMustActivateShadowOffsetX = 8
+TitleOwnedMustActivateShadowOffsetY = 12
+;Background color drawn behind card title for cards owned by their controller.
+;Not drawn if any value is below 0 or above 255.  Otherwise, it is *always*
+;drawn, even if the card isn't owned.  (That is, trying to make this visible
+;but the unowned version transparent won't work.  Bummer.)
+;Cannot be overriden in a frametype-specific section.
+;Defaults TitleOwnedBackgroundColorR=-1, TitleOwnedBackgroundColorG=-1,
+;         TitleOwnedBackgroundColorB=-1.
+TitleOwnedBackgroundColorR = -1
+TitleOwnedBackgroundColorG = -1
+TitleOwnedBackgroundColorB = -1
+;Color of card title text for cards not owned by their controller.
+;Cannot be overriden in a frametype-specific section.
+;Defaults to TitleOwnedColor{R,G,B}.
+TitleUnownedColorR = 255
+TitleUnownedColorG = 255
+TitleUnownedColorB = 255
+;Color of card title text shadow for cards not owned by their controller.
+;Not drawn if any value is below 0 or above 255.
+;Cannot be overriden in a frametype-specific section.
+;Defaults to TitleOwnedShadowColor{R,G,B}.
+TitleUnownedShadowColorR = 47
+TitleUnownedShadowColorG = 47
+TitleUnownedShadowColorB = 47
+;Offset of card title text shadow relative to card title text for cards not
+;owned by their controller.
+;Cannot be overriden in a frametype-specific section.
+;Defaults to TitleOwnedShadowOffset{X,Y}.
+TitleUnownedShadowOffsetX = 8
+TitleUnownedShadowOffsetY = 12
+;Color of card title text for cards not owned by their controller that can
+;currently be activated.
+;Cannot be overriden in a frametype-specific section.
+;Defaults to TitleOwnedCanActivateColor{R,G,B}.
+TitleUnownedCanActivateColorR = 241
+TitleUnownedCanActivateColorG = 217
+TitleUnownedCanActivateColorB = 39
+;Color of card title text shadow for cards not owned by their controller that
+;can currently be activated.  Not drawn if any value is below 0 or above 255.
+;Cannot be overriden in a frametype-specific section.
+;Defaults to TitleOwnedCanActivateShadowColor{R,G,B}.
+TitleUnownedCanActivateShadowColorR = 47
+TitleUnownedCanActivateShadowColorG = 47
+TitleUnownedCanActivateShadowColorB = 47
+;Offset of card title text shadow relative to card title text for cards not
+;owned by their controller that can currently be activated.
+;Cannot be overriden in a frametype-specific section.
+;Defaults to TitleOwnedCanActivateShadowOffset{X,Y}.
+TitleUnownedCanActivateShadowOffsetX = 8
+TitleUnownedCanActivateShadowOffsetY = 12
+;Color of card title text for cards not owned by their controller that must
+;currently be activated.
+;Cannot be overriden in a frametype-specific section.
+;Defaults to TitleOwnedMustActivateColor{R,G,B}.
+TitleUnownedMustActivateColorR = 255
+TitleUnownedMustActivateColorG = 148
+TitleUnownedMustActivateColorB = 17
+;Color of card title text shadow for cards not owned by their controller that
+;must currently be activated.  Not drawn if any value is below 0 or above 255.
+;Cannot be overriden in a frametype-specific section.
+;Defaults to TitleOwnedMustActivateShadowColor{R,G,B}.
+TitleUnownedMustActivateShadowColorR = 47
+TitleUnownedMustActivateShadowColorG = 47
+TitleUnownedMustActivateShadowColorB = 47
+;Offset of card title text shadow relative to card title text for cards not
+;owned by their controller that must currently be activated.
+;Cannot be overriden in a frametype-specific section.
+;Defaults to TitleOwnedMustActivateShadowOffset{X,Y}.
+TitleUnownedMustActivateShadowOffsetX = 8
+TitleUnownedMustActivateShadowOffsetY = 12
+;Background color drawn behind card title for cards not owned by their
+;controller.  Not drawn if any value is below 0 or above 255.
+;Cannot be overriden in a frametype-specific section.
+;Defaults TitleUnownedBackgroundColorR=147, TitleUnownedBackgroundColorG=147,
+;         TitleUnownedBackgroundColorB=147.
+TitleUnownedBackgroundColorR = 147
+TitleUnownedBackgroundColorG = 147
+TitleUnownedBackgroundColorB = 147
+;If non-zero, then draw an image (from [Frames]Triggering) over smallcards
+;whose trigger is currently resolving.  It's drawn over the entirety of the
+;smallcard image.
+;Defaults TriggeringVisible=1.
+TriggeringVisible = 1
+;Show current loyalty in the lower right on non-creature planeswalker cards.
+;This won't necessarily be in the planeswalker frame, for instance if it's a
+;token copy or [Expansions]ForceFrame is set.
+;Defaults ShowLoyaltyCurr=0.
+ShowLoyaltyCurr = 1
+;If current loyalty is shown on a planeswalker card, don't draw the generic
+;counters on it.  (Other kinds of counters that somehow make it onto the card
+;are still drawn; and the counters are still there and will be drawn again if
+;the card becomes a creature or stops being a planeswalker.)
+;Defaults LoyaltyCurrSuppressCounters=1.
+LoyaltyCurrSuppressCounters = 1
+;Bounding box for the planeswalker current loyalty numerals in the lower right.
+;Defaults LoyaltyCurrLeft=630, LoyaltyCurrTop=960,
+;         LoyaltyCurrWidth=160, LoyaltyCurrHeight=150.
+LoyaltyCurrLeft = 624
+LoyaltyCurrTop = 953
+LoyaltyCurrWidth = 160
+LoyaltyCurrHeight = 150
+;Bounding box for the planeswalker current loyalty image on non-creature
+;planeswalkers.
+;Defaults LoyaltyCurrBoxLeft=587, LoyaltyCurrBoxTop=920,
+;         LoyaltyCurrBoxWidth=220, LoyaltyCurrBoxHeight=250.
+LoyaltyCurrBoxLeft = 587
+LoyaltyCurrBoxTop = 895
+LoyaltyCurrBoxWidth = 220
+LoyaltyCurrBoxHeight = 250
+;Draw the planeswalker current loyalty image with this alpha value.
+;Defaults LoyaltyCurrAlpha=255.
+LoyaltyCurrAlpha = 255
+;Color of planeswalker current loyalty text.
+;Defaults to TitleOwnedColor{R,G,B}.
+LoyaltyColorR = 255
+LoyaltyColorG = 255
+LoyaltyColorB = 255
+;Color of loyalty text shadow.  Not drawn if any value is below 0 or
+;above 255.
+;Defaults to TitleOwnedShadowColor{R,G,B}.
+LoyaltyShadowColorR = -1
+LoyaltyShadowColorG = -1
+LoyaltyShadowColorB = -1
+;Offset of loyalty text shadow relative to loyalty text.
+;Defaults to TitleOwnedShadowOffset{X,Y}.
+LoyaltyShadowOffsetX = 0
+LoyaltyShadowOffsetY = 0
+;If non-zero, one of the images in CardArt\expansion_symbols.pic will be
+;displayed on smallcards according to the card's expansion and rarity.  The
+;image should contain a grid of 20 x 25 images: four rarities times five
+;expansions wide, and 25 expansions tall.  Transparent borders around the
+;subimages are unnecessary.
+;Defaults ExpansionVisible=0.
+ExpansionVisible = 0
+;Bounding box for the expansion symbols, if they're visible.
+;Defaults ExpansionLeft=587, ExpansionTop=9,
+;         ExpansionWidth=208, ExpansionHeight=147.
+ExpansionLeft = 600
+ExpansionTop = 26
+ExpansionWidth = 171
+ExpansionHeight = 122
+;If non-zero, then expansion symbols aren't drawn for core sets that didn't have
+;them in print (Alpha, Beta, Unlimited, Revised, Fourth Edition, and Fifth
+;Edition).
+;Only meaningful for classic frames; may be set here or in Classic.dat.
+;Defaults ExpansionNoEarlyCoreSets=0.
+ExpansionNoEarlyCoreSets = 0
+;If non-zero, then only the Common symbol is drawn for expansions that didn't
+;indicate rarity in print (Stronghold and earlier, and Portal 2nd Age - the
+;first column in expansion_symbols.pic except for Exodus).
+;Only meaningful for classic frames; may be set here or in Classic.dat.
+;Defaults ExpansionNoEarlyRarity=0.
+ExpansionNoEarlyRarity = 0
+;If set to 1, 2, 3, or 4, then all symbols are forced to a particular rarity:
+;1 is common, 2 is uncommon, 3 is rare, 4 is special/mythic rare.  Overrides
+;ExpansionNoEarlyRarity.
+;Defaults ExpansionForceRarity=0.
+ExpansionForceRarity = 0
+;
+;
+[FullCard]
+;Overall settings for fullcards.  Except for RereadConfigOnRedraw, the
+;variables here may be overridden in specific frame types' files.
+;
+;Other than the unoverrideable RereadConfigOnRedraw variable, none of the
+;settings here are used directly; instead they become the defaults for the more
+;specific settings in the individual frame types' files.
+;
+;
+;If non-zero, then this configuration file is reread whenever a fullcard is
+;drawn, so you don't have to restart Manalink continuously when adjusting the
+;values.  This is, of course, fairly slow, so you don't want to leave it on
+;once you've got settings you like.  It won't work for the [fonts] section, nor
+;reload or rebuild any images, though; and things will break horribly if
+;PowertoughnessBoxVisible or both the ExpansionVisible options were turned off
+;at startup but are turned on later.
+;Cannot be overriden in a frametype-specific section.
+;Defaults RereadConfigOnRedraw=0.
+RereadConfigOnRedraw = 0
+;If non-zero, draw the artwork behind the frames (which, obviously, will need
+;transparent holes cut into them) on fullcards, rather than on top of them.
+;Defaults to [SmallCard]ArtFirst.
+ArtFirst = 1
+;Area of the card frame graphics to stretch when drawing an expanded rules text
+;box.  Express as ten-thousandths of the total width or height.
+;Defaults ExpandTop=6050, ExpandHeight=3220.
+ExpandTop = 6265
+ExpandHeight = 3025
+;
+;The rest of the coordinates here are based on a logical size of 800x1200.
+;
+;Bounding box for the frame.
+;Defaults FrameLeft=24, FrameTop=24, FrameWidth=752, FrameHeight=1152.
+FrameLeft = 24
+FrameTop = 24
+FrameWidth = 752
+FrameHeight = 1152
+;Bounding box for the card name.  Unless CurveManaDiameter is set below, then
+;TitleWidth is ignored for cards with non-empty mana costs, instead being
+;calculated to leave 6 units from the mana cost's left edge.
+;Defaults TitleLeft=40, TitleTop=20, TitleWidth=712, TitleHeight=64.
+TitleLeft = 59
+TitleTop = 49
+TitleWidth = 676
+TitleHeight = 64
+;If non-zero, then the title is centered within its bounding box, rather than
+;being right-aligned within it.  This is done after the width of the bounding
+;box is reduced to account for mana cost, so will probably look bad on frames
+;that can have mana costs.
+;Defaults TitleCenter=0.
+TitleCenter = 0
+;Bounding box for the mana cost in the upper right.  The cost is drawn
+;right-aligned within this box.  Ignored if CurveManaDiameter (below) is
+;positive.
+;Defaults ManaLeft=48, ManaTop=32, ManaWidth=712, ManaHeight=48.
+ManaLeft = 67
+ManaTop = 57
+ManaWidth = 678
+ManaHeight = 46
+;If greater than 0, then instead of drawing the mana cost in the upper right
+;according to ManaLeft/Top/Width/Height, draw them in arbitary positions on the
+;card (according to CurveMana1X/CurveMana1Y, Curvemana2X/CurveMana2Y, etc.)
+;with this value as their diameter.  Intended for futureshifted frames.
+;
+;Don't try to use these to adjust normal mana cost positioning, since setting
+;CurveManaDiameter prevents the title text from accounting for the mana
+;symbols' width.
+;
+;Defaults CurveManaDiameter=0.
+CurveManaDiameter = 0
+;X and Y position of the center of the first mana symbol (the |3 in |3|R|G|G)
+;if CurveManaDiameter is positive.
+;Defaults to CurveMana1X=400, CurveMana1Y=100 (in the middle of the title bar).
+;CurveMana1X = 122
+;CurveMana1Y = 186
+;X and Y position of the center of the second mana symbol (the |R in |3|R|G|G)
+;if CurveManaDiameter is positive.
+;Defaults CurveMana2X=400, CurveMana2Y=100.
+;CurveMana2X = 90
+;CurveMana2Y = 268
+;And so on.  Values up to CurveMana13X/CurveMana13Y are supported, though no
+;Future Sight futureshifted card was printed with more than four (Nacatl
+;War-Pride, Phosphorescent Feast, Tarox Bladewing).
+;These all default to 400/100.
+;CurveMana3X = 73
+;CurveMana3Y = 353
+;CurveMana4X = 73
+;CurveMana4Y = 443
+;CurveMana5X = 87
+;CurveMana5Y = 538
+;CurveMana6X = 140
+;CurveMana6Y = 627
+;Bounding box for the main art.
+;Defaults ArtLeft=80, ArtTop=96, ArtWidth=640, ArtHeight=560.
+ArtLeft = 53
+ArtTop = 123
+ArtWidth = 694
+ArtHeight = 546
+;Color of outline around edge of artwork.  Not drawn if any value is below 0 or
+;above 255.
+;Defaults ArtOutlineColorR=-1, ArtOutlineColorG=-1, ArtOutlineColorB=-1.
+ArtOutlineColorR = -1
+ArtOutlineColorG = -1
+ArtOutlineColorB = -1
+;Bounding box for the type text just below the main art.
+;Defaults TypeLeft=48, TypeTop=660, TypeWidth=590, TypeHeight=60.
+TypeLeft = 59
+TypeTop = 680
+TypeWidth = 596
+TypeHeight = 60
+;Bounding box for rules text (when unexpanded).  This is the area to which text
+;is constrained.
+;Defaults RulestextLeft=92, RulestextTop=736,
+;         RulestextWidth=616, RulestextHeight=336.
+RulestextLeft = 65
+RulestextTop = 759
+RulestextWidth = 650
+RulestextHeight = 321
+;Bounding box for the rules box (when unexpanded).  This is the area to which
+;the frame graphics are stretched to accommodate expansion.
+;Defaults RulesboxLeft=64, RulesboxTop=720,
+;         RulesboxWidth=672, RulesboxHeight=364.
+RulesboxLeft = 45
+RulesboxTop = 736
+RulesboxWidth = 710
+RulesboxHeight = 356
+;Bounding box for watermarks and the large mana symbols on basic lands.  (This
+;is moved upward if the rules box is expanded.)
+;
+;The images should be in CardArt\watermarks.pic and consist of four
+;equally-tall rows of five equally-wide images each.  The first row, left to
+;right, is Black, Blue, Green, Red, and White.  The second row is Azorius,
+;Dimir, Rakdos, Gruul, and Selesnya.  The third row is Orzhov, Golgari, Simic,
+;Izzet, and Boros.  The fourth row is Phyrexian, Mirran, and three unused.
+;
+;The ten guild watermarks on lines two and three all got changed somewhat for
+;the Return to Ravnica block.  I suppose these variants should be supported.
+;I couldn't find usable art when putting these together, though and I'm frankly
+;tired of trying to get these to look reasonably good without including two
+;dozen different variants of each watermark (one for each background they can
+;appear on).  So if someone wants to make the images, let me know and I'll send
+;you the psd.
+;
+;Which cards get which watermarks is determined by .\watermarks.csv.  Each line
+;should consist of a card id number (from manalink.csv), a semicolon, and a
+;watermark name; optionally followed by a semicolon and comment.  If a negative
+;number is seen for the id, no further lines are read - useful for documenting
+;e.g. split cards with different watermarks on each half that can't be fully
+;displayed right now.  (Of course, those could have been done by picking one
+;half to display and documenting the other half in the comment, but I chose to
+;leave them entirely unwatermarked.)
+;
+;Watermarks can be disabled by emptying out watermarks.csv, or emptying it
+;except for the five basic lands at the top if you want to keep those.
+;
+;Defaults WatermarkLeft=230, WatermarkTop=736,
+;         WatermarkWidth=340, WatermarkHeight=340.
+WatermarkLeft = 230
+WatermarkTop = 753
+WatermarkWidth = 340
+WatermarkHeight = 340
+;If non-zero, always display Phyrexian, Mirran, and Ravnica guild watermarks on
+;matching cards, no matter the expansion.  Normally, these are only shown for
+;Duel Decks: Izzet vs. Golgari, Modern Masters, and the nine expansions in the
+;Ravnica, Scars of Mirrodin, and Return to Ravnica blocks (should there be
+;others?), as determined by the displayed expansion symbol (or the expansion
+;symbol that would be displayed if they're turned off).  Relevant for cards
+;reprinted in or from these blocks (e.g. Disperse gets the Mirran watermark
+;when shown with the Scars of Mirrodin expansion symbol, but not if shown with
+;the Morningtide symbol from its original printing or the Magic 2014 symbol
+;from its later reprint).
+;Defaults WatermarkOutsideSet=0.
+WatermarkOutsideSet = 0
+;Bounding box for the power/toughness in the lower right.
+;Defaults PowertoughnessLeft=44, PowertoughnessTop=1084,
+;         PowertoughnessWidth=704, PowertoughnessHeight=72.
+PowertoughnessLeft = 589
+PowertoughnessTop = 1087
+PowertoughnessWidth = 148
+PowertoughnessHeight = 72
+;If non-zero, then power/toughness in the lower right are centered within their
+;bounding box, rather than being right-aligned within it.  (Note, though, that
+;the default bounding box extends the entire width of the card.)
+;Defaults PowertoughnessCenter=0.
+PowertoughnessCenter = 1
+;If non-zero, one of the images in [Frames]Powertoughness will be displayed
+;according to the card's overall color whenever power/toughness numerals are.
+;Defaults PowertoughnessBoxVisible=0.
+PowertoughnessBoxVisible = 1
+;If non-zero, then use futureshift-appropriate logic to choose which
+;power/toughness box to use.  Also alters the required layout of the
+;Powertoughness image; see documentation at [Frames]Powertoughness.
+;Defaults ExtendedPowertoughness=0.
+ExtendedPowertoughness = 0
+;Bounding box for the power/toughness box, if it's visible.
+;Defaults PowertoughnessBoxLeft=553, PowertoughnessBoxTop=1064,
+;         PowertoughnessBoxWidth=201, PowertoughnessBoxHeight=105.
+PowertoughnessBoxLeft = 549
+PowertoughnessBoxTop = 1076
+PowertoughnessBoxWidth = 214
+PowertoughnessBoxHeight = 102
+;Show base loyalty in the lower right on non-creature planeswalker cards.  This
+;won't necessarily be in the planeswalker frame, for instance if it's a token
+;copy or [Expansions]ForceFrame is set.  If disabled, base loyalty will be
+;shown in text on the type line.
+;Defaults ShowLoyaltyBase=0.
+ShowLoyaltyBase = 0
+;Bounding box for the planeswalker base loyalty numerals in the lower right.
+;Defaults LoyaltyBaseLeft=660, LoyaltyBaseTop=1092,
+;         LoyaltyBaseWidth=110, LoyaltyBaseHeight=72.
+LoyaltyBaseLeft = 662
+LoyaltyBaseTop = 1097
+LoyaltyBaseWidth = 110
+LoyaltyBaseHeight = 72
+;Bounding box for the planeswalker base loyalty image on non-creature
+;planeswalkers.
+;Defaults LoyaltyBaseBoxLeft=640, LoyaltyBaseBoxTop=1075,
+;         LoyaltyBaseBoxWidth=140, LoyaltyBaseBoxHeight=105.
+LoyaltyBaseBoxLeft = 640
+LoyaltyBaseBoxTop = 1077
+LoyaltyBaseBoxWidth = 142
+LoyaltyBaseBoxHeight = 95
+;Show loyalty costs on the left side of planeswalker cards.  This won't
+;necessarily be in the planeswalker frame, for instance if it's a token copy or
+;[Expansions]ForceFrame is set.  If disabled, loyalty costs will be shown as
+;part of the rules text.
+;Defaults ShowLoyaltyCost=0.
+ShowLoyaltyCost = 0
+;Bounding box for planeswalker loyalty cost numerals on the left.
+;Defaults LoyaltyCostLeft=30, LoyaltyCostTop=-12,
+;         LoyaltyCostWidth=80, LoyaltyCostHeight=50.
+LoyaltyCostLeft = 35
+LoyaltyCostTop = -12
+LoyaltyCostWidth = 80
+LoyaltyCostHeight = 50
+;Bounding box for planeswalker loyalty cost images on planeswalkers.  Top is
+;given as an offset from the vertical midpoint of its associated text.
+;Defaults LoyaltyCostBoxLeft=20, LoyaltyCostBoxTop=-27,
+;         LoyaltyCostBoxWidth=101, LoyaltyCostBoxHeight=88.
+LoyaltyCostBoxLeft = 13
+LoyaltyCostBoxTop = -31
+LoyaltyCostBoxWidth = 140
+LoyaltyCostBoxHeight = 99
+;If the top of a planeswalker's loyalty ability text is within this many units
+;of the bottom of the RulesText, don't draw its cost image and text at all.
+;Defaults LoyaltyCull=50.
+LoyaltyCull = 50
+;If a loyalty box's bottom would be lower than the bottom edge of the RulesText
+;plus this many units, move it upward.
+;Defaults LoyaltyLowest=-30.
+LoyaltyLowest = -30
+;If non-zero, one of the images in CardArt\expansion_symbols.pic will be
+;displayed on fullcards according to the card's expansion and rarity.
+;Defaults ExpansionVisible=1.
+ExpansionVisible = 1
+;Bounding box for the expansion symbols, if they're visible.
+;Defaults ExpansionLeft=630, ExpansionTop=666,
+;         ExpansionWidth=104, ExpansionHeight=53.
+ExpansionLeft = 655
+ExpansionTop = 686
+ExpansionWidth = 90
+ExpansionHeight = 46
+;If non-zero, then expansion symbols aren't drawn for core sets that didn't
+;have them in print (Alpha, Beta, Unlimited, Revised, Fourth Edition, and Fifth
+;Edition).
+;Only meaningful for classic frames; may be set here or in Classic.dat.
+;Defaults to [SmallCard]ExpansionNoEarlyCoreSets.
+ExpansionNoEarlyCoreSets = 0
+;If non-zero, then only the Common symbol is drawn for expansions that didn't
+;indicate rarity in print (Stronghold and earlier, and Portal 2nd Age - the
+;first column in expansion_symbols.pic except for Exodus).
+;Only meaningful for classic frames; may be set here or in Classic.dat.
+;Defaults to [SmallCard]ExpansionNoEarlyRarity.
+ExpansionNoEarlyRarity = 0
+;If set to 1, 2, 3, or 4, then all symbols are forced to a particular rarity:
+;1 is common, 2 is uncommon, 3 is rare, 4 is special/mythic rare.  Overrides
+;ExpansionNoEarlyRarity.
+;Defaults to [SmallCard]ExpansionForceRarity.
+ExpansionForceRarity = 0
+;If non-zero, then cards with abilities while they're in the graveyard get
+;[Frames]Tombstone overlaid.  This includes, for example, cards with continuous
+;ablities like Anger, cards that reanimate themselves like Ichorid, and cards
+;with Dredge, Flashback, Unearth, Retrace, and Scavenge.
+;Defaults TombstoneVisible=0.
+TombstoneVisible = 0
+;Offset of title text when the tombstone icon is visible.  This is added to
+;TitleLeft and subtracted from TitleWidth.
+;Defaults TombstoneTitleOffset=28.
+TombstoneTitleOffset = 0
+;Location of tombstone icon if it's visible.
+;Defaults TombstoneLeft=32, TombstoneTop=32,
+;         TombstoneWidth=32, TombstoneHeight=48.
+TombstoneLeft = 30
+TombstoneTop = 32
+TombstoneWidth = 30
+TombstoneHeight = 46
+;If non-zero, then draw an icon (from [Frames]TypeIcon) depending on type.
+;Intended for futureshifted frames.
+;Defaults TypeIconVisible=0.
+TypeIconVisible = 0
+;If non-zero, then if a Tombstone is drawn, then don't draw the type icon.
+;Primarily intended for Bridge from Below.
+;Defaults TypeIconSuppressedByTombstone=0.
+TypeIconSuppressedByTombstone = 0
+;Location of type icon if it's visible.
+;Defaults TypeIconLeft=35, TypeIconTop=35, TypeIconWidth=50, TypeIconHeight=55.
+;TypeIconLeft = 35
+;TypeIconTop = 35
+;TypeIconWidth = 50
+;TypeIconHeight = 55
+;Diameters (not radii!) of rounding for card corners.
+;Defaults RoundingX=12, RoundingY=12.
+RoundingX = 12
+RoundingY = 12
+;Color of card border.
+;Defaults BorderColorR=28, BorderColorG=28, BorderColorB=28.
+BorderColorR = 28
+BorderColorG = 28
+BorderColorB = 28
+;Color of outline around frame.  Not drawn if any value is below 0 or above
+;255.  Typically you'll want to set this for white borders.
+;Defaults OutlineColorR=-1, OutlineColorG=-1, OutlineColorB=-1.
+OutlineColorR = -1
+OutlineColorG = -1
+OutlineColorB = -1
+;Color of card title text.
+;Defaults TitleColorR=255, TitleColorG=255, TitleColorB=255.
+TitleColorR = 255
+TitleColorG = 255
+TitleColorB = 255
+;Color of card title text shadow.  Not drawn if any value is below 0 or above
+;255.
+;Defaults TitleShadowColorR=47, TitleShadowColorG=47, TitleShadowColorB=47.
+TitleShadowColorR = 47
+TitleShadowColorG = 47
+TitleShadowColorB = 47
+;Offset of card title text shadow relative to card title text.
+;Defaults TitleShadowOffsetX=4, TitleShadowOffsetY=4.
+TitleShadowOffsetX = 4
+TitleShadowOffsetY = 4
+;Color of power/toughness text.
+;Defaults to TitleColor{R,G,B}.
+PowertoughnessColorR = 255
+PowertoughnessColorG = 255
+PowertoughnessColorB = 255
+;Color of power/toughness text shadow.  Not drawn if any value is below 0 or
+;above 255.
+;Defaults to TitleShadowColor{R,G,B}.
+PowertoughnessShadowColorR = 47
+PowertoughnessShadowColorG = 47
+PowertoughnessShadowColorB = 47
+;Offset of power/toughness text shadow relative to power/toughness text.
+;Defaults to TitleShadowOffset{X,Y}.
+PowertoughnessShadowOffsetX = 4
+PowertoughnessShadowOffsetY = 4
+;Color of planeswalker loyalty text, both base value in the lower right and the
+;modifiers along the left.
+;Defaults to TitleColor{R,G,B}.
+LoyaltyColorR = 255
+LoyaltyColorG = 255
+LoyaltyColorB = 255
+;Color of loyalty text shadow.  Not drawn if any value is below 0 or
+;above 255.
+;Defaults to TitleShadowColor{R,G,B}.
+LoyaltyShadowColorR = -1
+LoyaltyShadowColorG = -1
+LoyaltyShadowColorB = -1
+;Offset of loyalty text shadow relative to loyalty text.
+;Defaults to TitleShadowOffset{X,Y}.
+LoyaltyShadowOffsetX = 0
+LoyaltyShadowOffsetY = 0
+;Color of type text.
+;Defaults to TitleColor{R,G,B}.
+TypeColorR = 255
+TypeColorG = 255
+TypeColorB = 255
+;Color of type text shadow.  Not drawn if any value is below 0 or above 255.
+;Defaults to TitleShadowColor{R,G,B}.
+TypeShadowColorR = 47
+TypeShadowColorG = 47
+TypeShadowColorB = 47
+;Offset of type text shadow relative to type text.
+;Defaults to TitleShadowOffset{X,Y}.
+TypeShadowOffsetX = 4
+TypeShadowOffsetY = 4
+;Color of rules and flavor text.
+;Defaults RulestextColorR=47, RulestextColorG=47, RulestextColorB=47.
+RulestextColorR = 47
+RulestextColorG = 47
+RulestextColorB = 47
+;Use this color for the title text and type text on colorless, monowhite, and
+;multicolor lands and artifact lands, colorless, monowhite artifacts, and
+;multicolor artifacts, colorless, monowhite, and gold spells, and
+;partially-white hybrid spells instead of TitleColor and TypeColor.  Also used
+;for power/toughness text on the appropriate boxes instead of
+;PowertoughnessColor, but only if PowertoughnessBoxVisible and
+;ExtendedPowertoughness are nonzero.  Use the normal colors instead if any
+;value is below 0 or above 255.  Shadow color and visibility is unchanged.
+;Intended for futureshifted frames.
+;Defaults TitleOnLightColorR=-1, TitleOnLightColorG=-1, TitleOnLightColorB=-1.
+TitleOnLightColorR = -1
+TitleOnLightColorG = -1
+TitleOnLightColorB = -1
+;Use this color for the title text and type text on hybrid white/black spells
+;instead of TitleColor, TypeColor, or TitleOnLightColor.  Use one of those
+;instead if any value is below 0 or above 255.  Shadow color and visibility is
+;unchanged.  Intended for futureshifted frames.
+;Defaults TitleOnWhiteBlackColorR=-1, TitleOnWhiteBlackColorG=-1,
+;         TitleOnWhiteBlackColorB=-1.
+TitleOnWhiteBlackColorR = -1
+TitleOnWhiteBlackColorG = -1
+TitleOnWhiteBlackColorB = -1
+;Use this color for the rules text on lands and artifact lands that aren't
+;colorless, monowhite, partially-white two-color, or gold instead of
+;RulestextColor.  Use the normal RulestextColor instead if any value is below 0
+;or above 255.  Shadow color and visibility is unchanged.  Intended for
+;futureshifted frames.
+;Defaults RulesOnDarkLandColorR=-1, RulesOnDarkLandColorG=-1,
+;         RulesOnDarkLandColorB=-1.
+RulesOnDarkLandColorR = -1
+RulesOnDarkLandColorG = -1
+RulesOnDarkLandColorB = -1
+;Use this color for the rules text on two-color white/black lands and artifact
+;lands instead of either RulestextColor or RulesOnDarkLandColor.  Use one of
+;those instead of if any value is below 0 or above 255.  Shadow color and
+;visibility is unchanged.  Intended for futureshifted frames.
+;Defaults RulesOnWhiteBlackLandColorR=-1, RulesOnWhiteBlackLandColorG=-1,
+;         RulesOnWhiteBlackLandColorB=-1.
+RulesOnWhiteBlackLandColorR = -1
+RulesOnWhiteBlackLandColorG = -1
+RulesOnWhiteBlackLandColorB = -1
+;
+;
+[Frames]
+;Overall settings for frame artwork, both for smallcards and fullcards.  The
+;variables here may be overridden for specific frame types' files.
+;
+;None of the settings here are used directly; instead they become the defaults
+;for the more specific settings in the individual frame types' files.
+;
+;
+;Percent of a hybrid frame's width that should be a blend of its two source
+;frames.  (This includes two-color lands, like Rootbound Crag, two-color
+;artifacts, like Mage Slayer, and two-color gold cards, like Apocalypse Hydra,
+;in addition to true hybrid cards like Gruul Guildmage.)
+;
+;For example, when set to 20, a white-blue hybrid card will be 40% white, 40%
+;blue, and 20% a blend.  Two-color frames are disabled if this is below 0, and
+;the gold frame normally used for three or more colors will be displayed
+;instead.  Values above 100 are valid, though, and result in an image where
+;even the far left and right are still a blend.
+;
+;Defaults PercentMixedOnHybrid=30.
+PercentMixedOnHybrid = 30
+;If non-zero, two-color lands from expansions earlier than Classic Sixth
+;Edition are drawn with the gold land frame instead of a hybrid, just as if
+;PercentMixedOnHybrid were set below 0.
+;Only meaningful for classic frames; may be set here or in Classic.dat.
+;Defaults NoEarlyHybridLand=0
+NoEarlyHybridLand = 0
+;If set to 1, two-color cards (other than lands and artifacts) whose colors
+;have been changed are drawn with the hybrid frame instead of the gold one.
+;(This is fairly uncommon, since most color change effects replace colors
+;instead of adding to them.)
+;
+;If set to 2, all two-color cards (other than lands and artifacts) are drawn
+;with the hybrid frame instead of the gold one.
+;
+;Defaults TwoColorAsHybrid=0.
+TwoColorAsHybrid = 0
+;If non-zero, then two-color, non-hybrid, spells and artifacts are drawn the
+;same as 3/4/5-color ones - that is, with CardBk_Gold+CardOv_Gold, or
+;CardBk_Artifact+CardOv_GoldArtifact, not (for example) CardBk_Gold + a hybrid
+;of CardBk_R/CardBk_G.  An active TwoColorAsHybrid takes precedence over this.
+;Defaults TwoColorAsGold=0.
+TwoColorAsGold = 0
+;If set to -1 or below, CardBk_Colorless + CardOv_Colorless are used for
+;colorless non-land, non-artifact cards, and are handled identically to other
+;frames.
+;
+;Otherwise, for colorless non-land, non-artifact cards, ignore ArtworkFirst;
+;the art is first stretched over the entire frame, and only CardOv_Colorless is
+;drawn over it.  Additional options are set by adding together the numbers
+;below:
+;
+;+1: The art is also drawn in its normal place on fullcards, which alleviates
+;the distortion a bit.  (The smallcard art is always over the whole card area
+;for non-negative values.)
+;
+;+2: No frame at all is drawn on smallcards.
+;
+;+4: After drawing the smallcard art stretched to the whole card area, then the
+;CardOv_Colorless frame overlay on top of it, draw the smallcard art again,
+;clipped to its normal bounding box (but still stretched to the full area).
+;You'll want this if your CardOv_Colorless would normally draw over the normal
+;art area.
+;
+;Defaults TranslucentColorless=-1.
+TranslucentColorless = -1
+;If TranslucentColorless is non-negative, draw CardOv_Colorless with this alpha
+;value.
+;Defaults ColorlessAlpha=255.
+ColorlessAlpha = 255
+;If set to -1 or below, colorless face-down creatures are drawn like any other
+;colorless card (that is, according to TranslucentColorless).  Otherwise, this
+;is used as a replacement for TranslucentColorless, and their FullCards use the
+;CardBack artwork.
+;Defaults FaceDownCreature=-1.
+FaceDownCreature = 2
+;If set to 1, artifact lands are drawn with CardBk_Artifact + the
+;appropriately-colored CardOv_*Land overlays, so that they're visually
+;distinctive from non-artifact lands.
+;
+;If set to 2, the land overlay is drawn over an artifact-land hybrid frame.
+;
+;If set to 3, they're drawn as a hybrid colored artifact/colored land.  (The
+;difference between this and 2 is that the left half of the textbox, borders,
+;and text/type lines are drawn in the lighter shade used by spells and colored
+;artifacts.)
+;
+;Defaults ArtifactLand=0.
+ArtifactLand = 0
+;If set to 1, then all non-effect cards are forced to use the colorless
+;non-land non-artifact frames, and so only CardBk_Special, CardOv_ColorlessNyx,
+;and one or both of CardBk_Colorless and CardOv_Colorless (depending on
+;TranslucentColorless) are used.
+;
+;If set to 2, then effect cards use the colorless non-land non-artifact frames
+;too (and so only CardOv_ColorlessNyx, CardBk_Colorless, and CardOv_Colorless
+;are used).
+;
+;Defaults ForceColorless=0.
+ForceColorless = 0
+;The directory, relative to CardArt\, in which frame images are searched for.
+;Individual images can further alter this, e.g. to search for most images in
+;CardArt\dir1 but for CardBk_Artifact in CardArt\dir2, you'd use
+;FrameBaseDir=dir1 and CardBk_Artifact=..\dir2\CardBk_Artifact.pic.
+;
+;FrameBaseDir and settings for individual artwork files are overridden
+;separately in the frame-specific sections below.  In the common case where
+;FrameBaseDir is set in a frame-specific section but a specific image's setting
+;is not, it will use the directory set in e.g. Modern.dat's
+;[Frames]FrameBaseDir but the filename set here in [Frames].
+;
+;To make an unoverriden file in a specific directory always be the one read
+;despite an overridden FrameBaseDir, incorporate that directory into the
+;filename in the [Frames] section, so that CardArt\FrameBaseDir\Filename always
+;ends up referring to it.  For example, if every FrameBaseDir used is a
+;subdirectory of .\CardArt (such as "modern", hence .\CardArt\modern\, or
+;"classic", hence .\CardArt\classic\), to make all frame types use
+;.\CardArt\modern\CardOv_WNyx.png for white multitype enchantments, set
+;CardOv_WNyx to "..\modern\CardOv_WNyx.png".
+;
+;Defaults FrameBaseDir=.
+FrameBaseDir=modern
+;If set to nonempty in a frame-specific configuration file, then any other
+;images for that frame type that aren't explicitly overridden in that file use
+;this image instead.  (Normally, they use the corresponding image in Duel.dat.)
+;Primarily intended for frame types with few or no variations for color or
+;type, such as Archenemy schemes, Planechase planes, and Vanguard avatars.
+;Defaults DefaultImage=
+DefaultImage=DefaultImage.png
+;The image to use for activation/effect/legacy cards.  Typically a garish
+;orange.
+;Defaults CardBk_Special=CardBk_Special.pic
+CardBk_Special=CardBk_Special.png
+;The base image to use for artifact cards.  It gets either CardOv_Artifact
+;composited onto it for colorless artifacts; one of CardOv_BArtifact,
+;CardOv_UArtifact, CardOv_GArtifact, CardOv_RArtifact, or CardOv_WArtifact for
+;single-color colored artifacts; CardOv_GoldBar over a horizontal blend of two
+;of CardOv_BGoldArtifact, CardOv_UGoldArtifact, CardOv_GGoldArtifact,
+;CardOv_RGoldArtifact, or CardOv_WGoldArtifact for two-color artifacts; or
+;CardOv_GoldArtifact for three/four/five-color artifacts.  It may also be used
+;for artifact lands, depending on your ArtifactLand setting.
+;Defaults CardBk_Artifact=CardBk_Artifact.pic
+CardBk_Artifact=CardBk_Artifact.png
+;The base image to use for gold (non-artifact, non-land, non-hybrid) cards.  It
+;gets either CardOv_Gold composited onto it for three/four/five-color spells,
+;or CardOv_GoldBar over a horizontal blend of two of CardOv_BGold,
+;CardOv_UGold, CardOv_GGold, CardOv_RGold, or CardOv_WGold for two-color
+;spells.
+;Defaults CardBk_Gold=CardBk_Gold.pic
+CardBk_Gold=CardBk_Gold.png
+;The base image to use for land cards.  It gets either CardOv_ColorlessLand
+;composited onto it for colorless or non-mana-producing lands, CardOv_GoldLand
+;for three/four/five-color lands, or either one or a horizontal blend of two of
+;CardOv_BLand, CardOv_ULand, CardOv_GLand, CardOv_RLand, or CardOv_WLand for
+;one- or two-color lands.  CardOv_LandBar is also drawn on two-color lands.
+;Defaults CardBk_Land=CardBk_Land.pic
+CardBk_Land=CardBk_Land.png
+;The base image to use for colorless (non-artifact, non-land) cards.  It gets
+;CardOv_Colorless composited onto it.  Modified by TranslucentColorless.
+;Defaults CardBk_Colorless=CardBk_Colorless.pic
+CardBk_Colorless=CardBk_Colorless.png
+;The base image to use for white (non-artifact, non-land) cards.  It gets
+;CardOv_White composited onto it; and the result is used to create hybrid white
+;cards.
+;Defaults CardBk_White=CardBk_White.pic
+CardBk_White=CardBk_White.png
+;Identical to CardBk_White, but for blue spells, and gets CardOv_U composited.
+;Defaults CardBk_Blue=CardBk_Blue.pic
+CardBk_Blue=CardBk_Blue.png
+;Identical to CardBk_White, but for black spells, and gets CardOv_B composited.
+;Defaults CardBk_Black=CardBk_Black.pic
+CardBk_Black=CardBk_Black.png
+;Identical to CardBk_White, but for red spells, and gets CardOv_R composited.
+;Defaults CardBk_Red=CardBk_Red.pic
+CardBk_Red=CardBk_Red.png
+;Identical to CardBk_White, but for green spells, and gets CardOv_G composited.
+;Defaults CardBk_Green=CardBk_Green.pic
+CardBk_Green=CardBk_Green.png
+;The inner border, title/type-line background, and rules text box of colorless
+;artifact cards.  It gets composited onto CardBk_Artifact, and optionally the
+;result is used as the left half of colorless artifact lands (depending on your
+;ArtifactLand setting).
+;Defaults CardOv_Artifact=CardOv_Artifact.pic
+CardOv_Artifact=CardOv_Artifact.png
+;The inner border, title/type-line background, and rules text box of
+;three/four/five-color gold (non-artifact) spells.  It gets composited onto
+;CardBk_Gold.
+;Defaults CardOv_Gold=CardOv_Gold.pic
+CardOv_Gold=CardOv_Gold.png
+;The inner border, title/type-line background, and rules text box of
+;three/four/five-color gold artifacts.  It gets composited onto
+;CardBk_Artifact, and optionally the result is used as the left half of
+;three/four/five-color mana-producing artifact lands (like a City of Brass
+;altered by a Memnarch) depending on your ArtifactLand setting.
+;Defaults CardOv_GoldArtifact=CardOv_GoldArtifact.pic
+CardOv_GoldArtifact=CardOv_Gold.png
+;The inner border, title/type-line background, and rules text box of colorless
+;(non-artifact, non-land) cards.  It gets composited onto CardBk_Colorless, but
+;might get used by itself depending on your TranslucentColorless setting.
+;Defaults CardOv_Colorless=CardOv_Colorless.pic
+CardOv_Colorless=CardOv_Colorless.png
+;The inner border, title/type-line background, and rules text box of
+;three/four/five-color lands.  It gets composited onto CardBk_Land, and
+;optionally the result is used as the right half of three/four/five-color
+;mana-producing artifact lands depending on your ArtifactLand setting.
+;Defaults CardOv_GoldLand=CardOv_GoldLand.pic
+CardOv_GoldLand=CardOv_Gold.png
+;The inner border, title/type-line background, and rules text box of colorless
+;lands.  It gets composited onto CardBk_Land.  Optionally forms parts of
+;artifact lands, depending on your ArtifactLand setting.
+;Defaults CardOv_ColorlessLand=CardOv_ColorlessLand.pic
+CardOv_ColorlessLand=CardOv_ColorlessLand.png
+;The inner border, title/type-line background, and rules text box of
+;single-color white (non-artifact) spells and half of hybrid white spells.  It
+;gets composited onto CardBk_White.
+;Defaults CardOv_W=CardOv_W.pic
+CardOv_W=CardOv_W.png
+;Identical to CardOv_W, but for blue spells and composited onto CardBk_Blue.
+;Defaults CardOv_U=CardOv_U.pic
+CardOv_U=CardOv_U.png
+;Identical to CardOv_W, but for black spells composited onto CardBk_Black.
+;Defaults CardOv_B=CardOv_B.pic
+CardOv_B=CardOv_B.png
+;Identical to CardOv_W, but for red spells composited onto CardBk_Red.
+;Defaults CardOv_R=CardOv_R.pic
+CardOv_R=CardOv_R.png
+;Identical to CardOv_W, but for green spells composited onto CardBk_Green.
+;Defaults CardOv_G=CardOv_G.pic
+CardOv_G=CardOv_G.png
+;The inner border, title/type-line background, and rules text box of
+;single-color white artifacts.  It gets composited onto CardBk_Artifact, and
+;the result may be used for white or half-white artifact lands, depending on
+;your ArtifactLand setting.
+;Defaults CardOv_WArtifact=CardOv_WArtifact.pic
+CardOv_WArtifact=CardOv_W.png
+;Identical to CardOv_WArtifact, but for blue artifacts.
+;Defaults CardOv_UArtifact=CardOv_UArtifact.pic
+CardOv_UArtifact=CardOv_U.png
+;Identical to CardOv_WArtifact, but for black artifacts.
+;Defaults CardOv_BArtifact=CardOv_BArtifact.pic
+CardOv_BArtifact=CardOv_B.png
+;Identical to CardOv_WArtifact, but for red artifacts.
+;Defaults CardOv_RArtifact=CardOv_RArtifact.pic
+CardOv_RArtifact=CardOv_R.png
+;Identical to CardOv_WArtifact, but for green artifacts.
+;Defaults CardOv_GArtifact=CardOv_GArtifact.pic
+CardOv_GArtifact=CardOv_G.png
+;The title/type-line background for a two-color gold spell or artifact.  It
+;gets composited on top of either CardBk_Gold and two of CardOv_{color}Gold; or
+;CardBk_Artifact and two of CardOv_{color}GoldArtifact.  (It doesn't get
+;applied on a three- or more-colored gold spell or artifact; it's assumed to
+;always be in the CardOv_Gold and CardOv_GoldArtifact images themselves.)
+;Defaults CardOv_GoldBar=CardOv_GoldBar.pic
+CardOv_GoldBar=CardOv_GoldBar.png
+;The inner border, title/type-line background, and rules text box of half of a
+;two-color, partially white (non-hybrid, non-artifact) spell.  It gets
+;composited onto CardBk_Gold, and then CardOv_GoldBar is composited on top of
+;the result.
+;Defaults CardOv_WGold=CardOv_WGold.pic
+CardOv_WGold=CardOv_W.png
+;Identical to CardOv_WGold, but for partially-blue two-color spells.
+;Defaults CardOv_UGold=CardOv_UGold.pic
+CardOv_UGold=CardOv_U.png
+;Identical to CardOv_WGold, but for partially-black two-color spells.
+;Defaults CardOv_BGold=CardOv_BGold.pic
+CardOv_BGold=CardOv_B.png
+;Identical to CardOv_WGold, but for partially-red two-color spells.
+;Defaults CardOv_RGold=CardOv_RGold.pic
+CardOv_RGold=CardOv_R.png
+;Identical to CardOv_WGold, but for partially-green two-color spells.
+;Defaults CardOv_GGold=CardOv_GGold.pic
+CardOv_GGold=CardOv_G.png
+;The inner border, title/type-line background, and rules text box of half of a
+;two-color, partially white artifact.  It gets composited onto CardBk_Artifact,
+;and then CardOv_GoldBar is composited on top of the result.
+;Defaults CardOv_WGoldArtifact=CardOv_WGoldArtifact.pic
+CardOv_WGoldArtifact=CardOv_W.png
+;Identical to CardOv_WGoldArtifact, but for partially-blue two-color artifacts.
+;Defaults CardOv_UGoldArtifact=CardOv_UGoldArtifact.pic
+CardOv_UGoldArtifact=CardOv_U.png
+;Identical to CardOv_WGoldArtifact, but for partially-black two-color
+;artifacts.
+;Defaults CardOv_BGoldArtifact=CardOv_BGoldArtifact.pic
+CardOv_BGoldArtifact=CardOv_B.png
+;Identical to CardOv_WGoldArtifact, but for partially-red two-color artifacts.
+;Defaults CardOv_RGoldArtifact=CardOv_RGoldArtifact.pic
+CardOv_RGoldArtifact=CardOv_R.png
+;Identical to CardOv_WGoldArtifact, but for partially-green two-color
+;artifacts.
+;Defaults CardOv_GGoldArtifact=CardOv_GGoldArtifact.pic
+CardOv_GGoldArtifact=CardOv_G.png
+;The title/type-line background for a two-color land.  It gets composited on
+;top of CardBk_Land and two of CardOv_{color}Land.  (It doesn't get applied on
+;a three- or more-colored land; the CardOv_GoldLand image itself is assumed to
+;color the title and type backgrounds itself.)
+;Defaults CardOv_LandBar=CardOv_LandBar.pic
+CardOv_LandBar=CardOv_LandBar.png
+;The inner border, title/type-line background, and rules text box of white and
+;two-color partially white lands, composited onto CardBk_Land.  It also always
+;ends up in some form on white and partially-white artifact lands, though the
+;precise method depends on your ArtifactLand setting.
+;Defaults CardOv_WLand=CardOv_WLand.pic
+CardOv_WLand=CardOv_WLand.png
+;Identical to CardOv_WLand, but for blue and two-color partially blue lands.
+;Defaults CardOv_ULand=CardOv_ULand.pic
+CardOv_ULand=CardOv_ULand.png
+;Identical to CardOv_WLand, but for black and two-color partially black lands.
+;Defaults CardOv_BLand=CardOv_BLand.pic
+CardOv_BLand=CardOv_BLand.png
+;Identical to CardOv_WLand, but for red and two-color partially red lands.
+;Defaults CardOv_RLand=CardOv_RLand.pic
+CardOv_RLand=CardOv_RLand.png
+;Identical to CardOv_WLand, but for green and two-color partially green lands.
+;Defaults CardOv_GLand=CardOv_GLand.pic
+CardOv_GLand=CardOv_GLand.png
+;The Theros Nyx stars frame elements.  These are composited immediately after
+;the CardBk layer and before any other CardOv layers.  They're usually only
+;drawn on cards from the Theros block, but will also be drawn on any other card
+;that's both an enchantment and some other type besides tribal.  This can be
+;seen with Copy Artifact or Enchanted Evening; by animating an enchantment with
+;Opalescence; or by making an enchantment part-artifact with e.g. Memnarch or
+;Liquimetal Coating.
+;
+;The Theros Nyx stars frame element for artifact (non-land) cards, including
+;colored artifacts.
+;Defaults CardOv_ArtifactNyx=CardOv_ArtifactNyx.pic
+CardOv_ArtifactNyx=CardOv_Nyx.png
+;The Theros Nyx stars frame element for colorless (non-artifact, non-land)
+;cards.
+;This does not currently appear on a printed card, but will be drawn if a
+;multitype enchantment is made to be colorless, or a colorless permanent spell
+;is made to be a partial enchantment.
+;Defaults CardOv_ColorlessNyx=CardOv_ColorlessNyx.pic
+CardOv_ColorlessNyx=CardOv_Nyx.png
+;The Theros Nyx stars frame element for land (non-artifact) cards.
+;This does not currently appear on a printed card, but will be drawn if an
+;enchantment is made to also be a land or vice-versa.
+;Defaults CardOv_LandNyx=CardOv_LandNyx.pic
+CardOv_LandNyx=CardOv_Nyx.png
+;The Theros Nyx stars frame element for gold (non-artifact) spells.
+;This does not currently appear on a printed card, but will be drawn if a
+;multitype enchantment acquires a second color and TwoColorAsHybrid is 0, or a
+;gold card becomes a multitype enchantment.
+;Defaults CardOv_GoldNyx=CardOv_GoldNyx.pic
+CardOv_GoldNyx=CardOv_Nyx.png
+;The Theros Nyx stars frame element for white (non-artifact) spells.
+;Defaults CardOv_WNyx=CardOv_WNyx.pic
+CardOv_WNyx=CardOv_Nyx.png
+;The Theros Nyx stars frame element for blue (non-artifact) spells.
+;Defaults CardOv_UNyx=CardOv_UNyx.pic
+CardOv_UNyx=CardOv_Nyx.png
+;The Theros Nyx stars frame element for black (non-artifact) spells.
+;Defaults CardOv_BNyx=CardOv_BNyx.pic
+CardOv_BNyx=CardOv_Nyx.png
+;The Theros Nyx stars frame element for red (non-artifact) spells.
+;Defaults CardOv_RNyx=CardOv_RNyx.pic
+CardOv_RNyx=CardOv_Nyx.png
+;The Theros Nyx stars frame element for green (non-artifact) spells.
+;Defaults CardOv_GNyx=CardOv_GNyx.pic
+CardOv_GNyx=CardOv_Nyx.png
+;The image to use for the tombstone icon, if the card has a graveyard ability
+;and [FullCard]TombstoneVisible is 1.
+;Defaults Tombstone=Tombstone.pic
+Tombstone=..\modern\Tombstone.png
+;The image to use for power/toughness boxes, if power/toughness numbers are
+;displayed and [FullCard]PowertoughnessBoxVisible is 1.  The image should have
+;a height that is a multiple of eight, with boxes arranged white, blue, black,
+;red, green, colorless, gold, and artifact from top to bottom, each with a
+;completely transparent border at least one pixel wide (thus at least two
+;transparent pixels between subimages).
+;
+;If [FullCard]ExtendedPowertoughness is nonzero, then the image's width should
+;be a multiple of three, with the second and third columns being variants for
+;multicolor-gold and multicolor-land cards.  Certain cells are unused:
+;colorless/multicolor-gold; gold/normal and gold/multicolor-land; and
+;artifact/multicolor-gold and artifact/multicolor-land.  The
+;colorless/multicolor-land cell is used for colorless lands.
+;
+;Defaults Powertoughness=Powertoughness.pic
+Powertoughness=Powertoughness.png
+;The image to use for type icons (for futureshifts).  The image should have
+;have eight columns and two rows.  The columns, from left to right, are for
+;artifact, creature, enchantment, instant, land, multiple types, planeswalker,
+;and sorcery.  The rows, from top to bottom, are dark-colored images to be
+;drawn on light backgrounds (artifact, colorless, white, and gold), and
+;light-colored images to be drawn on dark backgrounds (blue, black, green, and
+;red).  For two-color cards, the background is determined from the color on the
+;left half.  All artifacts have a light background (judging from Sarcomite
+;Myr), while two-color lands have colored backgrounds.
+;Defaults TypeIcon=TypeIcon.pic
+TypeIcon=TypeIcon.png
+;The image to draw over smallcards whose trigger is currently resolving, if
+;[SmallCard]TriggeringVisible is nonzero.
+;Defaults Triggering=Triggering.pic
+Triggering=..\modern\Triggering.png
+;The images to use for planeswalker base/current loyalty, positive loyalty
+;modifier, zero loyalty modifier, and negative loyalty modifier respectively.
+;Defaults LoyaltyBase=LoyaltyBase.pic, LoyaltyPlus=LoyaltyPlus.pic,
+;         LoyaltyZero=LoyaltyZero.pic, LoyaltyMinus=LoyaltyMinus.pic.
+LoyaltyBase=..\planeswalker\LoyaltyBase.png
+LoyaltyPlus=..\planeswalker\LoyaltyPlus.png
+LoyaltyZero=..\planeswalker\LoyaltyZero.png
+LoyaltyMinus=..\planeswalker\LoyaltyMinus.png

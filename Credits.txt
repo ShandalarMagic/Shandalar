@@ -1,0 +1,447 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Original  Magic: The Gathering®  Game Design
+   Richard Garfield
+
+
+
+          DUELS OF THE PLANESWALKERS
+
+Producer
+   Alessandro De Lucia
+
+Game Design
+   David Etheredge
+
+
+Programming
+   Robert Colbert
+   Chris Taormino
+   Jim Thomas
+
+Additional Programming
+   Kim Crouse
+
+Art
+   Frank Frazier, Lead Artist
+   Todd Bilger
+   Betsy Kirk
+
+Sound Recording and Engineering
+   Mark Reis
+
+Server DemiGod
+   Kevin Ray
+
+Documentation
+   John Possidente
+
+Product Marketing Managers
+   Steve Haney, US
+   Lisa Humphries, Europe
+
+Creative Services
+   Kathryn Lynch
+   Jerome Paterno
+   Rick Rasay
+   Reiko Yamamoto
+
+
+Quality Assurance
+   Tom Falzone, Supervisor
+   Chrispy Bowling, Project Lead
+   Kevin Bane, Assistant Lead
+
+QA Staff
+
+ HUNT VALLEY
+
+   Bob Abe
+   Paul Ambrose
+   Tim Beggs
+   Matt Bittman
+   Ellie Crawley
+   Jim Crawley
+   Alan Denham
+   Mike Dubose
+   Grant Frazier
+   Michael Gibbons
+   Mark Gutknecht
+   Rosalie Kofsky
+   Jason Lego
+   Tim McCracken
+   Roscoe Possidente
+   Steve Purdie
+   John Ross
+   Rick Saffery
+   Mike Seal
+   Jeff Smith
+
+ ALAMEDA
+
+   Chris Evans
+   Scott Crisostomo
+
+Wizards of the Coast Liaisons
+   René Flores
+   Emily Arons
+   Jim Butler
+
+           TOTAL ENTERTAINMENT NETWORK
+
+Game Integration
+  Norman Morse
+  Stas Bondarenko
+
+Server Design & Architecture
+  Tom Balon
+  Howard Berkey
+  Gil Alvarez
+  Marvin Plettner
+
+Art and Design
+  Joanna Escolar
+
+Editorial
+  Robert Geidt
+
+Lead Testers
+  Alan Chan
+  Dennis Farnden
+
+Testers
+  Paul Franco
+  David Goodson
+  Frank Murphy
+
+Build Engineer
+  Vlad Gitlevich
+
+VP Studio Ops
+  Lance Kelly
+
+Chief Technical Officer
+  Dave King
+
+Executive Producer
+  Don Walters
+
+Business Development
+  Greg Harper
+
+
+Very Special Thanks
+   Daniel Berner
+   Jan-Maree Bourgeois
+   Shirley Carlson
+   Sarah Collins
+   Doru Culiac
+   Skaff Elias
+   Chaz Elliott
+   Karen Ffinch
+   Karol Fuentes
+   Karen Kapscady
+   Mendy Lowe
+   Joel Mick
+   Yasuyo Nohara
+   Marisa Ong
+   Juliane Parsons
+   Lenny Raymond
+   Roland Rizzo
+   Bill Rose
+   Sammy the WonderBeagle
+   Henry Stern
+   Rob Stewart
+   Pete Venters
+   Rob Voce
+   Tom Wylie
+
+Original  Magic: The Gathering®  Graphic Design
+   Jesper Myrfors
+   Christopher Rush
+   Lisa Stevens
+
+
+
+
+          SPELLS OF THE ANCIENTS
+
+Producer
+   Alessandro De Lucia
+
+Game Design
+   David Etheredge
+
+Additional Design
+   Todd Bilger
+
+
+Programming
+   Jim Thomas
+   Kim Crouse
+
+Additional Programming
+   Chris Taormino
+   Ned Way
+   Robert Colbert
+
+
+Art
+   Frank Frazier, Lead Artist
+   Todd Bilger
+   Betsy Kirk
+
+
+Sound Recording and Engineering
+   Mark Reis
+
+
+Documentation
+   John Possidente
+
+
+Product Marketing Managers
+   Steve Haney, US
+   Lisa Humphries, Europe
+
+Creative Services
+   Kathryn Lynch
+   Jerome Paterno
+   Reiko Yamamoto
+
+
+Quality Assurance
+   Tom Falzone, Supervisor
+   Chrispy Bowling, Project Lead
+   Wm. David Possidente, Lead
+   Steve Purdie, Lead
+
+Staff
+   Bob Abe
+   Paul Ambrose
+   Kevin Bane
+   Kellie Bass
+   Brandi Boone
+   Ellie Crawley
+   Jim Crawley
+   Mike Dubose
+   Grant Frazier
+   Michael Gibbons
+   Mark Gutknecht
+   Rosalie Kofsky
+   Brandon Martin
+   Rex Martin
+   Tim McCracken
+   Nick Price
+   John Ross
+   Rick Saffery
+   Mike Seal
+
+
+Rules Consultant
+   Beth Moursund
+
+Wizards of the Coast Liaisons
+   René Flores
+   Emily Aarons
+   Jim Butler
+
+Very Special Thanks
+   Kerry Wilkinson
+   Rob Cloutier
+   Roland Rizzo
+   Marisa Ong
+   Tom Wylie
+   Rob Voce
+   Mendy Lowe
+   Jan-Maree Madigan
+   Rob Stewart
+   Henry Stern
+   Skaff Elias
+
+
+
+
+          MAGIC: The Gathering®
+
+
+Producer
+   David Etheredge
+   with Ned Way
+
+Game Design
+   Sid Meier
+   David Etheredge
+   with Todd Bilger
+
+
+Programming
+   Sid Meier
+   Kim Crouse
+   Ned Way
+   Jim Thomas
+   Chris Taormino
+   Dave McKibbin
+   Dave Evans
+
+
+Art
+   Frank Frazier, Lead Artist
+   Todd Bilger
+   Kevin Boehm
+   Charlie Shenton
+   Stacey Clark Tranter
+   Barbara Jeznach
+   Matt Bell
+   Frank Vivirito
+   Barbara Bents Miller
+   Betsy Kirk
+   Bob Kathman
+   Greg Foertsch
+   David Inscore
+   Dan Mycka
+   Katharine Seman
+   Murray Taylor, Art Director
+
+Additional Art
+   Jerome Atherholt
+   Michael Bazzell
+   Nicolas Rusko-Berger
+   Michael Haire, Art Director
+
+
+Music Composed & Arranged By
+   Roland Rizzo
+
+Sound Recording & Engineering
+   Mark G. Reis
+   with Mark Cromer
+
+
+Multimedia Tutorial
+   Mike Ely, Producer/Director
+   Tim Train, Asst. Producer
+
+Tutorial Cast & Crew
+   Wizard:         Regi Davis
+   Sorceress:      Rhea Seehorn
+   Ogre:           Brad Howard
+   Black Knight:   Tim Train
+   Elves & Zombies:
+                   Makela Spielman
+                   Linda Lowe
+                   Tom O'Connor
+   Costumes:       A.T. Jones
+   Elf costumes:   Susan James
+   Make-up:        Ellen Tannen
+
+Shot and Composited at Spicer Productions
+Baltimore, Maryland
+
+
+Documentation
+   John Possidente
+   Zoe U'Prichard, Help System
+
+
+Product Marketing Manager
+   Stephen Haney, U.S.
+   Lisa Humphries, Europe
+
+Creative Services
+   Kathryn Lynch
+   Jerome Paterno
+   Rick Rasay
+   Reiko Yamamoto
+
+
+Quality Assurance
+   Chrispy Bowling, Lead Tester
+   Jim Crawley
+   Don Emmel
+   Brandon Martin
+   Rex Martin
+   Joe Morel
+   Robin Pole
+   Wm. David Possidente
+   Steve Purdie
+   Rick Saffery
+   Jun Yun
+   Bob Abe, QA Manager
+
+Additional Testing
+   Rocco Martinez, Test Coordinator
+   Beth Moursund, Rules Consultant
+   Sarah Heacock
+   Kathy Abe
+   Chris Evans
+   Guy Lamarr
+   Neil McEwan
+   Dan McJilton
+   Marisa Ong
+
+
+Wizards of the Coast Liaisons
+   David Lee
+   Dan Cervelli
+
+Very Special Thanks
+   Mick Uhl
+   Kerry Wilkinson
+   Don Howard, Gaffer
+   Marisa Ong
+   Christine Manley
+   Matt Fick
+   Lindsay Riehl
+   Paula Scarfone
+   Tony Parks
+   Jeff Briggs
+   Peter Adkison
+   Lisa Stevens
+   Darla Willis
+   Tom Wylie
+
+and of course,
+   Richard Garfield
+
+
+

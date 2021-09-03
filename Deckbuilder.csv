@@ -1,0 +1,3081 @@
+Card Name,Game ID,Original Set,,Additional Cardsets,,,,Mana Sources,Types of Mana Generated,,,,
+aaaaaaaaa,,,Rarity,3rd Ed. (Revised),4th Edition,a5th Edition,Chronicles,White,Blue,Black,Red,Green,Colorless
+Air Elemental,0000,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Ancestral Recall,0001,Unlimited,R,-,-,-,-,-,-,-,-,-,-
+Animate Artifact,0002,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Animate Dead,0003,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Animate Wall,0004,Unlimited,R ,R,R,R,-,-,-,-,-,-,-
+Ankh of Mishra,0005,Unlimited,R ,R,R,R,-,-,-,-,-,-,-
+Armageddon,0006,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Aspect of Wolf,0007,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Bad Moon,0008,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Badlands,0009,Unlimited,R,R,-,-,-,-,-,1,1,-,-
+Balance,0010,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Basalt Monolith,0011,Unlimited,U,U,-,-,-,-,-,-,-,-,1
+Bayou,0012,Unlimited,R,R,-,-,-,-,-,1,-,1,-
+Benalish Hero,0013,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Berserk,0014,Unlimited,U,-,-,-,-,-,-,-,-,-,-
+Birds of Paradise,0015,Unlimited,R,R,R,R,-,1,1,1,1,1,-
+Black Knight,0016,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Black Lotus,0017,Unlimited,R,-,-,-,-,1,1,1,1,1,-
+Black Vise,0018,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Black Ward,0019,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Blaze of Glory,0020,Unlimited,R,-,-,-,-,-,-,-,-,-,-
+Blessing,0021,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Blue Elemental Blast,0022,Unlimited,C,C,C,-,-,-,-,-,-,-,-
+Blue Ward,0023,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Bog Wraith,0024,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Braingeyser,0025,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+Burrowing,0026,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Camouflage,0027,Unlimited,U,-,-,-,-,-,-,-,-,-,-
+Castle,0028,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Celestial Prism,0029,Unlimited,U,U,U,-,-,1,1,1,1,1,-
+Channel,0030,Unlimited,U,U,U,-,-,-,-,-,-,-,1
+Chaos Orb,0031,Unlimited,R,-,-,-,-,-,-,-,-,-,-
+Chaoslace,0032,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Circle of Protection: Black,0033,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Circle of Protection: Blue,0034,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Circle of Protection: Green,0035,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Circle of Protection: Red,0036,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Circle of Protection: White,0037,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Clockwork Beast,0038,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Clone,0039,Unlimited,U,U,-,-,-,-,-,-,-,-,-
+Cockatrice,0040,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Consecrate Land,0041,Unlimited,U,-,-,-,-,-,-,-,-,-,-
+Conservator,0042,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Contract from Below,0043,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+Control Magic,0044,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Conversion,0045,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Copper Tablet,0046,Unlimited,U,-,-,-,-,-,-,-,-,-,-
+Copy Artifact,0047,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+Counterspell,0048,Unlimited,U,U,U,C,-,-,-,-,-,-,-
+Craw Wurm,0049,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Creature Bond,0050,Unlimited,C,C,C,-,-,-,-,-,-,-,-
+Crusade,0051,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Crystal Rod,0052,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Cursed Land,0053,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Cyclopean Tomb,0054,Unlimited,R,-,-,-,-,-,-,-,-,-,-
+Dark Ritual,0055,Unlimited,C,C,C,C,-,-,-,1,-,-,-
+Darkpact,0056,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+Death Ward,0057,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Deathgrip,0058,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Deathlace,0059,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Demonic Attorney,0060,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+Demonic Hordes,0061,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+Demonic Tutor,0062,Unlimited,U,U,-,-,-,-,-,-,-,-,-
+Dingus Egg,0063,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Disenchant,0064,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Disintegrate,0065,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Disrupting Scepter,0066,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Dragon Whelp,0067,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Drain Life,0068,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Drain Power,0069,Unlimited,R,R,R,R,-,1,1,1,1,1,1
+Drudge Skeletons,0070,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Dwarven Demolition Team,0071,Unlimited,U,-,-,-,-,-,-,-,-,-,-
+Dwarven Warriors,0072,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Earth Elemental,0073,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Earthbind,0074,Unlimited,C,C,-,-,-,-,-,-,-,-,-
+Earthquake,0075,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Elvish Archers,0076,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Evil Presence,0077,Unlimited,3E,-,U,U,-,-,-,-,-,-,-
+False Orders,0078,Unlimited,C,-,-,-,-,-,-,-,-,-,-
+Farmstead,0079,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+Fastbond,0080,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+Fear,0081,Unlimited,3E,-,C,C,-,-,-,-,-,-,-
+Feedback,0082,Unlimited,3E,-,U,U,-,-,-,-,-,-,-
+Fire Elemental,0083,Unlimited,3E,-,U,-,-,-,-,-,-,-,-
+Fireball,0084,Unlimited,3E,C,C,C,-,-,-,-,-,-,-
+Firebreathing,0085,Unlimited,3E  ,-,C,C,-,-,-,-,-,-,-
+Flashfires,0086,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Flight,0087,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Fog,0088,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Force of Nature,0089,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Forcefield,0090,Unlimited,R,-,-,-,-,-,-,-,-,-,-
+Forest,0091,Unlimited,L8,L8,L8,L,-,-,-,-,-,1,-
+Fork,0092,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+Frozen Shade,0093,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Fungusaur,0094,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Gaea's Liege,0095,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Gauntlet of Might,0096,Unlimited,R,-,-,-,-,-,-,-,1,-,-
+Giant Growth,0097,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Giant Spider,0098,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Glasses of Urza,0099,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Gloom,0100,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Goblin Balloon Brigade,0101,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Goblin King,0102,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Granite Gargoyle,0103,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+Gray Ogre,0104,Unlimited,C,C,C,-,-,-,-,-,-,-,-
+Green Ward,0105,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Grizzly Bears,0106,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Guardian Angel,0107,Unlimited,C,C,-,-,-,-,-,-,-,-,-
+Healing Salve,0108,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Helm of Chatzuk,0109,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Hill Giant,0110,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Holy Armor,0111,Unlimited,C,C,C,-,-,-,-,-,-,-,-
+Holy Strength,0112,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Howl from Beyond,0113,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Howling Mine,0114,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Hurloon Minotaur,0115,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Hurricane,0116,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Hypnotic Specter,0117,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Ice Storm,0118,Unlimited,U,-,-,-,-,-,-,-,-,-,-
+Icy Manipulator,0119,Unlimited,U,-,-,-,-,-,-,-,-,-,-
+Illusionary Mask,0120,Unlimited,R,-,-,-,-,-,-,-,-,-,-
+Instill Energy,0121,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Invisibility,0122,Unlimited,C,-,-,-,-,-,-,-,-,-,-
+Iron Star,0123,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Ironclaw Orcs,0124,Unlimited,C,-,C,C,-,-,-,-,-,-,-
+Ironroot Treefolk,0125,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Island,0126,Unlimited,L8,L8,L8,L,-,-,1,-,-,-,-
+Island Sanctuary,0127,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Ivory Cup,0128,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Jade Monolith,0129,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Jade Statue,0130,Unlimited,U,-,-,-,-,-,-,-,-,-,-
+Jayemdae Tome,0131,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Juggernaut,0132,Unlimited,U,U,-,-,-,-,-,-,-,-,-
+Jump,0133,Unlimited,C,C,C,-,-,-,-,-,-,-,-
+Karma,0134,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Keldon Warlord,0135,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Kormus Bell,0136,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Kudzu,0137,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+Lance,0138,Unlimited,U,U,-,-,-,-,-,-,-,-,-
+Ley Druid,0139,Unlimited,U,U,U,C,-,1,1,1,1,1,1
+Library of Leng,0140,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Lich,0141,Unlimited,R,-,-,-,-,-,-,-,-,-,-
+Lifeforce,0142,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Lifelace,0143,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Lifetap,0144,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Lightning Bolt,0145,Unlimited,C,C,C,-,-,-,-,-,-,-,-
+Living Artifact,0146,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Living Lands,0147,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Living Wall,0148,Unlimited,U,U,-,-,-,-,-,-,-,-,-
+Llanowar Elves,0149,Unlimited,C,C,C,C,-,-,-,-,-,1,-
+Lord of Atlantis,0150,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Lord of the Pit,0151,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Lure,0152,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Magical Hack,0153,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Mahamoti Djinn,0154,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Mana Flare,0155,Unlimited,R,R,R,R,-,1,1,1,1,1,1
+Mana Short,0156,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Mana Vault,0157,Unlimited,R,R,R,R,-,-,-,-,-,-,1
+Manabarbs,0158,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Meekstone,0159,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Merfolk of the Pearl Trident,0160,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Mesa Pegasus,0161,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Mind Twist,0162,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Mons Goblin Raiders,0163,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Mountain,0164,Unlimited,L8,L8,L8,L,-,-,-,-,1,-,-
+Mox Emerald,0165,Unlimited,R,-,-,-,-,-,-,-,-,1,-
+Mox Jet,0166,Unlimited,R,-,-,-,-,-,-,1,-,-,-
+Mox Pearl,0167,Unlimited,R,-,-,-,-,1,-,-,-,-,-
+Mox Ruby,0168,Unlimited,R,-,-,-,-,-,-,-,1,-,-
+Mox Sapphire,0169,Unlimited,R,-,-,-,-,-,1,-,-,-,-
+Natural Selection,0170,Unlimited,R,-,-,-,-,-,-,-,-,-,-
+Nether Shadow,0171,Unlimited,3E,-,R,R,-,-,-,-,-,-,-
+Nettling Imp,0172,Unlimited,U,U,-,-,-,-,-,-,-,-,-
+Nevinyrral's Disk,0173,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Nightmare,0174,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Northern Paladin,0175,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Obsianus Golem,0176,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Orcish Artillery,0177,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Orcish Oriflamme,0178,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Paralyze,0179,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Pearled Unicorn,0180,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Personal Incarnation,0181,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Pestilence,0182,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Phantasmal Forces,0183,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Phantasmal Terrain,0184,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Phantom Monster,0185,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Pirate Ship,0186,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Plague Rats,0187,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Plains,0188,Unlimited,L9,L9,L9,L,-,1,-,-,-,-,-
+Plateau,0189,Unlimited,R,R,-,-,-,1,-,-,1,-,-
+Power Leak,0190,Unlimited,C,C,C,-,-,-,-,-,-,-,-
+Power Sink,0191,Unlimited,C,C,C,U,-,-,-,-,-,-,-
+Power Surge,0192,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Prodigal Sorcerer,0193,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Psionic Blast,0194,Unlimited,U,-,-,-,-,-,-,-,-,-,-
+Psychic Venom,0195,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Purelace,0196,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Raging River,0197,Unlimited,R,-,-,-,-,-,-,-,-,-,-
+Raise Dead,0198,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Red Elemental Blast,0199,Unlimited,C,C,C,-,-,-,-,-,-,-,-
+Red Ward,0200,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Regeneration,0201,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Regrowth,0202,Unlimited,U,U,-,-,-,-,-,-,-,-,-
+Resurrection,0203,Unlimited,U,U,-,-,-,-,-,-,-,-,-
+Reverse Damage,0204,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Righteousness,0205,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Roc of Kher Ridges,0206,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+Rock Hydra,0207,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+Rod of Ruin,0208,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Royal Assassin,0209,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Sacrifice,0210,Unlimited,U,U,-,-,-,-,-,1,-,-,-
+Samite Healer,0211,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Savannah,0212,Unlimited,R,R,-,-,-,1,-,-,-,1,-
+Savannah Lions,0213,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Scathe Zombies,0214,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Scavenging Ghoul,0215,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Scrubland,0216,Unlimited,R,R,-,-,-,1,-,1,-,-,-
+Scryb Sprites,0217,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Sea Serpent,0218,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Sedge Troll,0219,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+Sengir Vampire,0220,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Serra Angel,0221,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Shanodin Dryads,0222,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Shatter,0223,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Shivan Dragon,0224,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Simulacrum,0225,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Sinkhole,0226,Unlimited,C,-,-,-,-,-,-,-,-,-,-
+Siren's Call,0227,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Sleight of Mind,0228,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Smoke,0229,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Sol Ring,0230,Unlimited,U,U,-,-,-,-,-,-,-,-,1
+Soul Net,0231,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Spell Blast,0232,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Stasis,0233,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Steal Artifact,0234,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Stone Giant,0235,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Stone Rain,0236,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Stream of Life,0237,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Sunglasses of Urza,0238,Unlimited,R,R,R,-,-,-,-,-,1,-,-
+Swamp,0239,Unlimited,L8,L8,L8,L,-,-,-,1,-,-,-
+Swords to Plowshares,0240,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Taiga,0241,Unlimited,R,R,-,-,-,-,-,-,1,1,-
+Terror,0242,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+The Hive,0243,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Thicket Basilisk,0244,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Thoughtlace,0245,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Throne of Bone,0246,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Timber Wolves,0247,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Time Vault,0248,Unlimited,R,-,-,-,-,-,-,-,-,-,-
+Time Walk,0249,Unlimited,R,-,-,-,-,-,-,-,-,-,-
+Timetwister,0250,Unlimited,R,-,-,-,-,-,-,-,-,-,-
+Tranquility,0251,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Tropical Island,0252,Unlimited,R,R,-,-,-,-,1,-,-,1,-
+Tsunami,0253,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Tundra,0254,Unlimited,R,R,-,-,-,1,1,-,-,-,-
+Tunnel,0255,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Twiddle,0256,Unlimited,C ,-,C,C,-,-,-,-,-,-,-
+Two Headed Giant of Foriys,0257,Unlimited,R,-,-,-,-,-,-,-,-,-,-
+Underground Sea,0258,Unlimited,R,R,-,-,-,-,1,1,-,-,-
+Unholy Strength,0259,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Unsummon,0260,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Uthden Troll,0261,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Verduran Enchantress,0262,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Vesuvan Doppleganger,0263,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+Veteran Bodyguard,0264,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+Volcanic Eruption,0265,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Volcanic Island,0266,Unlimited,R,R,-,-,-,-,1,-,1,-,-
+Wall of Air,0267,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Wall of Bone,0268,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Wall of Brambles,0269,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Wall of Fire,0270,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Wall of Ice,0271,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Wall of Stone,0272,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Wall of Swords,0273,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Wall of Water,0274,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Wall of Wood,0275,Unlimited,C,C,C,-,-,-,-,-,-,-,-
+Wanderlust,0276,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+War Mammoth,0277,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Warp Artifact,0278,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Water Elemental,0279,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Weakness,0280,Unlimited,C,C,C,C,-,-,-,-,-,-,-
+Web,0281,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Wheel of Fortune,0282,Unlimited,R,R,-,-,-,-,-,-,-,-,-
+White Knight,0283,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+White Ward,0284,Unlimited,U,U,U,-,-,-,-,-,-,-,-
+Wild Growth,0285,Unlimited,C,C,C,C,-,-,-,-,-,1,-
+Will-O'-The-Wisp,0286,Unlimited,R,R,R,-,-,-,-,-,-,-,-
+Winter Orb,0287,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Wooden Sphere,0288,Unlimited,U,U,U,U,-,-,-,-,-,-,-
+Word of Command,0289,Unlimited,R,-,-,-,-,-,-,-,-,-,-
+Wrath of God,0290,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Zombie Master,0291,Unlimited,R,R,R,R,-,-,-,-,-,-,-
+Amnesia,0292,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Angry Mob,0293,Dark,U2,-,U,U,-,-,-,-,-,-,-
+Ashes to Ashes,0294,Dark,C3,-,U,U,-,-,-,-,-,-,-
+Ball Lightning,0295,Dark,U1,-,R,R,-,-,-,-,-,-,-
+Banshee,0296,Dark,U2,-,-,-,U3,-,-,-,-,-,-
+Barl's Cage,0297,Dark,U1,-,-,R,U1,-,-,-,-,-,-
+Dark Heart of the Wood,0298,Dark,C3,-,-,-,-,-,-,-,-,-,-
+Blood Moon,0299,Dark,U1,-,-,-,U1,-,-,-,-,-,-
+Apprentice Wizard,0300,Dark,U1,-,C,-,-,-,-,-,-,-,1
+Blood of the Martyr,0301,Dark,U2,-,-,-,U3,-,-,-,-,-,-
+Bone Flute,0302,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Brainwash,0303,Dark,C3,-,C,C,-,-,-,-,-,-,-
+Brothers of Fire,0304,Dark,U2,-,C,C,-,-,-,-,-,-,-
+Carnivorous Plant,0305,Dark,C3,-,C,-,-,-,-,-,-,-,-
+Cave People,0306,Dark,U1,-,U,U,-,-,-,-,-,-,-
+City of Shadows,0307,Dark,U1,-,-,-,-,-,-,-,-,-,1
+Coal Golem,0308,Dark,U2,-,-,-,-,-,-,-,1,-,-
+Dance of Many,0309,Dark,U1,-,-,R,U1,-,-,-,-,-,-
+Deep Water,0310,Dark,C3,-,-,-,-,-,1,-,-,-,-
+Dust to Dust,0311,Dark,C3,-,-,U,-,-,-,-,-,-,-
+Eater of the Dead,0312,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Elves of Deep Shadow,0313,Dark,U2,-,-,-,-,-,-,1,-,-,-
+Erosion,0314,Dark,C3,-,C,-,-,-,-,-,-,-,-
+Eternal Flame,0315,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Exorcist,0316,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Fasting,0317,Dark,U2,-,-,-,U3,-,-,-,-,-,-
+Fellwar Stone,0318,Dark,U2,-,U,U,-,1,1,1,1,1,1
+Fire and Brimstone,0319,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Fire Drake,0320,Dark,U2,-,-,U,U3,-,-,-,-,-,-
+Fissure,0321,Dark,C3,-,C,-,-,-,-,-,-,-,-
+Scarwood Hag,0322,Dark,U2,-,-,-,-,-,-,-,-,-,-
+People of the Woods,0323,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Fountain of Youth,0324,Dark,U2,-,-,U,C2,-,-,-,-,-,-
+Frankenstein's Monster,0325,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Ghost Ship,0326,Dark,C3,-,U,-,-,-,-,-,-,-,-
+Giant Shark,0327,Dark,C3,-,-,-,-,-,-,-,-,-,-
+Spitting Slug,0328,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Goblin Caves,0329,Dark,C3,-,-,-,-,-,-,-,-,-,-
+Goblin Hero,0330,Dark,C3,-,-,C,-,-,-,-,-,-,-
+Goblin Wizard,0331,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Goblins of the Flarg,0332,Dark,C3,-,-,-,C3,-,-,-,-,-,-
+Grave Robbers,0333,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Gaea's Touch,0334,Dark,C3,-,-,-,-,-,-,-,-,1,-
+Hidden Path,0335,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Bog Imp,0336,Dark,C3,-,C,C,-,-,-,-,-,-,-
+Inferno,0337,Dark,U1,-,R,R,-,-,-,-,-,-,-
+Knights of Thorn,0338,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Land Leeches,0339,Dark,C3,-,C,-,-,-,-,-,-,-,-
+Leviathan,0340,Dark,U1,-,R,R,-,-,-,-,-,-,-
+Living Armor,0341,Dark,U2,-,-,-,C2,-,-,-,-,-,-
+Lurker,0342,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Mana Clash,0343,Dark,U1,-,R,R,-,-,-,-,-,-,-
+Mana Vortex,0344,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Martyr's Cry,0345,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Mind Bomb,0346,Dark,U1,-,U,U,-,-,-,-,-,-,-
+Morale,0347,Dark,C3,-,C,-,-,-,-,-,-,-,-
+Necropolis,0348,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Orc General,0349,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Bog Rats,0350,Dark,C3,-,-,C,C3,-,-,-,-,-,-
+Preacher,0351,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Psychic Allergy,0352,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Book of Rass,0353,Dark,U2,-,-,-,U1,-,-,-,-,-,-
+Reflecting Mirror,0354,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Riptide,0355,Dark,C3,-,-,-,-,-,-,-,-,-,-
+Runesword,0356,Dark,U2,-,-,-,C2,-,-,-,-,-,-
+Safe Haven,0357,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Scarecrow,0358,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Season of the Witch,0359,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Sisters of the Flame,0360,Dark,U2,-,C,-,-,-,-,-,1,-,-
+Skull of Orm,0361,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Standing Stones,0362,Dark,U2,-,-,-,-,1,1,1,1,1,-
+Stone Calender,0363,Dark,U1,-,-,-,-,-,-,-,-,-,1
+Sunken City,0364,Dark,C3,-,C,-,-,-,-,-,-,-,-
+Marsh Gas,0365,Dark,C3,-,C,-,-,-,-,-,-,-,-
+Marsh Goblins,0366,Dark,C3,-,-,-,-,-,-,-,-,-,-
+Cleansing,0367,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Tormod's Crypt,0368,Dark,U2,-,-,-,C2,-,-,-,-,-,-
+Dark Sphere,0369,Dark,U2,-,-,-,-,-,-,-,-,-,-
+The Drowned,0370,Dark,C3,-,-,-,-,-,-,-,-,-,-
+Murk Dwellers,0371,Dark,C3,-,C,C,-,-,-,-,-,-,-
+The Fallen,0372,Dark,U2,-,-,-,U3,-,-,-,-,-,-
+Niall Silvain,0373,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Inquisition,0374,Dark,C3,-,-,-,-,-,-,-,-,-,-
+Holy Light,0375,Dark,C3,-,-,-,-,-,-,-,-,-,-
+Diabolic Machine,0376,Dark,U2,-,U,U,-,-,-,-,-,-,-
+Maze of Ith,0377,Dark,C1,-,-,-,-,-,-,-,-,-,-
+Nameless Race,0378,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Tower of Coireall,0379,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Tracker,0380,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Sorrow's Path,0381,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Uncle Istvan,0382,Dark,U2,-,U,-,-,-,-,-,-,-,-
+Venom,0383,Dark,C3,-,C,C,-,-,-,-,-,-,-
+Wand of Ith,0384,Dark,U2,-,-,-,-,-,-,-,-,-,-
+War Barge,0385,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Whippoorwill,0386,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Witch Hunter,0387,Dark,U1,-,-,-,U3,-,-,-,-,-,-
+Word of Binding,0388,Dark,C3,-,C,-,-,-,-,-,-,-,-
+Wormwood Treefolk,0389,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Worms of the Earth,0390,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Abu Jafar,0391,Arabian,U3,-,-,-,U3,-,-,-,-,-,-
+Aladdin,0392,Arabian,U2,-,-,-,U1,-,-,-,-,-,-
+Aladdin's Lamp,0393,Arabian,U2,R,R,-,-,-,-,-,-,-,-
+Ali Baba,0394,Arabian,U3,-,U,-,-,-,-,-,-,-,-
+Ali from Cairo,0395,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+Aladdin's Ring,0396,Arabian,U2,R,R,R,-,-,-,-,-,-,-
+Army of Allah,0397,Arabian,C3,-,-,-,-,-,-,-,-,-,-
+Bazaar of Baghdad,0398,Arabian,U3,-,-,-,-,-,-,-,-,-,-
+Bird Maiden,0399,Arabian,C2,-,C,C,-,-,-,-,-,-,-
+Bottle of Suleiman,0400,Arabian,U2,R,R,R,-,-,-,-,-,-,-
+Camel,0401,Arabian,C5,-,-,-,-,-,-,-,-,-,-
+City in a Bottle,0402,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+City of Brass,0403,Arabian,U3,-,-,R,U1,1,1,1,1,1,-
+Cuombajj Witches,0404,Arabian,C4,-,-,-,C3,-,-,-,-,-,-
+Cyclone,0405,Arabian,U3,-,-,-,U1,-,-,-,-,-,-
+Dandan,0406,Arabian,C4,-,-,C,C3,-,-,-,-,-,-
+Desert,0407,Arabian,C11,-,-,-,-,-,-,-,-,-,1
+Desert Nomads,0408,Arabian,C4,-,-,-,-,-,-,-,-,-,-
+Desert Twister,0409,Arabian,U3,U,U,U,-,-,-,-,-,-,-
+Diamond Valley,0410,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+Drop of Honey,0411,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+Ebony Horse,0412,Arabian,U2,R,R,-,-,-,-,-,-,-,-
+El-Hajjaj,0413,Arabian,U2,R,R,-,-,-,-,-,-,-,-
+Elephant Graveyard,0414,Arabian,U2,-,-,-,-,-,-,-,-,-,1
+Erg Raiders,0415,Arabian,C3,C1,C1,C,-,-,-,-,-,-,-
+Erhnam Djinn,0416,Arabian,U2,-,-,-,U3,-,-,-,-,-,-
+Eye for an Eye,0417,Arabian,U3,R,R,R,-,-,-,-,-,-,-
+Fishliver Oil,0418,Arabian,C3,-,-,-,C3,-,-,-,-,-,-
+Flying Carpet,0419,Arabian,R,R,R,R,-,-,-,-,-,-,-
+Flying Men,0420,Arabian,C5,-,-,-,-,-,-,-,-,-,-
+Ghazban Ogre,0421,Arabian,C4,-,-,C,C3,-,-,-,-,-,-
+Giant Tortoise,0422,Arabian,C3,-,C,-,-,-,-,-,-,-,-
+Guardian Beast,0423,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+Hasran Ogress,0424,Arabian,C3,-,-,-,C3,-,-,-,-,-,-
+Hurr Jackal,0425,Arabian,C4,-,R,-,-,-,-,-,-,-,-
+Ifh-Biff Efreet,0426,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+Island Fish Jasconius,0427,Arabian,U2,R,R,-,-,-,-,-,-,-,-
+Island of Wak-Wak,0428,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+Jandor's Ring,0429,Arabian,U2,R,-,-,-,-,-,-,-,-,-
+Jandor's Saddlebags,0430,Arabian,U2,R,R,R,-,-,-,-,-,-,-
+Jeweled Bird,0431,Arabian,U3,-,-,-,U1,-,-,-,-,-,-
+Jihad,0432,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+Junun Efreet,0433,Arabian,U2,-,U,-,-,-,-,-,-,-,-
+Juzam Djinn,0434,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+Khabal Ghoul,0435,Arabian,U3,-,-,-,-,-,-,-,-,-,-
+King Suleiman,0436,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+Kird Ape,0437,Arabian,C5,C,-,-,-,-,-,-,-,-,-
+Library of Alexandria,0438,Arabian,U3,-,-,-,-,-,-,-,-,-,1
+Magnetic Mountain,0439,Arabian,U3,-,R,-,-,-,-,-,-,-,-
+Merchant Ship,0440,Arabian,U3,-,-,-,-,-,-,-,-,-,-
+Metamorphosis,0441,Arabian,C4,-,-,-,C3,1,1,1,1,1,-
+Mijae Djinn,0442,Arabian,U2,R,-,-,-,-,-,-,-,-,-
+Moorish Cavalry,0443,Arabian,C4,-,-,-,-,-,-,-,-,-,-
+Nafs Asp,0444,Arabian,C3,-,C,-,-,-,-,-,-,-,-
+Oasis,0445,Arabian,U4,-,U,-,-,-,-,-,-,-,-
+Old Man of the Sea,0446,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+Oubliette,0447,Arabian,C2,-,-,-,-,-,-,-,-,-,-
+Piety,0448,Arabian,C3,-,C,-,-,-,-,-,-,-,-
+Pyramids,0449,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+Repentant Blacksmith,0450,Arabian,U2,-,-,C,C3,-,-,-,-,-,-
+Ring of Maruf,0451,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+Rukh Egg,0452,Arabian,C3,-,-,-,-,-,-,-,-,-,-
+Sandals of Abdallah,0453,Arabian,U3,-,-,-,-,-,-,-,-,-,-
+Sandstorm,0454,Arabian,C4,-,C,-,-,-,-,-,-,-,-
+Serendib Djinn,0455,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+Serendib Efreet,0456,Arabian,U2,R,-,-,-,-,-,-,-,-,-
+Shahrazad,0457,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+Sindbad,0458,Arabian,U3,-,U,-,-,-,-,-,-,-,-
+Singing Tree,0459,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+Sorceress Queen,0460,Arabian,R,R,R,R,-,-,-,-,-,-,-
+Stone Throwing Devils,0461,Arabian,C3,-,-,-,-,-,-,-,-,-,-
+Unstable Mutation,0462,Arabian,C5,C ,C,-,-,-,-,-,-,-,-
+War Elephant,0463,Arabian,C3,-,-,-,C3,-,-,-,-,-,-
+Wyluli Wolf,0464,Arabian,C4,-,-,R,-,-,-,-,-,-,-
+Ydwen Efreet,0465,Arabian,U2,-,-,-,-,-,-,-,-,-,-
+Amulet of Kroog,0466,Antiquities,C4,-,C,C,-,-,-,-,-,-,-
+Argivian Archaeoligist,0467,Antiquities,U1,-,-,-,-,-,-,-,-,-,-
+Argivian Blacksmith,0468,Antiquities,C4,-,-,-,-,-,-,-,-,-,-
+Argothian Pixies,0469,Antiquities,C4,-,-,-,C3,-,-,-,-,-,-
+Argothian Treefolk,0470,Antiquities,C4,-,-,-,-,-,-,-,-,-,-
+Armageddon Clock,0471,Antiquities,U2,R,R,-,-,-,-,-,-,-,-
+Artifact Blast,0472,Antiquities,C4,-,-,-,-,-,-,-,-,-,-
+Artifact Ward,0473,Antiquities,C4,-,-,-,-,-,-,-,-,-,-
+Ashnod's Altar,0474,Antiquities,U2,-,-,U,C2,-,-,-,-,-,1
+Ashnod's Battle Gear,0475,Antiquities,U2,-,U,-,-,-,-,-,-,-,-
+Ashnod's Transmogrant,0476,Antiquities,U3,-,-,C,C4,-,-,-,-,-,-
+Atog,0477,Antiquities,C4,C ,-,U,-,-,-,-,-,-,-
+Battering Ram,0478,Antiquities,C4,-,C,C,-,-,-,-,-,-,-
+Bronze Tablet,0479,Antiquities,U1,-,R,-,-,-,-,-,-,-,-
+Candelabra of Tawnos,0480,Antiquities,U1,-,-,-,-,1,1,1,1,1,-
+Circle of Protection: Artifacts,0481,Antiquities,U3,-,U,U,-,-,-,-,-,-,-
+Citanul Druid,0482,Antiquities,U3,-,-,-,-,-,-,-,-,-,-
+Clay Statue,0483,Antiquities,C4,-,C,C,-,-,-,-,-,-,-
+Clockwork Avian,0484,Antiquities,U1,-,R,-,-,-,-,-,-,-,-
+Colossus of Sardia,0485,Antiquities,C4,-,C,R,-,-,-,-,-,-,-
+Coral Helm,0486,Antiquities,U1,-,R,R,-,-,-,-,-,-,-
+Crumble,0487,Antiquities,C4,U,U,U,-,-,-,-,-,-,-
+Cursed Rack,0488,Antiquities,C1,-,U,-,-,-,-,-,-,-,-
+Damping Field,0489,Antiquities,U3,-,-,-,-,-,-,-,-,-,-
+Detonate,0490,Antiquities,U3,-,U,U,-,-,-,-,-,-,-
+Drafna's Restoration,0491,Antiquities,C4,-,-,-,-,-,-,-,-,-,-
+Dragon Engine,0492,Antiquities,R,R,R,R,-,-,-,-,-,-,-
+Dwarven Weaponsmith,0493,Antiquities,U3,U,-,-,-,-,-,-,-,-,-
+Energy Flux,0494,Antiquities,U3,U,U,U,-,-,-,-,-,-,-
+Feldon's Cane,0495,Antiquities,C1,-,-,U,C2,-,-,-,-,-,-
+Gaea's Avenger,0496,Antiquities,U1,-,-,-,-,-,-,-,-,-,-
+Gate to Phyrexia,0497,Antiquities,U3,-,-,-,-,-,-,-,-,-,-
+Goblin Artisans,0498,Antiquities,U3,-,-,-,-,-,-,-,-,-,-
+Golgothian Sylex,0499,Antiquities,U1,-,-,-,-,-,-,-,-,-,-
+Grapeshot Catapult,0500,Antiquities,C4,-,C,C,-,-,-,-,-,-,-
+Haunting Wind,0501,Antiquities,U3,-,-,-,-,-,-,-,-,-,-
+Hurkyl's Recall,0502,Antiquities,U1,R,R,R,-,-,-,-,-,-,-
+Ivory Tower,0503,Antiquities,U3,R,R,-,-,-,-,-,-,-,-
+Jalum Tome,0504,Antiquities,U2,-,-,R,U1,-,-,-,-,-,-
+Martyrs of Korlis,0505,Antiquities,U3,-,-,-,-,-,-,-,-,-,-
+Mightstone,0506,Antiquities,U3,-,-,-,-,-,-,-,-,-,-
+Millstone,0507,Antiquities,U3,R,R,R,-,-,-,-,-,-,-
+Mishra's Factory,0508,Antiquities,U1,-,U,-,-,-,-,-,-,-,1
+Mishra's War Machine,0509,Antiquities,U1,R,R,-,-,-,-,-,-,-,-
+Mishra's Workshop,0510,Antiquities,U1,-,-,-,-,-,-,-,-,-,1
+Obelisk of Undoing,0511,Antiquities,U1,-,-,R,U1,-,-,-,-,-,-
+Onulet,0512,Antiquities,U3,-,R,-,-,-,-,-,-,-,-
+Orcish Mechanics,0513,Antiquities,C4,-,-,-,-,-,-,-,-,-,-
+Ornithopter,0514,Antiquities,C4,U,U,U,-,-,-,-,-,-,-
+Phyrexian Gremlins,0515,Antiquities,C4,-,-,-,-,-,-,-,-,-,-
+Artifact Possession,0516,Antiquities,C4,-,-,-,-,-,-,-,-,-,-
+Power Artifact,0517,Antiquities,U3,-,-,-,-,-,-,-,-,-,1
+Powerleech,0518,Antiquities,U3,-,-,-,-,-,-,-,-,-,-
+Primal Clay,0519,Antiquities,U3,R,R,R,-,-,-,-,-,-,-
+Rakalite,0520,Antiquities,U3,-,-,-,U1,-,-,-,-,-,-
+Reconstruction,0521,Antiquities,C4,C ,-,-,-,-,-,-,-,-,-
+Reverse Polarity,0522,Antiquities,C4,U,-,-,-,-,-,-,-,-,-
+Rocket Launcher,0523,Antiquities,U3,R,-,-,-,-,-,-,-,-,-
+Sage of Lat-Nam,0524,Antiquities,C4,-,-,-,-,-,-,-,-,-,-
+Shapeshifter,0525,Antiquities,U1,-,U,U,-,-,-,-,-,-,-
+Shatterstorm,0526,Antiquities,U1 ,U,-,U,-,-,-,-,-,-,-
+Staff of Zegon,0527,Antiquities,C4,-,-,-,-,-,-,-,-,-,-
+Strip Mine,0528,Antiquities,U1,-,U,-,-,-,-,-,-,-,1
+Su-Chi,0529,Antiquities,U3,-,-,-,-,-,-,-,-,-,1
+Tablet of Epityr,0530,Antiquities,C4,-,-,-,-,-,-,-,-,-,-
+Tawnos's Coffin,0531,Antiquities,U1,-,-,-,-,-,-,-,-,-,-
+Tawnos's Wand,0532,Antiquities,U3,-,U,-,-,-,-,-,-,-,-
+Tawnos's Weaponry,0533,Antiquities,U3,-,U,U,-,-,-,-,-,-,-
+Tetravus,0534,Antiquities,U1,-,R,-,-,-,-,-,-,-,-
+The Rack,0535,Antiquities,U3,U,U,-,-,-,-,-,-,-,-
+Titania's Song,0536,Antiquities,U3,R,R,R,-,-,-,-,-,-,-
+Transmute Artifact,0537,Antiquities,U3,-,-,-,-,-,-,-,-,-,-
+Triskelion,0538,Antiquities,U1,-,R,-,-,-,-,-,-,-,-
+Urza's Avenger,0539,Antiquities,U1,-,R,R,-,-,-,-,-,-,-
+Urza's Chalice,0540,Antiquities,C4,-,-,-,-,-,-,-,-,-,-
+Urza's Mine,0541,Antiquities,C2,-,-,C,C1,-,-,-,-,-,1
+Urza's Miter,0542,Antiquities,U1,-,-,-,-,-,-,-,-,-,-
+Urza's Power Plant,0543,Antiquities,C1,-,-,C,C1,-,-,-,-,-,1
+Urza's Tower,0544,Antiquities,C1,-,-,C,C1,-,-,-,-,-,1
+Wall of Spears,0545,Antiquities,U3,-,C,C,-,-,-,-,-,-,-
+Weakstone,0546,Antiquities,U3,-,-,-,-,-,-,-,-,-,-
+Xenic Poltergeist,0547,Antiquities,U3,-,R,R,-,-,-,-,-,-,-
+Yawgmoth Demon,0548,Antiquities,U1,-,-,-,C1,-,-,-,-,-,-
+Priest of Yawgmoth,0549,Antiquities,C4,-,-,-,-,-,-,1,-,-,-
+Yotian Soldiers,0550,Antiquities,C4,-,C,-,-,-,-,-,-,-,-
+Abomination,0551,Legends,U1,-,U,-,-,-,-,-,-,-,-
+Acid Rain,0552,Legends,R,-,-,-,-,-,-,-,-,-,-
+Active Volcano,0553,Legends,C3,-,-,-,C3,-,-,-,-,-,-
+Adun Oakenshield,0554,Legends,R,-,-,-,-,-,-,-,-,-,-
+Adventurers' Guildhouse,0555,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Aerathi Berserker,0556,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Aisling Leprechaun,0557,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Akron Legionnaire,0558,Legends,R,-,-,R,U1,-,-,-,-,-,-
+Al-abara's Carpet,0559,Legends,R,-,-,-,-,-,-,-,-,-,-
+Alabaster Potion,0560,Legends,C2,-,C,C,-,-,-,-,-,-,-
+Alchor's Tomb,0561,Legends,R,-,-,-,-,-,-,-,-,-,-
+All Hallows Eve,0562,Legends,R,-,-,-,-,-,-,-,-,-,-
+Amrou Kithkin,0563,Legends,C2,-,C,-,-,-,-,-,-,-,-
+Angelic Voices,0564,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Angus Mackenzie,0565,Legends,R,-,-,-,-,-,-,-,-,-,-
+Anti-Magic Aura,0566,Legends,C1,-,-,U,-,-,-,-,-,-,-
+Arboria,0567,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Arcades Sabboth,0568,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Arena of the Ancients,0569,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Avoid Fate,0570,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Axelrod Gunnarson,0571,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Ayesha Tanaka,0572,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Azure Drake,0573,Legends,U1,-,-,U,U3,-,-,-,-,-,-
+Backdraft,0574,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Backfire,0575,Legends,U1,-,U,-,-,-,-,-,-,-,-
+Barbary Apes,0576,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Barktooth Warbeard,0577,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Bartel Runeaxe,0578,Legends,R,-,-,-,-,-,-,-,-,-,-
+Beasts of Bogardan,0579,Legends,U1,-,-,-,U3,-,-,-,-,-,-
+Black Mana Battery,0580,Legends,U1,-,R,-,-,-,-,1,-,-,-
+Blazing Effigy,0581,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Blight,0582,Legends,U1,-,U,U,-,-,-,-,-,-,-
+Blood Lust,0583,Legends,U1,-,U,C,-,-,-,-,-,-,-
+Blue Mana Battery,0584,Legends,U1,-,R,-,-,-,1,-,-,-,-
+Boomerang,0585,Legends,C2,-,-,C,C3,-,-,-,-,-,-
+Boris Devilboon,0586,Legends,R,-,-,-,-,-,-,-,-,-,-
+Brine Hag,0587,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Bronze Horse,0588,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Carrion Ants,0589,Legends,R,-,U,U,-,-,-,-,-,-,-
+Cat Warriors,0590,Legends,C2,-,-,C,C3,-,-,-,-,-,-
+Cathedral of Serra,0591,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Caverns of Despair,0592,Legends,R,-,-,-,-,-,-,-,-,-,-
+Chain Lightning,0593,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Chains of Mephistopholes,0594,Legends,R,-,-,-,-,-,-,-,-,-,-
+Chromium,0595,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Cleanse,0596,Legends,R,-,-,-,-,-,-,-,-,-,-
+Clergy of the Holy Nimbus,0597,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Cocoon,0598,Legends,U1,-,-,-,U3,-,-,-,-,-,-
+Concordant Crossroads,0599,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Cosmic Horror,0600,Legends,R,-,R,-,-,-,-,-,-,-,-
+Craw Giant,0601,Legends,U1,-,-,U,U3,-,-,-,-,-,-
+Crevasse,0602,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Crimson Kobolds,0603,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Crimson Manticore,0604,Legends,R,-,R,R,-,-,-,-,-,-,-
+Crookshank Kobolds,0605,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Cyclopean Mummy,0606,Legends,C2,-,C,-,-,-,-,-,-,-,-
+D'Avenant Archer,0607,Legends,C2,-,-,C,C3,-,-,-,-,-,-
+Dakkon Blackblade,0608,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Darkness,0609,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Deadfall,0610,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Demonic Torment,0611,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Devouring Deep,0612,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Disharmony,0613,Legends,R,-,-,-,-,-,-,-,-,-,-
+Divine Intervention,0614,Legends,R,-,-,-,-,-,-,-,-,-,-
+Divine Offering,0615,Legends,C2,-,-,C,C3,-,-,-,-,-,-
+Divine Transformation,0616,Legends,U ,-,U,U,-,-,-,-,-,-,-
+Dream Coat,0617,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Durkwood Boars,0618,Legends,C2,-,C,C,-,-,-,-,-,-,-
+Dwarven Song,0619,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Elder Land Wurm,0620,Legends,R,-,R,-,-,-,-,-,-,-,-
+Elder Spawn,0621,Legends,R,-,-,-,-,-,-,-,-,-,-
+Elven Riders,0622,Legends,R,-,U,U,-,-,-,-,-,-,-
+Emerald Dragonfly,0623,Legends,C2,-,-,-,C3,-,-,-,-,-,-
+Enchanted Being,0624,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Enchantment Alteration,0625,Legends,C1,-,-,-,U3,-,-,-,-,-,-
+Energy Tap,0626,Legends,C2,-,C,-,-,-,-,-,-,-,1
+Equinox,0627,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Eternal Warrior,0628,Legends,U1,-,C,C,-,-,-,-,-,-,-
+Eureka,0629,Legends,R,-,-,-,-,-,-,-,-,-,-
+Evil Eye of Orms-by-Gore,0630,Legends,U1,-,-,U,-,-,-,-,-,-,-
+Fallen Angel,0631,Legends,U1,-,-,U,U3,-,-,-,-,-,-
+Falling Star,0632,Legends,R,-,-,-,-,-,-,-,-,-,-
+Feint,0633,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Field of Dreams,0634,Legends,R,-,-,-,-,-,-,-,-,-,-
+Fire Sprites,0635,Legends,C2,-,-,-,-,-,-,-,1,-,-
+Firestorm Phoenix,0636,Legends,R,-,-,-,-,-,-,-,-,-,-
+Flash Counter,0637,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Flash Flood,0638,Legends,C2,-,-,-,C3,-,-,-,-,-,-
+Floral Spuzzem,0639,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Force Spike,0640,Legends,C2,-,-,C,-,-,-,-,-,-,-
+Forethought Amulet,0641,Legends,R,-,-,-,-,-,-,-,-,-,-
+Fortified Area,0642,Legends,U1,-,C,-,-,-,-,-,-,-,-
+Frost Giant,0643,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Gabriel Angelfire,0644,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Gaseous Form,0645,Legends,C1,-,C,C,-,-,-,-,-,-,-
+Gauntlets of Chaos,0646,Legends,R,-,-,R,U1,-,-,-,-,-,-
+Ghosts of the Damned,0647,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Giant Slug,0648,Legends,C2,-,-,-,C3,-,-,-,-,-,-
+Giant Strength,0649,Legends,C2,-,C,C,-,-,-,-,-,-,-
+Giant Turtle,0650,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Glyph of Delusion,0651,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Glyph of Destruction,0652,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Glyph of Doom,0653,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Glyph of Life,0654,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Glyph of Reincarnation,0655,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Gosta Dirk,0656,Legends,R,-,-,-,-,-,-,-,-,-,-
+Gravity Sphere,0657,Legends,R,-,-,-,-,-,-,-,-,-,-
+Great Defender,0658,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Great Wall,0659,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Greater Realm of Preservation,0660,Legends,U1,-,-,U,-,-,-,-,-,-,-
+Greed,0661,Legends,R,-,R,-,-,-,-,-,-,-,-
+Green Mana Battery,0662,Legends,U1,-,R,-,-,-,-,-,-,1,-
+Gwendlyn Di Corci,0663,Legends,R,-,-,-,-,-,-,-,-,-,-
+Halfdane,0664,Legends,R,-,-,-,-,-,-,-,-,-,-
+Hammerheim,0665,Legends,U2,-,-,-,-,-,-,-,1,-,-
+Hazezon Tamar,0666,Legends,R,-,-,-,-,-,-,-,-,-,-
+Headless Horseman,0667,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Heaven's Gate,0668,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Hell Swarm,0669,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Hell's Caretaker,0670,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Hellfire,0671,Legends,R,-,-,-,-,-,-,-,-,-,-
+Holy Day,0672,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Horn of Deafening,0673,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Hornet Cobra,0674,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Horror of Horrors,0675,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Hunding Gjornersen,0676,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Hyperion Blacksmith,0677,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Ichneumon Druid,0678,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Immolation,0679,Legends,C1,-,C,-,-,-,-,-,-,-,-
+Imprison,0680,Legends,R,-,-,-,-,-,-,-,-,-,-
+In the Eye of Chaos,0681,Legends,R,-,-,-,-,-,-,-,-,-,-
+Indestructable Aura,0682,Legends,C2,-,-,-,C3,-,-,-,-,-,-
+Infernal Medusa,0683,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Infinite Authority,0684,Legends,R,-,-,-,-,-,-,-,-,-,-
+Invoke Prejudice,0685,Legends,R,-,-,-,-,-,-,-,-,-,-
+Ivory Guardians,0686,Legends,U1,-,-,U,-,-,-,-,-,-,-
+Jacques le Vert,0687,Legends,R,-,-,-,-,-,-,-,-,-,-
+Jasmine Boreal,0688,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Jedit Ojanen,0689,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Jerrard of the Closed Fist,0690,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Johan,0691,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Jovial Evil,0692,Legends,R,-,-,-,-,-,-,-,-,-,-
+Juxtapose,0693,Legends,R,-,-,R,U1,-,-,-,-,-,-
+Karakas,0694,Legends,U2,-,-,-,-,1,-,-,-,-,-
+Kasimer the Lone Wolf,0695,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Keepers of the Faith,0696,Legends,C2,-,-,-,C3,-,-,-,-,-,-
+Kei Takahashi,0697,Legends,R,-,-,-,C1,-,-,-,-,-,-
+Killer Bees,0698,Legends,R,-,U,U,-,-,-,-,-,-,-
+Kismet,0699,Legends,U1,-,U,U,-,-,-,-,-,-,-
+Knowledge Vault,0700,Legends,R,-,-,-,-,-,-,-,-,-,-
+Kobold Drill Sergeant,0701,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Kobold Overlord,0702,Legends,R,-,-,-,-,-,-,-,-,-,-
+Kobold Taskmaster,0703,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Kobolds of Kher Keep,0704,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Kry Shield,0705,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Lady Caleria,0706,Legends,R,-,-,-,-,-,-,-,-,-,-
+Lady Evangela,0707,Legends,R,-,-,-,-,-,-,-,-,-,-
+Lady Orca,0708,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Land Equilibrium,0709,Legends,R,-,-,-,-,-,-,-,-,-,-
+Land Tax,0710,Legends,U1,-,R,-,-,-,-,-,-,-,-
+Land's Edge,0711,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Lesser Werewolf,0712,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Life Chisel,0713,Legends,U2,-,-,-,-,-,-,-,-,-,-
+Life Matrix,0714,Legends,R,-,-,-,-,-,-,-,-,-,-
+Lifeblood,0715,Legends,R,-,-,-,-,-,-,-,-,-,-
+Living Plane,0716,Legends,R,-,-,-,-,-,-,-,-,-,-
+Livonya Silone,0717,Legends,R,-,-,-,-,-,-,-,-,-,-
+Lord Magnus,0718,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Lost Soul,0719,Legends,C2,-,C,C,-,-,-,-,-,-,-
+Mana Drain,0720,Legends,U1,-,-,-,-,-,-,-,-,-,1
+Mana Matrix,0721,Legends,R,-,-,-,-,-,-,-,-,-,1
+Marble Priest,0722,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Marhault Elsdragon,0723,Legends,U1,-,-,-,C1,-,-,-,-,-,-
+Master of the Hunt,0724,Legends,R,-,-,-,-,-,-,-,-,-,-
+Mirror Universe,0725,Legends,R,-,-,-,-,-,-,-,-,-,-
+Moat,0726,Legends,R,-,-,-,-,-,-,-,-,-,-
+Mold Demon,0727,Legends,R,-,-,-,-,-,-,-,-,-,-
+Moss Monster,0728,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Mountain Stronghold,0729,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Mountain Yeti,0730,Legends,U1,-,-,-,C3,-,-,-,-,-,-
+Nebuchadnezzar,0731,Legends,R,-,-,-,C1,-,-,-,-,-,-
+Nether Void,0732,Legends,R,-,-,-,-,-,-,-,-,-,-
+Nicol Bolas,0733,Legends,R,-,-,-,U1,-,-,-,-,-,-
+North Star,0734,Legends,R,-,-,-,-,1,1,1,1,1,-
+Nova Pentacle,0735,Legends,R,-,-,-,-,-,-,-,-,-,-
+Osai Vultures,0736,Legends,C1,-,U,-,-,-,-,-,-,-,-
+Palladia-Mors,0737,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Part Water,0738,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Pavel Maliki,0739,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Pendelhaven,0740,Legends,U2,-,-,-,-,-,-,-,-,1,-
+Petra Sphinx,0741,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Pit Scorpion,0742,Legends,C2,-,C,C,-,-,-,-,-,-,-
+Pixie Queen,0743,Legends,R,-,-,-,-,-,-,-,-,-,-
+Planar Gate,0744,Legends,R,-,-,-,-,-,-,-,-,-,1
+Pradesh Gypsies,0745,Legends,U1,-,C,C,-,-,-,-,-,-,-
+Presence of the Master,0746,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Primordial Ooze,0747,Legends,U1,-,-,U,U3,-,-,-,-,-,-
+Princess Lucrezia,0748,Legends,U1,-,-,-,-,-,1,-,-,-,-
+Psionic Entity,0749,Legends,R,-,R,-,-,-,-,-,-,-,-
+Psychic Purge,0750,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Puppet Master,0751,Legends,U1,-,-,-,U3,-,-,-,-,-,-
+Pyrotechnics,0752,Legends,C2,-,U,U,-,-,-,-,-,-,-
+Quagmire,0753,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Quarum Trench Gnomes,0754,Legends,R,-,-,-,-,-,-,-,-,-,-
+Rabid Wombat,0755,Legends,U1,-,-,U,U3,-,-,-,-,-,-
+Radjan Spirit,0756,Legends,U1,-,U,U,-,-,-,-,-,-,-
+Raging Bull,0757,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Ragnar,0758,Legends,R,-,-,-,-,-,-,-,-,-,-
+Ramirez DePietro,0759,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Ramses Overdark,0760,Legends,R,-,-,-,-,-,-,-,-,-,-
+Rapid Fire,0761,Legends,R,-,-,-,-,-,-,-,-,-,-
+Rasputin Dreamweaver,0762,Legends,R,-,-,-,-,-,-,-,-,-,1
+Rebirth,0763,Legends,R,-,R,-,-,-,-,-,-,-,-
+Recall,0764,Legends,R,-,-,R,U3,-,-,-,-,-,-
+Red Mana Battery,0765,Legends,U1,-,R,-,-,-,-,-,1,-,-
+Reincarnation,0766,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Relic Barrier,0767,Legends,U2,-,-,-,-,-,-,-,-,-,-
+Relic Bind,0768,Legends,U1,-,R,-,-,-,-,-,-,-,-
+Remove Enchantment,0769,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Remove Soul,0770,Legends,C2,-,-,C,C3,-,-,-,-,-,-
+Reset,0771,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Revelation,0772,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Reverberation,0773,Legends,R,-,-,-,-,-,-,-,-,-,-
+Righteous Avengers,0774,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Ring of Immortals,0775,Legends,R,-,-,-,-,-,-,-,-,-,-
+Riven Turnbull,0776,Legends,U1,-,-,-,-,-,-,1,-,-,-
+Rohgahh of Kher Keep,0777,Legends,R,-,-,-,-,-,-,-,-,-,-
+Rust,0778,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Sea Kings' Blessing,0779,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Seafarer's Quay,0780,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Seeker,0781,Legends,U1,-,C,-,-,-,-,-,-,-,-
+Segovian Leviathan,0782,Legends,U1,-,U,U,-,-,-,-,-,-,-
+Sentinel,0783,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Serpent Generator,0784,Legends,R,-,-,R,U1,-,-,-,-,-,-
+Shelkin Brownie,0785,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Shield Wall,0786,Legends,U1,-,-,C,U3,-,-,-,-,-,-
+Shimian Night Stalker,0787,Legends,U1,-,-,-,U3,-,-,-,-,-,-
+Silhouette,0788,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Sir Shandlar of Eberyn,0789,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Sivitri Scarzam,0790,Legends,U1,-,-,-,C1,-,-,-,-,-,-
+Sol'kanar the Swamp King,0791,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Spectral Cloak,0792,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Spinal Villain,0793,Legends,R,-,-,-,-,-,-,-,-,-,-
+Spirit Link,0794,Legends,U1,-,U,U,-,-,-,-,-,-,-
+Spirit Shackle,0795,Legends,C1,-,U,-,-,-,-,-,-,-,-
+Spiritual Sanctuary,0796,Legends,R,-,-,-,-,-,-,-,-,-,-
+Stangg,0797,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Storm Seeker,0798,Legends,U1,-,-,-,U3,-,-,-,-,-,-
+Storm World,0799,Legends,R,-,-,-,-,-,-,-,-,-,-
+Subdue,0800,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Sunastian Falconer,0801,Legends,U1,-,-,-,-,-,-,-,-,-,1
+Sword of the Ages,0802,Legends,R,-,-,-,-,-,-,-,-,-,-
+Sylvan Library,0803,Legends,R,R,R,R,-,-,-,-,-,-,-
+Sylvan Paradise,0804,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Syphon Soul,0805,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Tabernacle at Pendrell Vale,0806,Legends,R,-,-,-,-,-,-,-,-,-,-
+Takklemaggot,0807,Legends,U1,-,-,-,U3,-,-,-,-,-,-
+Telekinesis,0808,Legends,R,-,-,-,-,-,-,-,-,-,-
+Teleport,0809,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Tempest Efreet,0810,Legends,R,-,R,-,-,-,-,-,-,-,-
+Tetsuo Umezawa,0811,Legends,R,-,-,-,-,-,-,-,-,-,-
+The Abyss,0812,Legends,R,-,-,-,-,-,-,-,-,-,-
+The Brute,0813,Legends,C1,-,C,C,-,-,-,-,-,-,-
+The Lady of the Mountain,0814,Legends,U1,-,-,-,-,-,-,-,-,-,-
+The Wretched,0815,Legends,R,-,-,R,U1,-,-,-,-,-,-
+Thunder Spirit,0816,Legends,R,-,-,-,-,-,-,-,-,-,-
+Time Elemental,0817,Legends,R,R,R,R,-,-,-,-,-,-,-
+Tobias Andrion,0818,Legends,U1,-,-,-,C1,-,-,-,-,-,-
+Tolaria,0819,Legends,U2,-,-,-,-,-,1,-,-,-,-
+Tor Wauki,0820,Legends,U1,-,-,-,C1,-,-,-,-,-,-
+Torsten Von Ursus,0821,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Touch of Darkness,0822,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Transmutation,0823,Legends,C1,-,-,-,C3,-,-,-,-,-,-
+Triassic Egg,0824,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Tuknir Deathlock,0825,Legends,R, ,-,-,-,-,-,-,-,-,-
+Tundra Wolves,0826,Legends,C2,-,C,C,-,-,-,-,-,-,-
+Typhoon,0827,Legends,R,-,-,-,-,-,-,-,-,-,-
+Undertow,0828,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Underworld Dreams,0829,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Unholy Citadel,0830,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Untamed Wilds,0831,Legends,U1,-,U,U,-,-,-,-,-,-,-
+Ur-Drago,0832,Legends,R,-,-,-,-,-,-,-,-,-,-
+Urborg,0833,Legends,U2,-,-,-,-,-,-,1,-,-,-
+Vaevictis Asmadi,0834,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Vampire Bats,0835,Legends,C2,-,C,C,-,-,-,-,-,-,-
+Venarian Gold,0836,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Visions,0837,Legends,U1,-,U,-,-,-,-,-,-,-,-
+Voodoo Doll,0838,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Walking Dead,0839,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Wall of Caltrops,0840,Legends,C1,-,-,-,-,-,-,-,-,-,-
+Wall of Dust,0841,Legends,U1,-,U,-,-,-,-,-,-,-,-
+Wall of Earth,0842,Legends,C2,-,-,-,-,-,-,-,-,-,-
+Wall of Heat,0843,Legends,C1,-,-,-,C3,-,-,-,-,-,-
+Wall of Light,0844,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Wall of Opposition,0845,Legends,R,-,-,-,U3,-,-,-,-,-,-
+Wall of Putrid Flesh,0846,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Wall of Shadows,0847,Legends,C2,-,-,-,C3,-,-,-,-,-,-
+Wall of Tombstones,0848,Legends,U1,-,-,-,-,-,-,-,-,-,-
+Wall of Vapor,0849,Legends,C2,-,-,-,C3,-,-,-,-,-,-
+Wall of Wonder,0850,Legends,U1,-,-,-,U3,-,-,-,-,-,-
+Whirling Dervish,0851,Legends,U1,-,U,U,-,-,-,-,-,-,-
+White Mana Battery,0852,Legends,U1,-,R,-,-,1,-,-,-,-,-
+Willow Satyr,0853,Legends,R,-,-,-,-,-,-,-,-,-,-
+Winds of Change,0854,Legends,U1,-,R,R,-,-,-,-,-,-,-
+Winter Blast,0855,Legends,R,-,U,U,-,-,-,-,-,-,-
+Wolverine Pack,0856,Legends,C2,-,-,U,-,-,-,-,-,-,-
+Wood Elemental,0857,Legends,R,-,-,-,-,-,-,-,-,-,-
+Xira Arien,0858,Legends,R,-,-,-,U1,-,-,-,-,-,-
+Zephyr Falcon,0859,Legends,C2,-,C,C,-,-,-,-,-,-,-
+Call from the Grave,0860,Astral,-,-,-,-,-,-,-,-,-,-,-
+Prismatic Dragon,0861,Astral,-,-,-,-,-,-,-,-,-,-,-
+Knights of the Rainbow Vale,0862,Astral,-,-,-,-,-,-,-,-,-,-,-
+Pandora's Box,0863,Astral,-,-,-,-,-,-,-,-,-,-,-
+Whimsy,0864,Astral,-,-,-,-,-,-,-,-,-,-,-
+Faerie Dragon,0865,Astral,-,-,-,-,-,-,-,-,-,-,-
+Goblin Polka Band,0866,Astral,-,-,-,-,-,-,-,-,-,-,-
+Power Struggle,0867,Astral,-,-,-,-,-,-,-,-,-,-,-
+Aswan Jaguar,0868,Astral,-,-,-,-,-,-,-,-,-,-,-
+Orcish Catapult,0869,Astral,-,-,-,-,-,-,-,-,-,-,-
+Gem Bazaar,0870,Astral,-,-,-,-,-,-,-,-,-,-,-
+Necropolis of Azaar,0871,Astral,-,-,-,-,-,-,-,-,-,-,-
+Red Guild,0872,Utility,-,-,-,-,-,-,-,-,-,-,-
+Blue Guild,0873,Utility,-,-,-,-,-,-,-,-,-,-,-
+White Guild,0874,Utility,-,-,-,-,-,-,-,-,-,-,-
+Green Guild,0875,Utility,-,-,-,-,-,-,-,-,-,-,-
+Black Guild,0876,Utility,-,-,-,-,-,-,-,-,-,-,-
+Artificer's Guild,0877,Utility,-,-,-,-,-,-,-,-,-,-,-
+Bright Society,0878,Utility,-,-,-,-,-,-,-,-,-,-,-
+Grey Society,0879,Utility,-,-,-,-,-,-,-,-,-,-,-
+Dark Society,0880,Utility,-,-,-,-,-,-,-,-,-,-,-
+Gladiator,0881,Utility,-,-,-,-,-,-,-,-,-,-,-
+Master,0882,Utility,-,-,-,-,-,-,-,-,-,-,-
+Royalty,0883,Utility,-,-,-,-,-,-,-,-,-,-,-
+Veteran,0884,Utility,-,-,-,-,-,-,-,-,-,-,-
+Giant Wasp,0885,Token,-,-,-,-,-,-,-,-,-,-,-
+Wolves of the Hunt,0886,Token,-,-,-,-,-,-,-,-,-,-,-
+Poison Snake,0887,Token,-,-,-,-,-,-,-,-,-,-,-
+Minor Demon,0888,Token,-,-,-,-,-,-,-,-,-,-,-
+Sand Warrior,0889,Token,-,-,-,-,-,-,-,-,-,-,-
+Djinn of the Bottle,0890,Token,-,-,-,-,-,-,-,-,-,-,-
+Tetravite,0891,Token,-,-,-,-,-,-,-,-,-,-,-
+Rukh,0892,Token,-,-,-,-,-,-,-,-,-,-,-
+Stangg Twin,0893,Token,-,-,-,-,-,-,-,-,-,-,-
+Mana Crypt,0894,Promo,-,-,-,-,-,-,-,-,-,-,1
+Nalathni Dragon,0895,Promo,-,-,-,-,-,-,-,-,-,-,-
+Sewers of Estark,0896,Promo,-,-,-,-,-,-,-,-,-,-,-
+Windseeker Centaur,0897,Promo,-,-,-,-,-,-,-,-,-,-,-
+Giant Badger,0898,Promo,-,-,-,-,-,-,-,-,-,-,-
+Arena,0899,Promo,-,-,-,-,-,-,-,-,-,-,-
+Spawn of Azar,0900,Token,-,-,-,-,-,-,-,-,-,-,-
+Damage,0901,Utility,-,-,-,-,-,-,-,-,-,-,-
+Legacy,0902,Utility,-,-,-,-,-,-,-,-,-,-,-
+Effect,0903,Utility,-,-,-,-,-,-,-,-,-,-,-
+Draw Card,0904,Utility,-,-,-,-,-,-,-,-,-,-,-
+Hunting,0905,Utility,-,-,-,-,-,-,-,-,-,-,-
+Blank,0906,Utility,-,-,-,-,-,-,-,-,-,-,-
+Blank,0907,Utility,-,-,-,-,-,-,-,-,-,-,-
+Blank,0908,Utility,-,-,-,-,-,-,-,-,-,-,-
+Blank,0909,Utility,-,-,-,-,-,-,-,-,-,-,-
+Assembly Worker,0910,Token,-,-,-,-,-,-,-,-,-,-,-
+Blank,0911,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0912,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0913,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0914,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0915,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0916,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0917,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0918,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0919,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0920,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0921,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0922,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0923,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0924,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0925,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0926,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0927,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0928,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0929,Blank,-,-,-,-,-,-,-,-,-,-,-
+Brass Man,0930,Arabian,U3,U,U,-,-,-,-,-,-,-,-
+Dancing Scimitar,0931,Arabian,U2,R,R,R,-,-,-,-,-,-,-
+Curse Artifact,0932,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Electric Eel,0933,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Festival,0934,Dark,C3,-,-,-,-,-,-,-,-,-,-
+Flood,0935,Dark,U2,-,C,C,-,-,-,-,-,-,-
+Goblin Digging Team,0936,Dark,C3,-,-,C,C3,-,-,-,-,-,-
+Goblin Rock Sled,0937,Dark,C3,-,C,-,-,-,-,-,-,-,-
+Goblin Shrine,0938,Dark,C3,-,-,-,C3,-,-,-,-,-,-
+Marsh Viper,0939,Dark,C3,-,C,C,-,-,-,-,-,-,-
+Merfolk Assassin,0940,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Miracle Worker,0941,Dark,C3,-,-,-,-,-,-,-,-,-,-
+Pikemen,0942,Dark,C3,-,C,C,-,-,-,-,-,-,-
+Ragman,0943,Dark,U1,-,R,R,-,-,-,-,-,-,-
+Savaen Elves,0944,Dark,C3,-,-,-,-,-,-,-,-,-,-
+Scarwood Bandits,0945,Dark,U1,-,-,-,-,-,-,-,-,-,-
+Scarwood Goblins,0946,Dark,C3,-,-,-,-,-,-,-,-,-,-
+Scavenger Folk,0947,Dark,C3,-,-,C,C3,-,-,-,-,-,-
+Squire,0948,Dark,C3,-,-,-,-,-,-,-,-,-,-
+Tangle Kelp,0949,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Tivadar's Crusade,0950,Dark,U2,-,-,-,-,-,-,-,-,-,-
+Water Wurm,0951,Dark,C3,-,-,-,-,-,-,-,-,-,-
+Rubinia Soulsinger,0952,Legends,R,-,-,-,U1,-,-,-,-,-,-
+MPS Logo,0953,Utility,-,-,-,-,-,-,-,-,-,-,-
+Blank,0954,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0955,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0956,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0957,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0958,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0959,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0960,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0961,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0962,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0963,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0964,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0965,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0966,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0967,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0968,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0969,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0970,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0971,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0972,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0973,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0974,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0975,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0976,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0977,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0978,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0979,Blank,-,-,-,-,-,-,-,-,-,-,-
+Crystal Ball,0980,Utility,-,-,-,-,-,-,-,-,-,-,-
+Wizard of the Cost Logo,0981,Utility,-,-,-,-,-,-,-,-,-,-,-
+Blank,0982,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0983,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0984,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0985,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0986,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0987,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0988,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0989,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0990,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0991,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0992,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0993,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0994,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0995,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0996,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0997,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0998,Blank,-,-,-,-,-,-,-,-,-,-,-
+Blank,0999,Blank,-,-,-,-,-,-,-,-,-,-,-
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

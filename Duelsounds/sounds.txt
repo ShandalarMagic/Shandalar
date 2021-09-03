@@ -1,0 +1,25 @@
+Credits for additional sounds:
+
+Bloodthirst.wav: Edited from sword-01.wav by audione <http://www.freesound.org/people/audione/sounds/52458/> and Coffeemaker-harsh-hiss.aif by nmscher <http://www.freesound.org/people/nmscher/sounds/87982/>
+
+Bushido.wav: Edited from swordraw.wav by freefire66 <http://www.freesound.org/people/freefire66/sounds/175957/> and gasp.wav by Reitanna <http://www.freesound.org/people/Reitanna/sounds/242618/>
+
+Devour.wav: Edited from Beast Roar lvl3.wav by cylon 8472 <http://www.freesound.org/people/cylon8472/sounds/267453/> and Munching Food.wav by Kodack <http://www.freesound.org/people/Kodack/sounds/256311/>
+
+Equip.wav: Edited from Machette drawn from a sheath.wav by Mafon2 <http://www.freesound.org/people/Mafon2/sounds/245204/>
+
+Evolve.wav: Bland2.wav from Adventure Mode
+
+LifeGain.wav: Edited from Choir of Voices - Single Chord.wav by bone666138 <http://www.freesound.org/people/bone666138/sounds/274121/>
+
+Mill.wav: Scroll.wav from Adventure Mode.
+
+Minus_Counter.wav: Edited from Counter.wav
+
+Monstros.wav: Edited from Beast Roar lvl2.wav by cylon8472 <http://www.freesound.org/people/cylon8472/sounds/267454/>
+
+Plus_Counter.wav: Edited from Counter.wav
+
+Raise_Dead.wav: Damb3.wav from Adventure Mode
+
+Transform.wav: Wolf.wav from Adventure Mode

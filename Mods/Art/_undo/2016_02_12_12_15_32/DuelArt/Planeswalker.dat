@@ -1,0 +1,101 @@
+;-*- conf-windows -*-
+;Overrides for Planeswalker frames.
+;See Duel.dat for documentation.
+;
+[SmallCard]
+ArtLeft = 41
+ArtTop = 188
+ArtWidth = 932
+ArtHeight = 799
+;
+TitleSourceTop = 0
+TitleSourceHeight = 35
+TitleDestHeight = 204
+FrameSourceTop = 37
+FrameSourceHeight = 248
+FrameDestTop = 204
+;
+ShowLoyaltyCurr = 1
+;
+ExpansionLeft = 600
+ExpansionTop = 26
+ExpansionWidth = 171
+ExpansionHeight = 122
+;
+;
+[FullCard]
+ExpandTop = 6426
+ExpandHeight = 2600
+;
+TitleLeft = 60
+TitleTop = 30
+TitleWidth = 692
+;
+ManaLeft = 60
+ManaTop = 38
+ManaWidth = 690
+ManaHeight = 46
+;
+ArtLeft = 46
+ArtTop = 105
+ArtWidth = 706
+ArtHeight = 583
+;
+TypeLeft = 60
+TypeTop = 699
+TypeWidth = 605
+;
+ShowLoyaltyBase = 1
+ShowLoyaltyCost = 1
+;
+RulestextLeft = 137
+RulestextTop = 777
+RulestextWidth = 600
+RulestextHeight = 318
+;
+RulesboxLeft = 45
+RulesboxTop = 750
+RulesboxWidth = 710
+RulesboxHeight = 322
+;
+ExpansionLeft = 661
+ExpansionTop = 706
+ExpansionWidth = 88
+ExpansionHeight = 46
+;
+BorderColorR = 0
+BorderColorG = 0
+BorderColorB = 0
+;
+TitleColorR = 47
+TitleColorG = 47
+TitleColorB = 47
+TitleShadowColorR = -1
+;
+TypeColorR = 47
+TypeColorG = 47
+TypeColorB = 47
+TypeShadowColorR = -1
+;
+;
+[Frames]
+;Only non-artifact non-land planeswalkers have been printed (in particular,
+;Karn Liberated is colorless, not an artifact); so, strictly speaking, setting
+;artwork for lands and artifacts is redundant.  If a planeswalker becomes an
+;artifact or land during play, however, the settings here will be honored.
+;
+FrameBaseDir=Planeswalker
+;
+CardBk_Artifact=CardBk_Colorless.png
+CardBk_Land=CardBk_Colorless.png
+CardOv_Artifact=CardOv_Colorless.png
+CardOv_ColorlessLand=CardOv_Colorless.png
+CardOv_LandBar=..\blank.png
+;
+CardOv_WLand=CardOv_W.png
+CardOv_ULand=CardOv_U.png
+CardOv_BLand=CardOv_B.png
+CardOv_RLand=CardOv_R.png
+CardOv_GLand=CardOv_G.png
+;
+Powertoughness=..\modern\Powertoughness.png

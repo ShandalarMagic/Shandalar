@@ -1,0 +1,94 @@
+// Turn debug mode ON by default
+Debug:1
+
+// Warn you if your deck is not legal in any format
+CheckDeckLegality:0
+
+// Make the AI start with 0 cards in hand
+CrippleAI:0
+
+// Start the game without milligans or play/draw decisions
+QuickStart:0
+
+// Give players unlimited mana
+UnlimitedMana:0
+
+// start the game with 30 cards in the grave for each player
+AutoMill:0
+
+// turn the rules engine on (turning this off is not recommended)
+RulesEngine:1
+
+// Automatically choose targets when possible.
+// Also see TargetsHuman.txt and TargetsAI.txt
+SmartTarget:0
+
+// Alphabetize your deck any time you look at it.
+AlphabetizeDeck:1
+
+// Give all creatures haste
+AutoHaste:0
+
+// Make auto-decisions for some cards like Wall of Reverence and Squee
+DuhMode:1
+
+// Relative time to allow AI to think.  Default is 5405; lower numbers mean
+// quicker (and, to some extent, dumber) decisions.
+AiDecisionTime:540
+
+// Make equipment visually attach to the creature they're equipping, like auras
+// do.  This will make it difficult to see any counters on the equipment card
+// itself (Umezawa's Jitte, for example), which is why it's configurable.
+//
+// If you save a game with AttachEquipment:1 and a piece of equipment
+// attached, then reload it without AttachEquipment:1, the effect card
+// "enchanting" the equipped creature will be invisible.  It'll be fixed
+// if you attach it to another creature; in the meantime, you can see it
+// by turning on the "Show Invisible Effects" option on the right-click
+// menu.
+AttachEquipment:1
+
+// Allow mana-producing artifacts (including artifact lands) to be autotapped
+// for mana when left-double-clicking.  They'll be checked after autotapping
+// basic lands, and autotapping all lands.
+//
+// Turning on "don't autotap this" will work as normal. This also includes
+// artifacts that sacrifice themselves on activation, like Black Lotus, so
+// you'll probably want to turn on "don't autotap this" for those.
+AutotapArtifacts:1
+
+// Allow mana-producing creatures (possibly including land creatures) to be
+// autotapped for mana when left-double-clicking.  They'll be checked after
+// autotapping basic lands, autotapping all lands, and (if AutotapArtifacts is
+// also on) autotapping all lands and artifacts.
+//
+// Turning on "don't autotap this" will work as normal.
+AutotapCreatures:1
+
+// If turned on, the Rules Engine card will continually verify that the
+// hand_count[] array matches the actual number of cards in players' hands, and
+// if there's a mismatch, it fixes it and displays an ugly popup.
+//
+// This does find false positives, most commonly in Donate-like and
+// Juxtapose-like effects.  These can be identified by two popups, one
+// immediately following the other; the first saying hand_count is 1 too low,
+// and the second saying it's 1 too high.
+VerifyHandCount:0
+
+// If turned on, and the AI's deck doesn't already have a Vanguard Avatar or
+// similar special card, make him an Archenemy.
+Archenemy:0
+
+// If a card has at least this many different art versions, then choose a
+// random one to display.  The normal method is faster, shows the same images
+// in different program runs, and is guaranteed not to show the same picture
+// twice in a row; but doesn't work well with more than about 15 or 20
+// different images.
+MinPicsToRandomize:15
+
+// Re-enables mana burn if set to 1.  Enables it only for the human player if
+// set to 2.
+ManaBurn:0
+
+// If set to 1, allows the AI to use activated Rules Engine abilities.
+AiUsesRulesEngine:0

@@ -1,0 +1,16 @@
+Dungeon#;Card1;Card2;Card3;CardInEffect;MapX;MapY;NearTown;Color;EnemyType;Clues;Rules;NumVisits;Unknown
+0 Castle Necris;-1 NONE;-1 NONE;-1 NONE;208 Rod of Ruin;15;31;35;0b00000001;0x81;0b00000000;0x03;-1;0xFFFFFFFF
+1 Mysthold;-1 NONE;-1 NONE;-1 NONE;935 Flood;49;29;37;0b00000010;0x81;0b00000000;0x03;-1;0xFFFFFFFF
+2 Wildwood Steading;-1 NONE;-1 NONE;-1 NONE;262 Verduran Enchantress;25;27;115;0b00000011;0x81;0b00000000;0x03;-1;0xFFFFFFFF
+3 Dragon Mount;-1 NONE;-1 NONE;-1 NONE;192 Power Surge;29;35;85;0b00000100;0x81;0b00000000;0x03;-1;0xFFFFFFFF
+4 Citadel of the Sun;-1 NONE;-1 NONE;-1 NONE;28 Castle;45;23;11;0b00000101;0x81;0b00000000;0x03;-1;0xFFFFFFFF
+5 The Paths of Chronus;1937 Contract from Below;2435 Demonic Tutor;6447 Mystical Tutor;939 Marsh Viper;38;22;71;0b00000011;0x82;0b00000000;0x0201;-1;0xFFFFFFFF
+6 Ruins of Su-Chan;419 Ancestral Recall;807 Balance;5708 Lotus Petal;867 Power Struggle;12;27;11;0b00000010;0x82;0b00000000;0x01;-1;0xFFFFFFFF
+7 Mound of the Warrior Kings;1657 Channel;6359 Mox Emerald;10039 Tinker;51 Crusade;33;50;95;0b00000101;0x03;0b00000000;0x11;-1;0xFFFFFFFF
+8 Azar's Crypt;6527 Necropotence;10032 Timetwister;10990 Windfall;178 Orcish Oriflamme;23;16;125;0b00000100;0x03;0b00000000;0x21;-1;0xFFFFFFFF
+9 Soulchant Monastery;6362 Mox Pearl;10060 Tolarian Academy;10908 Wheel of Fortune;867 Power Struggle;30;45;85;0b00000010;0x82;0b00000000;0x01;-1;0xFFFFFFFF
+10 Cave of the Ice Worm;5559 Library of Alexandria;5842 Mana Crypt;6364 Mox Sapphire;939 Marsh Viper;45;35;115;0b00000011;0x82;0b00000000;0x01;-1;0xFFFFFFFF
+11 Dungeons of Graaz Keep;3295 Fastbond;6212 Mishra's Workshop;6363 Mox Ruby;51 Crusade;36;49;85;0b00000101;0x03;0b00000000;0x41;-1;0xFFFFFFFF
+12 Tower of Whim;4813 Imperial Seal;8964 Sol Ring;10027 Time Vault;867 Power Struggle;31;34;74;0b00000010;0x82;0b00000000;0x0201;-1;0xFFFFFFFF
+13 Arjonot's Tomb;10028 Time Walk;10463 Vampiric Tutor;11166 Yawgmoth's Bargain;867 Power Struggle;8;29;35;0b00000010;0x03;0b00000000;0x01;-1;0xFFFFFFFF
+14 Altar of the Cyclops;1021 Black Lotus;6360 Mox Jet;9446 Strip Mine;8 Bad Moon;48;33;115;0b00000001;0x82;0b00000000;0x01;-1;0xFFFFFFFF

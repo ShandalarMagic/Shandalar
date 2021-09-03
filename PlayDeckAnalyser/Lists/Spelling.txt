@@ -1,0 +1,83 @@
+;Manalink PlayDeck Analyser Spelling Correction List
+;---------------------------------------------------
+
+;This TextFile contains a list of common CardName spelling corrections.
+;Lines beginning with a semi-colon and blank lines are ignored.
+;All lines must be in the format:
+
+;Incorrect Spelling;Correct Spelling
+
+;This file is only searched if CardName is not found in the DAT\CSV.
+;If you find UnMatched CardNames, place corrections in this file.
+;The left-side is the wrong name as it appears in the deck.
+;The right-side is the CardName as it should appear in the DAT\CSV
+
+;These are the CardName corrections I accumulated while
+;converting PlayDecks from other software and NetDeck.
+;------------------------------------------------------
+El-Hajjaj;El-Hajjâj
+Ring of Ma'ruf;Ring of Ma'rûf
+Ring of Maruf;Ring of Ma'rûf
+Junun Efreet;Junún Efreet
+Yotian Soldiers;Yotian Soldier
+Mons Goblin Raiders;Mons's Goblin Raiders
+Mon's Goblin Raiders;Mons's Goblin Raiders
+COP: Blue;Circle of Protection: Blue
+COP: Red;Circle of Protection: Red
+COP: Green;Circle of Protection: Green
+COP: White;Circle of Protection: White
+COP: Black;Circle of Protection: Black
+Mishras Factory;Mishra's Factory
+Manaflare;Mana Flare
+Knights of the Rainbow Vale;Rainbow Knights
+Ifh-Biff Efreet;Ifh-Bíff Efreet
+Dandan;Dandân
+Ragman;Rag Man
+Bloodlust;Blood Lust
+Juzam Djinn;Juzám Djinn
+Marton Stromgald;Márton Stromgald
+Khabal Ghoul;Khabál Ghoul
+Ghazban Ogre;Ghazbán Ogre
+Necropolis of Azaar;Necropolis of Azar
+Bosium Strip;Bösium Strip
+Jotun Owl Keeper;Jötun Owl Keeper
+Jotun Grunt;Jötun Grunt
+Lim-Dul's High Guard;Lim-Dûl's High Guard
+Legions of Lim-Dul;Legions of Lim-Dûl
+Lim-Dul's Cohort;Lim-Dûl's Cohort
+Lim-Dul's Hex;Lim-Dûl's Hex
+Oath of Lim-Dul;Oath of Lim-Dûl
+Lim-Dul's Paladin;Lim-Dûl's Paladin
+Lim-Dul's Vault;Lim-Dûl's Vault
+Lim-Dul the Necromancer;Lim-Dûl the Necromancer
+Nezumi Shortfang--Stabwhisker the Odious;Nezumi Shortfang
+Nezumi Graverobber--Nighteyes the Desecrator;Nezumi Graverobber
+Jushi Apprentice--Tomaya the Revealer;Jushi Apprentice
+Budoka Gardener--Dokai, Weaver of Life;Budoka Gardener
+Bushi Tenderfoot--Kenzo the Hardhearted;Bushi Tenderfoot
+Kitsune Mystic--Autumn-Tail, Kitsune Sage;Kitsune Mystic
+Erayo, Soratami Ascendant--Erayo's Essence;Erayo, Soratami Ascendant
+Initiate of Blood--Goka the Unjust;Initiate of Blood
+Homura, Human Ascendant--Homura's Essence;Homura, Human Ascendant
+Faithful Squire--Kaiso, Memory of Loyalty;Faithful Squire
+Kuon, Ogre Ascendant--Kuon's Essence;Kuon, Ogre Ascendant
+Rune-Tail, Kitsune Ascendant--Rune-Tail's Essence;Rune-Tail, Kitsune Ascendant
+Sasaya, Orochi Ascendant--Sasaya's Essence;Sasaya, Orochi Ascendant
+Orochi Eggwatcher--Shidako, Broodmistress;Orochi Eggwatcher
+Student of Elements--Tobita, Master of Winds;Student of Elements
+Akki Lavarunner--Tok-Tok, Volcano Born;Akki Lavarunner
+Vitu-Ghazi, the City Tree;Vitu-Ghazi, the City-Tree
+Two Headed Giant of Foriys;Two-Headed Giant of Foriys
+Golbin Polka Band;Goblin Polka Band
+Stone Throwing Devils;Stone-Throwing Devils
+Stone Calender;Stone Calendar
+Tabernacle at Pendrell Vale;The Tabernacle at Pendrell Vale
+All Hallows Eve;All Hallow's Eve
+Chains of Mephistopholes;Chains of Mephistopheles
+Indestructable Aura;Indestructible Aura
+Remove Enchantment;Remove Enchantments
+Kasimer the Lone Wolf;Kasimir the Lone Wolf
+Deceiver Hexarch;Deceiver Exarch
+Vesuvan Doppleganger;Vesuvan Doppelganger
+Kongming, Sleeping Dragon;Kongming, "Sleeping Dragon"
+;----------------------------------------------------

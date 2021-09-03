@@ -1,0 +1,41 @@
+;Intruder Alarm Deck, Heroes
+;U-R-W 1.5
+;Mattia Loy // Orion79
+;orpheananger@hotmail.com
+;19/11/2010
+;1
+;4th Edition
+;The Intruder Alarm deck is based on the combo with Intruder Alarm and Kiki-Jiki: use the legendary goblin to clone one of own creatures, untapping all of own creatures at one, including Kiki-Jiki for an eternal loop. This version gains many benefits from single creatures triggered or T: effects but is limited by engine bugs when too many creatures are on the battlefield. Sacrifice some of them.
+
+.6050	1	Arcanis the Omnipotent
+.974	4	Archivist
+.1063	2	Intruder Alarm
+.9264	2	Sower of Temptation
+.1254	2	Incinerate
+.11134	1	Inferno Titan
+.7276	3	Kiki-Jiki, Mirror Breaker
+.145	2	Lightning Bolt
+.2023	1	Márton Stromgald
+.11704	1	Urabrask the Hidden
+.3693	1	Angelic Chorus
+.1517	2	Idyllic Tutor
+.1062	2	Intrepid Hero
+.1559	2	Path to Exile
+.4045	1	Radiant, Archangel
+.11179	1	Sun Titan
+.240	2	Swords to Plowshares
+.11550	1	Victory's Herald
+.8216	1	Grand Arbiter Augustin IV
+.10870	1	Artisan of Kozilek
+.11118	1	Elixir of Immortality
+.1213	2	Gold Myr
+.1212	2	Iron Myr
+.1210	2	Silver Myr
+.694	1	Karakas
+.189	4	Plateau
+.1512	1	Tolarian Academy
+.254	4	Tundra
+.266	4	Volcanic Island
+.126	2	Island
+.164	2	Mountain
+.188	2	Plains

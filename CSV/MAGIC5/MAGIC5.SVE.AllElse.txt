@@ -1,0 +1,61 @@
+             0001EA18 = 0x00
+          Deck Thingy = -1
+           Deck Color = 0x22
+           Difficulty = 0x02
+             0001EA28 = 0x00
+          Player MapX = 630
+          Player MapY = 571
+          Enemy Timer = 1649
+
+--- CURRENT QUEST ---
+           Quest Type = 0 Take Letter for Mana Link
+           Dest Town# = -1 NONE
+         Gem\Card Clr = 1
+              Unknown = 0
+             Deadline = 49
+
+        Black Amulets = 0
+         Blue Amulets = 0
+        Green Amulets = 1
+          Red Amulets = 0
+        White Amulets = 1
+                 Gold = 275
+                 Food = 19
+
+---- WORLD MAGICS ---
+      Sleight of Hand = 0
+       Haggler's Coin = 0
+      Conjurer's Will = 0
+  Amulet of Swampwalk = 0
+         Leap of Fate = 0
+Tome of Enlightenment = 0
+           Quickening = 0
+  Fruit of Sustenance = 0
+     Staff of Thunder = 0
+         Dwarven Pick = 0
+  Sword of Resistance = 1
+ Ring of the Guardian = 0
+
+- DEFEATED WIZARDS --
+         Black Castle = 0
+          Blue Castle = 0
+         Green Castle = 0
+           Red Castle = 0
+         White Castle = 0
+
+          Siege Timer = 36
+          Lairs Found = 3
+          Quest Timer = 31
+               Gender = 1
+          Start Color = 5
+      +Life Next Duel = 0
+      +Card Next Duel = -1
+         Current Deck = 0
+         Journal Size = 24
+             0002A1CC = -1
+             0002A1D0 = 2
+      Player Deck Clr = 5
+       Enemy Deck Clr = 4
+             0002A1DC = 1
+          Player Name = Zeal
+               Siege? = 0

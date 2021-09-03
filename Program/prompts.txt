@@ -1,0 +1,1049 @@
+@ALADDINS_LAMP
+1
+Select a card to put in your hand.
+
+@ALADDIN_RING
+1
+Select target creature or player.
+
+@ALI_BABA
+1
+Select target wall.
+
+@ALI_FROM_CAIRO
+3
+Select damage point to heal (%d of %d).
+is doin' his thing.
+Illegal target (prevent damage to controller of Ali).
+
+@AMULET_KROOG
+1
+Select damage card.
+
+@ANCESTRAL_RECALL
+1
+Select target player.
+
+@ANIMATE_ARTIFACT
+1
+Select target artifact.
+
+@ANIMATE_DEAD
+6
+From my graveyard.
+From opponent's graveyard.
+Cancel.
+%s graveyard: Pick a creature.
+Your graveyard: Pick a creature.
+Illegal Target (not a creature).
+
+@ANIMATE_WALL
+1
+Select target wall.
+
+@ANY_LACE
+1
+Select target permanent.
+
+@ANY_WARD
+1
+Select target creature.
+
+@ASHESTOASHES
+2
+Select first target creature.
+Select second target creature.
+
+@ASHNODS_BATTLEGEAR
+1
+Select target creature you control.
+
+@ASPECTOFWOLF
+1
+Select target creature.
+
+@ASSEMBLY_WORKER
+5
+Select target assembly worker.
+Get mana.
+Re-change to Assembly Worker.
+Pump Assembly Worker.
+Cancel.
+
+@ASWANJAGUAR
+1
+Select your prey.
+
+@BACKFIRE
+1
+Select target creature.
+
+@BALANCE
+2
+Sacrifice land.
+Sacrifice creature you control.
+
+@BERSERK
+1
+Select target creature.
+
+@BIRDS_OF_PARADISE
+6
+Birds of Paradise: What kind of mana?
+to produce black mana.
+to produce blue mana.
+to produce green mana.
+to produce red mana.
+to produce white mana.
+
+@BLACK_LOTUS
+6
+Black Lotus: What type of mana?
+to produce black mana.
+to produce blue mana.
+to produce green mana.
+to produce red mana.
+to produce white mana.
+
+@BLACK_WARD
+1
+Select target creature.
+
+@BLESSING
+1
+Select target creature.
+
+@BLIGHT
+1
+Select target land.
+
+@BLOODLUST
+1
+Select target creature.
+
+@BLUE_ELEMENTAL_BLAST
+1
+Select target red permanent.
+
+@BLUE_WARD
+1
+Select target creature.
+
+@BOTTLE_SULEIMAN
+3
+Call the coin flip:
+Heads.
+Tails.
+
+@BRAINGEYSER
+1
+Select target player.
+
+@BRAINWASH
+1
+Select target creature.
+
+@BRONZE_TABLET
+4
+Select target card.
+Swap cards.
+Pay 10 life.
+Concede game.
+
+@BROTHERS_OF_FIRE
+1
+Select target creature or player.
+
+@BURROWING
+1
+Select target creature.
+
+@CANDLEABRA_OF_TAWNOS
+1
+Select target land (%d of %d).
+
+@CAVE_PEOPLE
+1
+Select target creature.
+
+@CELESTIAL_PRISM
+6
+Celestial Prism: What kind of mana?
+to produce black mana.
+to produce blue mana.
+to produce green mana.
+to produce red mana.
+to produce white mana.
+
+@CHANNEL
+2
+Spend how much life for generic mana?
+Illegal amount (must be between 0 and life).
+
+@CIRCLE_OF_PROTECTION
+1
+Select damage card.
+
+@COCOON
+1
+Select target creature you control.
+
+@CONSERVATOR
+1
+Select damage card.
+
+@CONTROL_MAGIC
+1
+Select target creature.
+
+@COPY_ARTIFACT
+2
+Select target artifact.
+Illegal target (didn't enter play as an artifact).
+
+@CORAL_HELM
+1
+Select target creature.
+
+@COSMIC_HORROR
+1
+Cosmic Horror deals 7 damage!
+
+@COUNTER_SPELL
+1
+Select target spell being cast.
+
+@CREATUREBOND
+1
+Select target creature.
+
+@CRIMSON_MANTICORE
+1
+Select target creature.
+
+@CRUMBLE
+1
+Select target artifact.
+
+@CURSED_LAND
+1
+Select target land.
+
+@DARKPACT
+1
+Select an ante card.
+
+@DEATH_WARD
+2
+Select creature.
+Illegal target (not dying).
+
+@DEMONIC_ATTORNEY
+2
+Ante additional card.
+Concede game.
+
+@DEMONIC_TUTOR
+1
+Select target card.
+
+@DESERT_TWISTER
+1
+Select target permanent.
+
+@DETONATE
+1
+Select target artifact.
+
+@DISENCHANT
+1
+Select target artifact or enchantment.
+
+@DISINTEGRATE
+1
+Select target creature or player.
+
+@DISRUPTING_SCEPTER
+1
+Select target player.
+
+@DIVINE_TRANSFORMATION
+1
+Select target creature.
+
+@DRAIN_LIFE
+1
+Select target creature or player.
+
+@DRAIN_POWER
+1
+Select target player.
+
+@DWARVEN_DTEAM
+1
+Select target wall.
+
+@DWARVEN_WARRIORS
+1
+Select target creature with power less than 3.
+
+@EARTH_BIND
+1
+Select target creature with flying.
+
+@EBONYHORSE
+1
+Select target creature.
+
+@ENERGYTAP
+1
+Select target creature.
+
+@ERGRAIDERS
+1
+Erg Raiders take 2 life!
+
+@EROSION
+4
+Select target land.
+Destroy enchanted land.
+Pay 1 mana to counter.
+Pay 1 life.
+
+@ETERNAL_WARRIOR
+1
+Select target creature.
+
+@EVIL_PRESENCE
+1
+Select target land.
+
+@EYE_FOR_EYE
+1
+Select damage card.
+
+@FAERIEDRAGON_MESSAGES
+21
+casts Berserk!
+...   
+casts Bloodlust!
+casts Lifelace!
+casts Purelace!
+casts Chaoslace!
+casts Lightning Bolt!
+casts Jump!
+casts Giant Growth!
+activates Helm of Chatzuk effect!
+casts Deathlace!
+casts Thoughtlace!
+activates Hurr Jackal effect!
+...   
+activates Pradesh Gypsies effect!
+casts Unsummon!
+activates Rod Of Ruin effect!
+activates Sorceress Queen effect!
+casts Swords To Plowshares!
+casts Orcish Catapult!
+...   
+
+@FAERIEDRAGON_TWIDDLE
+3
+casts Twiddle!
+Tap.
+Untap.
+
+@FAERIEDRAGON_TAWNOSWAND
+2
+activates Tawnos's Wand effect!
+fizzles attempting Tawnos's Wand effect!
+
+@FAERIEDRAGON_ERROR
+1
+made an error!
+
+@FEAR
+1
+Select target creature.
+
+@FEEDBACK
+1
+Select target enchantment.
+
+@FELLWAR_STONE
+7
+Fellwar Stone: What kind of mana?
+to produce black mana.
+to produce blue mana.
+to produce green mana.
+to produce red mana.
+to produce white mana.
+to produce colorless mana.
+
+@FIREBALL
+2
+Select target creature or player (%d of %d).
+Illegal target (may only target once).
+
+@FIREBREATHING
+1
+Select target creature.
+
+@FISHLIVEROIL
+1
+Select target creature.
+
+@FISSURE
+1
+Select target creature or land.
+
+@FLIGHT
+1
+Select target creature.
+
+@FLOOD
+1
+Select target creature.
+
+@FLYING_CARPET
+1
+Select target creature.
+
+@FORCEFIELD
+1
+Select damage card.
+
+@FORCE_OF_NATURE
+1
+Force of Nature deals 8 damage!
+
+@GAEAS_LIEGE
+1
+Select target land.
+
+@GASEOUSFORM
+1
+Select target creature.
+
+@GIANT_GROWTH
+1
+Select target creature.
+
+@GIANT_STRENGTH
+1
+Select target creature.
+
+@GLASSES_OF_URZA
+2
+Select target player.
+Target Player's Hand
+
+@GRAPESHOT_CATAPULT
+1
+Select target creature with flying.
+
+@GREEN_WARD
+1
+Select target creature.
+
+@HEALING_SALVE
+3
+Select target player.
+Select damage point to heal (%d of %d).
+Illegal target (prevent damage to ONE target).
+
+@HELM_OF_CHATZUK
+1
+Select target creature.
+
+@HOLY_ARMOR
+1
+Select target creature.
+
+@HOLY_STRENGTH
+1
+Select target creature.
+
+@HOWL_FROM_BEYOND
+1
+Select target creature.
+
+@HURKYLS_RECALL
+1
+Select target player.
+
+@HURR_JACKAL
+1
+Select target creature.
+
+@IMMOLATION
+1
+Select target creature.
+
+@INSTILL_ENERGY
+1
+Select target creature.
+
+@INVISIBILITY
+1
+Select target creature.
+
+@ISLAND_FISH_JASCONIUS
+2
+Untap Island Fish.
+Don't untap.
+
+@ISLAND_SANCTUARY
+1
+Select draw potential.
+
+@JADE_MONOLITH
+1
+Select target creature.
+
+@JANDORS_SADDLEBAGS
+1
+Select target creature.
+
+@JUMP
+1
+Select target creature.
+
+@KING_SULEIMAN
+1
+Select target djinn or efreet.
+
+@KISMET
+1
+Select target player.
+
+@LANCE
+1
+Select target creature.
+
+@LANDTAX
+4
+Pick up to 3 basic lands.
+Pick up to 2 more basic lands.
+Pick up to 1 more basic land.
+Opponent chose these basic lands:
+
+@LEVIATHAN
+1
+Select island to sacrifice.
+
+@LEY_DRUID
+1
+Select target land.
+
+@LIBRARY_OF_ALEXANDRIA
+3
+Get mana.
+Draw a card.
+Cancel.
+
+@LIGHTNING_BOLT
+1
+Select target creature or player.
+
+@LIVING_ARTIFACT
+1
+Select target artifact.
+
+@LORD_OF_THE_PIT
+2
+Select creature to sacrifice.
+Lord of the Pit deals 7 damage!
+
+@LURE
+1
+Select target creature.
+
+@MAGICAL_HACK
+2
+Select target permanent.
+Hacking %s to %s.
+
+@MANABATTERY
+4
+Tap to get mana.
+Charge battery (add counter).
+Cancel.
+How many counters do you wish to spend for additional mana? \n(max: %d)
+
+@MANACLASH
+3
+Your flip
+Opponent flip
+Repeating since a tails came up.
+
+@MANASHORT
+1
+Select target player.
+
+@MILLSTONE
+1
+Select target player.
+
+@MINDBOMB
+5
+Lose life or discard...
+Lose 3 life.
+Lose 2 life and discard 1 card.
+Lose 1 life and discard 2 cards.
+Discard 3 cards.
+
+@MINDTWIST
+1
+Select target player.
+
+@MISHRAS_FACTORY
+5
+Select target assembly worker.
+Get mana.
+Change to Assembly Worker.
+Pump Assembly Worker.
+Cancel.
+
+@MISHRAS_WARMACHINE
+1
+Unable to discard...\nMishra's War Machine deals 3 damage.
+
+@NAFS_ASP
+1
+Naf's Asp takes 1 life!
+
+@NETHER_SHADOW
+1
+is returning from the grave.
+
+
+@NORTHERN_PALADIN
+1
+Select target permanent.
+
+@OASIS
+2
+Select damage card.
+Illegal target (damage type).
+
+@ORCISH_ARTILLERY
+1
+Select target creature or player.
+
+@PARALYZE
+1
+Select target creature.
+
+@PERSONAL_INCARNATION
+2
+Select damage to redirect.
+How much damage to redirect to you?
+
+@PHANTASMAL_TERRAIN
+2
+Select target land.
+Land type?
+
+@PIRATE_SHIP
+1
+Select target creature or player.
+
+@POWERLEAK
+4
+Select target enchantment.
+Take the 2 damage.
+Pay 1 mana, take 1 damage.
+Pay 2 mana.
+
+@POWERSINK
+1
+Select target spell being cast.
+
+@POWER_STRUGGLE
+1
+is swapping %s for %s.
+
+@PRADESH_GYPSIES
+1
+Select target creature.
+
+@PRIMAL_CLAY
+4
+Creature type?
+1/6 Wall.
+2/2 Creature with flying.
+3/3 Creature.
+
+@PRISMATIC_DRAGON
+6
+...
+changes color to black
+changes color to blue
+changes color to green
+changes color to red
+changes color to white
+
+@PRODIGAL_SORCERER
+1
+Select target creature or player.
+
+@PSIONIC_ENTITY
+1
+Select target creature or player.
+
+@PSYCHIC_VENOM
+1
+Select target land.
+
+@PYROTECHNICS
+4
+Select (1st of 4) target creature or player.
+Select (2nd of 4) target creature or player.
+Select (3rd of 4) target creature or player.
+Select (4th of 4) target creature or player.
+
+@RADJAN_SPIRIT
+1
+Select target creature.
+
+@RAGMAN
+2
+Opponent's Hand
+Randomly chose this creature to discard.
+
+@RAINBOW_KNIGHTS
+4
+Add random power.
+Gain first strike.
+Cancel.
+Power increased by %d.
+
+@RAISEDEAD
+1
+Select target creature.
+
+@REBIRTH
+2
+Ante an additional card. 
+No additional ante.
+
+@RED_ELEMENTAL_BLAST
+1
+Select target blue permanent.
+
+@RED_WARD
+1
+Select target creature.
+
+@REGENERATION
+1
+Select target creature.
+
+@REGROWTH
+1
+Select target card.
+
+@RELIC_BIND
+4
+Select target artifact.
+Select target player.
+Gain life.
+Take damage.
+
+@REVERSE_DAMAGE
+2
+Select damage card.
+Select a card that has damaged you.
+
+@RIGHTEOUSNESS
+1
+Select target creature.
+
+@ROD_OF_RUIN
+1
+Select target creature or player.
+
+@ROYAL_ASSASSIN
+1
+Select target tapped creature.
+
+@SAMITE_HEALER
+1
+Select damage card.
+
+@SEEKER
+1
+Select target creature.
+
+@SHAPESHIFTER
+9
+Select Power/Toughness...
+0/7
+1/6
+2/5
+3/4
+4/3
+5/2
+6/1
+7/0
+
+@SHATTER
+1
+Select target artifact.
+
+@SIMULACRUM
+1
+Select target creature.
+
+@SINDBAD
+1
+draws:
+
+@SINGING_TREES
+1
+Select target attacking creature.
+
+@SLEIGHT_OF_MIND
+2
+Select target permanent.
+Sleighting %s to %s.
+
+@SMOKE
+2
+PROCESSING Smoke: Select creature to untap.
+Opponent chooses to untap:
+
+@SORCERESS_QUEEN
+1
+Select target creature.
+
+@SPIRITLINK
+1
+Select target creature.
+
+@SPIRIT_SHACKLE
+1
+Select target creature.
+
+@STEAL_ARTIFACT
+1
+Select target artifact.
+
+@STONE_GIANT
+1
+Select target creature.
+
+@STONE_RAIN
+1
+Select target land.
+
+@STREAMOFLIFE
+1
+Select target player.
+
+@STRIPMINE
+4
+Select target land.
+Get mana.
+Sacrifice to destroy a land.
+Cancel.
+
+@SWORD_TO_PLOWSHARES
+1
+Select target creature.
+
+@SYLVAN_LIBRARY
+3
+Pay 4 life.
+Put back on library.
+Select card drawn this turn to discard.
+
+@TARGET_CREATURE
+1
+Select target creature.
+
+@TAWNOS_WEAPONRY
+1
+Select target creature.
+
+@TAWNOS_WAND
+1
+Select target creature with power 2 or less.
+
+@TEMPEST_EFREET
+4
+Swap cards.
+Lose 10 life.
+Concede game.
+randomly chooses...
+
+@TERROR
+1
+Select target creature.
+
+@TETRAVITE
+3
+Select target tetravite.
+Illegal target (tetravite not related to tetravus).
+Illegal target (only one move per turn).
+
+@TETRAVUS
+6
+Launch tetravite.
+Dock tetravite.
+Never mind.
+Move 1 token.
+Move 2 tokens.
+Move 3 tokens.
+
+@THE_BRUTE
+1
+Select target creature.
+
+@TIME_ELEMENTAL
+1
+Select target permanent with no enchantments.
+
+@TIME_VAULT
+2
+Play this turn.
+Skip this turn to untap.
+
+@TRISKELION
+1
+Select target creature or player.
+
+@TUNNEL
+1
+Select target wall.
+
+@TWIDDLE
+3
+Select target creature, artifact or land.
+Tap.
+Untap.
+
+@UNHOLY_STRENGTH
+1
+Select target creature.
+
+@UNSTABLE_MUTATION
+1
+Select target creature.
+
+@UNSUMMON
+1
+Select target creature.
+
+@UNTAMED_WILDS
+1
+Select target basic land.
+
+@URZAS_AVENGER
+6
+Add which ability?
+Flying.
+Banding.
+First Strike.
+Trample.
+Cancel.
+
+@VENOM
+1
+Select target creature.
+
+@VISIONS
+4
+Select target player.
+The top five cards in the library.
+Shuffle library.
+Don't shuffle.
+
+@VOLCANIC_ERUPTION
+1
+Select target mountain (%d of %d).
+
+@WANDERLUST
+1
+Select target creature.
+
+@WARP_ARTIFACT
+1
+Select target artifact.
+
+@WEB
+1
+Select target creature.
+
+@WEAKNESS
+1
+Select target creature.
+
+@WHEELOFFORTUNE
+1
+Neither player has enough library to draw new hand, so duel is a tie.
+
+@WHIMSY_MESSAGES
+18
+activates Time Elemental effect!
+casts Twiddle to untap.
+casts Twiddle to tap.
+activates Aladdin's Ring effect!
+casts Ancestral Recall!
+casts Crumble!
+casts Disenchant!
+casts Healing Salve!
+casts Fissure!
+activates Millstone effect!
+activates The Hive effect!
+activates Nevinyrral's Disk effect!
+activates Bottle of Suleiman effect!
+activates Pandora's Box effect!
+activates Disrupting Scepter effect!
+activates Fog effect!
+activates Sindbad effect!
+made an error!
+
+@WHIMSY_BOTTLESULEIMAN
+3
+Call the coin flip:
+Heads.
+Tails.
+
+@WHIMSY_SINDBAD
+1
+Sindbad draws...
+
+@WHITE_WARD
+1
+Select target creature.
+
+@WILD_GROWTH
+1
+Select target land.
+
+@WINTERORB
+2
+PROCESSING Winter Orb: Select land to untap.
+Opponent chooses to untap:
+
+@WINTER_BLAST
+1
+Select target creature (%d of %d).
+
+@WORDOFBINDING
+1
+Select target creature (%d of %d).
+
+@WYLULI_WOLF
+1
+Select target creature.
+
+@XENIC_POLTERGEIST
+1
+Select target noncreature artifact.
+
+@PROMPT_FIZZLE
+1
+fizzle
+

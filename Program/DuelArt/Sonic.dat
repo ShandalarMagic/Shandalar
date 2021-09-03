@@ -1,0 +1,130 @@
+;-*- conf-windows -*-
+;Overrides for Miracle frames.
+;See Duel.dat for documentation.
+;
+[SmallCard]
+ArtLeft = 46
+ArtTop = 174
+ArtWidth = 917
+ArtHeight = 742
+;
+TitleSourceTop = 5
+TitleSourceHeight = 36
+TitleDestHeight = 209
+FrameSourceTop = 132
+FrameSourceHeight = 136
+FrameDestTop = 209
+;
+ExpansionLeft = 650
+ExpansionTop = 39
+ExpansionWidth = 171
+ExpansionHeight = 122
+;
+;
+[FullCard]
+FrameLeft = 0
+FrameTop = 0
+FrameWidth = 800
+FrameHeight = 1200
+;
+ExpandTop = 5510
+ExpandHeight = 3200
+;
+RoundingX = 0
+RoundingY = 0
+;
+BorderColorR = 0
+BorderColorG = 0
+BorderColorB = 0
+;
+OutlineColorR = 0
+OutlineColorG = 0
+OutlineColorB = 0
+;
+TitleLeft = 39
+TitleTop = 20
+TitleWidth = 722
+;
+TitleShadowOffsetX = 3
+TitleShadowOffsetY = 3
+;
+ManaLeft = 52
+ManaTop = 28
+ManaWidth = 712
+ManaHeight = 46
+;
+ArtLeft = 50
+ArtTop = 100
+ArtWidth = 700
+ArtHeight = 535
+;
+TypeLeft = 39
+TypeTop = 1054
+TypeWidth = 722
+;
+TypeShadowOffsetX = 3
+TypeShadowOffsetY = 3
+;
+TitleColorR = 255
+TitleColorG = 255
+TitleColorB = 255
+TitleShadowColorR = 47
+;
+TypeColorR = 250
+TypeColorG = 250
+TypeColorB = 250
+TypeShadowColorR = 47
+;
+RulestextLeft = 41
+RulestextTop = 675
+RulestextWidth = 718
+RulestextHeight = 352
+;
+RulesboxLeft = 20
+RulesboxTop = 657
+RulesboxWidth = 760
+RulesboxHeight = 386
+;
+WatermarkLeft = 230
+WatermarkTop = 682
+WatermarkWidth = 340
+WatermarkHeight = 340
+;
+PowertoughnessLeft = 65
+PowertoughnessTop = 1110
+PowertoughnessWidth = 704
+;
+PowertoughnessCenter = 1
+PowertoughnessBoxVisible = 0
+;
+PowertoughnessColorR = 250
+PowertoughnessColorG = 250
+PowertoughnessColorB = 250
+;
+PowertoughnessShadowColorR = 47
+;
+PowertoughnessShadowOffsetX = 3
+PowertoughnessShadowOffsetY = 3
+;
+ExpansionLeft = 670
+ExpansionTop = 1118
+ExpansionWidth = 100
+ExpansionHeight = 50
+;
+TombstoneVisible = 0
+;
+;
+[Frames]
+FrameBaseDir=Sonic
+;
+CardOv_ColorlessLand=CardOv_Colorless.png
+;
+CardOv_ArtifactNyx=CardOv_ArtifactNyx.png
+CardOv_ColorlessNyx=CardOv_ArtifactNyx.png
+CardOv_LandNyx=CardOv_ArtifactNyx.png
+CardOv_GoldNyx=CardOv_GoldNyx.png
+CardOv_WNyx=CardOv_WNyx.png
+CardOv_UNyx=CardOv_UNyx.png
+CardOv_BNyx=CardOv_BNyx.png
+CardOv_RNyx=CardOv_RNyx.png
+CardOv_GNyx=CardOv_GNyx.png

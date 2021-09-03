@@ -1,0 +1,508 @@
+@APP_TITLE_STRING
+1
+ManaLink
+
+@ERROR001
+2
+Could not load RICHED32.DLL.  Chat will not be available.
+ManaLink Error
+
+@ERROR002
+1
+E002: Manalink could not retrieve the lobby connection settings.
+
+@ERROR003
+1
+E003: Manalink could not set the lobby connection settings.
+
+@ERROR004
+1
+E004: Could not connect to the service provider.
+
+@ERROR005
+1
+E005: Could not connect to TEN at this time.  Please try again later.
+
+@ERROR006
+1
+E006: Manalink was unable to count the current number of players on the network.
+
+@ERROR007
+1
+E007: The DirectPlay Session has been lost.  You need to reconnect to the network.
+
+@ERROR008
+1
+E008: You must select a service provider from the list before continuing.
+
+@ERROR009
+1
+E009: Sorry, but I can't create a DirectPlay session on that service provider.
+
+@ERROR010
+1
+E010: You must select one name from the user list before inviting an opponent.
+
+@ERROR011
+1
+E011: You must select a name from the user list before sending a message.
+
+@ERROR012
+1
+E012: You must select a name from the user list before sending a chat request.
+
+@ERROR013
+1
+E013: The message database is not available at this time.
+
+@ERROR014
+2
+E014a: You must select a name from the user list before getting player information.
+E014b: Only one name can be selected when requesting player information.
+
+@ERROR100
+1
+E100: ManaLink was unable to create a player on the network.
+
+@ERROR101
+1
+E101: ManaLink could not attach to shared global data.  Please reinstall.
+
+@ERROR102
+1
+E102: %s's machine has stopped responding to network events.
+
+@ERROR200
+1
+E200: Out of memory.
+
+@ERROR300
+1
+E300: You must run ManaLink under Microsoft Windows 95 or later.
+
+@ERROR301
+1
+E301: Your Tengame.ini file is corrupt or missing.  Please contact TEN to resolve this problem.
+
+@ERROR302
+1
+E302: Your Ten.ini file is corrupt or missing.  Please contact TEN to resolve this problem.
+
+@ERROR303
+1
+E303: Cannot install TEN software unless you are able to locate the TEN Setup.exe program.
+
+@ERROR304
+1
+E304: Your TEN installation has become corrupt.  Please reinstall the TEN Client software.
+
+@ERROR305
+1
+E305: Could not connect to TEN server.
+
+@ERROR400
+1
+E400: The Magic: The Gathering session is full.  Please try to connect again later.
+
+@ERROR401
+1
+E401: A connection to the Magic: The Gathering session is not available.  Please try again later.
+
+@SELF_INVITE
+1
+You cannot send an invitation to yourself.
+
+@SELF_CHAT
+1
+You cannot request a chat with yourself.
+
+@SELF_MESSAGE
+1
+You cannot send a message to yourself.
+
+@DEFAULTFAIL
+1
+It is not possible to use the AutoConnect feature at this time. Please try to connect manually.
+
+@NETWORKWELCOME
+1
+Screen name "%s" has automatically been created on your local area network.
+
+@INETWELCOME
+1
+Welcome to Magic: The Gathering on TEN...the best place for games on the Internet!
+
+@MODEMWELCOME
+1
+You are now connected to your opponent via modem.
+
+@SERIALWELCOME
+1
+Screen name "%s" has automatically been created.
+
+@CHATTITLEBAR
+2
+ManaLink Chat
+(Host)
+
+@CHATREQUEST
+1
+%s is asking to chat with you. Open the Manalink dialogue and double click on the chat request to accept or decline.
+
+@CHATDIALOGPROMPT
+1
+%s is asking to chat with you.
+
+@CHATDECLINE
+1
+%s has declined your chat request.
+
+@CHATUSERARRIVE
+1
+%s has entered the chat session.
+
+@CHATTEXTSAVED
+1
+Chat window text saved to %s
+
+@CHATEND
+1
+%s has terminated the chat session.
+
+@CHATBUSY
+1
+That person is already in another chat session.
+
+@CHATFULL
+1
+Sorry, but that chat session is full.
+
+@MSGRECEIVED
+1
+You have received a message from "%s". Open the ManaLink dialogue and double click on the message to reply or delete.
+
+@FAMDLG_BUTTONS
+15
+Message
+Invite
+Friend
+Filters
+Info
+Chat
+Mute
+Refresh
+Delete
+Purge
+Options
+Unregister
+Connect
+Disconnect
+Refresh
+
+@BUTTON_CONNECT
+1
+Connect
+
+@BUTTON_DISCONNECT
+1
+Disconnect
+
+@FAMDLG_TEXTLABELS
+3
+Available
+Don't Disturb
+Need Help
+
+@PREFDLG
+14
+Use Autoconnect
+Show System Messages
+Play Sounds
+I am available
+I am unavailable
+Badge Manager
+Delete
+Delete All
+Apply
+Cancel
+Screen Name
+Badge
+ManaLink Options
+Use AutoStart
+
+@INVITEBANNER
+1
+%s has invited you to a duel. Open the ManaLink dialogue and double click on the invitation to accept or decline.
+
+@MSGDUELINVITE
+1
+invites you to a duel!
+
+@INVITEDIALOGPROMPT
+1
+%s has invited you to a duel.
+
+@MSGDUELACCEPT
+1
+%s has accepted your invitation to a duel.
+
+@MSGDUELDECLINE
+1
+%s has declined your invitation to a duel.
+
+@ANONYMOUSUSER
+1
+Anonymous
+
+@NOT_ONLINE
+1
+%s has left the session since sending this message.
+
+@MONTHNAMES
+12
+January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December
+
+@YESNO
+2
+Yes
+No
+
+@AMPM
+2
+a.m.
+p.m.
+
+@IDC_MODEM_MESSAGE
+1
+When connecting by modem, you have to choose to either Answer your opponent's phone call, or to dial your opponent.  You may also choose to cancel this connection.
+
+@IDC_SERIAL_MESSAGE
+1
+When connecting via TCP/IP, you have to choose to either Host or Join the session. To join the session, you'll need to enter the host's IP address.
+
+@IDC_SENDTAUNT
+1
+Send Taunt
+
+@ML_ICON_STATE
+6
+NONET
+NET
+USERS
+OPPNT
+DUEL
+DROP
+
+@USERLISTCOLUMNS
+4
+Player Name
+Status
+Rank
+Latency
+
+@USERSTATUSSTRINGS
+5
+Need Help
+Do Not Disturb
+Dueling
+Available
+Registered
+
+@DIALOGPROMPTS
+5
+Choose a connection type:
+Internet (TCP/IP)
+Modem Connection
+Local Area Network (IPX)
+Play Magic on GatheringNet
+
+@FAMDLGTITLE
+1
+Familiar Dialog
+
+@PLAYERINFO_TITLE
+1
+Player Info
+
+@OPPONENTSTAT
+2
+Registered Opponent:        %s
+No Registered Opponent
+
+@UNREGISTER
+1
+You have been unregistered from your opponent
+
+@OPPONENTDROP
+1
+Your opponent has unregistered with you.
+
+@DUEL_DROP
+1
+Your registration with your opponent has been lost due to an unrecoverable error.
+
+@OPPNT_DISCONNECT
+1
+Your registered opponent has disconnected from the network.
+
+@BOOTED_D
+1
+Your account has been suspended for 24 hours for violating the terms of service.
+
+@BOOTED_M
+1
+Your account has been suspended for one month for violating the terms of service.
+
+@BOOTED_P
+1
+Your account has been permanently suspended for violating the terms of service.
+
+@OPPNTLINK_TIMEOUT
+2
+Your opponent has not arrived in OpponentLink.  Do you wish to keep trying?
+
+@TIMEOUT
+1
+error(timeout)
+
+@BADGE_LABELS
+6
+Rules Master
+Wizards of the Coast Rep
+MicroProse Software Rep
+Gunslinger
+Friend
+Muted
+
+@SYSTEM_MESSAGES
+2
+Requesting a chat session with you...
+Invites you to a duel...
+
+@FLTDLG_LABELS
+16
+Player Filters
+Show Only
+Friends
+Available
+Hide
+Muted
+DoNotDisturb
+Registered
+Beginner
+Intermediate
+Advanced
+Connection
+Concede
+Disconnect
+Players Online
+Players in List
+
+@ALREADY_REGISTERED
+1
+The person you selected to invite is already registered to another opponent
+
+@ALREADY_REGISTERED2
+1
+This registration has failed.  That person is currently registered with another opponent.
+
+@MUTED_MESSAGE
+1
+That person has muted you and is not accepting any messages at this time.
+
+@MULTI_ACCEPT
+1
+You are already registered with an opponent.  You must unregister with your current opponent before handling other invitations.
+
+@GENERIC_TIMEOUT
+1
+This operation has timed out.
+
+@INPUT_LIMIT
+1
+Messages can contain up to 255 characters
+
+@CONNECTMSG
+4
+Linking to GatheringNet
+Linking to Local Area Network
+Linking to Modem
+Linking to TCP/IP Network
+
+@BAD_VERSION
+2
+The version of ManaLink on your system does not match the version of the session host.  Do you want to continue?
+Version Conflict
+
+@WS_VERSION
+2
+You must have at least Winsock version 1.1 (or compatible) to use ManaLink.
+Winsock Error
+
+@POPUP_MENU
+7
+&Open
+&Preferences
+Show Messages
+Play Sounds
+Do Not Disturb
+&Options...
+E&xit
+
+@MISC_DIALOG_TITLES
+10
+Message: %s
+Message To %s
+Accept/Decline
+Accept
+Decline
+Reply
+Delete
+Close
+Send
+Cancel
+
+@PINFO_TITLES
+11
+Screen Name
+Real Name
+E-Mail
+Quote
+Skill Level
+Concede Rate
+DCI Ranking
+Disconnect Rate
+DCI Record
+Date
+Overall Record
+
+@CONNECT_BUTTONS
+5
+Dial
+Answer
+Host
+Join
+Cancel
+
+@INVITE_TEXT
+5
+Waiting for %s to accept or decline your invitation.
+Your invitation to %s has been withdrawn.
+Cancel
+%s has withdrawn his/her invitation to a duel.
+You already have an active invitation open.  Please address it before sending another invitation.
+
+@VERSION_MISMATCH
+1
+You are not running the latest version of Magic.exe.  You can get the latest version from www.manalink.org.

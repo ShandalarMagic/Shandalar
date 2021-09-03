@@ -1,0 +1,83 @@
+;-*- conf-windows -*-
+;Overrides for Planechase Plane card frame.
+;See Duel.dat for documentation.
+;
+[SmallCard]
+ArtLeft = 79
+ArtTop = 160
+ArtWidth = 851
+ArtHeight = 819
+;
+TitleSourceTop = 0
+TitleSourceHeight = 39
+TitleDestHeight = 205
+FrameSourceTop = 39
+FrameSourceHeight = 305
+FrameDestTop = 205
+;
+ExpansionLeft = 610
+ExpansionTop = 29
+ExpansionWidth = 144
+ExpansionHeight = 107
+;
+[FullCard]
+ExpandTop = 7120
+ExpandHeight = 2060
+;
+TitleLeft = 127
+TitleTop = 39
+TitleWidth = 540
+TitleHeight = 64
+;
+TitleCenter = 1
+;
+ArtLeft = 76
+ArtTop = 93
+ArtWidth = 646
+ArtHeight = 597
+;
+TypeLeft = 148
+TypeTop = 778
+TypeWidth = 457
+TypeHeight = 60
+;
+RulestextLeft = 110
+RulestextTop = 845
+RulestextWidth = 580
+RulestextHeight = 278
+;
+RulesboxLeft = 84
+RulesboxTop = 835
+RulesboxWidth = 632
+RulesboxHeight = 240
+;
+ExpansionLeft = 594
+ExpansionTop = 787
+ExpansionWidth = 70
+ExpansionHeight = 35
+;
+RoundingX = 55
+RoundingY = 55
+;
+TitleColorR = 47
+TitleColorG = 47
+TitleColorB = 47
+TitleShadowColorR = -1
+;
+TypeColorR = 47
+TypeColorG = 47
+TypeColorB = 47
+TypeShadowColorR = -1
+;
+;
+[Frames]
+TranslucentColorless = 0
+ColorlessAlpha = 255
+ForceColorless = 1
+;
+FrameBaseDir=Plane
+;
+DefaultImage=..\blank.png
+;
+CardBk_Colorless=CardBk_Colorless.png
+CardOv_Colorless=CardOv_Colorless.png

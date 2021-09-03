@@ -1,0 +1,84 @@
+;-*- conf-windows -*-
+;Overrides for Archenemy Scheme frame.
+;See Duel.dat for documentation.
+;
+[SmallCard]
+ArtLeft = 106
+ArtTop = 211
+ArtWidth = 801
+ArtHeight = 832
+;
+TitleSourceTop = 18
+TitleSourceHeight = 28
+TitleDestHeight = 198
+FrameSourceTop = 46
+FrameSourceHeight = 278
+FrameDestTop = 198
+;
+ExpansionLeft = 540
+ExpansionTop = 27
+ExpansionWidth = 171
+ExpansionHeight = 122
+;
+;
+[FullCard]
+ExpandTop = 6968
+ExpandHeight = 2070
+;
+TitleLeft = 125
+TitleTop = 67
+TitleWidth = 550
+TitleHeight = 64
+;
+TitleCenter = 1
+;
+ArtLeft = 96
+ArtTop = 114
+ArtWidth = 605
+ArtHeight = 668
+;
+TypeLeft = 120
+TypeTop = 779
+TypeWidth = 520
+TypeHeight = 60
+;
+RulestextLeft = 125
+RulestextTop = 837
+RulestextWidth = 550
+RulestextHeight = 240
+;
+RulesboxLeft = 94
+RulesboxTop = 815
+RulesboxWidth = 612
+RulesboxHeight = 240
+;
+ExpansionLeft = 610
+ExpansionTop = 789
+ExpansionWidth = 70
+ExpansionHeight = 35
+;
+RoundingX = 55
+RoundingY = 55
+;
+TitleColorR = 0
+TitleColorG = 0
+TitleColorB = 0
+TitleShadowColorR = -1
+;
+TypeColorR = 0
+TypeColorG = 0
+TypeColorB = 0
+TypeShadowColorR = -1
+;
+;
+[Frames]
+TranslucentColorless = 1
+ColorlessAlpha = 255
+ForceColorless = 2
+;
+FrameBaseDir=Scheme
+;
+DefaultImage=..\blank.png
+;
+CardBk_Colorless=CardBk_Colorless.png
+CardOv_Colorless=CardOv_Colorless.png

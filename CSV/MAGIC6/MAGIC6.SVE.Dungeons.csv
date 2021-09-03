@@ -1,0 +1,16 @@
+Dungeon#;Card1;Card2;Card3;CardInEffect;MapX;MapY;NearTown;Color;EnemyType;Clues;Rules;NumVisits;Unknown
+0 Castle Necris;-1 NONE;-1 NONE;-1 NONE;208 Rod of Ruin;33;44;64;0b00000010;0x81;0b00000000;0x03;-1;0xFFFFFFFF
+1 Mysthold;-1 NONE;-1 NONE;-1 NONE;935 Flood;30;55;84;0b00000100;0x81;0b00000000;0x03;-1;0xFFFFFFFF
+2 Wildwood Steading;-1 NONE;-1 NONE;-1 NONE;262 Verduran Enchantress;42;20;91;0b00000110;0x81;0b00000000;0x03;-1;0xFFFFFFFF
+3 Dragon Mount;-1 NONE;-1 NONE;-1 NONE;192 Power Surge;19;33;60;0b00001000;0x81;0b00000000;0x03;-1;0xFFFFFFFF
+4 Citadel of the Sun;-1 NONE;-1 NONE;-1 NONE;28 Castle;56;36;31;0b00001010;0x81;0b00000000;0x03;-1;0xFFFFFFFF
+5 The Paths of Chronus;419 Ancestral Recall;1657 Channel;5842 Mana Crypt;8 Bad Moon;40;47;52;0b00000010;0x03;0b00000000;0x81;-1;0xFFFFFFFF
+6 Ruins of Su-Chan;1021 Black Lotus;6212 Mishra's Workshop;10027 Time Vault;939 Marsh Viper;36;39;69;0b00000110;0x03;0b00000000;0x21;-1;0xFFFFFFFF
+7 Mound of the Warrior Kings;10039 Tinker;10908 Wheel of Fortune;10990 Windfall;178 Orcish Oriflamme;38;57;94;0b00001000;0x82;0b00000000;0x01;-1;0xFFFFFFFF
+8 Azar's Crypt;3295 Fastbond;6360 Mox Jet;6362 Mox Pearl;939 Marsh Viper;29;43;2;0b00000110;0x03;0b00000000;0x21;-1;0xFFFFFFFF
+9 Soulchant Monastery;8964 Sol Ring;9446 Strip Mine;11166 Yawgmoth's Bargain;8 Bad Moon;29;35;64;0b00000010;0x03;0b00000000;0x11;-1;0xFFFFFFFF
+10 Cave of the Ice Worm;4813 Imperial Seal;6363 Mox Ruby;6527 Necropotence;939 Marsh Viper;30;24;57;0b00000110;0x82;0b00000000;0x01;-1;0xFFFFFFFF
+11 Dungeons of Graaz Keep;6364 Mox Sapphire;10060 Tolarian Academy;10463 Vampiric Tutor;939 Marsh Viper;12;42;67;0b00000110;0x03;0b00000000;0x81;-1;0xFFFFFFFF
+12 Tower of Whim;1937 Contract from Below;2435 Demonic Tutor;6359 Mox Emerald;939 Marsh Viper;45;19;116;0b00000110;0x82;0b00000000;0x01;-1;0xFFFFFFFF
+13 Arjonot's Tomb;5708 Lotus Petal;10028 Time Walk;10032 Timetwister;939 Marsh Viper;20;39;18;0b00000110;0x82;0b00000000;0x01;-1;0xFFFFFFFF
+14 Altar of the Cyclops;807 Balance;5559 Library of Alexandria;6447 Mystical Tutor;178 Orcish Oriflamme;50;36;65;0b00001000;0x03;0b00000000;0x01;-1;0xFFFFFFFF

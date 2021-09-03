@@ -1,0 +1,40 @@
+# -*- makefile -*-
+
+# Tools
+CC = gcc
+CXX = g++
+ASM = yasm
+RM = rm -f
+MV = mv -f
+CP = cp
+OBJCOPY = objcopy
+DLLTOOL = dlltool
+
+# Flags
+COMMONFLAGS = -O2 -ggdb2 -march=i586 -mpreferred-stack-boundary=2	\
+-fno-omit-frame-pointer -Wall -Wextra -Wpointer-arith -Wcast-qual	\
+-Wcast-align -Wwrite-strings -Wshadow -W -Winline -Wno-unused-parameter	\
+-Werror -I.. -I.
+CFLAGS = $(COMMONFLAGS) -Wbad-function-cast -Wstrict-prototypes -Wnested-externs
+CXXFLAGS = $(COMMONFLAGS) -std=c++0x
+AFLAGS = -a x86 -m x86 -p nasm -r nasm -f win32 -I.. -I.
+LFLAGS = -shared -static -static-libgcc -static-libstdc++
+
+# Input files
+SUBDIRS = .
+CFILES = $(wildcard $(patsubst %,%/*.c,$(SUBDIRS)))
+CXXFILES = $(wildcard $(patsubst %,%/*.cpp,$(SUBDIRS)))
+AFILES = $(wildcard $(patsubst %,%/*.asm,$(SUBDIRS)))
+LIBS =
+LIBFLAGS = $(patsubst %,-l%,$(LIBS))
+LOCAL_LIBS =
+LOCAL_LIBFLAGS = $(patsubst %,-l%,$(LOCAL_LIBS))
+
+# Intermediary files
+OBJDIR ?=
+COBJFILES = $(addprefix $(OBJDIR),$(patsubst %.c,%.o,$(CFILES)))
+CXXOBJFILES = $(addprefix $(OBJDIR),$(patsubst %.cpp,%.obj,$(CXXFILES)))
+AOBJFILES = $(addprefix $(OBJDIR),$(patsubst %.asm,%.ao,$(AFILES)))
+ALLOBJFILES = $(COBJFILES) $(CXXOBJFILES) $(AOBJFILES)
+WILDOBJFILES = $(patsubst %,$(OBJDIR)%/*.o,$(SUBDIRS)) $(patsubst %,$(OBJDIR)%/*.obj,$(SUBDIRS)) $(patsubst %,$(OBJDIR)%/*.ao,$(SUBDIRS))
+LOCAL_LIBFILES = $(patsubst %,lib%.a,$(LOCAL_LIBS))

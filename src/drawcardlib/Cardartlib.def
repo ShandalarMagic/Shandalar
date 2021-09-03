@@ -1,0 +1,12 @@
+LIBRARY Cardartlib.dll
+
+EXPORTS
+  DestroyAllBigArts
+  DestroyAllSmallArts
+  DrawBigArt
+  DrawSmallArt
+  IsBigArtRightSize
+  IsSmallArtIn
+  LoadBigArt
+  LoadSmallArt
+  ReloadSmallArtIfWrongSize

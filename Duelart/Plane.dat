@@ -1,0 +1,98 @@
+;-*- conf-windows -*-
+;Overrides for Planechase Plane card frame.
+;See Duel.dat for documentation.
+;
+[SmallCard]
+TitleSourceTop = 0
+TitleSourceHeight = 35
+TitleDestHeight = 140
+FrameSourceTop = 35
+FrameSourceHeight = 305
+FrameDestTop = 140
+;
+TitleOwnedColorR = 47
+TitleOwnedColorG = 47
+TitleOwnedColorB = 47
+TitleOwnedShadowColorR = -1
+;
+TitleUnownedColorR = 47
+TitleUnownedColorG = 47
+TitleUnownedColorB = 47
+TitleUnownedShadowColorR = -1
+;
+ExpansionLeft = 610
+ExpansionTop = 29
+ExpansionWidth = 144
+ExpansionHeight = 107
+;
+TitleLeft = 48
+;TitleTop = -8
+TitleWidth = 704
+;TitleHeight = 1120
+;
+TitleCenter = 1
+;
+;
+[FullCard]
+ExpandTop = 7120
+ExpandHeight = 2060
+;
+TitleLeft = 80
+TitleTop = 39
+TitleWidth = 640
+TitleHeight = 64
+;
+TitleCenter = 1
+;
+ArtLeft = 76
+ArtTop = 93
+ArtWidth = 646
+ArtHeight = 597
+;
+TypeLeft = 172
+TypeTop = 770
+TypeWidth = 456
+TypeHeight = 60
+;
+TypeCenter = 1
+;
+RulestextLeft = 110
+RulestextTop = 845
+RulestextWidth = 580
+RulestextHeight = 278
+;
+RulesboxLeft = 84
+RulesboxTop = 835
+RulesboxWidth = 632
+RulesboxHeight = 240
+;
+ExpansionLeft = 594
+ExpansionTop = 787
+ExpansionWidth = 70
+ExpansionHeight = 35
+;
+RoundingX = 55
+RoundingY = 55
+;
+TitleColorR = 47
+TitleColorG = 47
+TitleColorB = 47
+TitleShadowColorR = -1
+;
+TypeColorR = 47
+TypeColorG = 47
+TypeColorB = 47
+TypeShadowColorR = -1
+;
+;
+[Frames]
+TranslucentColorless = 0
+ColorlessAlpha = 255
+ForceColorless = 1
+;
+FrameBaseDir=Plane
+;
+DefaultImage=..\blank.png
+;
+CardBk_Colorless=CardBk_Colorless.png
+CardOv_Colorless=CardOv_Colorless.png

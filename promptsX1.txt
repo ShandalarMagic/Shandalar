@@ -1,0 +1,448 @@
+@PROMPT_ENDHEALING
+1
+end damage prevention
+
+@PROMPT_ATTACKERSELECTION
+1
+attacker selected
+
+@PROMPT_BLOCKERSELECTION
+1
+blocker selected
+
+@PROMPT_GAINLIFE
+1
+gain life
+
+@ALADDIN
+1
+Select target opponent artifact.
+
+@ANTE_A_CARD
+2
+is added to your ante.
+top card of library to add to ante.
+
+@ARENA
+2
+Select target creature.
+Selected for Arena.
+
+@ARGIVIAN_BLACKSMITH
+3
+Select damage dealt to an artifact creature (%d of %d).
+Illegal damage card (damage on artifact creatures only).
+Illegal damage card (must be same as first target).
+
+@ARTIFACT_POSSESSION
+1
+Select target artifact.
+
+@ARTIFACT_WARD
+1
+Select target creature.
+
+@ASHNODS_ALTAR
+1
+Select creature to sacrifice.
+
+@ASHNODS_TRANSMORGRANT
+1
+Select target creature.
+
+@ATOG
+1
+Select artifact to sacrifice.
+
+@BADLANDS
+1
+Badlands: What kind of mana?
+
+@BAYOU
+1
+Bayou: What kind of mana?
+
+@BLAZE_OF_GLORY
+1
+Select defending creature.
+
+@CITY_OF_BRASS
+6
+City of Brass: What kind of mana?
+to produce black mana.
+to produce blue mana.
+to produce green mana.
+to produce red mana.
+to produce white mana.
+
+@CLONE
+1
+Select creature.
+
+@CONSECRATE_LAND
+1
+Select target land.
+
+@CYCLONE
+3
+Bury Cyclone?
+Yes
+No
+
+@CUOMBAJJ_WITCHES
+2
+Select target creature or player.
+to deal 1 damage.
+
+@CYCLOPEAN_TOMB
+2
+Select target land.
+Illegal target land (type).
+
+@CYCLOPEAN_TOMB_EFFECT
+2
+Cyclopean Tomb: Select land to revert.
+Illegal target (type).
+
+@DAMPING_FIELD
+2
+PROCESSING Damping Field: Select artifact to untap.
+Opponent chooses to untap:
+
+@DARKPACT
+3
+Select a player.
+top card of library is added to your ante.
+top card of library to add to ante.
+
+@DEMONIC_ATTORNEY
+2
+Ante additional card.
+Concede game.
+
+@DEMONIC_HORDES
+1
+Select target land.
+
+@DESERT
+4
+Select target attacking creature.
+Get mana.
+Damage attacking creature.
+Cancel.
+
+@DIAMOND_VALLEY
+1
+Select target creature to sacrifice.
+
+@DRAFNAS_RESTORATION
+3
+Select target player.
+Select an artifact.
+Done
+
+@DROP_OF_HONEY
+1
+Select creature with power of
+
+@DWARVEN_DTEAM
+1
+Select target wall.
+
+@DWARVEN_WEAPONSMITH
+2
+Select target artifact.
+Select target creature.
+
+@EARTHBIND
+1
+Select target creature.
+
+@ELEPHANT_GRAVEYARD
+6
+Select target pachyderm.
+Get mana.
+Regenerate a pachyderm.
+Cancel.
+Illegal target (not dying).
+Illegal target (not a pachyderm).
+
+@ERHNAM_DJINN
+1
+Select opponent non-wall creature.
+
+@FARMSTEAD
+1
+Select target land.
+
+@FISHLIVEROIL
+1
+Select target creature.
+
+@GATE_TO_PHYREXIA
+2
+Select creature to sacrifice.
+Select target artifact.
+
+@GOBLIN_ARTISANS
+3
+Call the coin flip:
+Heads.
+Tails.
+
+@GUARDIAN_ANGLE
+1
+Select damaged card.
+
+@GUARDIAN_EFFECT
+2
+Select a damage card.
+Illegal target (damage must be on target of Guardian Angle).
+
+@HASRAN_OGRESS
+2
+Pay 2 mana.
+Spend 3 life.
+
+@ICY_MANIPULATOR
+1
+Select target creature, artifact or land.
+
+@INVISIBILITY
+1
+Select target creature.
+
+@ISLAND_OF_WAK_WAK
+1
+Select target creature with flying.
+
+@JANDORS_RING
+1
+Select card drawn this turn to discard.
+
+@JIHAD
+6
+Jihad color.
+selects black.
+selects blue.
+selects green.
+selects red.
+selects white.
+
+@KING_SULEIMAN
+1
+Select target djinn or efreet.
+
+@KUDZU
+3
+Select target land.
+Kudzu triggering...Select target land.
+selects for kudzu's target.
+
+@LANCE
+1
+Select target creature.
+
+@LICH
+1
+Lich: Sacrifice card (%d of %d).
+
+@MANA_CRYPT
+3
+Call the coin flip:
+Heads.
+Tails.
+
+@METAMORPHOSIS
+2
+Select creature to sacrifice.
+Metamorphosis: What type of mana?
+
+@MIJAE_DJINN
+2
+Heads.
+Tails.
+
+@MULTI_LANDS
+5
+to produce black mana.
+to produce blue mana.
+to produce green mana.
+to produce red mana.
+to produce white mana.
+
+@NATURAL_SELECTION
+2
+Select target player.
+Select card order or DONE to shuffle.
+
+@NETTLING_IMP
+1
+Select target creature.
+
+@OBELISK_OF_UNDOING
+1
+Select target permanent.
+
+@OLD_MAN_OF_THE_SEA
+1
+Select target creature.
+
+@ORCISH_MECHANICS
+2
+Select artifact to sacrifice.
+Select target creature or player.
+
+@OUBLIETTE
+1
+Select a creature.
+
+@PHYREXIAN_GREMLINS
+1
+Select target artifact.
+
+@PLATEAU
+1
+Plateau: What kind of mana?
+
+@POWER_ARTIFACT
+1
+Select target artifact.
+
+@PRIEST_OF_YAWGMOTH
+1
+Select artifact to sacrifice.
+
+@PSIONIC_BLAST
+1
+Select target creature or player.
+
+@PYRAMIDS
+4
+Select land.
+Illegal target (not dying).
+Select land enchanting enchantment.
+Illegal target (not enchanting a land).
+
+@RAGING_RIVER
+3
+Select blockers on this bank.
+attack on left bank.
+attack on right bank.
+
+@RAKALITE
+1
+Select a damaged card.
+
+@RECONSTRUCTION
+2
+Select target artifact.
+Illegal target (type).
+
+@RESURRECTION
+1
+Pick a creature.
+
+@REVERSE_POLARITY
+2
+Select artifact damage card on you.
+Select a card that has damaged you.
+
+@RING_OF_MARUF
+1
+Ring of Ma'ruf: Select target out of play card.
+
+@ROCK_HYDRA
+2
+Select a damage card on Rock Hydra.
+Illegal target (damage must be on Rock Hydra).
+
+@ROCKET_LAUNCHER
+1
+Select target creature or player.
+
+@SACRIFICE
+1
+Select creature to sacrifice.
+
+@SAGE_OF_LAT_NAM
+1
+Select artifact to sacrifice.
+
+@SANDALS_OF_ABDALLAH
+1
+Select target creature.
+
+@SAVANNAH
+1
+Savannah: What kind of mana?
+
+@SCRUBLAND
+1
+Scrubland: What kind of mana?
+
+@SERENDIB_DJINN
+1
+Select land to sacrifice.
+
+@SEWERS_OF_ESTARK
+1
+Select target combatant.
+
+@SINGING_TREES
+1
+Select target attacking creature.
+
+@STAFF_OF_ZEGON
+1
+Select target creature.
+
+@TAIGA
+1
+Taiga: What kind of mana?
+
+@TAWNOS_COFFIN
+1
+Select a creature.
+
+@TRANSMUTE_ARTIFACT
+2
+Select artifact to sacrifice.
+select artifact to put into play.
+
+@TROPICAL_ISLAND
+1
+Tropical Island: What kind of mana?
+
+@TUNDRA
+1
+Tundra: What kind of mana?
+
+@UNDERGROUND_SEA
+1
+Underground Sea: What kind of mana?
+
+@VESUVAN_DOPPELGANGER
+3
+Select target creature to doppel.
+Doppel a creature.
+Use native fast effect.
+
+@VOLCANIC_ISLAND
+1
+Volcanic Island: What kind of mana?
+
+@WYLULI_WOLF
+1
+Select target creature.
+
+@YAWGMOTH_DEMON
+2
+Select artifact to sacrifice.
+Yawgmoth Demon deals 2 damage!
+
+@YDWEN_EFREET
+2
+Heads.
+Tails.
+

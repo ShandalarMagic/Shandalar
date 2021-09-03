@@ -1,0 +1,117 @@
+@SYNCRO
+3
+Attempting to re-syncronize the game.
+Syncronization has failed.
+Syncronization was successful.
+
+@DELETESCREENNAME
+2
+Screen Name
+This is a Ten Account. Do you still wish to delete it?
+
+@DECKTYPES
+5
+Unrestricted
+Wild
+Restricted Type1
+Tournament Type1.5
+Highlander
+
+@MULTIPLAYERSTRINGS
+1
+Waiting for opponent ...
+
+@SKIPFULLCARD
+2
+Turn on action window
+Turn off action window
+
+@DRAWRESPONSE
+2
+Turn on response to draw
+Turn off response to draw
+
+@INTERRUPTBLUFF
+2
+Turn on interrupt bluff
+Turn off interrupt bluff
+
+@SHELLPAGE_BLANK
+1
+You need to purchase Spells of the Ancients.
+
+@SHELLPAGE_MULTIDUEL
+22
+Opponent:
+Unrestricted
+Wild
+Restricted (Type 1)
+Tournament (Type 1.5)
+Highlander
+Match parameters 
+&Ante
+&Best of:
+Side&board between duels
+Duel &Options...
+&Your deck:
+<random deck>
+Start &match
+&Load match...
+&Free play
+&Minimum deck size:
+&40 cards
+&60 cards
+&Send Parameters
+&Agree
+&Disagree
+
+@SHELLPAGE_SCREENNAME
+18
+&Player:
+Screen &name:
+player
+&Real name:
+&Quote:
+&E-Mail:
+Date:
+%B %d, %Y
+DCI record: %1!d!/%2!d!/%3!d! (%4!d!%%)
+Multiplay record: %1!d!/%2!d!/%3!d! (%4!d!%%)
+Overall record: %1!d!/%2!d!/%3!d! (%4!d!%%)
+DCI rank: %d
+Skill level: %s
+Concede rate: %d%%
+Disconnect rate: %d%%
+&Delete Player
+New &Player
+January 1, 1980
+
+@SHELLPAGE_ENTERSCREENNAME
+1
+Enter the screen name for the new player
+
+@SKILLLEVELNAMES
+10
+Newbie
+Beginner
+Amateur
+Adept
+Intermediate
+Advanced
+Expert
+Champion
+Master
+Grand Master
+
+@DIALOG_ENDEXP1DUEL_MATCHPROGRESS
+1
+After %1!d! duel(s), your record is %2!d!/%3!d!/%4!d!
+
+@MULTIDUELSTATUS
+6
+  No registered opponent.
+  %s is waiting for the duel parameters.
+  Waiting for %s to accept parameters.
+  Waiting for %s to send duel parameters.
+  %s is waiting for you to accept parameters.
+  %s has decided to load a saved game.

@@ -1,0 +1,19 @@
+Muriallisa, fb1,  f
+Lady Dragetta, fb2,  f
+Gauldron, fb3,  m
+Dina bin-Barq, fb4,  f
+Inniscor, fb5,  m
+Melody Whisp, fb6,  f
+Baba Bue, fb7,  m
+Agnosia, fb8,  f
+Ali of Willoshire, fb9,  m
+Keleena, fb10, f
+Goya, fb11, m
+Shrihara, fb12, f
+Wu Wei, fb13, m
+Snow Blight, fb14, f
+Sir Van Popple, fb15, m
+Desdemona, fb16, f
+Hoggle, fb17, m
+
+

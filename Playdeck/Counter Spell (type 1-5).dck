@@ -1,0 +1,23 @@
+;Counter Spell (type 1-5)
+;Blue/White Type 1.
+;Nils T. Devine
+;divinentd@gmail.com
+;November 1, 2004
+;1
+;4th Edition
+;
+
+.48	4	Counterspell
+.191	4	Power Sink
+.232	4	Spell Blast
+.240	4	Swords to Plowshares
+.221	4	Serra Angel
+.132	4	Juggernaut
+.64	4	Disenchant
+.290	2	Wrath of God
+.44	2	Control Magic
+.585	2	Boomerang
+.817	2	Time Elemental
+.254	4	Tundra
+.188	8	Plains
+.126	12	Island

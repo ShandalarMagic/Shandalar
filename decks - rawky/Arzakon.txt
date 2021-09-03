@@ -1,0 +1,28 @@
+.10866	1	All Is Dust
+.3078	4	Ancient Tomb
+.5	4	Ankh of Mishra
+.17	1	Black Lotus
+.11118	2	Elixir of Immortality
+.438	1	Library of Alexandria
+.10796	1	Lodestone Golem
+.894	1	Mana Crypt
+.510	4	Mishra's Workshop
+.165	1	Mox Emerald
+.166	1	Mox Jet
+.167	1	Mox Pearl
+.168	1	Mox Ruby
+.169	1	Mox Sapphire
+.15429	4	Scour from Existence
+.1306	4	Sculpting Steel
+.230	1	Sol Ring
+.3566	4	Sphere of Resistance
+.11369	3	Steel Hellkite
+.528	1	Strip Mine
+.4781	4	Tangle Wire
+.9284	4	Thorn of Amethyst
+.1512	1	Tolarian Academy
+.368	1	Tormod's Crypt
+.11703	1	Unwinding Clock
+.8720	1	Vesuva
+.3329	4	Wasteland
+.11413	3	Wurmcoil Engine
