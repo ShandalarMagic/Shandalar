@@ -1,6 +1,6 @@
 # Game code
 
-This repository contains the course source code of the abandonware game Shandalar 1997
+This repository contains the source code of the abandonware game Shandalar 1997 added with addtionnal cards up to 2015 cards from Magic The Gathering
 
 ## Contributing to the game
 
